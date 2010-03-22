@@ -1,0 +1,9 @@
+Codename: lince
+Suite: guadalinex
+Components: main restricted universe multiverse
+UDebComponents: main restricted
+Architectures: i386 source
+Origin: Ubuntu
+Version: 7.0
+Description: Repositorio de Guadalinex v7 -lince-
+SignWith: 8CB1684F

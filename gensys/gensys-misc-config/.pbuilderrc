@@ -1,0 +1,15 @@
+COMPONENTS="main restricted universe multiverse"
+BASETGZ=/var/gensys/cowbuilder/base.tgz
+BASEPATH=/var/gensys/cowbuilder/base.cow
+BUILDPLACE=/var/gensys/cowbuilder/build/
+BUILDRESULT=../
+APTCACHE=/var/gensys/cowbuilder/aptcache/
+HOOKDIR=/var/gensys/cowbuilder/hooks/
+#MIRRORSITE=http://localhost/ubuntu
+MIRRORSITE=http://es.archive.ubuntu.com/ubuntu
+DISTRIBUTION=lucid
+DEBBUILDOPTS="-I.bzr"
+DEBOOTSTRAP="debootstrap"
+unset DEBOOTSTRAPOPTS
+PBUILDERSATISFYDEPENDSCMD="/usr/lib/pbuilder/pbuilder-satisfydepends-gdebi"
+PDEBUILD_PBUILDER=cowbuilder
