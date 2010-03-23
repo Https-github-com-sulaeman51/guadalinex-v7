@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="true">
+    <name>Ubuntu</name>
+    <filename>/usr/share/backgrounds/warty-final-ubuntu.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#b0b068684040</pcolor>
+    <scolor>#b0b068684040</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Sin fondo de escritorio</name>
+    <filename>(none)</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#36369090dcdc</pcolor>
+    <scolor>#36369090dcdc</scolor>
+  </wallpaper>
+  <wallpaper deleted="false">
+    <name>Guadalinex V7</name>
+    <filename>/usr/share/backgrounds/guadalinex_v7_bg.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#36369090dcdc</pcolor>
+    <scolor>#36369090dcdc</scolor>
+  </wallpaper>
+  <wallpaper deleted="true">
+    <name>Simple</name>
+    <filename>/usr/share/backgrounds/simple-ubuntu.png</filename>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#c5c583835757</pcolor>
+    <scolor>#c5c583835757</scolor>
+  </wallpaper>
+</wallpapers>
