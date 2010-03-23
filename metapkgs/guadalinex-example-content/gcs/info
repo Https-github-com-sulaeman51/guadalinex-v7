@@ -1,0 +1,27 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v6
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: guadalinex-example-content
+
+# Autor 
+author: Roberto C. Morano Vazquez <rcmorano@emergya.es>
+
+# Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# Descripción corta
+shortdesc: "Example content for Guadalinex"
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "This package contains some multimedia example files."
+
+# Versión del paquete
+version: v7
+
+# Cambios en esta versión
+changes:
+    - Initial package
