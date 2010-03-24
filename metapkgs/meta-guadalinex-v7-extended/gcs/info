@@ -2,7 +2,7 @@
 # Fichero de configuración de paquetes de personalización de Guadalinex v4
 
 # Nombre del paquete (minúsculas-separado-con-guiones)
-name: meta-guadalinex-v7
+name: meta-guadalinex-v7-extended
 
 # Autor 
 author: Roberto C. Morano Vazquez <rcmorano@emergya.es>
