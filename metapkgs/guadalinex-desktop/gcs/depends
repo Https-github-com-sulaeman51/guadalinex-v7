@@ -14,7 +14,7 @@ apport-gtk
 apturl
 apt-transport-https
 apt-xapian-index
-amigu
+#amigu disabled until code is changed for lucid
 amule
 amule-utils
 anacron
