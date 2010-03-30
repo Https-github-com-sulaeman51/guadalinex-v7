@@ -42,7 +42,7 @@ cdrecord
 cli-common
 command-not-found
 consolekit
-contact-lookup-applet
+#contact-lookup-applet removed in lucid
 cupsys
 cupsys-bsd
 cupsys-client
