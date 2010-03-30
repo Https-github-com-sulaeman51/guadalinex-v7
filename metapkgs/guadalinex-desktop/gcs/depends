@@ -152,7 +152,6 @@ hal-cups-utils
 #hermeshardware - removed temporarily because depends problem
 #hermeshardware-actors
 #hermeshardware-guada
-hotkey-setup
 im-switch
 indicator-applet
 indicator-messages
