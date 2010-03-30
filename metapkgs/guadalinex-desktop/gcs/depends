@@ -205,7 +205,6 @@ libhtml-template-perl
 libio-compress-base-perl
 libio-compress-zlib-perl
 libmailtools-perl
-libmbca0
 libnss-mdns
 libotr2
 libpam0g
