@@ -221,7 +221,7 @@ libpulse-mainloop-glib0
 libpurple-bin
 librpc-xml-perl
 libsasl2-modules
-libsgutils1
+libsgutils2-2
 libsmbios-bin
 libterm-readkey-perl
 libtie-ixhash-perl
