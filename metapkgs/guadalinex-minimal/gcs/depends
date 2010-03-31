@@ -70,7 +70,6 @@ tzdata
 udev
 upstart
 upstart-compat-sysv
-upstart-logd
 usbutils
 util-linux
 util-linux-locales
