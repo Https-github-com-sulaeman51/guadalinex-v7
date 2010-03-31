@@ -136,7 +136,7 @@ gstreamer0.10-pulseaudio
 gstreamer0.10-schroedinger
 gtk2-engines
 gtk2-engines-murrine
-guadafox
+#guadafox - temporarily removed due to errors
 guadalinex-about
 guadalinex-eadmin
 guadalinex-example-content
