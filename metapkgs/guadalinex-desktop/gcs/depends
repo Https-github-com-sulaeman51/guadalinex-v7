@@ -275,9 +275,8 @@ openoffice.org-math
 openoffice.org-officebean
 openoffice.org-style-human
 openoffice.org-writer
-openoffice.org-writer2latex
+#openoffice.org-writer2latex - conflicts OOo-common
 openprinting-ppds
-#ov51x-jpeg-modules-2.6.24-19-generic
 pidgin
 pidgin-libnotify
 pidgin-otr
