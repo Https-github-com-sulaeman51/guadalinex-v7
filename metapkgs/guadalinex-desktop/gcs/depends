@@ -65,7 +65,6 @@ evolution-indicator
 evolution-plugins
 evolution-webcal
 extras-installer
-fast-user-switch-applet
 festvox-palpc16k
 festvox-sflpc16k
 fglrx-modaliases
@@ -332,8 +331,6 @@ unzip
 update-motd
 update-notifier
 usb-creator
-usplash
-usplash-theme-guadalinex
 vcdimager
 vlc
 vlc-plugin-pulse
