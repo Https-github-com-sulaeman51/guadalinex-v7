@@ -89,7 +89,7 @@ gedit
 gedit-plugin-tloleo
 genisoimage
 ggzcore-bin
-gnochm
+#gnochm - python-gtkhtml2 depend problem
 gnome-about
 gnome-accessibility-themes
 gnome-accessibility-themes-extras
