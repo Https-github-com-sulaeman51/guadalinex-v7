@@ -64,7 +64,7 @@ evolution-exchange
 evolution-indicator
 evolution-plugins
 evolution-webcal
-extras-installer
+#extras-installer - temrarily removed due to no needed guadafox depend 
 festvox-palpc16k
 festvox-sflpc16k
 fglrx-modaliases
