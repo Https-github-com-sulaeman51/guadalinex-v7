@@ -60,4 +60,4 @@ Type=Application
 MimeType=application/x-bittorrent;
 Categories=Network;FileTransfer;P2P;GTK;
 X-Ubuntu-Gettext-Domain=transmission
-Name[es]=Descarga y compartición de archivos Torrent (Transmission)
+X-GNOME-FullName[es]=Descarga y compartición de archivos Torrent (Transmission)
