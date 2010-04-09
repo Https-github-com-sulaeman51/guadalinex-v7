@@ -16,4 +16,4 @@ X-GNOME-Bugzilla-Component=general
 X-GNOME-Bugzilla-Version=2.29.9
 X-GNOME-Bugzilla-ExtraInfoScript=/usr/share/gedit-2/gedit-bugreport
 X-Ubuntu-Gettext-Domain=gedit
-Name[es]=Editor de textos (gedit)
+X-GNOME-FullName[es]=Editor de textos (gedit)
