@@ -17,4 +17,4 @@ X-GNOME-Bugzilla-Component=general
 X-GNOME-Bugzilla-OtherBinaries=rhythmbox-client;rhythmbox-metadata;
 X-GNOME-Bugzilla-Version=0.12.7
 X-Ubuntu-Gettext-Domain=rhythmbox
-Name[es]=Reproductor de música (Rhythmbox)
+X-GNOME-FullName[es]=Reproductor de música (Rhythmbox)
