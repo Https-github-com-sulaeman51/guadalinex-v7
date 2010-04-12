@@ -82,15 +82,17 @@
         } for
       } if
 
-      % Slide everything else down one place.
-      menuconfig.idx 1 menuconfig.entries length 2 sub {
-        menuconfig.args over 1 add get
-        menuconfig.newargs 2 index rot put
-        menuconfig.entries over 1 add get
-        menuconfig.newentries 2 index rot put
-        menuconfig.humans over 1 add get
-        menuconfig.newhumans 3 1 roll put
-      } for
+      menuconfig.idx menuconfig.entries length 1 sub lt {
+        % Slide everything else down one place.
+        menuconfig.idx 1 menuconfig.entries length 2 sub {
+          menuconfig.args over 1 add get
+          menuconfig.newargs 2 index rot put
+          menuconfig.entries over 1 add get
+          menuconfig.newentries 2 index rot put
+          menuconfig.humans over 1 add get
+          menuconfig.newhumans 3 1 roll put
+        } for
+      } if
 
       /menuconfig.args menuconfig.newargs def
       /menuconfig.entries menuconfig.newentries def
