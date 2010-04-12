@@ -333,6 +333,11 @@ msgstr "安装命令行系统"
 msgid "Install a minimal system"
 msgstr "最小化安装"
 
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"

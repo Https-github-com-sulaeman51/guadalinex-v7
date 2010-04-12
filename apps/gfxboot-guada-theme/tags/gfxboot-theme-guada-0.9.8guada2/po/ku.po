@@ -333,6 +333,11 @@ msgstr "Pergaleke termînalî saz bike"
 msgid "Install a minimal system"
 msgstr "Pergala biçûktirîn saz bike"
 
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
