@@ -340,8 +340,8 @@ msgid "Install a ^LAMP server"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_server
-msgid "Install a ^server"
+#. txt_menuitem_cli
+msgid "Install a comm^and-line system"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
