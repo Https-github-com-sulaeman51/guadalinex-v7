@@ -290,7 +290,7 @@ msgstr "Herşey"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Start Ubuntu"
+msgid "^Start or install Ubuntu"
 msgstr "Ubuntu'yu ^Başlat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -300,7 +300,7 @@ msgstr "Ubuntu'yu güvenli ^grafik kipinde başlat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Start Kubuntu"
+msgid "^Start or install Kubuntu"
 msgstr "Kubuntu'yu ^Başlat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -310,7 +310,7 @@ msgstr "Kubuntu'yu güvenli ^grafik kipinde başlat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Start Edubuntu"
+msgid "^Start or install Edubuntu"
 msgstr "Edubuntu'yu ^Başlat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -320,7 +320,7 @@ msgstr "Edubuntu'yu güvenli ^grafik kipinde başlat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Start Xubuntu"
+msgid "^Start or install Xubuntu"
 msgstr "Xubuntu'yu ^Başlat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -330,7 +330,7 @@ msgstr "Xubuntu'yu güvenli ^grafik kipinde başlat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
-msgid "^Install to the hard disk"
+msgid "^Install in text mode"
 msgstr "Sabit diske ^kur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

@@ -291,7 +291,7 @@ msgstr "Todo"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Start Ubuntu"
+msgid "^Start or install Ubuntu"
 msgstr "^Iniciar Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -301,7 +301,7 @@ msgstr "Iniciar Ubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Start Kubuntu"
+msgid "^Start or install Kubuntu"
 msgstr "^Iniciar Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -311,7 +311,7 @@ msgstr "Iniciar Kubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Start Edubuntu"
+msgid "^Start or install Edubuntu"
 msgstr "^Iniciar Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -321,7 +321,7 @@ msgstr "Iniciar Edubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Start Xubuntu"
+msgid "^Start or install Xubuntu"
 msgstr "^Iniciar Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -331,7 +331,7 @@ msgstr "Iniciar Xubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
-msgid "^Install to the hard disk"
+msgid "^Install in text mode"
 msgstr "I^nstalar en el disco duro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
