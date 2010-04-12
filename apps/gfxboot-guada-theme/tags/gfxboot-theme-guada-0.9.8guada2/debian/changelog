@@ -1,9 +1,9 @@
-gfxboot-theme-ubuntu (0.5.16) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.5.16) hardy; urgency=low
 
   * Set language using debian-installer/language= rather than locale= if it
     does not need an explicit country specification (LP: #85162).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Sun, 06 Apr 2008 13:57:09 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun, 06 Apr 2008 13:58:38 +0100
 
 gfxboot-theme-ubuntu (0.5.15) hardy; urgency=low
 
