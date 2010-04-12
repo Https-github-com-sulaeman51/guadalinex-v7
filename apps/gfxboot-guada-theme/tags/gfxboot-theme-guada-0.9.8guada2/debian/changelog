@@ -1,6 +1,9 @@
 gfxboot-theme-ubuntu (0.4.0) UNRELEASED; urgency=low
 
   * Use priority=low for d-i expert mode rather than DEBCONF_PRIORITY=low.
+  * Update keymaps from console-setup 1.16ubuntu4. Add locale mappings for
+    Esperanto and Latvia, tag Lithuania as non-Latin so that the US keymap
+    is used for it within gfxboot, and switch France to the oss variant.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 16 Apr 2007 19:25:52 +0100
 
