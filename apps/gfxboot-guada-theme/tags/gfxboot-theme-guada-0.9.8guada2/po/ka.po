@@ -409,6 +409,11 @@ msgid "Install an LTSP server"
 msgstr "^LTSP სერვერის დაყენება"
 
 #. Installation mode.
+#. txt_menuitem_ltsp_mythbuntu
+msgid "Install a Diskless Image Server"
+msgstr ""
+
+#. Installation mode.
 #. txt_menuitem_cli
 #, fuzzy
 msgid "Install a command-line system"
