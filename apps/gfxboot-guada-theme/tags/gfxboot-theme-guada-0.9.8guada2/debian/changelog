@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.3.8) UNRELEASED; urgency=low
+
+  * Use priority=low rather than DEBCONF_PRIORITY=low.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 16 Apr 2007 18:21:47 +0100
+
 gfxboot-theme-ubuntu (0.3.7) feisty; urgency=low
 
   * Reduce length of Congo and Korea keymap names, fixing F3 menu display
