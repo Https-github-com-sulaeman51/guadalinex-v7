@@ -1,6 +1,7 @@
 gfxboot-theme-ubuntu (0.6.7) UNRELEASED; urgency=low
 
   * Add localisation for "Install a minimal virtual machine".
+  * Update translations from Launchpad.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Fri, 10 Oct 2008 20:32:13 +0100
 
