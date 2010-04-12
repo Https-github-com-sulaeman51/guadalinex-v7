@@ -15,6 +15,8 @@ gfxboot-theme-ubuntu (0.5.3) UNRELEASED; urgency=low
     should reduce the bewildering array of top-level menu options, while
     still allowing the less usual options to be selected easily. Many
     strings have been changed accordingly.
+  * Display a message at the bottom of the menu to indicate that alternative
+    modes may be selected using F4.
   * Fix glitch in translate function that sometimes left the original string
     on the stack.
 
