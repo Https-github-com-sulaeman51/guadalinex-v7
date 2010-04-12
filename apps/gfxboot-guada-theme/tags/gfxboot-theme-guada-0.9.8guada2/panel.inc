@@ -73,25 +73,10 @@
 
   ] def
 
+  /panel panel.full def
+
   % initialize all
   panel.full { 6 get dup .undef ne { exec } { pop } ifelse } forall
-
-  syslinux {
-    /panel.short [
-      [ keyF1 0 "F1" /panel.help /panel.help.width /panel.help.update .undef ]
-      [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ]
-      [ keyF3 0 "F3" /panel.options /panel.options.width /panel.options.update .undef ]
-    ] def
-
-    /panel panel.short def
-  } {
-    /panel.short [
-      [ keyF1 0 "F1" /panel.help /panel.help.width /panel.help.update .undef ]
-      [ keyF2 0 "F2" /panel.options /panel.options.width /panel.options.update .undef ]
-    ] def
-
-    /panel panel.short def
-  } ifelse
 
   panel.show
 } def
