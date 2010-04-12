@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.1.14) UNRELEASED; urgency=low
+
+  * Add the keymap menu to the short panel too, and move it to F3 next to
+    language.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 21 Feb 2006 11:56:41 +0000
+
 gfxboot-theme-ubuntu (0.1.13) dapper; urgency=low
 
   * pa is Punjabi (Gurmukhi), not Persian.
