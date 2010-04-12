@@ -3,6 +3,9 @@ gfxboot-theme-ubuntu (0.6.3) UNRELEASED; urgency=low
   * Update language names from localechooser 2.03ubuntu1, adding Amharic and
     Marathi, adjusting the default locale for Esperanto, and fixing the
     localised name for Hungarian (LP: #233229).
+  * Update keymaps from console-setup 1.25ubuntu1. Drop the braille keymap,
+    which is not very useful here; stop excluding the cs keymap since it no
+    longer exists (replaced by rs, which is fine).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 30 Jun 2008 15:20:21 +0100
 

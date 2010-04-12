@@ -90,6 +90,7 @@ my @show_variants = (
 
 # Exclude these keymaps.
 my @exclude_keymaps = (
+    'braille',
     'fr',
     'nec/jp',
     'nec_vndr/jp',
@@ -102,7 +103,6 @@ my %description_overrides = (
     'cd' => 'Congo',
     'ch_fr' => 'Swiss French',
     'ch' => 'Swiss German',
-    'cs' => 'Serbia',
     'fi_smi' => 'Saami (Fin.)',
     'fo' => 'Faroes',
     'fr_oss' => 'France',
