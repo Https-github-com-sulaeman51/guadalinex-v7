@@ -23,6 +23,7 @@ my %langname_override = (
 );
 
 my %langcodes;
+my %locales;
 open LIST, '<:utf8', "$localechooser/languagelist"
     or die "$0: can't open $localechooser/languagelist: $!";
 while (<LIST>) {
@@ -37,6 +38,7 @@ while (<LIST>) {
 	$lang = $bits[2];
     }
     $langcodes{$bits[0]} = $lang;
+    $locales{$bits[0]} = "$bits[2]_$bits[3]";
 }
 close LIST;
 
@@ -61,7 +63,7 @@ binmode STDOUT, ':utf8';
 
 print "/lang.defaultnames [\n";
 for my $lang_c (sort { $langcodes{$a} cmp $langcodes{$b} } keys %langcodes) {
-    print qq{  [ "$langcodes{$lang_c}" };
+    print qq{  [ "$langcodes{$lang_c}" "$locales{$lang_c}" };
     if (exists $langnames{$lang_c}) {
 	print qq{"$langnames{$lang_c}" ]\n};
     } else {

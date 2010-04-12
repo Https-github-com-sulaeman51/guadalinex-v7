@@ -374,7 +374,7 @@
 
     config.lang {
       config.lang "en" ne {
-        config.lang "locale=%s " bc.cmd dup length add sprintf
+        config.lang lang.getlocale "locale=%s " bc.cmd dup length add sprintf
       } if
     } if
 
@@ -1066,7 +1066,7 @@
       1 add
     } forall
     true lang.defaultnames {
-      .la.locale get tmp eq { pop false exit } if
+      .la.language get tmp eq { pop false exit } if
     } forall {
       % If we don't know about this locale, then try the short locale name.
       tmp 2 0 put
