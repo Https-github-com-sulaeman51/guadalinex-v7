@@ -3,9 +3,10 @@ Section: gnome
 Priority: optional
 XSBC-Original-Maintainer: Alvaro Peña <apg@openshine.com>
 Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Uploaders: Roberto C. Morano <rcmorano@emergya.es>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.0
-Homepage: http://launchpad.net/accesibility-profiles
+Homepage: http://launchpad.net/accessibility-profiles
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/accesibility-profiles/trunk/changes
 Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/accesibility-profiles/trunk
 
