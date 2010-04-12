@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.5.10) UNRELEASED; urgency=low
+
+  * Fix a stack leak in menuitemmap.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 18 Mar 2008 01:19:53 +0000
+
 gfxboot-theme-ubuntu (0.5.9) hardy; urgency=low
 
   * Really update for Kurdish default layout change, and shorten Kurdish
