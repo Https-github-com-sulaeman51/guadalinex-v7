@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.1.11) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.11) dapper; urgency=low
 
   * Disable transparent menus: they make it too difficult for visually
     impaired users to read the menu labels.
@@ -9,7 +9,7 @@ gfxboot-theme-ubuntu (0.1.11) UNRELEASED; urgency=low
   * Add an accessibility menu, per
     https://wiki.ubuntu.com/UbuntuExpress/Accessibility.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Wed,  1 Feb 2006 17:44:27 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed,  1 Feb 2006 19:38:05 +0000
 
 gfxboot-theme-ubuntu (0.1.10) dapper; urgency=low
 
