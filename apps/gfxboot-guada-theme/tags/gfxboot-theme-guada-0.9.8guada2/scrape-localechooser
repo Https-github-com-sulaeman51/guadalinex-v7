@@ -16,6 +16,12 @@ my %langcode_override = (
     'Portuguese' => 'pt',
 );
 
+# The real localised names for these languages use characters not present in
+# our font.
+my %langname_override = (
+    'Punjabi (Gurmukhi)' => 'Punjabi (Gurmukhi)',
+);
+
 my %langcodes;
 open LIST, '<:utf8', "$localechooser/languagelist"
     or die "$0: can't open $localechooser/languagelist: $!";
@@ -43,7 +49,11 @@ while (<L10N>) {
     next unless /(.*?): (.*?)\s*$/;
     my ($lang_c, $lang_trans) = ($1, $2);
     next if $lang_c eq 'C';
-    $langnames{$lang_c} = $lang_trans;
+    if (exists $langname_override{$lang_c}) {
+	$langnames{$lang_c} = $langname_override{$lang_c};
+    } else {
+	$langnames{$lang_c} = $lang_trans;
+    }
 }
 close L10N;
 
