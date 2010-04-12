@@ -1,10 +1,10 @@
-gfxboot-theme-ubuntu (0.6.4) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.6.4) intrepid; urgency=low
 
   * If the selected keymap is the default for the selected locale rather
     than explicitly chosen, then preseed console-setup/* in such a way as to
     not set the seen flag (LP: #64058).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Mon, 30 Jun 2008 23:55:22 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 14 Jul 2008 17:00:29 +0100
 
 gfxboot-theme-ubuntu (0.6.3) intrepid; urgency=low
 
