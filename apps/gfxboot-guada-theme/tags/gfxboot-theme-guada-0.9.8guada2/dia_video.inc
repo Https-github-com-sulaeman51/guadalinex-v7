@@ -89,6 +89,26 @@
     } for
   } if
 
+  % uniquify video.modes.list
+
+  video.modes.list length 1 gt {
+    /video.modes.list [
+      video.modes.list 0 get
+      1 1 video.modes.list length 1 sub {
+        video.modes.list over 1 sub get
+        video.modes.list 2 index get
+
+        over .vm_width get over .vm_width get ne
+        2 index .vm_height get 2 index .vm_height get ne or
+        rot .vm_depth get rot .vm_depth get ne or {
+          video.modes.list exch get
+        } {
+          pop
+        } ifelse
+      } for
+    ] def
+  } if
+
   % create mode strings
 
   /video.modes.text [
