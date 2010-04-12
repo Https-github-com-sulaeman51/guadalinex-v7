@@ -11,7 +11,7 @@ PIC_COMMON   = back.jpg head{,_a}.jpg
 
 FILES_CORE   = init languages
 
-INST_EXT     = $(TRANSLATIONS) 16x16.fnt kroete.dat $(PIC_COMMON)
+INST_EXT     = $(TRANSLATIONS) 16x16.fnt $(PIC_COMMON)
 
 FILES_INST   = $(FILES_CORE) $(INST_EXT)
 

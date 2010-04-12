@@ -1121,19 +1121,6 @@
     pop 0
   } if
 
-  dup keyF8 eq syslinux and {
-    kroete.file .undef eq { /kroete.file "kroete.dat" findfile def } if
-    kroete.file kroete.dir idle
-    /kroete.dir kroete.dir 1 xor def
-    pop 0
-  } if
-
-  dup keyF9 eq syslinux and {
-    .undef 0 idle
-    kroete.file free /kroete.file .undef def
-    pop 0
-  } if
-
   dup keyShiftF3 eq syslinux and debug 3 ge and {
     currentcolor black setcolor
     currentpoint 0 0 moveto
@@ -1466,8 +1453,6 @@ dup .undef eq { pop "back.jpg" findfile } if
 
 /cmdline.hidden cmdlinelength string def
 /cmdline.shown cmdlinelength string def
-
-/kroete.dir 0 def
 
 /debug 0 def
 
