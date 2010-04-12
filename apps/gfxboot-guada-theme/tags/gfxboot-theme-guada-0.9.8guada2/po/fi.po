@@ -360,7 +360,8 @@ msgstr "Asenna pal^velin"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Text mode install for ma^nufacturers"
+#, fuzzy
+msgid "^OEM install (for manufacturers)"
 msgstr "Tekstitila-asennus laiteval^mistajille"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

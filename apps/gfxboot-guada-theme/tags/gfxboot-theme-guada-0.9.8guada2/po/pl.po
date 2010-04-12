@@ -356,7 +356,8 @@ msgstr "Zainstaluj ser^wer"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Text mode install for ma^nufacturers"
+#, fuzzy
+msgid "^OEM install (for manufacturers)"
 msgstr "Tryb tekstowy instalacji dla ^dostawców sprzętu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

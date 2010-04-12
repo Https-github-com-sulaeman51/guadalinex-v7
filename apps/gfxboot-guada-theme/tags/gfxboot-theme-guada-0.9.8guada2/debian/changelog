@@ -5,6 +5,9 @@ gfxboot-theme-ubuntu (0.4.0) UNRELEASED; urgency=low
     Esperanto and Latvia, tag Lithuania as non-Latin so that the US keymap
     is used for it within gfxboot, and switch France to the oss variant.
   * Add/update translations from Rosetta (LP: #108705).
+  * Change "Text mode install for ma^nufacturers" to "^OEM install (for
+    manufacturers)", since the OEM install isn't just text mode any more. I
+    hope this will still avoid the confusion from bug #95582.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 16 Apr 2007 19:25:52 +0100
 

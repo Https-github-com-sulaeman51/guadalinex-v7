@@ -361,7 +361,8 @@ msgstr "ಸರ್ವರ್ ಪ್ರತಿಷ್ಠಾಪಿಸಿ(^v)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Text mode install for ma^nufacturers"
+#, fuzzy
+msgid "^OEM install (for manufacturers)"
 msgstr "ಉತ್ಪಾದಕರಿಗೆ ಗದ್ಯ ವಿಧಾನ ಪ್ರತಿಷ್ಠಾಪನೆ(^n)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

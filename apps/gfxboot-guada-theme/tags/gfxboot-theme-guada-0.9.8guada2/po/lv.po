@@ -360,7 +360,8 @@ msgstr "Uzstādit ^serveri"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Text mode install for ma^nufacturers"
+#, fuzzy
+msgid "^OEM install (for manufacturers)"
 msgstr "Uzstādīšana teksta režīmā ^ražotājiem"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
