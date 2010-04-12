@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.1.6) UNRELEASED; urgency=low
+
+  * Remove timeout clock graphics, which seem to break on some machines and
+    were scary-looking anyway (closes: Ubuntu #21210).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 11 Jan 2006 11:47:56 +0000
+
 gfxboot-theme-ubuntu (0.1.5) dapper; urgency=low
 
   * debian/rules: Stop trying to install *.dat.
