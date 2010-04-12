@@ -19,7 +19,7 @@
     currentfont
     font.normal setfont
     update.pos moveto 8 3 rmoveto txt_dud_ready
-    ptheme { white } { lightblue } ifelse setcolor show
+    lightblue setcolor show
     setfont
   } if
 } def

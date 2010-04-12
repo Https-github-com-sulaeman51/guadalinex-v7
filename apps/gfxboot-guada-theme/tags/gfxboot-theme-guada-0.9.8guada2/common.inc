@@ -160,24 +160,6 @@
     500 20 moveto dup print "  " print
   } if
 
-  ptheme {
-    % reverse direction
-    /p.xmas.dx p.xmas.dx neg def
-
-    key keyF9 eq
-    key keyF7 eq or {
-      % call super penguin
-      p.call.super
-    } {
-      key keyF1 ge
-      key keyF10 le and {
-        % read something
-        /p.read.timer rand 0x31 and neg -30 add def
-      } if
-    } ifelse
-
-  } if
-
   % some special keys
   debug.input
 
@@ -624,7 +606,7 @@
   menu.status {
     menu.bar.color setcolor
     currenttransparency
-    ptheme { 120 } { 70 } ifelse settransparency
+    70 settransparency
     menu.bar.width menu.bar.height
     fillrect
     settransparency
@@ -1072,67 +1054,45 @@
 /init {
   0 0 moveto currentpoint clip.size image
 
-  ptheme {
-    /head.x 31 def
-    /head.y 23 def
+  small_layout {
+    /head.x 70 def
+    /head.y 173 def
   } {
-    small_layout {
-      /head.x 70 def
-      /head.y 173 def
-    } {
-      /head.x 234 def
-      /head.y 217 def
-    } ifelse
+    /head.x 234 def
+    /head.y 217 def
   } ifelse
 
   timeout.init
 
   currentimage
 
-  ptheme {
-    /rdots "rdots.jpg" readimage def
-    /rdots_a "rdots_a.jpg" readimage def
-    /phead "phead.jpg" readimage def
-    /phead_a "head_a.jpg" readimage def
+  /rdots "rdots.jpg" readimage def
+  /rdots_a "rdots_a.jpg" readimage def
+  /vdots "vdots.jpg" readimage def
+  /vdots_a "vdots_a.jpg" readimage def
+  /ldots "ldots.jpg" readimage def
+  /ldots_a "ldots_a.jpg" readimage def
+  /head "head.jpg" readimage def
+  /head_a "head_a.jpg" readimage def
 
-      570   0 moveto rdots rdots_a showlogo
-       31  23 moveto phead phead_a showlogo
-
-    rdots free rdots_a free
-    phead free phead_a free
+  small_layout {
+    450   0 moveto rdots rdots_a showlogo
+    206 103 moveto vdots vdots_a showlogo
+      0 440 moveto ldots ldots_a showlogo
+     70 173 moveto head  head_a  showlogo
   } {
-
-    /rdots "rdots.jpg" readimage def
-    /rdots_a "rdots_a.jpg" readimage def
-    /vdots "vdots.jpg" readimage def
-    /vdots_a "vdots_a.jpg" readimage def
-    /ldots "ldots.jpg" readimage def
-    /ldots_a "ldots_a.jpg" readimage def
-    /head "head.jpg" readimage def
-    /head_a "head_a.jpg" readimage def
-
-    small_layout {
-      450   0 moveto rdots rdots_a showlogo
-      206 103 moveto vdots vdots_a showlogo
-        0 440 moveto ldots ldots_a showlogo
-       70 173 moveto head  head_a  showlogo
-    } {
-      609   0 moveto rdots rdots_a showlogo
-      390 140 moveto vdots vdots_a showlogo
-        0 550 moveto ldots ldots_a showlogo
-      234 217 moveto head  head_a  showlogo
-    } ifelse
-
-    rdots free rdots_a free
-    vdots free vdots_a free
-    ldots free ldots_a free
-    head free head_a free
-
+    609   0 moveto rdots rdots_a showlogo
+    390 140 moveto vdots vdots_a showlogo
+      0 550 moveto ldots ldots_a showlogo
+    234 217 moveto head  head_a  showlogo
   } ifelse
 
-  setimage
+  rdots free rdots_a free
+  vdots free vdots_a free
+  ldots free ldots_a free
+  head free head_a free
 
-  ptheme { ptheme.init } if
+  setimage
 
   % set default language
   "lang" findfile dup {
@@ -1153,7 +1113,7 @@
 
   /menu.text.xofs      10 def
   /menu.text.yofs       2 def
-  /menu.item.height    fontheight dup ptheme { 2 } { 3 } ifelse div add def
+  /menu.item.height    fontheight dup 3 div add def
   /menu.bar.height     fontheight menu.text.yofs dup add add def
 
   font.normal setfont
@@ -1175,11 +1135,6 @@
     /frame1.size { 365 195 } def
   } ifelse
 
-  ptheme {
-    /frame1.pos  { 210 170 } def
-    /frame1.size { 365 195 } def
-  } if
-
   /frame4.pos  { 560  62 } def
   /frame4.size {  22 264 } def
 
@@ -1192,7 +1147,7 @@
 
   /boot.label.len 243 def
 
-  /boot.pos { boot.label.len 10 add ptheme { 480 } { small_layout { 380 } { 490 } ifelse } ifelse } def
+  /boot.pos { boot.label.len 10 add small_layout { 380 } { 490 } ifelse } def
 
   /boot.buf.size cmdlinelength def
   /boot.buf boot.buf.size string def
@@ -1205,8 +1160,8 @@
   /ms.down     {  23 480 }  def
 
   /update.pos {
-    clip.size pop txt_dud_ready strsize pop sub ptheme { 60 } { 20 } ifelse sub
-    clip.size exch pop ptheme { 100 } { 75 } ifelse sub
+    clip.size pop txt_dud_ready strsize pop sub 20 sub
+    clip.size exch pop 75 sub
   } def
 
 } def
@@ -1526,35 +1481,7 @@
 % Global variables.
 %
 
-/ptheme false def
-
-syslinux {
-  rand pop rand 4 shr 11 div 0xffff and
-    date weekday 5 lt { 15 } { 3 } ifelse
-    date month dup 12 eq exch 1 eq or { 1 add 2 div } if
-  mod 0 eq
-
-  date
-  dup 0x7d50c18 ge over 0x7d60101 le and
-  dup 0x7d50c12 eq or
-  dup 0x7d50c0b eq or
-  dup 0x7d50c06 eq or
-  dup 0x7d50c04 eq or
-  dup 0x7d50b1b eq or
-  exch pop or
-
-  0x417 cvp getbyte 0x40 and 0 ne or
-  {
-    /ptheme true def
-  } if
-
-} if
-
 /transp 0x30 def
-
-/testX { 0x417 cvp getbyte 0x10 and 0 ne } def
-
-testX { /ptheme false def } if
 
 800 600 16 findmode setmode not {
   800 600 32 findmode setmode not {
@@ -1572,8 +1499,7 @@ testX { /ptheme false def } if
 
 /small_layout screen.size pop 640 eq def
 
-ptheme { "pback.jpg" } { "back.jpg" } ifelse findfile
-dup .undef eq ptheme and { pop "back.jpg" findfile /ptheme false def } if
+"back.jpg" findfile
 /background.file over def setimage loadpalette
 /max_image_colors image.colors def
 
@@ -1606,7 +1532,7 @@ dup .undef eq ptheme and { pop "back.jpg" findfile /ptheme false def } if
 
 /debug 0 def
 
-ptheme small_layout or
+small_layout
 true or {
   /bsplash.done { } def
 } {

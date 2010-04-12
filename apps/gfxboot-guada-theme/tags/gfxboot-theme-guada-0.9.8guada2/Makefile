@@ -16,7 +16,7 @@ HELPINST_ALL = $(notdir $(HELPINST))
 DEFAULT_LANG =
 
 PIC_COMMON   = back.jpg head{,_a}.jpg {l,r,v}dots{,_a}.jpg
-PIC_INSTALL  = greeting.jpg pback.jpg phead.jpg panim{,_a}.jpg
+PIC_INSTALL  = greeting.jpg
 
 FILES_INST   = init languages $(TRANSLATIONS) 16x16.fnt kroete.dat \
 	       $(PIC_COMMON) $(PIC_INSTALL) $(HELPINST_ALL)
