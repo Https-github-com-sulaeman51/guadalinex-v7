@@ -613,8 +613,10 @@
 
   0 1 menu.visible.entries 1 sub {
    x y moveto currentpoint menu.bar.width menu.bar.height image
-   x menu.text.xofs add y menu.text.yofs add moveto
    menu.texts exch menu.shift add get menuitemmap
+   x menu.bar.width 2 index strsize pop sub 2 div add
+   y menu.text.yofs add
+   moveto
    currentfont exch font.large setfont show setfont
    /y y menu.item.height add def
   } for
@@ -652,7 +654,6 @@
   } ifelse
   moveto
 
-  menu.text.xofs menu.text.yofs rmoveto
   menu.status {
     menu.text.select
   } {
@@ -660,6 +661,7 @@
   } ifelse
   setcolor
   menu.texts menu.idx get menuitemmap
+  menu.bar.width over strsize pop sub 2 div menu.text.yofs rmoveto
   currentfont exch font.large setfont show setfont
 
   menu.status {
@@ -1117,14 +1119,15 @@
   /menu.bar.color      black       def
 
   small_layout {
-    /frame1.pos  { 190 208 } def
-    /frame1.size { 365 160 } def
+    /frame1.pos  {  80 208 } def
+    /frame1.size { 480 160 } def
+    /frame4.pos  { 560  62 } def
   } {
-    /frame1.pos  { 265 288 } def
-    /frame1.size { 365 170 } def
+    /frame1.pos  { 160 288 } def
+    /frame1.size { 480 170 } def
+    /frame4.pos  { 640  62 } def
   } ifelse
 
-  /frame4.pos  { 560  62 } def
   /frame4.size {  22 264 } def
 
   /menu.start.x frame1.pos pop 10 add def
