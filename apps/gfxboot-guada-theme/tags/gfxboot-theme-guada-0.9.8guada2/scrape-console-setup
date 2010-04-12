@@ -24,6 +24,7 @@ my %keymap_locales = (
     'br' => '_BR',
     'by' => '_BY',
     'ca' => '_CA',
+    'ch_fr' => 'fr_CH',
     'ch' => '_CH',
     'cz' => '_CZ',
     'dk' => '_DK',
@@ -82,6 +83,7 @@ my %keymap_locales = (
 
 # Non-top-level layouts to put on the menu.
 my @show_variants = (
+    'ch_fr',
     'tr_f',
     'us_dvorak',
 );
@@ -96,6 +98,8 @@ my @exclude_keymaps = (
 # overflowing the screen.
 my %description_overrides = (
     'ba' => 'Bosnia',
+    'ch_fr' => 'Swiss French',
+    'ch' => 'Swiss German',
     'cs' => 'Serbia',
     'fi_smi' => 'Finland (Saami)',
     'in_guj' => 'Gujarati',
