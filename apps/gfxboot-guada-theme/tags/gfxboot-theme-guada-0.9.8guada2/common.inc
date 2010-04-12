@@ -284,7 +284,7 @@
   % getcwd 0 300 moveto show trace
 
   bc.addkernel {
-    alt.kernel { alt.kernel } { bc.kernel } ifelse
+    bc.kernel
     dup "linux" eq add_suffix .undef ne and {
       add_suffix exch "%s%s "
     } {
@@ -437,7 +437,6 @@
 
   boot.ed edit.hidecursor
   menu.args menu.entry get
-  menu.texts menu.entry get
   bootpromptmap
 
   boot.show {
@@ -453,24 +452,9 @@
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Split command line into hidden and normal part.
 %
-% ( cmdline_args menu_text ) == > ( new_cmdline_args )
-%
-% alt.kernel is set if a different kernel should be used (this feature should
-% no longer be needed).
+% ( cmdline_args ) == > ( new_cmdline_args )
 %
 /bootpromptmap {
-  /alt.kernel .undef def
-
-  syslinux {
-    dup "failsafe" eq
-    over "noacpi" eq or
-    over "manual" eq or
-    over "rescue" eq or
-    { /alt.kernel "linux" def } if
-  } if
-
-  pop
-
   /cmdline exch def
 
   cmdline "showopts" getoption
