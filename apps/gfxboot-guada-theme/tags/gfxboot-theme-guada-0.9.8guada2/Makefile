@@ -1,43 +1,29 @@
 BINDIR      := $(shell [ -x ../../mkbootmsg ] && echo ../../ )
 
-PRODUCT      = "SUSE Linux 10.1"
-
-HELP2TXT     = $(BINDIR)help2txt
 MKBOOTMSG    = $(BINDIR)mkbootmsg
 BFLAGS       = -O -v -L ../..
 INCLUDES     = $(wildcard *.inc)
 TRANSLATIONS = $(addsuffix .tr,en $(notdir $(basename $(wildcard po/*.po))))
-HELPBOOT     = $(addsuffix .hlp,$(addprefix boot/,$(subst .,,$(suffix $(basename $(wildcard help-boot.*.html))))))
-HELPINST     = $(addsuffix .hlp,$(addprefix install/,$(subst .,,$(suffix $(basename $(wildcard help-install.*.html))))))
-
-HELPBOOT_ALL = $(notdir $(HELPBOOT))
-HELPINST_ALL = $(notdir $(HELPINST))
 
 DEFAULT_LANG =
 
 PIC_COMMON   = back.jpg head{,_a}.jpg
 
 FILES_INST   = init languages $(TRANSLATIONS) 16x16.fnt kroete.dat \
-	       $(PIC_COMMON) $(HELPINST_ALL)
+	       $(PIC_COMMON)
 
 FILES_BOOT   = init languages $(TRANSLATIONS) 16x16.fnt \
-	       $(PIC_COMMON) $(HELPBOOT_ALL)
+	       $(PIC_COMMON)
 
-FILES_BOOT_EN = init languages en.tr 16x16.fnt $(PIC_COMMON) en.hlp
+FILES_BOOT_EN = init languages en.tr 16x16.fnt $(PIC_COMMON)
 
-INST_EXT     = 16x16.fnt $(PIC_COMMON) kroete.dat *.hlp *.tr
+INST_EXT     = 16x16.fnt $(PIC_COMMON) kroete.dat *.tr
 
 ifdef DEFAULT_LANG
 FILES_INST += lang
 FILES_BOOT += lang
-FILES_BOOT_EN += lang $(DEFAULT_LANG).tr $(DEFAULT_LANG).hlp
+FILES_BOOT_EN += lang $(DEFAULT_LANG).tr
 endif
-
-boot/%.hlp: help-boot.%.html boot
-	$(HELP2TXT) --product=$(PRODUCT) $< >$@
-
-install/%.hlp: help-install.%.html install
-	$(HELP2TXT) --product=$(PRODUCT) $< >$@
 
 .PHONY: all themes font clean po
 
@@ -51,7 +37,7 @@ po:
 
 themes: bootdir installdir
 
-bootdir: boot.config $(INCLUDES) $(HELPBOOT)
+bootdir: boot.config $(INCLUDES)
 	@cp -a po/*.tr boot
 	@for i in $(FILES_BOOT) ; do [ -f $$i ] && cp $$i boot ; done ; true
 	@echo en >boot/languages
@@ -62,7 +48,7 @@ ifdef DEFAULT_LANG
 endif
 	@sh -c 'cd boot; echo $(FILES_BOOT_EN) | sed -e "s/ /\n/g" | cpio --quiet -o >message'
 
-installdir: install.config $(INCLUDES) $(HELPINST)
+installdir: install.config $(INCLUDES)
 	@cp -a po/*.tr install
 	@for i in $(FILES_INST) ; do [ -f $$i ] && cp $$i install ; done ; true
 	$(MKBOOTMSG) $(BFLAGS) -l install/log -c $< install/init
