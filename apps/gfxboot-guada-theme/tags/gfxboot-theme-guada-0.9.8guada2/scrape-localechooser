@@ -49,11 +49,13 @@ close L10N;
 
 binmode STDOUT, ':utf8';
 
+print "/lang.defaultnames [\n";
 for my $lang_c (sort { $langcodes{$a} cmp $langcodes{$b} } keys %langcodes) {
-    print "$langcodes{$lang_c} ";
+    print qq{  [ "$langcodes{$lang_c}" };
     if (exists $langnames{$lang_c}) {
-	print "$langnames{$lang_c}\n";
+	print qq{"$langnames{$lang_c}" ]\n};
     } else {
-	print "$lang_c\n";
+	print qq{"$lang_c" ]\n};
     }
 }
+print "] def\n";
