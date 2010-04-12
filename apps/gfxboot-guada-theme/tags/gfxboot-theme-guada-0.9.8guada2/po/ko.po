@@ -370,3 +370,8 @@ msgstr "첫 번째 하드 디스크로 부팅하기 (^B)"
 #. txt_option_free
 msgid "Free software only"
 msgstr "자유 소프트웨어 만 사용"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr ""

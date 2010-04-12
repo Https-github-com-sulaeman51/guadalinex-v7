@@ -373,3 +373,8 @@ msgstr "^Zaženi s prvega trdega diska"
 #. txt_option_free
 msgid "Free software only"
 msgstr "Samo s prostim programjem"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr ""

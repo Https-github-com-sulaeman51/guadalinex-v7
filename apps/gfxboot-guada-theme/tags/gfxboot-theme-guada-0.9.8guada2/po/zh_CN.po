@@ -368,3 +368,8 @@ msgstr "从第一块硬盘启动 (^B)"
 #. txt_option_free
 msgid "Free software only"
 msgstr "仅安装自由软件"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr ""
