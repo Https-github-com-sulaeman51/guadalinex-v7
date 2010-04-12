@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.6.2) UNRELEASED; urgency=low
+
+  * Hide menu items that use MENU GOTO or MENU EXIT.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 19 Jun 2008 12:17:29 +0100
+
 gfxboot-theme-ubuntu (0.6.1) intrepid; urgency=low
 
   * Remove support for deprecated gfxboot-foreground, gfxboot-background,
