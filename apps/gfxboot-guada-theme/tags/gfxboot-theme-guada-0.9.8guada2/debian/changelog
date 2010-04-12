@@ -31,5 +31,6 @@ gfxboot-theme-ubuntu (0.1.0) dapper; urgency=low
     - Include /usr/share/gfxboot/themes/Ubuntu/bootlogo.tar.gz, which can be
       unpacked directly into /isolinux on a CD rather than having to unpack
       and repack cpio archives.
+    - Avoid mentioning the distribution name in "insert boot disk" messages.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sat, 10 Dec 2005 10:48:12 +0000

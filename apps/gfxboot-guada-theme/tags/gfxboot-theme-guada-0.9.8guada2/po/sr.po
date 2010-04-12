@@ -60,13 +60,25 @@ msgstr "Покрећем..."
 
 # Keep the three newlines!
 #. txt_load_kernel
-msgid "Loading Linux Kernel\n\n\n"
-msgstr "Учитавам Линукс језгро\n\n\n"
+msgid ""
+"Loading Linux Kernel\n"
+"\n"
+"\n"
+msgstr ""
+"Учитавам Линукс језгро\n"
+"\n"
+"\n"
 
 # Keep the three newlines!
 #. txt_load_memtest
-msgid "Loading memtest86\n\n\n"
-msgstr "Учитавам memtest86\n\n\n"
+msgid ""
+"Loading memtest86\n"
+"\n"
+"\n"
+msgstr ""
+"Учитавам memtest86\n"
+"\n"
+"\n"
 
 # info box title
 #. txt_info_title
@@ -99,9 +111,9 @@ msgstr ""
 
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"This is not a <product> boot disk.\n"
+"This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
 "Ово није диск за покретање <product>.\n"
@@ -114,8 +126,14 @@ msgstr "Лозинка"
 
 # Keep the newlines and spaces after ':'!
 #. txt_password
-msgid "Enter your password:   \n\n\n"
-msgstr "Унесите своју лозинку:   \n\n\n"
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"Унесите своју лозинку:   \n"
+"\n"
+"\n"
 
 # dvd warning title
 #. txt_dvd_warning_title
@@ -206,4 +224,3 @@ msgstr "Остале опције"
 #. txt_language
 msgid "Language"
 msgstr "Језик"
-

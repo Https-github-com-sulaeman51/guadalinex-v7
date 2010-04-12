@@ -15,7 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 # ok button label
 #. txt_ok
@@ -116,9 +117,9 @@ msgstr ""
 
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"This is not a <product> boot disk.\n"
+"This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
 "Toto není startovací disk systému <product>.\n"
@@ -229,4 +230,3 @@ msgstr "Další volby"
 #. txt_language
 msgid "Language"
 msgstr "Jazyk"
-

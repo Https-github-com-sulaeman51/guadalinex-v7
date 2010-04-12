@@ -119,7 +119,7 @@ msgstr ""
 #. txt_insert_disk3
 #, fuzzy, c-format
 msgid ""
-"This is not a <product> boot disk.\n"
+"This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
 "Toto nie je štartovacia disketa <product>.\n"
@@ -234,4 +234,3 @@ msgstr ""
 #. txt_language
 msgid "Language"
 msgstr ""
-

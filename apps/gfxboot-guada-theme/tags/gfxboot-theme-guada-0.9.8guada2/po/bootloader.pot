@@ -92,11 +92,10 @@ msgid ""
 "Insert boot disk %u."
 msgstr ""
 
-# <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
-"This is not a <product> boot disk.\n"
+"This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
 
