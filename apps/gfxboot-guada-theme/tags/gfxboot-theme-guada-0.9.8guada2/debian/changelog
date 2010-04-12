@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.5.9) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.5.9) hardy; urgency=low
 
   * Really update for Kurdish default layout change, and shorten Kurdish
     layout description to avoid overflow.
@@ -11,7 +11,7 @@ gfxboot-theme-ubuntu (0.5.9) UNRELEASED; urgency=low
   * Update translations from Launchpad. Among many other things, this
     completes the French translation (LP: #193901).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Tue, 11 Mar 2008 00:54:43 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 11 Mar 2008 01:51:24 +0000
 
 gfxboot-theme-ubuntu (0.5.8) hardy; urgency=low
 
