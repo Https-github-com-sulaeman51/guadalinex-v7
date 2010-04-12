@@ -1,6 +1,9 @@
 gfxboot-theme-ubuntu (0.9.5) UNRELEASED; urgency=low
 
   * Stop building for lpia, which has been discontinued.
+  * Add a "screen-colour" option to gfxboot.cfg (should really be
+    "background", but that's already (mis)used).  This sets a flood-fill
+    colour for the screen, as well as setting menu.bar.color and xmenu.dark.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 03 Mar 2010 13:30:49 +0000
 
