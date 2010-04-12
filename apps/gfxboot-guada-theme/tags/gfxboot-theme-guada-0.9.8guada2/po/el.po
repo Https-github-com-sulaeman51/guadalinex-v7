@@ -36,38 +36,6 @@ msgstr "Επανεκκίνηση"
 msgid "Continue"
 msgstr "Συνέχεια"
 
-#. txt_install
-msgid "Installation"
-msgstr "Εγκατάσταση"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Χειροκίνητη Εγκατάσταση"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Εγκατάσταση--ACPI Απενεργοποιημένο"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Εγκατάσταση--Ασφαλείς Ρυθμίσεις"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux--Ασφαλείς Ρυθμίσεις"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Εκκίνηση από τον Σκληρό Δίσκο"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Σύστημα Διάσωσης"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Έλεγχος Μνήμης"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Ρυθμίσεις Εκκίνησης"
@@ -171,10 +139,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Ετοιμάστε την δισκέτα ενημέρωσης οδηγών."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -198,11 +162,6 @@ msgstr "Διακοπή λειτουργίας"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "Θέλετε να σταματήσετε το σύστημα τώρα;"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Σκληρός Δίσκος"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -255,20 +214,10 @@ msgstr "Εγκατάσταση SMB (Windows Share)"
 msgid "HTTP Installation"
 msgstr "Εγκατάσταση HTTP"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Οδηγός"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Περιοχή\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "Άλλες Επιλογές"
 
 # label for language selection
 #. txt_language

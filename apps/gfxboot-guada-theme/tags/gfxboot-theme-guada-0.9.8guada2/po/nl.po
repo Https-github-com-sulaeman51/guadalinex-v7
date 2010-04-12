@@ -38,38 +38,6 @@ msgstr "Herstarten"
 msgid "Continue"
 msgstr "Doorgaan"
 
-#. txt_install
-msgid "Installation"
-msgstr "Installatie"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Handmatige installatie"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Installatie - ACPI uitgeschakeld"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Installatie - Veilige instellingen"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux - Veilige instellingen"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Van harde schijf opstarten"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Reddingssysteem"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Geheugentest"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Opstartopties"
@@ -173,10 +141,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Houdt uw diskette met de stuurprogramma-update gereed."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -200,11 +164,6 @@ msgstr "Computer uitgeschakeld"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "Wilt u nu het systeem stoppen?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Harde schijf "
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -257,20 +216,10 @@ msgstr "SMB (Windows share) installatie"
 msgid "HTTP Installation"
 msgstr "HTTP-installatie"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Stuurprogramma"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Domein\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "Andere opties"
 
 # label for language selection
 #. txt_language

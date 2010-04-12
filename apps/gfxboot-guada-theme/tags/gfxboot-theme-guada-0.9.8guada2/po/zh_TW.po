@@ -31,38 +31,6 @@ msgstr "重新開機"
 msgid "Continue"
 msgstr "繼續"
 
-#. txt_install
-msgid "Installation"
-msgstr "安裝"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "手動安裝"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "安裝 -- 關閉 ACPI"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "安裝 -- 安全設定"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux - 安全設定"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "從硬碟開機"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "救援系統"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "記憶體測試"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "開機選項"
@@ -166,10 +134,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "備妥您的驅動程式更新磁片。"
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -193,11 +157,6 @@ msgstr "關閉電源"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "要立即終止系統嗎？"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "硬碟"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -250,20 +209,10 @@ msgstr "SMB (Windows 共用) 安裝"
 msgid "HTTP Installation"
 msgstr "HTTP 安裝"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "驅動程式"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "領域\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "其他選項"
 
 # label for language selection
 #. txt_language

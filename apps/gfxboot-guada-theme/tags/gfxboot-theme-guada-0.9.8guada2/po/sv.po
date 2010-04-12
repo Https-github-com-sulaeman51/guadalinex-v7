@@ -35,38 +35,6 @@ msgstr "Starta om"
 msgid "Continue"
 msgstr "Fortsätt"
 
-#. txt_install
-msgid "Installation"
-msgstr "Installation"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Manuell installation"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Installation - ACPI inaktiverat"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Installation - Säkra inställningar"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux - Säkra inställningar"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Starta från hårddisk"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Räddningssystem"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Minnestest"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Startalternativ"
@@ -170,10 +138,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Ha disketten för drivrutinsuppdatering redo."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -197,11 +161,6 @@ msgstr "Stäng av"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "Vill du stänga av systemet nu?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Hårddisk"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -254,20 +213,10 @@ msgstr "SMB (Windows-utdelning) installation"
 msgid "HTTP Installation"
 msgstr "HTTP-installation"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Drivrutin"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Domän\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "Fler alternativ"
 
 # label for language selection
 #. txt_language

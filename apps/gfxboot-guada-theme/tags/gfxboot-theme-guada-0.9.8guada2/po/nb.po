@@ -37,38 +37,6 @@ msgstr "Start på nytt"
 msgid "Continue"
 msgstr "Fortsett"
 
-#. txt_install
-msgid "Installation"
-msgstr "Installasjon"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Manuell installasjon"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Installasjon--ACPI deaktivert"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Installasjon--sikker modus"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux--sikker modus"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Start fra harddisk"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Redningssystem"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Minnekontroll"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Oppstartsalternativer"
@@ -169,10 +137,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Hold disketten med driveroppdateringer klar."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -196,11 +160,6 @@ msgstr "Slå av maskinen"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "Hvil du avslutte nå?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Harddisk"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -253,20 +212,10 @@ msgstr "SMB-installasjon (delt Windows-ressurs)"
 msgid "HTTP Installation"
 msgstr "HTTP-installasjon"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Driver"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Domene\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "Andre valg"
 
 # label for language selection
 #. txt_language

@@ -35,38 +35,6 @@ msgstr "Neustart"
 msgid "Continue"
 msgstr "Fortfahren"
 
-#. txt_install
-msgid "Installation"
-msgstr "Installation"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Manuelle Installation"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Installation - ACPI deaktiviert"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Installation - Sichere Einstellungen"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux - Sichere Einstellungen"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Von Festplatte booten"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Rettungssystem"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Speichertest"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Bootoptionen"
@@ -170,10 +138,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Halten Sie die Aktualisierungsdiskette für den Treiber bereit."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -197,11 +161,6 @@ msgstr "Ausschalten"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "System jetzt anhalten?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Festplatte"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -254,20 +213,10 @@ msgstr "SMB (Windows Share)-Installation"
 msgid "HTTP Installation"
 msgstr "HTTP-Installation"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Treiber"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Domain\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "Weitere Optionen"
 
 # label for language selection
 #. txt_language

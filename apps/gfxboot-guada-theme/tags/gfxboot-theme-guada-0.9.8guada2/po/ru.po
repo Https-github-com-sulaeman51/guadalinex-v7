@@ -36,41 +36,6 @@ msgstr "Перезагрузка"
 msgid "Continue"
 msgstr "Продолжить"
 
-#. txt_install
-msgid "Installation"
-msgstr "Установка"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Ручная установка"
-
-#. txt_noacpi_install
-#, fuzzy
-msgid "Installation--ACPI Disabled"
-msgstr "Установка - ACPI выключен"
-
-#. txt_safe_install
-#, fuzzy
-msgid "Installation--Safe Settings"
-msgstr "Установка - безопасные параметры"
-
-#. txt_safe_linux
-#, fuzzy
-msgid "Linux--Safe Settings"
-msgstr "Linux - безопасные параметры"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Загрузка с жёсткого диска"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Спасательная система"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Тест памяти"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Параметры загрузки"
@@ -175,11 +140,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-#, fuzzy
-msgid "Get your driver update floppy ready."
-msgstr "Пожалуйста, держите ваш гибкий диск с обновлением драйвера наготове."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -206,11 +166,6 @@ msgstr "Выключить питание"
 #, fuzzy
 msgid "Halt the system now?"
 msgstr "Желаете ли остановить систему сейчас?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Жёсткий диск"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -263,19 +218,9 @@ msgstr "Установка по SMB (Windows Share)"
 msgid "HTTP Installation"
 msgstr "Установка по HTTP"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr ""
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
-msgstr ""
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
 msgstr ""
 
 # label for language selection

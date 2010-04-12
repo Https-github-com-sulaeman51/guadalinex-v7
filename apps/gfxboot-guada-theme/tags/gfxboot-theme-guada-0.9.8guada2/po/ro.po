@@ -34,41 +34,6 @@ msgstr "Restartează"
 msgid "Continue"
 msgstr "Continuă"
 
-#. txt_install
-msgid "Installation"
-msgstr "Instalare"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Instalare manuală"
-
-#. txt_noacpi_install
-#, fuzzy
-msgid "Installation--ACPI Disabled"
-msgstr "Instalare - ACPI dezactivat"
-
-#. txt_safe_install
-#, fuzzy
-msgid "Installation--Safe Settings"
-msgstr "Instalare - Setări sigure"
-
-#. txt_safe_linux
-#, fuzzy
-msgid "Linux--Safe Settings"
-msgstr "Linux - Setări sigure"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Porneşte de pe hard disc"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Sistem de salvare"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Test de memorie"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Opţiuni de pornire"
@@ -173,11 +138,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-#, fuzzy
-msgid "Get your driver update floppy ready."
-msgstr "Pregătiţi discheta cu driver-e actualizate."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -204,11 +164,6 @@ msgstr "Oprire"
 #, fuzzy
 msgid "Halt the system now?"
 msgstr "Doriţi să opresc sistemul acum?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Hard Disc"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -261,19 +216,9 @@ msgstr "Instalare prin SMB (partajare Windows)"
 msgid "HTTP Installation"
 msgstr "Instalare prin HTTP"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr ""
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
-msgstr ""
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
 msgstr ""
 
 # label for language selection
