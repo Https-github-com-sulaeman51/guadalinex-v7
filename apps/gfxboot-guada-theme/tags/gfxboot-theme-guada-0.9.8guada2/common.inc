@@ -919,35 +919,6 @@
 } def
 
 
-% ( img ) => ( width heigh )
-/imgsize {
-  dup .undef eq {
-    pop 0 0
-  } {
-    getdword dup
-    0xffff and exch 16 shr
-  } ifelse
-} def
-
-
-% ( pic pic_a -- )
-/showlogo {
-  /tmp.sc over imgsize savescreen def
-
-  currentpoint 4 2 roll
-  0 0 moveto tmp.sc blend
-  moveto tmp.sc restorescreen
-
-  tmp.sc free
-} def
-
-
-% ( file_name ) ==> ( image )
-/readimage {
-  findfile dup setimage 0 0 image.size unpackimage exch free
-} def
-
-
 /boot.pos.init {
   /boot.label.len txt_bootoptions strsize pop def
   /boot.pos { boot.label.len 10 add small_layout { 410 } { 510 } ifelse } def

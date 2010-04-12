@@ -3,6 +3,7 @@ gfxboot-theme-ubuntu (0.9.3) UNRELEASED; urgency=low
   * Update translations from Launchpad (LP: #527052).
   * Change "Ubuntu Netbook Remix" strings to "Ubuntu Netbook" (LP: #518718).
     Adjust translations where I could do so accurately.
+  * Remove unused imgsize, showlogo, and readimage functions.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 25 Feb 2010 12:48:21 +0000
 
