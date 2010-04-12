@@ -32,9 +32,9 @@
   xmenu .xm_current .access.none put
 
   xmenu .xm_list [
-    txt_access_none
-    txt_access_v1 txt_access_v2 txt_access_v3
-    txt_access_m1 txt_access_m2
+    /txt_access_none
+    /txt_access_v1 /txt_access_v2 /txt_access_v3
+    /txt_access_m1 /txt_access_m2
   ] put
 
   xmenu .xm_title /txt_access put

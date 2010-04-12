@@ -22,7 +22,7 @@
 
   xmenu .xm_current .dimode.normal put
 
-  xmenu .xm_list [ txt_normal_mode txt_expert_mode ] put
+  xmenu .xm_list [ /txt_normal_mode /txt_expert_mode ] put
 
   pmenu.init
 } def
