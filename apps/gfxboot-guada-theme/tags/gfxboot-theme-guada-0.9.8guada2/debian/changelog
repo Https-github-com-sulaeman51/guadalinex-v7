@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.2.7) UNRELEASED; urgency=low
+
+  * Exclude fuzzy translations from .po files.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu,  5 Oct 2006 18:04:48 +0100
+
 gfxboot-theme-ubuntu (0.2.6) edgy; urgency=low
 
   * Always map the PC105 less than / greater than key, since the BIOS keymap
