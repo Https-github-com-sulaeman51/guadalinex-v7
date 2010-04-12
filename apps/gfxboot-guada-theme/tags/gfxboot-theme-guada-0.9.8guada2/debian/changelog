@@ -5,7 +5,8 @@ gfxboot-theme-ubuntu (0.1.13) UNRELEASED; urgency=low
   * Fix encoding of Galician translation.
   * Update font to add characters necessary for Kazakh ("Қазақ").
   * Pass debian-installer/locale=pt_PT rather than just pt for Portuguese,
-    allowing localechooser to do a better job of handling the preseeding.
+    allowing localechooser to do a better job of handling the preseeding
+    (part of Malone #31477).
   * Teach setkeymap to try looking for a keymap based just on the language
     code in case it can't find it based on ll_CC.
 
