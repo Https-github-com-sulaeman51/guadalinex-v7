@@ -348,6 +348,11 @@ msgid "Install a ^workstation"
 msgstr "ワークステーションとしてインストール"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_server
+msgid "Install a ser^ver"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
 msgstr ""
@@ -356,6 +361,11 @@ msgstr ""
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
 msgstr "LAMPサーバとしてインストール"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_ltsp
+msgid "Install an ^LTSP server"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
