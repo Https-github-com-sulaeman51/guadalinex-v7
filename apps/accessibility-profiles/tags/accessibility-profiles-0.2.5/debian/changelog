@@ -1,3 +1,9 @@
+accessibility-profiles (0.2.5) lucid; urgency=low
+
+  * debian/control: Fixed 'Homepage' field
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Mon, 12 Apr 2010 18:11:23 +0200
+
 accessibility-profiles (0.2.4) jaunty; urgency=low
 
   * Updated policy, copyright and Ubuntu version
