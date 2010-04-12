@@ -12,6 +12,7 @@
 
   timeout.seconds timeout.current eq { return } if
   /timeout.current timeout.seconds def
+  timeout.hidden { return } if
 
   white setcolor
 
@@ -43,3 +44,4 @@
 /timeout.x { head.x } def
 /timeout.y { head.y } def
 
+/timeout.hidden false def
