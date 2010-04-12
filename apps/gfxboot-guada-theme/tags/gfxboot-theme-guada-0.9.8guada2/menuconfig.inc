@@ -10,6 +10,7 @@
 /menuconfig.find {
   [
     "/syslinux.cfg"
+    "/syslinux/syslinux.cfg"
     "/isolinux.cfg"
     "/isolinux/isolinux.cfg"
     "/boot/isolinux/isolinux.cfg"
