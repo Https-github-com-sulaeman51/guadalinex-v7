@@ -1312,7 +1312,7 @@
   [ "et" .undef "Estonian" [ "et" ] ]
   [ "fi-latin1" keymap.fi-latin1 "Finnish" [ "fi" ] ]
   [ "fr-latin9" keymap.fr-latin9 "French" [ "fr" "fr_FR" "br" "oc" ] ]
-  [ "de-latin1-nodeadkeys" keymap.de-latin1-nodeadkeys "German (Latin1; no dead keys)" [ "de" "de_DE" "en_DE" ] ]
+  [ "de-latin1-nodeadkeys" keymap.de-latin1-nodeadkeys "German" [ "de" "de_DE" "en_DE" ] ]
   [ "gr" keymap.gr "Greek" [ "el" ] ]
   [ "hebrew" keymap.hebrew "Hebrew" [ "he" ] ]
   [ "hu" keymap.hu "Hungarian" [ "hu" ] ]
