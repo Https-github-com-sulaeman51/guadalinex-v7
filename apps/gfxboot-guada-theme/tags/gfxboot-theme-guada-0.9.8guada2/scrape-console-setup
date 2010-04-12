@@ -23,6 +23,8 @@ my %keymap_locales = (
     'cz' => '_CZ',
     'dk' => '_DK',
     'ee' => '_EE',
+    'es_ast' => 'ast_ES',
+    'es_cat' => 'ca_ES',
     'es' => '_ES',
     'fi_smi' => 'se_FI',
     'fi' => '_FI',
@@ -83,6 +85,8 @@ my %keymap_locales = (
 # Non-top-level layouts to put on the menu.
 my @show_variants = (
     'ch_fr',
+    'es_ast',
+    'es_cat',
     'fr_oss',
     'tr_f',
     'us_dvorak',
@@ -90,6 +94,7 @@ my @show_variants = (
 
 # Exclude these keymaps.
 my @exclude_keymaps = (
+    'brai',
     'braille',
     'fr',
     'nec/jp',
@@ -103,6 +108,8 @@ my %description_overrides = (
     'cd' => 'Congo',
     'ch_fr' => 'Swiss French',
     'ch' => 'Swiss German',
+    'es_ast' => 'Asturian',
+    'es_cat' => 'Catalan',
     'fi_smi' => 'Saami (Fin.)',
     'fo' => 'Faroes',
     'fr_oss' => 'France',
