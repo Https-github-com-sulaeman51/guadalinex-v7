@@ -37,6 +37,13 @@ my @langname_notranslate = (
 );
 my %langname_notranslate = map { $_ => 1 } @langname_notranslate;
 
+# Adjust the sort order slightly. (The values are not real language codes;
+# they're just there to make the sort unambiguous.)
+my %sort_ids = (
+    'nb' => 'no_NB',
+    'nn' => 'no_NN',
+);
+
 my %langnames;
 my %locales;
 open LIST, '<:utf8', "$localechooser/languagelist"
@@ -54,13 +61,14 @@ while (<LIST>) {
 	$langnames{$lang} = $bits[2];
     }
     ($locales{$lang} = "$bits[6]") =~ s/[.@].*//;
+    $sort_ids{$lang} = $lang unless exists $sort_ids{$lang};
 }
 close LIST;
 
 binmode STDOUT, ':utf8';
 
 print "/lang.defaultnames [\n";
-for my $lang (sort keys %langnames) {
+for my $lang (sort { $sort_ids{$a} cmp $sort_ids{$b} } keys %langnames) {
     print qq{  [ "$lang" "$locales{$lang}" "$langnames{$lang}" ]\n};
 }
 print "] def\n";
