@@ -58,7 +58,7 @@
 	  64bit_boot_dir .undef ne
 	  32bit_boot_dir 64bit_boot_dir ne
 	  and and {
-	    [ .panel.full [ keyF6 0 "F7" /panel.bits /panel.bits.width /panel.bits.update /bits.init ] ]
+	    [ .panel.full [ keyF7 0 "F7" /panel.bits /panel.bits.width /panel.bits.update /bits.init ] ]
 	  } if
 	} if
       } if
