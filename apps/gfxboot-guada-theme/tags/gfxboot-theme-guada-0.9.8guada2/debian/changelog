@@ -1,9 +1,9 @@
-gfxboot-theme-ubuntu (0.3.5) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.3.5) feisty; urgency=low
 
   * Change "Install in ^OEM mode" to "Text mode install for ma^nufacturers"
     (LP: #95582).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Thu,  5 Apr 2007 14:51:48 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu,  5 Apr 2007 14:54:46 +0100
 
 gfxboot-theme-ubuntu (0.3.4) feisty; urgency=low
 
