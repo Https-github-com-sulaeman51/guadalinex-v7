@@ -3,6 +3,7 @@ gfxboot-theme-ubuntu (0.1.12) UNRELEASED; urgency=low
   * Switch selected and deselected colours in boot option menu, since blue
     is a better deselected/background colour (thanks, Paul Sladen).
   * Enlarge help window.
+  * Adjust help keybindings to make more sense with our help screens.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sat,  4 Feb 2006 18:20:09 +0000
 

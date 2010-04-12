@@ -541,6 +541,22 @@ clip.size pop 800 eq {
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Jump to a given page number.
+%
+% ( n ) ==> ( )
+%
+/help.gotopage {
+  help.findpagebyindex
+  dup help.currenttext eq {
+    pop
+  } {
+    help.add2history
+    0 0 help.initpage
+  } ifelse
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Handle keyboard input.
 %
 % ( key_in ) ==> ( key_out )
@@ -559,22 +575,20 @@ clip.size pop 800 eq {
   dup keyEnd eq { help.key.end } if 
   dup keyRight eq { help.followlink } if 
   dup keyEnter eq { help.followlink } if 
-  dup 0xff and ' ' eq { help.followlink } if 
   dup keyLeft eq { help.prevlink } if 
   dup 0xff and '\x08' eq { help.prevlink } if 
-  dup keyF1 eq {
-    "help" help.findpage
-    dup help.currenttext eq {
-      pop
-    } {
-      help.add2history
-      0 0 help.initpage
-    } ifelse
-  } if 
-%  dup keyF9 eq {
-%    /help.font help.font 8 add 10 mod def help.reinit
-%    help.currenttext help.startrow help.selectedlink help.initpage
-%  } if 
+  dup 0xff and ' ' eq { help.key.pagedown } if 
+  dup 0xff and '-' eq { help.key.pageup } if
+  dup keyF1 eq { 1 help.gotopage } if
+  dup keyF2 eq { 2 help.gotopage } if
+  dup keyF3 eq { 3 help.gotopage } if
+  dup keyF4 eq { 4 help.gotopage } if
+  dup keyF5 eq { 5 help.gotopage } if
+  dup keyF6 eq { 6 help.gotopage } if
+  dup keyF7 eq { 7 help.gotopage } if
+  dup keyF8 eq { 8 help.gotopage } if
+  dup keyF9 eq { 9 help.gotopage } if
+  dup keyF10 eq { 10 help.gotopage } if
   pop 0
 } def
 
