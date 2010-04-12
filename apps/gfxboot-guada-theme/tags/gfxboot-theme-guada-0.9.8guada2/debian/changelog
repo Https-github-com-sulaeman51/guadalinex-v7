@@ -1,3 +1,11 @@
+gfxboot-theme-ubuntu (0.8.4) UNRELEASED; urgency=low
+
+  * Use gfxboot-compile instead of mkbootmsg if it's present, in order to
+    work with newer gfxboot. Based on a patch from Daniel Baumann, for which
+    thanks.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 07 Sep 2009 11:41:46 +0100
+
 gfxboot-theme-ubuntu (0.8.3) karmic; urgency=low
 
   * Add localisation for "Install Ubuntu ^Enterprise Cloud".
