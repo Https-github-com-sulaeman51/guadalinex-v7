@@ -41,9 +41,12 @@
   boot.show {
     boot.text.options setcolor
     window.current .font get setfont
-    boot.pos moveto boot.label.len neg 0 rmoveto
-    currentpoint boot.label.len fontheight image
-    boot.pos moveto txt_bootoptions showright
+    boot.pos.init
+    % clear to far right of screen
+    boot.pos moveto boot.label.len neg 1 neg rmoveto
+    currentpoint screen.size pop 2 index sub boot.ed.height 2 add image
+    % redraw boot line
+    boot.setup
   } if
 
   redrawmenu
@@ -60,6 +63,7 @@
 
   boot.window .ed boot.ed put
 
+  boot.pos.init
   boot.pos moveto
   txt_bootoptions showright
 
@@ -119,6 +123,8 @@
   boot.text.options setcolor
 
   window.current .font get setfont
+
+  boot.pos.init
 
   /boot.ed.width screen.size pop boot.pos pop sub 20 sub def
   /boot.ed.height fontheight 2 add def
