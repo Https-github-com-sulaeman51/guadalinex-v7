@@ -59,7 +59,6 @@ msgstr ""
 #. txt_help
 msgid "Help"
 msgstr "Ayuda"
-
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
@@ -138,11 +137,10 @@ msgstr "Apagar"
 msgid "Halt the system now?"
 msgstr "¿Desea detener el sistema ahora?"
 
-#. txt_password
+xt_password
 msgid "Password\n"
 msgstr "Contraseña\n"
-
-#. button label for other/more options
+on label for other/more options
 #. txt_other_options
 msgid "Other Options"
 msgstr "Otras opciones"
@@ -257,6 +255,11 @@ msgstr "^Probar Ubuntu Netbook sin instalar"
 msgid "^Try Kubuntu Netbook without installing"
 msgstr "^Probar Kubuntu Netbook sin instalar"
 
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_guada
+msgid "^Try Guadalinex without any change to your computer"
+msgstr "^Demostración de Guadalinex"
+
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
@@ -332,6 +335,11 @@ msgstr "^Instalar Ubuntu Netbook"
 msgid "^Install Kubuntu Netbook"
 msgstr "^Instalar Kubuntu Netbook"
 
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+msgid "^Install Guadalinex"
+msgstr "^Instalar Guadalinex"
+
 #. Installation mode.
 #. txt_menuitem_workstation
 msgid "Install a workstation"
@@ -380,7 +388,7 @@ msgstr "Instalar una máquina virtual mínima"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check disc for defects"
-msgstr "^Comprobar defectos en el disco"
+msgstr "Verificar el ^CD en busca de defectos"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -390,7 +398,7 @@ msgstr "^Recuperar un sistema dañado"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "Test ^memory"
-msgstr "Analizar la ^memoria"
+msgstr "Test de ^memoria"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
