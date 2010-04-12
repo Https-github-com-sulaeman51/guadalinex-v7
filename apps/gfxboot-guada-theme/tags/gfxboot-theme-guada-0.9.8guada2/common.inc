@@ -427,6 +427,10 @@
     } { pop } ifelse
   } if
 
+  timeout.hidden {
+    "maybe-ubiquity " bc.cmd dup length add sprintf
+  } if
+
   bc.cmd dropspaces
 
   debug 3 ge {

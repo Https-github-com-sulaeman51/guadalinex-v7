@@ -3,6 +3,7 @@ gfxboot-theme-ubuntu (0.9.4) UNRELEASED; urgency=low
   * Before displaying the splash screen, initialise the menu far enough so
     that we can select the correct default boot entry in case the main menu
     is never displayed.
+  * Add the "maybe-ubiquity" boot parameter when booting in splash mode.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 03 Mar 2010 11:50:57 +0000
 
