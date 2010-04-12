@@ -260,7 +260,7 @@
       dup .saved.areas .undef put
     } if
     % specific cleanup actions
-    window.current dup .type get
+    window.current .type get
     dup t_xmenu eq { xmenu.cleanup } if
     pop
     % free input field memory
