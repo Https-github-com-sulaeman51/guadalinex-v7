@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.1.7) UNRELEASED; urgency=low
+
+  * Move boot option menu up 32 pixels and allow two more menu entries to be
+    displayed by default.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 16 Jan 2006 10:56:38 +0000
+
 gfxboot-theme-ubuntu (0.1.6) dapper; urgency=low
 
   * Remove timeout clock graphics, which seem to break on some machines and
