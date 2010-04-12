@@ -17,7 +17,7 @@ install: build
 	dh_testroot
 	dh_clean -k
 	dh_installdirs
-	install -m644 Makefile languages *.config *.dat *.fnt *.inc *.jpg \
+	install -m644 Makefile languages *.config *.fnt *.inc *.jpg \
 		$(themedir)
 	install -m755 keymapchars $(themedir)
 	install -m644 install/bootlogo.tar.gz $(themedir)
