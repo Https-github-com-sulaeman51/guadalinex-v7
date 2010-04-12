@@ -17,6 +17,10 @@
 /panel.bg	lightgray def
 /panel.border	lightdotcolor def
 
+/.panel.full    1 def
+/.panel.short   2 def
+/.panel.both    .panel.full .panel.short or def
+
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Init panel.
 %
@@ -27,22 +31,22 @@
   /panel.back 0 panel.y moveto panel.size savescreen def
 
   % define panel layout
-  /panel.full [
+  /panel.template [
 
     % [ key x label show_func width_func update_func init_func ]
 
     help.getmessages "" ne {
-      [ keyF1 0 "F1" /panel.help /panel.help.width /panel.help.update .undef ]
+      [ .panel.both [ keyF1 0 "F1" /panel.help /panel.help.width /panel.help.update .undef ] ]
     } if
 
     syslinux {
 
-      [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ]
-      [ keyF3 0 "F3" /panel.video /panel.video.width /panel.video.update /video.init ]
-      [ keyF4 0 "F4" /panel.options /panel.options.width /panel.options.update .undef ]
+      [ .panel.both [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ] ]
+      [ .panel.both [ keyF3 0 "F3" /panel.video /panel.video.width /panel.video.update /video.init ] ]
+      [ .panel.short [ keyF4 0 "F4" /panel.options /panel.options.width /panel.options.update .undef ] ]
 
       is_live not {
-	[ keyF5 0 "F5" /panel.dimode /panel.dimode.width /panel.dimode.update /dimode.init ]
+	[ .panel.full [ keyF4 0 "F4" /panel.dimode /panel.dimode.width /panel.dimode.update /dimode.init ] ]
       } if
 
       32+64bit_source {
@@ -51,7 +55,7 @@
 	  64bit_boot_dir .undef ne
 	  32bit_boot_dir 64bit_boot_dir ne
 	  and and {
-	    [ keyF6 0 "F6" /panel.bits /panel.bits.width /panel.bits.update /bits.init ]
+	    [ .panel.full [ keyF5 0 "F5" /panel.bits /panel.bits.width /panel.bits.update /bits.init ] ]
 	  } if
 	} if
       } if
@@ -60,20 +64,32 @@
 
     } {
 
-      [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ]
+      [ .panel.both [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ] ]
       "profiles" findfile dup {
         /profile.data exch def
-        [ keyF3 0 "F3" /panel.profile /panel.profile.width /panel.profile.update /profile.init ]
+        [ .panel.both [ keyF3 0 "F3" /panel.profile /panel.profile.width /panel.profile.update /profile.init ] ]
       } { pop } ifelse
 
     } ifelse
 
   ] def
 
-  /panel panel.full def
-
   % initialize all
-  panel.full { 6 get dup .undef ne { exec } { pop } ifelse } forall
+  panel.template { 1 get 6 get dup .undef ne { exec } { pop } ifelse } forall
+
+  /panel.full [
+    panel.template {
+      dup 0 get .panel.full and 0 ne { 1 get } { pop } ifelse
+    } forall
+  ] def
+
+  /panel.short [
+    panel.template {
+      dup 0 get .panel.short and 0 ne { 1 get } { pop } ifelse
+    } forall
+  ] def
+
+  /panel panel.short def
 
   panel.show
 } def
