@@ -40,7 +40,9 @@ small_layout {
 /.xm_vspace		 9 def		% vspace per menu
 /.xm_title              10 def          % xmenu title
 /.xm_columns		11 def		% menu columns
-/.xm_size		12 def		% xmenu size
+/.xm_check		12 def		% if non-zero, use checkboxes
+/.xm_allselected	13 def		% all selected checkboxes
+/.xm_size		14 def		% xmenu size
 
 
 % short hands
@@ -82,9 +84,28 @@ small_layout {
   } if
 
   dup keyEnter eq {
-    window.current .xmenu.update get
-    window.done
+    xmenu .xm_check get {
+      xmenu .xm_allselected get xmenu .xm_current get over over get not put
+      xmenu .xm_current get xmenu.viewentry
+      window.current .xmenu.change get
+    } {
+      window.current .xmenu.update get
+      window.done
+    } ifelse
     exec
+    pop 0
+  } if
+
+  dup ' ' eq {
+    xmenu .xm_check get {
+      xmenu .xm_allselected get xmenu .xm_current get over over get not put
+      xmenu .xm_current get xmenu.viewentry
+      window.current .xmenu.change get dup .undef ne {
+	exec
+      } {
+	pop window.current .xmenu.update get exec
+      } ifelse
+    } if
     pop 0
   } if
 
@@ -166,7 +187,9 @@ small_layout {
   put
 
   xmenu .xm_width
-    0 xmenu .xm_list get { exec strsize pop max } forall xmenu.hspace 2 mul add
+    0 xmenu .xm_list get { exec strsize pop max } forall
+    xmenu .xm_check get { "x  " strsize pop add } if
+    xmenu.hspace 2 mul add
   put
 
 } def
@@ -292,6 +315,13 @@ small_layout {
 
   dup xmenu .xm_current get eq { xmenu.selected.fg } { xmenu.normal.fg } ifelse setcolor
   xmenu.pos.x xmenu.hspace add xmenu.pos.y xmenu.vspace add moveto
+  xmenu .xm_check get {
+    xmenu .xm_allselected get over get {
+      "x  " show
+    } {
+      "x  " strsize pop 0 rmoveto
+    } ifelse
+  } if
   xmenu .xm_list get over get exec show
 
   pop

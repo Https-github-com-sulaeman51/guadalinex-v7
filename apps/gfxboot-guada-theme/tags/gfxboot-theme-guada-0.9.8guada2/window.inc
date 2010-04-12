@@ -93,6 +93,7 @@
 /.ed.pw_field    newfield
 /.xmenu          newfield
 /.xmenu.update   newfield
+/.xmenu.change   newfield % like update but the window remains shown
 /.xmenu.select   newfield
 /.xmenu.input    newfield
 

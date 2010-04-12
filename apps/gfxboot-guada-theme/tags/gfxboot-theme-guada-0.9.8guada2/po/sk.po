@@ -237,11 +237,6 @@ msgid "Keymap"
 msgstr "Klávesnica"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Bežný spôsob inštalácie"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Rozšírený spôsob inštalácie"

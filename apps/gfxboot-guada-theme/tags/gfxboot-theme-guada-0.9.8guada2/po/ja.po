@@ -233,11 +233,6 @@ msgid "Keymap"
 msgstr "キーマップ"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "ノーマルモード"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "エキスパートモード"

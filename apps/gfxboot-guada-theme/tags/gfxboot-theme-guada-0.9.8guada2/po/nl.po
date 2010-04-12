@@ -238,11 +238,6 @@ msgid "Keymap"
 msgstr "Toetsenindeling"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Normale modus"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Geavanceerde modus"

@@ -235,11 +235,6 @@ msgid "Keymap"
 msgstr "Alc'hwezhiad"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Mod boutin"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Mod mailh"
