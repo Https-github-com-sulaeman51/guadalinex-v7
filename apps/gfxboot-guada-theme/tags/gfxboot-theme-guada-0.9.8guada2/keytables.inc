@@ -2599,11 +2599,11 @@
   [ "tr" keymap.tr "Turkey" [ "_TR" ] .undef ]
   [ "tr_f" keymap.tr_f "Turkey ((F))" [ ] .undef ]
   [ "gb" keymap.gb "UK" [ "_GB" ] .undef ]
-  [ "us" keymap.us "USA" [ "en_US" ] .undef ]
+  [ "us" keymap.us "USA" [ "en_US" "_VN" ] .undef ]
   [ "us_intl" keymap.us_intl "USA Intl." [ "_NL" ] .undef ]
   [ "ua" keymap.ua "Ukraine" [ "_UA" ] .undef ]
   [ "uz" keymap.uz "Uzbekistan" [ ] .undef ]
-  [ "vn" keymap.vn "Vietnam" [ "_VN" ] .undef ]
+  [ "vn" keymap.vn "Vietnam" [ ] .undef ]
 ] def
 
 % set to "us" for safety
