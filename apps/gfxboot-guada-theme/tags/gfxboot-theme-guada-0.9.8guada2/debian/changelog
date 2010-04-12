@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.5.15) UNRELEASED; urgency=low
+
+  * Rebuild font based on debian-installer 20070308ubuntu35.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 03 Apr 2008 11:59:08 +0100
+
 gfxboot-theme-ubuntu (0.5.14) hardy; urgency=low
 
   * Update translations from Launchpad.
