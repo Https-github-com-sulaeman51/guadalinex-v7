@@ -337,13 +337,13 @@
     } ifelse
   } if
 
+  bc.opts "%s " bc.cmd dup length add sprintf
+
   xmenu.fulloptions {
     fulloptions.option .undef ne {
       fulloptions.option "%s " bc.cmd dup length add sprintf
     } if
   } if
-
-  bc.opts "%s " bc.cmd dup length add sprintf
 
   syslinux {
     video.modes.list .undef ne {
