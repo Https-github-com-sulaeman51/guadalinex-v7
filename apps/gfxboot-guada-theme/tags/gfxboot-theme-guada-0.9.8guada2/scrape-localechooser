@@ -40,7 +40,7 @@ open L10N, '<:utf8', "$localechooser/languagelist.l10n"
 while (<L10N>) {
     chomp;
     next if /^#/ or not /\S/;
-    next unless /(.*?): (.*)/;
+    next unless /(.*?): (.*?)\s*$/;
     my ($lang_c, $lang_trans) = ($1, $2);
     next if $lang_c eq 'C';
     $langnames{$lang_c} = $lang_trans;
