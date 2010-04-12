@@ -2,6 +2,13 @@ gfxboot-theme-ubuntu (0.6.6) UNRELEASED; urgency=low
 
   * Rebuild font with unifont 1:5.1.20080914-1.
   * Update translations from Launchpad.
+  * Adjust scrape-console-setup for kbd and regenerate keymaps. One
+    noticeable effect of this is that we now need to use the loadkeys -u
+    option, which means that a number of Unicode keysyms not currently
+    supported in gfxboot that were previously mapped to completely different
+    and incorrect keysyms will now generate no output. I think this is an
+    improvement, but please file a bug if any characters that you need to
+    type in the boot loader disappear as a result.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 25 Sep 2008 00:58:34 +0100
 
