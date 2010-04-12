@@ -62,6 +62,7 @@ small_layout {
 /window.xmenu {
   widget.size array
   dup .type t_xmenu put
+  dup .xmenu.select .undef put
 } def
 
 
@@ -309,6 +310,7 @@ small_layout {
   xmenu .xm_current get over xmenu .xm_current rot put
   xmenu.viewentry
   xmenu.viewentry
+  window.current .xmenu.select get dup .undef ne { exec } { pop } ifelse
 } def
 
 

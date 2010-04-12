@@ -38,6 +38,16 @@
 
   xmenu .xm_title /txt_access put
 
+  /access.soundfiles [
+    access.optionnames {
+      dup .undef ne {
+        /access.tmpfilename 32 string def
+        "access%s.mod" access.tmpfilename sprintf
+        access.tmpfilename findfile
+      } if
+    } forall
+  ] def
+
   pmenu.init
 } def
 
@@ -65,6 +75,22 @@
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Select an accessibility menu item.
+%
+% ( ) ==> ( )
+%
+/access.select {
+  /xmenu xmenu.access def
+
+  access.soundfiles xmenu .xm_current get get dup .undef ne {
+    /player.access 1 def
+    player.access exch mod.load
+    player.access 0 mod.play
+  } { pop } ifelse
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Show window.
 %
 % ( ) => ( )
@@ -75,6 +101,7 @@
   window.xmenu
   dup .xmenu xmenu.access put
   dup .xmenu.update /access.update put
+  dup .xmenu.select /access.select put
   dup window.init
       window.show
 } def

@@ -1,5 +1,11 @@
 gfxboot-theme-ubuntu (0.2.2) UNRELEASED; urgency=low
 
+  * If available, play startup.mod sound on startup and accessv1.mod (etc.)
+    when selecting accessibility menu items. However, this isn't working
+    well in tests, so I've left it disabled by not shipping any .mod files.
+    Anyone who would like to try to take this from here and figure out
+    what's wrong would be welcome.
+
   * Add/update translations from Rosetta: Afrikaans, Arabic, Belarusian,
     Bengali, Catalan, Kashubian, Danish, Esperanto, Spanish, Estonian,
     Basque, Persian, Filipino, Galician, Hindi, Croatian, Hungarian,
