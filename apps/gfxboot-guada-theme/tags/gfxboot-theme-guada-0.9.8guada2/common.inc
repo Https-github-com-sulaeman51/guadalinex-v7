@@ -361,18 +361,6 @@
 
   } if
 
-  % add splash only if an entry already exists
-%  bc.cmd "splash" bootopt.find dup .undef ne {
-%    % remove existing entry
-%    dup skipnonspaces skipspaces strcpy pop
-%
-%    % append new entry
-%    xmenu.splash .xm_current get splash.options exch get
-%    "%s " bc.cmd dup length add sprintf
-%  } {
-%    pop
-%  } ifelse
-
   xmenu.profile {
     profile.options xmenu.profile .xm_current get get dup "" ne {
       "%s " bc.cmd dup length add sprintf

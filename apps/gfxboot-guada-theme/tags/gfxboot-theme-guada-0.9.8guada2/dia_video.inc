@@ -13,15 +13,6 @@
 /.vm_width  1 def
 /.vm_height 2 def
 
-% We have kernel splash images for at least these sizes.
-/video.splashsizes [
-     0    0	% special: for text mode
-     1    0	% special: for VESA mode
-   800  600
-  1024  768
-  1280 1024
-] def
-
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Create sort key for video modes.
@@ -48,26 +39,6 @@
   video.modes.list
   5 -1 roll rot put
   video.modes.list 3 1 roll put
-} def
-
-
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% Check if we have a splash in that resolution.
-%
-% ( video_mode_list_entry ) ==> ( true|false )
-%
-/video.havesplash {
-  false exch
-
-  0 2 video.splashsizes length 1 sub {
-    over over over
-    .vm_height get rot .vm_width get rot video.splashsizes exch get eq
-    rot 1 add video.splashsizes exch get rot eq and
-    { exch pop true exch exit } if
-  } for
-
-  pop
-
 } def
 
 
@@ -145,7 +116,7 @@
   video.modes.list {
     dup .vm_width get 3 index le
     over .vm_height get 3 index le and
-    exch video.havesplash and {
+    exch {
       xmenu .xm_current over over get 1 add put
     } {
       exit
