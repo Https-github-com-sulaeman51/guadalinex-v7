@@ -293,6 +293,11 @@ msgstr "Edubuntuをインストール(^I)"
 msgid "^Install Xubuntu"
 msgstr "Xubuntuをインストール(^I)"
 
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_server
+msgid "^Install Ubuntu Server"
+msgstr ""
+
 #. Installation mode.
 #. txt_menuitem_workstation
 msgid "Install a workstation"
