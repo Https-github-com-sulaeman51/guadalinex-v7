@@ -9,14 +9,13 @@ msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2008-10-20 07:09+0000\n"
-"Last-Translator: Launchpad Translations Administrators <rosetta@launchpad."
-"net>\n"
+"PO-Revision-Date: 2009-03-23 15:41+0000\n"
+"Last-Translator: Moritz Baumann <Unknown>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-21 00:28+0000\n"
+"X-Launchpad-Export-Date: 2009-03-27 15:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -110,7 +109,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Bitte geben Sie ihr Passwort ein:   \n"
+"Bitte geben Sie Ihr Passwort ein:   \n"
 "\n"
 "\n"
 
@@ -220,7 +219,7 @@ msgstr "Bildschirmtastatur"
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr "Motorische Probleme - Geräte wechseln"
+msgstr "Motorische Probleme – Geräte wechseln"
 
 #. label for accessibility menu
 #. txt_access_all
@@ -254,10 +253,8 @@ msgstr "Abgesicherter Grafikmodus"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-#, fuzzy
-#| msgid "Use driver update CD"
 msgid "Use driver update disc"
-msgstr "Treiber-CD verwenden"
+msgstr "Treiber-Update-CD/DVD benutzen"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -277,32 +274,32 @@ msgstr "Edubuntu im ^Textmodus installieren"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr "^Xubuntu im Textmodus installieren"
+msgstr "Xubuntu im ^Textmodus installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr "^Ubuntu installieren"
+msgstr "Ubuntu ^installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr "^Kubuntu installieren"
+msgstr "Kubuntu ^installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
 msgid "^Install Edubuntu"
-msgstr "^Edubuntu installieren"
+msgstr "Edubuntu ^installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_xubuntu
 msgid "^Install Xubuntu"
-msgstr "^Xubuntu installieren"
+msgstr "Xubuntu ^installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr ""
+msgstr "Ubuntu Server ^installieren"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -351,10 +348,8 @@ msgstr "Eine minimale virtuelle Maschine installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-#, fuzzy
-#| msgid "^Check CD for defects"
 msgid "^Check disc for defects"
-msgstr "Die ^CD auf Beschädigungen überprüfen"
+msgstr "^Prüfe CD/DVD auf Fehler"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -364,7 +359,7 @@ msgstr "Ein beschädigtes System ^reparieren"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "Test ^memory"
-msgstr "Arbeitsspeicher testen"
+msgstr "Arbeits^speicher testen"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
@@ -379,14 +374,14 @@ msgstr "Nur Freie Software"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "^Dell: Automatische Neuinstallation"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "Mythbuntu ^installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "Mythbuntu ^ausprobieren (Rechner bleibt unverändert)"
