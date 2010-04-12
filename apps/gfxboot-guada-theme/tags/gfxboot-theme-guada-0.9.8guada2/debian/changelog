@@ -1,9 +1,9 @@
-gfxboot-theme-ubuntu (0.1.20) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.20) dapper; urgency=low
 
   * Update keymaps from console-keymaps-at 2002.12.04dbs-52.1ubuntu8, adding
     Thai.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Wed, 12 Apr 2006 23:51:36 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 12 Apr 2006 23:52:37 +0100
 
 gfxboot-theme-ubuntu (0.1.19) dapper; urgency=low
 
