@@ -124,7 +124,7 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Este DVD È de doble cara, e iniciou pola segunda.\n"
+"Este DVD √© de doble cara, e iniciou pola segunda.\n"
 "\n"
 "Dealle a volta para continuar."
 
@@ -140,7 +140,7 @@ msgstr "Quere deter o sistema?"
 # dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "InstalaciÛn no disco duro"
+msgstr "Instalaci√≥n no disco duro"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
@@ -153,7 +153,7 @@ msgstr "Directorio"
 # dialog title for ftp installation
 #. txt_ftp_title
 msgid "FTP Installation"
-msgstr "InstalaciÛn por FTP"
+msgstr "Instalaci√≥n por FTP"
 
 #. txt_server
 msgid "Server\n"
@@ -166,27 +166,27 @@ msgstr "Contrasinal\n"
 # label for ftp user input
 #. txt_user1
 msgid "User (anonymous login if empty)\n"
-msgstr "Usuario (se o deixa valeiro, entrar· como anÛnimo)"
+msgstr "Usuario (se o deixa valeiro, entrar√° como an√≥nimo)"
 
 # dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
-msgstr "InstalaciÛn via NFS"
+msgstr "Instalaci√≥n via NFS"
 
 # label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr "Usuario (se o deixa valeiro, entrar· como \"guest\")"
+msgstr "Usuario (se o deixa valeiro, entrar√° como \"guest\")"
 
 # dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "InstalaciÛn por SMB (compartidos de Windows)"
+msgstr "Instalaci√≥n por SMB (compartidos de Windows)"
 
 # dialog title for http installation
 #. txt_http_title
 msgid "HTTP Installation"
-msgstr "InstalaciÛn via HTTP"
+msgstr "Instalaci√≥n via HTTP"
 
 # as in Windows Authentication Domain
 #. txt_domain
@@ -196,7 +196,7 @@ msgstr "Dominio\n"
 # button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Outras opciÛns"
+msgstr "Outras opci√≥ns"
 
 # label for language selection
 #. txt_language
