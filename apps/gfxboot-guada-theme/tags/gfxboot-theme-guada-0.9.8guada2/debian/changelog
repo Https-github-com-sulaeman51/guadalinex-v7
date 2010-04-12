@@ -1,10 +1,10 @@
-gfxboot-theme-ubuntu (0.5.8) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.5.8) hardy; urgency=low
 
   * Remove translations for languages not supported by the installer (and
     therefore unused by gfxboot-theme-ubuntu), specifically: af am br csb fa
     fil fur ga is kn la lb mn ms mt nds oc so sr te tlh ur.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Wed, 05 Mar 2008 07:21:29 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 05 Mar 2008 07:33:11 +0000
 
 gfxboot-theme-ubuntu (0.5.7) hardy; urgency=low
 
