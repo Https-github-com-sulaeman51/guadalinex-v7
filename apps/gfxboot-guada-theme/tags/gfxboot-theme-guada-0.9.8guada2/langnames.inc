@@ -48,6 +48,7 @@
   [ "sl" "Slovenščina" ]
   [ "sq" "Shqip" ]
   [ "sv" "Svenska" ]
+  [ "th" "ภาษาไทย" ]
   [ "tl" "Tagalog" ]
   [ "tr" "Türkçe" ]
   [ "uk" "Українська" ]
