@@ -1,6 +1,10 @@
 gfxboot-theme-ubuntu (0.7.4) UNRELEASED; urgency=low
 
   * Update translations from Launchpad.
+  * Add localisation for "^Try Ubuntu MID without any change to your
+    computer", "^Try Ubuntu Netbook Remix without any change to your
+    computer", "^Install Ubuntu Studio", "^Install Ubuntu MID", and
+    "^Install Ubuntu Netbook Remix" (LP: #354364).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Fri, 03 Apr 2009 10:14:56 +0100
 

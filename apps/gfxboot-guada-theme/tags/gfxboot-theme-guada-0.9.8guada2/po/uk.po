@@ -247,6 +247,16 @@ msgstr "^Спробувати Edubuntu без змін у вашому комп'
 msgid "^Try Xubuntu without any change to your computer"
 msgstr "^Спробувати Xubuntu без змін у вашому комп'ютері"
 
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_mid
+msgid "^Try Ubuntu MID without any change to your computer"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_ubuntu_netbook_remix
+msgid "^Try Ubuntu Netbook Remix without any change to your computer"
+msgstr ""
+
 #. Installation mode.
 #. txt_menuitem_xforcevesa
 msgid "Safe graphics mode"
@@ -301,6 +311,21 @@ msgstr "^Встановити Xubuntu"
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
 msgstr "^Встановити Ubuntu-сервер"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntustudio
+msgid "^Install Ubuntu Studio"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_mid
+msgid "^Install Ubuntu MID"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_netbook_remix
+msgid "^Install Ubuntu Netbook Remix"
+msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_workstation
