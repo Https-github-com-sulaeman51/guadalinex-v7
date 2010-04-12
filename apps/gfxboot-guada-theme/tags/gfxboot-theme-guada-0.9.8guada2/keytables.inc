@@ -2810,7 +2810,7 @@
   [ "in_tel" keymap.in_tel "Telugu" [ "te_" ] .undef ]
   [ "th" keymap.th "Thailand" [ "_TH" ] .undef ]
   [ "tr" keymap.tr "Turkey" [ "_TR" ] .undef ]
-  [ "tr_f" keymap.tr_f "Turkey ((F))" [ ] .undef ]
+  [ "tr_f" keymap.tr_f "Turkey (F)" [ ] .undef ]
   [ "tm" keymap.tm "Turkmenistan" [ ] .undef ]
   [ "gb" keymap.gb "UK" [ "_GB" ] .undef ]
   [ "us" keymap.us "USA" [ "en_US" "_VN" ] .undef ]
