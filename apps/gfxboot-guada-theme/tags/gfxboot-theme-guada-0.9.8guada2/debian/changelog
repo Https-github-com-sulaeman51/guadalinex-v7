@@ -1,6 +1,7 @@
 gfxboot-theme-ubuntu (0.1.9) UNRELEASED; urgency=low
 
   * Fix comment syntax in keytables.inc.
+  * Remove obsolete keymap.*.inc files.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 23 Jan 2006 11:43:19 +0000
 
