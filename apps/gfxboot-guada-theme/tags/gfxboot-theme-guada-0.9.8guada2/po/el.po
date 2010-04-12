@@ -224,32 +224,38 @@ msgstr "Όλα"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Try Ubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu without installing"
 msgstr "^Δοκιμή του Ubuntu χωρίς να γίνουν αλλαγές στον υπολογιστή σας"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Try Kubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Kubuntu without installing"
 msgstr "^Δοκιμή του Kubuntu χωρίς να γίνουν αλλαγές στον υπολογιστή σας"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Try Edubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Edubuntu without installing"
 msgstr "^Δοκιμή του Edubuntu χωρίς να γίνουν αλλαγές στον υπολογιστή σας"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Try Xubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Xubuntu without installing"
 msgstr "^Δοκιμή του Xubuntu χωρίς να γίνουν αλλαγές στον υπολογιστή σας"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-msgid "^Try Ubuntu MID without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu MID without installing"
 msgstr "^Δοκιμή του Ubuntu MID χωρίς να γίνουν αλλαγές στον υπολογιστή σας"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "^Δοκιμή του Ubuntu Netbook Remix χωρίς αλλαγές στον υπολογιστή σας"
 
 #. Installation mode.
@@ -409,5 +415,6 @@ msgstr "^Εγκατάσταση Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-msgid "^Try Mythbuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Mythbuntu without installing"
 msgstr "^Δοκιμή του Mythbuntu χωρίς να γίνουν αλλαγές στον υπολογιστή σας"

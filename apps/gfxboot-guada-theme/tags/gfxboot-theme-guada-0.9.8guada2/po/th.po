@@ -222,32 +222,38 @@ msgstr "ทุกอย่าง"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Try Ubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu without installing"
 msgstr "^ทดลองอูบุนตูโดยที่ไม่เปลี่ยนอะไรในเครื่องของคุณ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Try Kubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Kubuntu without installing"
 msgstr "^ทดลองคูบุนตูโดยที่ไม่เปลี่ยนอะไรในเครื่องของคุณ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Try Edubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Edubuntu without installing"
 msgstr "^ทดลองเอ็ดอูบุนตูโดยที่ไม่เปลี่ยนอะไรในเครื่องของคุณ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Try Xubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Xubuntu without installing"
 msgstr "^ทดลองซูบุนตูโดยที่ไม่เปลี่ยนอะไรในเครื่องของคุณ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-msgid "^Try Ubuntu MID without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu MID without installing"
 msgstr "^ทดลองใช้อูบุนตู MID โดยไม่เปลี่ยนอะไรในคอมพิวเตอร์ของคุณ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "^ทดลองใช้อูบุนตูเน็ตบุ๊ค Remix โดยไม่เปลี่ยนอะไรในคอมพิวเตอร์ของคุณ"
 
 #. Installation mode.
@@ -407,5 +413,6 @@ msgstr "^ติดตั้ง Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-msgid "^Try Mythbuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Mythbuntu without installing"
 msgstr "^ทดลอง Mythbuntu โดยไม่มีการปรับเปลี่ยนเครื่องของคุณ"
