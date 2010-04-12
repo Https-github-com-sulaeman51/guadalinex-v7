@@ -275,12 +275,12 @@ msgstr ""
 
 # label for accessibility menu
 #. txt_access_m2
-msgid "Severe Motor Difficulties - pointing devices"
+msgid "Motor Difficulties - pointing devices"
 msgstr ""
 
 # label for accessibility menu
 #. txt_access_m3
-msgid "Severe Motor Difficulties - switch devices"
+msgid "Motor Difficulties - switch devices"
 msgstr ""
 
 # label for accessibility menu
