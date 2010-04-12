@@ -1,8 +1,8 @@
-gfxboot-theme-ubuntu (0.1.25) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.25) dapper; urgency=low
 
   * "Install to first hard disk" -> "Install to the hard disk". Whoops.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Fri, 26 May 2006 14:35:30 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 26 May 2006 14:38:02 +0100
 
 gfxboot-theme-ubuntu (0.1.24) dapper; urgency=low
 
