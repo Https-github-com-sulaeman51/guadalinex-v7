@@ -1,21 +1,22 @@
 # Occitan (post 1500) translation for gfxboot-theme-ubuntu
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the gfxboot-theme-ubuntu package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+# Yannig MARCHEGAY (Kokoyaya)  <yannig@marchegay.org>, 2006.
+# , fuzzy
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-09-27 18:43+0000\n"
-"Last-Translator: Yannig MARCHEGAY (Kokoyaya) <yannick.marchegay@lokanova."
-"com>\n"
+"PO-Revision-Date: 2007-05-06 19:11+0000\n"
+"Last-Translator: Yannig MARCHEGAY (Kokoyaya) <yannig@marchegay.org>\n"
 "Language-Team: Occitan (post 1500) <oc@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:22+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -154,7 +155,7 @@ msgstr ""
 #. power off dialog title
 #. txt_power_off_title
 msgid "Power Off"
-msgstr ""
+msgstr "Atudar"
 
 #. txt_power_off
 msgid "Halt the system now?"
@@ -167,7 +168,7 @@ msgstr "Installacion disc dur"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
-msgstr ""
+msgstr "Periferic disc (examinar totes los discs s'es void)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -189,7 +190,7 @@ msgstr "Mot de pas\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (anonymous login if empty)\n"
-msgstr ""
+msgstr "Utilizaire (connexion anonima s'es void)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
@@ -199,7 +200,7 @@ msgstr "Installacion NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr ""
+msgstr "Utilizaire (\"convidat\" s'es void)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
@@ -279,7 +280,7 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Clavièr virtual"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -299,7 +300,7 @@ msgstr "^Aviar o installar Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Aviar Ubuntu en mòde ^grafic sens fracàs"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
@@ -329,7 +330,7 @@ msgstr "^Aviar o installar Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Aviar Xubuntu en mòde ^grafic sens fracàs"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
@@ -354,7 +355,7 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Installar un ser^vidor"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
@@ -369,13 +370,12 @@ msgstr "Installar un servidor ^LAMP"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Installlar un servidor ^LTSP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Installar un ^servidor"
+msgstr "Installar un sistèma en linha de com^anda"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -396,6 +396,3 @@ msgstr "Tèst de memòria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Aviar a partir del primièr disc dur"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Installar en mòde ^OEM"

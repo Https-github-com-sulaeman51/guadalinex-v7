@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
-"PO-Revision-Date: 2006-09-26 13:36+0000\n"
+"PO-Revision-Date: 2007-04-13 22:15+0000\n"
 "Last-Translator: Bernard Banko <beernarrd@siol.com>\n"
 "Language-Team: Slovenščina <sl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 "n%100==4 ? 2: 3);\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:29:09+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -257,32 +258,32 @@ msgstr "Brez"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Visok kontrast"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Povečevalo"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Bralnik zaslona"
 
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Braillov terminal"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Modifikatorji tipkovnice"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Zaslonska tipkovnica"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -378,7 +379,7 @@ msgstr ""
 #. txt_menuitem_cli
 #, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Namesti ^strežnik"
+msgstr "Namesti ukaznovrstični sistem"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -399,6 +400,3 @@ msgstr "Preveri delovni po^mnilnik"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Zaženi s prvega trdega diska"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Namesti v ^OEM načinu"

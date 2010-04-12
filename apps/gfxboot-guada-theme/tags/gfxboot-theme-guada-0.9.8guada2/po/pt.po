@@ -7,13 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
-"PO-Revision-Date: 2006-10-05 21:40+0000\n"
-"Last-Translator: Susana <susana.pereira@gmail.com>\n"
+"PO-Revision-Date: 2007-04-13 22:15+0000\n"
+"Last-Translator: Susana Pereira <susana.pereira@gmail.com>\n"
 "Language-Team: portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.2\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:32+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -270,7 +271,7 @@ msgstr "Leitor de Ecrã"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Terminal de Braile"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -335,7 +336,7 @@ msgstr "Começar Xubuntu em modo ^gráfico seguro"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Instalar com o driver do CD ^actualizado"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -355,12 +356,12 @@ msgstr "Instalar uma ^estação de trabalho"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Instalar um ser^vidor"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
-msgstr ""
+msgstr "Instalação em modo de texto para fabrica^ntes"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -370,7 +371,7 @@ msgstr "Instalar um servidor ^LAMP"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Instalar um servidor ^LTSP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
@@ -396,6 +397,3 @@ msgstr "Teste de ^Memória"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Iniciar do ^primeiro disco rígido"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Instalar em modo ^OEM"

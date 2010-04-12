@@ -8,13 +8,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cs\n"
-"PO-Revision-Date: 2006-10-12 22:50+0000\n"
-"Last-Translator: Martin Böhm <necteno@gmail.com>\n"
+"PO-Revision-Date: 2007-04-13 22:13+0000\n"
+"Last-Translator: Martin Böhm <martin.bohm@kubuntu.org>\n"
 "Language-Team: Czech <suse@suse.cz>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.1\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:41+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -38,7 +39,7 @@ msgstr "Pokračovat"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Možnosti zavádění"
+msgstr "Možnosti zavedení"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -50,7 +51,7 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Opouštíte grafické startovací menu\n"
+"Opouštíte grafickou nabídku zavádění\n"
 "a spouštíte textový režim."
 
 #. txt_help
@@ -60,7 +61,7 @@ msgstr "Nápověda"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Startuje se..."
+msgstr "Spouští se..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -69,7 +70,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Zavádím linuxové jádro\n"
+"Zavádí se linuxové jádro\n"
 "\n"
 "\n"
 
@@ -196,7 +197,7 @@ msgstr "Uživatel (není-li vyplněno, anonymní přihlášení)\n"
 #. dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
-msgstr "NFS instalace"
+msgstr "Instalace z NFS"
 
 #. label for smb user input
 #. txt_user2
@@ -206,7 +207,7 @@ msgstr "Uživatel (není-li vyplněno, použije se \"guest\")\n"
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "SMB instalace (sdílený adresář)"
+msgstr "SMB instalace (sdílený adresář Windows)"
 
 #. dialog title for http installation
 #. txt_http_title
@@ -231,7 +232,7 @@ msgstr "Jazyk"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Klávesová mapa"
+msgstr "Klávesnice"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -271,7 +272,7 @@ msgstr "Čtečka obrazovky"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Braillův terminál"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -336,12 +337,12 @@ msgstr "Spustit Xubuntu v ^záchraném grafickém režimu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Nainstalovat s CD s akt^ualizacemi ovladačů"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "^Nainstalovat na pevný disk"
+msgstr "^Nainstalovat v textovém režimu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
@@ -356,12 +357,12 @@ msgstr "Nainstalovat ^pracovní stanici"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Nainstalovat ser^ver"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
-msgstr ""
+msgstr "Textová i^nstalace pro výrobce"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -371,7 +372,7 @@ msgstr "Nainstalovat ^LAMP server"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Nainstalovat ^LTSP server"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
@@ -386,7 +387,7 @@ msgstr "Zkontrolovat, zda CD neobsahuje ^chyby"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "Zách^rana poškozeného systému"
+msgstr "Zach^ránit poškozený systém"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
@@ -397,6 +398,3 @@ msgstr "Test pa^měti"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Zavést systém z prvního pevného disku"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Nainstalovat v ^OEM režimu"

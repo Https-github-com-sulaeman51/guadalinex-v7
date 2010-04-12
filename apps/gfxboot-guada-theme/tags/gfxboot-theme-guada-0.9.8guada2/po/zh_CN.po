@@ -4,12 +4,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-10-09 05:06+0000\n"
-"Last-Translator: Liu Qishuai <lqs.buaa@gmail.com>\n"
+"PO-Revision-Date: 2007-07-13 05:32+0000\n"
+"Last-Translator: rainofchaos <rainofchaos@gmail.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:54+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -45,8 +46,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"您将离开图形引导菜单，启动\n"
-"文本方式界面。"
+"您将离开图形引导菜单，\n"
+"启动文本方式界面。"
 
 #. txt_help
 msgid "Help"
@@ -64,7 +65,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"正在装载 Linux 内核\n"
+"正在加载Linux内核\n"
 "\n"
 "\n"
 
@@ -75,7 +76,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"正在装载 memtest86\n"
+"正在加载memtest86\n"
 "\n"
 "\n"
 
@@ -114,7 +115,7 @@ msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"这不是可接受的引导盘。\n"
+"这不是正确的引导盘。\n"
 "请插入引导盘 %u。"
 
 #. password dialog title
@@ -129,7 +130,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"输入口令：   \n"
+"输入密码：   \n"
 "\n"
 "\n"
 
@@ -146,7 +147,7 @@ msgid ""
 msgstr ""
 "这是双面 DVD。您是从第二面引导的。\n"
 "\n"
-"请将 DVD 翻转然后继续。"
+"请将 DVD 翻转后继续。"
 
 #. power off dialog title
 #. txt_power_off_title
@@ -181,7 +182,7 @@ msgstr "服务器\n"
 
 #. txt_password
 msgid "Password\n"
-msgstr "口令\n"
+msgstr "密码\n"
 
 #. label for ftp user input
 #. txt_user1
@@ -226,7 +227,7 @@ msgstr "语言"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "键盘布局"
+msgstr "键盘映射"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -266,7 +267,7 @@ msgstr "屏幕阅读器"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "布莱叶盲文终端"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -291,17 +292,17 @@ msgstr "所有内容"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "启动 Ubuntu"
+msgstr "启动或安装 Ubuntu(^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "安全图形模式启动 Ubuntu(^G)"
+msgstr "安全图形模式启动 Ubuntu(^g)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "启动 Kubuntu"
+msgstr "启动或安装 Kubuntu(^K)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
@@ -311,7 +312,7 @@ msgstr "安全图形模式启动 Kubuntu(^G)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "启动 Edubuntu"
+msgstr "启动或安装 Edubuntu(^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
@@ -321,7 +322,7 @@ msgstr "安全图形模式启动 Edubuntu(^G)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "启动 Xubuntu"
+msgstr "启动或安装 Xubuntu(^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
@@ -330,43 +331,44 @@ msgstr "安全图形模式启动 Xubuntu(^G)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
+#, fuzzy
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "安装驱动更新光盘(^U)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "安装到硬盘"
+msgstr "以文本方式安装(^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr "安装到硬盘"
+msgstr "安装到硬盘(^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr "工作站安装"
+msgstr "安装工作站(^W)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "安装服务器(^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
-msgstr ""
+msgstr "为厂商准备的文本模式安装(^M)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr "^LAMP 服务器安装"
+msgstr "安装LAMP 服务器(^L)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "安装LTSP 服务器(^L)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
@@ -376,22 +378,19 @@ msgstr "安装命令行系统(^A)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr "CD错误检查"
+msgstr "CD错误检查(^C)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "挽救已损坏的系统"
+msgstr "挽救已损坏的系统(^R)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr "内存测试"
+msgstr "内存测试(^M)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "从第一块硬盘启动"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "^OEM 安装模式"
+msgstr "从第一块硬盘启动(^B)"

@@ -10,13 +10,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bg\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2006-09-26 13:35+0000\n"
+"PO-Revision-Date: 2007-04-13 22:12+0000\n"
 "Last-Translator: Kamen Lichev <kamenlitchev@abv.bg>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:59+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -171,7 +172,7 @@ msgstr "Инсталиране от твърд диск"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Дисково устройство (ще сканира всички дискове ако е празно)\n"
+msgstr "Дисково устройство (сканиране на всички дискове, ако е празно)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -233,7 +234,7 @@ msgstr "Език"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Код"
+msgstr "Клавишен код"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -258,17 +259,17 @@ msgstr "Няма"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Висок контраст"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Лупа"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Екранен четец"
 
 #. label for accessibility menu
 #. txt_access_brltty
@@ -278,12 +279,12 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Промяна на клавишите"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Клавиатура на екрана"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,9 +378,8 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Инсталиране на с^ървър"
+msgstr "Инсталиране на система с ^команден промпт"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -400,6 +400,3 @@ msgstr "^Теста на паметта"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Зареждане от първия твърд диск"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Инсталиране в ^ОЕМ режим"

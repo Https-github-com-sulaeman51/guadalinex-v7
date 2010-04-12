@@ -15,6 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:29:14+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -398,6 +399,3 @@ msgstr "^Geheuetoets"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Laai van eerste hardeskyf"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Installeer in ^OEM-modus"
