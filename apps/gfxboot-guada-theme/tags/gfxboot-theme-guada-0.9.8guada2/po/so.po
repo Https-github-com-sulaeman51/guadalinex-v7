@@ -26,6 +26,11 @@ msgstr "OK"
 msgid "Cancel"
 msgstr "Kansal-garee"
 
+#. reboot button label
+#. txt_reboot
+msgid "Reboot"
+msgstr ""
+
 #. continue button label
 #. txt_continue
 msgid "Continue"
@@ -176,6 +181,10 @@ msgstr ""
 msgid "FTP Installation"
 msgstr ""
 
+#. txt_server
+msgid "Server\n"
+msgstr ""
+
 #. txt_password
 msgid "Password\n"
 msgstr "Kelmadda Sirta ah\n"
@@ -249,27 +258,27 @@ msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
+msgid "High Contrast"
 msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
+msgid "Magnifier"
 msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
+msgid "Screen Reader"
 msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
+msgid "Keyboard Modifiers"
 msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
+msgid "On-Screen Keyboard"
 msgstr ""
 
 #. label for accessibility menu

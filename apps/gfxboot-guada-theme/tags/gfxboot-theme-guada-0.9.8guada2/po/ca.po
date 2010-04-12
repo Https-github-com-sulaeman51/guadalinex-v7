@@ -255,28 +255,28 @@ msgstr "Cap"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Deficiències visuals menors"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Deficiències visuals moderades"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Ceguera"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Dificultats motrius menors"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Dificultats motrius - dispositius de punter"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +377,18 @@ msgstr "Comprovació de la ^memòria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Arrenca des del primer disc dur"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Deficiències visuals menors"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Deficiències visuals moderades"
+
+#~ msgid "Blindness"
+#~ msgstr "Ceguera"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Dificultats motrius menors"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Dificultats motrius - dispositius de punter"

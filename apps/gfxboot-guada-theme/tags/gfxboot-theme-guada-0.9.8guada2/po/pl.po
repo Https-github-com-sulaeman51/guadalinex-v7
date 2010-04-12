@@ -108,7 +108,6 @@ msgstr ""
 "To jest dysk startowy %u.\n"
 "Proszę włożyć dysk startowy %u."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -251,28 +250,28 @@ msgstr "Brak"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Niewielkie upośledzenie wzroku"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Umiarkowane upośledzenie wzroku"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Ślepota"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Niewielkie problemy ruchowe"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Problemy ruchowe - urządzenia wskazujące"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -373,3 +372,18 @@ msgstr "^Test pamięci"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Uruchom system z pierwszego dysku twardego"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Niewielkie upośledzenie wzroku"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Umiarkowane upośledzenie wzroku"
+
+#~ msgid "Blindness"
+#~ msgstr "Ślepota"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Niewielkie problemy ruchowe"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Problemy ruchowe - urządzenia wskazujące"

@@ -255,28 +255,28 @@ msgstr "Няма"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Пагаршэнне зроку"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Істотнае пагаршэнне зроку"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Сьлепата"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Неістотныя складанасьці руху"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Складанасці руху - пазыцыянаваньне прыладаў"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +377,18 @@ msgstr "^Тэст памяці"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Загрузіцца з жорсткага дыска"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Пагаршэнне зроку"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Істотнае пагаршэнне зроку"
+
+#~ msgid "Blindness"
+#~ msgstr "Сьлепата"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Неістотныя складанасьці руху"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Складанасці руху - пазыцыянаваньне прыладаў"

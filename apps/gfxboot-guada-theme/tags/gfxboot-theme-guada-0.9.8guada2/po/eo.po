@@ -255,28 +255,28 @@ msgstr "Neniu"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Malgrava Vida Kripliĝo"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Modera Vida Kripliĝo"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Blindeco"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Malgrandaj Movaj Malfacilaĵoj"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Movaj Malfacilaĵoj - indikaj aparatoj"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +377,18 @@ msgstr "^Memortesto"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Komenci de la unua fiksita disko"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Malgrava Vida Kripliĝo"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Modera Vida Kripliĝo"
+
+#~ msgid "Blindness"
+#~ msgstr "Blindeco"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Malgrandaj Movaj Malfacilaĵoj"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Movaj Malfacilaĵoj - indikaj aparatoj"

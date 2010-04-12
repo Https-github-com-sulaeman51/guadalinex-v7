@@ -93,6 +93,11 @@ msgstr ""
 msgid "Boot loader"
 msgstr "Taga-karga sa Pag-Boot"
 
+#. error box title
+#. txt_error_title
+msgid "I/O error"
+msgstr ""
+
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
@@ -138,6 +143,11 @@ msgstr ""
 "↵   \n"
 "\n"
 "\n"
+
+#. dvd warning title
+#. txt_dvd_warning_title
+msgid "DVD Error"
+msgstr ""
 
 #. txt_dvd_warning2
 msgid ""
@@ -251,28 +261,28 @@ msgstr "Wala"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Kaunting Kahinaan sa Paningin"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Katamtamang Kahinaan sa Paningin"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Pagkabulag"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Kaunting Kahirapan sa Paggalaw"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Mga Kahirapan sa Paggalaw - mga gamit panuro"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -373,3 +383,18 @@ msgstr "^Pagsusuri sa memory"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Mag-Boot sa unang hard disk"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Kaunting Kahinaan sa Paningin"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Katamtamang Kahinaan sa Paningin"
+
+#~ msgid "Blindness"
+#~ msgstr "Pagkabulag"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Kaunting Kahirapan sa Paggalaw"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Mga Kahirapan sa Paggalaw - mga gamit panuro"

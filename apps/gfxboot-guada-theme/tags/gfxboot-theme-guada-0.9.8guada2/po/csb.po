@@ -255,28 +255,28 @@ msgstr "Felënk"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Niewiôldżi ùpich widu"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Razny ùpich widu"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Slepizna"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Niewiôlgô rëchawô problema"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Rëchowé problemë - ùrządzenia wskôzëjące"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +377,18 @@ msgstr "^Test pamiãce"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Zrëszi systemã z pierszegò cwiardegò diskù"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Niewiôldżi ùpich widu"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Razny ùpich widu"
+
+#~ msgid "Blindness"
+#~ msgstr "Slepizna"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Niewiôlgô rëchawô problema"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Rëchowé problemë - ùrządzenia wskôzëjące"

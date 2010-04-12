@@ -7,6 +7,8 @@ gfxboot-theme-ubuntu (0.2.2) UNRELEASED; urgency=low
     what's wrong would be welcome.
   * Improve keyboard navigation in accessibility menu: 0 selects None, and
     1, 2, etc. select other menu items in order (closes: Malone #39303).
+  * Rename accessibility menu options to describe technology rather than use
+    case, per Henrik (closes: Malone #58836).
 
   * Add/update translations from Rosetta: Afrikaans, Arabic, Belarusian,
     Bengali, Catalan, Kashubian, Danish, Esperanto, Spanish, Estonian,

@@ -257,28 +257,28 @@ msgstr "ไม่มี"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "มีปัญหาในการมองเห็นเล็กน้อย"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "มีปัญหาในการมองเห็นปานกลาง"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "มองไม่เห็น"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "มีปัญหาด้านการเคลื่อนไหวเล็กน้อย"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "มีปัญหาด้านการเคลื่อนไหว - อุปกรณ์เกี่ยวกับเมาส์"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -379,3 +379,18 @@ msgstr "^ทดสอบหน่วยความจำ"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "บูตจาก^ฮาร์ดดิสก์ตัวแรก"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "มีปัญหาในการมองเห็นเล็กน้อย"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "มีปัญหาในการมองเห็นปานกลาง"
+
+#~ msgid "Blindness"
+#~ msgstr "มองไม่เห็น"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "มีปัญหาด้านการเคลื่อนไหวเล็กน้อย"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "มีปัญหาด้านการเคลื่อนไหว - อุปกรณ์เกี่ยวกับเมาส์"

@@ -108,7 +108,6 @@ msgstr ""
 "これはブートディスク%uです。\n"
 "ブートディスク%uを挿入してください。"
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -250,28 +249,28 @@ msgstr "なし"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "軽度の視力障害"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "中程度の視力障害"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "盲目"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "軽度の運動障害"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "運動障害 - ポインティングデバイス"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -372,3 +371,18 @@ msgstr "メモリテスト"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "一番目のハードディスクから起動"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "軽度の視力障害"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "中程度の視力障害"
+
+#~ msgid "Blindness"
+#~ msgstr "盲目"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "軽度の運動障害"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "運動障害 - ポインティングデバイス"

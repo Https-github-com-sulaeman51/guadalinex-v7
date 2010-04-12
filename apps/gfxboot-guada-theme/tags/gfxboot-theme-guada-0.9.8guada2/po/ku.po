@@ -252,28 +252,28 @@ msgstr "Tune"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Lawazkirina dîtbarî ya hindiktir"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Lawazkirina dîtbarî ya navinc"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Koritî"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Dijwariyên tevgerê yên asta nizm"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Diwariyên tevgerê - amûrên nîşanan"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -374,3 +374,18 @@ msgstr "^Testa bîrê"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Ji hard disk a yekemîn ^boot bike"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Lawazkirina dîtbarî ya hindiktir"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Lawazkirina dîtbarî ya navinc"
+
+#~ msgid "Blindness"
+#~ msgstr "Koritî"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Dijwariyên tevgerê yên asta nizm"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Diwariyên tevgerê - amûrên nîşanan"

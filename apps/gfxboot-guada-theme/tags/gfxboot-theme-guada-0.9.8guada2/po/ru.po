@@ -113,7 +113,6 @@ msgstr ""
 "Это загрузочный диск %u.\n"
 "Пожалуйста вставьте загрузочный диск %u."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -256,28 +255,28 @@ msgstr "Нет"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Небольшое Ухудшение Зрения"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Умеренное Ухудшение Зрения"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Слепота"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Небольшое Нарушение Двигательных Функций"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Нарушение Двигательных Функций - устройства указания"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -378,3 +377,18 @@ msgstr "Тест памяти"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Загрузить с первого жесткого диска"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Небольшое Ухудшение Зрения"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Умеренное Ухудшение Зрения"
+
+#~ msgid "Blindness"
+#~ msgstr "Слепота"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Небольшое Нарушение Двигательных Функций"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Нарушение Двигательных Функций - устройства указания"

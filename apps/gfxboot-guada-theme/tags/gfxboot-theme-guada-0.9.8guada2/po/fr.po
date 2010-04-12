@@ -116,7 +116,6 @@ msgstr ""
 "Ceci est le disque d'amorçage %u.\n"
 "Insérer le disque d'amorçage %u."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -260,28 +259,28 @@ msgstr "Aucun"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Moins de contrastes visuels"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Contrastes visuels modérés"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Cécité"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Difficultés Motrices Mineures"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Difficultés Motrices - systèmes de pointage"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -382,3 +381,18 @@ msgstr "Test de ^mémoire"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Démarrer à partir du premier disque dur"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Moins de contrastes visuels"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Contrastes visuels modérés"
+
+#~ msgid "Blindness"
+#~ msgstr "Cécité"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Difficultés Motrices Mineures"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Difficultés Motrices - systèmes de pointage"
