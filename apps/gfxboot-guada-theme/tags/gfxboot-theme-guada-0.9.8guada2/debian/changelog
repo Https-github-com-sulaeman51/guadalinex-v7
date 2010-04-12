@@ -2,6 +2,10 @@ gfxboot-theme-ubuntu (0.5.9) UNRELEASED; urgency=low
 
   * Really update for Kurdish default layout change, and shorten Kurdish
     layout description to avoid overflow.
+  * No longer consider Japanese a non-Latin keymap; the default variant
+    (basic) is Latin.
+  * Adjust console-setup/layoutcode and (perhaps) console-setup/variantcode
+    when booting with a non-Latin keymap (LP: #200803).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue, 11 Mar 2008 00:54:43 +0000
 
