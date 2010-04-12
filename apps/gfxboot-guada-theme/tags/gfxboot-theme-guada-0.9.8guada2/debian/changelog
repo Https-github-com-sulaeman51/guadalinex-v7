@@ -4,6 +4,8 @@ gfxboot-theme-ubuntu (0.1.18) UNRELEASED; urgency=low
   * Add translations for new xforcevesa boot options (closes: Malone
     #27020).
   * Update language names from localechooser 0.27ubuntu13, adding Thai.
+  * Fix comments in .po/.pot files; maintainer comments should start with
+    "#.", not "# ".
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue,  4 Apr 2006 16:25:30 +0100
 
