@@ -649,3 +649,105 @@ def
 } def
 
 
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%
+% Duplicate len bytes of string.
+%
+% ( string len -- string )
+%
+/strndup {
+  /strndup.len exch def
+  /strndup.src exch cvp def
+  /strndup.dst strndup.len string cvp def
+  strndup.dst strndup.src strndup.len memcpy
+  strndup.dst strndup.len 0 put
+  strndup.dst cvs
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%
+% Force to lower case. Overwrites string.
+%
+% ( string -- string )
+%
+/tolower {
+  dup length 0 eq { return } if
+  dup length 1 sub 0 1 rot {
+    over over get 32 or 2 index 3 1 roll put
+  } for
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%
+% Interpret a string as a number and return it, or .undef on failure.
+% Only supports hexadecimal numbers (optionally preceded by "0x").
+%
+% ( string -- number )
+%
+/strtol {
+  tolower
+  dup 0 get '0' eq over 1 get 'x' eq and { 2 add } if
+  /strtol.tmp 0 def
+  {
+    dup '0' ge over '9' le and {
+      '0' sub strtol.tmp 16 mul add
+      /strtol.tmp exch def
+    } {
+      dup 'a' ge over 'f' le and {
+        'a' sub 10 add strtol.tmp 16 mul add
+        /strtol.tmp exch def
+      } {
+        pop .undef return
+      } ifelse
+    } ifelse
+  } forall
+  strtol.tmp
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%
+% Skip whitespace. Advances string.
+%
+% ( string -- string )
+%
+/skipspace {
+  {
+    dup 0 get
+    dup 0 eq exch ' ' gt or { exit } if
+    1 add
+  } loop
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%
+% Find the next word boundary (NUL or whitespace).
+%
+% ( string -- pos )
+%
+/nextspace {
+  0 {
+    over over get
+    dup 0 eq exch ' ' le or { exit } if
+    1 add
+  } loop
+  exch pop
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%
+% Extract a word. word_str must be freed.
+%
+% ( config_str -- trailing_str word_str )
+%
+/getword {
+  dup nextspace
+  over over add               % get trailing string
+  3 1 roll strndup            % get word string
+} def
+
+

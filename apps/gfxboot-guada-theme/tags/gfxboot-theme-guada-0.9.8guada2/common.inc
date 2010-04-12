@@ -438,7 +438,37 @@
   /menu.entry -1 def
 
   /menu.dentry exch def
+
   menuconfig.init
+
+  % keep in sync with menuconfig.inc:menuconfig.init
+  "foreground" getgfxconfig dup .undef ne {
+    strtol
+    /menu.text.select over def
+    /boot.text.options over def
+    /boot.text.normal over def
+    /panel.high exch def
+  } { pop } ifelse
+  "background" getgfxconfig dup .undef ne {
+    strtol
+    /menu.text.normal over def
+    /panel.normal over def
+    /loading_color over def
+    /title.bg exch def
+  } { pop } ifelse
+  "access-options" getgfxconfig dup .undef ne {
+    /access.optionnames [
+      .undef
+      3 index
+      {
+	skipspace dup 0 get 0 eq { exit } if
+	getword exch
+      } loop
+      pop
+    ] def
+    pop
+  } { pop } ifelse
+
   /menu.args exch def
   /menu.texts exch def
   /menu.humans exch def
