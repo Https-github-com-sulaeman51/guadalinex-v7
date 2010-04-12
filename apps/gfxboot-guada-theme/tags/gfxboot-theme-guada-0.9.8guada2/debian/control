@@ -1,8 +1,7 @@
 Source: gfxboot-theme-ubuntu
 Section: utils
 Priority: optional
-Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Maintainer: Colin Watson <cjwatson@ubuntu.com>
 Build-Depends: debhelper (>= 4), gfxboot (>= 3.3.28)
 Standards-Version: 3.6.2
 
