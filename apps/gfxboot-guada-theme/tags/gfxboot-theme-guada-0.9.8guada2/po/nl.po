@@ -270,6 +270,11 @@ msgid "Screen Reader"
 msgstr "Schermlezer"
 
 #. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr ""
+
+#. label for accessibility menu
 #. txt_access_m1
 #, fuzzy
 msgid "Keyboard Modifiers"
