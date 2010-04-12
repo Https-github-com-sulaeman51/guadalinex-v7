@@ -1,9 +1,9 @@
-gfxboot-theme-ubuntu (0.3.2) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.3.2) feisty; urgency=low
 
   * Add localisation for "Install with driver ^update CD"
     (https://wiki.ubuntu.com/Ubiquity/DriverUpdates).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Mon,  5 Mar 2007 11:52:20 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon,  5 Mar 2007 11:56:19 +0000
 
 gfxboot-theme-ubuntu (0.3.1) feisty; urgency=low
 
