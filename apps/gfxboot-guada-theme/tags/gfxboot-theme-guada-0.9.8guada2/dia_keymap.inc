@@ -38,7 +38,7 @@
   keymap.inited {
     /keymap.tmp.cnt 0 def
     keymaps {
-      .km.map get config.keymap eq {
+      config.keymap eq {
         xmenu.keymap .xm_current keymap.tmp.cnt put exit
       } if
       /keymap.tmp.cnt inc

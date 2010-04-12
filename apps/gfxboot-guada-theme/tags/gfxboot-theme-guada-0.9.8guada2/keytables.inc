@@ -1340,3 +1340,5 @@
   [ "ua" keymap.ua "Ukrainian" [ "uk" ] ]
 ] def
 
+# for safety
+/config.keymap keymaps 0 get def

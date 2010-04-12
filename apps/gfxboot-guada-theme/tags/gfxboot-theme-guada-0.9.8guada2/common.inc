@@ -164,7 +164,7 @@
 
   key
 
-  config.keymap { mapkey } if
+  config.keymap .km.map get { mapkey } if
 
   dup 0xffffff and dup { exch } if pop
 
@@ -378,6 +378,11 @@
       } if
     } if
 
+    config.keymap .km.name get dup "us" ne {
+      "kbd-chooser/method=%s " bc.cmd dup length add sprintf
+    } {
+      pop
+    } ifelse
   } if
 
   xmenu.profile {

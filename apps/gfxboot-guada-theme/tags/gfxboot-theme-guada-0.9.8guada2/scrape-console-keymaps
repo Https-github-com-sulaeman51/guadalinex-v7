@@ -133,3 +133,8 @@ for my $keymap (sort { $keymaps{$a}[1] cmp $keymaps{$b}[1] } keys %keymaps) {
     print qq{  [ "$keymap" $keymapfunc{$keymap} "$keymaps{$keymap}[1]" [ $localelist ] ]\n};
 }
 print "] def\n\n";
+
+print <<EOF;
+# for safety
+/config.keymap keymaps 0 get def
+EOF

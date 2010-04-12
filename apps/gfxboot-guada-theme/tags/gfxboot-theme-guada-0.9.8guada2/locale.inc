@@ -43,7 +43,7 @@
   keymaps {
     dup .km.locales get {
       config.keymap.locale eq {
-        dup .km.map get /config.keymap exch def /setkeymap.found true def exit
+        dup /config.keymap exch def /setkeymap.found true def exit
       } if
     } forall
     pop

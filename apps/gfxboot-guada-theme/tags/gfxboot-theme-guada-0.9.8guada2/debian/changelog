@@ -8,6 +8,8 @@ gfxboot-theme-ubuntu (0.1.8) UNRELEASED; urgency=low
   * Allow mapping multiple locales to a single keymap.
   * Update keymaps and locale-to-keymap mappings from console-keymaps-at
     2002.12.04dbs-50ubuntu2.
+  * If a non-default keymap is selected, put it on the kernel command line
+    as kbd-chooser/method=%s.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Fri, 20 Jan 2006 12:06:34 +0000
 
