@@ -5,6 +5,7 @@ gfxboot-theme-ubuntu (0.4.1) UNRELEASED; urgency=low
   * Override language names for Gujarati, Khmer, Malayalam, and Tamil to use
     the English names; I don't seem to be able to generate a font containing
     the necessary characters for their localised names at the moment.
+  * Updates for various interface changes in gfxboot 3.3.28 (LP: #118744).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 06 Aug 2007 20:46:18 +0100
 
