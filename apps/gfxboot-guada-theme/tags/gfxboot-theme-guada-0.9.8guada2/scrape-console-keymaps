@@ -135,6 +135,6 @@ for my $keymap (sort { $keymaps{$a}[1] cmp $keymaps{$b}[1] } keys %keymaps) {
 print "] def\n\n";
 
 print <<EOF;
-# for safety
+% for safety
 /config.keymap keymaps 0 get def
 EOF
