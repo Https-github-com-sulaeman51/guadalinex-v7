@@ -33,7 +33,9 @@
 
     % [ key x label show_func width_func update_func init_func ]
 
-    [ keyF1 0 "F1" /panel.help /panel.help.width /panel.help.update .undef ]
+    help.getmessages "" ne {
+      [ keyF1 0 "F1" /panel.help /panel.help.width /panel.help.update .undef ]
+    } if
 
     syslinux {
 
