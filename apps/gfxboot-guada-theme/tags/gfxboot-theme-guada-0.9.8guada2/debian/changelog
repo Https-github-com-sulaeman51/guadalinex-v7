@@ -1,10 +1,10 @@
-gfxboot-theme-ubuntu (0.2.9) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.2.9) edgy; urgency=low
 
   * Preseed console-setup/modelcode to abnt2 for Brazilian (Malone #66774)
     and to jp106 for Japanese (Malone #66719). Adjust our own keymaps in
     line with this.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Fri, 20 Oct 2006 20:02:47 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 20 Oct 2006 20:12:40 +0100
 
 gfxboot-theme-ubuntu (0.2.8) edgy; urgency=low
 
