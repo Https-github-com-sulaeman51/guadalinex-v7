@@ -58,33 +58,6 @@ msgstr ""
 msgid "Help"
 msgstr "도움말"
 
-#. window title for kernel loading (see txt_load_kernel)
-#. txt_load_kernel_title
-msgid "Starting..."
-msgstr "시작하는 중..."
-
-#. Keep the three newlines!
-#. txt_load_kernel
-msgid ""
-"Loading Linux Kernel\n"
-"\n"
-"\n"
-msgstr ""
-"리눅스 커널 로드 중\n"
-"\n"
-"\n"
-
-#. Keep the three newlines!
-#. txt_load_memtest
-msgid ""
-"Loading memtest86\n"
-"\n"
-"\n"
-msgstr ""
-"memtest86 읽어오는 중\n"
-"\n"
-"\n"
-
 #. info box title
 #. txt_info_title
 msgid "Boot loader"

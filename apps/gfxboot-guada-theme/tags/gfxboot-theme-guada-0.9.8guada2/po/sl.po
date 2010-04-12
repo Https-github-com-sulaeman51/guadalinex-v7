@@ -62,33 +62,6 @@ msgstr ""
 msgid "Help"
 msgstr "Pomoč"
 
-#. window title for kernel loading (see txt_load_kernel)
-#. txt_load_kernel_title
-msgid "Starting..."
-msgstr "Zagon ..."
-
-#. Keep the three newlines!
-#. txt_load_kernel
-msgid ""
-"Loading Linux Kernel\n"
-"\n"
-"\n"
-msgstr ""
-"Nalaganje jedra Linuxa\n"
-"\n"
-"\n"
-
-#. Keep the three newlines!
-#. txt_load_memtest
-msgid ""
-"Loading memtest86\n"
-"\n"
-"\n"
-msgstr ""
-"Nalaganje memtest86\n"
-"\n"
-"\n"
-
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
