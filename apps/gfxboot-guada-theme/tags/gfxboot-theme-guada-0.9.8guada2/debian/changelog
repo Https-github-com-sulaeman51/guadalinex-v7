@@ -1,8 +1,9 @@
 gfxboot-theme-guada (0.9.8guada1) lucid; urgency=low
 
-  * gfxboot-theme-ubuntu merged with old gfxboot-theme-guada trunk:
-    http://bazaar.launchpad.net/~guadalinex-members/gfxboot-theme-guada/trunk
+  * gfxboot-theme-ubuntu merged via patches with old gfxboot-theme-guada trunk:
+   http://bazaar.launchpad.net/~guadalinex-members/gfxboot-theme-guada/oldtrunk
   * Changed package name 
+  * debian/rules: changed to use cdbs
 
  -- Roberto C. Morano <rcmorano@emergya.es>  Mon, 12 Apr 2010 10:28:12 +0100
 
