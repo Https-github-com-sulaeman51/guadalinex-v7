@@ -350,8 +350,8 @@ msgstr "工作站安装"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "^OEM 安装模式"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -382,3 +382,6 @@ msgstr "内存测试"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "从第一块硬盘启动"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "^OEM 安装模式"

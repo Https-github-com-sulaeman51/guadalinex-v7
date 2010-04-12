@@ -349,8 +349,8 @@ msgstr "Instalo ^stacionin punues"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "Instalo në ^OEM mode"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -381,3 +381,6 @@ msgstr "^Testimi i memorjes"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Boot nga disku i parë i ngurtë."
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "Instalo në ^OEM mode"

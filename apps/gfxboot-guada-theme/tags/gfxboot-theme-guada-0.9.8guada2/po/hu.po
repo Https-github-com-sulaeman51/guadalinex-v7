@@ -357,8 +357,8 @@ msgstr "Mu^nkaállomás telepítése"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "Telepítés ^OEM módban"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -390,3 +390,6 @@ msgstr "^Memóriateszt"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Rendszerindítás az első merevlemezről"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "Telepítés ^OEM módban"

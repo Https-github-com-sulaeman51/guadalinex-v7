@@ -364,9 +364,8 @@ msgstr "Instelează o ^staţie de lucru"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-#, fuzzy
-msgid "Install in ^OEM mode"
-msgstr "Instalează în mod OEM"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -400,3 +399,7 @@ msgstr "Test ^memorie"
 #, fuzzy
 msgid "^Boot from first hard disk"
 msgstr "^Porneşte de pe primul hard disc"
+
+#, fuzzy
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "Instalează în mod OEM"

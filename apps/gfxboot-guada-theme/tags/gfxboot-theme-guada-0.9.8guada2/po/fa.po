@@ -355,8 +355,8 @@ msgstr "نصب یک ^ایستگاه کاری"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "نصب در ^حالت OEM"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -388,3 +388,6 @@ msgstr "^امتحان حافظه"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^راه اندازی از اولین دیسک سخت"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "نصب در ^حالت OEM"

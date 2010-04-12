@@ -359,9 +359,8 @@ msgstr "Cài đặt một máy ^trạm"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-#, fuzzy
-msgid "Install in ^OEM mode"
-msgstr "Cài theo ^OEM"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -392,3 +391,7 @@ msgstr "Kiểm tra bộ ^nhớ"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "K^hởi động từ ổ cứng đầu tiên"
+
+#, fuzzy
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "Cài theo ^OEM"

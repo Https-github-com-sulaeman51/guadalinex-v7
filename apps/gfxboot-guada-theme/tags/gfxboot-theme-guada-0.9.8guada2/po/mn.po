@@ -362,8 +362,8 @@ msgstr "Хэрэглэгчийн түвшинд суулгах - ^w"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "^OEM горимд суулгах"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -394,3 +394,6 @@ msgstr "Санах ойн шалгалт - ^M"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Эхний хатуу дискээс эхлэх - ^B"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "^OEM горимд суулгах"

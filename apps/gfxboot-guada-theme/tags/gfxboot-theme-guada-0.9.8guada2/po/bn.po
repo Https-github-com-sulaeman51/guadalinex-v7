@@ -358,8 +358,8 @@ msgstr "একটি ^ওয়ার্কস্টেশন ইনস্টল �
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "^OEM মোডে ইনস্টল করুন"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -391,3 +391,6 @@ msgstr "^মেমরী পরীক্ষা"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "প্রথম হার্ড ডিস্ক থেকে ^বুট করো"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "^OEM মোডে ইনস্টল করুন"

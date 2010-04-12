@@ -357,8 +357,8 @@ msgstr "^workstation (உயர்கணினி இயங்கு தளம�
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "^OEM (ஓஈஎம்) முறைமையில் நிறுவு"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -389,3 +389,6 @@ msgstr "^நினைவக சோதனை"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "முதல் வன் தட்டிலிருந்து ^பூட் செய்"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "^OEM (ஓஈஎம்) முறைமையில் நிறுவு"
