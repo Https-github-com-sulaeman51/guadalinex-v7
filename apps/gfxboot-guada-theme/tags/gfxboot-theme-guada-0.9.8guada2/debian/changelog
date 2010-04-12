@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.1.14) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.14) dapper; urgency=low
 
   * Add the keymap menu to the short panel too, and move it to F3 next to
     language.
@@ -8,7 +8,7 @@ gfxboot-theme-ubuntu (0.1.14) UNRELEASED; urgency=low
     the French keymap, and made it difficult in general to get out of a
     keymap you selected by accident (closes: Malone #31767).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Tue, 21 Feb 2006 11:56:41 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 22 Feb 2006 10:40:36 +0000
 
 gfxboot-theme-ubuntu (0.1.13) dapper; urgency=low
 
