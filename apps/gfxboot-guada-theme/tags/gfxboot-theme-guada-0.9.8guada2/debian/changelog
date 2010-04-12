@@ -1,7 +1,7 @@
 gfxboot-theme-ubuntu (0.1.0) dapper; urgency=low
 
   * Initial release, based on the SuSE theme in gfxboot 3.2.5. Notable
-    changes from SuSE:
+    changes in this theme versus SuSE:
     - Remove "Christmas penguins" theme.
     - Remove driver update disk feature.
     - Remove boot loader splash; usplash should be able to provide
