@@ -5,6 +5,7 @@
 # Note: en.po ist treated specially!
 
 use Getopt::Long;
+use IPC::Open2;
 
 sub read_texts;
 sub join_msg;
@@ -106,6 +107,15 @@ sub read_texts
     $txt =~ s/\\"/"/g;
     $txt =~ s/\\\\/\\/g;
     $txt =~ s/\\n/\n/g;
+    if($lang eq "he")
+    {
+      my $bidi_pid = open2(\*BIDI_OUT, \*BIDI_IN, 'fribidi', '--nopad', '--nobreak');
+      print BIDI_IN $txt;
+      close BIDI_IN;
+      { local $/ = undef; $txt = <BIDI_OUT>; }
+      $txt =~ s/(.)%/%$1/g;
+      waitpid $bidi_pid, 0;
+    }
     print "$txt\x00"
   }
 
