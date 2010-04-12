@@ -223,7 +223,7 @@
 %
 /window.pop {
   window.list.index 0 eq { .undef return } if
-  /window.list.index window.list.index 1 sub def
+  /window.list.index dec
   window.list window.list.index get
   window.list window.list.index .undef put
   /window.current
