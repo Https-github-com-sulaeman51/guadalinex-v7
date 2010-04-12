@@ -54,7 +54,7 @@
 /keymap.update {
   /xmenu xmenu.keymap def
 
-  keymaps xmenu .xm_current get get .km.locales get 0 get setkeymap
+  /config.keymap keymaps xmenu .xm_current get get def
 
   window.action actRedraw eq { pmenu.update } if
 } def
