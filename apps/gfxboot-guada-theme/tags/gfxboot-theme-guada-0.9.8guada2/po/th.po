@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2009-07-01 23:49+0000\n"
-"Last-Translator: Roys Hengwatanakul <roysheng@gmail.com>\n"
+"PO-Revision-Date: 2009-09-24 11:05+0000\n"
+"Last-Translator: Tharawut Paripaiboon <Unknown>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
+"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -44,7 +44,7 @@ msgstr "ตัวเลือกในการบูตระบบ"
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "กำลังออกไป..."
+msgstr "กำลังออก..."
 
 #. txt_exit_dialog
 msgid ""
@@ -66,7 +66,7 @@ msgstr "บูตโหลดเดอร์"
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "ผิดพลาดเกี่ยวกับ I/O"
+msgstr "I/O ผิดพลาด"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -313,7 +313,7 @@ msgstr "^ติดตั้งอูบุนตูเซิร์ฟเวอ�
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_enterprise_cloud
 msgid "Install Ubuntu ^Enterprise Cloud"
-msgstr ""
+msgstr "ติดตั้งอูบุนตูแบบ ^Enterprise Cloud"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio

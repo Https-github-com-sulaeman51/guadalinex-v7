@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-07-01 23:49+0000\n"
-"PO-Revision-Date: 2009-04-03 10:38+0000\n"
-"Last-Translator: Astur <malditoastur@gmail.com>\n"
+"PO-Revision-Date: 2009-09-03 19:54+0000\n"
+"Last-Translator: Iñigo Varela <malditoastur@gmail.com>\n"
 "Language-Team: Asturian <ast@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
+"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -39,7 +39,7 @@ msgstr "Continuar"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Opciones Arranque"
+msgstr "Opciones d'Arranque"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -52,7 +52,7 @@ msgid ""
 "starting the text mode interface."
 msgstr ""
 "Tas dexando'l menú d'arranque gráficu y\n"
-"entamando la interface en modu testu"
+"aniciando la interface en mou testu"
 
 #. txt_help
 msgid "Help"
@@ -61,22 +61,22 @@ msgstr "Aida"
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Cargando arranque"
+msgstr "Cargador d'arranque"
 
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "Error I/O"
+msgstr "Fallu de E/S"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Camudar Discu Arranque"
+msgstr "Camudar Discu d'Arranque"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Meter discu arranque %u."
+msgstr "Inxertar discu d'arranque %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -84,8 +84,8 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"Esti ye discu arranque %u.\n"
-"Mete discu arranque %u."
+"Esti ye'l discu d'arranque %u.\n"
+"Inxerte'l discu d'arranque %u."
 
 #. txt_insert_disk3
 #, c-format
@@ -94,7 +94,7 @@ msgid ""
 "Please insert boot disk %u."
 msgstr ""
 "Esti nun ye un discu d'arranque válidu.\n"
-"Por favor, mete discu d'arranque %u."
+"Por favor, inxerte un discu d'arranque %u."
 
 #. password dialog title
 #. txt_password_title
@@ -123,7 +123,7 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Esti ye un DVD de doble cara. Tienes qu'arrancalu dende la segunda cara.\n"
+"Esti ye un DVD de doble cara. Tienes d'arrancalu dende la segunda cara.\n"
 "\n"
 "Camuda'l DVD pa continuar."
 
@@ -163,7 +163,7 @@ msgstr "Modos"
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Calca F4 pa seleicionar alternativa d'entamu y mou d'instalación."
+msgstr "Calca F4 pa seleicionar mou d'arranque y d'instalación alternativu."
 
 #. label for modes menu
 #. txt_mode_normal
@@ -183,7 +183,7 @@ msgstr "Accesibilidá"
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr "Nengún"
+msgstr "Dengún"
 
 #. label for accessibility menu
 #. txt_access_v1
@@ -193,7 +193,7 @@ msgstr "Altu contraste"
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr "Agrandar"
+msgstr "Llupa"
 
 #. label for accessibility menu
 #. txt_access_v3
@@ -208,7 +208,7 @@ msgstr "Terminal Braille"
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr "Camudar tecláu"
+msgstr "Modificadores de tecláu"
 
 #. label for accessibility menu
 #. txt_access_m2
@@ -218,32 +218,32 @@ msgstr "Tecláu en pantalla"
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr "Motor Dificultaes - camudar dispositivu"
+msgstr "Dificultaes motores - preseos de conmutación"
 
 #. label for accessibility menu
 #. txt_access_all
 msgid "Everything"
-msgstr "Cualesquier"
+msgstr "Tou"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "^Intentar Ubuntu ensín nengún cambéu al to ordenador"
+msgstr "^Prebar Ubuntu ensin facer cambeos nel to equipu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "^Intentar Kubuntu ensín nengún cambéu al to ordenador"
+msgstr "^Prebar Kubuntu ensin facer cambeos nel to equipu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "^Intentar Edubuntu ensin nengún cambéu al to ordenador"
+msgstr "^Prebar Edubuntu ensin facer cambeos nel to equipu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "^Intentar Xubuntu ensin nengún cambéu al to ordenador"
+msgstr "^Intentar Xubuntu ensin facer cambeos nel to equipu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
@@ -258,12 +258,12 @@ msgstr "^Prebar Ubuntu Netbook Remix ensin alterar el so equipu"
 #. Installation mode.
 #. txt_menuitem_xforcevesa
 msgid "Safe graphics mode"
-msgstr "Mou seguru gráficu"
+msgstr "Mou gráficu seguru"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
-msgstr "Usar discu d'actualización de controladores"
+msgstr "Usar discu d'anovamientu de controladores"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -308,12 +308,12 @@ msgstr "^Instalar Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr "^Instalar Sirvidor Ubuntu"
+msgstr "^Instalar Ubuntu Server"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_enterprise_cloud
 msgid "Install Ubuntu ^Enterprise Cloud"
-msgstr ""
+msgstr "Instalar Ubuntu ^Enterprise Cloud"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
@@ -338,7 +338,7 @@ msgstr "Instalar una estación de trabayu"
 #. Installation mode.
 #. txt_menuitem_server
 msgid "Install a server"
-msgstr "Instalar un servidor"
+msgstr "Instalar un sirvidor"
 
 #. Installation mode.
 #. txt_menuitem_oem
@@ -348,17 +348,17 @@ msgstr "Instalación OEM (pa fabricantes)"
 #. Installation mode.
 #. txt_menuitem_lamp
 msgid "Install a LAMP server"
-msgstr "Instalar un servidor LAMP"
+msgstr "Instalar un sirvidor LAMP"
 
 #. Installation mode.
 #. txt_menuitem_ltsp
 msgid "Install an LTSP server"
-msgstr "Instalar un servidor LTSP"
+msgstr "Instalar un sirvidor LTSP"
 
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
 msgid "Install a Diskless Image Server"
-msgstr "Instalar una Imaxe Discu Servidor"
+msgstr "Instalar un Sirvidor d'imáxenes ensin discu"
 
 #. Installation mode.
 #. txt_menuitem_cli
@@ -378,32 +378,32 @@ msgstr "Instalar una máquina virtual mínima"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check disc for defects"
-msgstr "^Comprobar defeutos de discu"
+msgstr "^Comprobar defeutos nel discu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "^Rescatar un sistema desaniciáu"
+msgstr "^Rescatar un sistema frañáu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "Test ^memory"
-msgstr "Preba ^memoria"
+msgstr "Analís de ^memoria"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "^Reaniciar dende'l primer discu duru"
+msgstr "^Arrancar dende'l primer discu duru"
 
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr "Sólo software llibre"
+msgstr "Namái software llibre"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr "Reinstalación Automática ^Dell"
+msgstr "Reinstalación Automática de ^Dell"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
@@ -413,4 +413,4 @@ msgstr "^Instalar Mythbuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr "^Prebar Mythbuntu ensin facer cambéos nel ordenador"
+msgstr "^Prebar Mythbuntu ensin facer cambeos nel to equipu"

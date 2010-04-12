@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-03-27 22:16+0000\n"
-"PO-Revision-Date: 2009-07-01 23:49+0000\n"
-"Last-Translator: kids_pro <chornsokun@gmail.com>\n"
+"PO-Revision-Date: 2009-10-19 00:02+0000\n"
+"Last-Translator: chhorran <khmeritforyou@gmail.com>\n"
 "Language-Team: Khmer <km@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
+"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -30,7 +30,7 @@ msgstr "បោះបង់"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "ចាប់​ផ្ដើម​ឡើងវិញ"
+msgstr "ផ្តើមឡើងវិញ"
 
 #. continue button label
 #. txt_continue
@@ -39,20 +39,18 @@ msgstr "បន្ត"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "កំណត់ការចាប់​ផ្ដើម​ប្រព័ន្ធ"
+msgstr "ជំរើស ផ្តើមប្រព័ន្ធ"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "កំពុង​បិទ..."
+msgstr "កំពុងចេញ"
 
 #. txt_exit_dialog
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr ""
-"អ្នកកំពុងចាកចេញពីទំរង់\n"
-"ហើយបាននឹងកំពុងចាប់ផ្តើម"
+msgstr "អ្នក កំពុងចាកចេញ មែនញាវផ្តើមប្រព័ន្ធក្រាភិក និង ផ្តើមផ្ទាំងប្រទាក់ បែបអត្ថបទ។"
 
 #. txt_help
 msgid "Help"
@@ -61,41 +59,41 @@ msgstr "ជំនួយ"
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "កម្មវិធី​ចាប់​ផ្ដើម​ប្រព័ន្ធ"
+msgstr "ឧបករ ផ្ទុកការផ្តើមប្រព័ន្ធ"
 
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "កំហុសឆ្គងផ្នែក I/O"
+msgstr "កំហុស I/O"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "ប្តូការចាប់ផ្តើមរបស់ថាស"
+msgstr "ផ្លាស់ប្តូរ ថាសផ្តើមប្រព័ន្ធ"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr ""
+msgstr "សូកចូល ថាសផ្តើមប្រព័ន្ធ%u។"
 
 #. txt_insert_disk2
 #, c-format
 msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
-msgstr ""
+msgstr "នេះជា ថាសផ្តើមប្រព័ន្ធ %u។ សូកចូល ថាសផ្តើមប្រព័ន្ធ %u។"
 
 #. txt_insert_disk3
 #, c-format
 msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
-msgstr ""
+msgstr "នេះជា ថាសផ្តើមប្រព័ន្ធ មិនសមស្រប។ សូមសូកចូល ថាសផ្តើមប្រព័ន្ធ %u។"
 
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "ពាក្យ​​​សម្ងាត់"
+msgstr "ពាក្យសំងាត់"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
@@ -104,46 +102,44 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"បញ្ជូល ពាក្យ​​​សម្ងាត់ របស់អ្នក   \n"
+"បញ្ចូល ពាក្យសំងាត់ របស់អ្នក ៖   \n"
 "\n"
 "\n"
 
 #. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr "DVD មានបញ្ហា"
+msgstr "កំហុស ឌិវីឌី"
 
 #. txt_dvd_warning2
 msgid ""
 "This is a two-sided DVD. You have booted from the second side.\n"
 "\n"
 "Turn the DVD over then continue."
-msgstr ""
-"នេះគឺជា DVD ប្រើបានសងខាង។ អ្នកបានចាប់ផ្តើម ពីផ្នែកទី២នៃថាស\n"
-"ត្រឡប់ DVD រួចបន្តដំណើការ"
+msgstr "នេះជា ឌិវីឌីមុខសងខាង។ អ្នកបានផ្តើមប្រព័ន្ធ ពីមុខទីពីរ។ ត្រលប់វិញ ឌិវីឌី រួចបន្ត។"
 
 #. power off dialog title
 #. txt_power_off_title
 msgid "Power Off"
-msgstr "បិទ ចរន្ត"
+msgstr "បិទ អានុភាព"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "បញ្ឈប់ ដំណើការប្រពន្ធ័ ឥឡូវនេះ?"
+msgstr "បញ្ឈប់ប្រព័ន្ធ ឥឡូវ ឬ?"
 
 #. txt_password
 msgid "Password\n"
-msgstr "ពាក្យសម្ងាត់\n"
+msgstr "ពាក្យសំងាត់\n"
 
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "ជម្រើស​ផ្សេង​ទៀត"
+msgstr "ជំរើសដទៃ"
 
 #. label for language selection
 #. txt_language
 msgid "Language"
-msgstr ""
+msgstr "ភាសា"
 
 #. label for keymap selection
 #. txt_keymap
@@ -153,12 +149,12 @@ msgstr "ផែនទី​គ្រាប់​ចុច"
 #. label for installation mode selection
 #. txt_modes
 msgid "Modes"
-msgstr "ទម្រង់"
+msgstr "បែប"
 
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "ចុច F4 ដើម្បីជ្រើសរើសការចាប់ផ្តើម និង ទម្រង់នៃការបព្ជូល។"
+msgstr "ចុច F4 ដើម្បីជ្រើសយកឆ្លាស់ បែបតំលើង និង ផ្តើម។"
 
 #. label for modes menu
 #. txt_mode_normal
@@ -168,12 +164,12 @@ msgstr "ធម្មតា"
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr "ទម្រង់សម្រាប់អ្នក​ស្ទាត់​ជំនាញ"
+msgstr "បែបជំនាញ"
 
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "ភាព​អាច​ចូល​ដំណើរការ"
+msgstr "ភាពអាចចូលទៅ"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -183,17 +179,17 @@ msgstr "គ្មាន"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "កំរិតមុតខ្ពស់ នៃពណ៌"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "X Magnifier"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "ឧបករ អានស្គ្រីន"
 
 #. label for accessibility menu
 #. txt_access_brltty
@@ -203,12 +199,12 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "ឧបករផ្លាស់ប្តូរ ក្តារចុច"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "ក្តារចុច លើស្គ្រីន"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -218,167 +214,167 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_all
 msgid "Everything"
-msgstr ""
+msgstr "គ្រប់សព្វ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr ""
+msgstr "^ព្យាយាម Ubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr ""
+msgstr "^ព្យាយាម Kubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr ""
+msgstr "^ព្យាយាម Eubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr ""
+msgstr "^ព្យាយាម Xubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr ""
+msgstr "^ព្យាយាម Ubuntu MID គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr ""
+msgstr "^ព្យាយាម ខំព្យូរើណែត Ubuntu Remix គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
 msgid "Safe graphics mode"
-msgstr ""
+msgstr "បែបក្រាភិក សុវត្ថភាព"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
-msgstr ""
+msgstr "ប្រើប្រាស់ ថាសបន្ទាន់សម័យ កម្មវិធីបញ្ជា"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
-msgstr ""
+msgstr "^តំលើង Ubuntu ជា បែបអត្ថបទ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
 msgid "^Install Kubuntu in text mode"
-msgstr ""
+msgstr "^តំលើង Kubuntu ជា បែបអត្ថបទ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_edubuntu
 msgid "^Install Edubuntu in text mode"
-msgstr ""
+msgstr "^តំលើង Edubuntu ជា បែបអត្ថបទ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr ""
+msgstr "^តំលើង Xubuntu ជា បែបអត្ថបទ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr ""
+msgstr "^តំលើង Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr ""
+msgstr "^តំលើង Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
 msgid "^Install Edubuntu"
-msgstr ""
+msgstr "^តំលើង Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_xubuntu
 msgid "^Install Xubuntu"
-msgstr ""
+msgstr "^តំលើង Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr ""
+msgstr "^តំលើង ខំព្យូរើបំរើសេវា Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_enterprise_cloud
 msgid "Install Ubuntu ^Enterprise Cloud"
-msgstr ""
+msgstr "តំលើង Ubuntu ^ពពកសហគ្រាស"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr ""
+msgstr "^តំលើង Ubuntu រោងជាង"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr ""
+msgstr "^តំលើង Ubuntu MID"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
 msgid "^Install Ubuntu Netbook Remix"
-msgstr ""
+msgstr "^តំលើង ខំព្យូរើណែត Ubuntu Remix"
 
 #. Installation mode.
 #. txt_menuitem_workstation
 msgid "Install a workstation"
-msgstr ""
+msgstr "តំលើង មួយស្ថានីយការងារ"
 
 #. Installation mode.
 #. txt_menuitem_server
 msgid "Install a server"
-msgstr ""
+msgstr "តំលើង ខំព្យូរើបំរើសេវា"
 
 #. Installation mode.
 #. txt_menuitem_oem
 msgid "OEM install (for manufacturers)"
-msgstr ""
+msgstr "តំលើង OEM (សំរាប់ ពួកម្ចាស់រោងចក្រ)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
 msgid "Install a LAMP server"
-msgstr ""
+msgstr "តំលើង មួយខំព្យូរើបំរើសេវា LAMP"
 
 #. Installation mode.
 #. txt_menuitem_ltsp
 msgid "Install an LTSP server"
-msgstr ""
+msgstr "តំលើង មួយខំព្យូរើបំរើសេវា LTSP"
 
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
 msgid "Install a Diskless Image Server"
-msgstr ""
+msgstr "តំលើង មួយខំព្យូរើបំរើសេវារូបភាព គ្មានថាស"
 
 #. Installation mode.
 #. txt_menuitem_cli
 msgid "Install a command-line system"
-msgstr ""
+msgstr "តំលើង មួយប្រព័ន្ធ ឃ្លាបញ្ជា"
 
 #. Installation mode.
 #. txt_menuitem_minimal
 msgid "Install a minimal system"
-msgstr ""
+msgstr "តំលើង មួយប្រព័ន្ធអតិបរិមា"
 
 #. Installation mode.
 #. txt_menuitem_minimalvm
 msgid "Install a minimal virtual machine"
-msgstr ""
+msgstr "តំលើង មួយម៉ាស៊ីនក្លែង អតិបរិមា"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check disc for defects"
-msgstr ""
+msgstr "^ឆែកថាស រកមើល ផ្នែកខូច"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr ""
+msgstr "^សង្គ្រោះ មួយប្រព័ន្ធខូស"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
@@ -388,24 +384,24 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr ""
+msgstr "^ផ្តើមប្រព័ន្ធ ពីថាសរឹងទីមួយ"
 
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr ""
+msgstr "ត្រឹមផ្នែកទន់ ឥតគិតថ្លៃ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "^តំលើងឡើងវិញ ស្វ័យប្រវត្តិ Dell"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "^តំលើង Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "^ព្យាយាម Mythbuntu  គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"

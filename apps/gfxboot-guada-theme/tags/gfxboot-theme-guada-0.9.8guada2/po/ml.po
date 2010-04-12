@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2007-02-28 07:00:57.592902+00:00\n"
-"PO-Revision-Date: 2009-07-01 23:51+0000\n"
-"Last-Translator: Nikhil Ben Kuruvilla <n.b.k@aol.in>\n"
+"PO-Revision-Date: 2009-09-06 10:03+0000\n"
+"Last-Translator: Deepu G Nair <Unknown>\n"
 "Language-Team: Malayalam <ml@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
+"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -39,7 +39,7 @@ msgstr "തുടരൂ"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "ബൂട്ടു് ഒാപ്ഷനുകള്"
+msgstr "ബൂട്ടു് ഓപ്ഷനുകള്"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -158,7 +158,7 @@ msgstr ""
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr ""
+msgstr "ലഭ്യമായ മറ്റ് സ്റ്റാര്‍ട്ടപ്പ് / ഇന്‍സ്റ്റല്ലേഷന്‍ രീതികള്‍ക്ക്  F4 അമര്‍ത്തുക"
 
 #. label for modes menu
 #. txt_mode_normal
@@ -283,7 +283,7 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr ""
+msgstr "ഉബുണ്ടു ഇന്‍സ്റ്റാള്‍ ചെയ്യുക"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu

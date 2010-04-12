@@ -6,13 +6,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-08-07 01:59+0000\n"
-"Last-Translator: Chen Ming <Unknown>\n"
+"PO-Revision-Date: 2009-10-15 08:50+0000\n"
+"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
+"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -37,7 +37,7 @@ msgstr "下一步"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "启动选项"
+msgstr "引导选项"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -48,7 +48,9 @@ msgstr "正在退出..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr "您将离开图形引导菜单，启动纯文本模式界面。"
+msgstr ""
+"您将离开图形引导菜单，\n"
+"并启动文本方式界面。"
 
 #. txt_help
 msgid "Help"
@@ -57,7 +59,7 @@ msgstr "帮助"
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "引导装载程序"
+msgstr "引导程序"
 
 #. error box title
 #. txt_error_title
@@ -72,7 +74,7 @@ msgstr "更换引导盘"
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "插入引导盘 %u。"
+msgstr "请插入引导盘 %u。"
 
 #. txt_insert_disk2
 #, c-format
@@ -81,7 +83,7 @@ msgid ""
 "Insert boot disk %u."
 msgstr ""
 "这是引导盘 %u。\n"
-"插入引导盘 %u。"
+"请插入引导盘 %u。"
 
 #. txt_insert_disk3
 #, c-format
@@ -90,12 +92,12 @@ msgid ""
 "Please insert boot disk %u."
 msgstr ""
 "这不是正确的引导盘。\n"
-"请插入正确的引导盘%u。"
+"请插入正确的引导盘 %u。"
 
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "密码"
+msgstr "口令"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
@@ -104,7 +106,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"输入密码：   \n"
+"输入口令：   \n"
 "\n"
 "\n"
 
@@ -134,7 +136,7 @@ msgstr "现在关闭系统吗？"
 
 #. txt_password
 msgid "Password\n"
-msgstr "密码\n"
+msgstr "口令\n"
 
 #. button label for other/more options
 #. txt_other_options
@@ -159,7 +161,7 @@ msgstr "模式"
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "按 F4 选择其他启动和安装模式。"
+msgstr "按 F4 选择启动或安装模式。"
 
 #. label for modes menu
 #. txt_mode_normal
@@ -214,7 +216,7 @@ msgstr "屏幕键盘"
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr "运动机能障碍人士专用开关输入设备"
+msgstr "运动障碍 - 开关设备"
 
 #. label for accessibility menu
 #. txt_access_all
@@ -224,32 +226,32 @@ msgstr "所有内容"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "试用Ubuntu而不改变计算机中的任何内容 (^T)"
+msgstr "试用 Ubuntu 而不改变计算机中的任何内容(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "试用Kubuntu而不改变计算机中的任何内容 (^T)"
+msgstr "试用 Kubuntu 而不改变计算机中的任何内容(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "试用Edubuntu而不改变计算机中的任何内容 (^T)"
+msgstr "试用 Edubuntu 而不改变计算机中的任何内容(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "试用Xubuntu而不改变计算机中的任何内容（^T）"
+msgstr "试用 Xubuntu 而不改变计算机中的任何内容(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr "试用Ubuntu MID而不改变计算机中的任何内容 (^T)"
+msgstr "试用 Ubuntu MID 而不改变计算机中的任何内容(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr "试用Ubuntu Netbook Remix而不改变计算机中的任何内容 (^T)"
+msgstr "试用 Ubuntu Netbook Remix 而不改变计算机中的任何内容(^T)"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -304,12 +306,12 @@ msgstr "安装 Xubuntu (^I)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr "安装 Ubuntu 服务器 (^I)"
+msgstr "安装 Ubuntu 服务器版 (^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_enterprise_cloud
 msgid "Install Ubuntu ^Enterprise Cloud"
-msgstr ""
+msgstr "安装 Ubuntu 企业云(^E)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
@@ -339,17 +341,17 @@ msgstr "安装服务器"
 #. Installation mode.
 #. txt_menuitem_oem
 msgid "OEM install (for manufacturers)"
-msgstr "OEM 安装（供厂商使用）"
+msgstr "OEM 安装(供厂商使用)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
 msgid "Install a LAMP server"
-msgstr "安装 LAMP（Linux, Apache, MySQL, PHP）服务器"
+msgstr "安装 LAMP (Linux, Apache, MySQL, PHP)服务器"
 
 #. Installation mode.
 #. txt_menuitem_ltsp
 msgid "Install an LTSP server"
-msgstr "安装LTSP（Linux Terminal Server Project）服务器"
+msgstr "安装LTSP (Linux Terminal Server Project)服务器"
 
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
@@ -379,7 +381,7 @@ msgstr "检测盘片是否有错误(^C)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "挽救已损坏的系统(^R)"
+msgstr "修复损坏的系统(^R)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
@@ -389,12 +391,12 @@ msgstr "测试内存(^M)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "从第一块硬盘启动 (^B)"
+msgstr "从第一硬盘引导(^B)"
 
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr "仅限自由软件"
+msgstr "仅安装自由软件"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
@@ -404,9 +406,9 @@ msgstr "戴尔自动重新安装(^D)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr "安装 Mythbuntu(^I)"
+msgstr "安装 Mythbuntu (^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr "尝试 Mythbuntu 而不用改变你的电脑(^T)"
+msgstr "试用 Mythbuntu 而改变计算机的任何内容(^T)"
