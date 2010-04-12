@@ -2,6 +2,8 @@ gfxboot-theme-ubuntu (0.5.6) UNRELEASED; urgency=low
 
   * Rebuild font with unifont 1:1.0-4ubuntu3 (thanks, Liu Qishuai;
     LP: #62849).
+  * Include .po files from debian-installer in corpus used to build reduced
+    font (LP: #106074, #195451).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Fri, 29 Feb 2008 17:48:18 +0000
 
