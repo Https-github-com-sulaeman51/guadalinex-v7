@@ -8,6 +8,8 @@ gfxboot-theme-ubuntu (0.5.9) UNRELEASED; urgency=low
     when booting with a non-Latin keymap (LP: #200803).
   * Ensure that boot parameters are displayed immediately after pressing F6
     (LP: #198536).
+  * Update translations from Launchpad. Among many other things, this
+    completes the French translation (LP: #193901).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue, 11 Mar 2008 00:54:43 +0000
 

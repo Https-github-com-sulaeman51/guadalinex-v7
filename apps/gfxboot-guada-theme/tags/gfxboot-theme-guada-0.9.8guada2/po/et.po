@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2007-09-16 12:05+0000\n"
+"PO-Revision-Date: 2008-03-06 15:46+0000\n"
 "Last-Translator: margus723 <margus723@hot.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2007-10-09 09:00+0000\n"
+"X-Launchpad-Export-Date: 2008-03-11 01:24+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -88,7 +88,7 @@ msgstr ""
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Alglaadimine"
+msgstr "Alglaadur"
 
 #. error box title
 #. txt_error_title
@@ -239,12 +239,12 @@ msgstr "Võtmekaart"
 #. label for installation mode selection
 #. txt_modes
 msgid "Modes"
-msgstr ""
+msgstr "Režiimid"
 
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr ""
+msgstr "Vajuta F4 kui valid alternatiivsema käivituse ja paigaldusmeetodi."
 
 #. label for d-i mode menu
 #. txt_expert_mode
@@ -303,108 +303,96 @@ msgstr "Kõik"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "^Käivita või paigalda Ubuntu"
+msgstr "^Ubuntu käivitamine"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "^Käivita või paigalda Kubuntu"
+msgstr "^Kubuntu käivitamine"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "^Käivita või paigalda Edubuntu"
+msgstr "^Edubuntu käivitamine"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "^Käivita või paigalda Xubuntu"
+msgstr "^Xubuntu käivitamine"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
-#, fuzzy
 msgid "Safe graphics mode"
 msgstr "Käivita Ubuntu turvalises ^graafilises laadis"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-#, fuzzy
 msgid "Use driver update CD"
 msgstr "Paigalda koos draiveri ^uuenduste CD'ga"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
-#, fuzzy
 msgid "^Install Ubuntu in text mode"
 msgstr "^Paigalda tekstilaadis"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
 msgid "^Install Kubuntu in text mode"
-msgstr ""
+msgstr "^Paigalda Kubuntu tekstilaadis"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_edubuntu
 msgid "^Install Edubuntu in text mode"
-msgstr ""
+msgstr "^Paigalda Edubuntu tekstilaadis"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr ""
+msgstr "^Paigalda Xubuntu tekstilaadis"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr ""
+msgstr "^Paigalda Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr ""
+msgstr "^Paigalda Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
 msgid "^Install Edubuntu"
-msgstr ""
+msgstr "^Paigalda Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_xubuntu
 msgid "^Install Xubuntu"
-msgstr ""
+msgstr "^Paigalda Xubuntu"
 
 #. Installation mode.
 #. txt_menuitem_workstation
-#, fuzzy
 msgid "Install a workstation"
 msgstr "Paigalda ^tööjaam"
 
 #. Installation mode.
 #. txt_menuitem_server
-#, fuzzy
 msgid "Install a server"
 msgstr "Paigalda ser^ver"
 
 #. Installation mode.
 #. txt_menuitem_oem
-#, fuzzy
 msgid "OEM install (for manufacturers)"
 msgstr "^OEM paigaldus (tootjatele)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
-#, fuzzy
 msgid "Install a LAMP server"
 msgstr "Paigalda ^LAMP server"
 
 #. Installation mode.
 #. txt_menuitem_ltsp
-#, fuzzy
 msgid "Install an LTSP server"
 msgstr "Paigalda LTSP s^erver"
 
@@ -415,7 +403,6 @@ msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a command-line system"
 msgstr "Paigalda k^äsurea süsteem"
 
@@ -431,7 +418,6 @@ msgstr "Pa^randa rikutud süsteem"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
-#, fuzzy
 msgid "Test ^memory"
 msgstr "^Mälutest"
 
