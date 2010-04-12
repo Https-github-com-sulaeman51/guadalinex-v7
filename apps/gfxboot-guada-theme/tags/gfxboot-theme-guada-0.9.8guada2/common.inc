@@ -399,7 +399,9 @@
 
   /menu.dentry exch def
   /menu.args exch def
+  menuconfig.init
   /menu.texts exch def
+  /menu.humans exch def
 
   window.main
   dup window.init
@@ -872,30 +874,13 @@
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % ( text ) == > ( new_text )
+% If text is in menu.texts (it should be), return the corresponding item
+% from menu.humans. Otherwise, return text as-is.
 /menuitemmap {
-  translate
-  dup "memtest" eq over "memtest86" eq or { pop txt_memtest return } if
-  syslinux {
-    livecd {
-      dup "linux"     eq { pop "SUSE Linux 10.1 LiveCD (english)" return } if
-      dup "failsafe"  eq { pop "LiveCD - Safe Settings" return } if
-      dup "linux2"    eq { pop "SUSE Linux 10.1 LiveCD (deutsch)" return } if
-      dup "failsaf2"  eq { pop "LiveCD - Sichere Einstellungen" return } if
-    } {
-      dup "linux"     eq { pop txt_install        return } if
-      dup "failsafe"  eq { pop txt_safe_install   return } if
-    } ifelse
-    dup "live"      eq { pop "SUSE Linux 10.1 LiveCD" return } if
-    dup "noacpi"    eq { pop txt_noacpi_install return } if
-    dup "manual"    eq { pop txt_manual_install return } if
-    dup "rescue"    eq { pop txt_rescue         return } if
-    dup "hwcheck"   eq { pop "Hardware Check"   return } if
-    dup "harddisk"  eq { pop txt_boot_harddisk  return } if
-  } {
-    dup "linux"     eq { pop "Linux"        return } if
-    dup "failsafe"  eq { pop txt_safe_linux return } if
-    dup "windows"   eq { pop "Windows"      return } if
-  } ifelse
+  0 menu.texts {
+    2 index eq { menu.humans over get exch pop return } if
+    1 add
+  } forall pop
 } def
 
 
