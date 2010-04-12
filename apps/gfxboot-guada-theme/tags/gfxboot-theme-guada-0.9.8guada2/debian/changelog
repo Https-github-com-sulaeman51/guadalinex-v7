@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.8.1) UNRELEASED; urgency=low
+
+  * Make menu columns variable-width, to make it easier to fit more
+    languages and keymaps onto the screen.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 10 Jun 2009 01:04:31 +0100
+
 gfxboot-theme-ubuntu (0.8.0) karmic; urgency=low
 
   * Update language names from localechooser 2.11ubuntu1, adding Asturian,

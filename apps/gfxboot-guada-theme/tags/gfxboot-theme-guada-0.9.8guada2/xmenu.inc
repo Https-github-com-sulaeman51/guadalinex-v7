@@ -32,7 +32,7 @@ small_layout {
 /.xm_list		 1 def		% string list
 /.xm_x			 2 def		% menu x pos
 /.xm_y			 3 def		% menu y pos
-/.xm_width		 4 def		% menu width
+/.xm_width		 4 def		% menu width per column
 /.xm_height		 5 def		% menu height
 /.xm_panel_x		 6 def		% panel entry x pos
 /.xm_panel_width	 7 def		% panel entry width
@@ -186,12 +186,42 @@ small_layout {
     xmenu .xm_list get length xmenu.maxlines min xmenu.lheight mul
   put
 
-  xmenu .xm_width
-    0 xmenu .xm_list get { exec strsize pop max } forall
-    xmenu .xm_check get { "x  " strsize pop add } if
-    xmenu.hspace 2 mul add
-  put
+  xmenu .xm_width [
+    /xmenu.idx 0 def
+    0 xmenu .xm_list get {
+      exec strsize pop max
+      /xmenu.idx inc
+      xmenu.idx xmenu.maxlines mod 0 eq {
+	xmenu .xm_check get { "x  " strsize pop add } if
+	xmenu.hspace 2 mul add
+	0
+      } if
+    } forall
+    xmenu.idx xmenu.maxlines mod 0 ne {
+      xmenu .xm_check get { "x  " strsize pop add } if
+      xmenu.hspace 2 mul add
+    } { pop } ifelse
+  ] put
 
+  /xmenu.saved.normal xmenu.columns array def
+  /xmenu.saved.selected xmenu.columns array def
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Width up to but not including specified column.
+%
+% ( column ) ==> ( width )
+%
+/xmenu.widthupto {
+  % width up to column 0 is 0; but '0 1 -1 { } for' always runs once, so
+  % special-case that
+  dup {
+    0 exch
+    0 1 rot 1 sub {
+      xmenu.width exch get 2 add add
+    } for
+  } if
 } def
 
 
@@ -217,11 +247,11 @@ small_layout {
     dup .saved.areas get xmenu.column
 
     [
-      xmenu.column xmenu.width 2 add mul xmenu.x add 1 sub xmenu.y 1 sub moveto
+      xmenu.column xmenu.widthupto xmenu.x add 1 sub xmenu.y 1 sub moveto
       currentpoint
 
       xmenu.light xmenu.dark
-      xmenu.width 2 add
+      xmenu.width xmenu.column get 2 add
       xmenu.column 1 add xmenu.columns eq { xmenu.lastheight } { xmenu.height } ifelse 2 add
       over over savescreen 5 1 roll
       drawborder
@@ -237,7 +267,7 @@ small_layout {
       currentpoint
 
       xmenu.light xmenu.dark
-      xmenu.width 2 add xmenu.columns mul
+      xmenu.columns xmenu.widthupto
       xmenu.lheight 2 add
       over over savescreen 5 1 roll
       drawborder
@@ -265,7 +295,9 @@ small_layout {
 %
 /xmenu.done {
   /xmenu.tmpbuf xmenu.tmpbuf free .undef def
+  xmenu.saved.normal { free } forall
   /xmenu.saved.normal xmenu.saved.normal free .undef def
+  xmenu.saved.selected { free } forall
   /xmenu.saved.selected xmenu.saved.selected free .undef def
   /xmenu.saved.areas .undef def
 } def
@@ -302,11 +334,12 @@ small_layout {
   dup xmenu.maxlines mod xmenu.lheight mul xmenu.y add /xmenu.pos.y exch def
 
   dup xmenu.maxlines div /xmenu.column over def
-  xmenu.width 2 add mul xmenu.x add /xmenu.pos.x exch def
+  xmenu.widthupto xmenu.x add /xmenu.pos.x exch def
 
   xmenu.pos.x xmenu.pos.y moveto
 
   dup xmenu .xm_current get eq { xmenu.saved.selected } { xmenu.saved.normal } ifelse
+  xmenu.column get
 
   dup {
     transp { pop } { restorescreen } ifelse
@@ -314,24 +347,28 @@ small_layout {
     pop
 
     dup xmenu .xm_current get eq { xmenu.selected.bg } { xmenu.normal.bg } ifelse
-    setcolor xmenu.width xmenu.lheight fillrect
+    setcolor xmenu.width xmenu.column get xmenu.lheight fillrect
 
     dup xmenu .xm_current get eq {
       xmenu.pos.x xmenu.pos.y moveto
-      xmenu.dark xmenu.light xmenu.width xmenu.lheight drawborder
+      xmenu.dark xmenu.light
+      xmenu.width xmenu.column get xmenu.lheight
+      drawborder
     } if
 
-    dup xmenu .xm_current get eq { /xmenu.saved.selected } { /xmenu.saved.normal } ifelse
+    dup xmenu .xm_current get eq { xmenu.saved.selected } { xmenu.saved.normal } ifelse
+      xmenu.column
       xmenu.pos.x xmenu.pos.y moveto
-      xmenu.width xmenu.lheight
+      xmenu.width xmenu.column get xmenu.lheight
       savescreen
-    def
+    put
   } ifelse
 
 
   transp {
     % copy entry to avoid reading the screen again
     dup xmenu .xm_current get eq { xmenu.saved.selected } { xmenu.saved.normal } ifelse
+    xmenu.column get
     xmenu.tmpbuf .undef eq {
       dup length malloc /xmenu.tmpbuf exch def
     } if
@@ -369,7 +406,7 @@ small_layout {
   xmenu.font setfont
 
   /xmenu.pos.y xmenu.y xmenu.vspace sub xmenu.lheight sub def
-  /xmenu.header.width xmenu.width 2 add xmenu.columns mul 2 sub def
+  /xmenu.header.width xmenu.columns xmenu.widthupto 2 sub def
 
   xmenu.x xmenu.pos.y moveto
 
@@ -414,7 +451,7 @@ small_layout {
   % try to ensure that the menu doesn't overflow the screen
   xmenu .xm_x
     xmenu .xm_panel_x get
-    screen.size pop xmenu.width 2 add xmenu.columns mul 10 add sub
+    screen.size pop xmenu.columns xmenu.widthupto 10 add sub
     min put
 
   pmenu.update
@@ -472,7 +509,7 @@ small_layout {
   xmenu.sizes
 
   xmenu .xm_y panel.text.y 1 sub xmenu.height sub put
-  xmenu .xm_panel_width xmenu.width put
+  xmenu .xm_panel_width xmenu.width 0 get put
   xmenu .xm_panel_height fontheight put
 } def
 
