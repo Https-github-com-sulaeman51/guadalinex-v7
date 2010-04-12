@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2008-04-13 10:30+0000\n"
-"Last-Translator: Adi Roiban <adi@roiban.ro>\n"
+"PO-Revision-Date: 2008-04-20 19:29+0000\n"
+"Last-Translator: Ionuț Jula <ionutjula@gmail.com>\n"
 "Language-Team: Romanian <ro-kde@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-04-14 08:24+0000\n"
+"X-Launchpad-Export-Date: 2008-04-21 14:04+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -51,8 +51,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Acum veţi părăsi modul grafic de pornire\n"
-"şi veţi intra în interfaţa text."
+"Acum veți părăsi modul grafic de pornire\n"
+"și veți intra în interfața text."
 
 #. txt_help
 msgid "Help"
@@ -150,9 +150,9 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Acesta este un DVD cu două feţe. Aţi pornit sistemul de pe faţa a doua.\n"
+"Acesta este un DVD cu două fețe. Ați pornit sistemul de pe fața a doua.\n"
 "\n"
-"Întoarceţi DVD-ul şi apoi continuaţi."
+"Întoarceți DVD-ul și apoi continuați."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -170,7 +170,7 @@ msgstr "Parola\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Alte opţiuni"
+msgstr "Alte opțiuni"
 
 #. label for language selection
 #. txt_language
@@ -191,7 +191,7 @@ msgstr "Moduri"
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
 msgstr ""
-"Apăsaţi F4 pentru a alege modalităţi alternative de începere şi instalare."
+"Apăsați F4 pentru a alege modalități alternative de începere și instalare."
 
 #. label for modes menu
 #. txt_mode_normal
@@ -367,7 +367,7 @@ msgstr "Verifică ^CD-ul pentru defecte"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "Salvaţi un sistem ava^riat"
+msgstr "Salvați un sistem ava^riat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
@@ -377,7 +377,7 @@ msgstr "Test ^memorie"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "^Porneşte de pe primul hard disc"
+msgstr "^Pornește de pe primul hard disc"
 
 #. Boot option.
 #. txt_option_free
