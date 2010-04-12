@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the gfxboot-theme-ubuntu package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2007-04-13 22:15+0000\n"
+"PO-Revision-Date: 2007-09-03 12:39+0000\n"
 "Last-Translator: Tobias Ravenstein <tobias@rvnstn.de>\n"
 "Language-Team: German, Low <nds@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Rosetta-Export-Date: 2007-08-01 13:29:07+0000\n"
+"X-Launchpad-Export-Date: 2007-10-09 09:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
 #. txt_ok
@@ -25,26 +25,26 @@ msgstr "OK"
 #. cancel button label
 #. txt_cancel
 msgid "Cancel"
-msgstr "Abbrechen"
+msgstr "Afbreken"
 
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Neustart"
+msgstr "Nieg starten"
 
 #. continue button label
 #. txt_continue
 msgid "Continue"
-msgstr "Weiter"
+msgstr "Wiedermaken"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Boot Optionen"
+msgstr "Boot Opschoonen"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "Verlassen..."
+msgstr "An't Beennen..."
 
 #. txt_exit_dialog
 msgid ""
@@ -56,7 +56,7 @@ msgstr ""
 
 #. txt_help
 msgid "Help"
-msgstr "Hilfe"
+msgstr "Hülp"
 
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title

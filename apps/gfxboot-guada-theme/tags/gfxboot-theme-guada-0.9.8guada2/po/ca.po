@@ -1,21 +1,22 @@
 # Catalan translation for gfxboot-theme-ubuntu
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the gfxboot-theme-ubuntu package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
-#, fuzzy
+# Jordi Irazuzta <irazuzta@gmail.com>, 2006, 2007.
+# Jordi Mallach <jordi@sindominio.net>, 2006, 2007.
+# David Planella <david.planella@googlemail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2007-04-13 22:13+0000\n"
-"Last-Translator: Jordi Irazuzta <irazuzta@gmail.com>\n"
-"Language-Team: Catalan <ca@li.org>\n"
+"PO-Revision-Date: 2007-09-14 12:02+0000\n"
+"Last-Translator: David Planella <david.planella@googlemail.com>\n"
+"Language-Team: Catalan <ubuntu-l10n-ca@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Rosetta-Export-Date: 2007-07-27 18:48:08+0000\n"
+"X-Launchpad-Export-Date: 2007-10-09 09:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
 #. txt_ok
@@ -44,7 +45,7 @@ msgstr "Opcions d'arrencada"
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "S'està sortint"
+msgstr "S'està sortint..."
 
 #. txt_exit_dialog
 msgid ""
@@ -81,7 +82,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"S'està carregant memtext86\n"
+"S'està carregant el memtext86\n"
 "\n"
 "\n"
 
@@ -150,9 +151,9 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Aquest és un DVD de dos cares. Heu arrencat amb la segona cara.\n"
+"Aquest és un DVD de dues cares. Heu arrencat amb la segona cara.\n"
 "\n"
-"Doneu-li la volta al DVD per a continuar."
+"Doneu la volta al DVD per a continuar."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -170,7 +171,7 @@ msgstr "Instal·lació al disc dur"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Dispositiu del disc (analitza tots els discs si és buit)\n"
+msgstr "Dispositiu de disc (s'analitzaran tots els discs si és buit)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -202,12 +203,12 @@ msgstr "Instal·lació per NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr "Usuari (utilitzarà «guest» si és buit)\n"
+msgstr "Usuari (s'utilitzarà «guest» si és buit)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "Instal·lació per SMB (compartició del Windows)"
+msgstr "Instal·lació per SMB (recurs compartit del Windows)"
 
 #. dialog title for http installation
 #. txt_http_title
@@ -227,7 +228,7 @@ msgstr "Altres opcions"
 #. label for language selection
 #. txt_language
 msgid "Language"
-msgstr "Llengua"
+msgstr "Idioma"
 
 #. label for keymap selection
 #. txt_keymap
@@ -297,47 +298,47 @@ msgstr "Totes"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "^Inicia o instal·la Ubuntu"
+msgstr "^Inicia o instal·la l'Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "Inicia Ubuntu en el mode ^grafic segur"
+msgstr "Inicia l'Ubuntu en el mode ^gràfic segur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "^Inicia o instal·la Kubuntu"
+msgstr "^Inicia o instal·la el Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr "Inicia Kubuntu en el mode ^grafic segur"
+msgstr "Inicia el Kubuntu en el mode ^gràfic segur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "^Inicia o instal·la Edubuntu"
+msgstr "^Inicia o instal·la l'Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr "Inicia Edubuntu en el mode ^grafic segur"
+msgstr "Inicia l'Edubuntu en el mode ^gràfic segur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "^Inicia o instal·la Xubuntu"
+msgstr "^Inicia o instal·la el Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr "Inicia Xubuntu en el mode ^grafic segur"
+msgstr "Inicia el Xubuntu en el mode ^gràfic segur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Instal·la amb el CD d'act^ualització de controladors"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -357,12 +358,12 @@ msgstr "Instal·la una ^estació de treball"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Instal·la un ser^vidor"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "^OEM install (for manufacturers)"
-msgstr ""
+msgstr "Instal·lació ^OEM (per a fabricants)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -372,23 +373,22 @@ msgstr "Instal·la un servidor ^LAMP"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Instal·la un servidor ^LTSP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Instal·la un ^servidor"
+msgstr "Instal·la un siste^ma de línia d'ordres"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr "^Comprova els defectes del CD"
+msgstr "^Comprova si el CD té defectes"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "^Rescata un sistema trencat"
+msgstr "^Rescata un sistema no funcional"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest

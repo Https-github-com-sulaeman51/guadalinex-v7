@@ -3,24 +3,24 @@
 # This file is distributed under the same license as the gfxboot-theme-ubuntu package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2007-04-13 22:13+0000\n"
+"PO-Revision-Date: 2007-09-16 12:05+0000\n"
 "Last-Translator: margus723 <margus723@hot.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Rosetta-Export-Date: 2007-08-01 13:29:03+0000\n"
+"X-Launchpad-Export-Date: 2007-10-09 09:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "OK"
+msgstr "Olgu"
 
 #. cancel button label
 #. txt_cancel
@@ -30,7 +30,7 @@ msgstr "Katkesta"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Alglaadimine"
+msgstr "Taaskäivitus"
 
 #. continue button label
 #. txt_continue
@@ -51,8 +51,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Sa oled lahkumas graafilisest laadimismenüüst ning\n"
-"alustad tekstipõhise kasutajaliidese kasutamist."
+"Sa oled lahkumas graafilisest alglaadimismenüüst ning\n"
+"alustad tekstipõhise liidese kasutamist."
 
 #. txt_help
 msgid "Help"
@@ -166,7 +166,7 @@ msgstr "Seiska süsteem kohe?"
 #. dialog title for hard disk installation
 #. txt_harddisk_title
 msgid "Hard Disk Installation"
-msgstr "Kõvaketta paigaldamine"
+msgstr "Kõvakettalt paigaldus"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
@@ -179,7 +179,7 @@ msgstr "Kataloog\n"
 #. dialog title for ftp installation
 #. txt_ftp_title
 msgid "FTP Installation"
-msgstr "FTP Paigaldamien"
+msgstr "FTP-paigaldus"
 
 #. txt_server
 msgid "Server\n"
@@ -192,27 +192,29 @@ msgstr "Salasõna\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (anonymous login if empty)\n"
-msgstr "Kasutajatunnus (tühjuse korral anomnüümne)\n"
+msgstr ""
+"Kasutajatunnus (tühjaks jätmise korral kasutatakse anonüümset "
+"sisselogimist)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
-msgstr "NFS Paigaldamine"
+msgstr "NFS-paigaldus"
 
 #. label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr "Kasutajatunnus (tühjuse korral kasutatakse \"guest\")\n"
+msgstr "Kasutajatunnus (tühjaks jätmise korral kasutatakse \"guest\")\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "SMB (Windowsi failijagamine) Paigaldamien"
+msgstr "SMB-paigaldus (Windowsi jagatud ressursilt)"
 
 #. dialog title for http installation
 #. txt_http_title
 msgid "HTTP Installation"
-msgstr "HTTP Paigaldamine"
+msgstr "HTTP-paigaldus"
 
 #. as in Windows Authentication Domain
 #. txt_domain
@@ -247,7 +249,7 @@ msgstr "Edasijõudnud laad"
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "Juurdepääs"
+msgstr "Hõlbustus"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -257,7 +259,7 @@ msgstr "Puudub"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr "Kõrge Kontrast"
+msgstr "Kõrge kontrast"
 
 #. label for accessibility menu
 #. txt_access_v2
@@ -272,17 +274,17 @@ msgstr "Ekraanilugeja"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr "Braille Terminal"
+msgstr "Braille terminal"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr "Klaviatuuri Modifitseerijad"
+msgstr "Klaviatuuri modifitseerijad"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr "Ekraanilasuv Klaviatuur"
+msgstr "Ekraanil asuv klaviatuur"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -307,7 +309,7 @@ msgstr "Käivita Ubuntu turvalises ^graafilises laadis"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "^Käivita või pagalda Kubuntu"
+msgstr "^Käivita või paigalda Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
@@ -317,7 +319,7 @@ msgstr "Käivita Kubuntu turvalises ^graafilises laadis"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "^Käivita või pagalda Edubuntu"
+msgstr "^Käivita või paigalda Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
@@ -327,7 +329,7 @@ msgstr "Käivita Edubuntu turvalises ^graafilises laadis"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "^Käivita või pagalda Xubuntu"
+msgstr "^Käivita või paigalda Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
@@ -337,17 +339,17 @@ msgstr "Käivita Xubuntu turvalises ^graafilises laadis"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Paigalda koos draiveri ^uuenduste CD'ga"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "^Paigalda teksilaadis"
+msgstr "^Paigalda tekstilaadis"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr "^Paigalda kõvakettale"
+msgstr "P^aigalda kõvakettale"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
@@ -357,12 +359,12 @@ msgstr "Paigalda ^tööjaam"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Paigalda ser^ver"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "^OEM install (for manufacturers)"
-msgstr ""
+msgstr "^OEM paigaldus (tootjatele)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -372,22 +374,22 @@ msgstr "Paigalda ^LAMP server"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Paigalda LTSP s^erver"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
 msgid "Install a comm^and-line system"
-msgstr "Paigalda ^käsurea süsteem"
+msgstr "Paigalda k^äsurea süsteem"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr "^Tee CDle vigade kontroll"
+msgstr "Tee ^CDle vigade kontroll"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "^Paranda rikutud süsteem"
+msgstr "Pa^randa rikutud süsteem"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
@@ -397,4 +399,4 @@ msgstr "^Mälutest"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "^Tee alglaadimine esimeselt kõvakettalt"
+msgstr "Tee alglaa^dimine esimeselt kõvakettalt"
