@@ -13,7 +13,8 @@
 /.fulloptions.nolapic 3 def
 /.fulloptions.edd_on 4 def
 /.fulloptions.nodmraid 5 def
-/.fulloptions.free 6 def
+/.fulloptions.nomodeset 6 def
+/.fulloptions.free 7 def
 
 % These strings are intentionally not translatable.
 /txt_acpi_off "acpi=off" def
@@ -21,6 +22,7 @@
 /txt_nolapic "nolapic" def
 /txt_edd_on "edd=on" def
 /txt_nodmraid "nodmraid" def
+/txt_nomodeset "nomodeset" def
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -38,6 +40,7 @@
     /.fulloptions.nolapic dec
     /.fulloptions.edd_on dec
     /.fulloptions.nodmraid dec
+    /.fulloptions.nomodeset dec
     /.fulloptions.free dec
     xmenu .xm_current .fulloptions.acpi_off put
   } {
@@ -47,6 +50,7 @@
   xmenu .xm_list [
     is_live not { /txt_expert_mode } if
     /txt_acpi_off /txt_noapic /txt_nolapic /txt_edd_on /txt_nodmraid
+    /txt_nomodeset
     /txt_option_free
   ] put
 
@@ -81,6 +85,7 @@
       over .fulloptions.nolapic eq { pop "nolapic" } if
       over .fulloptions.edd_on eq { pop "edd=on" } if
       over .fulloptions.nodmraid eq { pop "nodmraid" } if
+      over .fulloptions.nomodeset eq { pop "nomodeset" } if
       over .fulloptions.free eq { pop "apt-setup/restricted=false apt-setup/multiverse=false" } if
       dup {
 	% append new option string

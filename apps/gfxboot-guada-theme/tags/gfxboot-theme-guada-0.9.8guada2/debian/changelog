@@ -1,6 +1,7 @@
 gfxboot-theme-ubuntu (0.9.1) UNRELEASED; urgency=low
 
   * Remove "Safe graphics mode" message, which is no longer used.
+  * Add nomodeset to "Other options" menu.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Fri, 12 Feb 2010 13:11:08 +0000
 
