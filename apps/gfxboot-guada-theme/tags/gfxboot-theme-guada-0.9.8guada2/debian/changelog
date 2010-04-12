@@ -3,6 +3,8 @@ gfxboot-theme-ubuntu (0.9.1) UNRELEASED; urgency=low
   [ Colin Watson ]
   * Remove "Safe graphics mode" message, which is no longer used.
   * Add nomodeset to "Other options" menu.
+  * Update language names from localechooser 2.12ubuntu3, adding Estonian
+    (LP: #496734) and using the localised name for Hebrew now that we can.
 
   [ Shlomi Loubaton ]
   * Added back Hebrew support by using visual text (LP: #212491)

@@ -25,7 +25,6 @@ my @langname_notranslate = (
     'bn',
     'dz',
     'gu',
-    'he',
     'hi',
     'km',
     'ml',
