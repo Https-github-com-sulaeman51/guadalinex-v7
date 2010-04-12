@@ -230,3 +230,13 @@ msgstr "Egyéb beállítások"
 #. txt_language
 msgid "Language"
 msgstr "Nyelv"
+
+# label for d-i mode menu
+#. txt_normal_mode
+msgid "Normal mode"
+msgstr ""
+
+# label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr ""

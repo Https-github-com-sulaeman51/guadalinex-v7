@@ -17,8 +17,6 @@
 /panel.bg	lightgray def
 /panel.border	lightdotcolor def
 
-/panel.expert   false def
-
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Init panel.
 %
@@ -39,31 +37,26 @@
 
     syslinux {
 
-      livecd {
+      [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ]
+      [ keyF3 0 "F3" /panel.options /panel.options.width /panel.options.update .undef ]
+      [ keyF4 0 "F4" /panel.video /panel.video.width /panel.video.update /video.init ]
 
-        [ keyF2 0 "F2" /panel.video /panel.video.width /panel.video.update /video.init ]
-        [ keyF3 0 "F3" /panel.options /panel.options.width /panel.options.update .undef ]
+      is_live not {
+	[ keyF5 0 "F5" /panel.dimode /panel.dimode.width /panel.dimode.update /dimode.init ]
+      } if
 
-      } {
+      32+64bit_source {
+	64bit {
+	  32bit_boot_dir .undef ne
+	  64bit_boot_dir .undef ne
+	  32bit_boot_dir 64bit_boot_dir ne
+	  and and {
+	    [ keyF6 0 "F6" /panel.bits /panel.bits.width /panel.bits.update /bits.init ]
+	  } if
+	} if
+      } if
 
-        [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ]
-        [ keyF3 0 "F3" /panel.options /panel.options.width /panel.options.update .undef ]
-        [ keyF4 0 "F4" /panel.video /panel.video.width /panel.video.update /video.init ]
-
-        32+64bit_source {
-          64bit {
-            32bit_boot_dir .undef ne
-            64bit_boot_dir .undef ne
-            32bit_boot_dir 64bit_boot_dir ne
-            and and {
-              [ keyF6 0 "F6" /panel.bits /panel.bits.width /panel.bits.update /bits.init ]
-            } if
-          } if
-        } if
-
-        xmenu.bits .undef eq { bits.init } if
-
-      } ifelse
+      xmenu.bits .undef eq { bits.init } if
 
     } {
 

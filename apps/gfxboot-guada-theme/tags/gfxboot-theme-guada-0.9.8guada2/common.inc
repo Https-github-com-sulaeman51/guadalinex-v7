@@ -47,6 +47,21 @@
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 %
+% Are we a live image?
+%
+% ( ) ==> ( true|false )
+%
+/is_live {
+  % check only once
+  is_live.result .undef ne { is_live.result return } if
+
+  /is_live.result "/casper/filesystem.cloop" filesize .undef ne def
+
+  is_live.result return
+} def
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+%
 % Install source is 32 & 64bit?
 %
 % ( ) ==> ( true|false )
@@ -342,6 +357,12 @@
 
   } if
 
+  xmenu.dimode {
+    dimode.option .undef ne {
+      dimode.option "%s " bc.cmd dup length add sprintf
+    } if
+  } if
+
   bc.opts "%s " bc.cmd dup length add sprintf
 
   syslinux {
@@ -405,23 +426,15 @@
 
 %  fadein_logo
 
-  enough_mem not livecd and {
+  32+64bit_source not {
 
-    notimeout nomem_popup
+    64bit {
+      64bit_source not { notimeout 32bit_popup } if
+    } {
+      64bit_source { notimeout 64bit_popup } if
+    } ifelse
 
-  } {
-
-    32+64bit_source not {
-
-      64bit {
-        64bit_source not { notimeout 32bit_popup } if
-      } {
-        64bit_source { notimeout 64bit_popup } if
-      } ifelse
-
-    } if
-
-  } ifelse
+  } if
 
 } def
 

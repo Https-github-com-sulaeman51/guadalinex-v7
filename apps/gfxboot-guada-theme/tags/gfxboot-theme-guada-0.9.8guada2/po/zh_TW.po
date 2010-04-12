@@ -223,3 +223,13 @@ msgstr "其他選項"
 #. txt_language
 msgid "Language"
 msgstr "語言"
+
+# label for d-i mode menu
+#. txt_normal_mode
+msgid "Normal mode"
+msgstr ""
+
+# label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr ""

@@ -224,3 +224,13 @@ msgstr "Kiti parametrai"
 #. txt_language
 msgid "Language"
 msgstr "Kalba"
+
+# label for d-i mode menu
+#. txt_normal_mode
+msgid "Normal mode"
+msgstr ""
+
+# label for d-i mode menu
+#. txt_expert_mode
+msgid "Expert mode"
+msgstr ""
