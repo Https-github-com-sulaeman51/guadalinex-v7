@@ -133,37 +133,6 @@
     } for
 
     skipspace getword tolower
-    % keep in sync with common.inc:MenuInit
-    % deprecated; will be removed after Ubuntu 8.04
-    dup "gfxboot-foreground" eq {
-      over skipspace strtol dup .undef ne {
-        /menu.text.select over def
-        /boot.text.options over def
-        /boot.text.normal over def
-        /panel.high exch def
-      } { pop } ifelse
-    } if
-    % deprecated; will be removed after Ubuntu 8.04
-    dup "gfxboot-background" eq {
-      over skipspace strtol dup .undef ne {
-        /menu.text.normal over def
-        /panel.normal over def
-        /loading_color over def
-        /title.bg exch def
-      } { pop } ifelse
-    } if
-    % deprecated; will be removed after Ubuntu 8.04
-    dup "gfxboot-access-options" eq {
-      /access.optionnames [
-        .undef
-        4 index
-        {
-          skipspace dup 0 get 0 eq { exit } if
-          getword exch
-        } loop
-        pop
-      ] def
-    } if
     dup "label" eq {
       over skipspace strdup /menuconfig.curlabel exch def
     } if

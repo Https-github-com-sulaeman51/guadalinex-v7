@@ -463,7 +463,6 @@
 
   menuconfig.init
 
-  % keep in sync with menuconfig.inc:menuconfig.init
   "foreground" getgfxconfig dup .undef ne {
     strtol
     /menu.text.select over def
