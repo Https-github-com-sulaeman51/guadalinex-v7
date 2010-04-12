@@ -246,9 +246,9 @@ msgid "^Try Ubuntu MID without installing"
 msgstr "Instalatu gabe probatu ^Ubuntu MID"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "Instalatu gabe probatu ^Ubuntu Netbook Remix"
+#. txt_menuitem_live_ubuntu_netbook
+msgid "^Try Ubuntu Netbook without installing"
+msgstr "Instalatu gabe probatu ^Ubuntu Netbook"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -316,9 +316,9 @@ msgid "^Install Ubuntu MID"
 msgstr "Ubuntu MID ^instalatu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_netbook_remix
-msgid "^Install Ubuntu Netbook Remix"
-msgstr "Ubuntu Network Remix ^instalatu"
+#. txt_menuitem_install_ubuntu_netbook
+msgid "^Install Ubuntu Netbook"
+msgstr "Ubuntu Netbook ^instalatu"
 
 #. Installation mode.
 #. txt_menuitem_workstation
