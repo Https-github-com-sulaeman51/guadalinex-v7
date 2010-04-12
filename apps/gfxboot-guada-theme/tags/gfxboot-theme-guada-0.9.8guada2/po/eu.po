@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2008-11-01 12:28+0000\n"
+"PO-Revision-Date: 2009-07-01 23:49+0000\n"
 "Last-Translator: Mikel Larreategi <larreategi@eibar.org>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-04-09 00:00+0000\n"
+"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -39,12 +39,12 @@ msgstr "Jarraitu"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Abio Aukerak"
+msgstr "Abio-aukerak"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "Irtetzen..."
+msgstr "Irteten..."
 
 #. txt_exit_dialog
 msgid ""
@@ -52,7 +52,7 @@ msgid ""
 "starting the text mode interface."
 msgstr ""
 "Abio-menu grafikoa uzten ari zara, eta\n"
-"testu moduko hasiarazten."
+"testu modukoa hasiarazten."
 
 #. txt_help
 msgid "Help"
@@ -148,7 +148,7 @@ msgstr "Besteak"
 #. label for language selection
 #. txt_language
 msgid "Language"
-msgstr "Hizkuntza:"
+msgstr "Hizkuntza"
 
 #. label for keymap selection
 #. txt_keymap
@@ -183,7 +183,7 @@ msgstr "Erabilerraztasuna"
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr "Batere"
+msgstr "Batere ez"
 
 #. label for accessibility menu
 #. txt_access_v1
@@ -248,12 +248,12 @@ msgstr "Xubuntu ^probatu, ordenagailuari aldaketarik egin gabe"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr ""
+msgstr "Ubuntu MID ^probatu, ordenagailuari aldaketarik egin gabe"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr ""
+msgstr "Ubuntu Network Remix ^probatu, ordenagailuari aldaketarik egin gabe"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -263,7 +263,7 @@ msgstr "Modu grafiko segurua"
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
-msgstr ""
+msgstr "Kontrolatzaileak eguneratzeko diskoa erabili"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -308,22 +308,22 @@ msgstr "Xubuntu ^instalatu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr "Ubuntu Zerbitzaria ^Instalatu"
+msgstr "Ubuntu Server ^Instalatu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr ""
+msgstr "Ubuntu Studio ^instalatu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr ""
+msgstr "Ubuntu MID ^instalatu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
 msgid "^Install Ubuntu Netbook Remix"
-msgstr ""
+msgstr "Ubuntu Network Remix ^instalatu"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -368,12 +368,12 @@ msgstr "Gutxieneko sistema instalatu"
 #. Installation mode.
 #. txt_menuitem_minimalvm
 msgid "Install a minimal virtual machine"
-msgstr "Makina birtual txiki bat instalatu"
+msgstr "Gutxieneko sistema birtuala instalatu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check disc for defects"
-msgstr ""
+msgstr "^Erroreak bilatu diskoan"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -383,7 +383,7 @@ msgstr "^Apurturiko sistema bat berreskuratu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "Test ^memory"
-msgstr "^Memoria testa"
+msgstr "^Memoria-proba"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
@@ -398,14 +398,14 @@ msgstr "Software askea bakarrik"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "^Dell-en berrinstalatze automatikoa"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "^Mythbuntu instalatu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "Mythbuntu ^probatu, ordenagailuari aldaketarik egin gabe"

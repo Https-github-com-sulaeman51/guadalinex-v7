@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-02-04 16:52+0000\n"
+"PO-Revision-Date: 2009-07-01 23:49+0000\n"
 "Last-Translator: Yaron <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-04-09 00:00+0000\n"
+"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -132,7 +132,7 @@ msgstr "כיבוי"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "לעצור את המערכת כעט?"
+msgstr "לכבות את המערכת כעת?"
 
 #. txt_password
 msgid "Password\n"
@@ -246,12 +246,12 @@ msgstr "^ נסה את קסובונטו מבלי לשנות דבר במחשבך"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr ""
+msgstr "^נסה את גירסת Mobile Internet Device מבלי לשנות את המחשב שלך"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr ""
+msgstr "^נסה את אובונטו במהדורת הנטבוק מבלי לשנות דבר במחשבך"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -311,17 +311,17 @@ msgstr "^התקן את Ubuntu Server"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr ""
+msgstr "^התקן אובונטו סטודיו"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr ""
+msgstr "^התקן אובונטו גרסת Mobile Internet Device"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
 msgid "^Install Ubuntu Netbook Remix"
-msgstr ""
+msgstr "^התקן את אובונטו במהדורת הנטבוק"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -356,7 +356,7 @@ msgstr "התקן שרת נטול דיסק דמות"
 #. Installation mode.
 #. txt_menuitem_cli
 msgid "Install a command-line system"
-msgstr "התקן מערת שורת פקודה"
+msgstr "התקן מערכת שורת פקודה"
 
 #. Installation mode.
 #. txt_menuitem_minimal

@@ -6,13 +6,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-03-30 12:20+0000\n"
-"Last-Translator: Timothy Qiu <Unknown>\n"
+"PO-Revision-Date: 2009-08-07 01:59+0000\n"
+"Last-Translator: Chen Ming <Unknown>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-04-09 00:00+0000\n"
+"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -33,11 +33,11 @@ msgstr "重新启动"
 #. continue button label
 #. txt_continue
 msgid "Continue"
-msgstr "继续"
+msgstr "下一步"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "引导选项"
+msgstr "启动选项"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -48,9 +48,7 @@ msgstr "正在退出..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr ""
-"您将离开图形引导菜单，\n"
-"并启动文本方式界面。"
+msgstr "您将离开图形引导菜单，启动纯文本模式界面。"
 
 #. txt_help
 msgid "Help"
@@ -64,7 +62,7 @@ msgstr "引导装载程序"
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "I/O （即输入/输出）错误"
+msgstr "I/O 错误"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -92,7 +90,7 @@ msgid ""
 "Please insert boot disk %u."
 msgstr ""
 "这不是正确的引导盘。\n"
-"请插入引导盘 %u。"
+"请插入正确的引导盘%u。"
 
 #. password dialog title
 #. txt_password_title
@@ -151,7 +149,7 @@ msgstr "语言"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "键盘映射"
+msgstr "键盘布局"
 
 #. label for installation mode selection
 #. txt_modes
@@ -206,7 +204,7 @@ msgstr "布莱叶盲文终端"
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr "修饰键"
+msgstr "自定义组合键"
 
 #. label for accessibility menu
 #. txt_access_m2
@@ -226,32 +224,32 @@ msgstr "所有内容"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "试用 Ubuntu 而不改变计算机中的任何内容 (^T)"
+msgstr "试用Ubuntu而不改变计算机中的任何内容 (^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "试用 Kubuntu 而不改变计算机中的任何内容 (^T)"
+msgstr "试用Kubuntu而不改变计算机中的任何内容 (^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "试用 Edubuntu 而不改变计算机中的任何内容 (^T)"
+msgstr "试用Edubuntu而不改变计算机中的任何内容 (^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "试用 Xubuntu 而不改变计算机中的任何内容 (^T)"
+msgstr "试用Xubuntu而不改变计算机中的任何内容（^T）"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr ""
+msgstr "试用Ubuntu MID而不改变计算机中的任何内容 (^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr ""
+msgstr "试用Ubuntu Netbook Remix而不改变计算机中的任何内容 (^T)"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -311,17 +309,17 @@ msgstr "安装 Ubuntu 服务器 (^I)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr ""
+msgstr "安装 Ubuntu Studio (^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr ""
+msgstr "安装 Ubuntu MID (^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
 msgid "^Install Ubuntu Netbook Remix"
-msgstr ""
+msgstr "安装 Ubuntu Netbook Remix (^I)"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -341,12 +339,12 @@ msgstr "OEM 安装（供厂商使用）"
 #. Installation mode.
 #. txt_menuitem_lamp
 msgid "Install a LAMP server"
-msgstr "安装 LAMP 服务器"
+msgstr "安装 LAMP（Linux, Apache, MySQL, PHP）服务器"
 
 #. Installation mode.
 #. txt_menuitem_ltsp
 msgid "Install an LTSP server"
-msgstr "安装 LTSP 服务器"
+msgstr "安装LTSP（Linux Terminal Server Project）服务器"
 
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu

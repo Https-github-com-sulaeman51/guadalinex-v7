@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-03-27 22:16+0000\n"
-"PO-Revision-Date: 2008-03-03 15:36+0000\n"
-"Last-Translator: slibuntu <stuohy1@gmail.com>\n"
+"PO-Revision-Date: 2009-07-26 14:28+0000\n"
+"Last-Translator: czajkowski <laura@lczajkowski.com>\n"
 "Language-Team: Irish <ga@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-04-09 00:00+0000\n"
+"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "Ceart go leor"
+msgstr "Suiteáil"
 
 #. cancel button label
 #. txt_cancel
@@ -61,12 +61,12 @@ msgstr "Cabhair"
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr ""
+msgstr "Lodoir tosaigh"
 
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "Earraid I/A"
+msgstr "Earráid I/A"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -99,7 +99,7 @@ msgstr ""
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "Pasfhocal"
+msgstr "Focal Faire"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
@@ -167,7 +167,7 @@ msgstr ""
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"
-msgstr ""
+msgstr "Normálta"
 
 #. label for d-i mode menu
 #. txt_expert_mode
@@ -212,7 +212,7 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Méarchlár ar an scáthlán"
 
 #. label for accessibility menu
 #. txt_access_m3
