@@ -1,3 +1,11 @@
+gfxboot-theme-ubuntu (0.6.11) jaunty; urgency=low
+
+  * Add localisation for "Dell Automatic Reinstall" (LP: #296476)
+  * Add localisation for "Install Mythbuntu"
+  * Add localisation for "Try Mythbuntu without any changes to your computer"
+
+ -- Mario Limonciello <mario_limonciello@dell.com>  Mon, 10 Nov 2008 16:35:42 -0600
+
 gfxboot-theme-ubuntu (0.6.10) intrepid; urgency=low
 
   * Update translations from Launchpad.
