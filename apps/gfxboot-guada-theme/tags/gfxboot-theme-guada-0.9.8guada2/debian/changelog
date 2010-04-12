@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.1.12) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.12) dapper; urgency=low
 
   * Switch selected and deselected colours in boot option menu, since blue
     is a better deselected/background colour (thanks, Paul Sladen).
@@ -6,7 +6,7 @@ gfxboot-theme-ubuntu (0.1.12) UNRELEASED; urgency=low
   * Adjust help keybindings to make more sense with our help screens.
   * Open the first help page if the context doesn't match anything.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Sat,  4 Feb 2006 18:20:09 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue,  7 Feb 2006 16:50:48 +0000
 
 gfxboot-theme-ubuntu (0.1.11) dapper; urgency=low
 
