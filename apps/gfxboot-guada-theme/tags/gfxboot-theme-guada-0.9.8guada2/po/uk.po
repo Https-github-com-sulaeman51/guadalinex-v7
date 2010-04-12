@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: uk(6)\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-09-03 09:12+0000\n"
-"Last-Translator: Діковець Борис <Unknown>\n"
+"PO-Revision-Date: 2010-02-09 19:18+0000\n"
+"Last-Translator: Андрій Роговець <andrew.rogovets@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -144,7 +144,7 @@ msgstr "Пароль\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Інші параметри"
+msgstr "Інші можливості"
 
 #. label for language selection
 #. txt_language
@@ -154,7 +154,7 @@ msgstr "Мова"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Розкладка клавіатури"
+msgstr "Карта клавіш"
 
 #. label for installation mode selection
 #. txt_modes
@@ -223,39 +223,33 @@ msgstr "Все"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without installing"
-msgstr "^Спробувати Ubuntu без змін у вашому комп'ютері"
+msgstr "^Спробувати Ubuntu без встановлення на жорсткий диск"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without installing"
-msgstr "^Спробувати Kubuntu без змін у вашому комп'ютері"
+msgstr "^Спробувати Kubuntu без встановлення на жорсткий диск"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without installing"
-msgstr "^Спробувати Edubuntu без змін у вашому комп'ютері"
+msgstr "^Спробувати Edubuntu без встановлення на жорсткий диск"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without installing"
-msgstr "^Спробувати Xubuntu без змін у вашому комп'ютері"
+msgstr "^Спробувати Xubuntu без встановлення на жорсткий диск"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-#, fuzzy
 msgid "^Try Ubuntu MID without installing"
-msgstr "^ Спробуй Ubuntu MID без будь-яких змін у своєму комп'ютері"
+msgstr "^Спробувати Ubuntu MID без встановлення на жорсткий диск"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-#, fuzzy
 msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "^ Спробуй Ubuntu Netbook Remix без будь-яких змін у своєму комп'ютері"
+msgstr "^Спробувати Ubuntu Netbook Remix без встановлення на жорсткий диск"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -315,17 +309,17 @@ msgstr "Встановлення Ubuntu ^Enterprise Cloud"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr "^ Інсталювання Ubuntu Studio"
+msgstr "^Встановити Ubuntu Studio"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr "^ Інсталювання Ubuntu MID"
+msgstr "^Встановити Ubuntu MID"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
 msgid "^Install Ubuntu Netbook Remix"
-msgstr "^ Інсталювання Ubuntu Netbook Remix"
+msgstr "^Встановити Ubuntu Netbook Premix"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -340,7 +334,7 @@ msgstr "Встановити сервер"
 #. Installation mode.
 #. txt_menuitem_oem
 msgid "OEM install (for manufacturers)"
-msgstr "OEM інсталяція (для виробників)"
+msgstr "OEM встановлення (для виробників)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
@@ -380,7 +374,7 @@ msgstr "^Перевірити диск на дефекти"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "^Відновити непрацюючу систему"
+msgstr "^Відновити зламану систему"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
@@ -395,7 +389,7 @@ msgstr "^Завантажитись з першого жорсткого дис�
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr "Лише вільне ПЗ"
+msgstr "Лише вільне програмне забезпечення"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
@@ -409,6 +403,5 @@ msgstr "^Встановити Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-#, fuzzy
 msgid "^Try Mythbuntu without installing"
-msgstr "^Спробувати Mythbuntu без внесення змін до вашого комп'ютера"
+msgstr "^Спробувати Mythbuntu без встановлення на жорсткий диск"

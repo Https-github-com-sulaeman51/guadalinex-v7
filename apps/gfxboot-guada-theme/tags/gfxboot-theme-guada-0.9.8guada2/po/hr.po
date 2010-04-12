@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2009-09-19 22:18+0000\n"
+"PO-Revision-Date: 2010-02-04 22:23+0000\n"
 "Last-Translator: Saša Teković <Unknown>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -222,39 +222,33 @@ msgstr "Sve"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without installing"
-msgstr "^Isprobati Ubuntu bez ikakvih promjena na računalu"
+msgstr "^Isprobaj Ubuntu bez instalacije"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without installing"
-msgstr "^Isprobati Kubuntu bez ikakvih promjena na računalu"
+msgstr "^Isprobaj Kubuntu bez instalacije"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without installing"
-msgstr "^Isprobati Edubuntu bez ikakvih promjena na računalu"
+msgstr "^Isprobaj Eduubuntu bez instalacije"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without installing"
-msgstr "^Isprobati Xubuntu bez ikakvih promjena na računalu"
+msgstr "^Isprobaj Xubuntu bez instalacije"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-#, fuzzy
 msgid "^Try Ubuntu MID without installing"
-msgstr "^Isprobati Ubuntu MID bez ikakvih promjena na računalu"
+msgstr "^Isprobaj Ubuntu MID bez instalacije"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-#, fuzzy
 msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "^Isprobati Ubuntu Netbook Remix bez ikakvih promjena na računalu"
+msgstr "^Isprobaj Ubuntu Netbook Remix bez instalacije"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -408,6 +402,5 @@ msgstr "^Instaliraj Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-#, fuzzy
 msgid "^Try Mythbuntu without installing"
-msgstr "^Isprobaj Mythbuntu bez ikakvih promjena na računalu"
+msgstr "^Isprobaj Mythbuntu bez instalacije"

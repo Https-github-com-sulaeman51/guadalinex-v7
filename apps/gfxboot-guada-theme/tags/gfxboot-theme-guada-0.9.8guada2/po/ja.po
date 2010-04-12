@@ -6,13 +6,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-10-15 14:44+0000\n"
-"Last-Translator: Ichiro Yanagida <Unknown>\n"
+"PO-Revision-Date: 2010-02-24 08:06+0000\n"
+"Last-Translator: Fumihito YOSHIDA <hito@kugutsu.org>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -220,39 +220,33 @@ msgstr "すべて"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without installing"
-msgstr "コンピュータに変更を加えないでUbuntuを使ってみる(^T)"
+msgstr "インストールせずにUbuntuを試してみる(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without installing"
-msgstr "コンピュータに変更を加えないでKubuntuを使ってみる(^T)"
+msgstr "インストールせずにKubuntuを試してみる(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without installing"
-msgstr "コンピュータに変更を加えないでEdubuntuを使ってみる(^T)"
+msgstr "インストールせずにEdubuntuを試してみる(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without installing"
-msgstr "コンピュータに変更を加えないでXubuntuを使ってみる(^T)"
+msgstr "インストールせずにXubuntuを試してみる(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-#, fuzzy
 msgid "^Try Ubuntu MID without installing"
-msgstr "コンピュータに変更を加えないでUbuntu MIDを使ってみる(^T)"
+msgstr "インストールせずにUbuntu MIDを試してみる(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-#, fuzzy
 msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "コンピュータに変更を加えないでUbuntu Netbook Remixを使ってみる(^T)"
+msgstr "インストールせずにUbuntu Netbook Remixを試す(^T)"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -406,6 +400,5 @@ msgstr "^インストールMythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-#, fuzzy
 msgid "^Try Mythbuntu without installing"
-msgstr "^コンピューターに変更を加えずに Mythbuntu を試してみる"
+msgstr "インストールせずにMythbuntuを試してみる(^T)"

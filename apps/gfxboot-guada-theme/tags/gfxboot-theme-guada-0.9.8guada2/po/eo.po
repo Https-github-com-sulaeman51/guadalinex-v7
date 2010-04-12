@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2009-08-29 15:37+0000\n"
-"Last-Translator: Patrick (Petriko) Oudejans <Unknown>\n"
+"PO-Revision-Date: 2009-11-02 17:01+0000\n"
+"Last-Translator: Michael Moroni <haikara90@gmail.com>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -25,7 +25,7 @@ msgstr "Bone"
 #. cancel button label
 #. txt_cancel
 msgid "Cancel"
-msgstr "Rezigni"
+msgstr "Nuligi"
 
 #. reboot button label
 #. txt_reboot
@@ -51,8 +51,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Vi forlasas la grafikan praŝargo-menuon\n"
-"kaj startigas la tekstoreĝiman interfacon."
+"Vi estas forlasanta la grafikan praŝargo-menuon kaj\n"
+"startiganta la tekstoreĝiman interfacon."
 
 #. txt_help
 msgid "Help"
@@ -125,7 +125,7 @@ msgid ""
 msgstr ""
 "Ĉi tiu estas du-flanka DVD. Vi komencis de la dua flanko.\n"
 "\n"
-"Turnu la DVD diskon aliflanke kaj daŭrigu."
+"Turni la DVD diskon aliflanke kaj daŭrigi."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -222,39 +222,33 @@ msgstr "Ĉio"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without installing"
-msgstr "^Elprovi Ubuntu-n sen ŝanĝi vian komputilon"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without installing"
-msgstr "^Elprovi Kubuntu-n sen ŝanĝi vian komputilon"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without installing"
-msgstr "^Elprovi Edubuntu-n sen ŝanĝi vian komputilon"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without installing"
-msgstr "^Elprovi Xubuntu-n sen ŝanĝi vian komputilon"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-#, fuzzy
 msgid "^Try Ubuntu MID without installing"
-msgstr "^Elprovi Ubuntu-n MID sen ŝanĝi vian komputilon"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-#, fuzzy
 msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "Elprovi Ubuntu Netbook Remix-on sen ŝanĝi vian komputilon"
+msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -319,7 +313,7 @@ msgstr "Instali Ubuntu-studion"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr "^Instalui Ubuntu-n MID"
+msgstr "^Instali Ubuntu-n MID"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
@@ -364,12 +358,12 @@ msgstr "Instali komandlinian sistemon"
 #. Installation mode.
 #. txt_menuitem_minimal
 msgid "Install a minimal system"
-msgstr "Instalu minimuman sistemon"
+msgstr "Instali minimuman sistemon"
 
 #. Installation mode.
 #. txt_menuitem_minimalvm
 msgid "Install a minimal virtual machine"
-msgstr "Instalu minimuman virtualan maŝinon"
+msgstr "Instali minimuman virtualan maŝinon"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -394,7 +388,7 @@ msgstr "Praŝargi per unua fiksita disko"
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr "Nur liberaj programaroj"
+msgstr "Nur libera programaro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
@@ -408,6 +402,5 @@ msgstr "^Instali Mythbuntu-n"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-#, fuzzy
 msgid "^Try Mythbuntu without installing"
-msgstr "^Elprovi Mythbuntu-n sen ŝanĝi vian komputilon."
+msgstr ""

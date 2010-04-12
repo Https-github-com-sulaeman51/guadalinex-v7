@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2009-09-24 08:39+0000\n"
+"PO-Revision-Date: 2010-02-10 19:31+0000\n"
 "Last-Translator: mahfiaz <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -108,7 +108,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Sisesta oma salasõna   \n"
+"Sisesta oma salasõna:   \n"
 "\n"
 "\n"
 
@@ -222,39 +222,33 @@ msgstr "Kõik"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without installing"
-msgstr "P^roovi Ubuntut ilma oma arvutit muutmata"
+msgstr "^Proovi Ubuntut ilma paigaldamata"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without installing"
-msgstr "P^roovi Kubuntut ilma oma arvutit muutmata"
+msgstr "^Proovi Kubuntut ilma paigaldamata"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without installing"
-msgstr "P^roovi Edubuntut ilma oma arvutit muutmata"
+msgstr "^Proovi Edubuntut ilma paigaldamata"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without installing"
-msgstr "P^roovi Xubuntut ilma oma arvutit muutmata"
+msgstr "^Proovi Xubuntut ilma paigaldamata"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-#, fuzzy
 msgid "^Try Ubuntu MID without installing"
-msgstr "^Proovi Ubuntu MID-i ilma oma arvutit muutmata"
+msgstr "^Proovi Ubuntu MID-i ilma paigaldamata"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-#, fuzzy
 msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "^Proovi Ubuntu Netbook Remix'i ilma oma arvutit muutmata"
+msgstr "^Proovi Ubuntu Netbook Remixi ilma paigaldamata"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -408,6 +402,5 @@ msgstr "^Paigalda Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-#, fuzzy
 msgid "^Try Mythbuntu without installing"
-msgstr "P^roovi Mythbuntu't ilma oma arvutit muutmata"
+msgstr "^Proovi Mythbuntut ilma paigaldamata"

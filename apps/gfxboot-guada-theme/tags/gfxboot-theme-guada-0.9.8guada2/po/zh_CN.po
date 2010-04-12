@@ -6,13 +6,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-10-25 15:10+0000\n"
-"Last-Translator: Liu Qishuai <lqs.buaa@gmail.com>\n"
+"PO-Revision-Date: 2010-02-21 10:10+0000\n"
+"Last-Translator: Jimhu <jimhuyiwei@yahoo.com.cn>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-26 12:28+0000\n"
+"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -28,7 +28,7 @@ msgstr "取消"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "重新启动"
+msgstr "重启"
 
 #. continue button label
 #. txt_continue
@@ -220,39 +220,33 @@ msgstr "所有内容"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without installing"
-msgstr "试用 Ubuntu 而不改变计算机中的任何内容(^T)"
+msgstr "试用 Ubuntu 而不安装(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without installing"
-msgstr "试用 Kubuntu 而不改变计算机中的任何内容(^T)"
+msgstr "试用 Kubuntu 而不安装(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without installing"
-msgstr "试用 Edubuntu 而不改变计算机中的任何内容(^T)"
+msgstr "试用 Edubuntu 而不安装(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without installing"
-msgstr "试用 Xubuntu 而不改变计算机中的任何内容(^T)"
+msgstr "试用 Xubuntu 而不安装(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-#, fuzzy
 msgid "^Try Ubuntu MID without installing"
-msgstr "试用 Ubuntu MID 而不改变计算机中的任何内容(^T)"
+msgstr "试用 Ubuntu MID 而不安装(^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-#, fuzzy
 msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "试用 Ubuntu Netbook Remix 而不改变计算机中的任何内容(^T)"
+msgstr "试用 Ubuntu Netbook Remix 而不安装(^T)"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -406,6 +400,5 @@ msgstr "安装 Mythbuntu (^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-#, fuzzy
 msgid "^Try Mythbuntu without installing"
-msgstr "试用 Mythbuntu 而改变计算机的任何内容(^T)"
+msgstr "试用 Mythbuntu 而不安装(^T)"
