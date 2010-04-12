@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "PO-Revision-Date: 2005-08-25 18:37+0100\n"
-"Last-Translator: Elisio Andre Martins Catana <eacatana@netvisao.pt>\n"
+"Last-Translator: Rui Az. <tradutores@ubuntu-pt.org>\n"
 "Language-Team: portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +49,7 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Está a saír do menu gráfico de arranque e a\n"
+"Está a sair do menu gráfico de arranque e a\n"
 "iniciar a interface em modo texto."
 
 #. txt_help
@@ -125,7 +125,7 @@ msgstr ""
 # password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "Palavra Passe"
+msgstr "Senha"
 
 # Keep the newlines and spaces after ':'!
 #. txt_password
@@ -134,7 +134,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Digite a sua palavra passe:   \n"
+"Digite a sua senha:   \n"
 "\n"
 "\n"
 
@@ -246,7 +246,7 @@ msgstr ""
 # title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr ""
+msgstr "Acessibilidade"
 
 # label for accessibility menu
 #. txt_access_none
@@ -291,49 +291,49 @@ msgstr ""
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live
 msgid "Run preinstalled ^live system"
-msgstr ""
+msgstr "Executar sistema ^live pré-instalado"
 
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr ""
+msgstr "^Instalar para o disco rígido"
 
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr ""
+msgstr "Instalar uma ^estação de trabalho"
 
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Install in ^OEM mode"
-msgstr ""
+msgstr "Instalar em modo ^OEM"
 
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr ""
+msgstr "Instalar um servidor ^LAMP"
 
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ^server"
-msgstr ""
+msgstr "Instalar um ^servidor"
 
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr ""
+msgstr "^Verificar o CD por defeitos"
 
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr ""
+msgstr "^Recuperar um sistema quebrado"
 
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr ""
+msgstr "Teste de ^Memória"
 
 # Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr ""
+msgstr "Iniciar do ^primeiro disco rígido"
