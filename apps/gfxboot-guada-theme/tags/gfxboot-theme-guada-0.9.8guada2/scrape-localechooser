@@ -17,12 +17,16 @@ my %langcode_override = (
 );
 
 # The real localised names for these languages use characters not present in
-# our font.
+# our font, or not rendered correctly for some other reason.
 my @langname_notranslate = (
+    'Arabic',
+    'Bengali',
     'Gujarati',
+    'Hindi',
     'Khmer',
-    'Punjabi (Gurmukhi)',
     'Malayalam',
+    'Nepali',
+    'Punjabi (Gurmukhi)',
     'Tamil',
 );
 my %langname_notranslate = map { $_ => 1 } @langname_notranslate;
