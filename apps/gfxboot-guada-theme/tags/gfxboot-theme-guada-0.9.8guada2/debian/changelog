@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.3.8) feisty; urgency=low
+gfxboot-theme-ubuntu (0.3.8) UNRELEASED; urgency=low
 
   * Use priority=low for d-i expert mode rather than DEBCONF_PRIORITY=low.
 
