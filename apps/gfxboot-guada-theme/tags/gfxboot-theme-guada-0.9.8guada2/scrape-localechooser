@@ -34,7 +34,7 @@ while (<LIST>) {
     if (exists $langcode_override{$bits[0]}) {
 	$lang = $langcode_override{$bits[0]};
     } else {
-	$lang = $bits[4];
+	$lang = $bits[2];
     }
     $langcodes{$bits[0]} = $lang;
 }

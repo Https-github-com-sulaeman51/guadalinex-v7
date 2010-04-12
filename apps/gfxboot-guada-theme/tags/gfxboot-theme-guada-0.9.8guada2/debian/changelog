@@ -7,6 +7,7 @@ gfxboot-theme-ubuntu (0.2.0) UNRELEASED; urgency=low
   * Move theme to /usr/share/gfxboot-theme-ubuntu, in line with other
     gfxboot-theme-* packages.
   * Use dh_install.
+  * Update scrape-localechooser for new languagelist format.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 12 Jul 2006 13:13:53 +0100
 
