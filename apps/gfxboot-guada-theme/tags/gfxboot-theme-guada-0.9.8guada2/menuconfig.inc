@@ -214,7 +214,7 @@
       over menuconfig.skipspace menuconfig.strtol dup .undef ne {
         /menu.text.select over def
         /boot.text.options over def
-        /boot.text.normal exch def
+        /boot.text.normal over def
         /panel.high exch def
       } { pop } ifelse
     } if
