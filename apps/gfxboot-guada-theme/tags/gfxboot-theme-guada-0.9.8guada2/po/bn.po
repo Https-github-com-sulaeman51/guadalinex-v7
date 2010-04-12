@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-07-24 13:09+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: ডা: শুভ্র প্রকাশ পাল <shuvro_paul@walla.com>\n"
 "Language-Team: Bengali <bn@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -381,16 +381,3 @@ msgstr "^মেমরী পরীক্ষা"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "প্রথম হার্ড ডিস্ক থেকে ^বুট করো"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "স্বল্প দৃষ্টি প্রতিবন্ধকতা"
-
-#, fuzzy
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "মধ্যম দৃষ্টি প্রতিবন্ধকতা"
-
-#~ msgid "Blindness"
-#~ msgstr "অন্ধত্ব"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "পয়েন্টিং ডিভাইসে মটর সমস্যা"

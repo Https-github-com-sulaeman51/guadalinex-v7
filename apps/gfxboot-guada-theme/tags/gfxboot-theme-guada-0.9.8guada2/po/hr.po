@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-05-23 10:17+0000\n"
-"Last-Translator: Ante Karamatić <ivoks@ubuntu.com>\n"
+"PO-Revision-Date: 2006-10-06 05:18+0000\n"
+"Last-Translator: Ante Karamatić <ivoks@grad.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -256,27 +256,27 @@ msgstr "Ništa"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Veliki kontrast"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Povećalo"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Čitač ekrana"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Parametri tipkovnice"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Tipkovnica na ekranu"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -355,9 +355,8 @@ msgstr "Instaliraj ^LAMP poslužitelj"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Instaliraj ^poslužitelj"
+msgstr "Instaliraj sustav ^bez grafičkog sučelja"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -378,18 +377,3 @@ msgstr "Test ^memorije"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Podigni s prvog čvrstog diska"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Blago oštečenje vida"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Umjereno oštečenje vida"
-
-#~ msgid "Blindness"
-#~ msgstr "Sljepoća"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Manje motoričke potoškoće"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Motoričke poteškoće - pokazivači"

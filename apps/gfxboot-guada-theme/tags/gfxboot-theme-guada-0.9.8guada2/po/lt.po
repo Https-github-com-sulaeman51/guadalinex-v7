@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2006-05-29 05:34+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
 "Language-Team: Lithuanian <i18n@operis.org>\n"
 "MIME-Version: 1.0\n"
@@ -374,18 +374,3 @@ msgstr "^Operatyviosios atminties (RAM) tikrinimas"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Į^kelti iš pirmojo standaus disko"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Nedidelis regėjimo sutrikimas"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Vidutinis regėjimo sutrikimas"
-
-#~ msgid "Blindness"
-#~ msgstr "Aklumas"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Nedideli motorikos sutrikimai"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Motorikos sutrikimai - parodymo įrenginiai"

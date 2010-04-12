@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.fi\n"
-"PO-Revision-Date: 2006-04-10 07:14+0000\n"
+"PO-Revision-Date: 2006-09-27 16:13+0000\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
 "Language-Team: <fi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -255,27 +255,27 @@ msgstr "Ei mikään"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Suuri kontrasti"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Suurennuslasi"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Näytön luku"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Asettelun valinnat"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Näppäimistö näytöllä"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -290,7 +290,7 @@ msgstr "Kaikki"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "^Käynnistä Ubuntu"
+msgstr "^Käynnistä tai asenna Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
@@ -300,7 +300,7 @@ msgstr "Käynnistä Ubuntu turvallisessa ^graafisessa tilassa"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "^Käynnistä Kubuntu"
+msgstr "^Käynnistä tai asenna Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
@@ -310,7 +310,7 @@ msgstr "Käynnistä Kubuntu turvallisessa ^graafisessa tilassa"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "^Käynnistä Edubuntu"
+msgstr "^Käynnistä tai asenna Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
@@ -320,7 +320,7 @@ msgstr "Käynnistä Edubuntu turvallisessa ^graafisessa tilassa"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "^Käynnistä Xubuntu"
+msgstr "^Käynnistä tai asenna Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
@@ -354,9 +354,8 @@ msgstr "^LAMP-palvelimen asennus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "^Palvelinasennus"
+msgstr "Asenna ko^mentorivijärjestelmä"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -376,19 +375,4 @@ msgstr "^Muistin tarkistus"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "^Käynnistä ensimmäiseltä kiintolevyltä"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Lievä näön heikkous"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Kohtalainen näön heikkous"
-
-#~ msgid "Blindness"
-#~ msgstr "Sokeus"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Lieviä motorisia vaikeuksia"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Motoriset vaikeudet - osoitinlaitteet"
+msgstr "Käynnistä ^ensimmäiseltä kiintolevyltä"

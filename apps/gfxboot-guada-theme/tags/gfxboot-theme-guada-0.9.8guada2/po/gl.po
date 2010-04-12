@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-07-24 21:40+0000\n"
+"PO-Revision-Date: 2006-10-07 17:50+0000\n"
 "Last-Translator: Xosé <ubuntu@galizaweb.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -250,27 +250,27 @@ msgstr "Nengún"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Alto contraste"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Anteollo"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Lector de Pantalla"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Modificadores do teclado"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Teclado en pantalla"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -349,9 +349,8 @@ msgstr "Instalar un servidor ^LAMP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Instalar un ^servidor"
+msgstr "Instalar un sistema de liñ^a-de-comandos"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -372,18 +371,3 @@ msgstr "Verificar a ^memoria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Iniciar desde o primeiro disco duro"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Dificultades Visuais Menores"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Dificultades Visuais Medianas"
-
-#~ msgid "Blindness"
-#~ msgstr "Cegueira"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Dificultades Motoras Menores"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Dificultades Motoras - dispositivos apuntadores"

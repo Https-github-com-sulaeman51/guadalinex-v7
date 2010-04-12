@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
-"PO-Revision-Date: 2006-04-12 06:20+0000\n"
+"PO-Revision-Date: 2006-09-26 13:36+0000\n"
 "Last-Translator: Kostas Papadimas <pkst@gmx.net>\n"
 "Language-Team: Hellenic-Ελληνικά-Greek <hstg@billg.gr>\n"
 "MIME-Version: 1.0\n"
@@ -256,27 +256,27 @@ msgstr "Καμία"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Υψηλή Αντίθεση"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Μεγεθυντής"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Εφαρμογή ανάγνωσης οθόνης"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Τροποποιητές πληκτρολογίου"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Πληκτρολόγιο Οθόνης"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -378,18 +378,3 @@ msgstr "Έλεγ^χος μνήμης"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Ε^κκίνηση από τον πρώτο σκληρό δίσκο"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Λίγα προβλήματα όρασης"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Μέτρια προβλήματα όρασης"
-
-#~ msgid "Blindness"
-#~ msgstr "Τύφλωση"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Λίγες κινητικές δυσκολίες"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Κινητικές δυσκολιές - συσκευές κατάδειξης"

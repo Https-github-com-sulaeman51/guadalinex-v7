@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-05-27 18:31+0000\n"
+"PO-Revision-Date: 2006-09-26 13:36+0000\n"
 "Last-Translator: Peter Chabada <ubuntu@chabada.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
@@ -378,18 +378,3 @@ msgstr "^Test pamäte"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Štart systému z prvého ^disku"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Menšie zrakové problémy"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Stredné zrakové problémy"
-
-#~ msgid "Blindness"
-#~ msgstr "Nevidiaci"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Menšie pohybové tažkosti"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Pohybové tažkosti - ukazov. zariadenia"

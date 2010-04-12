@@ -28,8 +28,9 @@ msgstr "Kansal-garee"
 
 #. reboot button label
 #. txt_reboot
+#, fuzzy
 msgid "Reboot"
-msgstr ""
+msgstr "Dib u istaadh"
 
 #. continue button label
 #. txt_continue
@@ -182,8 +183,9 @@ msgid "FTP Installation"
 msgstr ""
 
 #. txt_server
+#, fuzzy
 msgid "Server\n"
-msgstr ""
+msgstr "Serfer-ka\n"
 
 #. txt_password
 msgid "Password\n"

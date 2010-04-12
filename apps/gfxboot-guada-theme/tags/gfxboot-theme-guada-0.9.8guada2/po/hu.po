@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2006-06-30 10:54+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Gabor Kelemen <kelemengabor@linuxforum.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #. txt_help
 msgid "Help"
-msgstr "Segítség"
+msgstr "Súgó"
 
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
@@ -258,27 +258,27 @@ msgstr "Nincs"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Nagy kontraszt"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Nagyító"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Képernyőolvasó"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Bilentyűzetmódosítók"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Képernyő-billentyűzet"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -380,18 +380,3 @@ msgstr "^Memóriateszt"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Rendszerindítás az első merevlemezről"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Enyhe látáskárosodás"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Közepes látáskárosodás"
-
-#~ msgid "Blindness"
-#~ msgstr "Vakság"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Enyhe mozgási nehézségek"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Mozgási nehézségek - mutatóeszközök"

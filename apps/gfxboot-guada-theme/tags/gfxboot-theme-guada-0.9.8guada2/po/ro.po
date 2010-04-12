@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ro\n"
-"PO-Revision-Date: 2006-05-24 10:12+0000\n"
+"PO-Revision-Date: 2006-09-26 13:36+0000\n"
 "Last-Translator: Mircea MITU <mmitu@bitdefender.com>\n"
 "Language-Team: Romanian <ro-kde@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-05-27 15:36+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Jordi Irazuzta <irazuzta@gmail.com>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -378,18 +378,3 @@ msgstr "Comprovació de la ^memòria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Arrenca des del primer disc dur"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Deficiències visuals menors"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Deficiències visuals moderades"
-
-#~ msgid "Blindness"
-#~ msgstr "Ceguera"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Dificultats motrius menors"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Dificultats motrius - dispositius de punter"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bg\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2006-04-16 15:48+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Kamen Lichev <kamenlitchev@abv.bg>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -380,18 +380,3 @@ msgstr "^Теста на паметта"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Зареждане от първия твърд диск"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Малки зрителни затруднения"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Умерени зрителни затруднения"
-
-#~ msgid "Blindness"
-#~ msgstr "Слепота"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Малки двигателни затруднения"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Двигателни затруднения - посочващи устройства"

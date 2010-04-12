@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-07-30 18:23+0000\n"
+"PO-Revision-Date: 2006-09-27 18:43+0000\n"
 "Last-Translator: Yannig MARCHEGAY (Kokoyaya) <yannick.marchegay@lokanova."
 "com>\n"
 "Language-Team: Occitan (post 1500) <oc@li.org>\n"
@@ -44,7 +44,7 @@ msgstr "Opcions d'aviada"
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "Sortir"
+msgstr "Sortir..."
 
 #. txt_exit_dialog
 msgid ""
@@ -61,7 +61,7 @@ msgstr "Ajuda"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Avida..."
+msgstr "Aviada..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -70,7 +70,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Cargada del nucli de Linux\n"
+"Cargament del nucli de Linux\n"
 "\n"
 "\n"
 
@@ -81,7 +81,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Cargada de memtest86\n"
+"Cargament de memtest86\n"
 "\n"
 "\n"
 
@@ -259,7 +259,7 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Lópia"
 
 #. label for accessibility menu
 #. txt_access_v3
@@ -376,6 +376,3 @@ msgstr "Tèst de memòria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Aviar a partir del primièr disc dur"
-
-#~ msgid "Blindness"
-#~ msgstr "Ceguesa"

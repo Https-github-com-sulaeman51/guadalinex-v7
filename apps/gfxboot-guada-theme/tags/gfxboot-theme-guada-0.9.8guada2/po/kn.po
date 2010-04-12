@@ -375,6 +375,3 @@ msgstr ""
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr ""
-
-#~ msgid "Blindness"
-#~ msgstr "ಕುರುಡು"

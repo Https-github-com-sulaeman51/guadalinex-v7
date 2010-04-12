@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-07-28 11:37+0000\n"
+"PO-Revision-Date: 2006-09-26 13:36+0000\n"
 "Last-Translator: Joop Eggen <joop_eggen@yahoo.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -256,27 +256,27 @@ msgstr "Neniu"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Alta kontrasto"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Pligrandigilo"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Ekranlegilo"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Klavarmodifiloj"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Surekrana klavaro"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -378,18 +378,3 @@ msgstr "^Memortesto"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Komenci de la unua fiksita disko"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Malgrava Vida Kripliĝo"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Modera Vida Kripliĝo"
-
-#~ msgid "Blindness"
-#~ msgstr "Blindeco"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Malgrandaj Movaj Malfacilaĵoj"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Movaj Malfacilaĵoj - indikaj aparatoj"

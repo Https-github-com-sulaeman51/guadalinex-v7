@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
-"PO-Revision-Date: 2006-04-10 20:13+0000\n"
+"PO-Revision-Date: 2006-09-26 13:37+0000\n"
 "Last-Translator: Tor Harald Thorland <linux@strigen.com>\n"
 "Language-Team: <nb@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -379,18 +379,3 @@ msgstr "^Minnetest"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Oppstart fra første harddisk"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Svakere synshemmelse"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Moderat synshemmelse"
-
-#~ msgid "Blindness"
-#~ msgstr "Blindhet"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Mindre motoriske vanskeligheter"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Motoriske vanskeligheter - pekeenheter"

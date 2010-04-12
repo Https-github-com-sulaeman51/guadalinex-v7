@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-05-31 12:20+0000\n"
+"PO-Revision-Date: 2006-09-26 13:36+0000\n"
 "Last-Translator: PCMan <pcman.tw@gmail.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
@@ -374,19 +374,3 @@ msgstr "記憶體測試(^M)"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "從第一個硬碟開機(^B)"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "輕微視覺障礙"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "中度視覺障礙"
-
-#~ msgid "Blindness"
-#~ msgstr "盲目"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "輕微活動困難"
-
-#, fuzzy
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "活動困難 — pointing 裝置"

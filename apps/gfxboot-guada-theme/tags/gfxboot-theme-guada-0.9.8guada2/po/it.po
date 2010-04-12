@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: it\n"
-"PO-Revision-Date: 2006-05-23 11:08+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Luca Ferretti <elle.uca@libero.it>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Uscita dal menu di boot grafico\n"
+"Uscita dal menù di boot grafico\n"
 "e avvio dell'interfaccia testuale."
 
 #. txt_help
@@ -256,27 +256,27 @@ msgstr "Nessuno"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Contrasto elevato"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Ingranditore"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Lettore di schermo"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Modificatori di tastiera"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Tastiera a schermo"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -355,7 +355,6 @@ msgstr "Installa un server ^LAMP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
 msgstr "Installa un ^server"
 
@@ -378,18 +377,3 @@ msgstr "Test della ^memoria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Boot dal primo hard disk"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Limitazioni visive lievi"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Limitazioni visive moderate"
-
-#~ msgid "Blindness"
-#~ msgstr "Cecità"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Difficoltà motorie minori"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Difficoltà motorie - dispositivi di puntamento"

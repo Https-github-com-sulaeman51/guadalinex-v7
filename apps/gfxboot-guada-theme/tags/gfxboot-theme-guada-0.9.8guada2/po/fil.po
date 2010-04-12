@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-07-19 06:21+0000\n"
+"PO-Revision-Date: 2006-09-26 13:37+0000\n"
 "Last-Translator: Marlon Janssen Arao <marlonjanssenarao@yahoo.com>\n"
 "Language-Team: Filipino <fil@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -95,8 +95,9 @@ msgstr "Taga-karga sa Pag-Boot"
 
 #. error box title
 #. txt_error_title
+#, fuzzy
 msgid "I/O error"
-msgstr ""
+msgstr "Pagkakamali sa I/O"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -146,8 +147,9 @@ msgstr ""
 
 #. dvd warning title
 #. txt_dvd_warning_title
+#, fuzzy
 msgid "DVD Error"
-msgstr ""
+msgstr "Pagkakamali sa DVD"
 
 #. txt_dvd_warning2
 msgid ""
@@ -384,18 +386,3 @@ msgstr "^Pagsusuri sa memory"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Mag-Boot sa unang hard disk"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Kaunting Kahinaan sa Paningin"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Katamtamang Kahinaan sa Paningin"
-
-#~ msgid "Blindness"
-#~ msgstr "Pagkabulag"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Kaunting Kahirapan sa Paggalaw"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Mga Kahirapan sa Paggalaw - mga gamit panuro"

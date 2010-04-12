@@ -1,18 +1,19 @@
-# translation of uk.po to Ukrainian
+# translation of uk(6).po to Ukrainian
 # LANGUAGE translations for boot loader
 # Copyright (C) 2004 SUSE LINUX AG
-# Ivan Petrouchtchak <iip@telus.net>, 2005.
 #
+# Ivan Petrouchtchak <iip@telus.net>, 2005.
+# Vadim Abramchuck <Abram@email.ua>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: uk\n"
-"PO-Revision-Date: 2006-04-12 22:38+0000\n"
-"Last-Translator: Serhey Kusyumoff <gpalco@gmail.com>\n"
-"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"Project-Id-Version: uk(6)\n"
+"PO-Revision-Date: 2006-08-20 23:36+0000\n"
+"Last-Translator: Vadim Abramchuck <abram@email.ua>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
+"X-Generator: KBabel 1.11.2\n"
 
 #. ok button label
 #. txt_ok
@@ -117,7 +118,7 @@ msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Цей завантажувальний диск <product> не підходить.\n"
+"Цей завантажувальний диск не підходить.\n"
 "Будь ласка, вставте завантажувальний диск %u."
 
 #. password dialog title
@@ -140,7 +141,7 @@ msgstr ""
 #. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr ""
+msgstr "Помилка DVD"
 
 #. txt_dvd_warning2
 msgid ""
@@ -226,32 +227,32 @@ msgstr "Інші параметри"
 #. label for language selection
 #. txt_language
 msgid "Language"
-msgstr ""
+msgstr "Мова"
 
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr ""
+msgstr "Розкладка клавіатури"
 
 #. label for d-i mode menu
 #. txt_normal_mode
 msgid "Normal mode"
-msgstr ""
+msgstr "Нормальний режим"
 
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr ""
+msgstr "Режим експерта"
 
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr ""
+msgstr "Доступність"
 
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr ""
+msgstr "Немає"
 
 #. label for accessibility menu
 #. txt_access_v1
@@ -286,72 +287,72 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_all
 msgid "Everything"
-msgstr ""
+msgstr "Все"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr ""
+msgstr "Запустити або встановити Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Запустити Ubuntu у безпечному графічному режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr ""
+msgstr "Запустити або встановити Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Запустити Kubuntu у безпечному графічному режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr ""
+msgstr "Запустити або встановити Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Запустити Edubuntu у безпечному графічному режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr ""
+msgstr "Запустити або встановити Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Запустити Xubuntu у безпечному графічному режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr ""
+msgstr "Встановити у текстовому режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr ""
+msgstr "Встановити на жорсткий диск"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr ""
+msgstr "Встановити робочу станцію"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Install in ^OEM mode"
-msgstr ""
+msgstr "Встановити у ^OEM режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr ""
+msgstr "Встановити ^LAMP сервер"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
@@ -361,19 +362,19 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr ""
+msgstr "Перевірити компакт-диск на дефекти"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr ""
+msgstr "Відновити непрацюючу систему"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr ""
+msgstr "Тест пам'яті"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr ""
+msgstr "Завантажитись з першого жорсткого диску"

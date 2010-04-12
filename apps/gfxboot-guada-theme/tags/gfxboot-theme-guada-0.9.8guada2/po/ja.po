@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-05-28 18:56+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Jun Kobayashi <fm4j-kbys@asahi-net.or.jp>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
@@ -372,18 +372,3 @@ msgstr "メモリテスト"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "一番目のハードディスクから起動"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "軽度の視力障害"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "中程度の視力障害"
-
-#~ msgid "Blindness"
-#~ msgstr "盲目"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "軽度の運動障害"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "運動障害 - ポインティングデバイス"
