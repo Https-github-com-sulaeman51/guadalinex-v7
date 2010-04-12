@@ -3,14 +3,8 @@ use strict;
 
 use File::Find;
 
-BEGIN {
-    if (@ARGV != 1) {
-	print STDERR "Usage: $0 console-setup-source-tree\n";
-	exit 1;
-    }
-    do "$ARGV[0]/Keyboard/KeyboardNames.pl"
-	or die "can't load $ARGV[0]/Keyboard/KeyboardNames.pl";
-}
+do "/usr/share/console-setup/KeyboardNames.pl"
+    or die "can't load /usr/share/console-setup/KeyboardNames.pl";
 
 # Horrible hardcoded mess for now; please keep this in the same order as in
 # console-setup/debian/config.proto. The values are substrings since that
