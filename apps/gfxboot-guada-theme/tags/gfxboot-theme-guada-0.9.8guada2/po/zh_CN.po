@@ -190,6 +190,11 @@ msgstr "模式"
 msgid "Press F4 to select alternative start-up and installation modes."
 msgstr "按 F4 选择其他启动和安装模式。"
 
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"

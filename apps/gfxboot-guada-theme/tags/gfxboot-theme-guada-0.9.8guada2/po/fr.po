@@ -199,6 +199,11 @@ msgstr ""
 "Appuyez sur F4 pour sélectionner un mode de démarrage et d'installation "
 "alternatif."
 
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"

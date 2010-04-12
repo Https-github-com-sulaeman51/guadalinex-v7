@@ -192,6 +192,11 @@ msgstr "Režiimid"
 msgid "Press F4 to select alternative start-up and installation modes."
 msgstr "Vajuta F4 kui valid alternatiivsema käivituse ja paigaldusmeetodi."
 
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"

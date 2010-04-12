@@ -194,6 +194,11 @@ msgstr "Režimy"
 msgid "Press F4 to select alternative start-up and installation modes."
 msgstr "Stiskněte F4 pro výběr odlišných spouštěcích a instalačních režimů."
 
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
