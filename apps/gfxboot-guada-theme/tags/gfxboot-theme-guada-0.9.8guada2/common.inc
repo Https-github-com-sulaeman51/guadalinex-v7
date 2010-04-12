@@ -882,9 +882,24 @@
 % from menu.humans. Otherwise, return text as-is.
 /menuitemmap {
   0 menu.texts {
-    2 index eq { menu.humans over get exch pop return } if
+    2 index eq { menu.humans over get exch exit } if
     1 add
   } forall pop
+  translate
+
+  % Remove ^ from the string; eventually, this should define hotkeys, but it
+  % doesn't yet.
+  dup length string /menuitemmap.text exch def
+  /menuitemmap.idx 0 def
+  {
+    dup '^' ne {
+      menuitemmap.text menuitemmap.idx rot put
+      /menuitemmap.idx inc
+    } { pop } ifelse
+  } forall
+  menuitemmap.text menuitemmap.idx 0 put
+
+  menuitemmap.text
 } def
 
 
