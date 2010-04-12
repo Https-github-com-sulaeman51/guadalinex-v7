@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.5.5) UNRELEASED; urgency=low
+
+  * Fix crash when trying to display context-sensitive help, not that we
+    have any at the moment (LP: #195564).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 26 Feb 2008 09:47:11 +0000
+
 gfxboot-theme-ubuntu (0.5.4) hardy; urgency=low
 
   * Fix crash when pressing an unhandled key followed by F1 when the boot
