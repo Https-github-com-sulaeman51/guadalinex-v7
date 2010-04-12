@@ -138,7 +138,7 @@
 
   0 1 texts.msgid length 1 sub {
     texts.msgid over get 2 index eq {
-      texts.msgstr over get exch pop exit
+      texts.msgstr over get exch pop exch pop exit
     } { pop } ifelse
   } for
 } def
