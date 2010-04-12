@@ -14,6 +14,9 @@ gfxboot-theme-ubuntu (0.5.2) UNRELEASED; urgency=low
     preference to isolinux.cfg. The gfxboot-foreground, gfxboot-background,
     and gfxboot-access-options keywords in isolinux.cfg are now deprecated
     and support for them will be removed after Ubuntu 8.04.
+  * Include po/ in the binary package for consistency with gfxboot-theme-*,
+    although you should generally just use bootlogo.tar.gz rather than
+    building the theme afresh (LP: #39930).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sun, 03 Feb 2008 18:09:54 +0000
 
