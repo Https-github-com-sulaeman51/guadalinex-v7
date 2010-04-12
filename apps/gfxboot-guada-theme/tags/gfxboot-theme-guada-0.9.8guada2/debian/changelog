@@ -1,6 +1,7 @@
 gfxboot-theme-ubuntu (0.5.14) UNRELEASED; urgency=low
 
   * Update translations from Launchpad.
+  * Add edd=on option to the "Other Options" menu.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 03 Apr 2008 01:02:10 +0100
 
