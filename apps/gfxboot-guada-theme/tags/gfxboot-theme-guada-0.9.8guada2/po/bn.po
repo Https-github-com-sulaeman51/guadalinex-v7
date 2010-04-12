@@ -339,7 +339,7 @@ msgstr "হার্ডডিস্কে ইনস্টলেশন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
-msgid "^Install to first hard disk"
+msgid "^Install to the hard disk"
 msgstr "হার্ডডিস্কে ইনস্টলেশন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

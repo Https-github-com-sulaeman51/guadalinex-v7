@@ -344,7 +344,7 @@ msgstr "^Instalează pe disc"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 #, fuzzy
-msgid "^Install to first hard disk"
+msgid "^Install to the hard disk"
 msgstr "^Instalează pe disc"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
