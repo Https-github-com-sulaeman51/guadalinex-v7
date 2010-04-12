@@ -5,6 +5,7 @@ gfxboot-theme-ubuntu (0.1.21) UNRELEASED; urgency=low
     Norwegian Bokmål, Dutch, Polish, Portuguese, Portuguese (Brazil),
     Russian, Slovak, Slovenian, Swedish, Thai, Turkish, Ukrainian, Urdu,
     Chinese (China), Chinese (Taiwan).
+  * Update font to add newly-required characters.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 15 May 2006 09:28:04 +0100
 
