@@ -108,11 +108,14 @@
   /menuconfig.idx 0 def
   menuconfig.entries {
     menuconfig.curlabel eq {
-      % Copy everything up to here into a new array.
+      % Copy everything up to here into new arrays.
+      /menuconfig.newargs menuconfig.args length 1 sub array def
       /menuconfig.newentries menuconfig.entries length 1 sub array def
       /menuconfig.newhumans menuconfig.humans length 1 sub array def
       menuconfig.idx 0 ne {
         0 1 menuconfig.idx 1 sub {
+          menuconfig.args over get
+          menuconfig.newargs 2 index rot put
           menuconfig.entries over get
           menuconfig.newentries 2 index rot put
           menuconfig.humans over get
@@ -122,12 +125,15 @@
 
       % Slide everything else down one place.
       menuconfig.idx 1 menuconfig.entries length 2 sub {
+        menuconfig.args over 1 add get
+        menuconfig.newargs 2 index rot put
         menuconfig.entries over 1 add get
         menuconfig.newentries 2 index rot put
         menuconfig.humans over 1 add get
         menuconfig.newhumans 3 1 roll put
       } for
 
+      /menuconfig.args menuconfig.newargs def
       /menuconfig.entries menuconfig.newentries def
       /menuconfig.humans menuconfig.newhumans def
 
@@ -137,14 +143,21 @@
   } forall
 } def
 
-% ( menu_entries_array -- menu_humans_array menu_entries_array )
-% The returned menu_entries_array (identifiers) and menu_humans_array
-% (human-readable names) will have any hidden entries removed.
+% ( menu_entries_array menu_args_array -- menu_humans_array menu_entries_array menu_args_array )
+% The returned menu_args_array (kernel parameters), menu_entries_array
+% (identifiers), and menu_humans_array (human-readable names) will have any
+% hidden entries removed.
 /menuconfig.init {
-  dup length array /menuconfig.entries exch def
-  dup length array /menuconfig.humans exch def
+  dup length array /menuconfig.args exch def
+  over length array /menuconfig.entries exch def
+  over length array /menuconfig.humans exch def
 
-  % copy input array into menuconfig.entries; initialise menuconfig.humans
+  % copy input arrays; initialise menuconfig.humans
+  /menuconfig.idx 0 def
+  {
+    menuconfig.args menuconfig.idx rot put
+    /menuconfig.idx inc
+  } forall
   /menuconfig.idx 0 def
   {
     dup menuconfig.entries menuconfig.idx rot put
@@ -154,12 +167,12 @@
 
   % we only understand syslinux configuration
   syslinux not {
-    menuconfig.humans menuconfig.entries return
+    menuconfig.humans menuconfig.entries menuconfig.args return
   } if
 
   % load configuration file; return if not found
   menuconfig.find dup .undef eq {
-    menuconfig.humans menuconfig.entries return
+    menuconfig.humans menuconfig.entries menuconfig.args return
   } if
   /menuconfig.file exch cvs def
 
@@ -195,5 +208,5 @@
     dup length add
   } loop free
 
-  menuconfig.humans menuconfig.entries
+  menuconfig.humans menuconfig.entries menuconfig.args
 } def
