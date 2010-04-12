@@ -32,6 +32,7 @@
     /.fulloptions.acpi_off dec
     /.fulloptions.noapic dec
     /.fulloptions.nolapic dec
+    /.fulloptions.free dec
     xmenu .xm_current .fulloptions.acpi_off put
   } {
     xmenu .xm_current .fulloptions.expert put
