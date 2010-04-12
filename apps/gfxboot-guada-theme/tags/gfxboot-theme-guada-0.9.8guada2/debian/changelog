@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.4.0) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.4.0) gutsy; urgency=low
 
   * Use priority=low for d-i expert mode rather than DEBCONF_PRIORITY=low.
   * Update keymaps from console-setup 1.16ubuntu4. Add locale mappings for
@@ -9,7 +9,7 @@ gfxboot-theme-ubuntu (0.4.0) UNRELEASED; urgency=low
     manufacturers)", since the OEM install isn't just text mode any more. I
     hope this will still avoid the confusion from bug #95582.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Mon, 16 Apr 2007 19:25:52 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 06 Aug 2007 11:45:26 +0100
 
 gfxboot-theme-ubuntu (0.3.7) feisty; urgency=low
 
