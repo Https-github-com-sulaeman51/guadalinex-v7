@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hu\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2005-08-04 14:17+0100\n"
-"Last-Translator: Szabolcs Varga <shirokuma@shirokuma.hu>\n"
+"PO-Revision-Date: 2006-03-19 16:44+0000\n"
+"Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -117,12 +117,12 @@ msgstr ""
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Ez nem egy <product> indítólemez.\n"
+"Ez nem egy megfelelő indítólemez.\n"
 "Kérem, helyezze be a(z) %u indítólemezt."
 
 #. password dialog title
@@ -234,67 +234,67 @@ msgstr "Nyelv"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr ""
+msgstr "Billentyűzetkiosztás"
 
 #. label for d-i mode menu
 #. txt_normal_mode
 msgid "Normal mode"
-msgstr ""
+msgstr "Normál mód"
 
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr ""
+msgstr "Szakértő mód"
 
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr ""
+msgstr "Akadálymentesítés"
 
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr ""
+msgstr "Nincs"
 
 #. label for accessibility menu
 #. txt_access_v1
 msgid "Lesser Visual Impairment"
-msgstr ""
+msgstr "Enyhe látáskárosodás"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Moderate Visual Impairment"
-msgstr ""
+msgstr "Közepes látáskárosodás"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Blindness"
-msgstr ""
+msgstr "Vakság"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Minor Motor Difficulties"
-msgstr ""
+msgstr "Enyhe mozgási nehézségek"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "Motor Difficulties - pointing devices"
-msgstr ""
+msgstr "Mozgási nehézségek - mutatóeszközök"
 
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr ""
+msgstr "Mozgási nehézségek - kapcsolóeszközök"
 
 #. label for accessibility menu
 #. txt_access_all
 msgid "Everything"
-msgstr ""
+msgstr "Minden"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start Ubuntu"
-msgstr ""
+msgstr "Az ^Ubuntu indítása"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
@@ -304,7 +304,7 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start Kubuntu"
-msgstr ""
+msgstr "A ^Kubuntu indítása"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
@@ -314,7 +314,7 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start Edubuntu"
-msgstr ""
+msgstr "Az ^Edubuntu indítása"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
@@ -324,7 +324,7 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start Xubuntu"
-msgstr ""
+msgstr "A ^Xubuntu indítása"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
@@ -334,44 +334,44 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr ""
+msgstr "^Telepítés a merevlemezre"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr ""
+msgstr "Mu^nkaállomás telepítése"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Install in ^OEM mode"
-msgstr ""
+msgstr "Telepítés ^OEM módban"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr ""
+msgstr "Egy ^LAMP kiszolgáló telepítése"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ^server"
-msgstr ""
+msgstr "Egy ^kiszolgáló telepítése"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr ""
+msgstr "CD ^hibaellenőrzése"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr ""
+msgstr "^Sérült rendszer javítása"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr ""
+msgstr "^Memóriateszt"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr ""
+msgstr "^Rendszerindítás az első merevlemezről"

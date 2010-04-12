@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
-"PO-Revision-Date: 2005-08-09 01:17+0300\n"
-"Last-Translator: Hellenic SuSE Translation Team <hstg@billg.gr>\n"
+"PO-Revision-Date: 2006-03-19 08:43+0000\n"
+"Last-Translator: Kostas Papadimas <pkst@gmx.net>\n"
 "Language-Team: Hellenic-Ελληνικά-Greek <hstg@billg.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "Εντάξει"
+msgstr "ΟΚ"
 
 #. cancel button label
 #. txt_cancel
@@ -87,22 +87,22 @@ msgstr ""
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Διαχειριστής Εκκίνησης"
+msgstr "Boot loader"
 
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "σφάλμα E/E"
+msgstr "Σφάλμα I/O"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Αλλαγή Δισκέτας Εκκίνησης"
+msgstr "Αλλαγή δίσκου εκκίνησης"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Παρακαλώ εισάγετε την δισκέτα εκκίνησης %u."
+msgstr "Παρακαλώ εισάγετε τον δίσκο εκκίνησης %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -110,18 +110,18 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"Αυτή είναι η δισκέτα εκκίνησης %u.\n"
-"Παρακαλώ εισάγετε τη δισκέτα εκκίνησης %u."
+"Αυτός είναι ο δίσκος εκκίνησης %u.\n"
+"Παρακαλώ εισάγετε τον δίσκο εκκίνησης %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Αυτή δεν είναι δισκέτα εκκίνησης του <product>.\n"
-"Παρακαλώ εισάγετε τη δισκέτα εκκίνησης %u."
+"Αυτή δεν είναι ο κατάλληλος δίσκος εκκίνησης.\n"
+"Παρακαλώ εισάγετε τον δίσκο εκκίνησης %u."
 
 #. password dialog title
 #. txt_password_title
@@ -183,7 +183,7 @@ msgstr "Εγκατάσταση FTP"
 
 #. txt_server
 msgid "Server\n"
-msgstr "Διακομιστής\n"
+msgstr "Εξυπηρετητής\n"
 
 #. txt_password
 msgid "Password\n"
@@ -217,7 +217,7 @@ msgstr "Εγκατάσταση HTTP"
 #. as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
-msgstr "Περιοχή\n"
+msgstr "Τομέας\n"
 
 #. button label for other/more options
 #. txt_other_options
@@ -232,67 +232,67 @@ msgstr "Γλώσσα"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr ""
+msgstr "Διάταξη πληκτρολογίου"
 
 #. label for d-i mode menu
 #. txt_normal_mode
 msgid "Normal mode"
-msgstr ""
+msgstr "Κανονική λειτουργία"
 
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr ""
+msgstr "Λειτουργία για προχωρημένους"
 
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr ""
+msgstr "Προσιτότητα"
 
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr ""
+msgstr "Καμία"
 
 #. label for accessibility menu
 #. txt_access_v1
 msgid "Lesser Visual Impairment"
-msgstr ""
+msgstr "Λίγα προβλήματα όρασης"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Moderate Visual Impairment"
-msgstr ""
+msgstr "Μέτρια προβλήματα όρασης"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Blindness"
-msgstr ""
+msgstr "Τύφλωση"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Minor Motor Difficulties"
-msgstr ""
+msgstr "Λίγες κινητικές δυσκολίες"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "Motor Difficulties - pointing devices"
-msgstr ""
+msgstr "Κινητικές δυσκολιές - συσκευές κατάδειξης"
 
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr ""
+msgstr "Κινητικές δυσκολιές - συσκευές εναλλαγής"
 
 #. label for accessibility menu
 #. txt_access_all
 msgid "Everything"
-msgstr ""
+msgstr "Όλα"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start Ubuntu"
-msgstr ""
+msgstr "Εκκίνηση ^Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
@@ -302,7 +302,7 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start Kubuntu"
-msgstr ""
+msgstr "Εκκίνηση ^Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
@@ -312,7 +312,7 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start Edubuntu"
-msgstr ""
+msgstr "Εκκίνηση E^dubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
@@ -322,7 +322,7 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start Xubuntu"
-msgstr ""
+msgstr "Εκκίνηση ^Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
@@ -332,44 +332,44 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr ""
+msgstr "Ε^γκατάσταση στο πρώτο σκληρό δίσκο"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr ""
+msgstr "Εγκατάσταση ενός ^σταθμού εργασίας"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Install in ^OEM mode"
-msgstr ""
+msgstr "Install σε λειτουργία ^OEM"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr ""
+msgstr "Εγκατάσταση ενός εξυπηρετητή ^LAMP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ^server"
-msgstr ""
+msgstr "Εγκατάσταση ενός ^εξυπηρετητή"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr ""
+msgstr "Έ^λεγχος CD για ελλατώματα"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr ""
+msgstr "^Rescue  ενός προβληματικού συστήματος"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr ""
+msgstr "Έλεγ^χος μνήμης"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr ""
+msgstr "Ε^κκίνηση από τον πρώτο σκληρό δίσκο"
