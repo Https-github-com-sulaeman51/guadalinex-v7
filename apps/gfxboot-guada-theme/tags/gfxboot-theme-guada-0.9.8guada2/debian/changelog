@@ -1,8 +1,8 @@
-gfxboot-theme-ubuntu (0.8.8) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.8.8) karmic; urgency=low
 
   * Update translations from Launchpad.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Mon, 19 Oct 2009 09:56:49 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 19 Oct 2009 09:57:50 +0100
 
 gfxboot-theme-ubuntu (0.8.7) karmic; urgency=low
 
