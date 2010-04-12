@@ -1081,10 +1081,10 @@
 
   small_layout {
     /frame1.pos  { 190 240 } def
-    /frame1.size { 365 180 } def
+    /frame1.size { 365 160 } def
   } {
     /frame1.pos  { 265 320 } def
-    /frame1.size { 365 190 } def
+    /frame1.size { 365 170 } def
   } ifelse
 
   /frame4.pos  { 560  62 } def
@@ -1099,7 +1099,7 @@
 
   /boot.label.len 243 def
 
-  /boot.pos { boot.label.len 10 add small_layout { 380 } { 490 } ifelse } def
+  /boot.pos { boot.label.len 10 add small_layout { 410 } { 510 } ifelse } def
 
   /boot.buf.size cmdlinelength def
   /boot.buf boot.buf.size string def
