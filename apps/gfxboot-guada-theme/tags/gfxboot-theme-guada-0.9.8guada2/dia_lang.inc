@@ -12,6 +12,7 @@
 % fallback if there is no "langlist"
 /lang.items [ "en" ] def
 /lang.names [ "English" ] def
+/lang.displayed false def
 
 /.la.language 0 def
 /.la.locale   1 def
@@ -180,6 +181,22 @@
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Clean up after language menu has been undrawn.
+%
+% ( ) => ( )
+%
+/lang.cleanup {
+  lang.displayed not {
+    boot.show not {
+      boot.pos moveto boot.label.len neg 0 rmoveto
+      txt_modes_help show
+    } if
+    /lang.displayed true def
+  } if
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Show language menu.
 %
 % ( ) => ( )
@@ -190,6 +207,7 @@
   window.xmenu
   dup .xmenu xmenu.lang put
   dup .xmenu.update /lang.update put
+  dup .xmenu.cleanup /lang.cleanup put
   dup window.init
       window.show
 } def
