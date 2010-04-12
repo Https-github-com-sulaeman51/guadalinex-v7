@@ -225,11 +225,11 @@
       } { pop } ifelse
     } if
     dup "label" eq {
-      over menuconfig.skipspace /menuconfig.curlabel exch def
+      over menuconfig.skipspace strdup /menuconfig.curlabel exch def
     } if
     dup "menu" eq {
       over menuconfig.skipspace menuconfig.keyword
-      dup "label" eq { over menuconfig.skipspace menuconfig.sethuman } if
+      dup "label" eq { over menuconfig.skipspace strdup menuconfig.sethuman } if
       dup "hide" eq { menuconfig.hidelabel } if
       free rot pop exch
     } if
@@ -237,7 +237,8 @@
 
     % skip to end of line
     dup length add
-  } loop free
+  } loop pop
+  menuconfig.file free
 
   menuconfig.humans menuconfig.entries menuconfig.args
 } def
