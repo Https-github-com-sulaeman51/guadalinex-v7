@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.1.16) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.16) dapper; urgency=low
 
   * Add localisation for the boot menu items currently added by the Ubuntu
     debian-cd branch.
@@ -6,7 +6,7 @@ gfxboot-theme-ubuntu (0.1.16) UNRELEASED; urgency=low
     localisation.
   * Update Portuguese translation (thanks, Rui Azevedo).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Mon, 27 Feb 2006 16:57:52 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 28 Feb 2006 08:34:17 +0000
 
 gfxboot-theme-ubuntu (0.1.15) dapper; urgency=low
 
