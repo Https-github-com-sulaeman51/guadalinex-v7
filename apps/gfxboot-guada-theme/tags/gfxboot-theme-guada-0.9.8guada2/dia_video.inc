@@ -54,8 +54,7 @@
 
   % build list of video modes
   /video.modes.list [
-    [ -1 0 0 ]	% special: text mode
-    [ -2 1 0 ]	% special: VESA mode (width = 1 to make it sort)
+    [ -1 0 0 ]	% special: default VGA mode
 
     0 1 videomodes {
       videomodeinfo dup .undef eq {
@@ -65,8 +64,8 @@
           over 0xbfff and 6 2 roll
           0x4000 and		% fb support
           exch 0x10 eq and	% 16 color bits
-          over 600 ge and	% height >= 600
-          2 index 800 ge and	% width >= 800
+          over 400 ge and	% height >= 400
+          2 index 600 ge and	% width >= 600
         { ] } { pop pop pop pop } ifelse
       } ifelse
     } for
@@ -93,13 +92,9 @@
     video.modes.list {
       dup .vm_width get
       dup 0 eq {
-        pop pop "Text Mode"
+        pop pop "VGA"
       } {
-        dup 1 eq {
-          pop pop "VESA"
-        } {
-          exch .vm_height get exch "%d x %d" 32 string dup 5 1 roll sprintf
-        } ifelse
+        exch .vm_height get exch "%d x %d" 32 string dup 5 1 roll sprintf
       } ifelse
     } forall
   ] def
@@ -112,16 +107,15 @@
 
   monitorsize exch 800 max exch 600 max		% at least 800x600
 
-  xmenu .xm_current -1 put
-  video.modes.list {
-    dup .vm_width get 3 index le
-    exch .vm_height get 3 index le and {
-      xmenu .xm_current over over get 1 add put
-    } {
-      exit
-    } ifelse
-
-  } forall
+  xmenu .xm_current 0 put
+  % video.modes.list {
+  %   dup .vm_width get 3 index le
+  %   exch .vm_height get 3 index le and {
+  %     xmenu .xm_current over over get 1 add put
+  %   } {
+  %     exit
+  %   } ifelse
+  % } forall
 
   pop pop
 
