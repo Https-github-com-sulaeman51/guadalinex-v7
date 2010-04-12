@@ -19,10 +19,10 @@
 /help.link.selected.fg white def
 /help.link.selected.bg blue def
 
-/help.x 80 def
+/help.x 20 def
 /help.y 50 def
-/help.width 480 def
-/help.height 322 def
+/help.width 600 def
+/help.height 380 def
 
 clip.size pop 800 eq {
   /help.x 120 def
