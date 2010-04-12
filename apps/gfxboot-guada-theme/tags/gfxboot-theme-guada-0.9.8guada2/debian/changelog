@@ -2,6 +2,7 @@ gfxboot-theme-ubuntu (0.5.7) UNRELEASED; urgency=low
 
   * Display timeout as "%d s" rather than "%ds" (LP: #197214).
   * Add localisation for "Install a Diskless Image Server" (LP: #197539).
+  * Update for Kurdish default layout change in console-setup 1.21ubuntu4.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 03 Mar 2008 09:35:05 +0000
 
