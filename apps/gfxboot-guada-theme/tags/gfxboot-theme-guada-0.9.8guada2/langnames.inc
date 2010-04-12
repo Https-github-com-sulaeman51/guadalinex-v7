@@ -23,7 +23,7 @@
   [ "ga" "ga_IE" "Gaeilge" ]
   [ "gl" "gl_ES" "Galego" ]
   [ "gu" "gu_IN" "Gujarati" ]
-  [ "he" "he_IL" "עברית" ]
+  [ "he" "he_IL" "תירבע" ]
   [ "hi" "hi_IN" "Hindi" ]
   [ "hr" "hr_HR" "Hrvatski" ]
   [ "hu" "hu_HU" "Magyar" ]
