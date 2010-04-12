@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.1.8) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.8) dapper; urgency=low
 
   * Rename languages to langlist to avoid running into 8.3 file name
     restrictions on ISO9660.
@@ -11,7 +11,7 @@ gfxboot-theme-ubuntu (0.1.8) UNRELEASED; urgency=low
   * If a non-default keymap is selected, put it on the kernel command line
     as kbd-chooser/method=%s.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Fri, 20 Jan 2006 12:06:34 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 20 Jan 2006 14:17:58 +0000
 
 gfxboot-theme-ubuntu (0.1.7) dapper; urgency=low
 
