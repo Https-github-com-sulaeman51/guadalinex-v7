@@ -9,15 +9,16 @@ DEFAULT_LANG =
 
 PIC_COMMON   = back.jpg head{,_a}.jpg
 
-FILES_INST   = init languages $(TRANSLATIONS) 16x16.fnt kroete.dat \
+FILES_CORE   = init languages
+
+INST_EXT     = $(TRANSLATIONS) 16x16.fnt kroete.dat $(PIC_COMMON)
+
+FILES_INST   = $(FILES_CORE) $(INST_EXT)
+
+FILES_BOOT   = $(FILES_CORE) $(TRANSLATIONS) 16x16.fnt \
 	       $(PIC_COMMON)
 
-FILES_BOOT   = init languages $(TRANSLATIONS) 16x16.fnt \
-	       $(PIC_COMMON)
-
-FILES_BOOT_EN = init languages en.tr 16x16.fnt $(PIC_COMMON)
-
-INST_EXT     = 16x16.fnt $(PIC_COMMON) kroete.dat *.tr
+FILES_BOOT_EN = $(FILES_CORE) en.tr 16x16.fnt $(PIC_COMMON)
 
 ifdef DEFAULT_LANG
 FILES_INST += lang
@@ -55,8 +56,8 @@ installdir: install.config $(INCLUDES)
 ifdef DEFAULT_LANG
 	@echo $(DEFAULT_LANG) >install/lang
 endif
-	@cd install && chmod +t $(INST_EXT)
-	@cd install && echo $(FILES_INST) | sed -e "s/ /\n/g" | cpio --quiet -o >bootlogo
+	@cd install && echo $(FILES_CORE) | sed -e "s/ /\n/g" | cpio --quiet -o >bootlogo
+	@tar -C install -czf install/bootlogo.tar.gz bootlogo $(INST_EXT)
 
 font:
 	cat po/*.po >tmp.txt
