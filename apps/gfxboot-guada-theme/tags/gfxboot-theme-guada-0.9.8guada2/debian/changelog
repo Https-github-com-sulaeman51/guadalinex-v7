@@ -1,8 +1,8 @@
-gfxboot-theme-ubuntu (0.3.6) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.3.6) feisty; urgency=low
 
   * Add localisation for "Install a ser^ver" and "Install an ^LTSP server".
 
- -- Colin Watson <cjwatson@ubuntu.com>  Thu,  5 Apr 2007 18:35:13 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu,  5 Apr 2007 18:37:04 +0100
 
 gfxboot-theme-ubuntu (0.3.5) feisty; urgency=low
 
