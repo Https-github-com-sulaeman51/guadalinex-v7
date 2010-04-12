@@ -379,7 +379,14 @@
     } if
 
     config.keymap .km.name get dup "us" ne {
-      "kbd-chooser/method=%s " bc.cmd dup length add sprintf
+      dup "_" strstr dup 0 eq {
+        pop
+        "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
+      } {
+        over over 1 sub 0 put
+        over "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
+        add "console-setup/variantcode=%s " bc.cmd dup length add sprintf
+      } ifelse
     } {
       pop
     } ifelse

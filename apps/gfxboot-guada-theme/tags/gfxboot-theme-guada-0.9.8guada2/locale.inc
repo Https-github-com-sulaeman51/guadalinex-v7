@@ -37,12 +37,15 @@
 /setkeymap {
   config.keymap.locale over eq { pop false return } if
 
+  % Get the full locale if possible.
+  lang.getlocale
+
   /config.keymap.locale exch def
 
   /setkeymap.found false def
   keymaps {
     dup .km.locales get {
-      config.keymap.locale eq {
+      config.keymap.locale exch strstr 0 ne {
         dup /config.keymap exch def /setkeymap.found true def exit
       } if
     } forall
@@ -59,7 +62,7 @@
       lang.tmp exch 0 put
       keymaps {
         dup .km.locales get {
-          lang.tmp eq {
+          lang.tmp exch strstr 0 ne {
             dup /config.keymap exch def /setkeymap.found true def exit
           } if
         } forall

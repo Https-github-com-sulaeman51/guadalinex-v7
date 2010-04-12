@@ -2,6 +2,8 @@ gfxboot-theme-ubuntu (0.2.3) UNRELEASED; urgency=low
 
   * Preseed better country defaults, grabbed from localechooser 1.20ubuntu6
     (closes: Malone #30960).
+  * Convert keymap handling and preseeding to console-setup; keyboard names
+    grabbed from console-setup 1.7ubuntu11 (closes: Malone #61573).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Fri, 22 Sep 2006 15:47:16 +0100
 
