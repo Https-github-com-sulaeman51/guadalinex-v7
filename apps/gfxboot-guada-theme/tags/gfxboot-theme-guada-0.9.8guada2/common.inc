@@ -1080,11 +1080,11 @@
   /menu.bar.color      white       def
 
   small_layout {
-    /frame1.pos  { 250 150 } def
-    /frame1.size { 365 195 } def
+    /frame1.pos  { 190 240 } def
+    /frame1.size { 365 180 } def
   } {
-    /frame1.pos  { 415 192 } def
-    /frame1.size { 365 195 } def
+    /frame1.pos  { 265 320 } def
+    /frame1.size { 365 190 } def
   } ifelse
 
   /frame4.pos  { 560  62 } def
