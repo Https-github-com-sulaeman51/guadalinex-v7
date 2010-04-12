@@ -94,6 +94,7 @@
 /.xmenu          newfield
 /.xmenu.update   newfield
 /.xmenu.select   newfield
+/.xmenu.input    newfield
 
 % window types
 /t_dialog 100 def
