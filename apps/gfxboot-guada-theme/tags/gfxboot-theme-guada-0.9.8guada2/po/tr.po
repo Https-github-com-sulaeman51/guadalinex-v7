@@ -393,3 +393,8 @@ msgstr "^Bellek testi"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Birinci sabit diskten ^aç"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

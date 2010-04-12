@@ -386,3 +386,8 @@ msgstr "RA^M-Speichertest durchführen"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Von der ersten ^Festplatte starten"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

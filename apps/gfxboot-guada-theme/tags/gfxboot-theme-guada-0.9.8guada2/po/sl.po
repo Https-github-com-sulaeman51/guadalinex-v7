@@ -384,3 +384,8 @@ msgstr "Preveri delovni po^mnilnik"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Zaženi s prvega trdega diska"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

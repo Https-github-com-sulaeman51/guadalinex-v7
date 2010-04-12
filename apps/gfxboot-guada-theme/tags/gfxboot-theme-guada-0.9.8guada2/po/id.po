@@ -385,3 +385,8 @@ msgstr "Uji ^memori"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Boot dari hard disk pertama"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

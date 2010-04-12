@@ -384,3 +384,8 @@ msgstr "^Operatyviosios atminties (RAM) tikrinimas"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Į^kelti iš pirmojo standaus disko"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

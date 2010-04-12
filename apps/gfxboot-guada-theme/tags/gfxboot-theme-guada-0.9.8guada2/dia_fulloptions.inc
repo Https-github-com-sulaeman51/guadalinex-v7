@@ -11,6 +11,7 @@
 /.fulloptions.acpi_off 1 def
 /.fulloptions.noapic 2 def
 /.fulloptions.nolapic 3 def
+/.fulloptions.free 4 def
 
 % These strings are intentionally not translatable.
 /txt_acpi_off "acpi=off" def
@@ -39,6 +40,7 @@
   xmenu .xm_list [
     is_live not { /txt_expert_mode } if
     /txt_acpi_off /txt_noapic /txt_nolapic
+    /txt_option_free
   ] put
 
   xmenu .xm_title /txt_other_options put
@@ -70,6 +72,7 @@
       over .fulloptions.acpi_off eq { pop "acpi=off" } if
       over .fulloptions.noapic eq { pop "noapic" } if
       over .fulloptions.nolapic eq { pop "nolapic" } if
+      over .fulloptions.free eq { pop "apt-setup/restricted=false apt-setup/multiverse=false" } if
       dup {
 	% append new option string
 	dup length fulloptions.option length add 1 add string

@@ -374,3 +374,8 @@ msgstr "^Geheugentest"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Start ^op vanaf de eerste harde schijf"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

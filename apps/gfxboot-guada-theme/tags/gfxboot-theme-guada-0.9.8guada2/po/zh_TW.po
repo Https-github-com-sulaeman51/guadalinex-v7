@@ -384,3 +384,8 @@ msgstr "記憶體測試(^M)"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "從第一個硬碟開機(^B)"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""
