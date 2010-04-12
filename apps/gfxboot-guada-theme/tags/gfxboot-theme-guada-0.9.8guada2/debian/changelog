@@ -1,10 +1,10 @@
-gfxboot-theme-ubuntu (0.2.1) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.2.1) edgy; urgency=low
 
   * Make "lang" file work with locales that require _CC (pt_BR, zh_CN,
     zh_TW).
   * Use the new "locale" alias for debian-installer/locale.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Thu, 13 Jul 2006 17:38:29 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 14 Jul 2006 09:39:09 +0100
 
 gfxboot-theme-ubuntu (0.2.0) edgy; urgency=low
 
