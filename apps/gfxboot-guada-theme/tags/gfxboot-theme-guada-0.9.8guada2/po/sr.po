@@ -159,11 +159,6 @@ msgstr "Мапа тастера"
 msgid "Modes"
 msgstr "Начини"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Притисните F4 да изаберете алтернативни улаз и начине инсталације."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

@@ -160,11 +160,6 @@ msgstr "لوحة المفاتيح"
 msgid "Modes"
 msgstr "الأطوار"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "اضغط F4 لتختار طريقة إقلاع وتثبيت أخرى."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

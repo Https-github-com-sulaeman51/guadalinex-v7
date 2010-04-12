@@ -162,11 +162,6 @@ msgstr "Teclado"
 msgid "Modes"
 msgstr "Modos"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Pulse F4 para seleccionar otros modos de arranque y de instalación."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

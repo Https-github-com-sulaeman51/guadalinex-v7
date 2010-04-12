@@ -163,11 +163,6 @@ msgstr "Toetsenindeling"
 msgid "Modes"
 msgstr "Modi"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Druk op F4 om alternatieve opstart- en installatiemodi te kiezen."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

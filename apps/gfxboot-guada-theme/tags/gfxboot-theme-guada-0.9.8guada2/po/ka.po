@@ -162,11 +162,6 @@ msgstr "კლავიშების რუქა"
 msgid "Modes"
 msgstr "რეჟიმები"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "დააჭირეთ F4-ს ჩატვირთვისა და დაყენების ალტერნატიული  რეჟიმებისთვის."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

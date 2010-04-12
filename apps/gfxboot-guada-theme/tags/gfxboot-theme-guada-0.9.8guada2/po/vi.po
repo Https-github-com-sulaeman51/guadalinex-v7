@@ -160,11 +160,6 @@ msgstr "Sơ đồ phím"
 msgid "Modes"
 msgstr "Các chế độ"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Bấm F4 để chọn các chế độ khởi động và cài đặt khác."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

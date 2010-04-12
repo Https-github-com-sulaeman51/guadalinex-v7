@@ -157,12 +157,6 @@ msgstr "Klavye"
 msgid "Modes"
 msgstr "Mode"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr ""
-"Ji bo derbasî derbasî destpêkar û sazkareke alternatîf bibî F4 bitikîne."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"
