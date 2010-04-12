@@ -72,6 +72,7 @@
     0xe0 settransparency
     boot.ed.width 1 fillrect
     settransparency
+    boot.ed edit.redraw
   } {
     boot.label.len neg 0 rmoveto
     txt_modes_help show
