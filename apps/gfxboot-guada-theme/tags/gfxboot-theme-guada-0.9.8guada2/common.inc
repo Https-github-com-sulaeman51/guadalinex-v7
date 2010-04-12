@@ -539,7 +539,7 @@
   window.current .color.fg get setcolor
   window.current .ed.font get setfont
 
-  boot.ed edit.hidecursor
+  boot.show { boot.ed edit.hidecursor } if
   menu.args menu.entry get
   bootpromptmap
 

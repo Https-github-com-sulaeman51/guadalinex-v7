@@ -13,6 +13,9 @@
 /window.splash {
   widget.size array
   dup .type t_splash put
+  dup .font font.normal put
+  dup .ed.font font.normal put
+  dup .color.fg boot.text.normal put
 } def
 
 
@@ -35,6 +38,8 @@
   window.push
 
   menu.init
+  % like 'menu.entry true MenuSelect', but without drawing on the screen
+  bootoptions.init
 
   access.file dup .undef ne {
     setimage
