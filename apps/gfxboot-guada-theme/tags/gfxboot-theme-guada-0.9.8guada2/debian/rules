@@ -22,9 +22,7 @@ install: build
 	install -m755 keymapchars $(themedir)
 	install -m644 install/bootlogo.tar.gz $(themedir)
 
-binary-arch:
-
-binary-indep: build install
+binary-arch: build install
 	dh_testdir
 	dh_testroot
 	dh_installdocs
@@ -35,6 +33,8 @@ binary-indep: build install
 	dh_gencontrol
 	dh_md5sums
 	dh_builddeb
+
+binary-indep:
 
 binary: binary-arch binary-indep
 

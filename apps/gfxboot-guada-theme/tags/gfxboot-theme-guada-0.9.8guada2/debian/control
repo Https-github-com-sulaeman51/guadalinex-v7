@@ -2,11 +2,11 @@ Source: gfxboot-theme-ubuntu
 Section: utils
 Priority: optional
 Maintainer: Colin Watson <cjwatson@ubuntu.com>
-Build-Depends-Indep: debhelper (>= 4), gfxboot
+Build-Depends: debhelper (>= 4), gfxboot
 Standards-Version: 3.6.2
 
 Package: gfxboot-theme-ubuntu
-Architecture: all
+Architecture: amd64 i386
 Depends: gfxboot
 Description: Ubuntu theme for gfxboot-compliant boot loaders
  This is an Ubuntu theme for the gfxboot graphical boot loader extension. It
