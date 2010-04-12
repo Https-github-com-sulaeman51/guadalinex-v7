@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.6.6) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.6.6) intrepid; urgency=low
 
   * Rebuild font with unifont 1:5.1.20080914-1.
   * Update translations from Launchpad.
@@ -10,7 +10,7 @@ gfxboot-theme-ubuntu (0.6.6) UNRELEASED; urgency=low
     improvement, but please file a bug if any characters that you need to
     type in the boot loader disappear as a result.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Thu, 25 Sep 2008 00:58:34 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 25 Sep 2008 12:12:55 +0100
 
 gfxboot-theme-ubuntu (0.6.5) intrepid; urgency=low
 
