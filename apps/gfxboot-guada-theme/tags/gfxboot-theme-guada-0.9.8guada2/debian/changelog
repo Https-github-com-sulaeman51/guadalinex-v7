@@ -3,6 +3,7 @@ gfxboot-theme-ubuntu (0.1.6) UNRELEASED; urgency=low
   * Remove timeout clock graphics, which seem to break on some machines and
     were scary-looking anyway (closes: Ubuntu #21210).
   * Add Galician translation (thanks, Pedro Silva; closes: Ubuntu #21806).
+  * Consider bit depth while sorting video modes.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 11 Jan 2006 11:47:56 +0000
 
