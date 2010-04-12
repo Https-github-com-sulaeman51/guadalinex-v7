@@ -313,11 +313,13 @@
   cmdline.hidden "" ne {
     /add_suffix 32 string def
 
-    video.modes.list xmenu.video .xm_current get get
-    dup .vm_mode get 0 ge {
-      dup .vm_height get exch .vm_width get
-      ",%04d%04d.spl" add_suffix sprintf
-    } { pop } ifelse
+    video.modes.list .undef ne {
+      video.modes.list xmenu.video .xm_current get get
+      dup .vm_mode get 0 ge {
+	dup .vm_height get exch .vm_width get
+	",%04d%04d.spl" add_suffix sprintf
+      } { pop } ifelse
+    } if
 
     % find out splash size for kernel loading progress bar
     add_suffix 1 add filesize dup .undef ne {
@@ -366,10 +368,12 @@
   bc.opts "%s " bc.cmd dup length add sprintf
 
   syslinux {
-    video.modes.list xmenu.video .xm_current get get .vm_mode get
+    video.modes.list .undef ne {
+      video.modes.list xmenu.video .xm_current get get .vm_mode get
 
-    dup 0 ge {
-      0x200 add "vga=0x%x " bc.cmd dup length add sprintf
+      dup 0 ge {
+	0x200 add "vga=0x%x " bc.cmd dup length add sprintf
+      } if
     } if
 
     config.lang {
@@ -395,6 +399,34 @@
     } {
       pop
     } ifelse
+
+    modes.selected.append .undef ne {
+      modes.selected.append "%s " bc.cmd dup length add sprintf
+    } if
+
+    modes.selected.replace .undef ne {
+      modes.selected.replace "=" strstr dup 0 ne {
+	modes.selected.replace exch strndup /bc.tmp exch def  % e.g. "file="
+	bc.cmd {
+	  dup 0 get 0 eq { exit } if
+	  dup getword
+	  dup "=" strstr dup 0 ne { over exch 0 put } { pop } ifelse
+	  dup bc.tmp eq exch free {
+	    bc.tmp free
+	    dup strdup /bc.tmp exch def
+	    bc.tmp modes.selected.replace "%s%s" 4 index sprintf
+	    bc.tmp free /bc.tmp .undef def
+	    exch pop exit
+	  } if
+	  exch pop
+	  skipspace
+	} loop
+	pop
+	bc.tmp free /bc.tmp .undef def
+      } {
+	pop
+      } ifelse
+    } if
   } if
 
   xmenu.access {
@@ -676,6 +708,9 @@
     } {
       help.setcontext
     } ifelse
+
+    % update installation modes menu
+    menu.idx modes.filter
   } if
 
 } def

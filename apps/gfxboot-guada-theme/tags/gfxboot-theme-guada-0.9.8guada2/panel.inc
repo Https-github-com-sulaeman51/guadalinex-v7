@@ -43,7 +43,7 @@
 
       [ .panel.both [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ] ]
       [ .panel.both [ keyF3 0 "F3" /panel.keymap /panel.keymap.width /panel.keymap.update /keymap.init ] ]
-      [ .panel.both [ keyF4 0 "F4" /panel.video /panel.video.width /panel.video.update /video.init ] ]
+      [ .panel.both [ keyF4 0 "F4" /panel.modes /panel.modes.width /panel.modes.update /modes.init ] ]
       [ .panel.both [ keyF5 0 "F5" /panel.access /panel.access.width /panel.access.update /access.init ] ]
 
       [ .panel.short [ keyF6 0 "F6" /panel.options /panel.options.width /panel.options.update .undef ] ]

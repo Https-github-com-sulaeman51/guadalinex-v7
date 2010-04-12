@@ -228,6 +228,11 @@ msgstr "زبان"
 msgid "Keymap"
 msgstr ""
 
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
@@ -289,18 +294,8 @@ msgid "^Try Ubuntu without any change to your computer"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_xforcevesa
-msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_kubuntu_xforcevesa
-msgid "Start Kubuntu in safe ^graphics mode"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -309,23 +304,18 @@ msgid "^Try Edubuntu without any change to your computer"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_edubuntu_xforcevesa
-msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_xubuntu_xforcevesa
-msgid "Start Xubuntu in safe ^graphics mode"
+#. Installation mode.
+#. txt_menuitem_xforcevesa
+msgid "Safe graphics mode"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Install with driver ^update CD"
+msgid "Use driver update CD"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -368,34 +358,34 @@ msgstr ""
 msgid "^Install Xubuntu"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_workstation
-msgid "Install a ^workstation"
+msgid "Install a workstation"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_server
-msgid "Install a ser^ver"
+msgid "Install a server"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_oem
-msgid "^OEM install (for manufacturers)"
+msgid "OEM install (for manufacturers)"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_lamp
-msgid "Install a ^LAMP server"
+msgid "Install a LAMP server"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_ltsp
-msgid "Install an ^LTSP server"
+msgid "Install an LTSP server"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_cli
-msgid "Install a comm^and-line system"
+msgid "Install a command-line system"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

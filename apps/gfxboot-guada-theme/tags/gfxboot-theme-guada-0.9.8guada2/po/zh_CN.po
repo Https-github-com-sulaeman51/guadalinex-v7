@@ -232,6 +232,11 @@ msgstr "语言"
 msgid "Keymap"
 msgstr "键盘映射"
 
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
@@ -294,20 +299,10 @@ msgid "^Try Ubuntu without any change to your computer"
 msgstr "启动或安装 Ubuntu(^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_xforcevesa
-msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "安全图形模式启动 Ubuntu(^g)"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 #, fuzzy
 msgid "^Try Kubuntu without any change to your computer"
 msgstr "启动或安装 Kubuntu(^K)"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_kubuntu_xforcevesa
-msgid "Start Kubuntu in safe ^graphics mode"
-msgstr "安全图形模式启动 Kubuntu(^G)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
@@ -316,24 +311,21 @@ msgid "^Try Edubuntu without any change to your computer"
 msgstr "启动或安装 Edubuntu(^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_edubuntu_xforcevesa
-msgid "Start Edubuntu in safe ^graphics mode"
-msgstr "安全图形模式启动 Edubuntu(^G)"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 #, fuzzy
 msgid "^Try Xubuntu without any change to your computer"
 msgstr "启动或安装 Xubuntu(^S)"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_xubuntu_xforcevesa
-msgid "Start Xubuntu in safe ^graphics mode"
-msgstr "安全图形模式启动 Xubuntu(^G)"
+#. Installation mode.
+#. txt_menuitem_xforcevesa
+#, fuzzy
+msgid "Safe graphics mode"
+msgstr "安全图形模式启动 Ubuntu(^g)"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Install with driver ^update CD"
+#, fuzzy
+msgid "Use driver update CD"
 msgstr "安装驱动更新光盘(^U)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -377,34 +369,40 @@ msgstr ""
 msgid "^Install Xubuntu"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_workstation
-msgid "Install a ^workstation"
+#, fuzzy
+msgid "Install a workstation"
 msgstr "安装工作站(^W)"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_server
-msgid "Install a ser^ver"
+#, fuzzy
+msgid "Install a server"
 msgstr "安装服务器(^S)"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_oem
-msgid "^OEM install (for manufacturers)"
+#, fuzzy
+msgid "OEM install (for manufacturers)"
 msgstr "^OEM 安装(对厂商)"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_lamp
-msgid "Install a ^LAMP server"
+#, fuzzy
+msgid "Install a LAMP server"
 msgstr "安装LAMP 服务器(^L)"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_ltsp
-msgid "Install an ^LTSP server"
+#, fuzzy
+msgid "Install an LTSP server"
 msgstr "安装LTSP 服务器(^L)"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_cli
-msgid "Install a comm^and-line system"
+#, fuzzy
+msgid "Install a command-line system"
 msgstr "安装命令行系统(^A)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
