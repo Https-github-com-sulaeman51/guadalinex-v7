@@ -10,6 +10,7 @@ gfxboot-theme-ubuntu (0.2.0) UNRELEASED; urgency=low
   * Update scrape-localechooser for new languagelist format.
   * Update language names from localechooser 1.20ubuntu1, adding Dzongkha,
     Irish, Georgian, Khmer, Nepali, and Tamil.
+  * Update keymaps from console-keymaps-at 20060609ubuntu1.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 12 Jul 2006 13:13:53 +0100
 
