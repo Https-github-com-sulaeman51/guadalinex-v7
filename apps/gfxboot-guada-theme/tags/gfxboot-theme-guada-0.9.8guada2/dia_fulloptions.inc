@@ -8,6 +8,14 @@
 /fulloptions.option .undef def
 
 /.fulloptions.expert 0 def
+/.fulloptions.acpi_off 1 def
+/.fulloptions.noapic 2 def
+/.fulloptions.nolapic 3 def
+
+% These strings are not translatable.
+/txt_acpi_off "acpi=off" def
+/txt_noapic "noapic" def
+/txt_nolapic "nolapic" def
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -21,7 +29,7 @@
 
   xmenu .xm_current .fulloptions.expert put
 
-  xmenu .xm_list [ /txt_expert_mode ] put
+  xmenu .xm_list [ /txt_expert_mode /txt_acpi_off /txt_noapic /txt_nolapic ] put
 
   xmenu .xm_title /txt_other_options put
   xmenu .xm_check 1 put
@@ -49,6 +57,9 @@
     over over get {
       .undef
       over .fulloptions.expert eq { pop "priority=low" } if
+      over .fulloptions.acpi_off eq { pop "acpi=off" } if
+      over .fulloptions.noapic eq { pop "noapic" } if
+      over .fulloptions.nolapic eq { pop "nolapic" } if
       dup {
 	% append new option string
 	dup length fulloptions.option length add 1 add string
