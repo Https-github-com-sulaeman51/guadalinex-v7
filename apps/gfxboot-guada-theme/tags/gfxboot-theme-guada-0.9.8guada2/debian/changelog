@@ -2,6 +2,7 @@ gfxboot-theme-ubuntu (0.6.1) UNRELEASED; urgency=low
 
   * Remove support for deprecated gfxboot-foreground, gfxboot-background,
     and gfxboot-access-options keywords in isolinux.cfg.
+  * Implement include keyword in isolinux.cfg.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 18 Jun 2008 11:48:25 +0100
 
