@@ -1048,30 +1048,15 @@
 
   currentimage
 
-  /rdots "rdots.jpg" readimage def
-  /rdots_a "rdots_a.jpg" readimage def
-  /vdots "vdots.jpg" readimage def
-  /vdots_a "vdots_a.jpg" readimage def
-  /ldots "ldots.jpg" readimage def
-  /ldots_a "ldots_a.jpg" readimage def
   /head "head.jpg" readimage def
   /head_a "head_a.jpg" readimage def
 
   small_layout {
-    450   0 moveto rdots rdots_a showlogo
-    206 103 moveto vdots vdots_a showlogo
-      0 440 moveto ldots ldots_a showlogo
      70 173 moveto head  head_a  showlogo
   } {
-    609   0 moveto rdots rdots_a showlogo
-    390 140 moveto vdots vdots_a showlogo
-      0 550 moveto ldots ldots_a showlogo
     234 217 moveto head  head_a  showlogo
   } ifelse
 
-  rdots free rdots_a free
-  vdots free vdots_a free
-  ldots free ldots_a free
   head free head_a free
 
   setimage
