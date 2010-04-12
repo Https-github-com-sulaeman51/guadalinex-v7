@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: bootloader-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2008-03-31 22:51+0000\n"
+"PO-Revision-Date: 2008-04-10 19:29+0000\n"
 "Last-Translator: Vladimer Sichinava <vsichi@gnome.org>\n"
 "Language-Team: Georgian <geognome@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-04-02 23:36+0000\n"
+"X-Launchpad-Export-Date: 2008-04-14 08:24+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -163,7 +163,7 @@ msgstr "გამორთვა"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "სისტემის მყისვე გამორთვა?"
+msgstr "გნებავთ სისტემის მყისვე გამორთვა?"
 
 #. txt_password
 msgid "Password\n"
@@ -182,7 +182,7 @@ msgstr "ენა"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Keymap"
+msgstr "კლავიშების რუქა"
 
 #. label for installation mode selection
 #. txt_modes
@@ -212,7 +212,7 @@ msgstr "დამხმარე საშუალებები"
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr "არა"
+msgstr "არაფერი"
 
 #. label for accessibility menu
 #. txt_access_v1
@@ -262,17 +262,17 @@ msgstr "^უბუნტუს გაშვება კომპიუტერ
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "^Kubuntu-ს გაშვება კომპიუტერზე დაყენების გარეშე"
+msgstr "^კუბუნტუს გაშვება კომპიუტერზე დაყენების გარეშე"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "^Edubuntu-ს გაშვება კომპიუტერზე დაყენების გარეშე"
+msgstr "^ედუბუნტუს გაშვება კომპიუტერზე დაყენების გარეშე"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "^Xubuntu-ს გაშვება კომპიუტერზე დაყენების გარეშე"
+msgstr "^იქსუბუნტუს გაშვება კომპიუტერზე დაყენების გარეშე"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -282,7 +282,7 @@ msgstr "უსაფრთხო გრაფიკული რეჟიმი"
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update CD"
-msgstr "დრაივერების დამატებითი CD-ს გამოყენება"
+msgstr "დამატებითი დრაივერების დისკის გამოყენება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -292,37 +292,37 @@ msgstr "^უბუნტუს ტექსტურ რეჟიმში დ�
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
 msgid "^Install Kubuntu in text mode"
-msgstr "^Kubuntu-ს ტექსტურ რეჟიმში დაყენება"
+msgstr "^კუბუნტუს ტექსტურ რეჟიმში დაყენება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_edubuntu
 msgid "^Install Edubuntu in text mode"
-msgstr "^Edubuntu-ს ტექსტურ რეჟიმში დაყენება"
+msgstr "^ედუბუნტუს ტექსტურ რეჟიმში დაყენება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr "^Xubuntu-ს ტექსტურ რეჟიმში დაყენება"
+msgstr "^იქსუბუნტუს ტექსტურ რეჟიმში დაყენება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr "^Ubuntu-ს დაყენება"
+msgstr "^უბუნტუს დაყენება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr "^Kubuntu-ს დაყენება"
+msgstr "^კუბუნტუს დაყენება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
 msgid "^Install Edubuntu"
-msgstr "^Edubuntu-ს დაყენება"
+msgstr "^ედუბუნტუს დაყენება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_xubuntu
 msgid "^Install Xubuntu"
-msgstr "^Xubuntu-ს დაყენება"
+msgstr "^იქსუბუნტუს დაყენება"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -363,7 +363,7 @@ msgstr "სისტემის დაყენება გრაფიკუ�
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr "^CD-ს დაზიანებაზე შემოწმება"
+msgstr "^დისკის დაზიანებაზე შემოწმება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue

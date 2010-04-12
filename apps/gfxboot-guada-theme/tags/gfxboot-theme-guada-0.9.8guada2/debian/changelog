@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.5.18) UNRELEASED; urgency=low
+
+  * Update translations from Launchpad.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 14 Apr 2008 10:09:13 +0100
+
 gfxboot-theme-ubuntu (0.5.17) hardy; urgency=low
 
   * Add a header to the language and keymap menus; this seems to make it
