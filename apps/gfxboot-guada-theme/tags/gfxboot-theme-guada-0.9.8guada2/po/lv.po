@@ -160,61 +160,9 @@ msgstr "Izslēgt"
 msgid "Halt the system now?"
 msgstr "Izslēgt?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Instalēt cietajā diskā"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Diskierīce (skanēt visus diskus, ja tukšs)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Mape\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Instalācija no FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Serveris\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Parole\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Lietotājvārds (anonīms, ja tukšs)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Instalācija no NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Lietotājvārds (viesis, ja tukšs)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Instalācija no SMB"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Instalācija no HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Domēns\n"
 
 #. button label for other/more options
 #. txt_other_options

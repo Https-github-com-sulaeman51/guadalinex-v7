@@ -164,61 +164,9 @@ msgstr "Выключить питание"
 msgid "Halt the system now?"
 msgstr "Остановить систему сейчас?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Установка на жёсткий диск"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Дисковое устройство (сканировать все диски, если пусто)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Каталог\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Установка по FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Сервер\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Пароль\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Пользователь (если пусто - использовать анонимный вход)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Установка по NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Пользователь (если пусто - использовать guest)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Установка по SMB (сетевая папка Windows)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Установка по HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Домен\n"
 
 #. button label for other/more options
 #. txt_other_options

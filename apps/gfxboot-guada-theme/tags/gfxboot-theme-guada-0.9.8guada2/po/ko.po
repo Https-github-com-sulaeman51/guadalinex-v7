@@ -163,61 +163,9 @@ msgstr "전원 끄기"
 msgid "Halt the system now?"
 msgstr "시스템을 중지하시겠습니까?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "하드 디스크 설치"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "디스크 장치 (비어있다면 모든 디스크를 찾습니다)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "디렉토리\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "FTP 설치"
-
-#. txt_server
-msgid "Server\n"
-msgstr "서버\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "비밀번호\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "사용자 (비워둔다면 익명 로그인)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "NFS 설치"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "사용자 (비워둔다면 \"guest\"를 사용)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "SMB (윈도우 공유) 설치"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "HTTP 설치"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "도메인\n"
 
 #. button label for other/more options
 #. txt_other_options

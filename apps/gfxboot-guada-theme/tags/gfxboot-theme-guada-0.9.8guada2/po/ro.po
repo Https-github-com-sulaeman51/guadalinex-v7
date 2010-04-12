@@ -163,61 +163,9 @@ msgstr "Oprire"
 msgid "Halt the system now?"
 msgstr "Opresc sistemul acum?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Instalare hard disc"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Dispozitiv disc (scanează toate discurile dacă e gol)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Director\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Instalare prin FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Server\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Parolă\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Utilizator (anonim, dacă nu e completat)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Instalare prin NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Utilizator (utilizează \"guest\" dacă e gol)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Instalare prin SMB (partajare Windows)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Instalare prin HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Domeniu\n"
 
 #. button label for other/more options
 #. txt_other_options

@@ -161,61 +161,9 @@ msgstr "Išjungti"
 msgid "Halt the system now?"
 msgstr "Sustabdyti sistemą?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Diegimas iš kietojo disko"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Diskų įrenginys (jei nėra, skenuoti visus diskus)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Katalogas\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Diegimas iš FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Serveris\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Slaptažodis\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Vartotojas (jei tuščia, jungiasi anonimas)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Diegimas per NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Vartotojas (jei tuščia, naudojama „guest“)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Diegimas per SMB (Windows Share)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Diegimas per HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Domenas\n"
 
 #. button label for other/more options
 #. txt_other_options

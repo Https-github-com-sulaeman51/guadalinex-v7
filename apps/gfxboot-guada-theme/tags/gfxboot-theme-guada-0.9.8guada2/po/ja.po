@@ -161,61 +161,9 @@ msgstr "電源オフ"
 msgid "Halt the system now?"
 msgstr "システムを停止しますか？"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "ハードディスクインストール"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "ディスクデバイス (空白で全ディスクをスキャン)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "ディレクトリ\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "FTPインストール"
-
-#. txt_server
-msgid "Server\n"
-msgstr "サーバー\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "パスワード\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "ユーザ (空白でanonymousログイン)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "NFSインストール"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "ユーザ (空白で \"guest\" を使用)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "SMB (Windows共有) インストール"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "HTTPインストール"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "ドメイン\n"
 
 #. button label for other/more options
 #. txt_other_options

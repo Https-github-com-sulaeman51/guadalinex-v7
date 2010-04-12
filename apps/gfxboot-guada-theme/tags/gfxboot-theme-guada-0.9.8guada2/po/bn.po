@@ -166,61 +166,9 @@ msgstr "পাওয়ার বন্ধ"
 msgid "Halt the system now?"
 msgstr "সিস্টেম হল্ট করা হবে কি?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "হার্ডডিস্ক ইনস্টলেশন"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "ডিস্ক ডিভাইস (সকল ফাঁকা ডিস্ক পরীক্ষা করা হবে)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "ডিরেক্টরি\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "এফটিপি ইনস্টলেশন"
-
-#. txt_server
-msgid "Server\n"
-msgstr "সার্ভার\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "পাসওয়ার্ড\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "ব্যবহারকারী (ফাঁকা থাকলে, নামবিহীন লগইন হবে)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "এন.এফ.এস ইনস্টলেশন"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "ব্যবহারকারী (ফাঁকা থাকলে, \"গেস্ট\" ব্যবহার করা হবে)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "এস.এম.বি (উইন্ডোজ শেয়ার) ইনস্টলেশন"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "এইচ.টি.টি.পি. ইনস্টলেশন"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "ডোমেইন\n"
 
 #. button label for other/more options
 #. txt_other_options

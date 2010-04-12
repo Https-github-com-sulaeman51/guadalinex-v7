@@ -163,61 +163,9 @@ msgstr "Matikan"
 msgid "Halt the system now?"
 msgstr "Matikan sistem sekarang?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Instalasi Hard Disk"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Perangkat Disk (memindai semua disk jika kosong)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Direktori\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Instalasi FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Server\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Password\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "User (jika kosong, login sebagai anonim)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Instalasi NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "User (menggunakan \"guest\" bila kosong)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Instalasi SMB (Perkongsian Windows)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Instalasi HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Domain\n"
 
 #. button label for other/more options
 #. txt_other_options

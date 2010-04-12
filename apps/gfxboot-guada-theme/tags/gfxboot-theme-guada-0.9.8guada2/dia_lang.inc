@@ -175,7 +175,6 @@
   setkeymap
   keymap.langchanged
 
-  % Why? --> see dia_install.inc; same there.
   window.action actRedraw eq { pmenu.update } if
 } def
 

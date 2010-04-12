@@ -165,61 +165,9 @@ msgstr "Διακοπή λειτουργίας"
 msgid "Halt the system now?"
 msgstr "Θέλετε να σταματήσετε το σύστημα τώρα;"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Εγκατάσταση Σκληρού Δίσκου"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Συσκευή Δίσκου (σάρωση όλων των δίσκων αν είναι κενοί)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Κατάλογος\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Εγκατάσταση FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Εξυπηρετητής\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Κωδικός\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Χρήστης (ανώνυμη σύνδεση εάν είναι κενός)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Εγκατάσταση NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Χρήστης (χρήση \"guest\" αν είναι κενός)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Εγκατάσταση SMB (Windows Share)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Εγκατάσταση HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Τομέας\n"
 
 #. button label for other/more options
 #. txt_other_options

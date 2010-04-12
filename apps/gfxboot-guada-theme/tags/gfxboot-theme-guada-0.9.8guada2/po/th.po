@@ -163,61 +163,9 @@ msgstr "ปิดเครื่อง"
 msgid "Halt the system now?"
 msgstr "ต้องการปิดเครื่องเดี๋ยวนี้?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "ติดตั้งจากฮาร์ดดิสก์"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "ดิสก์ (ค้นหาดิสก์ที่ว่างทุกอัน)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "ไดเรคทอรี\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "ติดตั้งผ่าน FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "เซิร์ฟเวอร์\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "รหัสผ่าน\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "ชื่อผู้ใช้ (ถ้าไม่ใส่จะถือเป็น anonymous)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "ติดตั้งผ่าน NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "ผู้ใช้ (ใช้ \"guest\" ถ้าว่างไว้)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "ติดตั้งผ่าน SMB (Windows Share)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "ติดตั้งผ่าน HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "โดเมน\n"
 
 #. button label for other/more options
 #. txt_other_options

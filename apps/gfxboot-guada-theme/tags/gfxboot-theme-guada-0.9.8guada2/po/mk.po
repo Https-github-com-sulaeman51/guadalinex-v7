@@ -165,61 +165,9 @@ msgstr "Исклучи"
 msgid "Halt the system now?"
 msgstr "Да го исклучам системот?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Инсталација на тврд диск"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Диск (скенирај ги сите дискови ако се празни)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Директориум\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Инсталација од FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Сервер\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Лозинка\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Корисник (анонимна најава ако е празно)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Инсталација преку NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Корисник (ако е празно \"guest\")\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Инсталација преку SMB (Windows делење)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Инсталација преку HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Домен\n"
 
 #. button label for other/more options
 #. txt_other_options
