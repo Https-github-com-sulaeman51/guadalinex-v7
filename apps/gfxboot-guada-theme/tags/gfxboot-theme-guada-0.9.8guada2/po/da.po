@@ -200,6 +200,11 @@ msgstr "HTTP installation"
 msgid "Domain\n"
 msgstr "Domæne\n"
 
+# button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Andre indstillinger"
+
 # label for language selection
 #. txt_language
 msgid "Language"

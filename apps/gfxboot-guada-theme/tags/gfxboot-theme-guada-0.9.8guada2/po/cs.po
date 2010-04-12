@@ -220,6 +220,11 @@ msgstr "HTTP instalace"
 msgid "Domain\n"
 msgstr "Doména\n"
 
+# button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Další volby"
+
 # label for language selection
 #. txt_language
 msgid "Language"

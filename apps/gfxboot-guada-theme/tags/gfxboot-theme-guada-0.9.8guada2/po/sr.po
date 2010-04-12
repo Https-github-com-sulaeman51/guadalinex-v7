@@ -197,6 +197,11 @@ msgstr "HTTP инсталација"
 msgid "Domain\n"
 msgstr "Домен\n"
 
+# button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Остале опције"
+
 # label for language selection
 #. txt_language
 msgid "Language"

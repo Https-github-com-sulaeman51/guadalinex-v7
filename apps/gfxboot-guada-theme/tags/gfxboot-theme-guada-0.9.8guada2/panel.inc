@@ -42,11 +42,13 @@
       livecd {
 
         [ keyF2 0 "F2" /panel.video /panel.video.width /panel.video.update /video.init ]
+        [ keyF3 0 "F3" /panel.options /panel.options.width /panel.options.update .undef ]
 
       } {
 
         [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ]
-        [ keyF3 0 "F3" /panel.video /panel.video.width /panel.video.update /video.init ]
+        [ keyF3 0 "F3" /panel.options /panel.options.width /panel.options.update .undef ]
+        [ keyF4 0 "F4" /panel.video /panel.video.width /panel.video.update /video.init ]
 
         32+64bit_source {
           64bit {
