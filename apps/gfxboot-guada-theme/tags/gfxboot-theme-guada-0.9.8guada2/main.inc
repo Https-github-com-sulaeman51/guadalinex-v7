@@ -77,14 +77,7 @@
 } def
 
 
-% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% Draw main window.
-%
-% ( window ) ==> ( )
-%
-/main.show {
-  window.push
-
+/menu.init {
   /menu.shift 0 def
   /menu.visible.entries menu.texts length menu.max.entries min def
 
@@ -97,6 +90,18 @@
   menu.entry menu.visible.entries sub 0 ge {
     /menu.shift menu.entry menu.texts length menu.visible.entries sub min def
   } if
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Draw main window.
+%
+% ( window ) ==> ( )
+%
+/main.show {
+  window.push
+
+  menu.init
 
   menu.visible.entries menu.texts length lt menu.scrollbar and {
    /menu.bar.width frame1.size pop frame4.size pop sub def

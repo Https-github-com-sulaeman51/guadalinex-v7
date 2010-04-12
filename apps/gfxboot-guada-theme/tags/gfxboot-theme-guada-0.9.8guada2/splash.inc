@@ -34,6 +34,8 @@
 /splash.show {
   window.push
 
+  menu.init
+
   access.file dup .undef ne {
     setimage
     screen.size exch access.width sub 2 div exch access.height sub
