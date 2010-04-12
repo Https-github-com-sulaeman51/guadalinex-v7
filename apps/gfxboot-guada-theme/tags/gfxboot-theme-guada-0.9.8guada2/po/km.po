@@ -241,6 +241,11 @@ msgstr ""
 msgid "^Try Ubuntu Netbook without installing"
 msgstr ""
 
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu_netbook
+msgid "^Try Kubuntu Netbook without installing"
+msgstr ""
+
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
@@ -311,6 +316,11 @@ msgstr "^តំលើង Ubuntu MID"
 #, fuzzy
 msgid "^Install Ubuntu Netbook"
 msgstr "^តំលើង ខំព្យូរើណែត Ubuntu Remix"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu_netbook
+msgid "^Install Kubuntu Netbook"
+msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_workstation
