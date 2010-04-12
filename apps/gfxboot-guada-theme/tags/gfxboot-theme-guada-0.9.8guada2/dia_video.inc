@@ -64,7 +64,7 @@
         [
           over 0xbfff and 6 2 roll
           0x4000 and		% fb support
-          over 0x10 eq and	% 16 color bits
+          over 0x10 ge and	% >= 16 color bits
           2 index 400 ge and	% height >= 400
           3 index 600 ge and	% width >= 600
         { ] } { pop pop pop pop pop } ifelse
