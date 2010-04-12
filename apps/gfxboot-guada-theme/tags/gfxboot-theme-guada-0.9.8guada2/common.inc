@@ -361,10 +361,6 @@
 
   } if
 
-  do_driverupdate {
-    "dud=1 " bc.cmd dup length add sprintf
-  } if
-
   % add splash only if an entry already exists
 %  bc.cmd "splash" bootopt.find dup .undef ne {
 %    % remove existing entry
@@ -1158,11 +1154,6 @@
   /ms.size     {  22  22 } def
   /ms.up       {   0 480 }  def
   /ms.down     {  23 480 }  def
-
-  /update.pos {
-    clip.size pop txt_dud_ready strsize pop sub 20 sub
-    clip.size exch pop 75 sub
-  } def
 
 } def
 
