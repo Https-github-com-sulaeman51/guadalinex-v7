@@ -43,15 +43,30 @@
   /config.keymap.locale exch def
 
   /setkeymap.found false def
+
+  % Look for an exact match first.
   keymaps {
     dup .km.locales get {
-      config.keymap.locale exch strstr 0 ne {
+      config.keymap.locale exch eq {
         dup /config.keymap exch def /setkeymap.found true def exit
       } if
     } forall
     pop
     setkeymap.found { exit } if
   } forall
+
+  % If that didn't work, try a substring match.
+  setkeymap.found not {
+    keymaps {
+      dup .km.locales get {
+        config.keymap.locale exch strstr 0 ne {
+          dup /config.keymap exch def /setkeymap.found true def exit
+        } if
+      } forall
+      pop
+      setkeymap.found { exit } if
+    } forall
+  } if
 
   % if we couldn't find anything, try without the country
   setkeymap.found not {
