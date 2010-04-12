@@ -55,7 +55,7 @@
   % check only once
   is_live.result .undef ne { is_live.result return } if
 
-  /is_live.result "/casper/filesystem.cloop" filesize .undef ne def
+  /is_live.result "/casper/filesystem.manifest" filesize .undef ne def
 
   is_live.result return
 } def
