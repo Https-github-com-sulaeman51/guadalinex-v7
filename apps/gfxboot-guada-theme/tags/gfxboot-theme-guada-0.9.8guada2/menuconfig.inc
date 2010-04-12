@@ -77,6 +77,29 @@
   3 1 roll strndup            % get word string
 } def
 
+% Interpret a string as a number and return it, or .undef on failure.
+% Only supports hexadecimal numbers (optionally preceded by "0x").
+% ( string -- number )
+/menuconfig.strtol {
+  tolower
+  dup 0 get '0' eq over 1 get 'x' eq and { 2 add } if
+  /menuconfig.strtol.tmp 0 def
+  {
+    dup '0' ge over '9' le and {
+      '0' sub menuconfig.strtol.tmp 16 mul add
+      /menuconfig.strtol.tmp exch def
+    } {
+      dup 'a' ge over 'f' le and {
+        'a' sub 10 add menuconfig.strtol.tmp 16 mul add
+        /menuconfig.strtol.tmp exch def
+      } {
+        pop .undef return
+      } ifelse
+    } ifelse
+  } forall
+  menuconfig.strtol.tmp
+} def
+
 % Set the human-readable text for the current menu item.
 % ( string -- )
 /menuconfig.sethuman {
@@ -187,6 +210,20 @@
     dup "\n" strstr dup 0 ne { 1 sub over exch 0 put } { pop } ifelse
 
     menuconfig.skipspace menuconfig.keyword
+    dup "gfxboot-foreground" eq {
+      over menuconfig.skipspace menuconfig.strtol dup .undef ne {
+        /menu.text.select over def
+        /boot.text.options over def
+        /boot.text.normal exch def
+        /panel.high exch def
+      } { pop } ifelse
+    } if
+    dup "gfxboot-background" eq {
+      over menuconfig.skipspace menuconfig.strtol dup .undef ne {
+        /menu.text.normal over def
+        /panel.normal exch def
+      } { pop } ifelse
+    } if
     dup "label" eq {
       over menuconfig.skipspace /menuconfig.curlabel exch def
     } if
