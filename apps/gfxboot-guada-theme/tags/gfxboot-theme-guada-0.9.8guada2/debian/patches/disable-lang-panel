@@ -1,0 +1,13 @@
+Index: newtrunk/common.inc
+===================================================================
+--- newtrunk.orig/common.inc	2010-04-09 14:31:18.000000000 +0200
++++ newtrunk/common.inc	2010-04-09 14:33:21.000000000 +0200
+@@ -978,7 +978,7 @@
+       1 add
+     } forall
+     tmp dup setlang pop setkeymap
+-    /lang.displayed true def
++    /lang.displayed false def
+   } {
+     pop
+     "en" dup setlang pop setkeymap
