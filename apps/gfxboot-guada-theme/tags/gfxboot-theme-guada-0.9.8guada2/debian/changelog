@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.4.1) UNRELEASED; urgency=low
+
+  * Remove unused logo fading code.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 06 Aug 2007 20:46:18 +0100
+
 gfxboot-theme-ubuntu (0.4.0) gutsy; urgency=low
 
   * Use priority=low for d-i expert mode rather than DEBCONF_PRIORITY=low.
