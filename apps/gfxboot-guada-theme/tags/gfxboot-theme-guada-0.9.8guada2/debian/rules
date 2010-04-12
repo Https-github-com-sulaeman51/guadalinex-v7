@@ -19,7 +19,6 @@ install: build
 	dh_installdirs
 	install -m644 Makefile langlist *.config *.fnt *.inc *.jpg \
 		$(themedir)
-	install -m755 keymapchars $(themedir)
 	install -m644 install/bootlogo.tar.gz $(themedir)
 
 binary-arch: build install
