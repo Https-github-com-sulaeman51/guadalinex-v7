@@ -1,6 +1,11 @@
-BINDIR      := $(shell [ -x ../../mkbootmsg ] && echo ../../ )
+ifneq ($(BINDIR),)
+BINDIR      := $(BINDIR)/
+else
+BINDIR      := $(dir $(firstword $(wildcard /usr/share/gfxboot/bin/mkbootmsg) $(wildcard ../../mkbootmsg)))
+endif
 
-MKBOOTMSG    = $(BINDIR)mkbootmsg
+MKBOOTMSG    = $(BINDIR)/mkbootmsg
+KEYMAPCHARS  = $(BINDIR)/keymapchars
 BFLAGS       = -O -v -L ../..
 INCLUDES     = $(wildcard *.inc)
 TRANSLATIONS = $(addsuffix .tr,en $(notdir $(basename $(wildcard po/*.po))))
@@ -63,7 +68,7 @@ font:
 	cat po/*.po >tmp.txt
 	getx11font -v -l 18 -p 2,4 \
 	-c ISO-8859-15 -c ISO-8859-2 -c koi8-r \
-	`./keymapchars keytables.inc` \
+	`$(KEYMAPCHARS) keytables.inc` \
 	-t tmp.txt \
 	-t install/log -t boot/log \
 	-t langlist -t langnames.inc \
