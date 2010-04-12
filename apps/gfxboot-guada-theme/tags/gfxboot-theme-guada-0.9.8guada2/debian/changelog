@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.2.6) UNRELEASED; urgency=low
+
+  * Always map the PC105 less than / greater than key, since the BIOS keymap
+    doesn't always appear to be what we'd expect (closes: Malone #43956).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue,  3 Oct 2006 10:35:20 +0100
+
 gfxboot-theme-ubuntu (0.2.5) edgy; urgency=low
 
   * Update font from unifont 1:1.0-3ubuntu1, improving Georgian glyphs

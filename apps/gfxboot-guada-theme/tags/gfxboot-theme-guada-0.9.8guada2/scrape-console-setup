@@ -276,7 +276,11 @@ for my $keymap (@keymaps) {
 	if ($plain eq $keycodes{us}{plain}[$index] and
 	    $shift eq $keycodes{us}{shift}[$index] and
 	    $altgr eq $keycodes{us}{altgr}[$index]) {
-	    next;
+	    # The PC105 less than / greater than key isn't necessarily
+	    # mapped correctly by the BIOS.
+	    if ($index != 86) {
+		next;
+	    }
 	}
 	if (($plain ne '0x00') or ($shift ne '0x00') or ($altgr ne '0x00')) {
 	    print "/keymap.$keymap [\n" unless $found;
