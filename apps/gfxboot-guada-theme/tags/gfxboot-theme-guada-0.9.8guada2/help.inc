@@ -641,7 +641,8 @@ clip.size pop 800 eq {
 
   /help.test.cnt 1 def
 
-  help.context help.findpage 0 0 help.initpage
+  help.context help.findpage dup length 0 eq { pop 1 help.findpagebyindex } if
+  0 0 help.initpage
 } def
 
 
