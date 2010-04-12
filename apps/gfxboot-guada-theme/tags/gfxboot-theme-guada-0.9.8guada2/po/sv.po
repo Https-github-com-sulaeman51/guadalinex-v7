@@ -5,13 +5,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-03-07 07:51+0000\n"
+"PO-Revision-Date: 2008-03-31 22:54+0000\n"
 "Last-Translator: Daniel Nylander <yeager@ubuntu.com>\n"
 "Language-Team: Svenska <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-03-11 01:24+0000\n"
+"X-Launchpad-Export-Date: 2008-04-02 23:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-Language: Swedish\n"
@@ -170,7 +170,7 @@ msgstr "Lösenord\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Övriga alternativ"
+msgstr "Övrigt"
 
 #. label for language selection
 #. txt_language
@@ -196,7 +196,7 @@ msgstr ""
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. label for d-i mode menu
 #. txt_expert_mode
@@ -206,7 +206,7 @@ msgstr "Expertläge"
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "Tillgänglighet"
+msgstr "Hjälpmedel"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -246,7 +246,7 @@ msgstr "Skärmtangentbord"
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr "Motorikproblem - växlingsenheter"
+msgstr "Motorikproblem - brytare"
 
 #. label for accessibility menu
 #. txt_access_all
@@ -381,4 +381,4 @@ msgstr "^Starta upp från första hårddisken"
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr ""
+msgstr "Endast fri programvara"
