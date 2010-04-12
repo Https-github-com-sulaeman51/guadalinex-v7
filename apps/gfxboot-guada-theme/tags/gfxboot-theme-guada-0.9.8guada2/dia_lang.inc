@@ -129,11 +129,33 @@
 
   % start with current lang
 
+  /la.tmp.found false def
+
   /la.tmp.cnt 0 def
   lang.items {
-    config.lang eq { xmenu .xm_current la.tmp.cnt put exit } if
+    config.lang eq {
+      xmenu .xm_current la.tmp.cnt put /la.tmp.found true def exit
+    } if
     /la.tmp.cnt inc
   } forall
+
+  la.tmp.found not {
+    % Try without the country code.
+    config.lang "_" strstr dup 0 ne {
+      1 sub
+      config.lang strdup dup rot 0 put
+      /la.tmp.cnt 0 def
+      lang.items {
+        over eq {
+          xmenu .xm_current la.tmp.cnt put exit
+        } if
+        /la.tmp.cnt inc
+      } forall
+      free
+    } {
+      pop
+    } ifelse
+  } if
 
   pmenu.init
 } def

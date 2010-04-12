@@ -1077,12 +1077,6 @@
       over exch 0 exch put
       1 add
     } forall
-    true lang.defaultnames {
-      .la.language get tmp eq { pop false exit } if
-    } forall {
-      % If we don't know about this locale, then try the short locale name.
-      tmp 2 0 put
-    } if
     tmp dup setlang pop setkeymap
   } {
     pop
