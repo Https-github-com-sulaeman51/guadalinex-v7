@@ -257,11 +257,6 @@ msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "컴퓨터 변경없이 우분투 넷북 리믹스 사용해보기(^T)"
 
 #. Installation mode.
-#. txt_menuitem_xforcevesa
-msgid "Safe graphics mode"
-msgstr "안전 그래픽 모드"
-
-#. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
 msgstr "드라이버 업데이트 디스크 사용"

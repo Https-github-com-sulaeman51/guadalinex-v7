@@ -257,11 +257,6 @@ msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "કોમ્પ્યુટરમાં કોઇ ફેરબદલ ન કરતા ઉબુન્ટુ નેટબુક રિમિક્સ ને વાપરી જુઓ (^T)"
 
 #. Installation mode.
-#. txt_menuitem_xforcevesa
-msgid "Safe graphics mode"
-msgstr "સલામત ગ્રાફિક રીત"
-
-#. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
 msgstr "ડ્રાઇવર અપડેટ ડિસ્ક વાપરો"

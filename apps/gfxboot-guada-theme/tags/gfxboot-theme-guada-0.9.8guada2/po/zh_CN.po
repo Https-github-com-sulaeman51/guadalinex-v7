@@ -255,11 +255,6 @@ msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "试用 Ubuntu Netbook Remix 而不改变计算机中的任何内容(^T)"
 
 #. Installation mode.
-#. txt_menuitem_xforcevesa
-msgid "Safe graphics mode"
-msgstr "安全图形模式"
-
-#. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
 msgstr "使用驱动程序更新盘"
