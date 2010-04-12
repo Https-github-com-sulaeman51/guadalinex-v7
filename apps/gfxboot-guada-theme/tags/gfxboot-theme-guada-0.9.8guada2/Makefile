@@ -1,11 +1,16 @@
 ifneq ($(BINDIR),)
 BINDIR      := $(BINDIR)/
 else
-BINDIR      := $(dir $(firstword $(wildcard /usr/share/gfxboot/bin/mkbootmsg) $(wildcard ../../mkbootmsg)))
+BINDIR      := $(dir $(firstword $(wildcard /usr/bin/mkbootmsg) $(wildcard ../../mkbootmsg)))
+endif
+ifneq ($(PRIVBINDIR),)
+PRIVBINDIR  := $(PRIVBINDIR)/
+else
+PRIVBINDIR  := $(dir $(firstword $(wildcard /usr/share/gfxboot/bin/keymapchars) $(wildcard ../../keymapchars)))
 endif
 
-MKBOOTMSG    = $(BINDIR)/mkbootmsg
-KEYMAPCHARS  = $(BINDIR)/keymapchars
+MKBOOTMSG    = $(BINDIR)mkbootmsg
+KEYMAPCHARS  = $(PRIVBINDIR)keymapchars
 BFLAGS       = -O -v -L ../..
 INCLUDES     = $(wildcard *.inc)
 TRANSLATIONS = $(addsuffix .tr,en $(notdir $(basename $(wildcard po/*.po))))
