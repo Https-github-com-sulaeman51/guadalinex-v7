@@ -51,6 +51,20 @@
     } forall
   ] put
 
+  /access.optionmap [
+    0 1 access.optionnames length 1 sub {
+      0 1 access.alloptionnames length 1 sub {
+        access.optionnames 2 index get access.alloptionnames 2 index get eq {
+          [ 2 index rot ] exch exit
+          % leaves [ optionindex alloptionindex ] optionindex
+        } {
+          pop
+        } ifelse
+      } for
+      pop
+    } for
+  ] def
+
   xmenu .xm_title /txt_access put
 
   /access.soundfiles [
@@ -114,10 +128,21 @@
   dup 0 eq { return } if
 
   dup 0xff and '0' sub
-  dup 0 ge over xmenu .xm_list get length lt and {
-    xmenu.select
-    0
-  } if
+  dup 0 lt { return } if
+
+  dup access.optionmap {
+    dup 1 get 2 index eq {
+      0 get dup xmenu .xm_list get length lt {
+        xmenu.select
+        pop
+        0
+      } {
+        pop
+      } ifelse
+    } {
+      pop
+    } ifelse
+  } forall
 } def
 
 
