@@ -215,7 +215,7 @@ clip.size pop 800 eq {
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% Used to iterate over all help pages (for debugging).
+% Used to iterate over all help pages.
 %
 % get the n-th page starting from current pos
 %
