@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-03-18 18:26+0000\n"
-"Last-Translator: Laco Horváth <6205@centrum.sk>\n"
+"PO-Revision-Date: 2006-05-11 20:26+0000\n"
+"Last-Translator: Peter Chabada <ubuntu@chabada.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +38,7 @@ msgstr "Pokračovať"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Možnosti štartu"
+msgstr "Štartovacie parametre"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -69,7 +69,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Načítavam jadro Linuxu\n"
+"Načítava sa jadro Linuxu\n"
 "\n"
 "\n"
 
@@ -80,7 +80,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Načítavam memtest86\n"
+"Načítava sa memtest86\n"
 "\n"
 "\n"
 
@@ -97,12 +97,12 @@ msgstr "Chyba I/O"
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Zmena štartovacej diskety"
+msgstr "Zmena štartovacieho disku"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Vložte štartovaciu disketu %u."
+msgstr "Vložte štartovací disk %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -110,8 +110,8 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"Toto je štartovacia disketa %u.\n"
-"Vložte štartovaciu disketu %u."
+"Toto je štartovací disk %u.\n"
+"Vložte štartovací disk %u."
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
@@ -120,8 +120,8 @@ msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Toto nie je štartovacia disketa.\n"
-"Prosím vložte štartovaciu disketu %u."
+"Toto nie je štartovací disk.\n"
+"Prosím vložte štartovací disk %u."
 
 #. password dialog title
 #. txt_password_title
@@ -135,14 +135,14 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Zadajte vaše heslo:   \n"
+"Zadajte svoje heslo:   \n"
 "\n"
 "\n"
 
 #. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr "DVD chyba"
+msgstr "Chyba DVD"
 
 #. txt_dvd_warning2
 msgid ""
@@ -150,7 +150,7 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Toto je obojstranné DVD médium.Nabootovali ste z druhej strany.\n"
+"Toto je obojstranné DVD médium. Spúšťate systém z druhej strany.\n"
 "\n"
 "Prosím otočte médium a potom pokračujte."
 
@@ -161,7 +161,7 @@ msgstr "Vypnúť"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Chcete teraz počítač vypnúť?"
+msgstr "Naozaj chcete vypnúť počítač?"
 
 #. dialog title for hard disk installation
 #. txt_harddisk_title
@@ -170,16 +170,16 @@ msgstr "Inštalácia na pevný disk"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Zariadenie disku (nájdi disky, ak prázdne)\n"
+msgstr "Zariadenie disku (ak nevyplníte, prehľadajú sa všetky disky)\n"
 
 #. txt_directory
 msgid "Directory\n"
-msgstr "Priečinok\n"
+msgstr "Adresár\n"
 
 #. dialog title for ftp installation
 #. txt_ftp_title
 msgid "FTP Installation"
-msgstr "FTP Inštalácia"
+msgstr "Inštalácia z FTP"
 
 #. txt_server
 msgid "Server\n"
@@ -192,27 +192,27 @@ msgstr "Heslo\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (anonymous login if empty)\n"
-msgstr "Používateľ (ak prázdne, použiť anonymné prihlásenie)\n"
+msgstr "Používateľ (pre anonymné prihlásenie nevypĺňajte)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
-msgstr "NFS Inštalácia"
+msgstr "Inštalácia z NFS"
 
 #. label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr "Používateľ (ak prázdne, použiť \"guest\")\n"
+msgstr "Používateľ (ak nevyplníte použije sa \"guest\")\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "SMB (Windows zdieľanie) Inštalácia"
+msgstr "Inštalácia z SMB (Windows zdieľania)"
 
 #. dialog title for http installation
 #. txt_http_title
 msgid "HTTP Installation"
-msgstr "HTTP Inštalácia"
+msgstr "Inštalácia z HTTP"
 
 #. as in Windows Authentication Domain
 #. txt_domain
@@ -222,7 +222,7 @@ msgstr "Doména\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Ostatné nastavenia"
+msgstr "Ďalšie nastavenia"
 
 #. label for language selection
 #. txt_language
@@ -232,7 +232,7 @@ msgstr "Jazyk"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Klávesová mapa"
+msgstr "Klávesnica"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -252,22 +252,22 @@ msgstr "Prístupnosť"
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr "Nič"
+msgstr "Žiadne"
 
 #. label for accessibility menu
 #. txt_access_v1
 msgid "Lesser Visual Impairment"
-msgstr "Menšie vizuálne zhoršenie"
+msgstr "Menšie zrakové problémy"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Moderate Visual Impairment"
-msgstr "Priemerné vizuálne zhoršenie"
+msgstr "Stredné zrakové problémy"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Blindness"
-msgstr "Slepota"
+msgstr "Nevidiaci"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -292,84 +292,84 @@ msgstr "Všetko"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start Ubuntu"
-msgstr "Spustiť Ubuntu"
+msgstr "Spustiť ^Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Spustiť Ubuntu v ^grafickom 'safe' móde"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start Kubuntu"
-msgstr "Spustiť Kubuntu"
+msgstr "Spustiť K^ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Spustiť Kubuntu v ^grafickom 'safe' móde"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start Edubuntu"
-msgstr "Spustiť Edubuntu"
+msgstr "Spustiť Ed^ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Spustiť Edubuntu v ^grafickom 'safe' móde"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start Xubuntu"
-msgstr "Spustiť Xubuntu"
+msgstr "Spustiť X^ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Spustiť Xubuntu v ^grafickom 'safe' móde"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr "Inštalácia na pevný disk"
+msgstr "^Inštalácia na pevný disk"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr "Inštalácia pracovnej stanice"
+msgstr "Inštalácia ^pracovnej stanice"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Install in ^OEM mode"
-msgstr "Inštalácia v OEM režime"
+msgstr "Inštalácia v ^OEM režime"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr "Inštalácia LAMP servera"
+msgstr "Inštalácia ^LAMP servera"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ^server"
-msgstr "Inštalácia servera"
+msgstr "Inštalácia ^servera"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr "Kontrola CD média na chyby"
+msgstr "^Kontrola CD média na chyby"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "Zachrániť poškodený systém"
+msgstr "^Zachrána poškodeného systému"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr "Test pamäte"
+msgstr "^Test pamäte"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "Bootovať z prvého harddisku"
+msgstr "Štart systému z prvého ^disku"

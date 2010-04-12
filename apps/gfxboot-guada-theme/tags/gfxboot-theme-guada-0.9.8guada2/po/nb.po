@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
-"PO-Revision-Date: 2006-03-19 11:10+0000\n"
-"Last-Translator: Frank F. Burmo <fburmo@online.no>\n"
+"PO-Revision-Date: 2006-04-10 20:13+0000\n"
+"Last-Translator: Tor Harald Thorland <linux@strigen.com>\n"
 "Language-Team: <nb@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -162,7 +162,7 @@ msgstr "Slå av maskinen"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Hvil du avslutte nå?"
+msgstr "Vil du avslutte nå?"
 
 #. dialog title for hard disk installation
 #. txt_harddisk_title
@@ -298,7 +298,7 @@ msgstr "^Start Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Start Ubuntu i sikker ^grafisk modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
@@ -308,7 +308,7 @@ msgstr "^Start Kubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Start Kubuntu i sikker ^grafisk modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
@@ -318,7 +318,7 @@ msgstr "^Start Edubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Start Edubuntu i sikker ^grafisk modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
@@ -328,7 +328,7 @@ msgstr "^Start Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Start Xubuntu i sikker ^grafisk modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install

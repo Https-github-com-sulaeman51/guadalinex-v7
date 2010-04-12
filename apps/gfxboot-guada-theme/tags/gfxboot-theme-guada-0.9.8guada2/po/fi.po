@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.fi\n"
-"PO-Revision-Date: 2006-03-22 09:14+0000\n"
+"PO-Revision-Date: 2006-04-10 07:14+0000\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
 "Language-Team: <fi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -296,7 +296,7 @@ msgstr "^Käynnistä Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Käynnistä Ubuntu turvallisessa ^graafisessa tilassa"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
@@ -306,7 +306,7 @@ msgstr "^Käynnistä Kubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Käynnistä Kubuntu turvallisessa ^graafisessa tilassa"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
@@ -316,7 +316,7 @@ msgstr "^Käynnistä Edubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Käynnistä Edubuntu turvallisessa ^graafisessa tilassa"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
@@ -326,7 +326,7 @@ msgstr "^Käynnistä Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Käynnistä Xubuntu turvallisessa ^graafisessa tilassa"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install

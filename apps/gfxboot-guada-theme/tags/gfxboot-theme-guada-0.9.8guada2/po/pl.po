@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-03-24 20:20+0000\n"
+"PO-Revision-Date: 2006-05-08 10:21+0000\n"
 "Last-Translator: Tomasz Dominikowski <dominikowski@gmail.com>\n"
 "Language-Team: Polish <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr ""
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Boot loader"
+msgstr "Program rozruchowy"
 
 #. error box title
 #. txt_error_title
@@ -92,7 +92,7 @@ msgstr "Błąd WE/WY"
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Zmień dysk boot-ujący"
+msgstr "Zmień dysk startowy"
 
 #. txt_insert_disk
 #, c-format
@@ -174,7 +174,7 @@ msgstr "Katalog\n"
 #. dialog title for ftp installation
 #. txt_ftp_title
 msgid "FTP Installation"
-msgstr "Instalacja FTP"
+msgstr "Instalacja przez FTP"
 
 #. txt_server
 msgid "Server\n"
@@ -192,7 +192,7 @@ msgstr "Użytkownik (\"anonymous\" jeśli puste)\n"
 #. dialog title for nfs installation
 #. txt_nfs_title
 msgid "NFS Installation"
-msgstr "Instalacja NFS"
+msgstr "Instalacja przez NFS"
 
 #. label for smb user input
 #. txt_user2
@@ -202,12 +202,12 @@ msgstr "Użytkownik (\"guest\" jeśli puste)\n"
 #. dialog title for smb installation
 #. txt_smb_title
 msgid "SMB (Windows Share) Installation"
-msgstr "Instalacja SMB (udział dyskowy Windows)"
+msgstr "Instalacja przez SMB (udział dyskowy Windows)"
 
 #. dialog title for http installation
 #. txt_http_title
 msgid "HTTP Installation"
-msgstr "Instalacja HTTP"
+msgstr "Instalacja przez HTTP"
 
 #. as in Windows Authentication Domain
 #. txt_domain
@@ -227,7 +227,7 @@ msgstr "Język"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Mapowanie klawiatury"
+msgstr "Mapa klawiatury"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -237,7 +237,7 @@ msgstr "Tryb standardowy"
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr "Try zaawansowany"
+msgstr "Tryb zaawansowany"
 
 #. title for accessibility menu
 #. txt_access
@@ -252,7 +252,7 @@ msgstr "Brak"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "Lesser Visual Impairment"
-msgstr "Mniejsze upośledzenie wzroku"
+msgstr "Niewielkie upośledzenie wzroku"
 
 #. label for accessibility menu
 #. txt_access_v2
@@ -292,7 +292,7 @@ msgstr "^Uruchom Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Uruchom Ubuntu w bezpiecznym trybie ^graficznym"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
@@ -302,17 +302,17 @@ msgstr "^Uruchom Kubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Uruchom Kubuntu w bezpiecznym trybie ^graficznym"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start Edubuntu"
-msgstr "^Start Edubuntu"
+msgstr "^Uruchom Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Uruchom Edubuntu w bezpiecznym trybie ^graficznym"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
@@ -322,22 +322,22 @@ msgstr "^Uruchom Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Uruchom Xubuntu w bezpiecznym trybie ^graficznym"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr "^Instaluj na dysk twardy"
+msgstr "^Zainstaluj na twardym dysku"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr "Instaluj ^stację roboczą"
+msgstr "Zainstaluj ^stację roboczą"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Install in ^OEM mode"
-msgstr "Instaluj w trybie ^OEM"
+msgstr "Zainstaluj w trybie ^OEM"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -357,12 +357,12 @@ msgstr "^Sprawdź CD pod kątem błędów odczytu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "^Sprawdź CD pod kątem błędów odczytu"
+msgstr "^Napraw uszkodzony system"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr "^Sprawdź CD pod kątem błędów odczytu"
+msgstr "^Test pamięci"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd

@@ -1,0 +1,315 @@
+# Thai translation for gfxboot-theme-ubuntu
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the gfxboot-theme-ubuntu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: gfxboot-theme-ubuntu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
+"PO-Revision-Date: 2006-05-08 18:41+0000\n"
+"Last-Translator: Roys Hengwatanakul <roysheng@msn.com>\n"
+"Language-Team: Thai <th@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. ok button label
+msgid "OK"
+msgstr "ตกลง"
+
+#. cancel button label
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#. reboot button label
+msgid "Reboot"
+msgstr "เริ่มระบบใหม่"
+
+#. continue button label
+msgid "Continue"
+msgstr "ทำต่อไป"
+
+msgid "Boot Options"
+msgstr "ทางเลือกในการเริ่มระบบ"
+
+#. window title for exit dialog
+msgid "Exiting..."
+msgstr "กำลังออกไป"
+
+msgid ""
+"You are leaving the graphical boot menu and\n"
+"starting the text mode interface."
+msgstr ""
+"ท่านกำลังจะออกจากเมนูเริ่มระบบแบบกราฟิก\\n\n"
+"ไปเป็นแบบพิมพ์คำสั่ง."
+
+msgid "Help"
+msgstr "ช่วยเหลือ"
+
+#. window title for kernel loading (see txt_load_kernel)
+msgid "Starting..."
+msgstr "กำลังเริ่ม"
+
+#. Keep the three newlines!
+msgid ""
+"Loading Linux Kernel\n"
+"\n"
+"\n"
+msgstr ""
+"กำลังติดตั้งส่วนกลางของลีนุกซ์\\n\n"
+"\\n\n"
+"\\n\n"
+"\n"
+"\n"
+
+#. Keep the three newlines!
+msgid ""
+"Loading memtest86\n"
+"\n"
+"\n"
+msgstr ""
+"กำลังติดตั้งโปรแกรม memtest86\\n\n"
+"\\n\n"
+"\\n\n"
+"\n"
+"\n"
+
+#. info box title
+msgid "Boot loader"
+msgstr "โปรแกรมติดตั้งระบบ"
+
+#. error box title
+msgid "I/O error"
+msgstr "การอ่าน/เขียนมีปัญหา"
+
+#. boot disk change dialog title
+msgid "Change Boot Disk"
+msgstr "กรุณาเปลี่ยนแผ่นดิสก์สำหรับเริ่มระบบ"
+
+#, c-format
+msgid "Insert boot disk %u."
+msgstr "กรุณาใส่แผ่นดิสก์์สำหรับเริ่มระบบแผ่นที่ %u."
+
+#, c-format
+msgid ""
+"This is boot disk %u.\n"
+"Insert boot disk %u."
+msgstr ""
+"นี่คือแผ่นดิสก์์สำหรับเริ่มระบบแผ่นที่ %u.\\n\n"
+"กรุณาใส่แผ่นดิสก์สำหรับเริ่มระบบแผ่นที่ %u."
+
+#, c-format
+msgid ""
+"This is not a suitable boot disk.\n"
+"Please insert boot disk %u."
+msgstr ""
+"แผ่นดิสก์สำหรับเริ่มระบบไม่ถูกต้อง.\\n\n"
+"กรุณาใส่แผ่นดิสก์สำหรับเริ่มระบบแผ่นที่ %u."
+
+#. password dialog title
+msgid "Password"
+msgstr "รหัสผ่าน"
+
+#. Keep the newlines and spaces after ':'!
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"กรุณาใส่รหัสผ่าน:   \\n\n"
+"\\n\n"
+"\\n   \n"
+"\n"
+"\n"
+
+#. dvd warning title
+msgid "DVD Error"
+msgstr "แผ่นดีวีดีมีปัญหา"
+
+msgid ""
+"This is a two-sided DVD. You have booted from the second side.\n"
+"\n"
+"Turn the DVD over then continue."
+msgstr ""
+"นี่เป็นแผ่นดีวีดีที่สามารถใช้ได้ทั้ง 2 ด้าน. ท่านกำลังเริ่มระบบจากด้านที่ "
+"2.\\n\n"
+"\\n\n"
+"กรุณาพลิกแผ่นดีวีดีก่อนจึงจะสามารดำเนินการต่อไปได้."
+
+#. power off dialog title
+msgid "Power Off"
+msgstr "ปิดเครื่อง"
+
+msgid "Halt the system now?"
+msgstr "หยุดระบบเดี้ยวนี้?"
+
+#. dialog title for hard disk installation
+msgid "Hard Disk Installation"
+msgstr "ติดตั้งฮาร์ดดิสก์"
+
+msgid "Disk Device (scan all disks if empty)\n"
+msgstr "หน่วยฮาร์ดดิสก์ (ค้นหาทุกหน่วยถ้าปล่อยว่าง)\\n\n"
+
+msgid "Directory\n"
+msgstr "สารบบ\\n\n"
+
+#. dialog title for ftp installation
+msgid "FTP Installation"
+msgstr "ติดตั้งผ่าน FTP"
+
+msgid "Server\n"
+msgstr "เซิร์ฟเวอร์\\n\n"
+
+msgid "Password\n"
+msgstr "รหัสผ่าน\\n\n"
+
+#. label for ftp user input
+msgid "User (anonymous login if empty)\n"
+msgstr "ผู้ใช้ (anonymous login ถ้าปล่อยว่าง)\\n\n"
+
+#. dialog title for nfs installation
+msgid "NFS Installation"
+msgstr "ติดตั้งผ่าน NFS"
+
+#. label for smb user input
+msgid "User (using \"guest\" if empty)\n"
+msgstr "ผู้ใช้ (ใช้ \"guest\" ถ้าปล่อยว่าง)\\n\n"
+
+#. dialog title for smb installation
+msgid "SMB (Windows Share) Installation"
+msgstr "ติดตั้งผ่าน SMB (Windows Share)"
+
+#. dialog title for http installation
+msgid "HTTP Installation"
+msgstr "ติดตั้งผ่าน HTTP"
+
+#. as in Windows Authentication Domain
+msgid "Domain\n"
+msgstr "โดเมน\\n\n"
+
+#. button label for other/more options
+msgid "Other Options"
+msgstr "ตัวเลือกอี่นๆ"
+
+#. label for language selection
+msgid "Language"
+msgstr "ภาษา"
+
+#. label for keymap selection
+msgid "Keymap"
+msgstr "แป้นพิมพ์แบบ"
+
+#. label for d-i mode menu
+msgid "Normal mode"
+msgstr "แบบธรรมดา"
+
+#. label for d-i mode menu
+msgid "Expert mode"
+msgstr "แบบผู้มีประสพการณ์"
+
+#. title for accessibility menu
+msgid "Accessibility"
+msgstr "ปรับแต่งสำหรับผู้มีปัญหามองเห็นและเคลื่อนไหว"
+
+#. label for accessibility menu
+msgid "None"
+msgstr "ไม่มี"
+
+#. label for accessibility menu
+msgid "Lesser Visual Impairment"
+msgstr "มีปัญหาในการมองเห็นเล็กน้อย"
+
+#. label for accessibility menu
+msgid "Moderate Visual Impairment"
+msgstr "มีปัญหาในการมองเห็นปานกลาง"
+
+#. label for accessibility menu
+msgid "Blindness"
+msgstr "มองไม่เห็น"
+
+#. label for accessibility menu
+msgid "Minor Motor Difficulties"
+msgstr "มีปัญหาด้านการเคลื่อนไหวเล็กน้อย"
+
+#. label for accessibility menu
+msgid "Motor Difficulties - pointing devices"
+msgstr "มีปัญหาด้านการเคลื่อนไหว - อุปกรณ์เกี่ยวกับเมาส์"
+
+#. label for accessibility menu
+msgid "Motor Difficulties - switch devices"
+msgstr "มีปัญหาด้านการเคลื่อนไหว - อุปกรณ์เกี่ยวกับแป้นพิมพ์"
+
+#. label for accessibility menu
+msgid "Everything"
+msgstr "ทุกอย่าง"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "^Start Ubuntu"
+msgstr "เ^ริ่มอูบันตู"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "Start Ubuntu in safe ^graphics mode"
+msgstr "เริ่มอูบันตูในแบบ^กราฟิกง่ายๆ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "^Start Kubuntu"
+msgstr "^เริ่มคูบันตู"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "Start Kubuntu in safe ^graphics mode"
+msgstr "เริ่มคูบันตูในแบบ^กราฟิกง่ายๆ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "^Start Edubuntu"
+msgstr "^เริ่มเอ็ดดูบันตู"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "Start Edubuntu in safe ^graphics mode"
+msgstr "เริ่มเอ็ดดูบันตูในแบบ^กราฟิกง่ายๆ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "^Start Xubuntu"
+msgstr "^เริ่มซูบันตู"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "Start Xubuntu in safe ^graphics mode"
+msgstr "เริ่มซูบันตูในแบบ^กราฟิกง่ายๆ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "^Install to the hard disk"
+msgstr "ูู^ติดตั้งลงในฮาร์ดดิกส์"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "Install a ^workstation"
+msgstr "ติดตั้ง ^workstation"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "Install in ^OEM mode"
+msgstr "ติดตั้งแบบ ^OEM"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "Install a ^LAMP server"
+msgstr "ติดตั้ง ^LAMP เซิฟร์เวอร์"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "Install a ^server"
+msgstr "ติดตั้งเ^ซิฟร์เวอร์"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "^Check CD for defects"
+msgstr "^ตรวจแผ่นซีดีหาข้อบกพร่อง"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "^Rescue a broken system"
+msgstr "แู^ก้ไขระบบที่มีปัญหา"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "^Memory test"
+msgstr "^ทดสอบหน่วยความจำ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+msgid "^Boot from first hard disk"
+msgstr "เริ่มระบบจาก^ฮาร์ดดิกส์ตัวแรก"
