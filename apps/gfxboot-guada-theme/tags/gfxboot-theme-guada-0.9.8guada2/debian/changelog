@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.2.0) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.2.0) edgy; urgency=low
 
   * Use keymapchars from gfxboot (>= 3.2.23-1) rather than our own.
   * Rename identifier for "Install in text mode" from txt_menuitem_install
@@ -12,7 +12,7 @@ gfxboot-theme-ubuntu (0.2.0) UNRELEASED; urgency=low
     Irish, Georgian, Khmer, Nepali, and Tamil.
   * Update keymaps from console-keymaps-at 20060609ubuntu1.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Wed, 12 Jul 2006 13:13:53 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 12 Jul 2006 13:52:21 +0100
 
 gfxboot-theme-ubuntu (0.1.25) dapper; urgency=low
 
