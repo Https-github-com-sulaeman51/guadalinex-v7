@@ -1,6 +1,7 @@
 gfxboot-theme-ubuntu (0.6.2) UNRELEASED; urgency=low
 
   * Hide menu items that use MENU GOTO or MENU EXIT.
+  * Hide menu items that use CONFIG (e.g. the help menu item).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 19 Jun 2008 12:17:29 +0100
 

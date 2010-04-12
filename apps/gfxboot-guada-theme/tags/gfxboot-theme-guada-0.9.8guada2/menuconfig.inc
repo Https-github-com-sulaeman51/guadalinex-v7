@@ -140,6 +140,10 @@
       dup "exit" eq { menuconfig.hidelabel } if
       free rot pop exch
     } if
+    dup "config" eq {
+      % used for help menu item, not useful in gfxboot
+      menuconfig.hidelabel
+    } if
     free
 
     % skip to end of line
