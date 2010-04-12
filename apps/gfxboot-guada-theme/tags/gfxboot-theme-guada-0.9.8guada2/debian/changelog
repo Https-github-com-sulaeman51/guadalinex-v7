@@ -1,9 +1,9 @@
-gfxboot-theme-ubuntu (0.1.9) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.9) dapper; urgency=low
 
   * Fix comment syntax in keytables.inc.
   * Remove obsolete keymap.*.inc files.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Mon, 23 Jan 2006 11:43:19 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 23 Jan 2006 11:53:38 +0000
 
 gfxboot-theme-ubuntu (0.1.8) dapper; urgency=low
 
