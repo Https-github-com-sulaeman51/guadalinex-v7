@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-05-08 10:21+0000\n"
+"PO-Revision-Date: 2006-05-22 20:21+0000\n"
 "Last-Translator: Tomasz Dominikowski <dominikowski@gmail.com>\n"
 "Language-Team: Polish <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
@@ -227,7 +227,7 @@ msgstr "Język"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Mapa klawiatury"
+msgstr "Klawiatura"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -277,7 +277,7 @@ msgstr "Problemy ruchowe - urządzenia wskazujące"
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr "Problemy ruchowe - przełączniki"
+msgstr "Problemy ruchowe - urządzenia przełączające"
 
 #. label for accessibility menu
 #. txt_access_all

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: it\n"
-"PO-Revision-Date: 2006-05-10 16:30+0000\n"
+"PO-Revision-Date: 2006-05-23 11:08+0000\n"
 "Last-Translator: Luca Ferretti <elle.uca@libero.it>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
@@ -49,8 +49,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"State per uscire dal menu di avvio grafico e\n"
-"per avviare l'interfaccia nel modo testo."
+"Uscita dal menu di boot grafico\n"
+"e avvio dell'interfaccia testuale."
 
 #. txt_help
 msgid "Help"
@@ -232,7 +232,7 @@ msgstr "Lingua"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Mappa tastiera"
+msgstr "Tastiera"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -292,7 +292,7 @@ msgstr "Tutto"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "^Avvia Ubuntu"
+msgstr "^Avvia o installa Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
@@ -302,7 +302,7 @@ msgstr "Avvia Ubuntu in modalità ^grafica sicura"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "^Avvia Kubuntu"
+msgstr "^Avvia o installa Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
@@ -312,7 +312,7 @@ msgstr "Avvia Kubuntu in modalità ^grafica sicura"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "^Avvia Edubuntu"
+msgstr "^Avvia o installa Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
@@ -322,7 +322,7 @@ msgstr "Avvia Edubuntu in modalità ^grafica sicura"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "^Avvia Xubuntu"
+msgstr "^Avvia o installa Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
@@ -332,7 +332,7 @@ msgstr "Avvia Xubuntu in modalità ^grafica sicura"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "Installa su ^hard disk"
+msgstr "^Installa in modalità testo"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install

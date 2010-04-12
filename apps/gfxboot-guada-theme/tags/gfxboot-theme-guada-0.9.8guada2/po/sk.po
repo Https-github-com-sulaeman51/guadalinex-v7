@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-05-11 20:26+0000\n"
+"PO-Revision-Date: 2006-05-27 18:31+0000\n"
 "Last-Translator: Peter Chabada <ubuntu@chabada.sk>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
 "MIME-Version: 1.0\n"
@@ -237,12 +237,12 @@ msgstr "Klávesnica"
 #. label for d-i mode menu
 #. txt_normal_mode
 msgid "Normal mode"
-msgstr "Normálny režim"
+msgstr "Bežný spôsob inštalácie"
 
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr "Expertný režim"
+msgstr "Rozšírený spôsob inštalácie"
 
 #. title for accessibility menu
 #. txt_access
@@ -272,17 +272,17 @@ msgstr "Nevidiaci"
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Minor Motor Difficulties"
-msgstr "Nepatrné pohybové tažkosti"
+msgstr "Menšie pohybové tažkosti"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "Motor Difficulties - pointing devices"
-msgstr "Pohybové tažkosti - ukazovacie zariadenia"
+msgstr "Pohybové tažkosti - ukazov. zariadenia"
 
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr "Pohybové tažkosti - prepnúť zariadenia"
+msgstr "Pohybové tažkosti - prep. zariadenia"
 
 #. label for accessibility menu
 #. txt_access_all
@@ -367,7 +367,7 @@ msgstr "^Kontrola CD média na chyby"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "^Zachrána poškodeného systému"
+msgstr "^Záchrana poškodeného systému"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest

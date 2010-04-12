@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-05-01 19:23+0000\n"
-"Last-Translator: Woodman Tuen <wmtuen@gmail.com>\n"
+"PO-Revision-Date: 2006-05-31 12:20+0000\n"
+"Last-Translator: PCMan <pcman.tw@gmail.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "取消"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "重新啟動"
+msgstr "重新開機"
 
 #. continue button label
 #. txt_continue
@@ -252,12 +252,12 @@ msgstr "無"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "Lesser Visual Impairment"
-msgstr ""
+msgstr "輕微視覺障礙"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Moderate Visual Impairment"
-msgstr ""
+msgstr "中度視覺障礙"
 
 #. label for accessibility menu
 #. txt_access_v3
@@ -267,17 +267,19 @@ msgstr "盲目"
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Minor Motor Difficulties"
-msgstr ""
+msgstr "輕微活動困難"
 
 #. label for accessibility menu
 #. txt_access_m2
+#, fuzzy
 msgid "Motor Difficulties - pointing devices"
-msgstr ""
+msgstr "活動困難 — pointing 裝置"
 
 #. label for accessibility menu
 #. txt_access_m3
+#, fuzzy
 msgid "Motor Difficulties - switch devices"
-msgstr ""
+msgstr "活動困難 — switch 裝置"
 
 #. label for accessibility menu
 #. txt_access_all
@@ -357,7 +359,7 @@ msgstr "安裝伺服器 (^s)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr ""
+msgstr "^檢查 CD 是否有缺損"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue

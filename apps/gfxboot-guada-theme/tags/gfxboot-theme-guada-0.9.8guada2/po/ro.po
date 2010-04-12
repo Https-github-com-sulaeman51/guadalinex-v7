@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ro\n"
-"PO-Revision-Date: 2006-03-18 20:29+0000\n"
+"PO-Revision-Date: 2006-05-24 10:12+0000\n"
 "Last-Translator: Mircea MITU <mmitu@bitdefender.com>\n"
 "Language-Team: Romanian <ro-kde@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "Opţiuni de pornire"
 #. txt_exit_title (see txt_exit_dialog)
 #, fuzzy
 msgid "Exiting..."
-msgstr "Ieşire..."
+msgstr "Termin..."
 
 #. txt_exit_dialog
 msgid ""
@@ -236,7 +236,7 @@ msgstr "Limbă"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr ""
+msgstr "Mapare"
 
 #. label for d-i mode menu
 #. txt_normal_mode

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-05-04 18:40+0000\n"
+"PO-Revision-Date: 2006-05-04 18:10+0000\n"
 "Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -60,7 +60,7 @@ msgstr "Alîkarî"
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "Tê dan dest pê kirin..."
+msgstr "Tê dest pê kirin..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
@@ -80,7 +80,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"memtest86 tê barkirin\n"
+"Memtest86 tê barkirin\n"
 "\n"
 "\n"
 
@@ -148,7 +148,7 @@ msgid ""
 "This is a two-sided DVD. You have booted from the second side.\n"
 "\n"
 "Turn the DVD over then continue."
-msgstr ""
+msgstr "Ev DVD'yeke dualî ye. Te ji aliyê duyem da destpêkirin."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -157,7 +157,7 @@ msgstr "Bigire"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Sîstem niha were sekinandin?"
+msgstr "Pergal bila were girtin?"
 
 #. dialog title for hard disk installation
 #. txt_harddisk_title
@@ -166,7 +166,7 @@ msgstr "Sazkirina Hard Dîskê"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
-msgstr ""
+msgstr "Amûrê disk (heke vala be hemû diskan saxtî bike)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -179,7 +179,7 @@ msgstr "Sazkirina FTP"
 
 #. txt_server
 msgid "Server\n"
-msgstr "Pêşkêşkar\n"
+msgstr "Pêşkêşker\n"
 
 #. txt_password
 msgid "Password\n"
@@ -213,7 +213,7 @@ msgstr "Sazkirina HTTP"
 #. as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
-msgstr ""
+msgstr "Herêma bandorê\n"
 
 #. button label for other/more options
 #. txt_other_options
@@ -253,12 +253,12 @@ msgstr "Tune"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "Lesser Visual Impairment"
-msgstr ""
+msgstr "Lawazkirina dîtbarî ya hindiktir"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Moderate Visual Impairment"
-msgstr ""
+msgstr "Lawazkirina dîtbarî ya navinc"
 
 #. label for accessibility menu
 #. txt_access_v3
@@ -268,17 +268,17 @@ msgstr "Koritî"
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Minor Motor Difficulties"
-msgstr ""
+msgstr "Dijwariyên tevgerê yên asta nizm"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "Motor Difficulties - pointing devices"
-msgstr ""
+msgstr "Diwariyên tevgerê - amûrên nîşanan"
 
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr ""
+msgstr "Dijwariyên tevgerê - guhertina amûran"
 
 #. label for accessibility menu
 #. txt_access_all
@@ -293,7 +293,7 @@ msgstr "^Dest bi Ubuntuyê bike"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "Dest bi Ubuntuyê di moda ^grafîk a ewle bike"
+msgstr "Dest bi Ubuntuyê di moda ^grafîk a ewle de bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
@@ -303,7 +303,7 @@ msgstr "^Dest bi Kubuntuyê bike"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr "Dest bi Kubuntuyê di moda ^grafîk a ewle bike"
+msgstr "Dest bi Kubuntuyê di moda ^grafîk a ewle de bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
@@ -313,7 +313,7 @@ msgstr "^Dest bi Edubuntuyê bike"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr "Dest bi Edubuntuyê di moda ^grafîk a ewle bike"
+msgstr "Dest bi Edubuntuyê di moda ^grafîk a ewle de bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
@@ -323,7 +323,7 @@ msgstr "^Dest bi Xubuntuyê bike"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr "Dest bi Xubuntuyê di moda ^grafîk a ewle bike"
+msgstr "Dest bi Xubuntuyê di moda ^grafîk a ewle de bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -338,7 +338,7 @@ msgstr "Di hard disk a yekemîn de ^saz bike"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr "Komputerekê asayî saz bike"
+msgstr "Komputerekê ^asayî saz bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
@@ -353,7 +353,7 @@ msgstr "Pêşkêşkareke ^LAMP saz bike"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ^server"
-msgstr "^Pêşkêşkarekê saz bike"
+msgstr "^Pêşkêşkerekê saz bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
-"PO-Revision-Date: 2006-04-10 06:30+0000\n"
+"PO-Revision-Date: 2006-05-22 20:21+0000\n"
 "Last-Translator: Mykas0 <Mykas0@gmail.com>\n"
 "Language-Team: portuguese\n"
 "MIME-Version: 1.0\n"
@@ -296,7 +296,7 @@ msgstr "^Iniciar o Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "Começar Ubuntu em modo ^gráfico seguro"
+msgstr "Iniciar o Ubuntu em modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
