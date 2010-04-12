@@ -335,6 +335,11 @@ msgid "^Install in text mode"
 msgstr "Ε^γκατάσταση στο σκληρό δίσκο"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install
+msgid "^Install to first hard disk"
+msgstr "Ε^γκατάσταση στο σκληρό δίσκο"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
 msgstr "Εγκατάσταση ενός ^σταθμού εργασίας"

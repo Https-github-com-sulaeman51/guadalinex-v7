@@ -337,6 +337,11 @@ msgid "^Install in text mode"
 msgstr "^Инсталиране на твърдия диск"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install
+msgid "^Install to first hard disk"
+msgstr "^Инсталиране на твърдия диск"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
 msgstr "Инсталиране на ^работна станция"

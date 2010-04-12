@@ -331,6 +331,11 @@ msgid "^Install in text mode"
 msgstr "Di hard disk a yekemîn de ^saz bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install
+msgid "^Install to first hard disk"
+msgstr "Di hard disk a yekemîn de ^saz bike"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
 msgstr "Komputerekê asayî saz bike"
