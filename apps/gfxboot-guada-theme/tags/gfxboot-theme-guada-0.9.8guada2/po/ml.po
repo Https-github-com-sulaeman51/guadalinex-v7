@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2007-02-28 07:00:57.592902+00:00\n"
-"PO-Revision-Date: 2010-02-23 09:17+0000\n"
+"PO-Revision-Date: 2010-03-06 00:55+0000\n"
 "Last-Translator: Rino Tom Thomas <rinotomthomas@gmail.com>\n"
 "Language-Team: Malayalam <ml@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "ശരി"
+msgstr "ഇന്‍സ്റ്റോള്‍ ചെയ്യുക"
 
 #. cancel button label
 #. txt_cancel
@@ -30,29 +30,27 @@ msgstr "റദ്ദാക്കുക"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "വീണ്ടും തുടങ്ങുക"
+msgstr "വീണ്ടും ബൂട്ട് ചെയ്യുക"
 
 #. continue button label
 #. txt_continue
 msgid "Continue"
-msgstr "തുടരൂ"
+msgstr "തുടരുക"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "ബൂട്ടു് ഓപ്ഷനുകള്"
+msgstr "ബൂട്ട്  ഓപ്ഷനുകള്‍"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "പുറത്തുകടക്കുന്നു..."
+msgstr "വിട്ടുപോകുന്നു..."
 
 #. txt_exit_dialog
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr ""
-"നിങ്ങള് 'വസ്തുചിത്റപരമായ' 'ബൂട്ടു്' െമനു വിട്ടു്\n"
-" സാദാ 'െടക്സ്ട്' രീതിയിേലക്കു കടക്കുകയാണ്."
+msgstr "നിങ്ങള്‍ ഗ്രാഫിക്കല്‍ ബൂട്ട് മെനു വിട്ട് സാദാ ടെക്സ്റ്റ് രീതിയിലേക്കു കടക്കുകയാണ്."
 
 #. txt_help
 msgid "Help"
@@ -84,8 +82,8 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"ഇത് %u എന്ന ബൂട്ടു് ഡിസ്ക് ആണ്.\n"
-"%u എന്ന ബൂട്ടു് ഡിസ്ക് ഇടുക."
+"ഇത് %u എന്ന ബൂട്ട് ഡിസ്ക് ആണ്.\n"
+"%u എന്ന ബൂട്ട് ഡിസ്ക് ഇടുക."
 
 #. txt_insert_disk3
 #, c-format
@@ -93,13 +91,13 @@ msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"ഇതു ശരിയായ ബൂട്ടു് ഡിസ്ക് അല്ല.\n"
+"ഇതു ശരിയായ ബൂട്ട് ഡിസ്ക് അല്ല.\n"
 "ദയവായി %u ഇടുക"
 
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "അടയാളവാക്യം"
+msgstr "അടയാളവാക്ക്"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
@@ -108,7 +106,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"അടയാള വാചകം ഉപേയാഗിക്കുക:   \n"
+"അടയാളവാക്ക് ഉപേയാഗിക്കുക:   \n"
 "\n"
 "\n"
 
@@ -133,7 +131,7 @@ msgstr "പ്രവര്‍ത്തനരഹിതമക്കുക"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "സിസ്റ്റം ഇേപ്പാളു് ഹാള്ട്ട് (halt now) െചയ്േതാെട്ട ?"
+msgstr "സിസ്റ്റം ഇപ്പോള്‍ നിര്‍ത്തട്ടെ?"
 
 #. txt_password
 msgid "Password\n"
@@ -167,12 +165,12 @@ msgstr "സാധാരണ"
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr "വിദഗ്ധ രീതി"
+msgstr "വിദഗ്ദ്ധ മാര്‍ഗം"
 
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "സാമീപ്യത (accessibility)"
+msgstr "ഉപയോഗക്ഷമത"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -212,12 +210,12 @@ msgstr "യവനികാ-കീബോര്‍ഡ്"
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr "'േമാേട്ടാറു്' (Motor)ബുധിമുട്ടുകളു് - സ്വിച്ചു് ഉപകരണങ്ങളുെട"
+msgstr "മോട്ടോര്‍ ബുദ്ധിമുട്ടുകള്‍ - സ്വിച്ച് ഉപകരണങ്ങളുടെ"
 
 #. label for accessibility menu
 #. txt_access_all
 msgid "Everything"
-msgstr "ഇെതല്ലാം (Everything)"
+msgstr "ഇതെല്ലാം"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
@@ -246,9 +244,8 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook
-#, fuzzy
 msgid "^Try Ubuntu Netbook without installing"
-msgstr "ഇന്‍സ്റ്റോള്‍ ചെയ്യാതെ ഉബുണ്ടു നെറ്റ്ബുക് റീമിക്സ് പരീക്ഷിക്കുക"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_netbook
@@ -322,9 +319,8 @@ msgstr "ഉബുണ്ടു MID വിന്യസിക്കൂ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook
-#, fuzzy
 msgid "^Install Ubuntu Netbook"
-msgstr "ഉബുണ്ടു നെറ്റ്ബുക് റീമിക്സ് ഇന്‍സ്റ്റോള്‍ ചെയ്യുക"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu_netbook

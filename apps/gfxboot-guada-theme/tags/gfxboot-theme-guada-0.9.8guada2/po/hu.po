@@ -11,13 +11,13 @@ msgstr ""
 "Project-Id-Version: hu\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-05 22:29+0000\n"
+"PO-Revision-Date: 2010-03-20 10:54+0000\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -256,7 +256,7 @@ msgstr "Az Ubuntu Netbook ^kipróbálása telepítés nélkül"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_netbook
 msgid "^Try Kubuntu Netbook without installing"
-msgstr ""
+msgstr "A Kubuntu Netbook ^kipróbálása telepítés nélkül"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -266,7 +266,7 @@ msgstr "Meghajtófrissítő-lemez használata"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
-msgstr "Az Ubuntu telepítése ^szöveges módban"
+msgstr "Ubuntu telepítése ^szöveges módban"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
@@ -316,22 +316,22 @@ msgstr "Az Ubuntu ^Enterprise Cloud telepítése"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr "Az Ubuntu ^Studio telepítése"
+msgstr "Ubuntu ^Studio telepítése"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr "Az Ubuntu ^MID telepítése"
+msgstr "Ubuntu ^MID telepítése"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook
 msgid "^Install Ubuntu Netbook"
-msgstr "Az Ubuntu ^Netbook telepítése"
+msgstr "Ubuntu ^Netbook telepítése"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
-msgstr ""
+msgstr "Kubuntu ^Netbook telepítése"
 
 #. Installation mode.
 #. txt_menuitem_workstation

@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: cs\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2010-02-23 17:07+0000\n"
+"PO-Revision-Date: 2010-03-25 20:14+0000\n"
 "Last-Translator: Adrian Guniš <andygun696@gmail.com>\n"
 "Language-Team: Czech <suse@suse.cz>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -255,7 +255,7 @@ msgstr "^Vyzkoušet Ubuntu Netbook bez instalace"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_netbook
 msgid "^Try Kubuntu Netbook without installing"
-msgstr ""
+msgstr "^Vyzkoušet Kubuntu Netbook bez instalace"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -330,7 +330,7 @@ msgstr "Na^instalovat Ubuntu Netbook"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
-msgstr ""
+msgstr "Na^instalovat Kubuntu Netbook"
 
 #. Installation mode.
 #. txt_menuitem_workstation

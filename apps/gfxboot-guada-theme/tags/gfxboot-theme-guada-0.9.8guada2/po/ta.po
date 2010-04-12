@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: ta(gfxboot)\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2010-02-19 08:32+0000\n"
+"PO-Revision-Date: 2010-03-23 14:04+0000\n"
 "Last-Translator: bhuvi <Unknown>\n"
 "Language-Team: tamil <Ubuntu-l10n-tam@lists.ubuntu.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -225,22 +225,22 @@ msgstr "அனைத்தும்"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without installing"
-msgstr ""
+msgstr "^நிறுவாமல் உபுண்டுவை  முயற்சிக்கவும்"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without installing"
-msgstr ""
+msgstr "^நிறுவாமல் குபுண்டுவை முயற்சிக்கவும்"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without installing"
-msgstr ""
+msgstr "^நிறுவாமல் எடுபுண்டுவை முயற்சிக்கவும்"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without installing"
-msgstr ""
+msgstr "^நிறுவாமல் சுபுண்டுவை முயற்சிக்கவும்"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
@@ -324,9 +324,8 @@ msgstr "உபுண்டு எம்ஐடியை நிறுவுக"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook
-#, fuzzy
 msgid "^Install Ubuntu Netbook"
-msgstr "உபுண்டு நெட்புக் மறுபிரதியை நிறுவவும்"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu_netbook

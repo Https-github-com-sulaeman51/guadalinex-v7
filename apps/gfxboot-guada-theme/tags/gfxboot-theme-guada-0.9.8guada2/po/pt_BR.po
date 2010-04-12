@@ -6,13 +6,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2010-02-20 20:42+0000\n"
-"Last-Translator: André Gondim <andregondim@ubuntu.com>\n"
+"PO-Revision-Date: 2010-03-20 05:13+0000\n"
+"Last-Translator: Henrique P. Machado <zehrique@ubuntu.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -106,7 +106,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Digite sua senha:   \n"
+"Informe sua senha:   \n"
 "\n"
 "\n"
 
@@ -141,7 +141,7 @@ msgstr "Senha\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Outras Opções"
+msgstr "Outras opções"
 
 #. label for language selection
 #. txt_language
@@ -181,7 +181,7 @@ msgstr "Nenhum"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr "Alto Contraste"
+msgstr "Alto contraste"
 
 #. label for accessibility menu
 #. txt_access_v2
@@ -191,7 +191,7 @@ msgstr "Ampliação"
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr "Leitor de Tela"
+msgstr "Leitor de tela"
 
 #. label for accessibility menu
 #. txt_access_brltty
@@ -201,12 +201,12 @@ msgstr "Terminal em braille"
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr "Modificadores de Teclado"
+msgstr "Modificadores de teclado"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr "Teclado Virtual"
+msgstr "Teclado virtual"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -251,7 +251,7 @@ msgstr "Experimen^tar o Ubuntu Netbook sem instalar"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_netbook
 msgid "^Try Kubuntu Netbook without installing"
-msgstr ""
+msgstr "^Experimente Kubuntu Netbook sem instalar"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -326,7 +326,7 @@ msgstr "^Instalar o Ubuntu Netbook"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
-msgstr ""
+msgstr "^Instalar Kubuntu Netbook"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -341,7 +341,7 @@ msgstr "Instalar um servidor"
 #. Installation mode.
 #. txt_menuitem_oem
 msgid "OEM install (for manufacturers)"
-msgstr "Instaral OEM (para fabricantes)"
+msgstr "Instalar OEM (para fabricantes)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
@@ -371,12 +371,12 @@ msgstr "Instalar o sistema mínimo"
 #. Installation mode.
 #. txt_menuitem_minimalvm
 msgid "Install a minimal virtual machine"
-msgstr "Instalação mínima da maquina virtual"
+msgstr "Instalação mínima da máquina virtual"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check disc for defects"
-msgstr "^Verificar defeitos no disco."
+msgstr "^Verificar por defeitos no disco"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -391,7 +391,7 @@ msgstr "Teste de ^memória"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "Inicializar ^primeiro pelo disco rígido"
+msgstr "Inicializar pelo ^primeiro disco rígido"
 
 #. Boot option.
 #. txt_option_free

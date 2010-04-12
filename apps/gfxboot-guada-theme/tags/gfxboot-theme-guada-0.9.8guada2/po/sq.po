@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2010-02-24 15:17+0000\n"
-"Last-Translator: Lulzim <Unknown>\n"
+"PO-Revision-Date: 2010-03-20 03:58+0000\n"
+"Last-Translator: Vilson Gjeci <vilsongjeci@gmail.com>\n"
 "Language-Team: Albanian <sq@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -61,7 +61,7 @@ msgstr "Ndihmë"
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Boot ngarkues-i"
+msgstr "Ngarkuesi i nisjes (boot)"
 
 #. error box title
 #. txt_error_title
@@ -153,12 +153,12 @@ msgstr "Gjuha"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Klasifikimi i tastires"
+msgstr "Klasifikimi i tastierës"
 
 #. label for installation mode selection
 #. txt_modes
 msgid "Modes"
-msgstr "Gjendjet"
+msgstr "Mënyrat"
 
 #. label for modes menu
 #. txt_mode_normal
@@ -253,7 +253,7 @@ msgstr "^Provo Ubuntu Netbook pa e instaluar"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_netbook
 msgid "^Try Kubuntu Netbook without installing"
-msgstr ""
+msgstr "^Provo Kubuntu Netbook pa e instaluar"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -283,22 +283,22 @@ msgstr "^Instalo Xubuntu në mënyrë teksti"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr "^Instalo Ubuntu-n"
+msgstr "^Instalo Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr "^Instalo Kubuntu-n"
+msgstr "^Instalo Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
 msgid "^Install Edubuntu"
-msgstr "^Instalo Edubuntu-n"
+msgstr "^Instalo Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_xubuntu
 msgid "^Install Xubuntu"
-msgstr "^Instalo Xubuntu-n"
+msgstr "^Instalo Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
@@ -328,7 +328,7 @@ msgstr "^Instaloni Ubuntu Netbook"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
-msgstr ""
+msgstr "^Instalo Kubuntu Netbook"
 
 #. Installation mode.
 #. txt_menuitem_workstation
