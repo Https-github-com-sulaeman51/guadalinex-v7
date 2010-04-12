@@ -54,7 +54,7 @@
   [ "nl" "Nederlands" ]
   [ "nn" "Norsk nynorsk" ]
   % [ "pa" "ਪੰਜਾਬੀ" ]
-  [ "pa" "Persian" ]
+  [ "pa" "Punjabi (Gurmukhi)" ]
   [ "pl" "Polski" ]
   [ "pt" "Português" ]
   [ "pt_BR" "Português do Brasil" ]
