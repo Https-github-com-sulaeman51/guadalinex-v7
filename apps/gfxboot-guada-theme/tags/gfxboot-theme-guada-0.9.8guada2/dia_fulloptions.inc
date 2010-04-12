@@ -12,7 +12,7 @@
 /.fulloptions.noapic 2 def
 /.fulloptions.nolapic 3 def
 
-% These strings are not translatable.
+% These strings are intentionally not translatable.
 /txt_acpi_off "acpi=off" def
 /txt_noapic "noapic" def
 /txt_nolapic "nolapic" def
@@ -27,9 +27,19 @@
   /xmenu.fulloptions .xm_size array def
   /xmenu xmenu.fulloptions def
 
-  xmenu .xm_current .fulloptions.expert put
+  is_live {
+    /.fulloptions.acpi_off dec
+    /.fulloptions.noapic dec
+    /.fulloptions.nolapic dec
+    xmenu .xm_current .fulloptions.acpi_off put
+  } {
+    xmenu .xm_current .fulloptions.expert put
+  } ifelse
 
-  xmenu .xm_list [ /txt_expert_mode /txt_acpi_off /txt_noapic /txt_nolapic ] put
+  xmenu .xm_list [
+    is_live not { /txt_expert_mode } if
+    /txt_acpi_off /txt_noapic /txt_nolapic
+  ] put
 
   xmenu .xm_title /txt_other_options put
   xmenu .xm_check 1 put
@@ -56,7 +66,7 @@
   0 1 xmenu .xm_allselected get length 1 sub {
     over over get {
       .undef
-      over .fulloptions.expert eq { pop "priority=low" } if
+      is_live not { over .fulloptions.expert eq { pop "priority=low" } if } if
       over .fulloptions.acpi_off eq { pop "acpi=off" } if
       over .fulloptions.noapic eq { pop "noapic" } if
       over .fulloptions.nolapic eq { pop "nolapic" } if
