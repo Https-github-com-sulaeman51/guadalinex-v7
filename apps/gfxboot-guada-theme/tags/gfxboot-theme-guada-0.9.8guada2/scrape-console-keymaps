@@ -114,6 +114,12 @@ my %keymapfunc;
 for my $keymap (sort { $a cmp $b } keys %keymaps) {
     my $found = 0;
     for my $index (0 .. 127) {
+	# Never map keys that are special when unshifted; this caused
+	# problems for the French keymap, and made it difficult in general
+	# to get out of a keymap you selected by accident.
+	if ($keycodes{us}{plain}[$index] =~ /^key/) {
+	    next;
+	}
 	my $plain = $keycodes{$keymap}{plain}[$index];
 	my $shift = $keycodes{$keymap}{shift}[$index];
 	my $altgr = $keycodes{$keymap}{altgr}[$index];

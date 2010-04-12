@@ -4,6 +4,9 @@ gfxboot-theme-ubuntu (0.1.14) UNRELEASED; urgency=low
     language.
   * Update locale-to-keymap mappings from console-keymaps-at
     2002.12.04dbs-52.1ubuntu3.
+  * Don't map keys that are special when unshifted; this caused problems for
+    the French keymap, and made it difficult in general to get out of a
+    keymap you selected by accident (closes: Malone #31767).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue, 21 Feb 2006 11:56:41 +0000
 
