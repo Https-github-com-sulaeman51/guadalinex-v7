@@ -342,6 +342,8 @@
 
   } if
 
+  bc.opts "%s " bc.cmd dup length add sprintf
+
   syslinux {
     video.modes.list xmenu.video .xm_current get get .vm_mode get
 
@@ -368,8 +370,6 @@
       install.option "%s " bc.cmd dup length add sprintf
     } if
   } if
-
-  bc.opts "%s " bc.cmd dup length add sprintf
 
   bc.cmd dropspaces
 
