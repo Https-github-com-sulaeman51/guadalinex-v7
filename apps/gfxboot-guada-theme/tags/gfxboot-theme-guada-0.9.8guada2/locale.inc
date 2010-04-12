@@ -50,6 +50,27 @@
     setkeymap.found { exit } if
   } forall
 
+  % if we couldn't find anything, try without the country
+  setkeymap.found not {
+    config.keymap.locale "_" strstr dup 0 ne {
+      1 sub
+      dup string /lang.tmp exch def
+      lang.tmp cvp config.keymap.locale cvp 2 index memcpy
+      lang.tmp exch 0 put
+      keymaps {
+        dup .km.locales get {
+          lang.tmp eq {
+            dup /config.keymap exch def /setkeymap.found true def exit
+          } if
+        } forall
+        pop
+        setkeymap.found { exit } if
+      } forall
+    } {
+      pop
+    } ifelse
+  } if
+
 } def
 
 

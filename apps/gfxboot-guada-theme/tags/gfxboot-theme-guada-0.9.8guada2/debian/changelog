@@ -6,6 +6,8 @@ gfxboot-theme-ubuntu (0.1.13) UNRELEASED; urgency=low
   * Update font to add characters necessary for Kazakh ("Қазақ").
   * Pass debian-installer/locale=pt_PT rather than just pt for Portuguese,
     allowing localechooser to do a better job of handling the preseeding.
+  * Teach setkeymap to try looking for a keymap based just on the language
+    code in case it can't find it based on ll_CC.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 16 Feb 2006 12:39:26 +0000
 
