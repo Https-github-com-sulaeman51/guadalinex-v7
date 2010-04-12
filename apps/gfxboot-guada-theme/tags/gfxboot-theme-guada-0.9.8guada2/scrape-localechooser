@@ -19,7 +19,11 @@ my %langcode_override = (
 # The real localised names for these languages use characters not present in
 # our font.
 my %langname_override = (
+    'Gujarati' => 'Gujarati',
+    'Khmer' => 'Khmer',
     'Punjabi (Gurmukhi)' => 'Punjabi (Gurmukhi)',
+    'Malayalam' => 'Malayalam',
+    'Tamil' => 'Tamil',
 );
 
 my %langcodes;
