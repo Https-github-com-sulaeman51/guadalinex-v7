@@ -38,7 +38,7 @@ po:
 
 themes: bootdir installdir
 
-bootdir: boot boot.config $(INCLUDES)
+bootdir: boot.config boot $(INCLUDES)
 	@cp -a po/*.tr boot
 	@for i in $(FILES_BOOT) ; do [ -f $$i ] && cp $$i boot ; done ; true
 	@echo en >boot/languages
@@ -49,7 +49,7 @@ ifdef DEFAULT_LANG
 endif
 	@cd boot && echo $(FILES_BOOT_EN) | sed -e "s/ /\n/g" | cpio --quiet -o >message
 
-installdir: install install.config $(INCLUDES)
+installdir: install.config install $(INCLUDES)
 	@cp -a po/*.tr install
 	@for i in $(FILES_INST) ; do [ -f $$i ] && cp $$i install ; done ; true
 	$(MKBOOTMSG) $(BFLAGS) -l install/log -c $< install/init
