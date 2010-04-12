@@ -295,7 +295,8 @@ msgstr "Mọi thứ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Start or install Ubuntu"
+#, fuzzy
+msgid "^Try Ubuntu without any change to your computer"
 msgstr "Khởi động hoặc cài ^Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -305,7 +306,8 @@ msgstr "Khởi động Ubuntu tron^g chế độ đồ họa an toàn"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Start or install Kubuntu"
+#, fuzzy
+msgid "^Try Kubuntu without any change to your computer"
 msgstr "Khởi động hoặc cài K^ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -315,7 +317,8 @@ msgstr "Khởi động Kubuntu tron^g chế độ đồ họa an toàn"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Start or install Edubuntu"
+#, fuzzy
+msgid "^Try Edubuntu without any change to your computer"
 msgstr "Khởi động hoặc cài Ed^ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -325,7 +328,8 @@ msgstr "Khởi động Edubuntu tron^g chế độ đồ họa an toàn"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Start or install Xubuntu"
+#, fuzzy
+msgid "^Try Xubuntu without any change to your computer"
 msgstr "Khởi động hoặc cài X^ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -339,14 +343,45 @@ msgid "Install with driver ^update CD"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text
-msgid "^Install in text mode"
+#. txt_menuitem_install_text_ubuntu
+#, fuzzy
+msgid "^Install Ubuntu in text mode"
 msgstr "Cài đặt trong chế độ ^văn bản"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install
-msgid "^Install to the hard disk"
-msgstr "Cài đặt vào ổ cứng"
+#. txt_menuitem_install_text_kubuntu
+msgid "^Install Kubuntu in text mode"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_edubuntu
+msgid "^Install Edubuntu in text mode"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_xubuntu
+msgid "^Install Xubuntu in text mode"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu
+msgid "^Install Ubuntu"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu
+msgid "^Install Kubuntu"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_edubuntu
+msgid "^Install Edubuntu"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_xubuntu
+msgid "^Install Xubuntu"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
@@ -390,7 +425,8 @@ msgstr "^Cứu một hệ thống bị hỏng"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
-msgid "^Memory test"
+#, fuzzy
+msgid "Test ^memory"
 msgstr "Kiểm tra bộ ^nhớ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

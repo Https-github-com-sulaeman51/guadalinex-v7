@@ -294,7 +294,8 @@ msgstr "Alles"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Start or install Ubuntu"
+#, fuzzy
+msgid "^Try Ubuntu without any change to your computer"
 msgstr "^Start of installeer Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -304,7 +305,8 @@ msgstr "Start Ubuntu in ^veilige modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Start or install Kubuntu"
+#, fuzzy
+msgid "^Try Kubuntu without any change to your computer"
 msgstr "^Start of installeer Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -314,7 +316,8 @@ msgstr "Start Kubuntu in ^veilige modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Start or install Edubuntu"
+#, fuzzy
+msgid "^Try Edubuntu without any change to your computer"
 msgstr "^Start of installeer Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -324,7 +327,8 @@ msgstr "Start Edubuntu in ^veilige modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Start or install Xubuntu"
+#, fuzzy
+msgid "^Try Xubuntu without any change to your computer"
 msgstr "^Start of installeer Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -338,14 +342,45 @@ msgid "Install with driver ^update CD"
 msgstr "Installeren met stuurprogramma-^update cd"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text
-msgid "^Install in text mode"
+#. txt_menuitem_install_text_ubuntu
+#, fuzzy
+msgid "^Install Ubuntu in text mode"
 msgstr "^Installeer in tekst-modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install
-msgid "^Install to the hard disk"
-msgstr "^Installeer naar de harde schijf"
+#. txt_menuitem_install_text_kubuntu
+msgid "^Install Kubuntu in text mode"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_edubuntu
+msgid "^Install Edubuntu in text mode"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_xubuntu
+msgid "^Install Xubuntu in text mode"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu
+msgid "^Install Ubuntu"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu
+msgid "^Install Kubuntu"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_edubuntu
+msgid "^Install Edubuntu"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_xubuntu
+msgid "^Install Xubuntu"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
@@ -389,7 +424,8 @@ msgstr "^Repareer een gebroken systeem"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
-msgid "^Memory test"
+#, fuzzy
+msgid "Test ^memory"
 msgstr "^Geheugentest"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

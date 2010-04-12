@@ -1,3 +1,13 @@
+gfxboot-theme-ubuntu (0.5.3) UNRELEASED; urgency=low
+
+  * Rename "Start or install $PROJECT" to "Try $PROJECT without any change
+    to your computer"; "Install in text mode" to "Install $PROJECT in text
+    mode"; "Install to the hard disk" to "Install $PROJECT"; and "Memory
+    test" to "Test memory". See
+    https://wiki.ubuntu.com/HardyBootloaderReview for context.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 13 Feb 2008 10:27:59 +0000
+
 gfxboot-theme-ubuntu (0.5.2) hardy; urgency=low
 
   * Ask for language before displaying the main menu (LP: #39888).
