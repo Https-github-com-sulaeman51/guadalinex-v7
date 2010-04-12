@@ -10,7 +10,7 @@
 % ( ) => ( )
 %
 /panel.help {
-   help.context "opt" eq {
+   help.context "opt" eq boot.ed 5 get .undef ne and {
      findbootoption
      help.mapcontext
      dup help.findpage

@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.5.4) UNRELEASED; urgency=low
+
+  * Fix crash when pressing an unhandled key followed by F1 when the boot
+    options edit prompt has not yet been displayed.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 14 Feb 2008 10:15:09 +0000
+
 gfxboot-theme-ubuntu (0.5.3) hardy; urgency=low
 
   * Rename "Start or install $PROJECT" to "Try $PROJECT without any change
