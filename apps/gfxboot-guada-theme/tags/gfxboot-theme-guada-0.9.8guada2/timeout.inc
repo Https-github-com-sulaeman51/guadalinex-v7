@@ -35,7 +35,7 @@
   /timeout.current    -1 def
   /timeout.buf        64 string def
 
-  /timeout.time.x timeout.x 60 add def
+  /timeout.time.x timeout.x def
   /timeout.time.y timeout.y 120 add def
 } def
 

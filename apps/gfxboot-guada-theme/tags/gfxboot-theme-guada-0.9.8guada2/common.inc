@@ -457,6 +457,8 @@
 
   } if
 
+  panel.lang
+
   50 sound.setvolume
   "startup.mod" findfile dup .undef ne {
     /player.startup 0 def
