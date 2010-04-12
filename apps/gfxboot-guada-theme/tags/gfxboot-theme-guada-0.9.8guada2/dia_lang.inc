@@ -195,6 +195,7 @@
   dup
   setlang { /window.action actRedraw def } if
   setkeymap
+  keymap.langchanged
 
   % Why? --> see dia_install.inc; same there.
   window.action actRedraw eq { pmenu.update } if

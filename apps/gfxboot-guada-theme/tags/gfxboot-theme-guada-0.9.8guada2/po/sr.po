@@ -225,6 +225,11 @@ msgstr "Остале опције"
 msgid "Language"
 msgstr "Језик"
 
+# label for keymap selection
+#. txt_keymap
+msgid "Keymap"
+msgstr ""
+
 # label for d-i mode menu
 #. txt_normal_mode
 msgid "Normal mode"
