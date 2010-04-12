@@ -151,7 +151,7 @@
   debug 4 ge {
     % print keycode somewhere
     -1 settransparentcolor
-    black setcolor
+    white setcolor
     500 0 moveto dup print "  " print
   } if
 
@@ -171,7 +171,7 @@
   debug 4 ge {
     % print mapped key somewhere
     -1 settransparentcolor
-    black setcolor
+    white setcolor
     500 20 moveto dup print "  " print
   } if
 
@@ -406,7 +406,7 @@
   bc.cmd dropspaces
 
   debug 3 ge {
-    0 0 moveto black setcolor
+    0 0 moveto white setcolor
     bc.cmd print "<<  (press ESC) " print trace
   } if
 
@@ -1125,7 +1125,7 @@
 %
 /debug.input {
   dup keyShiftF4 eq debug 3 ge and {
-    currentcolor black setcolor
+    currentcolor white setcolor
     currentpoint 0 0 moveto
     64 string biosmem "mem = %u  " 2 index sprintf dup show free
     moveto setcolor
@@ -1133,7 +1133,7 @@
   } if
 
   dup keyShiftF3 eq syslinux and debug 3 ge and {
-    currentcolor black setcolor
+    currentcolor white setcolor
     currentpoint 0 0 moveto
     "eject  " print bootdrive eject print
     moveto setcolor
@@ -1141,7 +1141,7 @@
   } if
 
   dup keyShiftF5 eq syslinux and debug 3 ge and {
-    currentcolor black setcolor
+    currentcolor white setcolor
     currentpoint 100 0 moveto
     bootdrive print
     moveto setcolor

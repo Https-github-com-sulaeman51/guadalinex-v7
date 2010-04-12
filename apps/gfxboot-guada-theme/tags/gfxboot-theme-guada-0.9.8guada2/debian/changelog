@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.1.19) UNRELEASED; urgency=low
+
+  * Print debugging messages in white, not black (which is invisible on our
+    default background).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun,  9 Apr 2006 22:30:45 +0100
+
 gfxboot-theme-ubuntu (0.1.18) dapper; urgency=low
 
   * Fix parsing of gfxboot-foreground keyword.
