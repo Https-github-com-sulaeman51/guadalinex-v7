@@ -334,6 +334,11 @@ msgstr "Lemez nélküli képkiszolgáló telepítése"
 msgid "Install a command-line system"
 msgstr "Parancssoros rendszer telepítése"
 
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"

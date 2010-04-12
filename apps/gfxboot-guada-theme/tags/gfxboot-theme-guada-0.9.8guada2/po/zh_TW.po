@@ -329,6 +329,11 @@ msgstr "安裝無碟影像伺服器"
 msgid "Install a comm^and-line system"
 msgstr "安裝基本系統 (^s)"
 
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"

@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.6.5) UNRELEASED; urgency=low
+
+  * Add localisation for "Install a minimal system".
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 21 Aug 2008 14:12:11 +0100
+
 gfxboot-theme-ubuntu (0.6.4) intrepid; urgency=low
 
   * If the selected keymap is the default for the selected locale rather

@@ -329,6 +329,11 @@ msgstr "Instala um servidor de imagem que não necessita de disco."
 msgid "Install a command-line system"
 msgstr "Instalar um sistema em linha de comando"
 
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
