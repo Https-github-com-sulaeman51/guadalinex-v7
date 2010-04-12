@@ -252,7 +252,9 @@ msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "Gunakan CD driver terbaru"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -313,7 +315,7 @@ msgstr "Instal server"
 #. Installation mode.
 #. txt_menuitem_oem
 #, fuzzy
-msgid "^OEM install (for manufacturers)"
+msgid "OEM install (for manufacturers)"
 msgstr "Instalasi mode teks untuk pabrika^n"
 
 #. Installation mode.
@@ -334,7 +336,7 @@ msgstr "Instal Diskless Image Server"
 #. Installation mode.
 #. txt_menuitem_cli
 #, fuzzy
-msgid "Install a comm^and-line system"
+msgid "Install a command-line system"
 msgstr "Install ^server"
 
 #. Installation mode.
@@ -349,7 +351,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "Periksa kerusakan pada ^CD"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

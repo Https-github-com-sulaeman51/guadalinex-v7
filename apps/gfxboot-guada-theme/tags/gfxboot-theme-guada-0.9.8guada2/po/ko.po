@@ -252,7 +252,9 @@ msgstr "안전한 그래픽 모드"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "드라이버 업데이트 CD 사용"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -313,7 +315,7 @@ msgstr "서버 설치하기"
 #. Installation mode.
 #. txt_menuitem_oem
 #, fuzzy
-msgid "^OEM install (for manufacturers)"
+msgid "OEM install (for manufacturers)"
 msgstr "생산업체를 위한 텍스트 모드 설치하기 (^N)"
 
 #. Installation mode.
@@ -348,7 +350,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "시디의 결함 확인하기 (^C)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

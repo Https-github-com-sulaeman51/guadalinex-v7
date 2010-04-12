@@ -250,7 +250,9 @@ msgstr "מצב גרפי בטוח"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "השתמש בתקליטור עדכון מנהלי התקנים"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -345,7 +347,9 @@ msgstr "התקן מכונה וירטואלית מינימאלית"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "בדיקת ^פגמים בתקליטור"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

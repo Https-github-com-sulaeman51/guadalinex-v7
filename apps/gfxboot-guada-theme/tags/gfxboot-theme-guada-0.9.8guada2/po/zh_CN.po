@@ -251,7 +251,9 @@ msgstr "安全图形模式"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "使用驱动更新光盘"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -346,7 +348,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "检查光盘是否损坏 (^C)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

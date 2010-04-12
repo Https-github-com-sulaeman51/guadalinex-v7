@@ -255,7 +255,9 @@ msgstr "Veilige modus"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "Update-cd met stuurprogramma's gebruiken"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -350,7 +352,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "^Controleer de cd op fouten"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

@@ -253,7 +253,9 @@ msgstr "Felsäkert grafikläge"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "Använd skiva med drivrutinsuppdateringar"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -348,7 +350,9 @@ msgstr "Installera en minimal virtuell maskin"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "^Kontrollera cd-skiva efter fel"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

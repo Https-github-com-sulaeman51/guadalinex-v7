@@ -254,7 +254,9 @@ msgstr "უსაფრთხო გრაფიკული რეჟიმი"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "დამატებითი დრაივერების დისკის გამოყენება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -315,7 +317,7 @@ msgstr "სერვერის დაყენება"
 #. Installation mode.
 #. txt_menuitem_oem
 #, fuzzy
-msgid "^OEM install (for manufacturers)"
+msgid "OEM install (for manufacturers)"
 msgstr "ტექსტურ რეჟიმში დაყენება მწარმოებლებისთვის"
 
 #. Installation mode.
@@ -350,7 +352,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "^დისკის დაზიანებაზე შემოწმება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

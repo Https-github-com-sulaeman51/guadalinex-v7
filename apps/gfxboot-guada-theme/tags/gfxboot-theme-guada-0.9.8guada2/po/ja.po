@@ -250,7 +250,9 @@ msgstr "セーフグラフィックスモードでUbuntuを起動"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "ドライバアップデートCDを使用"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -311,7 +313,7 @@ msgstr "サーバのインストール"
 #. Installation mode.
 #. txt_menuitem_oem
 #, fuzzy
-msgid "^OEM install (for manufacturers)"
+msgid "OEM install (for manufacturers)"
 msgstr "メーカー向けのテキストモードインストール"
 
 #. Installation mode.
@@ -346,7 +348,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "CDの異常をチェック(^C)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

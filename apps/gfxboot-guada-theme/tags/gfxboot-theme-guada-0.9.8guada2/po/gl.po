@@ -250,7 +250,9 @@ msgstr "Modo gráfico seguro"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "Usar o CD de actualización de controladores"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -311,7 +313,7 @@ msgstr "Instalar un servidor"
 #. Installation mode.
 #. txt_menuitem_oem
 #, fuzzy
-msgid "^OEM install (for manufacturers)"
+msgid "OEM install (for manufacturers)"
 msgstr "Instalación en modo texto para fabrica^ntes"
 
 #. Installation mode.
@@ -346,7 +348,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "^Verificar o CD por se ten defectos"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
