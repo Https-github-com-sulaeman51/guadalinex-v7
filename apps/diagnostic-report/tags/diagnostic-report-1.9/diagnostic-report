@@ -3,7 +3,10 @@
 # Version: 1.4
 # Description: Utility to report information about the operating system
 # Dependencies: zenity, xresprobe
-# Authors: TODO 
+# Authors:
+# - Roberto C. Morano <rcmorano@emergya.es>
+# - Alfredo Matas <amatas@emergya.es>
+# - Juanje Ojeda Croissier <jojeda@emergya.es>
 # Copyright: 2006,2007,2008 Junta de Andalucía 
 # License: GNU Public License 2
 #
