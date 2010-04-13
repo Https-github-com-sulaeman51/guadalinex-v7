@@ -2,11 +2,12 @@ Index: newtrunk/common.inc
 ===================================================================
 --- newtrunk.orig/common.inc	2010-04-09 14:56:21.000000000 +0200
 +++ newtrunk/common.inc	2010-04-09 14:56:47.000000000 +0200
-@@ -1379,6 +1379,7 @@
+@@ -1379,6 +1379,8 @@
  /dotcolor            0xa9bbcd          newcolor
  /lightdotcolor       0xeff2f6          newcolor
  /somegreen           0x78a424          newcolor
 +/darkblue            0x004174          newcolor
++/realwhite            0xffffff          newcolor
  
  /lightblue 0x7da3d1 def
  
