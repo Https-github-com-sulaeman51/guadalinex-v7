@@ -1,3 +1,10 @@
+diagnostic-report (1.9) lucid; urgency=low
+
+  * Forward port
+  * diagnostic-report: Added some known authors to the script headers
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 13 Apr 2010 09:41:22 +0200
+
 diagnostic-report (1.8) jaunty; urgency=low
 
   [ Roberto C. Morano ]
