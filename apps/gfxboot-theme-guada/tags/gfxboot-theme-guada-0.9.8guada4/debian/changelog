@@ -5,6 +5,7 @@ gfxboot-theme-guada (0.9.8guada3) lucid; urgency=low
     - Added missing files
   * debian/rules: fixed, now it compiles gfxboot...
   * debian/patches/define-guada-colors: added missing color
+  * po/*.po: updated files
 
  -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 13 Apr 2010 15:58:41 +0100
 
