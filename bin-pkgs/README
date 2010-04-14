@@ -1,0 +1,16 @@
+# External binary/source packages included directly to our derivative
+# repository (not compiled by guadateam)
+#
+# List format:  
+#
+# * Package (version)
+#   * Downloaded-from
+# * Package (version)
+# * PackageN (version)
+#   * Downloaded-from
+
+* festvox-palpc16k 1.0.0
+  * http://v6.guadalinex.org/guadalinex-buho/pool/main/f/festvox-palpc16k/festvox-palpc16k_1.0.0_all.deb
+
+* festvox-sflpc16k 1.0.0
+  * http://v6.guadalinex.org/guadalinex-buho/pool/main/f/festvox-sflpc16k/festvox-sflpc16k_1.0.0_all.deb
