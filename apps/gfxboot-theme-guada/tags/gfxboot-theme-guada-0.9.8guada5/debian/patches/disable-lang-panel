@@ -10,7 +10,7 @@ Index: trunk/common.inc
 -  } ifelse
 +% GUADA HACK to hide language panel
 +%    lang.displayed not { panel.lang } if
-+%  } ifelse
++  } if
  
    50 sound.setvolume
    "startup.mod" findfile dup .undef ne {
