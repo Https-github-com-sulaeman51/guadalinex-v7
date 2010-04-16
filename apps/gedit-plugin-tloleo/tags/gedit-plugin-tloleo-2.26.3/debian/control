@@ -22,10 +22,11 @@ Package: gedit-plugin-tloleo
 Architecture: any
 Depends: festival (>= 1.96~beta), festvox-palpc16k (>=1.0.0), festvox-sflpc16k (>=1.0.0), ${shlibs:Depends}, ${misc:Depends}
 Description: Set of plugins for gedit
-  gedit-plugin-TLoleo contain a set of plugins for gedit, GNOME's text editor.
-  .
-  The following plugins are included:
-   * TLoleo: synthesizes the selected text with Festival using the Spanish
-  male voice from the Hispavoces project (http://forja.guadalinex.org/projects/hispavoces/). 
-  Developed by Intelligent Dialogue Systems S.L.
-  .
+ gedit-plugin-TLoleo contain a set of plugins for gedit, GNOME's text editor.
+ .
+ The following plugins are included:
+  * TLoleo: synthesizes the selected text with Festival using the Spanish
+ male voice from the Hispavoces project
+ (http://forja.guadalinex.org/projects/hispavoces/). 
+ Developed by Intelligent Dialogue Systems S.L.
+ .
