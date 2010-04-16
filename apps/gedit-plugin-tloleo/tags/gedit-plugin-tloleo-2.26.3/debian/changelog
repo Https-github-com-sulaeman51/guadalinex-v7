@@ -1,3 +1,11 @@
+gedit-plugin-tloleo (2.26.2) jaunty; urgency=low
+
+  * Fixed incorrect FSF address
+  * Fixed some minor description issues
+  * Fixed a tiny boilerplate tamplate from dh_make
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 01 Jun 2009 05:46:23 +0200
+
 gedit-plugin-tloleo (2.26.1) unstable; urgency=low
 
   * Updated 'festival' depend version in order to work with current jaunty
