@@ -2,7 +2,8 @@ Source: gedit-plugin-tloleo
 Section: gnome
 Priority: extra
 Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
-Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>
+Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>,
+           Roberto C. Morano <rcmorano@emergya.es>
 Build-Depends: cdbs,
                debhelper (>= 7),
                gnome-common,
