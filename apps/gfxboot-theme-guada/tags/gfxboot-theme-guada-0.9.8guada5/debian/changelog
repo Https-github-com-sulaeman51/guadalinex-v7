@@ -1,3 +1,11 @@
+gfxboot-theme-guada (0.9.8guada5) lucid; urgency=low
+
+  * debian/patches/series: removed disable-lang-panel
+  * debian/patches/disable-lang-panel: removed patch for disabling language
+    selection since it is not showed by default and it was causing errors
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 16 Apr 2010 11:31:35 +0100
+
 gfxboot-theme-guada (0.9.8guada4) lucid; urgency=low
 
   * debian/patches/change-default-lang: path to set default lang to 'es'
