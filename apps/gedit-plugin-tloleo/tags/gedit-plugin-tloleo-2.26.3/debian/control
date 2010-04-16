@@ -20,7 +20,7 @@ Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/gedit-plugin-tloleo/tru
 
 Package: gedit-plugin-tloleo
 Architecture: any
-Depends: festival (>= 1.96), festvox-palpc16k (>=1.0.0), festvox-sflpc16k (>=1.0.0), ${shlibs:Depends}, ${misc:Depends}
+Depends: festival (>= 1.96~beta), festvox-palpc16k (>=1.0.0), festvox-sflpc16k (>=1.0.0), ${shlibs:Depends}, ${misc:Depends}
 Description: Set of plugins for gedit
   gedit-plugin-TLoleo contain a set of plugins for gedit, GNOME's text editor.
   .
