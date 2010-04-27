@@ -4,7 +4,7 @@ Priority: optional
 XSBC-Original-Maintainer: Gumersindo Coronel Pérez <goomerko@gmail.com>
 Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
 Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>
-Build-Depends: debhelper
+Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.2
 Homepage: http://launchpad.net/lemurae
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/lemurae/trunk/changes
