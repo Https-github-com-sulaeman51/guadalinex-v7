@@ -1,3 +1,9 @@
+diagnostic-report (1.10) lucid; urgency=low
+
+  * debian/watch: added url
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 13 Apr 2010 09:41:22 +0200
+
 diagnostic-report (1.9) lucid; urgency=low
 
   * Forward port
