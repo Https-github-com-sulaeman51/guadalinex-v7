@@ -1,3 +1,9 @@
+hermeshardware (0.4.24-0) unstable; urgency=low
+
+  * Updated to branch unstable format
+
+ -- David Amián Valle <amian@amialinux@gmail.com>  Tue, 27 Apr 2010 14:03:52 +0200
+
 hermeshardware (0.4.24ubuntu2) lucid; urgency=low
 
   * Changed depends python-gnome2-extras to python-eggtrayicon
