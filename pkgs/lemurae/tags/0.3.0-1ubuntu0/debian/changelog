@@ -4,8 +4,9 @@ lemurae (0.2.5) unstable; urgency=low
   * Changed distribution (Debian unstable)
   * Removed deprecated key enconding from the desktop file
   * Updated debhelper compatibility version
+  * Removed non-necessary binary-arch target at the rules file
 
- -- Juanje Ojeda Croissier <jojeda@emergya.es>  Thu, 25 Jun 2009 14:37:29 +0200
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Thu, 25 Jun 2009 16:20:42 +0200
 
 lemurae (0.2.4) jaunty; urgency=low
 
