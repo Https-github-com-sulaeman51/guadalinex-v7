@@ -9,7 +9,8 @@ actors/pcmcia.py
 actors/usbdevice.py
 actors/usbmouse.py
 actors/usbprinter.py
-actors/usbscanner.py
+#actors/usbscanner.py
+actors/usbsanescanner.py
 actors/usbwebcam.py
 actors/volume.py
 actors/g3gpcmcia.py
