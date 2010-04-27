@@ -1,5 +1,6 @@
 #!/bin/bash
 # 
+# Updates upstream release for a debian package
 #
 # Copyright (C) 2010, Junta de Andalucia
 # Author(s): Roberto C. Morano <rcmorano@emergya.es>
@@ -10,4 +11,4 @@
 # option) any later version.  See http://www.gnu.org/copyleft/gpl.html for
 # the full text of the license.
 
-uscan && uupdate $(ls -rthal ../*tag.gz|grep -v orig|awk \'{for (i=1;i<=NF;i++)  if ( $i ~ "gz" ) print $i}')
+uscan && uupdate $(ls -rthal ../*tar.gz|grep -v orig|awk '{for (i=1;i<=NF;i++)  if ( $i ~ "gz" ) print $i}')
