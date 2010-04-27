@@ -51,6 +51,8 @@ import thread
 import time
 import logging
 
+from gettext import gettext as _ 
+
 from utils import DeviceList
 
 class ColdPlugListener:
@@ -62,9 +64,9 @@ class ColdPlugListener:
 
     def __init__(self, devicelistener):
         """ 
-        [es] 
+        [es] Método de inicializacion
         -------------------------------------------------------------------
-        [en] 
+        [en] Initialization method
         """
         self.devicelistener = devicelistener
         self.thread = None
@@ -72,25 +74,28 @@ class ColdPlugListener:
         
     def start(self):
         """ 
-        [es] 
+        [es] Método público que arranca el proceso de escucha
         -------------------------------------------------------------------
-        [en] 
+        [en] Listen process starting public method
         """
         self.thread = thread.start_new_thread(self.__run, ())
-        self.logger.debug("Starting coldplug thread")
+        self.logger.debug(_("Starting coldplug thread"))
 
     def __run(self):
         """ 
-        [es] 
+        [es] Método privado que inicia la ejecución
         -------------------------------------------------------------------
-        [en] 
+        [en] Exec starting private method
         """
-        self.logger.info("ColdPlugListener thread started")
+        self.logger.info(_("ColdPlugListener thread started"))
+        
+        # [es] Obtenemos la lista de dispositivos conectados al sistema
+        # [en] We get a list we all the attached devices 
         dl = DeviceList()
 
         for ele in dl.get_added():
             try:
-                self.logger.debug("Coldplug: DeviceAdded: " + str(ele[0]))
+                self.logger.debug(_("Coldplug: DeviceAdded: ") + str(ele[0]))
 
                 # [es] ele[0] contiene el UDI del dispositivo
                 # [en] ele[0] contains the device UDI
@@ -104,7 +109,7 @@ class ColdPlugListener:
                 udi = ele[0]
                 properties = ele[1]
                 self.devicelistener.get_actor_from_properties(properties)
-                self.logger.debug("Coldplug: DeviceRemoved: " + str(udi))
+                self.logger.debug(_("Coldplug: DeviceRemoved: ") + str(udi))
                 self.devicelistener.on_device_removed(udi)
                 time.sleep(0.5)
             except Exception, e:
