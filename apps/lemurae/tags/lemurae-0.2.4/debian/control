@@ -1,0 +1,17 @@
+Source: lemurae
+Section: gnome
+Priority: optional
+XSBC-Original-Maintainer: Gumersindo Coronel Pérez <goomerko@gmail.com>
+Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>
+Build-Depends: debhelper
+Standards-Version: 3.8.0
+
+Package: lemurae
+Architecture: any
+Depends: python, python-gnome2-extras
+Description: Graphical frontend in gtk for DRAE
+ Graphical frontend in gtk for DRAE: Diccionario de la Real Academia de
+ la Lengua Española (Royal Spanish Language Academy Dictionary).
+ This application uses a gtk frontend to search words in the DRAE in:
+ http://buscon.rae.es/draeI/
