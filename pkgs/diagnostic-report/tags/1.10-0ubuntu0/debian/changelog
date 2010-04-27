@@ -1,4 +1,4 @@
-diagnostic-report (1.10-0) unstable; urgency=low
+diagnostic-report (1.10-0ubuntu0) lucid; urgency=low
 
   * debian/watch: added url
 
