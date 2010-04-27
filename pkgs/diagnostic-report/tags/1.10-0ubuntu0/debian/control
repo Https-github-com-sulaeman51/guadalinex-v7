@@ -1,0 +1,18 @@
+Source: diagnostic-report
+Section: gnome
+Priority: optional
+Maintainer: Junta de Andalucia <packmaster@guadalinex.org> 
+Build-Depends: debhelper (>= 7), cdbs
+Standards-Version: 3.8.0
+Homepage: http://launchpad.net/diagnostic-report
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/diagnostic-report/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/diagnostic-report/trunk
+
+Package: diagnostic-report
+Replaces: informe-diagnostico
+Provides: informe-diagnostico
+Conflicts: informe-diagnostico
+Architecture: any
+Depends: zenity, xresprobe, gksu, ${misc:Depends} 
+Description: Error reporting tool
+ Utility to report information about the operating system.
