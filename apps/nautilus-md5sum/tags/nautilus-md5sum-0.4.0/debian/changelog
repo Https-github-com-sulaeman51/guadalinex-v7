@@ -1,3 +1,10 @@
+nautilus-md5sum (0.2.3) stable; urgency=low
+
+  * Deprecated module md5
+  * Use module os to call md5sum command
+
+ -- David Amián <amialinux@gmail.com>  Thu, 14 May 2009 12:40:05 +0200
+
 nautilus-md5sum (0.2.2) stable; urgency=low
 
   * Repared changelog email address
