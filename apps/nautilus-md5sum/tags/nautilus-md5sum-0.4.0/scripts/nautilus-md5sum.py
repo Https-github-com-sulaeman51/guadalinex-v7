@@ -33,7 +33,6 @@ import subprocess
 import signal
 import gettext
 from threading import Thread
-gtk.gdk.threads_init() 
 gettext.install("nautilus-md5sum")
 
 #Global

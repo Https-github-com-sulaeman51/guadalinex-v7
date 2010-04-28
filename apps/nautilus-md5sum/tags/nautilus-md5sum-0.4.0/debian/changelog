@@ -1,3 +1,9 @@
+nautilus-md5sum (0.3.5-0ubuntu1) karmic; urgency=low
+
+  * Delete gtk.gdk.thread_init() call to fix bug (LP: #460299)
+
+ -- David Amián Valle <amialinux@gmail.com>  Mon, 26 Oct 2009 13:32:27 +0100
+
 nautilus-md5sum (0.3.4-0ubuntu2) karmic; urgency=low
 
   * Added swedish translations (po/sv.po)
