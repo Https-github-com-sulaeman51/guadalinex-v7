@@ -2,7 +2,9 @@ Source: nautilus-md5sum
 Section: utils
 Priority: optional
 Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
-Uploaders: David Amián <amialinux@gmail.com>, Álvaro Pinel <alvaropinel@gmail.com>
+Uploaders: David Amián <amialinux@gmail.com>,
+           Álvaro Pinel <alvaropinel@gmail.com>,
+           Juanje Ojeda Croissier <jojeda@emergya.es>
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: gettext
 Standards-Version: 3.8.0
