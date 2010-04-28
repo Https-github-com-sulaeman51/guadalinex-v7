@@ -1,4 +1,4 @@
-gedit-plugin-tloleo (2.26.3) lucid; urgency=low
+gedit-plugin-tloleo (2.26.3-0) unstable; urgency=low
 
   * Upgraded version in order to build the package for Lucid
 
