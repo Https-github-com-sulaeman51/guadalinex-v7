@@ -1,10 +1,9 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-# David Amián Valle y Álvaro Pinel Bueno
+# David Amián y Álvaro Pinel 
 
 
-import md5
 import urllib
 import os
 import gtk
@@ -22,12 +21,13 @@ FORMAT = ["application/x-cd-image"]
 ## locate in /usr/lib/nautilus/extension-2.0/python/
 
 
-
-def alert(message,dialogP):
+def calculateMD5(message,filename,dialogP):
     """Shows an alert with the text 'message'."""
     dialog = gtk.Dialog("nautilus-md5sum",dialogP, gtk.DIALOG_DESTROY_WITH_PARENT)
     dialog.set_border_width(10)
-    label=gtk.Label(message)
+    res=os.popen("md5sum %s" %filename).read()
+    result=res.split('/')[0]
+    label=gtk.Label(message+result)
     label.show()
     button1=gtk.Button("Ok",gtk.STOCK_OK)
     button1.connect_object("clicked", gtk.Widget.destroy, dialogP)
@@ -78,7 +78,7 @@ class MD5Extension(nautilus.MenuProvider):
 		label=gtk.Label("El calculo de la suma MD5 puede tardar varios \nminutos dependiendo del tamaño de la imágen de disco")
     		label.show()
     		button1=gtk.Button("Ok",gtk.STOCK_OK)
-    		button1.connect_object("clicked", alert, "La suma MD5 es:\n\n"+md5.md5(filename).hexdigest(),dialog)
+    		button1.connect_object("clicked", calculateMD5, "La suma MD5 es:\n\n",filename,dialog)
     		button1.show()
     		dialog.vbox.pack_start(label)
     		dialog.action_area.pack_start(button1)
