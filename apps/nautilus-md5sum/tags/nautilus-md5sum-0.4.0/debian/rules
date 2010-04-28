@@ -63,7 +63,12 @@ binary-indep: build install
 	mkdir -p $(LOCALEDIR)
 	cd po; \
 		find -type d -exec mkdir -p "$(LOCALEDIR)/{}" \; ; \
-		find -type f -name "*.po" -exec sh -c "N='{}'; msgfmt -o $(LOCALEDIR)/\$${N%.po}.mo \$$N" \;
+		find -type f -name "*.po" -exec sh -c "N='{}'; \
+                N=\$${N#*.\/} ;  \
+                L=\$${N%\.po} ;  \
+                D=\"$(LOCALEDIR)/\$$L/LC_MESSAGES\" ; \
+                mkdir -p \$$D ; \
+                msgfmt -o \$${D}\/\$(PKGNAME).mo \$$N" \;
 	dh_testdir
 	dh_testroot
 	dh_installchangelogs 
