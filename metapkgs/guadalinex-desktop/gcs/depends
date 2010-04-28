@@ -158,9 +158,9 @@ gvfs-backends
 gvfs-bin
 gvfs-fuse
 hal
-#hermeshardware-actors
-#hermeshardware-guada
-#hermeshardware - removed temporarily because depends problem
+hermeshardware-actors
+hermeshardware-guada
+hermeshardware
 hpijs
 hplip
 hplip-cups
@@ -180,6 +180,7 @@ language-selector
 language-support-en
 language-support-es
 launchpad-integration
+lemurae
 lftp
 libatk1.0-data
 libavcodec-unstripped-52
