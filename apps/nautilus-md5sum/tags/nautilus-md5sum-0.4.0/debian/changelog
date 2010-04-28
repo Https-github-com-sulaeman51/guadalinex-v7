@@ -1,4 +1,4 @@
-nautilus-md5sum (0.3.2) karmic; urgency=low
+nautilus-md5sum (0.3.1-1) karmic; urgency=low
 
   * New version for Karmic (LP: #400217)
   * Changed deprecated 'dh_clean -k' by dh_prep at debian/rules file
@@ -7,8 +7,9 @@ nautilus-md5sum (0.3.2) karmic; urgency=low
   * Moved all the dh_* to the binary-indep target 
   * Added missed license and copyright to the code
   * Changed the maintainer
+  * Updated Standard-version (3.8.2)
 
- -- Juanje Ojeda Croissier <jojeda@emergya.es>  Fri, 17 Jul 2009 00:18:36 +0200
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Fri, 17 Jul 2009 01:01:36 +0200
 
 nautilus-md5sum (0.3.1) jaunty; urgency=low
 
