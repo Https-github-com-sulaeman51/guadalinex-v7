@@ -51,6 +51,7 @@ install: build
 	dh_install md5sum-ico.png /usr/share/icons/
 	dh_install md5sum-ico.svg /usr/share/icons/
 	dh_install md5.glade /usr/lib/nautilus/extensions-2.0/python/
+	dh_icons
 	# Add here commands to install the package into debian/nautilusmd5sum.
 	#$(MAKE) DESTDIR=$(CURDIR)/debian/nautilusmd5sum install
 
