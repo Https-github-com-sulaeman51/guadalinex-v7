@@ -8,14 +8,20 @@ nautilus-md5sum (0.3.1-1) karmic; urgency=low
   * Added missed license and copyright to the code
   * Changed the maintainer
   * Updated Standard-version (3.8.2)
+  * Added debian/watch file
+  * Added upstream LICENSE file
+  * Removed ${shlibs:Depends} from Depends
+  * Added the the source from the code was taken at the debian/copyright file
 
- -- Juanje Ojeda Croissier <jojeda@emergya.es>  Fri, 17 Jul 2009 01:01:36 +0200
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Fri, 14 Aug 2009 09:34:52 +0200
 
 nautilus-md5sum (0.3.1) jaunty; urgency=low
 
-  * Removed md5sum-ico.svg from the rules file as long as that file doesn't exist any more
+  * Removed md5sum-ico.svg from the rules file as long as that file doesn't
+    exist any more
   * Fixed wrong link to the license
-  * Added David Amián as an uploader, so lintian won't complain when he add entries to the changelog
+  * Added David Amián as an uploader, so lintian won't complain when he add
+    entries to the changelog
   * Updated the debhelper's version
   * Changed the short and long descriptions
   * Renamed the translation templete file
