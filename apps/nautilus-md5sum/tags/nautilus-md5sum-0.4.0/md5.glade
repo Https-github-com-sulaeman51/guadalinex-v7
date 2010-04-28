@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.5 on Fri Jun  5 14:41:12 2009 -->
+<glade-interface>
+  <widget class="GtkWindow" id="window1">
+    <property name="width_request">535</property>
+    <property name="height_request">135</property>
+    <property name="visible">True</property>
+    <property name="resizable">False</property>
+    <property name="window_position">GTK_WIN_POS_CENTER_ALWAYS</property>
+    <property name="default_width">102</property>
+    <property name="default_height">221</property>
+    <property name="destroy_with_parent">True</property>
+    <signal name="delete_event" handler="on_window1_delete_event"/>
+    <child>
+      <widget class="GtkVBox" id="vbox1">
+        <property name="height_request">135</property>
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkVBox" id="vbox2">
+            <property name="height_request">70</property>
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkFixed" id="fixed1">
+                <property name="height_request">35</property>
+                <property name="visible">True</property>
+                <child>
+                  <widget class="GtkLabel" id="lbDef">
+                    <property name="width_request">530</property>
+                    <property name="height_request">30</property>
+                    <property name="visible">True</property>
+                    <property name="justify">GTK_JUSTIFY_CENTER</property>
+                    <property name="wrap">True</property>
+                    <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
+                    <property name="selectable">True</property>
+                  </widget>
+                  <packing>
+                    <property name="x">2</property>
+                    <property name="y">2</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="expand">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="GtkFixed" id="fixed2">
+                <property name="height_request">35</property>
+                <property name="visible">True</property>
+                <child>
+                  <widget class="GtkLabel" id="lbMd5">
+                    <property name="width_request">530</property>
+                    <property name="height_request">30</property>
+                    <property name="visible">True</property>
+                    <property name="justify">GTK_JUSTIFY_CENTER</property>
+                    <property name="wrap">True</property>
+                    <property name="wrap_mode">PANGO_WRAP_CHAR</property>
+                    <property name="selectable">True</property>
+                  </widget>
+                  <packing>
+                    <property name="x">2</property>
+                    <property name="y">2</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="expand">False</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkAlignment" id="alignment1">
+            <property name="height_request">35</property>
+            <property name="visible">True</property>
+            <property name="sensitive">False</property>
+            <property name="xscale">0.98000001907348633</property>
+            <property name="yscale">0</property>
+            <child>
+              <widget class="GtkProgressBar" id="pgbar">
+                <property name="visible">True</property>
+                <property name="sensitive">False</property>
+                <property name="activity_mode">True</property>
+                <property name="fraction">0.050000000000000003</property>
+                <property name="pulse_step">0.070000000000000007</property>
+                <property name="text" translatable="yes"></property>
+                <property name="discrete_blocks">15</property>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkHButtonBox" id="hbuttonbox1">
+            <property name="height_request">30</property>
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkButton" id="buttonOk">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="can_default">True</property>
+                <property name="label" translatable="yes">Ok</property>
+                <property name="relief">GTK_RELIEF_HALF</property>
+                <property name="xalign">0.50999999046325684</property>
+                <property name="response_id">0</property>
+                <signal name="clicked" handler="on_buttonOk_clicked"/>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>
