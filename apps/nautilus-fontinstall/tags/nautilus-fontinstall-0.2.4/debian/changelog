@@ -1,3 +1,13 @@
+nautilus-fontinstall (0.2.1-0guada1) jaunty; urgency=low
+
+  * Fixed problem with setup.py
+  * Changed path of fontinstall.glade
+  * Added line in postinst to copy update-notifier file into the correct path
+  * Changed in the nautilus-fontinstall.py the path of fontinstall.glade
+
+ -- D. Amian <amialinux@gmail.com>  Fri, 28 Aug 2009 12:51:17 +0200
+
+
 nautilus-fontinstall (0.2.0-0guada2) jaunty; urgency=low
 
   * Added Vcs-Browser and Vcs-Bzr label in control file

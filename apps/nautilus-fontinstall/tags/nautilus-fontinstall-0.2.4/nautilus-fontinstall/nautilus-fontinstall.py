@@ -15,14 +15,12 @@ import gettext
 from threading import Thread
 gtk.gdk.threads_init() 
 gettext.install("nautilus-fontinstall")
-# = gettext.translation('nautilus-fontinstall','/usr/share/locale/')
-#t.install()
 
 
 #Global
 NAME_APP = "nautilus-fontinstall"
 FORMAT = ["application/x-font-ttf"]
-PATH = os.path.abspath(os.path.dirname(__file__))+"/"
+PATH = "/usr/share/nautilus-fontinstall/"
 PATH_ICON = "/usr/share/icons/"
 FONT_PATH="/usr/share/fonts/truetype/"
 
