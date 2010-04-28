@@ -1,3 +1,9 @@
+nautilus-md5sum (0.2.2) stable; urgency=low
+
+  * Repared changelog email address
+
+ -- Álvaro Pinel <alvaropinel@gmail.com>  Wed, 13 May 2009 11:35:40 +0200
+
 nautilus-md5sum (0.2.1) stable; urgency=low
 
   * Add automatical restart nautilus proccess
