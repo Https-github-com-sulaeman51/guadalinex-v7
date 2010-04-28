@@ -1,3 +1,10 @@
+nautilus-md5sum (0.3.0) stable; urgency=low
+  
+  * Modified GUI. New GUI uses glade-3
+
+ -- David Amián <amialinux@gmail.com>  Tue, 23 Jun 2009 13:44:41 +0200
+
+
 nautilus-md5sum (0.2.5) stable; urgency=low
 
   * Modified restart nautilus mode using update-notifier
