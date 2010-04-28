@@ -1,3 +1,16 @@
+nautilus-md5sum (0.3.2-0ubuntu1) jaunty; urgency=low
+
+  * Added i18n to nautilus-md5sum-notification
+  * Added debian/watch file
+  * Added upstream LICENSE file
+  * Removed ${shlibs:Depends} from Depends
+  * Added the source from the code was taken at the debian/copyright file
+  * Fixed an issue with the i18n at debian/rules file. The path was malformed.
+  * Removed the chmod from the postinstall script and changed the permissions
+    to the original file nautilus-md5sum.py
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 17 Aug 2009 16:34:55 +0200
+
 nautilus-md5sum (0.3.1-1) karmic; urgency=low
 
   * New version for Karmic (LP: #400217)
@@ -8,10 +21,6 @@ nautilus-md5sum (0.3.1-1) karmic; urgency=low
   * Added missed license and copyright to the code
   * Changed the maintainer
   * Updated Standard-version (3.8.2)
-  * Added debian/watch file
-  * Added upstream LICENSE file
-  * Removed ${shlibs:Depends} from Depends
-  * Added the the source from the code was taken at the debian/copyright file
 
  -- Juanje Ojeda Croissier <jojeda@emergya.es>  Fri, 14 Aug 2009 09:34:52 +0200
 
