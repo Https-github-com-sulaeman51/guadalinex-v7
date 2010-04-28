@@ -4,6 +4,13 @@ gedit-plugin-tloleo (2.26.3-0ubuntu0) lucid; urgency=low
 
  -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 16 Apr 2010 12:02:15 +0200
 
+gedit-plugin-tloleo (2.26.3-0) unstable; urgency=low
+
+  * Updated version to unstable
+  * Added debian/watch
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 16 Apr 2010 11:57:35 +0200
+
 gedit-plugin-tloleo (2.26.2) jaunty; urgency=low
 
   * Fixed incorrect FSF address
