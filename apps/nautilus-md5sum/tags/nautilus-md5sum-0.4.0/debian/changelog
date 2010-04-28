@@ -1,3 +1,25 @@
+nautilus-md5sum (0.3.3-0ubuntu1) karmic; urgency=low
+
+  * Added setup.py and setup.cfg file to install python package with distutils method
+  * Modified nautilus-md5sum.py to chage path of glade file
+  * Modified rules file to use python-distutils
+  * Changed prerem file permissions
+  * Added python-all-dev, cdbs, gettext, python-central, python-distutils-extra depends in control
+  * Added POTFILES.in and changed the package structure
+  * Changed version in setup.py
+  * Changed path scripts and data in setup.py 
+  * Changed path of script and glade in POTFILES.in
+  * Deleted package label in setup.py, there aren't __init__.py file
+
+ -- David Amián Valle <amialinux@gmail.com>  Thu, 03 Sep 2009 09:59:42 +0200
+
+nautilus-md5sum (0.3.2-0ubuntu2) karmic; urgency=low
+
+  * Removed python-dev and gettext packages as a depends
+  * Added debian/prerm file for removing the update-notifier stuff
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Wed, 19 Aug 2009 13:09:39 +0200
+
 nautilus-md5sum (0.3.2-0ubuntu1) karmic; urgency=low
 
   * Added i18n to nautilus-md5sum-notification
