@@ -1,0 +1,54 @@
+# Brazilian Portuguese translation for nautilus-md5sum
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the nautilus-md5sum package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-md5sum\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-06-30 13:14+0200\n"
+"PO-Revision-Date: 2009-07-22 05:00+0000\n"
+"Last-Translator: elias <Unknown>\n"
+"Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-08-17 18:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: nautilus-md5sum.py:43
+msgid "Ok"
+msgstr "Ok"
+
+#: nautilus-md5sum.py:44
+msgid "Checking completed"
+msgstr "Verificação concluída"
+
+#: nautilus-md5sum.py:45
+msgid "MD5Sum of '"
+msgstr "MD5sum de'"
+
+#: nautilus-md5sum.py:45
+msgid "' is:"
+msgstr "'É:"
+
+#: nautilus-md5sum.py:63
+msgid "Copy"
+msgstr "Copiar"
+
+#: nautilus-md5sum.py:64
+msgid "MD5Sum can take a long time"
+msgstr "MD5sum pode demorar muito tempo"
+
+#: nautilus-md5sum.py:65
+msgid "File: "
+msgstr "Arquivo: "
+
+#: nautilus-md5sum.py:67
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: nautilus-md5sum.py:121 nautilus-md5sum.py:122
+msgid "Check MD5Sum"
+msgstr "Verifique MD5sum"
