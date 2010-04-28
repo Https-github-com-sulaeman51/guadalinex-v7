@@ -1,0 +1,2 @@
+version=3
+http://launchpad.net/nautilus-fontinstall/+download http://launchpad.net/nautilus-fontinstall/(.*)/nautilus-fontinstall-(.*)\.tar\.gz
