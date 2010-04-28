@@ -8,7 +8,7 @@ Uploaders: David Amián <amialinux@gmail.com>,
            Juanje Ojeda Croissier <jojeda@emergya.es>
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: gettext
-Standards-Version: 3.8.0
+Standards-Version: 3.8.2
 Homepage: http://launchpad.net/nautilus-md5sum
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/nautilus-md5sum/trunk/changes
 Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/nautilus-md5sum/trunk
