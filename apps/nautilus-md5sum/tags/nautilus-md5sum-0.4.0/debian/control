@@ -1,7 +1,8 @@
 Source: nautilus-md5sum
 Section: utils
 Priority: optional
-Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+XSBC-Original-Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Maintainer: Juanje Ojeda Croissier <juanje@ubuntu.com>
 Uploaders: David Amián <amialinux@gmail.com>,
            Álvaro Pinel <alvaropinel@gmail.com>,
            Juanje Ojeda Croissier <jojeda@emergya.es>
