@@ -1,3 +1,9 @@
+gru2 (0.4-0ubuntu0) lucid; urgency=low
+
+    * Updated version for lucid
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 29 Apr 2010 11:25:12 +0200
+
 gru2 (0.4-0) unstable; urgency=low
 
     * Upgraded to work with grub2
