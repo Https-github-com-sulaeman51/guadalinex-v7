@@ -8,12 +8,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-14 20:50+0200\n"
+"POT-Creation-Date: 2010-04-15 14:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .././scripts/grubaker2:35
@@ -29,45 +29,9 @@ msgid "ERROR: default grub configuration is not writable"
 msgstr ""
 
 #: .././scripts/grubaker2:226
-msgid "Menu de arranque regenerado"
+msgid "Boot menu rebuilt"
 msgstr ""
 
 #: .././scripts/grubaker2:228
-msgid "La regeneración del menú de arranque ha fallado"
-msgstr ""
-
-#: .././data/grubaker2.glade.h:1
-msgid "(marque para que no se muestre el men&#xFA; de inicio)"
-msgstr ""
-
-#: .././data/grubaker2.glade.h:2
-msgid "(marque para que suene un pitido al mostrar el men&#xFA;)"
-msgstr ""
-
-#: .././data/grubaker2.glade.h:3
-msgid "Arranque preferido:"
-msgstr ""
-
-#: .././data/grubaker2.glade.h:4
-msgid "Grubaker 2"
-msgstr ""
-
-#: .././data/grubaker2.glade.h:5
-msgid "Ocultar el men&#xFA;:"
-msgstr ""
-
-#: .././data/grubaker2.glade.h:6
-msgid "Sonido:"
-msgstr ""
-
-#: .././data/grubaker2.glade.h:7
-msgid "Tiempo de espera:"
-msgstr ""
-
-#: .././data/grubaker2.glade.h:8
-msgid "gtk-cancel"
-msgstr ""
-
-#: .././data/grubaker2.glade.h:9
-msgid "gtk-ok"
+msgid "Boot menu rebuilding failed"
 msgstr ""

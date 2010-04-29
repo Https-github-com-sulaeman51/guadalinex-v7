@@ -20,7 +20,7 @@
           <object class="GtkLabel" id="label1">
             <property name="visible">True</property>
             <property name="xalign">0</property>
-            <property name="label" translatable="yes">Arranque preferido:</property>
+            <property name="label" translatable="yes">Preferred system:</property>
             <property name="single_line_mode">True</property>
           </object>
         </child>
@@ -28,7 +28,7 @@
           <object class="GtkLabel" id="label2">
             <property name="visible">True</property>
             <property name="xalign">0</property>
-            <property name="label" translatable="yes">Ocultar el men&#xFA;:</property>
+            <property name="label" translatable="yes">Hide menu:</property>
           </object>
           <packing>
             <property name="top_attach">1</property>
@@ -38,8 +38,8 @@
         <child>
           <object class="GtkLabel" id="label3">
             <property name="visible">True</property>
-            <property name="xalign">0.50999999046325684</property>
-            <property name="label" translatable="yes">Tiempo de espera:</property>
+            <property name="xalign">0</property>
+            <property name="label" translatable="yes">Timeout:</property>
           </object>
           <packing>
             <property name="top_attach">2</property>
@@ -50,7 +50,7 @@
           <object class="GtkLabel" id="label4">
             <property name="visible">True</property>
             <property name="xalign">2.2351741291171123e-10</property>
-            <property name="label" translatable="yes">Sonido:</property>
+            <property name="label" translatable="yes">Sound:</property>
           </object>
           <packing>
             <property name="top_attach">3</property>
@@ -68,7 +68,7 @@
         </child>
         <child>
           <object class="GtkCheckButton" id="check_hidden">
-            <property name="label" translatable="yes">(marque para que no se muestre el men&#xFA; de inicio)</property>
+            <property name="label" translatable="yes">(check to avoid boot menu to be shown)</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">False</property>
@@ -83,7 +83,7 @@
         </child>
         <child>
           <object class="GtkCheckButton" id="check_sound">
-            <property name="label" translatable="yes">(marque para que suene un pitido al mostrar el men&#xFA;)</property>
+            <property name="label" translatable="yes">(check to make a beep when menu is shown)</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">False</property>
@@ -168,6 +168,5 @@
     <property name="upper">100</property>
     <property name="step_increment">1</property>
     <property name="page_increment">10</property>
-    <property name="page_size">0</property>
   </object>
 </interface>

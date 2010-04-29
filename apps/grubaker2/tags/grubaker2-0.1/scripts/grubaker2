@@ -144,7 +144,7 @@ class Gui:
 		dic = {
 			 "on_button_cancel_clicked" : (self.quit),
 			 "on_button_ok_clicked" : (self.save),
-       "on_window_main_destroy" : (self.quit), 
+                         "on_window_main_destroy" : (self.quit), 
 		}
 
 		self.grubdefaults=grubdefaults
@@ -223,9 +223,9 @@ class Gui:
           status=self.grubdefaults.update_grub()
 
           if status==0:
-            message=_("Menu de arranque regenerado")
+            message=_("Boot menu rebuilt")
           else: 
-            message=_("La regeneración del menú de arranque ha fallado")					
+            message=_("Boot menu rebuilding failed")					
           windows=self.alert(message)
           windows.destroy()
           
