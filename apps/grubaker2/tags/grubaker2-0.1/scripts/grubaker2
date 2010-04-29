@@ -13,7 +13,7 @@ import os, subprocess
 import locale
 import gettext
 
-PREFIX="/usr/local/"
+PREFIX="/"
 
 gettext.install("grubaker2")
 
@@ -150,7 +150,7 @@ class Gui:
 		self.grubmenu=grubmenu
 
 		glade1 = gtk.Builder()
-		glade1.add_from_file(PREFIX+"/share/grubaker2/grubaker2.ui")
+		glade1.add_from_file(PREFIX+"/usr/share/grubaker2/grubaker2.ui")
 		glade1.connect_signals(dic)
 
 
