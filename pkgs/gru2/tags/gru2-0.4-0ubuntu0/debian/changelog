@@ -1,0 +1,31 @@
+gru2 (0.4-0ubuntu0) lucid; urgency=low
+
+    * Updated version for lucid
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 29 Apr 2010 11:25:12 +0200
+
+gru2 (0.4-0) unstable; urgency=low
+
+    * Upgraded to work with grub2
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 29 Apr 2010 11:24:41 +0200
+
+gru (0.3) jaunty; urgency=low
+
+  * Fixed bug 2130 from Guadalinex mantis. It was /usr/sbin/ path instead of
+    the /usr/bin/ one.
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 15 Jun 2009 09:36:04 +0200
+
+gru (0.2) jaunty; urgency=low
+
+  * Updated package to Jaunty/Guadalinex v6 
+  * Cleaned some styles and indentations
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Sun, 08 Mar 2009 02:21:33 +0100
+
+gru (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Junta de Andalucía <packmaster@guadalinex.org>  Wed, 21 Mar 2007 12:42:23 +0100
