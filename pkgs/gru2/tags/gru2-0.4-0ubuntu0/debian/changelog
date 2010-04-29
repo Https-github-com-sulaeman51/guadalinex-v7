@@ -1,3 +1,9 @@
+gru2 (0.4-0) unstable; urgency=low
+
+    * Upgraded to work with grub2
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 29 Apr 2010 11:24:41 +0200
+
 gru (0.3) jaunty; urgency=low
 
   * Fixed bug 2130 from Guadalinex mantis. It was /usr/sbin/ path instead of
