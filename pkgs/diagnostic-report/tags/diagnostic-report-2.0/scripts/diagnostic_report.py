@@ -70,7 +70,7 @@ class diagnosis:
         self.on_wddiagn_destroy(self)
 
     def on_create_bt_clicked(self, widget, data=None):
-        curdir=os.getenv("HOME")
+        curdir=os.getenv('HOME')
 	file_tar=curdir+"/Escritorio/informe_de_diagnostico.bz2"
         
         tar = tarfile.open(file_tar,  "w:bz2")
