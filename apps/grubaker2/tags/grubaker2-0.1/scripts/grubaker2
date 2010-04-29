@@ -16,6 +16,8 @@ import gettext
 PREFIX="/"
 
 gettext.install("grubaker2")
+gtk.glade.textdomain("grubaker2")
+gtk.glade.bindtextdomain("grubaker2")
 
 class GrubMenu:
   """ This class reads current grub configuration and loads an array with menu items 
