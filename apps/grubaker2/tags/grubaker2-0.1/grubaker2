@@ -76,7 +76,7 @@ class GrubDefaults:
     return
 
   def set_value(self,key,value):
-    if self.config[key]:
+    if self.config.has_key(key):
       self.config[key].value = value
       if self.config[key].status != "":
         self.config[key].status = ""
@@ -88,20 +88,36 @@ class GrubDefaults:
       configitem.linenumber=-1
       self.config[key] = configitem
 
+    self.saveline(self.config[key].linenumber,self.config[key].status,self.config[key].key,self.config[key].value)
+
+
   def unset_value(self,key):
-    if self.config[key]:
-         self.config[key].status = "#"
+    if self.config.has_key(key):
+      self.config[key].status = "#"
+      self.saveline(self.config[key].linenumber,self.config[key].status,self.config[key].key,self.config[key].value)
+      	 
+
+  def saveline(self,linenumber,status,key,value):
+    if linenumber >= 0:
+      self.filecontent[linenumber]="%s%s=%s\n" % (status,key,value)
+
 
   def savefile(self):
 # Save defaults to file
     try:
-      file=open(self.filename,"w")
+      file=open(self.filename+".new","w")
     except:
       print "ERROR: default grub configuration is not writable"
       return
+# write original config with modificated lines
     for line in self.filecontent:
-#      file.write(line)
-      print line
+      file.write(line)
+# write new lines
+    for key,item in self.config.iteritems():
+      if item.linenumber==-1:
+        line=item.status+item.key+"="+item.value
+        file.write(line)
+
     file.close
 
 # Update current configuration
@@ -115,8 +131,6 @@ class Gui:
 		In this init the main window is displayed
 		"""
 		dic = {
-#                         "on_spin_timeout_value_changed" : (self.on_spin_timeout_value_changed),
-#			 "on_combo_menuentry_changed" : (self.on_combo_menuentry_changed),
 			 "on_button_cancel_clicked" : (self.quit),
 			 "on_button_ok_clicked" : (self.save),
 		         "on_window_main_destroy" : (self.quit), 
@@ -141,8 +155,10 @@ class Gui:
                 # load combobox with menu entries from current configuration file
         	self.list_menuentry = gtk.ListStore(str,int)
 
+                n=0
 		for item in grubmenu.menuentry:
-		  self.list_menuentry.append([item,0])
+		  self.list_menuentry.append([item,n])
+		  n+=1
 
 		self.combo_menuentry.set_model(model=self.list_menuentry)
  		cell = gtk.CellRendererText()
@@ -150,19 +166,19 @@ class Gui:
         	self.combo_menuentry.add_attribute(cell, 'text', 0)
 
                 # select default item in bootable systems combobox
-                if grubdefaults.config["GRUB_DEFAULT"] and grubdefaults.config["GRUB_DEFAULT"].status=="":
+                if grubdefaults.config.has_key("GRUB_DEFAULT") and grubdefaults.config["GRUB_DEFAULT"].status=="":
                   self.combo_menuentry.set_active(int(grubdefaults.config["GRUB_DEFAULT"].value))
                 else:
                   self.combo_menuentry.set_active(0)
 
                 # check/uncheck current options
-                if grubdefaults.config["GRUB_INIT_TUNE"] and grubdefaults.config["GRUB_INIT_TUNE"].status=="":
+                if grubdefaults.config.has_key("GRUB_INIT_TUNE") and grubdefaults.config["GRUB_INIT_TUNE"].status=="":
                   self.check_sound.set_active(1)
-                if grubdefaults.config["GRUB_HIDDEN_TIMEOUT_QUIET"] and grubdefaults.config["GRUB_HIDDEN_TIMEOUT_QUIET"].status=="":
+                if grubdefaults.config.has_key("GRUB_HIDDEN_TIMEOUT_QUIET") and grubdefaults.config["GRUB_HIDDEN_TIMEOUT_QUIET"].status=="":
                   self.check_hidden.set_active(1)
 
                 # set boot timeout current value
-                if self.grubdefaults.config["GRUB_TIMEOUT"] and self.grubdefaults.config["GRUB_TIMEOUT"].status=="":
+                if grubdefaults.config.has_key("GRUB_TIMEOUT") and grubdefaults.config["GRUB_TIMEOUT"].status=="":
                   self.spin_timeout.set_value(int(self.grubdefaults.config["GRUB_TIMEOUT"].value))
 
 
@@ -172,19 +188,19 @@ class Gui:
 	  title=self.list_menuentry[selection][0]
 	  id=self.list_menuentry[selection][1]
           print title,id
-          self.grubdefaults.set_value("GRUB_DEFAULT",title)
+          self.grubdefaults.set_value("GRUB_DEFAULT",id)
 
           # save timeout
           self.grubdefaults.set_value("GRUB_TIMEOUT",self.spin_timeout.get_value_as_int())
 
           # save checks
-          if self.check_hidden.get_active:
-            self.grubdefaults.set_value("GRUB_TIMEOUT","True")
+          if self.check_hidden.get_active():
+            self.grubdefaults.set_value("GRUB_HIDDEN_TIMEOUT_QUIET","True")
           else:
-            self.grubdefaults.set_value("GRUB_TIMEOUT","False")
+            self.grubdefaults.set_value("GRUB_HIDDEN_TIMEOUT_QUIET","False")
       
-          if self.check_sound.get_active:
-            self.grubdefaults.set_value("GRUB_INIT_TUNE","480 440 1")
+          if self.check_sound.get_active():
+            self.grubdefaults.set_value("GRUB_INIT_TUNE",'"480 440 1"')
           else:
             self.grubdefaults.unset_value("GRUB_INIT_TUNE")
 
