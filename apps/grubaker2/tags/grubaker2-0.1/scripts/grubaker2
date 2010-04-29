@@ -9,7 +9,7 @@ import re
 import pygtk
 pygtk.require ('2.0')
 import gtk
-import os,commands,sys
+import os, subprocess
 
 class GrubMenu:
   """ This class reads current grub configuration and loads an array with menu items 
@@ -17,10 +17,10 @@ class GrubMenu:
   def __init__(self,filename="/boot/grub/grub.cfg"):
     self.filename=filename
     self.menuentry=[]
-    self.loadfile()
+    self.load_file()
     return	  
 
-  def loadfile(self):
+  def load_file(self):
     try:
       file=open(self.filename)
     except:
@@ -50,10 +50,10 @@ class GrubDefaults:
   def __init__(self,filename="/etc/default/grub"):
     self.config={}
     self.filename=filename
-    self.loadfile()
+    self.load_file()
     return	  
 
-  def loadfile(self):
+  def load_file(self):
     try:
       file=open(self.filename)
     except:
@@ -88,21 +88,21 @@ class GrubDefaults:
       configitem.linenumber=-1
       self.config[key] = configitem
 
-    self.saveline(self.config[key].linenumber,self.config[key].status,self.config[key].key,self.config[key].value)
+    self.save_line(self.config[key].linenumber,self.config[key].status,self.config[key].key,self.config[key].value)
 
 
   def unset_value(self,key):
     if self.config.has_key(key):
       self.config[key].status = "#"
-      self.saveline(self.config[key].linenumber,self.config[key].status,self.config[key].key,self.config[key].value)
+      self.save_line(self.config[key].linenumber,self.config[key].status,self.config[key].key,self.config[key].value)
       	 
 
-  def saveline(self,linenumber,status,key,value):
+  def save_line(self,linenumber,status,key,value):
     if linenumber >= 0:
       self.filecontent[linenumber]="%s%s=%s\n" % (status,key,value)
 
 
-  def savefile(self):
+  def save_file(self):
 # Save defaults to file
     try:
       file=open(self.filename,"w")
@@ -120,11 +120,16 @@ class GrubDefaults:
 
     file.close
 
-# Update current configuration
-
     return   
 
 
+  def update_grub(self):
+
+#    status=subprocess.call(["/usr/sbin/update-grub"])
+    status=subprocess.call(["/bin/ls","-l"])
+    return status
+	
+	
 class Gui:
 	def __init__(self,grubdefaults,grubmenu):
 		"""
@@ -181,12 +186,16 @@ class Gui:
                 if grubdefaults.config.has_key("GRUB_TIMEOUT") and grubdefaults.config["GRUB_TIMEOUT"].status=="":
                   self.spin_timeout.set_value(int(self.grubdefaults.config["GRUB_TIMEOUT"].value))
 
+        def alert(self,message):
+         dialog = gtk.MessageDialog(None, gtk.DIALOG_MODAL, gtk.MESSAGE_INFO, gtk.BUTTONS_CLOSE, message)
+         dialog.run()
+         return dialog
 
 	def save(self,widget):
           # save selected bootable system
           selection=self.combo_menuentry.get_active()
-	  title=self.list_menuentry[selection][0]
-	  id=self.list_menuentry[selection][1]
+      	  title=self.list_menuentry[selection][0]
+          id=self.list_menuentry[selection][1]
           print title,id
           self.grubdefaults.set_value("GRUB_DEFAULT",id)
 
@@ -204,7 +213,15 @@ class Gui:
           else:
             self.grubdefaults.unset_value("GRUB_INIT_TUNE")
 
-	  self.grubdefaults.savefile()
+          self.grubdefaults.save_file()
+          status=self.grubdefaults.update_grub()
+          print status
+          if status==0:
+            windows=self.alert("Menu de arranque regenerado")
+          else: 
+            windows=self.alert("La regeneración del menú de arranque ha fallado")
+          windows.destroy()
+          
 	  self.quit()
 
 	def run(self):
@@ -221,7 +238,7 @@ class Gui:
 # Main
 def main():
 	
-# Current menu
+# Current menu configuration
 	grubmenu=GrubMenu(filename="sampledata/boot.grub/grub.cfg")
 #	grubmenu=GrubMenu()
 # Default options
