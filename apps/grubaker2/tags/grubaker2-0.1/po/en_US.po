@@ -1,0 +1,73 @@
+# English translations for grubaker package.
+# Copyright (C) 2010 THE grubaker'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the grubaker package.
+# alfem <alfonso@el-magnifico.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grubaker 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-12 14:58+0200\n"
+"PO-Revision-Date: 2010-04-12 15:00+0200\n"
+"Last-Translator: alfem <alfonso@el-magnifico.org>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: scripts/grubaker2:27
+msgid "ERROR: current  grub configuration is not readable"
+msgstr "ERROR: current  grub configuration is not readable"
+
+#: scripts/grubaker2:60
+msgid "ERROR: default grub configuration is not readable"
+msgstr "ERROR: default grub configuration is not readable"
+
+#: scripts/grubaker2:110
+msgid "ERROR: default grub configuration is not writable"
+msgstr "ERROR: default grub configuration is not writable"
+
+#: scripts/grubaker2:220
+msgid "Menu de arranque regenerado"
+msgstr "Boot menu rebuilt"
+
+#: scripts/grubaker2:222
+msgid "La regeneraciÃ³n del menÃº de arranque ha fallado"
+msgstr "Boot menu rebuilding failed"
+
+#: data/grubaker2.glade.h:1
+msgid "(marque para que no se muestre el men&#xFA; de inicio)"
+msgstr "(mark to hide boot menu)"
+
+#: data/grubaker2.glade.h:2
+msgid "(marque para que suene un pitido al mostrar el men&#xFA;)"
+msgstr "(mark to play a beep when menu shows up)"
+
+#: data/grubaker2.glade.h:3
+msgid "Arranque preferido:"
+msgstr "Favourite boot:"
+
+#: data/grubaker2.glade.h:4
+msgid "Grubaker 2"
+msgstr "Grubaker 2"
+
+#: data/grubaker2.glade.h:5
+msgid "Ocultar el men&#xFA;:"
+msgstr "Hide menu:"
+
+#: data/grubaker2.glade.h:6
+msgid "Sonido:"
+msgstr "Sound:"
+
+#: data/grubaker2.glade.h:7
+msgid "Tiempo de espera:"
+msgstr "Timeout:"
+
+#: data/grubaker2.glade.h:8
+msgid "gtk-cancel"
+msgstr "gtk-cancel"
+
+#: data/grubaker2.glade.h:9
+msgid "gtk-ok"
+msgstr "gtk-ok"
