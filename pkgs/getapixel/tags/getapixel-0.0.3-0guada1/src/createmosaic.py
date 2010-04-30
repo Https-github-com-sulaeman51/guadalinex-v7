@@ -95,12 +95,14 @@ class CreateMosaic():
             while gtk.events_pending():
                 gtk.main_iteration()
         
-        if (thread.result.index("Error")<0):
+        if (self.res.returncode!=0):
             self.processexecute.wdprocess.destroy()
             mosaic.on_dialog(self.wdcreatemosaic, "Error: Seleccione un menor tamaño o distancia", gtk.MESSAGE_ERROR,gtk.BUTTONS_CLOSE)
         else:    
             self.processexecute.pgbar.set_fraction(1.0)
             self.processexecute.label1.set_text("Mosáico generado correctamente")
+            self.processexecute.wdprocess.set_title("Getapixel - Completado")
+                       
             self.processexecute.btok.show()
         
     def destroy(self, widget, data=None):
@@ -129,6 +131,6 @@ class ThreadMeta(Thread):
         
     def run(self):
         self.res2=self.res.communicate()[0]
-        self.result=self.res
+        self.result=self.res2
         
 

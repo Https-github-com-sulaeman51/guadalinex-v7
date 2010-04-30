@@ -1,3 +1,9 @@
+getapixel (0.0.2-0guada2) jaunty; urgency=low
+
+  * Fixed error messages when distance or scale are too large
+
+ -- David Amián Valle <amian@amialinux@gmail.com>  Tue, 26 Jan 2010 14:00:49 +0100
+
 getapixel (0.0.2-0guada1) jaunty; urgency=low
 
   * Added error messages when distance or scale are too large
