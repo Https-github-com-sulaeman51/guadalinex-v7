@@ -87,8 +87,8 @@ class Mosaic:
         self.recursive = False
         self.width = 50
         self.height = 50
-        self.scale= 5
-        self.distance= 50  
+        self.scale= 2
+        self.distance= 20  
         self.cheat= 10
         self.orig=""
         self.output=""
