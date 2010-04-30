@@ -5,7 +5,7 @@
   <widget class="GtkWindow" id="wdcreatemosaic">
     <property name="width_request">508</property>
     <property name="height_request">275</property>
-    <property name="title" translatable="yes">Getapixel - Mosaicos</property>
+    <property name="title" translatable="yes">Getapixel - Mosaics</property>
     <property name="resizable">False</property>
     <property name="modal">True</property>
     <property name="window_position">center-always</property>
@@ -26,7 +26,7 @@
                     <property name="height_request">25</property>
                     <property name="visible">True</property>
                     <property name="xalign">0.47999998927116394</property>
-                    <property name="label" translatable="yes">Foto original:</property>
+                    <property name="label" translatable="yes">Original Picture:</property>
                   </widget>
                   <packing>
                     <property name="y">10</property>
@@ -67,7 +67,7 @@
                 <property name="visible">True</property>
                 <child>
                   <widget class="GtkButton" id="btSelect1">
-                    <property name="label" translatable="yes">Seleccionar</property>
+                    <property name="label" translatable="yes">Select</property>
                     <property name="width_request">100</property>
                     <property name="height_request">30</property>
                     <property name="visible">True</property>
@@ -102,7 +102,7 @@
                     <property name="width_request">150</property>
                     <property name="height_request">25</property>
                     <property name="visible">True</property>
-                    <property name="label" translatable="yes">Guardar mosaico en:</property>
+                    <property name="label" translatable="yes">Save mosaic in:</property>
                   </widget>
                   <packing>
                     <property name="y">3</property>
@@ -142,7 +142,7 @@
                 <property name="visible">True</property>
                 <child>
                   <widget class="GtkButton" id="btSelect2">
-                    <property name="label" translatable="yes">Seleccionar</property>
+                    <property name="label" translatable="yes">Select</property>
                     <property name="width_request">100</property>
                     <property name="height_request">30</property>
                     <property name="visible">True</property>
@@ -174,7 +174,7 @@
                     <property name="width_request">210</property>
                     <property name="height_request">25</property>
                     <property name="visible">True</property>
-                    <property name="label" translatable="yes">Escala:</property>
+                    <property name="label" translatable="yes">Scale:</property>
                   </widget>
                   <packing>
                     <property name="y">3</property>
@@ -229,7 +229,7 @@
                     <property name="width_request">210</property>
                     <property name="height_request">25</property>
                     <property name="visible">True</property>
-                    <property name="label" translatable="yes">Distancia entre piezas iguales:</property>
+                    <property name="label" translatable="yes">Distance between identical pictures:</property>
                   </widget>
                   <packing>
                     <property name="y">3</property>
@@ -284,7 +284,7 @@
                     <property name="width_request">210</property>
                     <property name="height_request">25</property>
                     <property name="visible">True</property>
-                    <property name="label" translatable="yes">Fundir foto original:</property>
+                    <property name="label" translatable="yes">Blend original picture:</property>
                   </widget>
                   <packing>
                     <property name="y">3</property>
@@ -338,7 +338,7 @@
                 <property name="visible">True</property>
                 <child>
                   <widget class="GtkButton" id="btcancel">
-                    <property name="label" translatable="yes">gtk-cancel</property>
+                    <property name="label">gtk-cancel</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
@@ -353,7 +353,7 @@
                 </child>
                 <child>
                   <widget class="GtkButton" id="btok">
-                    <property name="label" translatable="yes">gtk-ok</property>
+                    <property name="label">gtk-ok</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>

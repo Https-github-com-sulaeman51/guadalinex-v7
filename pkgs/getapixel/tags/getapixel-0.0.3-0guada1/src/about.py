@@ -27,6 +27,8 @@ pygtk.require('2.0')
 import gtk.glade
 import time
 import mosaic
+gtk.glade.textdomain("getapixel")
+gtk.glade.bindtextdomain("getapixel")
 
 class About():
     

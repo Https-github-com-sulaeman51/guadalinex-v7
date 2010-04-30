@@ -5,7 +5,7 @@
   <widget class="GtkWindow" id="wdselectpaths">
     <property name="width_request">548</property>
     <property name="height_request">365</property>
-    <property name="title" translatable="yes">Getapixel - Mosaicos</property>
+    <property name="title" translatable="yes">Getapixel - Mosaics</property>
     <property name="resizable">False</property>
     <property name="modal">True</property>
     <property name="window_position">center-always</property>
@@ -23,9 +23,10 @@
                 <property name="height_request">80</property>
                 <property name="visible">True</property>
                 <property name="xalign">0.46000000834465027</property>
-                <property name="label" translatable="yes">Seleccione un directorio de fotos para generar el &#xED;ndice de piezas que compondr&#xE1;n el mosaico.
+                <property name="label" translatable="yes">Select a pictures directory to generate the pieces index that make up the mosaic.
 
-Si ya ha generado este directorio de trabajo, seleccionelo directamente.</property>
+If you have already created this working directory, select directly the directory.
+</property>
                 <property name="justify">fill</property>
                 <property name="wrap">True</property>
                 <property name="wrap_mode">word-char</property>
@@ -51,7 +52,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                     <property name="width_request">150</property>
                     <property name="height_request">25</property>
                     <property name="visible">True</property>
-                    <property name="label" translatable="yes">Directorio de fotos:</property>
+                    <property name="label" translatable="yes">Pictures directory:</property>
                   </widget>
                   <packing>
                     <property name="x">10</property>
@@ -91,7 +92,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                     </child>
                     <child>
                       <widget class="GtkCheckButton" id="chbtrecursive">
-                        <property name="label" translatable="yes">Incluir Subdirectorios</property>
+                        <property name="label" translatable="yes">Include Subdirectories</property>
                         <property name="width_request">250</property>
                         <property name="height_request">30</property>
                         <property name="visible">True</property>
@@ -121,7 +122,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                 <property name="visible">True</property>
                 <child>
                   <widget class="GtkButton" id="btSelect1">
-                    <property name="label" translatable="yes">Seleccionar</property>
+                    <property name="label" translatable="yes">Select</property>
                     <property name="width_request">100</property>
                     <property name="height_request">30</property>
                     <property name="visible">True</property>
@@ -156,7 +157,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                     <property name="width_request">150</property>
                     <property name="height_request">25</property>
                     <property name="visible">True</property>
-                    <property name="label" translatable="yes">Directorio de trabajo:</property>
+                    <property name="label" translatable="yes">Working directory:</property>
                   </widget>
                   <packing>
                     <property name="x">10</property>
@@ -198,7 +199,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                 <property name="visible">True</property>
                 <child>
                   <widget class="GtkButton" id="btSelect2">
-                    <property name="label" translatable="yes">Seleccionar</property>
+                    <property name="label" translatable="yes">Select</property>
                     <property name="width_request">100</property>
                     <property name="height_request">30</property>
                     <property name="visible">True</property>
@@ -230,7 +231,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                     <property name="width_request">150</property>
                     <property name="height_request">25</property>
                     <property name="visible">True</property>
-                    <property name="label" translatable="yes">Tama&#xF1;o de las piezas:</property>
+                    <property name="label" translatable="yes">Size of pieces:</property>
                   </widget>
                   <packing>
                     <property name="x">10</property>
@@ -273,7 +274,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                         <property name="width_request">50</property>
                         <property name="height_request">25</property>
                         <property name="visible">True</property>
-                        <property name="label" translatable="yes">Ancho:</property>
+                        <property name="label" translatable="yes">Width:</property>
                       </widget>
                       <packing>
                         <property name="x">55</property>
@@ -311,7 +312,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                         <property name="height_request">25</property>
                         <property name="visible">True</property>
                         <property name="xalign">0.46000000834465027</property>
-                        <property name="label" translatable="yes">Alto:</property>
+                        <property name="label" translatable="yes">High:</property>
                       </widget>
                       <packing>
                         <property name="x">55</property>
@@ -347,7 +348,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                 <property name="homogeneous">True</property>
                 <child>
                   <widget class="GtkButton" id="btcancel">
-                    <property name="label" translatable="yes">gtk-cancel</property>
+                    <property name="label">gtk-cancel</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>
@@ -362,7 +363,7 @@ Si ya ha generado este directorio de trabajo, seleccionelo directamente.</proper
                 </child>
                 <child>
                   <widget class="GtkButton" id="btok">
-                    <property name="label" translatable="yes">gtk-ok</property>
+                    <property name="label">gtk-ok</property>
                     <property name="visible">True</property>
                     <property name="can_focus">True</property>
                     <property name="receives_default">True</property>

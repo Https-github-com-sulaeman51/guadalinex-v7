@@ -25,6 +25,11 @@ import pygtk
 pygtk.require('2.0')
 import gtk.glade
 import mosaic
+import gettext
+gettext.install("getapixel")
+gtk.glade.textdomain("getapixel")
+gtk.glade.bindtextdomain("getapixel")
+
 
 class SendFile:
     def __init__(self, vbmosaic, selectpath, createm, typepath, type, title):
@@ -33,7 +38,7 @@ class SendFile:
         self.createm=createm
         self.typepath=typepath
         
-        self.filechooser=gtk.FileChooserDialog("Open..",
+        self.filechooser=gtk.FileChooserDialog(_("Open.."),
                                None,
                                gtk.FILE_CHOOSER_ACTION_OPEN,
                                (gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL,
@@ -46,7 +51,7 @@ class SendFile:
         self.filechooser.set_default_response(gtk.RESPONSE_OK)
         if typepath=="orig":
             filter = gtk.FileFilter()
-            filter.set_name("Imágenes")
+            filter.set_name(_("Images file"))
             filter.add_mime_type("image/png")
             filter.add_mime_type("image/jpeg")
             filter.add_pattern("*.png")
@@ -54,7 +59,7 @@ class SendFile:
             self.filechooser.add_filter(filter)
             
             filter = gtk.FileFilter()
-            filter.set_name("Todos los archivos")
+            filter.set_name(_("All files"))
             filter.add_pattern("*")
             self.filechooser.add_filter(filter)
             self.preview = gtk.Image()

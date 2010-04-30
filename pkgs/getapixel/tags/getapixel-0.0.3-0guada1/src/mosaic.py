@@ -30,6 +30,12 @@ import createmosaic
 import about
 import os
 import ConfigParser
+import gettext
+gettext.install("getapixel")
+gtk.glade.textdomain("getapixel")
+gtk.glade.bindtextdomain("getapixel")
+
+
 #Global
 PATH= "/usr/share/getapixel/"
 PATH_ICON="/usr/share/icons/"
@@ -102,8 +108,9 @@ class Mosaic:
                     boolmxt=True
          
         if not boolmxt:
-            on_dialog(self.wdmosaic, "Por favor debe seleccionar un directorio donde se hayan "
-            +"generado con anterioridad las piezas", gtk.MESSAGE_ERROR, gtk.BUTTONS_CANCEL)
+            on_dialog(self.wdmosaic, 
+            _("Please select a directory that contains pieces of an earlier generation")
+            , gtk.MESSAGE_ERROR, gtk.BUTTONS_CANCEL)
                   
         else:
             cmosaic=createmosaic.CreateMosaic(self)    
@@ -130,8 +137,9 @@ class Mosaic:
                 self.orig=cfg.get("CreateMosaic", "orig")
                 return False
             except (ConfigParser.NoOptionError, ConfigParser.NoSectionError):
-                on_dialog(self.wdmosaic, "El fichero de configuraciones esta erroneo, "+
-                "se usará la configuración por defecto", gtk.MESSAGE_ERROR,gtk.BUTTONS_CLOSE)
+                on_dialog(self.wdmosaic, 
+                _("Config file is wrong, default config file will be used"),
+                gtk.MESSAGE_ERROR,gtk.BUTTONS_CLOSE)
                 
                 return True
         else:

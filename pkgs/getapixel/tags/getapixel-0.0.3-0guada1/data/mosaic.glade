@@ -5,7 +5,7 @@
   <widget class="GtkWindow" id="wdmosaic">
     <property name="width_request">400</property>
     <property name="height_request">190</property>
-    <property name="title" translatable="yes">Getapixel - Mosaicos</property>
+    <property name="title" translatable="yes">Getapixel - Mosaics</property>
     <property name="resizable">False</property>
     <property name="window_position">center-always</property>
     <child>
@@ -41,12 +41,13 @@
             <property name="layout_style">center</property>
             <child>
               <widget class="GtkButton" id="btpath">
-                <property name="label" translatable="yes">Seleccionar fotos</property>
+                <property name="label" translatable="yes">Select pictures</property>
                 <property name="width_request">180</property>
                 <property name="height_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
+                <property name="xalign">0.46000000834465027</property>
                 <signal name="clicked" handler="on_btpath_clicked"/>
               </widget>
               <packing>
@@ -57,7 +58,7 @@
             </child>
             <child>
               <widget class="GtkButton" id="btmosaic">
-                <property name="label" translatable="yes">Crear Mosaico</property>
+                <property name="label" translatable="yes">Create Mosaic</property>
                 <property name="width_request">180</property>
                 <property name="height_request">30</property>
                 <property name="visible">True</property>
@@ -73,7 +74,7 @@
             </child>
             <child>
               <widget class="GtkButton" id="btexit">
-                <property name="label" translatable="yes">gtk-quit</property>
+                <property name="label">gtk-quit</property>
                 <property name="width_request">180</property>
                 <property name="height_request">30</property>
                 <property name="visible">True</property>
@@ -90,7 +91,7 @@
             </child>
             <child>
               <widget class="GtkButton" id="btabout">
-                <property name="label" translatable="yes">gtk-about</property>
+                <property name="label">gtk-about</property>
                 <property name="width_request">180</property>
                 <property name="height_request">30</property>
                 <property name="visible">True</property>
