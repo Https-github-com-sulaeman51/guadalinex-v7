@@ -1,0 +1,22 @@
+Source: getapixel
+Section: utils
+Priority: optional
+Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Uploaders: David Amián <amialinux@gmail.com>
+           Álvaro Pinel <alvaropinel@gmail.com>
+Build-Depends: debhelper (>= 7), cdbs (>=0.4.43), python-all-dev (>=2.3.5-11)
+Build-Depends-Indep: python-central (>=0.5.6), gettext, python-distutils-extra
+Standards-Version: 3.8.0
+Homepage: http://forja.guadalinex.org/webs/getapixel/doku.php
+Vcs-Browser:http://codebrowse.launchpad.net/~guadalinex-members/getapixel/trunk/changes
+Vcs-Bzr:http://bazaar.launchpad.net/~guadalinex-members/getapixel/trunk/
+Vcs-Svn: http://forja.guadalinex.org/getapixel
+XS-Python-Version: current
+
+Package: getapixel
+Architecture: all
+Depends: ${misc:Depends}, python, python-gtk2, python-glade2, metapixel
+Description: Getapixel is a frontend of metapixel command
+    Getapixel is a frontend of metapixel command to graphically create mosaics
+    of images with parts of other images resized and selected for their colo
+    to give grater reality to the mosaic.

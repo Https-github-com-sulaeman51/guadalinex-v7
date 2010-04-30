@@ -1,0 +1,5 @@
+getapixel (0.0.1-0guada0) jaunty; urgency=low
+
+  * First debianized of getapixel package
+
+ -- David Amián Valle <amialinux@gmail.com>  Mon, 23 Nov 2009 18:08:50 +0100

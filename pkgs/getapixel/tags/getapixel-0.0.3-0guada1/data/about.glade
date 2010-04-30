@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<glade-interface>
+  <!-- interface-requires gtk+ 2.16 -->
+  <!-- interface-naming-policy toplevel-contextual -->
+  <widget class="GtkAboutDialog" id="wdabout">
+    <property name="width_request">400</property>
+    <property name="border_width">5</property>
+    <property name="window_position">center-always</property>
+    <property name="type_hint">normal</property>
+    <property name="has_separator">False</property>
+    <property name="modal">True</property>
+    <property name="program_name">Getapixel</property>
+    <property name="copyright" translatable="yes">GNU General Public License</property>
+    <property name="comments" translatable="yes">Getapixel aprovecha todo el potencial del comando metapixel para crear de forma gr&#xE1;fica mos&#xE1;icos de im&#xE1;genes con piezas creadas a partir de otras im&#xE1;genes redimensionadas y seleccionadas por su color para darle mayor realidad al mosaico.</property>
+    <property name="authors">Desarrollo y dise&#xF1;o:
+David Ami&#xE1;n &lt;amialinux@gmail.com&gt;
+&#xC1;lvaro Pinel &lt;alvaropinel@gmail.com&gt;
+
+Idea:
+Equipo Guadalinex &lt;contacto@guadalinex.org&gt;
+
+Metapixel:
+Mark Probst &lt;schani@complang.tuwien.ac.at&gt;</property>
+    <child internal-child="vbox">
+      <widget class="GtkVBox" id="dialog-vbox1">
+        <property name="visible">True</property>
+        <property name="spacing">2</property>
+        <child internal-child="action_area">
+          <widget class="GtkHButtonBox" id="dialog-action_area1">
+            <property name="visible">True</property>
+            <property name="layout_style">end</property>
+          </widget>
+          <packing>
+            <property name="expand">False</property>
+            <property name="pack_type">end</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>
