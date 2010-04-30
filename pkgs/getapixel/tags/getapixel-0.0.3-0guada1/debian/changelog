@@ -1,3 +1,9 @@
+getapixel (0.0.3-0guada1) lucid; urgency=low
+
+  * Updated to lucid branch format
+
+ -- David Amián Valle <amian@amialinux@gmail.com>  Fri, 30 Apr 2010 11:34:42 +0200
+
 getapixel (0.0.3-0) unstable; urgency=low
 
   * Changed to unstable branch format
