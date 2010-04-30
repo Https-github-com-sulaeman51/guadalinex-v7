@@ -1,0 +1,2 @@
+version=3
+http://launchpad.net/gedit-plugin-tloleo/+download http://launchpad.net/gedit-plugin-tloleo/(.*)/gedit-plugin-tloleo-(.*)\.tar\.gz
