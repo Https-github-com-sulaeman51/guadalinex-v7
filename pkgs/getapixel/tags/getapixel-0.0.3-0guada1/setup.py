@@ -2,7 +2,7 @@ from distutils.core import setup
 from DistUtilsExtra.command import *
 
 setup(name='getapixel',
-    version='0.0.1',
+    version='0.0.2',
     author='David Amian',
     author_email='amialinux@gmail.com',
     data_files=[('share/getapixel/glade',['data/about.glade','data/createmosaic.glade',
