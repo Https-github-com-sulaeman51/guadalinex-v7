@@ -21,7 +21,6 @@ inputattach
 iptables
 irqbalance
 kerneloops-daemon
-libparted0debian1
 logrotate
 lshw
 lsof
