@@ -1,0 +1,20 @@
+Source: nautilus-md5sum
+Section: utils
+Priority: optional
+Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Uploaders: David Amián <amialinux@gmail.com>, Álvaro Pinel <alvaropinel@gmail.com>
+Build-Depends: debhelper (>= 7), gettext
+Standards-Version: 3.8.0
+Homepage: http://launchpad.net/nautilus-md5sum
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/nautilus-md5sum/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/nautilus-md5sum/trunk
+
+Package: nautilus-md5sum
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-nautilus, python-dev, nautilus, python-gtk2, python-glade2, gettext
+Description: Nautilus' extension for checking MD5 sum
+ Nautilus' extension for checking MD5 sum of iso files.
+ .
+ This extension let the user check the integrity of iso (ISO-9669)
+ files from the Nautilus window. The extension adds a contextual menu
+ entry to obtain the MD5 sum of that file.
