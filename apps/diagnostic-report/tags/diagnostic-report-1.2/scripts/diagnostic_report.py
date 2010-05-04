@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 # -*- encoding: utf-8 -*-
 #       diagnosis_report.py
 #       
@@ -35,21 +35,34 @@ class diagnosis:
 
     
     def show_file(self, file_r):
-        inp = open (file_r, "r")
-        outp = open(self.path_out, "a")
-        outp.write("** "+file_r+"\n")
-       
-        for line in inp.readlines():
-            
-            outp.write (line)
-        
-        outp.write("*----------\n")
-        outp.write("\n")
-        outp.close()
+        try:
+            inp = open (file_r, "r")
+
+        except IOError as (errno, strerror):
+            print "Error FICHERO "+file_r+ "I/O error({0}): {1}".format(errno, strerror)
+            outp = open(self.path_out, "a")
+            outp.write("Error FICHERO: "+file_r+"\n")
+            outp.write("I/O error({0}): {1}".format(errno, strerror))
+            outp.write("*----------\n")
+            outp.write("\n")
+            outp.close()
+
+        else:
+            outp = open(self.path_out, "a")
+            outp.write("FICHERO: "+file_r+"\n")
+
+            for line in inp.readlines():
+
+                outp.write (line)
+
+            outp.write("*----------\n")
+            outp.write("\n")
+            outp.close()
+
 
     def show_binary_exit(self, command):
         outp = open(self.path_out, "a")
-        outp.write("** "+command+"\n")
+        outp.write("COMANDO:"+command+"\n")
         
         for line in os.popen(command).readlines():
             outp.write (line)
@@ -145,7 +158,7 @@ class diagnosis:
         self.show_file ("/boot/grub/menu.lst")
 
         # 'proc' related info
-#        self.show_file ("/proc/apm")
+        self.show_file ("/proc/apm")
         self.show_file ("/proc/cmdline")
         self.show_file ("/proc/cpuinfo")
         self.show_file ("/proc/crypto")
@@ -183,7 +196,10 @@ class diagnosis:
         ##Attach file to text
         if os.path.isfile(self.path_out):
             f=open(self.path_out, "r")
-            self.content=unicode(f.read(), "utf-8")
+            try:
+                self.content=unicode(f.read(), "utf-8")
+            except UnicodeDecodeError:
+                self.content="No se puede mostrar el fichero, se creará corréctamente en su escritorio\n"
             f.close
 
         buffer=self.textinfo.get_buffer()
