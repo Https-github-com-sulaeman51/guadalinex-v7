@@ -109,10 +109,10 @@ class diagnosis:
         self.builder_init.add_from_file("/usr/share/diagnostic_report/diagnostic_report_init.glade")
         self.builder_init.connect_signals(self)
 
-        self.bt_cancel_init=self.builder_exception.get_object("bt_cancel_init")
-        self.wddiagn_init=self.builder_exception.get_object("wddiagn")
-        self.textinfo_init=self.builder_exception.get_object("textinfo")
-        self.create_bt_init=self.builder_exception.get_object("bt_init")
+        self.bt_cancel_init=self.builder_init.get_object("bt_cancel_init")
+        self.wddiagn_init=self.builder_init.get_object("wddiagn")
+        self.textinfo_init=self.builder_init.get_object("textinfo")
+        self.create_bt_init=self.builder_init.get_object("bt_init")
 
         self.wddiagn_init.set_title(_("Diagnostic report generator init window"))
         self.wddiagn_init.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
