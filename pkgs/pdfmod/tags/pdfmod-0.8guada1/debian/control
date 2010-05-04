@@ -1,8 +1,10 @@
 Source: pdfmod
 Section: gnome
 Priority: optional
-Maintainer: Debian CLI Applications Team <pkg-cli-apps-team@lists.alioth.debian.org>
-Uploaders: Chow Loong Jin <hyperair@ubuntu.com>
+XSBC-Original-Maintainer: Debian CLI Applications Team <pkg-cli-apps-team@lists.alioth.debian.org>
+Maintainer: Guadalinex Team <packmaster@guadalinex.org>
+Uploaders: Chow Loong Jin <hyperair@ubuntu.com>,
+           Roberto C. Morano <rcmorano@emergya.es>
 Build-Depends: debhelper (>= 7.0.50),
                autotools-dev,
                cli-common-dev (>= 0.5.7),
@@ -13,7 +15,7 @@ Build-Depends: debhelper (>= 7.0.50),
                libgconf2.0-cil,
                libhyena-cil (>= 0.1),
                libpoppler-glib-dev
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: http://live.gnome.org/PdfMod
 Vcs-Git: git://git.debian.org/git/pkg-cli-apps/packages/pdfmod.git
 Vcs-Browser: http://git.debian.org/?p=pkg-cli-apps/packages/pdfmod.git
