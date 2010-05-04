@@ -100,6 +100,53 @@ class diagnosis:
         self.wddiagn_exception.show_all()
 
 
+    def launch_initial_glade(self, widget, data=None):
+
+        self.builder_init=gtk.Builder()
+
+        ##INITIAL WINDOW
+
+        self.builder_init.add_from_file("/usr/share/diagnostic_report/diagnostic_report_init.glade")
+        self.builder_init.connect_signals(self)
+
+        self.bt_cancel_init=self.builder_exception.get_object("bt_cancel_init")
+        self.wddiagn_init=self.builder_exception.get_object("wddiagn")
+        self.textinfo_init=self.builder_exception.get_object("textinfo")
+        self.create_bt_init=self.builder_exception.get_object("bt_init")
+
+        self.wddiagn_init.set_title(_("Diagnostic report generator init window"))
+        self.wddiagn_init.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
+
+        buffer=self.textinfo_exception.get_buffer()
+        buffer.set_text(_("Initial msg"))
+        self.wddiagn_init.set_position(gtk.WIN_POS_CENTER)
+        self.wddiagn_init.show_all()
+
+
+    def on_bt_init_clicked(self, widget, data=None):
+        self.wddiagn_init.hide()
+        self.launch_os_calls(self)
+
+        ##Attach file to text
+        if os.path.isfile(self.path_out):
+            f=open(self.path_out, "r")
+            try:
+                self.content=unicode(f.read(), "utf-8")
+
+            except UnicodeDecodeError:
+
+                self.launch_exception_glade(self)
+
+            else:
+
+                self.launch_diagnostic_glade(self, self.content)
+
+            f.close
+
+
+    def on_bt_cancel_init_clicked(self, widget, data=None):
+        self.on_wddiagn_destroy(self)
+
     def on_wddiagn_destroy(self, widget, data=None):
         gtk.main_quit()
 
@@ -110,20 +157,7 @@ class diagnosis:
 
         self.on_wddiagn_destroy(self)
 
-
-    def on_create_bt_clicked(self, widget, data=None):
-        curdir=os.getenv('HOME')
-	file_tar=curdir+"/Escritorio/informe_de_diagnostico.bz2"
-        
-        tar = tarfile.open(file_tar,  "w:bz2")
-        #Using True allow to only package the file without dirs
-        tar.add(self.path_out, os.path.basename(self.path_out))
-        tar.close()
-        
-        self.on_wddiagn_destroy(self)
-
-
-    def __init__(self):
+    def launch_os_calls(self, widget, data=None):
         #Remove tmp file if exists
         if (os.path.exists(self.path_out)):
             os.remove(self.path_out)
@@ -205,38 +239,41 @@ class diagnosis:
         self.show_binary_exit ("lspci | sort")
         ## -- ##
 
-        ##Attach file to text
-        if os.path.isfile(self.path_out):
-            f=open(self.path_out, "r")
-            try:
-                self.content=unicode(f.read(), "utf-8")
+    def launch_diagnostic_glade(self, content, widget, data=None):
+        self.builder=gtk.Builder()
+        self.builder.add_from_file("/usr/share/diagnostic_report/diagnostic_report.glade")
+        self.builder.connect_signals(self)
 
-            except UnicodeDecodeError:
+        #Initial autoconnetions
+        self.bt_cancel=self.builder.get_object("bt_cancel")
+        self.wddiagn=self.builder.get_object("wddiagn")
+        self.textinfo=self.builder.get_object("textinfo")
+        self.create_bt=self.builder.get_object("create_bt")
 
-                self.launch_exception_glade(self)
+        self.wddiagn.set_title(_("Diagnostic report generator"))
+        self.wddiagn.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
 
-            else:
+        buffer=self.textinfo.get_buffer()
+        buffer.set_text(content)
+        self.wddiagn.set_position(gtk.WIN_POS_CENTER)
 
-                self.builder=gtk.Builder()
-                self.builder.add_from_file("/usr/share/diagnostic_report/diagnostic_report.glade")
-                self.builder.connect_signals(self)
+        self.wddiagn.show_all()
+	
 
-                #Initial autoconnetions
-                self.bt_cancel=self.builder.get_object("bt_cancel")
-                self.wddiagn=self.builder.get_object("wddiagn")
-                self.textinfo=self.builder.get_object("textinfo")
-                self.create_bt=self.builder.get_object("create_bt")
+    def on_create_bt_clicked(self, widget, data=None):
+        curdir=os.getenv('HOME')
+	file_tar=curdir+"/Escritorio/informe_de_diagnostico.bz2"
+        
+        tar = tarfile.open(file_tar,  "w:bz2")
+        #Using True allow to only package the file without dirs
+        tar.add(self.path_out, os.path.basename(self.path_out))
+        tar.close()
+        
+        self.on_wddiagn_destroy(self)
 
-                self.wddiagn.set_title(_("Diagnostic report generator"))
-                self.wddiagn.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
 
-                buffer=self.textinfo.get_buffer()
-                buffer.set_text(self.content)
-                self.wddiagn.set_position(gtk.WIN_POS_CENTER)
-
-                self.wddiagn.show_all()
-
-            f.close
+    def __init__(self):
+        self.launch_initial_glade(self)        
 
 
     def main(self):
