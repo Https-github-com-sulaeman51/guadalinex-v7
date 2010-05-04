@@ -18,7 +18,7 @@ msgstr ""
 
 #: scripts/diagnostic_report.py:77
 msgid "Error using standard interface"
-msgstr "Error mientras se intentaba emplear la interface estándar:UnicodeDecodeError"
+msgstr "Error mientras se intentaba emplear la interface estandar:UnicodeDecodeError"
 
 #: scripts/diagnostic_report.py:94
 msgid "Diagnostic report generator exception window"
