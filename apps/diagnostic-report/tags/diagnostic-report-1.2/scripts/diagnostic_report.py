@@ -85,7 +85,6 @@ class diagnosis:
         self.builder_exception.add_from_file("/usr/share/diagnostic_report/diagnostic_report_exception.glade")
         self.builder_exception.connect_signals(self)
 
-        self.bt_cancel_exception=self.builder_exception.get_object("bt_cancel")
         self.wddiagn_exception=self.builder_exception.get_object("wddiagn")
         self.textinfo_exception=self.builder_exception.get_object("textinfo")
         self.create_bt_exception=self.builder_exception.get_object("create_bt")
@@ -178,7 +177,7 @@ class diagnosis:
         self.show_file ("/etc/X11/xorg.conf")
         self.show_file ("/var/log/Xorg.0.log")
 #        self.show_binary_exit ("ddcprobe")
-
+####
         # disks related info
         self.show_binary_exit ("mount")
         self.show_binary_exit ("df -h")
@@ -292,7 +291,10 @@ class diagnosis:
 
         self.wddiagn_final.show_all()
 
-    def on_bt_ok_clicked(self, widget, data=None):
+    def create_bt_clicked_cb(self, widget, data=None):
+        self.on_wddiagn_destroy(self)
+
+    def on_bt_ok_clicked (self, widget, data=None):
         self.on_wddiagn_destroy(self)
 
     def __init__(self):
