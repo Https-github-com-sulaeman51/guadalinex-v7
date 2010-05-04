@@ -139,7 +139,7 @@ class diagnosis:
 
             else:
 
-                self.launch_diagnostic_glade(self, self.content)
+                self.launch_diagnostic_glade(self)
 
             f.close
 
@@ -239,7 +239,7 @@ class diagnosis:
         self.show_binary_exit ("lspci | sort")
         ## -- ##
 
-    def launch_diagnostic_glade(self, content, widget, data=None):
+    def launch_diagnostic_glade(self, widget, data=None):
         self.builder=gtk.Builder()
         self.builder.add_from_file("/usr/share/diagnostic_report/diagnostic_report.glade")
         self.builder.connect_signals(self)
@@ -254,7 +254,7 @@ class diagnosis:
         self.wddiagn.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
 
         buffer=self.textinfo.get_buffer()
-        buffer.set_text(content)
+        buffer.set_text(self.content)
         self.wddiagn.set_position(gtk.WIN_POS_CENTER)
 
         self.wddiagn.show_all()
