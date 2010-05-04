@@ -117,7 +117,7 @@ class diagnosis:
         self.wddiagn_init.set_title(_("Diagnostic report generator init window"))
         self.wddiagn_init.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
 
-        buffer=self.textinfo_exception.get_buffer()
+        buffer=self.textinfo_init.get_buffer()
         buffer.set_text(_("Initial msg"))
         self.wddiagn_init.set_position(gtk.WIN_POS_CENTER)
         self.wddiagn_init.show_all()
