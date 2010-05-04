@@ -245,7 +245,6 @@ class diagnosis:
         self.builder.connect_signals(self)
 
         #Initial autoconnetions
-        self.bt_cancel=self.builder.get_object("bt_cancel")
         self.wddiagn=self.builder.get_object("wddiagn")
         self.textinfo=self.builder.get_object("textinfo")
         self.create_bt=self.builder.get_object("create_bt")
@@ -268,9 +267,33 @@ class diagnosis:
         #Using True allow to only package the file without dirs
         tar.add(self.path_out, os.path.basename(self.path_out))
         tar.close()
-        
-        self.on_wddiagn_destroy(self)
+        #self.wddiagn.hide()
 
+        self.launch_final_glade(self)
+        
+    def launch_final_glade(self, widget, data=None):
+        self.builder_final=gtk.Builder()
+        self.builder_final.add_from_file("/usr/share/diagnostic_report/diagnostic_report_end.glade")
+        self.wddiagn.hide()
+        self.builder_final.connect_signals(self)
+
+        #Initial autoconnetions
+        self.wddiagn_final=self.builder_final.get_object("wddiagn")
+        self.textinfo_final=self.builder_final.get_object("textinfo")
+        self.create_bt_final=self.builder_final.get_object("bt_ok")
+
+        self.wddiagn_final.set_title(_("Diagnostic report generator"))
+        self.wddiagn_final.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
+
+        buffer=self.textinfo_final.get_buffer()
+        buffer.set_text(_("Final msg"))
+
+        self.wddiagn_final.set_position(gtk.WIN_POS_CENTER)
+
+        self.wddiagn_final.show_all()
+
+    def on_bt_ok_clicked(self, widget, data=None):
+        self.on_wddiagn_destroy(self)
 
     def __init__(self):
         self.launch_initial_glade(self)        
