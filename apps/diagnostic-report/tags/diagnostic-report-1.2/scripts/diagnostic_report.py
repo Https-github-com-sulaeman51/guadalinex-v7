@@ -263,7 +263,7 @@ class diagnosis:
 
     def on_create_bt_clicked(self, widget, data=None):
         curdir=os.getenv('HOME')
-	file_tar=curdir+"/Escritorio/informe_de_diagnostico.bz2"
+	    file_tar=curdir+"/Escritorio/informe_de_diagnostico.bz2"
         
         tar = tarfile.open(file_tar,  "w:bz2")
         #Using True allow to only package the file without dirs
