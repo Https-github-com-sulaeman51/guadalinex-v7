@@ -73,6 +73,11 @@ class diagnosis:
 
     def launch_exception_glade(self, widget, data=None):
 
+        outp = open(self.path_out, "a")
+        err_msg=(_("Error using standard interface"))
+        outp.write("\n"+err_msg+"\n")
+        outp.close()
+
         self.builder_exception=gtk.Builder()
         
         #Create exeption window when diagnostic report can't be shown
@@ -90,10 +95,10 @@ class diagnosis:
         self.wddiagn_exception.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
 
         buffer=self.textinfo_exception.get_buffer()
-        self.msg_error="_(Error message)"
-        buffer.set_text(self.msg_error)
+        buffer.set_text(_("Error message"))
 
         self.wddiagn_exception.show_all()
+
 
     def on_wddiagn_destroy(self, widget, data=None):
         gtk.main_quit()
