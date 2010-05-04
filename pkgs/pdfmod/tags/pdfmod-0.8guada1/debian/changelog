@@ -1,3 +1,10 @@
+pdfmod (0.8-0guada1) lucid; urgency=low
+
+  * Debianization imported from the latest package in pdfmod-team's ppa
+  * Working with the latest upstream package (0.8)
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Mon, 04 May 2010 11:22:12 +0800
+
 pdfmod (0.6-0ubunu1~ppa2~karmic) karmic; urgency=low
 
   * debian/PdfMod.exe.config, debian/pdfmod.install:
