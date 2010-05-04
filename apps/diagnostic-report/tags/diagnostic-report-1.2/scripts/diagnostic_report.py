@@ -121,6 +121,9 @@ class diagnosis:
         self.wddiagn_init.set_position(gtk.WIN_POS_CENTER)
         self.wddiagn_init.show_all()
 
+    def on_wddiagn_destroy(self, widget, data=None):
+        gtk.main_quit()
+
 
     def on_bt_init_clicked(self, widget, data=None):
         self.wddiagn_init.hide()
@@ -297,6 +300,9 @@ class diagnosis:
     def on_bt_ok_clicked (self, widget, data=None):
         self.on_wddiagn_destroy(self)
 
+    def destroy (self, widget, data=None):
+        gtk.main_quit()
+        
     def __init__(self):
         self.launch_initial_glade(self)        
 
