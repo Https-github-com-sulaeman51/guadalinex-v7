@@ -1,0 +1,29 @@
+Source: pdfmod
+Section: gnome
+Priority: optional
+Maintainer: Debian CLI Applications Team <pkg-cli-apps-team@lists.alioth.debian.org>
+Uploaders: Chow Loong Jin <hyperair@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50),
+               autotools-dev,
+               cli-common-dev (>= 0.5.7),
+               mono-devel (>= 2.4.2),
+               gnome-doc-utils (>= 0.3.2),
+               intltool (>= 0.35.0),
+               libgnome2.24-cil,
+               libgconf2.0-cil,
+               libhyena-cil (>= 0.1),
+               libpoppler-glib-dev
+Standards-Version: 3.8.3
+Homepage: http://live.gnome.org/PdfMod
+Vcs-Git: git://git.debian.org/git/pkg-cli-apps/packages/pdfmod.git
+Vcs-Browser: http://git.debian.org/?p=pkg-cli-apps/packages/pdfmod.git
+
+Package: pdfmod
+Architecture: all
+Depends: ${cli:Depends}, ${misc:Depends}
+Description: simple tool for modifying PDF documents
+ PDF Mod is a simple tool for modifying PDF documents. It can rotate, extract,
+ remove and reoder pages via drag and drop. Multiple documents may be combined
+ via drag and drop. You may also edit the title, subject, author and keywords of
+ a PDF document using PDF Mod.
+
