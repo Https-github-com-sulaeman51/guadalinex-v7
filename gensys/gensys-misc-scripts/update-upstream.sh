@@ -1,5 +1,5 @@
 #!/bin/bash -x
-# 
+#
 # Updates upstream release for a debian package
 #
 # Copyright (C) 2010, Junta de Andalucia
@@ -12,10 +12,14 @@
 # the full text of the license.
 
 
-uscan --verbose
-TGZ=$(ls -rthal ../*tar.gz|grep -v orig|awk '{for (i=1;i<=NF;i++)  if ( $i ~ "gz" ) print $i}')
-test -f $TGZ || exit 0
-TGZ_ORIG=$(echo $TGZ | sed 's/-\([0-9].*\)tar.gz/_\1orig.tar.gz/g')
+uscan --verbose --force-download
+VERSION=$(dpkg-parsechangelog |grep Vers|awk '{print $2}'| sed -e 's/\(.*\)-\(.*\)/\1/g')
+TGZ=$(ls -rthal ../*$VERSION.tar.gz |grep -v orig|awk '{for (i=1;i<=NF;i++)  if ( $i ~ "gz" ) print $i}'|tail -n1)
+if [ ! -f $TGZ ]
+then
+    exit 0
+fi
+TGZ_ORIG=$(echo $TGZ | sed "s/-\($VERSION.*\)tar.gz/_\1orig.tar.gz/g")
 
 # cleaning
 test -h "$TGZ_ORIG" && rm -f "$TGZ_ORIG"
@@ -27,3 +31,4 @@ cp $TGZ $TGZ_ORIG
 tar zvxf $TGZ_ORIG -C ../
 cp -a ${TGZ%.tar.gz} ${TGZ_ORIG%.tar.gz}
 exit 0
+
