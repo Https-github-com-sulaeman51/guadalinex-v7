@@ -71,6 +71,29 @@ class diagnosis:
         outp.write("\n")
         outp.close()
 
+    def launch_exception_glade(self, widget, data=None):
+
+        self.builder_exception=gtk.Builder()
+        
+        #Create exeption window when diagnostic report can't be shown
+
+        self.builder_exception.add_from_file("/usr/share/diagnostic_report/diagnostic_report_exception.glade")
+        self.builder_exception.connect_signals(self)
+
+        self.bt_cancel_exception=self.builder_exception.get_object("bt_cancel")
+        self.wddiagn_exception=self.builder_exception.get_object("wddiagn")
+        self.textinfo_exception=self.builder_exception.get_object("textinfo")
+        self.create_bt_exception=self.builder_exception.get_object("create_bt")
+
+
+        self.wddiagn_exception.set_title(_("Diagnostic report generator exception window"))
+        self.wddiagn_exception.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
+
+        buffer=self.textinfo_exception.get_buffer()
+        self.msg_error="_(Error message)"
+        buffer.set_text(self.msg_error)
+
+        self.wddiagn_exception.show_all()
 
     def on_wddiagn_destroy(self, widget, data=None):
         gtk.main_quit()
@@ -81,6 +104,7 @@ class diagnosis:
             os.remove(self.path_out)
 
         self.on_wddiagn_destroy(self)
+
 
     def on_create_bt_clicked(self, widget, data=None):
         curdir=os.getenv('HOME')
@@ -95,23 +119,6 @@ class diagnosis:
 
 
     def __init__(self):
-        self.builder=gtk.Builder()
-
-        #Get glade
-        self.builder.add_from_file("/usr/share/diagnostic_report/diagnostic_report.glade")
-        self.builder.connect_signals(self)
-
-        #Initial autoconnetions
-        self.bt_cancel=self.builder.get_object("bt_cancel")
-        self.wddiagn=self.builder.get_object("wddiagn")
-        self.textinfo=self.builder.get_object("textinfo")
-        self.create_bt=self.builder.get_object("create_bt")
-	
-            
-        self.wddiagn.set_title(_("Diagnostic report generator"))
-        self.wddiagn.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
-
-
         #Remove tmp file if exists
         if (os.path.exists(self.path_out)):
             os.remove(self.path_out)
@@ -131,8 +138,8 @@ class diagnosis:
         # X related info
         self.show_file ("/etc/X11/xorg.conf")
         self.show_file ("/var/log/Xorg.0.log")
-#        self.show_binary_exit ("ddcprobe")
-
+        self.show_binary_exit ("ddcprobe")
+#
         # disks related info
         self.show_binary_exit ("mount")
         self.show_binary_exit ("df -h")
@@ -198,14 +205,32 @@ class diagnosis:
             f=open(self.path_out, "r")
             try:
                 self.content=unicode(f.read(), "utf-8")
+
             except UnicodeDecodeError:
-                self.content="No se puede mostrar el fichero, se creará corréctamente en su escritorio\n"
+
+                self.launch_exception_glade(self)
+
+            else:
+
+                self.builder=gtk.Builder()
+                self.builder.add_from_file("/usr/share/diagnostic_report/diagnostic_report.glade")
+                self.builder.connect_signals(self)
+
+                #Initial autoconnetions
+                self.bt_cancel=self.builder.get_object("bt_cancel")
+                self.wddiagn=self.builder.get_object("wddiagn")
+                self.textinfo=self.builder.get_object("textinfo")
+                self.create_bt=self.builder.get_object("create_bt")
+
+                self.wddiagn.set_title(_("Diagnostic report generator"))
+                self.wddiagn.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
+
+                buffer=self.textinfo.get_buffer()
+                buffer.set_text(self.content)
+                self.wddiagn.show_all()
+
             f.close
 
-        buffer=self.textinfo.get_buffer()
-        buffer.set_text(self.content)
-
-        self.wddiagn.show_all()
 
     def main(self):
         gtk.main()
