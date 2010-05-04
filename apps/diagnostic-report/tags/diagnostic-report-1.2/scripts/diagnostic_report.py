@@ -96,7 +96,7 @@ class diagnosis:
 
         buffer=self.textinfo_exception.get_buffer()
         buffer.set_text(_("Error message"))
-
+        self.wddiagn_exception.set_position(gtk.WIN_POS_CENTER)
         self.wddiagn_exception.show_all()
 
 
@@ -143,8 +143,8 @@ class diagnosis:
         # X related info
         self.show_file ("/etc/X11/xorg.conf")
         self.show_file ("/var/log/Xorg.0.log")
-        self.show_binary_exit ("ddcprobe")
-#
+#        self.show_binary_exit ("ddcprobe")
+
         # disks related info
         self.show_binary_exit ("mount")
         self.show_binary_exit ("df -h")
@@ -232,6 +232,8 @@ class diagnosis:
 
                 buffer=self.textinfo.get_buffer()
                 buffer.set_text(self.content)
+                self.wddiagn.set_position(gtk.WIN_POS_CENTER)
+
                 self.wddiagn.show_all()
 
             f.close
