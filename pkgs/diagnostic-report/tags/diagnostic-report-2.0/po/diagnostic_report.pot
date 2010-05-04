@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-29 12:02+0200\n"
+"POT-Creation-Date: 2010-05-03 18:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,14 +16,48 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .././scripts/diagnostic_report.py:98
+#: .././scripts/diagnostic_report.py:88
+msgid "Diagnostic report generator init window"
+msgstr ""
+
+#: .././scripts/diagnostic_report.py:92
+msgid "Initial msg"
+msgstr ""
+
+#: .././scripts/diagnostic_report.py:124
+msgid "Error using standard interface"
+msgstr ""
+
+#: .././scripts/diagnostic_report.py:140
+msgid "Diagnostic report generator exception window"
+msgstr ""
+
+#: .././scripts/diagnostic_report.py:144
+msgid "Error message"
+msgstr ""
+
+#: .././scripts/diagnostic_report.py:164 .././scripts/diagnostic_report.py:198
 msgid "Diagnostic report generator"
 msgstr ""
 
-#: .././data/diagnostic_report.glade.h:38
-msgid "Cancel"
+#: .././scripts/diagnostic_report.py:202
+msgid "Final msg"
 msgstr ""
 
-#: .././data/diagnostic_report.glade.h:52
-msgid "OK"
+#: .././data/diagnostic_report.glade.h:1
+#: .././data/diagnostic_report_init.glade.h:1
+msgid "gtk-cancel"
+msgstr ""
+
+#: .././data/diagnostic_report.glade.h:2
+msgid "gtk-ok"
+msgstr ""
+
+#: .././data/diagnostic_report_init.glade.h:2
+msgid "gtk-media-next"
+msgstr ""
+
+#: .././data/diagnostic_report_exception.glade.h:1
+#: .././data/diagnostic_report_end.glade.h:1
+msgid "gtk-close"
 msgstr ""
