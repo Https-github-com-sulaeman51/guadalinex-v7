@@ -32,7 +32,6 @@ gettext.install("diagnostic_report")
 class diagnosis:
 #Output var to store diagnosis report
     path_out = "/tmp/diagnosis_report.txt"
-
     
     def show_file(self, file_r):
         try:
@@ -71,6 +70,54 @@ class diagnosis:
         outp.write("\n")
         outp.close()
 
+
+    def launch_initial_glade(self, widget, data=None):
+
+        self.builder_init=gtk.Builder()
+
+        ##INITIAL WINDOW
+
+        self.builder_init.add_from_file("/usr/share/diagnostic_report/diagnostic_report_init.glade")
+        self.builder_init.connect_signals(self)
+
+        self.bt_cancel_init=self.builder_init.get_object("bt_cancel_init")
+        self.wddiagn_init=self.builder_init.get_object("wddiagn")
+        self.textinfo_init=self.builder_init.get_object("textinfo")
+        self.create_bt_init=self.builder_init.get_object("bt_init")
+
+        self.wddiagn_init.set_title(_("Diagnostic report generator init window"))
+        self.wddiagn_init.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
+
+        buffer=self.textinfo_init.get_buffer()
+        buffer.set_text(_("Initial msg"))
+        self.wddiagn_init.set_position(gtk.WIN_POS_CENTER)
+        self.wddiagn_init.show_all()
+		
+    def on_bt_init_clicked(self, widget, data=None):
+        self.wddiagn_init.hide()
+        self.launch_os_calls(self)
+
+        ##Attach file to text
+        if os.path.isfile(self.path_out):
+            f=open(self.path_out, "r")
+            try:
+                self.content=unicode(f.read(), "utf-8")
+
+            except UnicodeDecodeError:
+
+                self.launch_exception_glade(self)
+
+            else:
+
+                self.launch_diagnostic_glade(self)
+
+            f.close
+			
+			
+    def on_bt_cancel_init_clicked(self, widget, data=None):
+        gtk.main_quit()
+
+
     def launch_exception_glade(self, widget, data=None):
 
         outp = open(self.path_out, "a")
@@ -99,65 +146,65 @@ class diagnosis:
         self.wddiagn_exception.show_all()
 
 
-    def launch_initial_glade(self, widget, data=None):
-
-        self.builder_init=gtk.Builder()
-
-        ##INITIAL WINDOW
-
-        self.builder_init.add_from_file("/usr/share/diagnostic_report/diagnostic_report_init.glade")
-        self.builder_init.connect_signals(self)
-
-        self.bt_cancel_init=self.builder_init.get_object("bt_cancel_init")
-        self.wddiagn_init=self.builder_init.get_object("wddiagn")
-        self.textinfo_init=self.builder_init.get_object("textinfo")
-        self.create_bt_init=self.builder_init.get_object("bt_init")
-
-        self.wddiagn_init.set_title(_("Diagnostic report generator init window"))
-        self.wddiagn_init.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
-
-        buffer=self.textinfo_init.get_buffer()
-        buffer.set_text(_("Initial msg"))
-        self.wddiagn_init.set_position(gtk.WIN_POS_CENTER)
-        self.wddiagn_init.show_all()
-
-    def on_wddiagn_destroy(self, widget, data=None):
-        gtk.main_quit()
+    def create_bt_clicked_cb(self, widget, data=None):
+        self.save_log(self)
+	gtk.main_quit()
 
 
-    def on_bt_init_clicked(self, widget, data=None):
-        self.wddiagn_init.hide()
-        self.launch_os_calls(self)
+    def launch_diagnostic_glade(self, widget, data=None):
+        self.builder=gtk.Builder()
+        self.builder.add_from_file("/usr/share/diagnostic_report/diagnostic_report.glade")
+        self.builder.connect_signals(self)
 
-        ##Attach file to text
-        if os.path.isfile(self.path_out):
-            f=open(self.path_out, "r")
-            try:
-                self.content=unicode(f.read(), "utf-8")
+        #Initial autoconnetions
+        self.wddiagn=self.builder.get_object("wddiagn")
+        self.textinfo=self.builder.get_object("textinfo")
+        self.create_bt=self.builder.get_object("create_bt")
 
-            except UnicodeDecodeError:
+        self.wddiagn.set_title(_("Diagnostic report generator"))
+        self.wddiagn.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
 
-                self.launch_exception_glade(self)
+        buffer=self.textinfo.get_buffer()
+        buffer.set_text(self.content)
+        self.wddiagn.set_position(gtk.WIN_POS_CENTER)
 
-            else:
-
-                self.launch_diagnostic_glade(self)
-
-            f.close
+        self.wddiagn.show_all()
 
 
-    def on_bt_cancel_init_clicked(self, widget, data=None):
-        self.on_wddiagn_destroy(self)
+    def on_create_bt_clicked(self, widget, data=None):
+        self.save_log(self)
+        self.launch_final_glade(self)
 
-    def on_wddiagn_destroy(self, widget, data=None):
-        gtk.main_quit()
 
     def on_bt_cancel_clicked(self, widget, data=None):
 
         if (os.path.exists(self.path_out)):
             os.remove(self.path_out)
 
-        self.on_wddiagn_destroy(self)
+        gtk.main_quit()
+		
+		
+    def launch_final_glade(self, widget, data=None):
+        self.builder_final=gtk.Builder()
+        self.builder_final.add_from_file("/usr/share/diagnostic_report/diagnostic_report_end.glade")
+        self.wddiagn.hide()
+        self.builder_final.connect_signals(self)
+
+        #Initial autoconnetions
+        self.wddiagn_final=self.builder_final.get_object("wddiagn")
+        self.textinfo_final=self.builder_final.get_object("textinfo")
+        self.create_bt_final=self.builder_final.get_object("bt_ok")
+
+        self.wddiagn_final.set_title(_("Diagnostic report generator"))
+        self.wddiagn_final.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
+
+        buffer=self.textinfo_final.get_buffer()
+        buffer.set_text(_("Final msg"))
+
+        self.wddiagn_final.set_position(gtk.WIN_POS_CENTER)
+
+        self.wddiagn_final.show_all()
+
 
     def launch_os_calls(self, widget, data=None):
         #Remove tmp file if exists
@@ -241,65 +288,25 @@ class diagnosis:
         self.show_binary_exit ("lspci | sort")
         ## -- ##
 
-    def launch_diagnostic_glade(self, widget, data=None):
-        self.builder=gtk.Builder()
-        self.builder.add_from_file("/usr/share/diagnostic_report/diagnostic_report.glade")
-        self.builder.connect_signals(self)
-
-        #Initial autoconnetions
-        self.wddiagn=self.builder.get_object("wddiagn")
-        self.textinfo=self.builder.get_object("textinfo")
-        self.create_bt=self.builder.get_object("create_bt")
-
-        self.wddiagn.set_title(_("Diagnostic report generator"))
-        self.wddiagn.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
-
-        buffer=self.textinfo.get_buffer()
-        buffer.set_text(self.content)
-        self.wddiagn.set_position(gtk.WIN_POS_CENTER)
-
-        self.wddiagn.show_all()
-	
-
-    def on_create_bt_clicked(self, widget, data=None):
+    
+    def save_log(self, widget, data=None):
         curdir=os.getenv('HOME')
-	    file_tar=curdir+"/Escritorio/informe_de_diagnostico.bz2"
+        file_tar=curdir+"/Escritorio/informe_de_diagnostico.bz2"
         
         tar = tarfile.open(file_tar,  "w:bz2")
         #Using True allow to only package the file without dirs
         tar.add(self.path_out, os.path.basename(self.path_out))
         tar.close()
-        #self.wddiagn.hide()
-
-        self.launch_final_glade(self)
-        
-    def launch_final_glade(self, widget, data=None):
-        self.builder_final=gtk.Builder()
-        self.builder_final.add_from_file("/usr/share/diagnostic_report/diagnostic_report_end.glade")
-        self.wddiagn.hide()
-        self.builder_final.connect_signals(self)
-
-        #Initial autoconnetions
-        self.wddiagn_final=self.builder_final.get_object("wddiagn")
-        self.textinfo_final=self.builder_final.get_object("textinfo")
-        self.create_bt_final=self.builder_final.get_object("bt_ok")
-
-        self.wddiagn_final.set_title(_("Diagnostic report generator"))
-        self.wddiagn_final.set_icon_from_file("/usr/share/icons/diagnostic-report.png")
-
-        buffer=self.textinfo_final.get_buffer()
-        buffer.set_text(_("Final msg"))
-
-        self.wddiagn_final.set_position(gtk.WIN_POS_CENTER)
-
-        self.wddiagn_final.show_all()
-
-    def create_bt_clicked_cb(self, widget, data=None):
-        self.on_wddiagn_destroy(self)
-
+		
+	
     def on_bt_ok_clicked (self, widget, data=None):
-        self.on_wddiagn_destroy(self)
+        gtk.main_quit()
 
+    
+    def on_wddiagn_destroy(self, widget, data=None):
+        gtk.main_quit()
+		
+	
     def destroy (self, widget, data=None):
         gtk.main_quit()
         
