@@ -14,10 +14,11 @@ ekiga
 f-spot
 gimp
 guadalinex-user-manual
+gwibber
 joe
 joystick
 # juegos
-#lemurae - temporarily removed because of broken depends
+lemurae
 libglade2.0-cil
 libgmime2.2a-cil
 libgnome-keyring1.0-cil
@@ -27,6 +28,7 @@ libndesk-dbus-glib1.0-cil
 libndesk-dbus1.0-cil
 linux-headers-generic
 mc
+me-tv
 minicom
 module-assistant
 ncftp
@@ -50,6 +52,7 @@ unrar-free
 vim
 vncviewer
 wine
+xchm
 xcursor-themes
 xnest
 xscreensaver-gl
