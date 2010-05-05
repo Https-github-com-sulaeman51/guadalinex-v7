@@ -1,4 +1,4 @@
-diagnostic-report (2.1) unstable; urgency=low
+diagnostic-report (2.1-0guada1) lucid; urgency=low
 
   * Added exceptions handle
 
