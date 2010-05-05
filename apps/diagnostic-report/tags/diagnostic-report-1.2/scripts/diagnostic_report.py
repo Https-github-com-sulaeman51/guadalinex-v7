@@ -25,14 +25,20 @@
 
 import pygtk
 pygtk.require("2.0")
-import gtk, os, tarfile, gettext
+import gtk, os, gettext
+#import tarfile
 
 gettext.install("diagnostic_report")
 
 class diagnosis:
 #Output var to store diagnosis report
     path_out = "/tmp/diagnosis_report.txt"
-    
+    curdir=os.getenv('HOME')
+    route_split=curdir.split('/')
+    curusr=route_split[2]
+    print(curusr)
+
+
     def show_file(self, file_r):
         try:
             inp = open (file_r, "r")
@@ -100,8 +106,11 @@ class diagnosis:
         ##Attach file to text
         if os.path.isfile(self.path_out):
             f=open(self.path_out, "r")
+
+
             try:
                 self.content=unicode(f.read(), "utf-8")
+                #print (self.content)
 
             except UnicodeDecodeError:
 
@@ -224,8 +233,8 @@ class diagnosis:
         self.show_file ("/etc/group")
 
         # X related info
-        self.show_file ("/etc/X11/xorg.conf")
-        self.show_file ("/var/log/Xorg.0.log")
+#        self.show_file ("/etc/X11/xorg.conf")
+#        self.show_file ("/var/log/Xorg.0.log")
 #        self.show_binary_exit ("ddcprobe")
 ####
         # disks related info
@@ -250,10 +259,10 @@ class diagnosis:
         self.show_binary_exit ("/sbin/lsmod")
 
         # grub related info
-        self.show_file ("/boot/grub/menu.lst")
+#        self.show_file ("/boot/grub/menu.lst")
 
         # 'proc' related info
-        self.show_file ("/proc/apm")
+#        self.show_file ("/proc/apm")
         self.show_file ("/proc/cmdline")
         self.show_file ("/proc/cpuinfo")
         self.show_file ("/proc/crypto")
@@ -289,15 +298,27 @@ class diagnosis:
         ## -- ##
 
     
+#    def save_log(self, widget, data=None):
+#        print (self.content)
+#        curdir=os.getenv('HOME')
+#        file_tar=curdir+"/Escritorio/informe_de_diagnostico.bz2"
+        
+#        tar = tarfile.open(file_tar,  "w:bz2")
+        #Using True allow to only package the file without dirs
+#        tar.add(self.path_out, os.path.basename(self.path_out))
+#        tar.close()
+
+
     def save_log(self, widget, data=None):
         curdir=os.getenv('HOME')
-        file_tar=curdir+"/Escritorio/informe_de_diagnostico.bz2"
-        
-        tar = tarfile.open(file_tar,  "w:bz2")
-        #Using True allow to only package the file without dirs
-        tar.add(self.path_out, os.path.basename(self.path_out))
-        tar.close()
-		
+        file_tar=curdir+"/Escritorio/informe_diagnostico.bz2"
+
+#        os.system("bzip2 -k %s" % self.path_out)
+        os.system("mv %s %s" %(self.path_out, file_tar))
+        os.system("chown %s.%s %s" %(self.curusr, self.curusr, file_tar))
+
+#        os.system("rm /tmp/diagnosis_report.txt.bz2")
+
 	
     def on_bt_ok_clicked (self, widget, data=None):
         gtk.main_quit()
