@@ -185,7 +185,6 @@ language-selector
 language-support-en
 language-support-es
 launchpad-integration
-lemurae
 lftp
 libatk1.0-data
 libavcodec-unstripped-52
@@ -265,7 +264,6 @@ localepurge
 ltrace
 m17n-contrib
 manpages-dev
-me-tv
 metacity
 min12xxw
 mlocate
@@ -393,7 +391,6 @@ vlc-plugin-sdl
 watermain
 wvdial
 xbitmaps
-xchm
 xdg-user-dirs
 xdg-user-dirs-gtk
 xfonts-mathml
