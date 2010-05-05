@@ -17,6 +17,7 @@
 
 * opensc-dnie 1.4.6-2
   * http://www.dnielectronico.es/descargas/PKCS11_para_Sistemas_Unix/1.4.6.Ubuntu_Jaunty_32/Ubuntu_Jaunty_opensc-dnie_1.4.6-2_i386.deb.tar
+  * they were rebuilt for adding epoch version to them
 
 * opensc-ceres
   * http://v6.guadalinex.org/guadalinex-buho/pool/restricted/o/opensc-ceres/opensc-ceres_2.0.2_i386.deb
