@@ -25,6 +25,14 @@
     <pcolor>#36369090dcdc</pcolor>
     <scolor>#36369090dcdc</scolor>
   </wallpaper>
+  <wallpaper deleted="false">
+    <name>Guadalinex V7 Clasico</name>
+    <filename>/usr/share/backgrounds/guadalinex_v7_classic_bg.png</filename>
+    <options>stretched</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#36369090dcdc</pcolor>
+    <scolor>#36369090dcdc</scolor>
+  </wallpaper>
   <wallpaper deleted="true">
     <name>Simple</name>
     <filename>/usr/share/backgrounds/simple-ubuntu.png</filename>
