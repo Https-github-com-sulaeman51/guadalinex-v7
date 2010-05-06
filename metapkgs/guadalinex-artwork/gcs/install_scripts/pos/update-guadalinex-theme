@@ -1,3 +1,4 @@
+update-alternatives --install /lib/plymouth/themes/default.plymouth default.plymouth /lib/plymouth/themes/guadalinex/guadalinex.plymouth 100
 update-alternatives --set default.plymouth /lib/plymouth/themes/guadalinex/guadalinex.plymouth
 update-initramfs -u
 
