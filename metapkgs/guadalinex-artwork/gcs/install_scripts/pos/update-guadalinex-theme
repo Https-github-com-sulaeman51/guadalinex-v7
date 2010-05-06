@@ -1,0 +1,3 @@
+update-alternatives --set default.plymouth /lib/plymouth/themes/guadalinex/guadalinex.plymouth
+update-initramfs -u
+
