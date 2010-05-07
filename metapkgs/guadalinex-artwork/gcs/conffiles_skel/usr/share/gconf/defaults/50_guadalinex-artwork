@@ -9,6 +9,7 @@
 /apps/panel/toplevels/top_panel_screen0/background/type		color
 /apps/panel/toplevels/top_panel_screen0/background/color	#d4e5ff
 /apps/panel/toplevels/top_panel_screen0/background/opacity      39321
+/apps/panel/toplevels/top_panel_screen0/background/image	/usr/share/pixmaps/guadalinex-panels-pattern.png
 /apps/panel/toplevels/bottom_panel_screen0/background/type	color
 /apps/panel/toplevels/bottom_panel_screen0/background/color	#d4e5ff
 /apps/panel/toplevels/bottom_panel_screen0/background/opacity   39321
