@@ -40,12 +40,12 @@ brltty-x11
 byzanz
 ca-certificates
 ca-certificates-java
+cairo-dock
 cdparanoia
 cdrecord
 cli-common
 command-not-found
 consolekit
-#contact-lookup-applet removed in lucid
 couchdb-bin
 cupsys
 cupsys-bsd
