@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=cairo-dock -o
+Exec=cairo-check
 Icon=cairo-dock.svg
 #DocPath=
 Terminal=false
