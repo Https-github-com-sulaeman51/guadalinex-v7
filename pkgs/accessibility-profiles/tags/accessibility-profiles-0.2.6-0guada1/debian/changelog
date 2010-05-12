@@ -1,3 +1,10 @@
+accessibility-profiles (0.2.6-0guada1) lucid; urgency=low
+
+  * debian/rules: upgraded to cdbs
+  * Added debian/watch
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 12 Apr 2010 18:11:23 +0200
+
 accessibility-profiles (0.2.5) lucid; urgency=low
 
   * debian/control: Fixed 'Homepage' field
