@@ -2,6 +2,8 @@ casper-guada (1.3.13) lucid; urgency=low
 
   * debian/data: added dir for hosting binary stuff that, for example will be
     diverted by casper-guada.
+  * scripts/casper-bottom/10adduser: changed ubiquity desktop file which is
+    installed in the user's desktop to the gtkui one.
 
  -- Roberto C. Morano <rcmorano@emergya.es>  Wed, 12 May 2010 12:44:21 +0200
 
