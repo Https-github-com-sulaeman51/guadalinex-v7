@@ -1,0 +1,2 @@
+version=3
+http://launchpad.net/accessibility-profiles/+download http://launchpad.net/accessibility-profiles/(.*)/accessibility-profiles-(.*)\.tar\.gz
