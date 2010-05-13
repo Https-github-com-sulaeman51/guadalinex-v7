@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-NoDisplay=True
+NoDisplay=true
 Exec=cairo-dock -o
 Icon=cairo-dock.svg
 #DocPath=
