@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 7.0.50),
                monodoc-base,
                libgtk2.0-cil-dev,
                pkg-config
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Vcs-Git: git://git.debian.org/git/pkg-cli-libs/packages/hyena.git
 Vcs-Browser: http://git.debian.org/?p=pkg-cli-libs/packages/hyena.git
 Homepage: http://live.gnome.org/Hyena
