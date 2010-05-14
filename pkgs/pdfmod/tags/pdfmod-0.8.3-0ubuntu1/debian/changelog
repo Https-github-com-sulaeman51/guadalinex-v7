@@ -1,3 +1,9 @@
+pdfmod (0.8.1-0guada2) lucid; urgency=low
+
+  * debian/control: added missing dependencies
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Mon, 04 May 2010 16:51:23 +0800
+
 pdfmod (0.8.1-0guada1) lucid; urgency=low
 
   * Debianization imported from the latest package in pdfmod-team's ppa
