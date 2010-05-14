@@ -1,0 +1,101 @@
+Source: hyena
+Section: cli-mono
+Priority: optional
+Maintainer: Debian CLI Libraries Team <pkg-cli-libs-team@lists.alioth.debian.org>
+Uploaders: Chow Loong Jin <hyperair@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.50),
+               autotools-dev,
+               cli-common-dev (>= 0.5.7),
+               mono-devel (>= 2.4.2),
+               monodoc-base,
+               libgtk2.0-cil-dev,
+               pkg-config
+Standards-Version: 3.8.3
+Vcs-Git: git://git.debian.org/git/pkg-cli-libs/packages/hyena.git
+Vcs-Browser: http://git.debian.org/?p=pkg-cli-libs/packages/hyena.git
+Homepage: http://live.gnome.org/Hyena
+
+Package: libhyena-cil
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${cli:Depends}
+Description: set of utility libraries for the CLI
+ Hyena is a set of utility Application Programing Interfaces (APIs) for the
+ Common Language Infrastructure (CLI), including both graphical and
+ non-graphical components.
+ .
+ Among the included namespaces in Hyena are:
+  * Hyena
+  * Hyena.Collections
+  * Hyena.CommandLine
+  * Hyena.Data
+  * Hyena.Jobs
+  * Hyena.Json
+  * Hyena.Query
+  * Hyena.SExpEngine
+  * Hyena.Data.Sqlite
+  * Hyena.Data.Gui
+  * Hyena.Gui
+  * Hyena.Gui.Dialogs
+  * Hyena.Gui.Theatrics
+  * Hyena.Gui.Theming
+  * Hyena.Query.Gui
+  * Hyena.Widgets
+
+Package: libhyena-cil-dev
+Architecture: all
+Depends: libhyena-cil (= ${binary:Version}), ${misc:Depends}
+Replaces: libhyena-cil (<< 0.2-2)
+Description: set of utility libraries for the CLI - development files
+ Hyena is a set of utility Application Programing Interfaces (APIs) for the
+ Common Language Infrastructure (CLI), including both graphical and
+ non-graphical components.
+ .
+ Among the included namespaces in Hyena are:
+  * Hyena
+  * Hyena.Collections
+  * Hyena.CommandLine
+  * Hyena.Data
+  * Hyena.Jobs
+  * Hyena.Json
+  * Hyena.Query
+  * Hyena.SExpEngine
+  * Hyena.Data.Sqlite
+  * Hyena.Data.Gui
+  * Hyena.Gui
+  * Hyena.Gui.Dialogs
+  * Hyena.Gui.Theatrics
+  * Hyena.Gui.Theming
+  * Hyena.Query.Gui
+  * Hyena.Widgets
+ .
+ This package contains development files for the Hyena libraries, and should be
+ used for compilation
+
+Package: monodoc-hyena-manual
+Section: doc
+Architecture: all
+Depends: monodoc-manual, ${misc:Depends}
+Description: compiled XML documentation for Hyena
+ Hyena is a set of utility Application Programing Interfaces (APIs) for the
+ Common Language Infrastructure (CLI), including both graphical and
+ non-graphical components.
+ .
+ Among the included namespaces in Hyena are:
+  * Hyena
+  * Hyena.Collections
+  * Hyena.CommandLine
+  * Hyena.Data
+  * Hyena.Jobs
+  * Hyena.Json
+  * Hyena.Query
+  * Hyena.SExpEngine
+  * Hyena.Data.Sqlite
+  * Hyena.Data.Gui
+  * Hyena.Gui
+  * Hyena.Gui.Dialogs
+  * Hyena.Gui.Theatrics
+  * Hyena.Gui.Theming
+  * Hyena.Query.Gui
+  * Hyena.Widgets
+ .
+ This package contains the compiled XML documentation for Hyena

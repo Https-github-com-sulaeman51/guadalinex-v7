@@ -1,0 +1,15 @@
+hyena (0.2-2) unstable; urgency=low
+
+  * debian/control,
+    debian/libhyena-cil.install,
+    debian/libhyena-cil-dev.install: Create -dev package containing pcfiles.
+  * debian/control: Add Vcs-* lines 
+  * debian/control, debian/copyright: Update homepage of Hyena 
+
+ -- Iain Lane <laney@ubuntu.com>  Tue, 01 Dec 2009 22:59:46 +0000
+
+hyena (0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #542351)
+
+ -- Chow Loong Jin <hyperair@ubuntu.com>  Tue, 22 Sep 2009 01:46:57 +0800

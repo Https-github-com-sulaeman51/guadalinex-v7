@@ -1,0 +1,45 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+include /usr/share/cli-common/cli.make
+
+DEBIAN_DIR = $(dir $(firstword $(MAKEFILE_LIST)))
+VERSION = $(shell dpkg-parsechangelog -l$(DEBIAN_DIR)/changelog | \
+			sed -n 's/\-.*$$//;s/Version: //p')
+USCAN = uscan \
+	--package=hyena \
+	--watchfile=$(DEBIAN_DIR)/watch \
+	--upstream-version=$(VERSION)
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		MCS=/usr/bin/mono-csc \
+		--enable-debug
+	find src -name '*.pc' -print | \
+		xargs sed -i -re 's|@expanded_libdir@|/usr/lib|g; s|[a-zA-Z/.]+.mdb||g'
+
+override_dh_auto_build:
+	dh_auto_build
+	mkdir -p monodoc
+	mdoc update \
+		-fno-assembly-versions \
+		-L$(CURDIR)/bin \
+		--out=monodoc
+	mdoc assemble \
+		--format ecma \
+		--out $(CURDIR)/Hyena \
+		$(CURDIR)/monodoc
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf Hyena.zip Hyena.tree monodoc
+
+get-orig-source:
+	$(USCAN) \
+		--download \
+		--force-download \
+		--rename \
+		--destdir=.
+
+%:
+	dh $@
