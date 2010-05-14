@@ -17,7 +17,8 @@ Build-Depends: debhelper (>= 7.0.50),
                libgconf2.0-cil-dev,
                libhyena-cil (>= 0.1),
                libhyena-cil-dev,
-               libpoppler-glib-dev
+               libpoppler-glib-dev,
+               quilt
 Standards-Version: 3.8.4
 Homepage: http://live.gnome.org/PdfMod
 Vcs-Git: git://git.debian.org/git/pkg-cli-apps/packages/pdfmod.git
