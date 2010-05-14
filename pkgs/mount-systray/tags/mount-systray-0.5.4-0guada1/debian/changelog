@@ -1,3 +1,12 @@
+mount-systray (0.5.3) karmic; urgency=low
+
+  * src/MSDeviceManager.py:
+    - Changed to use gvfs-mount instead of the more than deprecated pmount
+  * debian/contro:
+    - Replaced pmount depend by gvfs-bin
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 15 Dec 2009 18:29:21 +0200
+
 mount-systray (0.5.2) jaunty; urgency=low
 
   * Fixed icon name in .desktop
