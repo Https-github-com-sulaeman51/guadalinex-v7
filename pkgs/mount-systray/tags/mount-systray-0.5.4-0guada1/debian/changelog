@@ -7,6 +7,7 @@ mount-systray (0.5.4-0guada1) lucid; urgency=low
     - Fixed cd ejection
   * debian/control:
     - Updated depends
+  * debian/watch: added upstream resource
 
  -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 14 May 2010 11:42:12 +0200
 
