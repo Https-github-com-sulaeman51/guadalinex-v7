@@ -11,9 +11,12 @@ Build-Depends: debhelper (>= 7.0.50),
                mono-devel (>= 2.4.2),
                gnome-doc-utils (>= 0.3.2),
                intltool (>= 0.35.0),
+               gtk-sharp2,
                libgnome2.24-cil,
                libgconf2.0-cil,
+               libgconf2.0-cil-dev,
                libhyena-cil (>= 0.1),
+               libhyena-cil-dev,
                libpoppler-glib-dev
 Standards-Version: 3.8.4
 Homepage: http://live.gnome.org/PdfMod
