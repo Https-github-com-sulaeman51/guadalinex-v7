@@ -18,6 +18,7 @@ Build-Depends: debhelper (>= 7.0.50),
                libhyena-cil (>= 0.1),
                libhyena-cil-dev,
                libpoppler-glib-dev,
+               cdbs,
                quilt
 Standards-Version: 3.8.4
 Homepage: http://live.gnome.org/PdfMod
