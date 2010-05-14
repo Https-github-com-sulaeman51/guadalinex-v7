@@ -1,0 +1,70 @@
+diff --git a/po/POTFILES.in b/po/POTFILES.in
+index 15fe676..07e3a0c 100644
+--- a/po/POTFILES.in
++++ b/po/POTFILES.in
+@@ -5,6 +5,7 @@ data/pdfmod.desktop.in.in
+ src/PdfMod/Pdf/Actions/ExportImagesAction.cs
+ src/PdfMod/Pdf/Actions/MoveAction.cs
+ src/PdfMod/Pdf/Actions/RemoveAction.cs
++src/PdfMod/Pdf/Page.cs
+ src/PdfMod/Gui/Actions.cs
+ src/PdfMod/Gui/PageListStore.cs
+ src/PdfMod/Gui/Client.cs
+diff --git a/src/PdfMod/Gui/PageListStore.cs b/src/PdfMod/Gui/PageListStore.cs
+index b7ac848..354f435 100644
+--- a/src/PdfMod/Gui/PageListStore.cs
++++ b/src/PdfMod/Gui/PageListStore.cs
+@@ -19,7 +19,6 @@ using System;
+ using System.Collections.Generic;
+ using System.Linq;
+ 
+-using Mono.Unix;
+ using Gtk;
+ 
+ using PdfMod.Pdf;
+@@ -63,14 +62,12 @@ namespace PdfMod.Gui
+                 }
+             }
+         }
+-        
++
+         string GetPageTooltip (Page page)
+         {
+-            var label = page.Document.Labels[page];
+-            string page_no = Catalog.GetString (String.Format ("Page {0}", page.Index + 1));
+-            return ((null == label) ? page_no : String.Format ("{0} ({1})", label, page_no));
++            return page.Name;
+         }
+-        
++
+         public void UpdateForPage (TreeIter iter, Page page)
+         {
+             SetValue (iter, SortColumn, page.Index);
+diff --git a/src/PdfMod/Pdf/Page.cs b/src/PdfMod/Pdf/Page.cs
+index 83bfcea..7dbd814 100644
+--- a/src/PdfMod/Pdf/Page.cs
++++ b/src/PdfMod/Pdf/Page.cs
+@@ -16,6 +16,8 @@
+ 
+ using System;
+ 
++using Mono.Unix;
++
+ using PdfSharp.Pdf;
+ 
+ namespace PdfMod.Pdf
+@@ -28,6 +30,14 @@ namespace PdfMod.Pdf
+         public int Index { get; internal set; }
+         public bool SurfaceDirty { get; internal set; }
+ 
++        public string Name {
++            get {
++                var label = Document.Labels[this];
++                string page_num = String.Format (Catalog.GetString ("Page {0}"), Index + 1);
++                return label == null ? page_num : String.Format ("{0} ({1})", label, page_num);
++            }
++        }
++
+         public Page (PdfPage pdf_page)
+         {
+             Pdf = pdf_page;
