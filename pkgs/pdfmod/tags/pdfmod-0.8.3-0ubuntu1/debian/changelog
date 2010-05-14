@@ -1,0 +1,12 @@
+pdfmod (0.6-0ubunu1~ppa2~karmic) karmic; urgency=low
+
+  * debian/PdfMod.exe.config, debian/pdfmod.install:
+    + Add a dllmap for glib-2.0.dll
+
+ -- Chow Loong Jin <hyperair@ubuntu.com>  Thu, 20 Aug 2009 05:34:41 +0800
+
+pdfmod (0.6-0ubunu1~ppa1~karmic) karmic; urgency=low
+
+  * Initial release (Closes: #540155)
+
+ -- Chow Loong Jin <hyperair@ubuntu.com>  Thu, 20 Aug 2009 04:31:57 +0800
