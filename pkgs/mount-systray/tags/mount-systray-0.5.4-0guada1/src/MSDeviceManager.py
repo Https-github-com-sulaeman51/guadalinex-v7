@@ -14,7 +14,7 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA.
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 import sys
 import os
@@ -180,7 +180,8 @@ class MSDeviceManager(gobject.GObject):
                                          "human_name" : human_name,
                                          "type": storage["type"],
                                          "mount_point": properties["volume.mount_point"],
-                                         "is_mounted": properties["volume.is_mounted"]
+                                         "is_mounted": properties["volume.is_mounted"],
+                                         "block_device": properties["block.device"]
                                          })
                     extras = {'real_uid': volume_uid}
                     self.dbus.add_signal_receiver(lambda *args: apply (self.__property_modified, args, extras),
@@ -202,11 +203,13 @@ class MSDeviceManager(gobject.GObject):
 
     def volume_unmount(self, uid):
         for volume in self.volumes:
-            if volume["uid"] == uid:
-                if (os.path.exists ("/usr/bin/gnome-mount") == True):
+             if volume["uid"] == uid:
+                if (os.path.exists ("/usr/bin/udisks") == True):
+                    cmdline = "udisks --unmount " + volume["block_device"]
+                elif (os.path.exists ("/usr/bin/gnome-mount") == True):
                     cmdline = "gnome-mount --hal-udi " + uid + " --unmount"
-                elif (os.path.exists ("/usr/bin/gvfs-mount") == True):
-                    cmdline = "/usr/bin/gvfs-mount -u " + volume["mount_point"]
+                elif (os.path.exists ("/usr/bin/pumount") == True):
+                    cmdline = "pumount " + volume["mount_point"]
                 os.system (cmdline)
                 if volume["type"] == "cdrom":
                     cmdline = "eject " + volume["mount_point"]
