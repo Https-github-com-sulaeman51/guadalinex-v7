@@ -1,3 +1,11 @@
+hyena (0.3-0guada1) unstable; urgency=low
+
+  * New upstream version
+  * debian/sources/format: Switch to dpkg-source 3.0 (quilt) format
+  * debian/control: added Juanje Ojeda as an uploader
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Wed, 12 May 2010 01:03:27 +0200
+
 hyena (0.2-2) unstable; urgency=low
 
   * debian/control,
