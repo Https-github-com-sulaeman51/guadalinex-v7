@@ -20,6 +20,6 @@ Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/mount-systray/trunk
 
 Package: mount-systray
 Architecture: any
-Depends: python-gtk2, python-gnome2, pmount | gnome-mount, python-notify, ${misc:Depends}
+Depends: python-gtk2, python-gnome2, gvfs-bin | gnome-mount, python-notify, ${misc:Depends}
 Description: Systray applicacion for umount devices easy
  Systray applicacion for umount devices easy, with integrated notification.
