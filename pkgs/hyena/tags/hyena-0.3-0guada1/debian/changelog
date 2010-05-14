@@ -1,10 +1,11 @@
-hyena (0.3-0guada1) unstable; urgency=low
+hyena (0.3-0guada1) lucid; urgency=low
 
   * New upstream version
   * debian/sources/format: Switch to dpkg-source 3.0 (quilt) format
   * debian/control: added Juanje Ojeda as an uploader
+  * debian/control: added section libdevel for libhyena-cil-dev package
 
- -- Juanje Ojeda Croissier <jojeda@emergya.es>  Wed, 12 May 2010 01:03:27 +0200
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Wed, 12 May 2010 01:21:31 +0200
 
 hyena (0.2-2) unstable; urgency=low
 

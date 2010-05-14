@@ -43,6 +43,7 @@ Description: set of utility libraries for the CLI
   * Hyena.Widgets
 
 Package: libhyena-cil-dev
+Section: libdevel
 Architecture: all
 Depends: libhyena-cil (= ${binary:Version}), ${misc:Depends}
 Replaces: libhyena-cil (<< 0.2-2)
