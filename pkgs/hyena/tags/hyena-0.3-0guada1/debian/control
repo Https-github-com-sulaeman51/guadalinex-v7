@@ -2,7 +2,8 @@ Source: hyena
 Section: cli-mono
 Priority: optional
 Maintainer: Debian CLI Libraries Team <pkg-cli-libs-team@lists.alioth.debian.org>
-Uploaders: Chow Loong Jin <hyperair@ubuntu.com>
+Uploaders: Chow Loong Jin <hyperair@ubuntu.com>,
+           Juanje Ojeda Croissier <jojeda@emergya.es>
 Build-Depends: debhelper (>= 7.0.50),
                autotools-dev,
                cli-common-dev (>= 0.5.7),
