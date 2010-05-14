@@ -212,7 +212,7 @@ class MSDeviceManager(gobject.GObject):
                     cmdline = "pumount " + volume["mount_point"]
                 os.system (cmdline)
                 if volume["type"] == "cdrom":
-                    cmdline = "eject " + volume["mount_point"]
+                    cmdline = "eject " + volume["block_device"]
                     os.system(cmdline)
 
                 #device_dbus_obj = self.dbus.get_object("org.freedesktop.Hal", uid)
