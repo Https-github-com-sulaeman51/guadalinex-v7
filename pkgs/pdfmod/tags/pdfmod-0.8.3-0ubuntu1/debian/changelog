@@ -5,8 +5,9 @@ pdfmod (0.8.3-0ubuntu1) lucid; urgency=low
   updated-po-files.diff patch
   * debian/control: added cdbs missing builddependencies
   * debian/rules: changed to use cdbs
+  * debian/control: the package needs version >= 0.3 of libhyena-cil-dev 
 
- -- Juanje Ojeda Croissier <jojeda@emergya.es>  Tue, 11 May 2010 18:25:56 +0200
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Wed, 12 May 2010 00:37:18 +0200
 
 pdfmod (0.8.1-0guada3) lucid; urgency=low
 
