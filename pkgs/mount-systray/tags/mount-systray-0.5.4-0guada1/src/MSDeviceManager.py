@@ -205,8 +205,8 @@ class MSDeviceManager(gobject.GObject):
             if volume["uid"] == uid:
                 if (os.path.exists ("/usr/bin/gnome-mount") == True):
                     cmdline = "gnome-mount --hal-udi " + uid + " --unmount"
-                elif (os.path.exists ("/usr/bin/pumount") == True):
-                    cmdline = "pumount " + volume["mount_point"]
+                elif (os.path.exists ("/usr/bin/gvfs-mount") == True):
+                    cmdline = "/usr/bin/gvfs-mount " + volume["mount_point"]
                 os.system (cmdline)
                 if volume["type"] == "cdrom":
                     cmdline = "eject " + volume["mount_point"]
