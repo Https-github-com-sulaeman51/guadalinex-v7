@@ -4,7 +4,8 @@ Priority: optional
 XSBC-Original-Maintainer: Debian CLI Applications Team <pkg-cli-apps-team@lists.alioth.debian.org>
 Maintainer: Guadalinex Team <packmaster@guadalinex.org>
 Uploaders: Chow Loong Jin <hyperair@ubuntu.com>,
-           Roberto C. Morano <rcmorano@emergya.es>
+           Roberto C. Morano <rcmorano@emergya.es>,
+           Juanje Ojeda Croissier <jojeda@emergya.es>
 Build-Depends: debhelper (>= 7.0.50),
                autotools-dev,
                cli-common-dev (>= 0.5.7),
