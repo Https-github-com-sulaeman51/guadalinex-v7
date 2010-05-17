@@ -47,6 +47,9 @@
             <string>clock</string>
           </value>
           <value>
+            <string>indicator_applet</string>
+          </value>
+          <value>
             <string>notification_area</string>
           </value>
           <value>
