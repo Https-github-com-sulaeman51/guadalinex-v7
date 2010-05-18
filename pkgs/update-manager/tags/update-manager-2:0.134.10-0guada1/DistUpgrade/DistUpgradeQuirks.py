@@ -387,7 +387,7 @@ class DistUpgradeQuirks(object):
     def from_hardyStartUpgrade(self):
         logging.debug("from_hardyStartUpgrade quirks")
         self._stopApparmor()
-    def karmicStartUpgrade(self):
+    def lucidStartUpgrade(self):
         logging.debug("karmicStartUpgrade quirks")
         self._killNetworkManager()
     def jauntyStartUpgrade(self):
@@ -677,9 +677,10 @@ class DistUpgradeQuirks(object):
         kill it in a controlled way so that it can not take down the
         network
         """
-        if os.path.exists("/usr/bin/nm-applet"):
+        if (os.path.exists("/usr/bin/nm-applet") and 
+            os.path.exists("/usr/bin/killall")):
             logging.debug("killing nm-applet")
-            subprocess.call(["killall", "-9", "nm-applet"])
+            subprocess.call(["killall", "-q", "-9", "nm-applet"])
     def _killUpdateNotifier(self):
         "kill update-notifier"
         # kill update-notifier now to suppress reboot required
