@@ -15,9 +15,9 @@ build-stamp:
 	dh_testdir
 
 	#docbook-to-man debian/watermain.sgml > watermain.1
-	xsltproc -''-nonet /usr/share/sgml/docbook/stylesheet/xsl/nwalsh/manpages/docbook.xsl debian/manpage.es.xml
+	xsltproc --nonet /usr/share/sgml/docbook/stylesheet/xsl/nwalsh/manpages/docbook.xsl debian/manpage.es.xml
 	mv watermain.8 watermain.es.8
-	xsltproc -''-nonet /usr/share/sgml/docbook/stylesheet/xsl/nwalsh/manpages/docbook.xsl debian/manpage.xml
+	xsltproc --nonet /usr/share/sgml/docbook/stylesheet/xsl/nwalsh/manpages/docbook.xsl debian/manpage.xml
 	#cp watermain.py.8 watermain.py.en.8
 
 clean:

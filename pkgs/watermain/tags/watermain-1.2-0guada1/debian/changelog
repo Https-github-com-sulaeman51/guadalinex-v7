@@ -1,9 +1,26 @@
+watermain (1.2-0guada1) lucid; urgency=low
+
+  * New upstream version
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 18 May 2010 11:12:15 +0200
+
 watermain (1.1-0guada1) lucid; urgency=low
 
   * Updated version
   * Added debian/watch
 
  -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 30 Apr 2010 14:11:22 +0200
+
+watermain (1.1) jaunty; urgency=low
+
+  * Fixed some minor docbook2man issues (by adding docbook as a build-depend
+    and changed some xsltproc parameters).
+  * Added XSBC-Original-Maintainer field to the debian/control file.
+  * Updated the copyright info on debian/copyright.
+  * Removed some auto generated file from the sources
+  * Changed version to a native style, because this is a nativa package.
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 04 May 2009 11:50:25 +0200
 
 watermain (1.0-3guada7) jaunty; urgency=low
 
