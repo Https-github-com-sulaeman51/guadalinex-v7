@@ -3,6 +3,8 @@ update-manager (1:0.134.3) UNRELEASED; urgency=low
   * do-release-upgrade:
     - print when a new release is available in "-q" so that the motd
       is correct (thanks to Dustin Kirkland)
+  * debian/release-upgrade-motd:
+    - add newline after release info (thanks to Dustin Kirkland)
 
  -- Michael Vogt <michael.vogt@ubuntu.com>  Tue, 13 Apr 2010 18:03:17 +0200
 
