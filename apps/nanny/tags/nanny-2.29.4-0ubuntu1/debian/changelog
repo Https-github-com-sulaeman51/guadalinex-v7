@@ -4,8 +4,9 @@ nanny (2.29.4-0ubuntu1) unstable; urgency=low
   * Removed patches which are already integrated upstream
   * Added missed python-gtop build-depend
   * Upgraded Standard-Version to 3.8.4
+  * Added patch for taking off the encoding from the .desktop file 
 
- -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 17 May 2010 16:13:04 +0200
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Tue, 18 May 2010 00:20:54 +0200
 
 nanny (2.29.3-0ubuntu2~lucid1) unstable; urgency=low
 
