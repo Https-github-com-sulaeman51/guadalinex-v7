@@ -1,4 +1,26 @@
-nanny (2.29.1-0ubuntu1) karmic; urgency=low
+nanny (2.29.3-0ubuntu2) jaunty; urgency=low
+
+  * Fix .la crash
+  * Add patches/help_button_crash.diff 
+
+ -- Roberto Majadas <roberto.majadas@openshine.com>  Sun, 21 Feb 2010 20:38:08 +0100
+
+nanny (2.29.3-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Sun, 21 Feb 2010 18:55:16 +0100
+
+nanny (2.29.1-0ubuntu2) jaunty; urgency=low
+
+  * New upstream changes
+  * Added python-hachoir-regex as a depend
+  * Set up .autogen.sh as DEB_CONFIGURE_SCRIPT at debian/rules file 
+  * Added some missing bild-deps
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 08 Feb 2010 02:14:18 +0100
+
+nanny (2.29.1-0ubuntu1) jaunty; urgency=low
 
   * Initial release (LP: #501528)
   * Separate the upstream code from the packaging stuff

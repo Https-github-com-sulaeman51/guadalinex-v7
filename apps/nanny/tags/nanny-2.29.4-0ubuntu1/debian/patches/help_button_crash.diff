@@ -1,0 +1,16 @@
+Index: nanny-2.29.3/client/gnome/admin/src/AdminConsole.py
+===================================================================
+--- nanny-2.29.3.orig/client/gnome/admin/src/AdminConsole.py	2010-02-21 20:49:22.000000000 +0100
++++ nanny-2.29.3/client/gnome/admin/src/AdminConsole.py	2010-02-21 20:49:49.000000000 +0100
+@@ -348,7 +348,10 @@
+             self.im_hoursday_spinbutton.set_sensitive (False)
+ 
+     def __on_help_button_clicked (self, widget, data=None):
+-       	gtk.show_uri(None , "ghelp:nanny", gtk.get_current_event_time()) 
++        try:
++            gtk.show_uri(None , "ghelp:nanny", gtk.get_current_event_time())
++        except:
++            os.system("yelp ghelp:nanny")
+ 
+     def __on_close_button_clicked (self, widget, data=None):
+         gtk.main_quit()
