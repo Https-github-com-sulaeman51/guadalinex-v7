@@ -1,0 +1,608 @@
+# french translation of update-manager.
+# Copyright (C) 2005 THE update-manager'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the update-manager package.
+# Jean Privat <privat@lirmm.fr>, 2005.
+# Vincent Carriere <carriere_vincent@yahoo.fr>, 2005
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager 0.37.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-12 12:52+0100\n"
+"PO-Revision-Date: 2005-04-04 19:43+0200\n"
+"Last-Translator: \n"
+"Language-Team: French <gnomefr@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/SoftwareProperties.glade.h:1
+msgid "<b>Internet Updates</b>"
+msgstr "<b>Mise à jour par Internet</b>"
+
+#: ../data/SoftwareProperties.glade.h:2
+#, fuzzy
+msgid "<b>Keys</b>"
+msgstr "<b>Détails</b>"
+
+#: ../data/SoftwareProperties.glade.h:3
+#, fuzzy
+msgid "<b>Sources</b>"
+msgstr "<b>Sources des logiciels</b>"
+
+#: ../data/SoftwareProperties.glade.h:4
+#, fuzzy
+msgid "Add _Cdrom"
+msgstr "Ajouter un _cédérom"
+
+#: ../data/SoftwareProperties.glade.h:5
+#, fuzzy
+msgid "Authentication"
+msgstr "A_uthentification"
+
+#: ../data/SoftwareProperties.glade.h:6
+msgid "Check for updates every"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:7
+#, fuzzy
+msgid "Installation Media"
+msgstr "Installation des mises à jour..."
+
+#: ../data/SoftwareProperties.glade.h:8
+#, fuzzy
+msgid "Restore Defaults"
+msgstr "Restaurer les clés par défaut"
+
+#: ../data/SoftwareProperties.glade.h:9
+msgid "Software Preferences"
+msgstr "Préférences du logiciel"
+
+#: ../data/SoftwareProperties.glade.h:10
+msgid "day(s)"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:1
+msgid "<b>Details</b>"
+msgstr "<b>Détails</b>"
+
+#: ../data/UpdateManager.glade.h:2
+msgid "<b>Packages to install:</b>"
+msgstr "<b>Paquets à installer :</b>"
+
+#: ../data/UpdateManager.glade.h:3
+msgid ""
+"<big><b>Available Updates</b></big>\n"
+"\n"
+"The following packages are found to be upgradable. You can upgrade them by "
+"using the Install button."
+msgstr ""
+"<big><b>Mises à jour disponibles</b></big>\n"
+"\n"
+"Les paquets suivant peuvent être mis à jour. Vous pouvez les mettre à jour "
+"en utilisant le bouton Installer."
+
+#: ../data/UpdateManager.glade.h:6
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Downloading changes</span>\n"
+"\n"
+"Need to get the changes from the central server"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Téléchargement des changements</span>\n"
+"\n"
+"Il est nécessaire de récupérer les changement du serveur central"
+
+#: ../data/UpdateManager.glade.h:9
+msgid "Cancel downloading the changelog"
+msgstr "Annuler le téléchargement du changelog"
+
+#: ../data/UpdateManager.glade.h:10
+msgid "Changes"
+msgstr "Changements"
+
+#: ../data/UpdateManager.glade.h:11
+msgid "Description"
+msgstr "Description"
+
+#: ../data/UpdateManager.glade.h:12
+msgid "Release Notes"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:13
+msgid "Reload"
+msgstr "Recharger"
+
+#: ../data/UpdateManager.glade.h:14
+msgid ""
+"Reload the package information from the server. \n"
+"\n"
+"If you have a permanent internet connection this is done automatically. If "
+"you are behind an internet connection that needs to be started by hand (e.g. "
+"a modem) you should use this button so that update-manager knows about new "
+"updates."
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:17
+msgid "Show progress of single files"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:18
+msgid "Software Updates"
+msgstr "Mises à jour des logiciels"
+
+#: ../data/UpdateManager.glade.h:19
+#, fuzzy
+msgid "Upgrade"
+msgstr "Mise à jour terminée"
+
+#: ../data/UpdateManager.glade.h:20
+msgid "_Install"
+msgstr "_Installer"
+
+#. ChangelogURI
+#: ../channels/Ubuntu.info.in.h:4
+#, no-c-format
+msgid "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:6
+msgid "Breezy 6.04 \"Dapper Drake\""
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:23
+msgid "Breezy 5.10 \"Breezy Badger\""
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:40
+#, fuzzy
+msgid "Ubuntu 5.10 Security Updates"
+msgstr "Ubuntu 5.04 Mises à jour de sécurité"
+
+#. Description
+#: ../channels/Ubuntu.info.in:57
+#, fuzzy
+msgid "Ubuntu 5.10 Updates"
+msgstr "Mises à jour d'Ubuntu 5.04"
+
+#. Description
+#: ../channels/Ubuntu.info.in:74
+#, fuzzy
+msgid "Ubuntu 5.04 \"Hoary Hedgehog\""
+msgstr "Ubuntu 5.04 Mises à jour de sécurité"
+
+#. Description
+#: ../channels/Ubuntu.info.in:91
+msgid "Ubuntu 5.04 Security Updates"
+msgstr "Ubuntu 5.04 Mises à jour de sécurité"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:94 ../channels/Debian.info.in:51
+#, fuzzy
+msgid "Oficially supported"
+msgstr "Supportés officiellement"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:97
+msgid "Restricted copyright"
+msgstr "Copyright restreint"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:100
+msgid "Community maintained (Universe)"
+msgstr "Maintenu par la communauté (Universe)"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:103
+msgid "Non-free (Multiverse)"
+msgstr "Non-libre (Multiverse)"
+
+#. ChangelogURI
+#: ../channels/Debian.info.in.h:4
+#, no-c-format
+msgid "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:6
+msgid "Debian 3.1 \"Sarge\""
+msgstr ""
+
+#. BaseURI
+#: ../channels/Debian.info.in:19
+msgid "http://security.debian.org/"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:20
+#, fuzzy
+msgid "Debian 3.1 \"Sarge\" Security Updates"
+msgstr "Debian Stable Mises à jour de sécurité"
+
+#. Description
+#: ../channels/Debian.info.in:34
+msgid "Debian \"Etch\" (testing)"
+msgstr ""
+
+#. BaseURI
+#: ../channels/Debian.info.in:47
+msgid "http://http.us.debian.org/debian/"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:48
+msgid "Debian \"Sid\" (unstable)"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Debian.info.in:54
+msgid "DFSG-compatible Software with Non-Free Dependencies"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Debian.info.in:57
+msgid "Non-DFSG-compatible Software"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:208
+msgid "Choose a key-file"
+msgstr "Choisir un fichier de clé"
+
+#: ../SoftwareProperties/SoftwareProperties.py:218
+msgid "Error importing selected file"
+msgstr "Erreur lors du chargement du fichier sélectionné"
+
+#: ../SoftwareProperties/SoftwareProperties.py:219
+msgid "The selected file may not be a GPG key file or it might be corrupt."
+msgstr ""
+"Le fichier sélectionné n'est peut-être pas un clé GPG ou alors il est "
+"corrompu."
+
+#: ../SoftwareProperties/SoftwareProperties.py:231
+msgid "Error removing the key"
+msgstr "Erreur lors de la suppression de la clé"
+
+#: ../SoftwareProperties/SoftwareProperties.py:232
+msgid "The key you selected could not be removed. Please report this as a bug."
+msgstr ""
+"La clé que vous avez sélectionné ne peut être supprimé. Veuillez envoyer "
+"ceci comme étant un bug."
+
+#: ../SoftwareProperties/SoftwareProperties.py:275
+#, python-format
+msgid ""
+"<big><b>Error scaning the CD</b></big>\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:325
+msgid "Please enter a name for the disc"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:341
+msgid "Please insert a disc in the drive:"
+msgstr ""
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>Commentaire :</b>"
+
+#~ msgid "<b>Components</b>"
+#~ msgstr "<b>Composants</b>"
+
+#~ msgid "<b>Distribution:</b>"
+#~ msgstr "<b>Distribution :</b>"
+
+#~ msgid "<b>Repository</b>"
+#~ msgstr "<b>Dépôt</b>"
+
+#~ msgid "<b>Sections:</b>"
+#~ msgstr "<b>Sections :</b>"
+
+#~ msgid "<b>Temporary files</b>"
+#~ msgstr "<b>Fichiers temporaires</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Type :</b>"
+
+#~ msgid "<b>URI:</b>"
+#~ msgstr "<b>URI :</b>"
+
+#~ msgid "<b>User Interface</b>"
+#~ msgstr "<b>Interface utilisateur</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<big><b>Authentication keys</b></big>\n"
+#~ "\n"
+#~ "You can add and remove authentication keys in this dialog. A key makes it "
+#~ "possible to verify the integrity of the software you download."
+#~ msgstr ""
+#~ "<big><b>Clés d'authentification</b></big>\n"
+#~ "\n"
+#~ "Vous pouvez ajouter ou enlever des clés d'authentification grâce à cette "
+#~ "boîte de dialogue. Une clé rend possible la vérification de l'intégrité "
+#~ "des logiciels que vous téléchargez."
+
+#~ msgid ""
+#~ "<big><b>Enter the complete APT line of the repository that you want to "
+#~ "add</b></big>\n"
+#~ "\n"
+#~ "The APT line contains the type, location and content of a repository, for "
+#~ "example <i>\"deb http://ftp.debian.org sarge main\"</i>. You can find a "
+#~ "detailed description of the syntax in the documentation."
+#~ msgstr ""
+#~ "<big><b>Saisissez la ligne APT complète du dépôt que vous souhaitez "
+#~ "ajouter</b></big>\n"
+#~ "\n"
+#~ "La ligne APT contient le type, la source et le contenu d'un dépôt, par "
+#~ "exemple « deb http://ftp.debian.org sarge main ». Vous pouvez trouver une "
+#~ "description détaillée de la syntaxe dans la documentation."
+
+#~ msgid "APT line:"
+#~ msgstr "Ligne APT :"
+
+#~ msgid "A_uthentication"
+#~ msgstr "A_uthentification"
+
+#, fuzzy
+#~ msgid ""
+#~ "Add a new key file to the trusted keyring. Make sure that you received "
+#~ "the key over a secure channel and that you trust the owner. "
+#~ msgstr ""
+#~ "Ajouter une nouvelle clé au trousseau digne de confiance. Veuillez "
+#~ "vérifier que vous avez obtenu la clé à travers un canal sécurisé et que "
+#~ "vous faites confiance à son possesseur."
+
+#~ msgid "Automatically check for software _updates."
+#~ msgstr "Vérifier automatiquement les mises à jo_ur des logiciels."
+
+#~ msgid "Automatically clean _temporary packages files"
+#~ msgstr "Nettoyer automatiquement les fichiers _temporaires des paquets"
+
+#~ msgid ""
+#~ "Binary\n"
+#~ "Source"
+#~ msgstr ""
+#~ "Binaire\n"
+#~ "Source"
+
+#~ msgid "Clean interval in days: "
+#~ msgstr "Nombre de jours avant nettoyage : "
+
+#~ msgid "Delete _old packages in the package cache"
+#~ msgstr "Supprimer les _anciens paquets du cache des paquets"
+
+#~ msgid "Edit Repository..."
+#~ msgstr "Éditer le dépôt..."
+
+#~ msgid "Maximum age in days:"
+#~ msgstr "Âge maximal en jours :"
+
+#~ msgid "Maximum size in MB:"
+#~ msgstr "Taille maximale en Mo :"
+
+#~ msgid "Remove the selected key from the trusted keyring."
+#~ msgstr "Supprimer la clé sélectionnée du trousseau digne de confiance."
+
+#, fuzzy
+#~ msgid ""
+#~ "Restore the default keys shipped with the distribution. This will not "
+#~ "change user installed keys."
+#~ msgstr ""
+#~ "Restaurer les clés par défaut fournies avec la distribution. Les clés "
+#~ "installées par l'utilisateur ne seront pas modifiées."
+
+#~ msgid "Set _maximum size for the package cache"
+#~ msgstr "Définir une taille _maximale pour le cache de paquets"
+
+#~ msgid "Settings"
+#~ msgstr "Paramètres"
+
+#~ msgid "Show disabled software sources"
+#~ msgstr "Afficher les sources des logiciels désactivées"
+
+#~ msgid "Update interval in days: "
+#~ msgstr "Nombre de jours avant mise à jour : "
+
+#~ msgid "_Add Repository"
+#~ msgstr "_Ajouter un dépôt"
+
+#~ msgid "_Custom"
+#~ msgstr "_Personnalisé"
+
+#~ msgid "_Download upgradable packages"
+#~ msgstr "_Télécharger les paquets pouvant être mis à jour"
+
+#~ msgid "Show available updates and choose which to install"
+#~ msgstr "Montre les mises à jours disponibles et choisir celles à installer"
+
+#~ msgid "Update Manager"
+#~ msgstr "Gestionnaire de mises à jour"
+
+#~ msgid "Your system has broken packages!"
+#~ msgstr "Votre système a des paquets cassés !"
+
+#~ msgid ""
+#~ "This means that some dependencies of the installed packages are not "
+#~ "satisfied. Please use \"Synaptic\" or \"apt-get\" to fix the situation."
+#~ msgstr ""
+#~ "Ceci signifie que certaines dépendances des paquets installés ne sont pas "
+#~ "satisfaites. Veuillez utilisez « Synaptic » ou « apt-get » pour régler la "
+#~ "situation."
+
+#~ msgid "It is not possible to upgrade all packages."
+#~ msgstr "Il n'est pas possible de mettre à jour tous les paquets."
+
+#~ msgid ""
+#~ "This means that besides the actual upgrade of the packages some further "
+#~ "action (such as installing or removing packages) is required. Please use "
+#~ "Synaptic \"Smart Upgrade\" or \"apt-get dist-upgrade\" to fix the "
+#~ "situation."
+#~ msgstr ""
+#~ "Cela signifie que d'autres actions (comme l'installation ou la "
+#~ "suppression de paquets) seront requises après la mise à jour. Veuillez "
+#~ "utiliser Synaptic « Mise à jour intelligente » ou « apt-get dist-"
+#~ "upgrade » pour régler la situation. "
+
+#~ msgid "The following packages are not upgraded: "
+#~ msgstr "Les paquets suivants ne seront pas mis à jour :"
+
+#~ msgid "Changes not found, the server may not be updated yet."
+#~ msgstr ""
+#~ "Changements non trouvés, le serveur n'a peut-être pas encore été mis à "
+#~ "jour."
+
+#~ msgid ""
+#~ "Failed to download changes. Please check if there is an active internet "
+#~ "connection."
+#~ msgstr ""
+#~ "Échec du téléchargement des changements. Veuillez vérifier que votre "
+#~ "connexion internet est activée."
+
+#~ msgid "Version %s: \n"
+#~ msgstr "Version %s : \n"
+
+#~ msgid "Downloading changes..."
+#~ msgstr "Téléchargement des changements..."
+
+#~ msgid "The updates are being applied."
+#~ msgstr "Les mises à jour ont été appliquées."
+
+#~ msgid "Another package manager is running"
+#~ msgstr "Un autre gestionnaire de paquets est en fonctionnement"
+
+#~ msgid ""
+#~ "You can run only one package management application at the same time. "
+#~ "Please close this other application first."
+#~ msgstr ""
+#~ "Vous ne pouvez exécuter qu'un seul gestionnaire de paquets à la fois. "
+#~ "Veuillez tout d'abord fermer cette autre application."
+
+#~ msgid "Updating package list..."
+#~ msgstr "Mise à jour de la liste des paquets..."
+
+#~ msgid "Your system is up-to-date!"
+#~ msgstr "Votre système est à jour !"
+
+#~ msgid "There are no updates available."
+#~ msgstr "Aucune mise à jour n'est disponible."
+
+#~ msgid "New version: %s"
+#~ msgstr "Nouvelle version : %s"
+
+#~ msgid "Your distribution is no longer supported"
+#~ msgstr "Votre distribution n'est plus supportée"
+
+#~ msgid ""
+#~ "Please upgrade to a newer version of Ubuntu Linux. The version you are "
+#~ "running will no longer get security fixes or other critical updates. "
+#~ "Please see http://www.ubuntulinux.org for upgrade information."
+#~ msgstr ""
+#~ "Veuillez mettre à jour vers une version plus récente d'Ubuntu Linux. La "
+#~ "version que vous êtes entrain d'utiliser ne recevra pas d'autres "
+#~ "correctifs de sécurité ou mises à jour critiques. Veuillez voir http://"
+#~ "www.ubuntulinux.org pour les informations de mise à jour."
+
+#~ msgid "There is a new release of Ubuntu available!"
+#~ msgstr "Il y a une nouvelle version d'Ubuntu disponible !"
+
+#~ msgid ""
+#~ "A new release with the codename '%s' is available. Please see http://www."
+#~ "ubuntulinux.org/ for upgrade instructions."
+#~ msgstr ""
+#~ "Une nouvelle version avec le nom de code « %s » est disponible. Veuillez "
+#~ "voir http://www.ubuntulinux.org pour les informations de mise à jour."
+
+#~ msgid "Never show this message again"
+#~ msgstr "Ne plus afficher ce message à nouveau"
+
+#, fuzzy
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first"
+#~ msgstr ""
+#~ "Vous ne pouvez exécuter qu'un seul gestionnaire de paquets à la fois. "
+#~ "Veuillez tout d'abord fermer cette autre application."
+
+#~ msgid "Initializing and getting list of updates..."
+#~ msgstr "Initialisation et récupération de la liste des mises à jour..."
+
+#~ msgid "You need to be root to run this program"
+#~ msgstr "Vous devez être superutilisateur pour lancer ce programme."
+
+#~ msgid "Edit software sources and settings"
+#~ msgstr "Éditer les sources et paramètres du logiciel"
+
+#~ msgid "Software Properties"
+#~ msgstr "Préférences du logiciel"
+
+#~ msgid "Ubuntu Update Manager"
+#~ msgstr "Gestionnaire de mises à jour d'Ubuntu"
+
+#~ msgid "Reload the package information from the server."
+#~ msgstr "Recharger les informations des paquets depuis le serveur"
+
+#~ msgid "Binary"
+#~ msgstr "Binaire"
+
+#~ msgid "Source"
+#~ msgstr "Source"
+
+#~ msgid "CD"
+#~ msgstr "CD"
+
+#~ msgid "Ubuntu 4.10 Security Updates"
+#~ msgstr "Ubuntu 4.10 Mises à jour de sécurité"
+
+#~ msgid "Contributed software"
+#~ msgstr "Logiciel contribué"
+
+#~ msgid "Non-free software"
+#~ msgstr "Logiciel non-libre"
+
+#~ msgid "US export restricted software"
+#~ msgstr "Logiciel restreint à l'export (USA)"
+
+#~ msgid "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>"
+#~ msgstr ""
+#~ "Clé de signature automatique de l'archive Ubuntu <ftpmaster@ubuntu.com>"
+
+#~ msgid "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+#~ msgstr ""
+#~ "Clé de signature automatique des cédéroms Ubuntu <cdimage@ubuntu.com>"
+
+#~ msgid "Repositories changed"
+#~ msgstr "Les dépôts ont été modifiés"
+
+#~ msgid ""
+#~ "The repository information has changes. A backup copy of your sources."
+#~ "list is stored in %s.save. \n"
+#~ "\n"
+#~ "You need to reload the package list from the servers for your changes to "
+#~ "take effect. Do you want to do this now?"
+#~ msgstr ""
+#~ "Les informations des dépôts ont changés. Une sauvegarde de votre sources."
+#~ "list à été copiée à %s.save. \n"
+#~ " \n"
+#~ "Vous devez recharger la liste des paquets depuis les serveurs pour que "
+#~ "vos changements soient effectifs. Voulez-vous le faire maintenant ?"
+
+#, fuzzy
+#~ msgid ""
+#~ "<big><b>Available Updates</b></big>\n"
+#~ "The following packages are found to be upgradable. You can upgrade them "
+#~ "by using the Install button."
+#~ msgstr ""
+#~ "<big><b>Mises à jour disponibles</b></big>\n"
+#~ "\n"
+#~ "Les paquets suivant peuvent être mis à jour. Vous pouvez les mettre à "
+#~ "jour en utilisant le bouton Installer."
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "    "
+#~ msgstr "    "

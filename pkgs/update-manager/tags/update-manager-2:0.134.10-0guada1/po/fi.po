@@ -1,0 +1,595 @@
+# update-manager's Finnish translation.
+# Copyright (C) 2005 Timo Jyrinki
+# This file is distributed under the same license as the update-manager package.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-12 12:52+0100\n"
+"PO-Revision-Date: 2005-03-30 08:30+0200\n"
+"Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
+"Language-Team: Finnish <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/SoftwareProperties.glade.h:1
+msgid "<b>Internet Updates</b>"
+msgstr "<b>Internet-päivitykset</b>"
+
+#: ../data/SoftwareProperties.glade.h:2
+#, fuzzy
+msgid "<b>Keys</b>"
+msgstr "<b>Yksityiskohdat</b>"
+
+#: ../data/SoftwareProperties.glade.h:3
+#, fuzzy
+msgid "<b>Sources</b>"
+msgstr "<b>Ohjelmalähteet</b>"
+
+#: ../data/SoftwareProperties.glade.h:4
+#, fuzzy
+msgid "Add _Cdrom"
+msgstr "Lisää _CD"
+
+#: ../data/SoftwareProperties.glade.h:5
+#, fuzzy
+msgid "Authentication"
+msgstr "Varmenn_us"
+
+#: ../data/SoftwareProperties.glade.h:6
+msgid "Check for updates every"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:7
+msgid "Installation Media"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:8
+#, fuzzy
+msgid "Restore Defaults"
+msgstr "Palauta oletusavaimet"
+
+#: ../data/SoftwareProperties.glade.h:9
+msgid "Software Preferences"
+msgstr "Asetukset"
+
+#: ../data/SoftwareProperties.glade.h:10
+msgid "day(s)"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:1
+msgid "<b>Details</b>"
+msgstr "<b>Yksityiskohdat</b>"
+
+#: ../data/UpdateManager.glade.h:2
+msgid "<b>Packages to install:</b>"
+msgstr "<b>Asennettavat paketit:</b>"
+
+#: ../data/UpdateManager.glade.h:3
+msgid ""
+"<big><b>Available Updates</b></big>\n"
+"\n"
+"The following packages are found to be upgradable. You can upgrade them by "
+"using the Install button."
+msgstr ""
+"<big><b>Saatavilla olevat päivitykset</b></big>\n"
+"\n"
+"Seuraavat paketit ovat päivitettävissä. Voit päivittää ne napsauttamalla "
+"Asenna-painiketta."
+
+#: ../data/UpdateManager.glade.h:6
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Downloading changes</span>\n"
+"\n"
+"Need to get the changes from the central server"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Ladataan muutoksia</span>\n"
+"\n"
+"Muutokset täytyy ladata keskuspalvelimelta"
+
+#: ../data/UpdateManager.glade.h:9
+msgid "Cancel downloading the changelog"
+msgstr "Keskeytä muutosluettelon lataus"
+
+#: ../data/UpdateManager.glade.h:10
+msgid "Changes"
+msgstr "Muutokset"
+
+#: ../data/UpdateManager.glade.h:11
+msgid "Description"
+msgstr "Kuvaus"
+
+#: ../data/UpdateManager.glade.h:12
+msgid "Release Notes"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:13
+msgid "Reload"
+msgstr "Päivitä"
+
+#: ../data/UpdateManager.glade.h:14
+msgid ""
+"Reload the package information from the server. \n"
+"\n"
+"If you have a permanent internet connection this is done automatically. If "
+"you are behind an internet connection that needs to be started by hand (e.g. "
+"a modem) you should use this button so that update-manager knows about new "
+"updates."
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:17
+msgid "Show progress of single files"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:18
+msgid "Software Updates"
+msgstr "Ohjelmapäivitykset"
+
+#: ../data/UpdateManager.glade.h:19
+#, fuzzy
+msgid "Upgrade"
+msgstr "Päivitykset suoritettu"
+
+#: ../data/UpdateManager.glade.h:20
+msgid "_Install"
+msgstr "_Asenna"
+
+#. ChangelogURI
+#: ../channels/Ubuntu.info.in.h:4
+#, no-c-format
+msgid "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:6
+msgid "Breezy 6.04 \"Dapper Drake\""
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:23
+msgid "Breezy 5.10 \"Breezy Badger\""
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:40
+#, fuzzy
+msgid "Ubuntu 5.10 Security Updates"
+msgstr "Ubuntu 5.04 turvallisuuspäivitykset"
+
+#. Description
+#: ../channels/Ubuntu.info.in:57
+#, fuzzy
+msgid "Ubuntu 5.10 Updates"
+msgstr "Ubuntu 5.04 turvallisuuspäivitykset"
+
+#. Description
+#: ../channels/Ubuntu.info.in:74
+#, fuzzy
+msgid "Ubuntu 5.04 \"Hoary Hedgehog\""
+msgstr "Ubuntu 5.04 turvallisuuspäivitykset"
+
+#. Description
+#: ../channels/Ubuntu.info.in:91
+msgid "Ubuntu 5.04 Security Updates"
+msgstr "Ubuntu 5.04 turvallisuuspäivitykset"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:94 ../channels/Debian.info.in:51
+#, fuzzy
+msgid "Oficially supported"
+msgstr "Virallisesti tuettu"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:97
+msgid "Restricted copyright"
+msgstr "Rajoitettu tekijänoikeus"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:100
+msgid "Community maintained (Universe)"
+msgstr "Yhteisön ylläpitämä (Universe)"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:103
+msgid "Non-free (Multiverse)"
+msgstr "Ei-vapaat ohjelmat (Multiverse)"
+
+#. ChangelogURI
+#: ../channels/Debian.info.in.h:4
+#, no-c-format
+msgid "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:6
+msgid "Debian 3.1 \"Sarge\""
+msgstr ""
+
+#. BaseURI
+#: ../channels/Debian.info.in:19
+msgid "http://security.debian.org/"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:20
+#, fuzzy
+msgid "Debian 3.1 \"Sarge\" Security Updates"
+msgstr "Debian Stable turvallisuuspäivitykset"
+
+#. Description
+#: ../channels/Debian.info.in:34
+msgid "Debian \"Etch\" (testing)"
+msgstr ""
+
+#. BaseURI
+#: ../channels/Debian.info.in:47
+msgid "http://http.us.debian.org/debian/"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:48
+msgid "Debian \"Sid\" (unstable)"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Debian.info.in:54
+msgid "DFSG-compatible Software with Non-Free Dependencies"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Debian.info.in:57
+msgid "Non-DFSG-compatible Software"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:208
+msgid "Choose a key-file"
+msgstr "Valitse avaintiedosto"
+
+#: ../SoftwareProperties/SoftwareProperties.py:218
+msgid "Error importing selected file"
+msgstr "Virhe tuotaessa valittua avainta"
+
+#: ../SoftwareProperties/SoftwareProperties.py:219
+msgid "The selected file may not be a GPG key file or it might be corrupt."
+msgstr "Valittua tedosto ei ole kelvollinen GPG:n avaintiedosto"
+
+#: ../SoftwareProperties/SoftwareProperties.py:231
+msgid "Error removing the key"
+msgstr "Virhe poistettaessa avainta"
+
+#: ../SoftwareProperties/SoftwareProperties.py:232
+msgid "The key you selected could not be removed. Please report this as a bug."
+msgstr ""
+"Valitsemaasi avainta ei voitu poistaa. Ole hyvä ja luo tästä virheilmoitus."
+
+#: ../SoftwareProperties/SoftwareProperties.py:275
+#, python-format
+msgid ""
+"<big><b>Error scaning the CD</b></big>\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:325
+msgid "Please enter a name for the disc"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:341
+msgid "Please insert a disc in the drive:"
+msgstr ""
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>Kommentti:</b>"
+
+#~ msgid "<b>Components</b>"
+#~ msgstr "<b>Komponentit</b>"
+
+#~ msgid "<b>Distribution:</b>"
+#~ msgstr "<b>Jakelu:</b>"
+
+#~ msgid "<b>Repository</b>"
+#~ msgstr "<b>Varasto</b>"
+
+#~ msgid "<b>Sections:</b>"
+#~ msgstr "<b>Osastot:</b>"
+
+#~ msgid "<b>Temporary files</b>"
+#~ msgstr "<b>Väliaikaistiedostot</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Tyyppi:</b>"
+
+#~ msgid "<b>URI:</b>"
+#~ msgstr "<b>URI:</b>"
+
+#~ msgid "<b>User Interface</b>"
+#~ msgstr "<b>Käyttöliittymä</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<big><b>Authentication keys</b></big>\n"
+#~ "\n"
+#~ "You can add and remove authentication keys in this dialog. A key makes it "
+#~ "possible to verify the integrity of the software you download."
+#~ msgstr ""
+#~ "<big><b>Varmennusavaimet</b></big>\n"
+#~ "\n"
+#~ "Voit lisätä ja poistaa varmennusavaimia tässä valintaikkunassa. Avaimella "
+#~ "voidaan tarkistaa lataamiesi ohjelmien eheys."
+
+#~ msgid ""
+#~ "<big><b>Enter the complete APT line of the repository that you want to "
+#~ "add</b></big>\n"
+#~ "\n"
+#~ "The APT line contains the type, location and content of a repository, for "
+#~ "example <i>\"deb http://ftp.debian.org sarge main\"</i>. You can find a "
+#~ "detailed description of the syntax in the documentation."
+#~ msgstr ""
+#~ "<big><b>Kirjoita haluamasi varaston koko APT-rivi</b></big>\n"
+#~ "\n"
+#~ "APT-rivi sisältää varaston tyypin, sijainnin ja sisällön, esimerkiksi <i>"
+#~ "\"deb http://ftp.debian.org sarge main\"</i>. Lisätietoja aiheesta löydät "
+#~ "dokumentaatiosta."
+
+#~ msgid "APT line:"
+#~ msgstr "APT-rivi:"
+
+#~ msgid "A_uthentication"
+#~ msgstr "Varmenn_us"
+
+#, fuzzy
+#~ msgid ""
+#~ "Add a new key file to the trusted keyring. Make sure that you received "
+#~ "the key over a secure channel and that you trust the owner. "
+#~ msgstr ""
+#~ "Lisää uusi avaintiedosto luotettuihin avaimiin. Varmista, että "
+#~ "vastaanotit avaimen luotettua kanavaa pitkin ja että luotat avaimen "
+#~ "omistajaan. "
+
+#~ msgid "Automatically check for software _updates."
+#~ msgstr "Tarkista ohjelma_päivitykset automaattisesti."
+
+#~ msgid "Automatically clean _temporary packages files"
+#~ msgstr "Tyhjennä _väliaikaistiedostot automaattisesti"
+
+#~ msgid ""
+#~ "Binary\n"
+#~ "Source"
+#~ msgstr ""
+#~ "Binääri\n"
+#~ "Lähdekoodi"
+
+#~ msgid "Clean interval in days: "
+#~ msgstr "Tyhjennysväli päivissä: "
+
+#~ msgid "Delete _old packages in the package cache"
+#~ msgstr "P_oista vanhat paketit pakettivälimuistista"
+
+#~ msgid "Edit Repository..."
+#~ msgstr "Muokkaa varastoa..."
+
+#~ msgid "Maximum age in days:"
+#~ msgstr "Maksimiaika päivissä:"
+
+#~ msgid "Maximum size in MB:"
+#~ msgstr "Maksimikoko megatavuissa:"
+
+#~ msgid "Remove the selected key from the trusted keyring."
+#~ msgstr "Poista valittu avain luotetuista avaimista."
+
+#, fuzzy
+#~ msgid ""
+#~ "Restore the default keys shipped with the distribution. This will not "
+#~ "change user installed keys."
+#~ msgstr ""
+#~ "Palauta jakelun mukana toimitetut avaimet. Tämä ei tee muutoksia "
+#~ "käyttäjän asentamiin avaimiin."
+
+#~ msgid "Set _maximum size for the package cache"
+#~ msgstr "Aseta _maksimikoko pakettivälimuistille"
+
+#~ msgid "Settings"
+#~ msgstr "Asetukset"
+
+#~ msgid "Show disabled software sources"
+#~ msgstr "Näytä poissa käytöstä olevat ohjelmalähteet"
+
+#~ msgid "Update interval in days: "
+#~ msgstr "Päivitysten tarkistusväli päivissä: "
+
+#~ msgid "_Add Repository"
+#~ msgstr "_Lisää varasto"
+
+#~ msgid "_Custom"
+#~ msgstr "_Muu"
+
+#~ msgid "_Download upgradable packages"
+#~ msgstr "_Lataa päivitettävät paketit"
+
+#~ msgid "Show available updates and choose which to install"
+#~ msgstr "Näytä saatavilla olevat päivitykset ja valitse asennettavat"
+
+#~ msgid "Update Manager"
+#~ msgstr "Päivitysten hallinta"
+
+#~ msgid "Your system has broken packages!"
+#~ msgstr "Järjestelmässä on rikkinäisiä paketteja!"
+
+#~ msgid ""
+#~ "This means that some dependencies of the installed packages are not "
+#~ "satisfied. Please use \"Synaptic\" or \"apt-get\" to fix the situation."
+#~ msgstr ""
+#~ "Jotkut asennettujen pakettien riippuvuuksista ovat siis täyttämättä. "
+#~ "Käytä \"Synaptic\"- tai \"apt-get\"-ohjelmia korjataksesi ongelman."
+
+#~ msgid "It is not possible to upgrade all packages."
+#~ msgstr "Kaikkia paketteja ei voida päivittää."
+
+#~ msgid ""
+#~ "This means that besides the actual upgrade of the packages some further "
+#~ "action (such as installing or removing packages) is required. Please use "
+#~ "Synaptic \"Smart Upgrade\" or \"apt-get dist-upgrade\" to fix the "
+#~ "situation."
+#~ msgstr ""
+#~ "Pakettien päivittämisen lisäksi tarvitaan siis joitain muita "
+#~ "toimenpiteitä (kuten pakettien asentamista tai poistamista). Käytä "
+#~ "Synaptic-ohjelman \"Smart Upgrade\"-toimintoa tai \"apt-get dist-upgrade"
+#~ "\"-komentoa korjataksesi ongelman."
+
+#~ msgid "Changes not found, the server may not be updated yet."
+#~ msgstr "Muutoksia ei löytynyt, palvelinta ei ole ehkä vielä päivitetty."
+
+#~ msgid ""
+#~ "Failed to download changes. Please check if there is an active internet "
+#~ "connection."
+#~ msgstr ""
+#~ "Muutosten lataus epäonnistui. Tarkista, että Internet-yhteys toimii."
+
+#~ msgid "Version %s: \n"
+#~ msgstr "Versio: %s: \n"
+
+#~ msgid "Downloading changes..."
+#~ msgstr "Ladataan muutoksia..."
+
+#~ msgid "The updates are being applied."
+#~ msgstr "Päivityksiä asennetaan."
+
+#~ msgid "Another package manager is running"
+#~ msgstr "Toinen pakettienhallinta on käynnissä"
+
+#~ msgid ""
+#~ "You can run only one package management application at the same time. "
+#~ "Please close this other application first."
+#~ msgstr ""
+#~ "Voit hallita paketteja vain yhdellä ohjelmalla kerrallaan. Sulje toinen "
+#~ "ohjelma ensin."
+
+#~ msgid "Your system is up-to-date!"
+#~ msgstr "Järjestelmäsi on ajan tasalla!"
+
+#~ msgid "There are no updates available."
+#~ msgstr "Päivityksiä ei saatavilla."
+
+#~ msgid "New version: %s"
+#~ msgstr "Uusi versio: %s"
+
+#~ msgid "Your distribution is no longer supported"
+#~ msgstr "Jakeluasi ei enää tueta"
+
+#~ msgid ""
+#~ "Please upgrade to a newer version of Ubuntu Linux. The version you are "
+#~ "running will no longer get security fixes or other critical updates. "
+#~ "Please see http://www.ubuntulinux.org for upgrade information."
+#~ msgstr ""
+#~ "Päivitä uudempaan versioon Ubuntu Linuxista. Käyttämällesi versiolle ei "
+#~ "enää ole tulossa turvallisuuspäivityksiä tai muita kriittisiä "
+#~ "päivityksiä. Tietoja päivittämisestä löydät sivulta http://www."
+#~ "ubuntulinux.org."
+
+#~ msgid "There is a new release of Ubuntu available!"
+#~ msgstr "Ubuntusta on uusi julkaisu saatavilla!"
+
+#~ msgid ""
+#~ "A new release with the codename '%s' is available. Please see http://www."
+#~ "ubuntulinux.org/ for upgrade instructions."
+#~ msgstr ""
+#~ "Uusi julkaisu nimeltään '%s' on saatavilla. Päivitysohjeet löydät "
+#~ "osoitteesta http://www.ubuntulinux.org/."
+
+#~ msgid "Never show this message again"
+#~ msgstr "Älä näytä tätä viestiä uudestaan"
+
+#, fuzzy
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first"
+#~ msgstr ""
+#~ "Voit hallita paketteja vain yhdellä ohjelmalla kerrallaan. Sulje toinen "
+#~ "ohjelma ensin."
+
+#~ msgid "Initializing and getting list of updates..."
+#~ msgstr "Alustetaan ja ladataan luetteloa päivityksistä..."
+
+#~ msgid "You need to be root to run this program"
+#~ msgstr "Sinun täytyy olla pääkäyttäjä ajaaksesi tämän ohjelman"
+
+#~ msgid "Edit software sources and settings"
+#~ msgstr "Muokkaa ohjelmalähteitä ja asetuksia"
+
+#~ msgid "Software Properties"
+#~ msgstr "Asetukset"
+
+#~ msgid "Ubuntu Update Manager"
+#~ msgstr "Ubuntun päivitysten hallinta"
+
+#~ msgid "Reload the package information from the server."
+#~ msgstr "Lataa pakettitiedot uudelleen palvelimelta."
+
+#~ msgid "Binary"
+#~ msgstr "Binääri"
+
+#~ msgid "Source"
+#~ msgstr "Lähdekoodi"
+
+#~ msgid "CD"
+#~ msgstr "CD"
+
+#~ msgid "Ubuntu 4.10 Security Updates"
+#~ msgstr "Ubuntu 4.10 turvallisuuspäivitykset"
+
+#~ msgid "Contributed software"
+#~ msgstr "Muiden tarjoamat ohjelmat"
+
+#~ msgid "Non-free software"
+#~ msgstr "Ei-vapaat ohjelmat"
+
+#~ msgid "US export restricted software"
+#~ msgstr "USA:sta vientirajoitetut ohjelmat"
+
+#~ msgid "Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>"
+#~ msgstr ""
+#~ "Ubuntu-arkiston automaattinen allekirjoitusavain <ftpmaster@ubuntu.com>"
+
+#~ msgid "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+#~ msgstr ""
+#~ "Ubuntun CD-vedosten automaattinen allekirjoitusavain <cdimage@ubuntu.com>"
+
+#~ msgid "Repositories changed"
+#~ msgstr "Varastot muuttuneet"
+
+#~ msgid ""
+#~ "The repository information has changes. A backup copy of your sources."
+#~ "list is stored in %s.save. \n"
+#~ "\n"
+#~ "You need to reload the package list from the servers for your changes to "
+#~ "take effect. Do you want to do this now?"
+#~ msgstr ""
+#~ "Varastotiedoissa on muutoksia. Varmuuskopio tiedostosta sources.list on "
+#~ "tallennettu nimellä %s.save. \n"
+#~ "\n"
+#~ "Ohjelmapakettien luettelo täytyy ladata uudelleen palvelimelta, jotta "
+#~ "muutoksesi tulevat voimaan. Haluatko tehdä tämän nyt?"
+
+#, fuzzy
+#~ msgid ""
+#~ "<big><b>Available Updates</b></big>\n"
+#~ "The following packages are found to be upgradable. You can upgrade them "
+#~ "by using the Install button."
+#~ msgstr ""
+#~ "<big><b>Saatavilla olevat päivitykset</b></big>\n"
+#~ "\n"
+#~ "Seuraavat paketit ovat päivitettävissä. Voit päivittää ne napsauttamalla "
+#~ "Asenna-painiketta."
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Non-free"
+#~ msgstr "Ei-vapaa"

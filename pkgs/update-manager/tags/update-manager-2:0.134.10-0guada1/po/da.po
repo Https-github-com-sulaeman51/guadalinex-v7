@@ -1,0 +1,636 @@
+# Danish translation of Update Manager.
+# Copyright (C) 2005 Michiel Sikkes <michiel@eyesopened.nl>
+# Copyright (C) 2005 Michael Vogt <michael.vogt@canonical.com>
+# This file is distributed under the same license as the update-manager package.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-12 12:52+0100\n"
+"PO-Revision-Date: 2005-03-28 11:31+0200\n"
+"Last-Translator: Martin Willemoes Hansen <mwh@sysrq.dk>\n"
+"Language-Team: Danish <dansk@klid.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/SoftwareProperties.glade.h:1
+msgid "<b>Internet Updates</b>"
+msgstr "<b>Internet-opdateringer</b>"
+
+#: ../data/SoftwareProperties.glade.h:2
+#, fuzzy
+msgid "<b>Keys</b>"
+msgstr "<b>Detaljer</b>"
+
+#: ../data/SoftwareProperties.glade.h:3
+#, fuzzy
+msgid "<b>Sources</b>"
+msgstr "<b>Programmelkilder</b>"
+
+#: ../data/SoftwareProperties.glade.h:4
+#, fuzzy
+msgid "Add _Cdrom"
+msgstr "Tilføj _cd"
+
+#: ../data/SoftwareProperties.glade.h:5
+#, fuzzy
+msgid "Authentication"
+msgstr "_Godkendelse"
+
+#: ../data/SoftwareProperties.glade.h:6
+msgid "Check for updates every"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:7
+msgid "Installation Media"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:8
+#, fuzzy
+msgid "Restore Defaults"
+msgstr "Genopret de forvalgte nøgler"
+
+#: ../data/SoftwareProperties.glade.h:9
+msgid "Software Preferences"
+msgstr "Indstillinger"
+
+#: ../data/SoftwareProperties.glade.h:10
+msgid "day(s)"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:1
+msgid "<b>Details</b>"
+msgstr "<b>Detaljer</b>"
+
+#: ../data/UpdateManager.glade.h:2
+msgid "<b>Packages to install:</b>"
+msgstr "<b>Pakker der skal installeres:</b>"
+
+#: ../data/UpdateManager.glade.h:3
+msgid ""
+"<big><b>Available Updates</b></big>\n"
+"\n"
+"The following packages are found to be upgradable. You can upgrade them by "
+"using the Install button."
+msgstr ""
+"<big><b>Tilgængelige opdateringer</b></big>\n"
+"\n"
+"Følgende pakker kan opgraderes. Du kan opgradere dem ved at bruge "
+"installations-knappen."
+
+#: ../data/UpdateManager.glade.h:6
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Downloading changes</span>\n"
+"\n"
+"Need to get the changes from the central server"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">Overfører ændringer</span>\n"
+"\n"
+"Skal hente ændringerne fra den centrale server"
+
+#: ../data/UpdateManager.glade.h:9
+msgid "Cancel downloading the changelog"
+msgstr "Afbryd overførsel af ændringsloggen"
+
+#: ../data/UpdateManager.glade.h:10
+msgid "Changes"
+msgstr "Ændringer"
+
+#: ../data/UpdateManager.glade.h:11
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: ../data/UpdateManager.glade.h:12
+msgid "Release Notes"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:13
+msgid "Reload"
+msgstr "Genindlæs"
+
+#: ../data/UpdateManager.glade.h:14
+msgid ""
+"Reload the package information from the server. \n"
+"\n"
+"If you have a permanent internet connection this is done automatically. If "
+"you are behind an internet connection that needs to be started by hand (e.g. "
+"a modem) you should use this button so that update-manager knows about new "
+"updates."
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:17
+msgid "Show progress of single files"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:18
+msgid "Software Updates"
+msgstr "Opdateringer"
+
+#: ../data/UpdateManager.glade.h:19
+#, fuzzy
+msgid "Upgrade"
+msgstr "Opgradering færdig"
+
+#: ../data/UpdateManager.glade.h:20
+msgid "_Install"
+msgstr "_Installér"
+
+#. ChangelogURI
+#: ../channels/Ubuntu.info.in.h:4
+#, no-c-format
+msgid "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:6
+msgid "Breezy 6.04 \"Dapper Drake\""
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:23
+msgid "Breezy 5.10 \"Breezy Badger\""
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:40
+#, fuzzy
+msgid "Ubuntu 5.10 Security Updates"
+msgstr "Sikkerhedsopdateringer til Ubuntu 5.04"
+
+#. Description
+#: ../channels/Ubuntu.info.in:57
+#, fuzzy
+msgid "Ubuntu 5.10 Updates"
+msgstr "Opdateringer til Ubuntu 4.10"
+
+#. Description
+#: ../channels/Ubuntu.info.in:74
+msgid "Ubuntu 5.04 \"Hoary Hedgehog\""
+msgstr "Ubuntu 5.04 \"Hoary Hedgehog\""
+
+#. Description
+#: ../channels/Ubuntu.info.in:91
+msgid "Ubuntu 5.04 Security Updates"
+msgstr "Sikkerhedsopdateringer til Ubuntu 5.04"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:94 ../channels/Debian.info.in:51
+#, fuzzy
+msgid "Oficially supported"
+msgstr "Understøttet officielt"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:97
+msgid "Restricted copyright"
+msgstr "Begrænsende copyright"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:100
+msgid "Community maintained (Universe)"
+msgstr "Vedligeholdt af fællesskabet (Universe)"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:103
+msgid "Non-free (Multiverse)"
+msgstr "Ikke frit programmel (Multiverse)"
+
+#. ChangelogURI
+#: ../channels/Debian.info.in.h:4
+#, no-c-format
+msgid "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:6
+msgid "Debian 3.1 \"Sarge\""
+msgstr "Debian 3.1 \"Sarge\""
+
+#. BaseURI
+#: ../channels/Debian.info.in:19
+msgid "http://security.debian.org/"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:20
+#, fuzzy
+msgid "Debian 3.1 \"Sarge\" Security Updates"
+msgstr "Sikkerhedsopdateringer til Debian Stable"
+
+#. Description
+#: ../channels/Debian.info.in:34
+#, fuzzy
+msgid "Debian \"Etch\" (testing)"
+msgstr "Debian Testing"
+
+#. BaseURI
+#: ../channels/Debian.info.in:47
+msgid "http://http.us.debian.org/debian/"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:48
+#, fuzzy
+msgid "Debian \"Sid\" (unstable)"
+msgstr "Debian Non-US (Unstable)"
+
+#. CompDescription
+#: ../channels/Debian.info.in:54
+msgid "DFSG-compatible Software with Non-Free Dependencies"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Debian.info.in:57
+msgid "Non-DFSG-compatible Software"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:208
+msgid "Choose a key-file"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:218
+msgid "Error importing selected file"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:219
+msgid "The selected file may not be a GPG key file or it might be corrupt."
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:231
+msgid "Error removing the key"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:232
+msgid "The key you selected could not be removed. Please report this as a bug."
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:275
+#, python-format
+msgid ""
+"<big><b>Error scaning the CD</b></big>\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:325
+msgid "Please enter a name for the disc"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:341
+msgid "Please insert a disc in the drive:"
+msgstr ""
+
+#~ msgid "<b>Comment:</b>"
+#~ msgstr "<b>Kommentar:</b>"
+
+#~ msgid "<b>Components</b>"
+#~ msgstr "<b>Komponenter</b>"
+
+#~ msgid "<b>Distribution:</b>"
+#~ msgstr "<b>Distribution:</b>"
+
+#~ msgid "<b>Repository</b>"
+#~ msgstr "<b>Arkiv</b>"
+
+#~ msgid "<b>Sections:</b>"
+#~ msgstr "<b>Sektioner:</b>"
+
+#~ msgid "<b>Temporary files</b>"
+#~ msgstr "<b>Midlertidige filer</b>"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Type:</b>"
+
+#~ msgid "<b>URI:</b>"
+#~ msgstr "<b>URI:</b>"
+
+#~ msgid "<b>User Interface</b>"
+#~ msgstr "<b>Brugergrænseflade</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<big><b>Authentication keys</b></big>\n"
+#~ "\n"
+#~ "You can add and remove authentication keys in this dialog. A key makes it "
+#~ "possible to verify the integrity of the software you download."
+#~ msgstr ""
+#~ "<big><b>Godkendelsesnøgler</b></big>\n"
+#~ "\n"
+#~ "Du kan tilføje og fjerne godkendelsesnøgler i dette vindue. En nøgle gør "
+#~ "det muligt at kontrollere integriteten af det programmel du henter."
+
+#~ msgid ""
+#~ "<big><b>Enter the complete APT line of the repository that you want to "
+#~ "add</b></big>\n"
+#~ "\n"
+#~ "The APT line contains the type, location and content of a repository, for "
+#~ "example <i>\"deb http://ftp.debian.org sarge main\"</i>. You can find a "
+#~ "detailed description of the syntax in the documentation."
+#~ msgstr ""
+#~ "<big><b>Angiv den komplette APT-linje for det arkiv du ønsker at tilføje</"
+#~ "b></big>\n"
+#~ "\n"
+#~ "APT-linjen indeholder typen, stedet og indholdet af arkivet, fx <i>\"deb "
+#~ "http://ftp.debian.org sarge main\"</i>. Du kan finde en detaljeret "
+#~ "beskrivelse af syntaksen i dokumentationen."
+
+#~ msgid "APT line:"
+#~ msgstr "APT-linje:"
+
+#~ msgid "A_uthentication"
+#~ msgstr "_Godkendelse"
+
+#, fuzzy
+#~ msgid ""
+#~ "Add a new key file to the trusted keyring. Make sure that you received "
+#~ "the key over a secure channel and that you trust the owner. "
+#~ msgstr ""
+#~ "Føj en ny nøgle til den troværdige nøglering. Kontrollér at du har "
+#~ "modtaget nøglen via en sikker kanal og at du stoler på ejeren."
+
+#~ msgid "Automatically check for software _updates."
+#~ msgstr "Kontrollér om der er nye opdateringer automatisk."
+
+#~ msgid "Automatically clean _temporary packages files"
+#~ msgstr "Ryd automatisk _midlertidige pakke-filer"
+
+#~ msgid ""
+#~ "Binary\n"
+#~ "Source"
+#~ msgstr ""
+#~ "Binær\n"
+#~ "Kildetekst"
+
+#~ msgid "Clean interval in days: "
+#~ msgstr "Oprydningsinterval i dage: "
+
+#~ msgid "Delete _old packages in the package cache"
+#~ msgstr "Slet _gamle pakker i pakke-mellemlageret"
+
+#~ msgid "Edit Repository..."
+#~ msgstr "Redigér arkiv ..."
+
+#~ msgid "Maximum age in days:"
+#~ msgstr "Maksimal alder i dage:"
+
+#~ msgid "Maximum size in MB:"
+#~ msgstr "Maksimal størrelse i MB:"
+
+#~ msgid "Remove the selected key from the trusted keyring."
+#~ msgstr "Fjern den markerede nøgle fra den troværdige nøglering."
+
+#, fuzzy
+#~ msgid ""
+#~ "Restore the default keys shipped with the distribution. This will not "
+#~ "change user installed keys."
+#~ msgstr ""
+#~ "Genopret de forvalgte nøgler der kom med distributionen. Dette vil ikke "
+#~ "ændre nøgler installeret af brugere."
+
+#~ msgid "Set _maximum size for the package cache"
+#~ msgstr "Sæt _maksimal størrelse for pakke-mellemlageret"
+
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
+
+#~ msgid "Show disabled software sources"
+#~ msgstr "Vis deaktiverede programmelkilder"
+
+#~ msgid "Update interval in days: "
+#~ msgstr "Opdateringsinterval i dage: "
+
+#~ msgid "_Add Repository"
+#~ msgstr "_Tilføj arkiv"
+
+#~ msgid "_Custom"
+#~ msgstr "_Tilpasset"
+
+#~ msgid "_Download upgradable packages"
+#~ msgstr "_Hent pakker der kan opgraderes"
+
+#~ msgid "Show available updates and choose which to install"
+#~ msgstr "Vis tilgængelige opgraderinger og vælg hvilke der skal installeres"
+
+#~ msgid "Update Manager"
+#~ msgstr "Opdateringshåndtering"
+
+#~ msgid "Your system has broken packages!"
+#~ msgstr "Dit system har ødelagte pakker!"
+
+#~ msgid ""
+#~ "This means that some dependencies of the installed packages are not "
+#~ "satisfied. Please use \"Synaptic\" or \"apt-get\" to fix the situation."
+#~ msgstr ""
+#~ "Dette betyder at der er nogle afhængiheder af de installerede pakker som "
+#~ "ikke er dækket. Brug venligst \"Synaptic\" eller \"apt-get\" til at løse "
+#~ "problemet."
+
+#~ msgid "It is not possible to upgrade all packages."
+#~ msgstr "Det er ikke muligt at opgradere alle pakkerne."
+
+#~ msgid ""
+#~ "This means that besides the actual upgrade of the packages some further "
+#~ "action (such as installing or removing packages) is required. Please use "
+#~ "Synaptic \"Smart Upgrade\" or \"apt-get dist-upgrade\" to fix the "
+#~ "situation."
+#~ msgstr ""
+#~ "Dette betyder at der ud over den aktuelle opgradering af pakkerne vil "
+#~ "være krævet nogle yderligere handlinger, såsom installering og "
+#~ "afinstallering af pakker. Vær venlig at bruge valgmuligheden \"Smart "
+#~ "opgradering\" i Synaptic eller \"apt-get dist-upgrade\" for at løse "
+#~ "problemet."
+
+#~ msgid "Changes not found, the server may not be updated yet."
+#~ msgstr ""
+#~ "Ingen ændringer fundet, det kan være at serveren ikke er opdateret endnu."
+
+#~ msgid ""
+#~ "Failed to download changes. Please check if there is an active internet "
+#~ "connection."
+#~ msgstr ""
+#~ "Overførsel af ændringer mislykkedes. Kontrollér at der er en aktiv "
+#~ "internetforbindelse."
+
+#~ msgid "Version %s: \n"
+#~ msgstr "Version %s: \n"
+
+#~ msgid "Downloading changes..."
+#~ msgstr "Overfører ændringer..."
+
+#~ msgid "The updates are being applied."
+#~ msgstr "Opdateringerne bliver installeret."
+
+#~ msgid "Another package manager is running"
+#~ msgstr "En anden pakkehåndtering er i gang"
+
+#~ msgid ""
+#~ "You can run only one package management application at the same time. "
+#~ "Please close this other application first."
+#~ msgstr ""
+#~ "Du kan kun benytte ét pakkehåndteringsprogram ad gangen. Vær venlig at "
+#~ "afslutte det andet program først."
+
+#~ msgid "Your system is up-to-date!"
+#~ msgstr "Dit system er opdateret"
+
+#~ msgid "There are no updates available."
+#~ msgstr "Der er ingen opdateringer tilgængelige."
+
+#~ msgid "New version: %s"
+#~ msgstr "Ny version: %s"
+
+#~ msgid "Your distribution is no longer supported"
+#~ msgstr "Din distribution er ikke længere understøttet"
+
+#~ msgid ""
+#~ "Please upgrade to a newer version of Ubuntu Linux. The version you are "
+#~ "running will no longer get security fixes or other critical updates. "
+#~ "Please see http://www.ubuntulinux.org for upgrade information."
+#~ msgstr ""
+#~ "Vær venlig at opgradere til en nyere version af Ubuntu Linux. Versionen "
+#~ "som du benytter vil ikke længere modtage sikkerhedsfejlrettelser eller "
+#~ "andre kritiske opdateringer. Se http://www.ubuntulinux.org for "
+#~ "information om opgradering."
+
+#, fuzzy
+#~ msgid "There is a new release of Ubuntu available!"
+#~ msgstr "Der er ingen opdateringer tilgængelige."
+
+#~ msgid "Never show this message again"
+#~ msgstr "Vis aldrig denne besked igen"
+
+#, fuzzy
+#~ msgid ""
+#~ "This usually means that another package management application (like apt-"
+#~ "get or aptitude) already running. Please close that application first"
+#~ msgstr ""
+#~ "Du kan kun benytte ét pakkehåndteringsprogram ad gangen. Vær venlig at "
+#~ "afslutte det andet program først."
+
+#~ msgid "Initializing and getting list of updates..."
+#~ msgstr "Initialiserer og henter listen med opdateringer ..."
+
+#~ msgid "You need to be root to run this program"
+#~ msgstr "Du skal være systemadministrator for at starte dette program"
+
+#~ msgid "Edit software sources and settings"
+#~ msgstr "Redigér indstillinger og kilder for programmel"
+
+#~ msgid "Software Properties"
+#~ msgstr "Indstillinger for programmel"
+
+#~ msgid "Ubuntu Update Manager"
+#~ msgstr "Ubuntus opdateringsværktøj"
+
+#~ msgid "Reload the package information from the server."
+#~ msgstr "Genindlæs pakkeinformationen fra serveren."
+
+#~ msgid "Binary"
+#~ msgstr "Binær"
+
+#~ msgid "Source"
+#~ msgstr "Kildetekst"
+
+#~ msgid "CD"
+#~ msgstr "cd"
+
+#~ msgid "Ubuntu 4.10 Security Updates"
+#~ msgstr "Sikkerhedsopdateringer til Ubuntu 4.10"
+
+#~ msgid "Contributed software"
+#~ msgstr "Bidraget programmel"
+
+#~ msgid "Non-free software"
+#~ msgstr "Ikke frit programmel"
+
+#~ msgid "US export restricted software"
+#~ msgstr "Programmel som USA pålægger eksportbegrænsninger."
+
+#~ msgid "Repositories changed"
+#~ msgstr "Arkiver er ændret"
+
+#~ msgid ""
+#~ "The repository information has changes. A backup copy of your sources."
+#~ "list is stored in %s.save. \n"
+#~ "\n"
+#~ "You need to reload the package list from the servers for your changes to "
+#~ "take effect. Do you want to do this now?"
+#~ msgstr ""
+#~ "Der er ændringer til informationen om arkiver. En sikkerhedskopi af din "
+#~ "sources.list er gemt i %s.save. \n"
+#~ "\n"
+#~ "For at dine ændringer kan træde i kraft, skal du genindlæse pakke-listen "
+#~ "fra serverne. Vil du gøre dette nu?"
+
+#, fuzzy
+#~ msgid ""
+#~ "<big><b>Available Updates</b></big>\n"
+#~ "The following packages are found to be upgradable. You can upgrade them "
+#~ "by using the Install button."
+#~ msgstr ""
+#~ "<big><b>Tilgængelige opdateringer</b></big>\n"
+#~ "\n"
+#~ "Følgende pakker kan opgraderes. Du kan opgradere dem ved at bruge "
+#~ "installations-knappen."
+
+#~ msgid "%i (%s)"
+#~ msgstr "%i (%s)"
+
+#~ msgid "Your system is up-to-date"
+#~ msgstr "Dit system er opdateret"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Repositories changed</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Arkiver er ændret</span>"
+
+#~ msgid "Non-free"
+#~ msgstr "Ikke frit"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Community maintained (UNSUPPORTED from canonical)"
+#~ msgstr "Vedligeholdt af fællesskabet (understøttes IKKE af Canonical)"
+
+#~ msgid "Non-free (UNSUPPORTED from canonical)"
+#~ msgstr "Ikke frit (Understøttes ikke af Canonical)"
+
+#~ msgid "Ubuntu 4.10 \"Warty Warthog\""
+#~ msgstr "Ubuntu 4.10 \"Warty Warthog\""
+
+#~ msgid "Ubuntu 4.10 Security updates"
+#~ msgstr "Sikkerhedsopdateringer til Ubuntu 4.10"
+
+#~ msgid "Ubuntu 5.04 Security updates"
+#~ msgstr "Sikkerhedsopdateringer til Ubuntu 5.04"
+
+#~ msgid "CD Ubuntu 5.04 \"Hoary Hedgehog\""
+#~ msgstr "Cd Ubuntu 5.04 \"Hoary Hedgehog\""
+
+#~ msgid "CD Ubuntu 4.10 \"Warty Warthog\""
+#~ msgstr "Cd Ubuntu 4.10 \"Warty Warthog\""
+
+#~ msgid "Officially supported software"
+#~ msgstr "Officielt understøttet programmel"
+
+#~ msgid "Debian 3.0 \"Woody\""
+#~ msgstr "Debian 3.0 \"Woody\""
+
+#~ msgid "Debian Stable"
+#~ msgstr "Debian Stable"
+
+#~ msgid "Debian Unstable \"Sid\""
+#~ msgstr "Debian Unstable \"Sid\""
+
+#~ msgid "Debian Non-US (Stable)"
+#~ msgstr "Debian Non-US (Stable)"
+
+#~ msgid "Debian Non-US (Testing)"
+#~ msgstr "Debian Non-US (Testing)"
+
+#~ msgid "<b>Add or remove authentication keys</b>"
+#~ msgstr "<b>Tilføj eller fjern godkendelsesnøgler</b>"

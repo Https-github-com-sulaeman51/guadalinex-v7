@@ -1,0 +1,299 @@
+# Brazilian Portuguese translation of update-manager.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the update-manager package.
+# Raphael Higino <raphaelh@uai.com.br>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-12-12 12:52+0100\n"
+"PO-Revision-Date: 2005-03-29 13:36-0300\n"
+"Last-Translator: Raphael Higino <raphaelh@uai.com.br>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-status@listas.cipsga.org."
+"br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/SoftwareProperties.glade.h:1
+msgid "<b>Internet Updates</b>"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:2
+#, fuzzy
+msgid "<b>Keys</b>"
+msgstr "<b>Tipo:</b>"
+
+#: ../data/SoftwareProperties.glade.h:3
+#, fuzzy
+msgid "<b>Sources</b>"
+msgstr "<b>Fontes de Software</b>"
+
+#: ../data/SoftwareProperties.glade.h:4
+#, fuzzy
+msgid "Add _Cdrom"
+msgstr "Adicionar _CD"
+
+#: ../data/SoftwareProperties.glade.h:5
+msgid "Authentication"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:6
+msgid "Check for updates every"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:7
+msgid "Installation Media"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:8
+msgid "Restore Defaults"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:9
+msgid "Software Preferences"
+msgstr ""
+
+#: ../data/SoftwareProperties.glade.h:10
+msgid "day(s)"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:1
+msgid "<b>Details</b>"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:2
+msgid "<b>Packages to install:</b>"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:3
+msgid ""
+"<big><b>Available Updates</b></big>\n"
+"\n"
+"The following packages are found to be upgradable. You can upgrade them by "
+"using the Install button."
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:6
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Downloading changes</span>\n"
+"\n"
+"Need to get the changes from the central server"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:9
+msgid "Cancel downloading the changelog"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:10
+msgid "Changes"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:11
+msgid "Description"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:12
+msgid "Release Notes"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:13
+msgid "Reload"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:14
+msgid ""
+"Reload the package information from the server. \n"
+"\n"
+"If you have a permanent internet connection this is done automatically. If "
+"you are behind an internet connection that needs to be started by hand (e.g. "
+"a modem) you should use this button so that update-manager knows about new "
+"updates."
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:17
+msgid "Show progress of single files"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:18
+msgid "Software Updates"
+msgstr ""
+
+#: ../data/UpdateManager.glade.h:19
+#, fuzzy
+msgid "Upgrade"
+msgstr "Upgrade terminado"
+
+#: ../data/UpdateManager.glade.h:20
+msgid "_Install"
+msgstr ""
+
+#. ChangelogURI
+#: ../channels/Ubuntu.info.in.h:4
+#, no-c-format
+msgid "http://changelogs.ubuntu.com/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:6
+msgid "Breezy 6.04 \"Dapper Drake\""
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:23
+msgid "Breezy 5.10 \"Breezy Badger\""
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:40
+msgid "Ubuntu 5.10 Security Updates"
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:57
+msgid "Ubuntu 5.10 Updates"
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:74
+msgid "Ubuntu 5.04 \"Hoary Hedgehog\""
+msgstr ""
+
+#. Description
+#: ../channels/Ubuntu.info.in:91
+msgid "Ubuntu 5.04 Security Updates"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:94 ../channels/Debian.info.in:51
+msgid "Oficially supported"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:97
+msgid "Restricted copyright"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:100
+msgid "Community maintained (Universe)"
+msgstr "Mantido pela comunidade (Universo)"
+
+#. CompDescription
+#: ../channels/Ubuntu.info.in:103
+msgid "Non-free (Multiverse)"
+msgstr ""
+
+#. ChangelogURI
+#: ../channels/Debian.info.in.h:4
+#, no-c-format
+msgid "http://packages.debian.org/changelogs/pool/%s/%s/%s/%s_%s/changelog"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:6
+msgid "Debian 3.1 \"Sarge\""
+msgstr ""
+
+#. BaseURI
+#: ../channels/Debian.info.in:19
+msgid "http://security.debian.org/"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:20
+msgid "Debian 3.1 \"Sarge\" Security Updates"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:34
+msgid "Debian \"Etch\" (testing)"
+msgstr ""
+
+#. BaseURI
+#: ../channels/Debian.info.in:47
+msgid "http://http.us.debian.org/debian/"
+msgstr ""
+
+#. Description
+#: ../channels/Debian.info.in:48
+msgid "Debian \"Sid\" (unstable)"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Debian.info.in:54
+msgid "DFSG-compatible Software with Non-Free Dependencies"
+msgstr ""
+
+#. CompDescription
+#: ../channels/Debian.info.in:57
+msgid "Non-DFSG-compatible Software"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:208
+msgid "Choose a key-file"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:218
+msgid "Error importing selected file"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:219
+msgid "The selected file may not be a GPG key file or it might be corrupt."
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:231
+msgid "Error removing the key"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:232
+msgid "The key you selected could not be removed. Please report this as a bug."
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:275
+#, python-format
+msgid ""
+"<big><b>Error scaning the CD</b></big>\n"
+"\n"
+"%s"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:325
+msgid "Please enter a name for the disc"
+msgstr ""
+
+#: ../SoftwareProperties/SoftwareProperties.py:341
+msgid "Please insert a disc in the drive:"
+msgstr ""
+
+#~ msgid "<b>Components</b>"
+#~ msgstr "<b>Componentes</b>"
+
+#~ msgid "<b>URI:</b>"
+#~ msgstr "<b>URI:</b>"
+
+#~ msgid "APT line:"
+#~ msgstr "Linha do APT:"
+
+#~ msgid "Clean interval in days: "
+#~ msgstr "Intervalo de limpeza, em dias: "
+
+#~ msgid "Delete _old packages in the package cache"
+#~ msgstr "Excluir pacotes _antigos do cache de pacotes"
+
+#~ msgid "Your system has broken packages!"
+#~ msgstr "O seu sistema tem pacotes quebrados!"
+
+#, fuzzy
+#~ msgid "Your system is up-to-date!"
+#~ msgstr "O seu sistema tem pacotes quebrados!"
+
+#~ msgid "Never show this message again"
+#~ msgstr "Nunca exibir esta mensagem novamente"
+
+#~ msgid "Software Properties"
+#~ msgstr "Propriedades dos Softwares"
+
+#~ msgid "CD"
+#~ msgstr "CD"
