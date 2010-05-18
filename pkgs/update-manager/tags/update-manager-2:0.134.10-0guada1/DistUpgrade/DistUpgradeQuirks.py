@@ -387,6 +387,9 @@ class DistUpgradeQuirks(object):
     def from_hardyStartUpgrade(self):
         logging.debug("from_hardyStartUpgrade quirks")
         self._stopApparmor()
+    def karmicStartUpgrade(self):
+        logging.debug("karmicStartUpgrade quirks")
+        self._killNetworkManager()
     def jauntyStartUpgrade(self):
         self._createPycentralPkgRemove()
         # hal/NM triggers problem, if the old (intrepid) hal gets
@@ -667,6 +670,16 @@ class DistUpgradeQuirks(object):
         if os.path.exists("/etc/init.d/docvert-converter"):
             logging.debug("/etc/init.d/docvert-converter stop")
             subprocess.call(["/etc/init.d/docvert-converter","stop"])
+    def _killNetworkManager(self):
+        """  This works around nm-applet dying during karmic->lucid (#456468).
+
+        On karmic -> lucid it will die anyway during the upgrade so we
+        kill it in a controlled way so that it can not take down the
+        network
+        """
+        if os.path.exists("/usr/bin/nm-applet"):
+            logging.debug("killing nm-applet")
+            subprocess.call(["killall", "-9", "nm-applet"])
     def _killUpdateNotifier(self):
         "kill update-notifier"
         # kill update-notifier now to suppress reboot required

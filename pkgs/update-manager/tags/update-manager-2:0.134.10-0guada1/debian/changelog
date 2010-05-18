@@ -8,8 +8,12 @@ update-manager (1:0.134.9) UNRELEASED; urgency=low
     - Check if the metapkg is actually upgradable. This covers
       the case of ubuntu-netbook-remix that may no longer be 
       available to a user if "universe" is disabled (LP: #574279)
+  * DistUpgrade/DistUpgradeQuirks.py:
+    - Add workaround for nm-applet dying during the upgrade. At
+      the start up of the update we take it down in a controlled
+      way (LP: #456468)
 
- -- Michael Vogt <egon@top.ping.de>  Sun, 02 May 2010 19:13:53 +0200
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Mon, 17 May 2010 11:09:56 +0200
 
 update-manager (1:0.134.8) lucid-proposed; urgency=low
 
