@@ -1,3 +1,10 @@
+update-manager (1:0.134.4) UNRELEASED; urgency=low
+
+  * DistUpgrade/DistUpgrade.cfg, DistUpgrade/DistUpgrade.cfg.hardy:
+    - do not enable apport anymore
+
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Wed, 14 Apr 2010 09:20:05 +0200
+
 update-manager (1:0.134.3) lucid; urgency=low
 
   * do-release-upgrade:
