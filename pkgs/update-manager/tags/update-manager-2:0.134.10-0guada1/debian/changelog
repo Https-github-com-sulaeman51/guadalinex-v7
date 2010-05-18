@@ -17,6 +17,9 @@ update-manager (1:0.134.1) UNRELEASED; urgency=low
     - support third party changelogs by using  ArchiveURI() and
       append a similar structure as changelogs.ubuntu.com uses 
       (LP: #45129)
+  * UpdateManager/Core/MetaRelease.py:
+    - do not crash if meta-release file can not be parsed, just remove
+      the broken file instead (LP: #558396)
 
  -- Michael Vogt <michael.vogt@ubuntu.com>  Mon, 12 Apr 2010 11:39:52 +0200
 
