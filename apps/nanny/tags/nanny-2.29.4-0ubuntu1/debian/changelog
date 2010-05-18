@@ -1,3 +1,12 @@
+nanny (2.29.4-0ubuntu1) unstable; urgency=low
+
+  * New upstream version 2.29.4
+  * Removed patches which are already integrated upstream
+  * Added missed python-gtop build-depend
+  * Upgraded Standard-Version to 3.8.4
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 17 May 2010 16:13:04 +0200
+
 nanny (2.29.3-0ubuntu2~lucid1) unstable; urgency=low
 
   * Added missed python-gtop depend (LP: #526932) 
