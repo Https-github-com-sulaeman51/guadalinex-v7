@@ -1,4 +1,4 @@
-update-manager (1:0.134.7) UNRELEASED; urgency=low
+update-manager (1:0.134.7) lucid; urgency=low
 
   * DistUpgrade/removal_blacklist.cfg:
     - remove gobuntu-desktop from the removal blacklist (LP: #567189)
@@ -6,7 +6,7 @@ update-manager (1:0.134.7) UNRELEASED; urgency=low
     - ensure that mysql-{server, client} are properly upgraded
       (LP: #568606)
 
- -- Michael Vogt <michael.vogt@ubuntu.com>  Tue, 20 Apr 2010 11:40:44 +0200
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Fri, 23 Apr 2010 21:13:20 +0200
 
 update-manager (1:0.134.6) lucid; urgency=low
 
