@@ -1,7 +1,7 @@
 update-manager (1:0.134.7) UNRELEASED; urgency=low
 
   * DistUpgrade/removal_blacklist.cfg:
-    - remove gobuntu-desktop from the removal blacklist
+    - remove gobuntu-desktop from the removal blacklist (LP: #567189)
 
  -- Michael Vogt <michael.vogt@ubuntu.com>  Tue, 20 Apr 2010 11:40:44 +0200
 
