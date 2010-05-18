@@ -1,3 +1,9 @@
+grubaker2 (0.1-1ubuntu0) lucid; urgency=low
+
+  * Updated version for lucid
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Wed, 28 Apr 2010 17:04:31 +0200
+
 grubaker2 (0.1-1) unstable; urgency=low
 
   * Added debian/watch
