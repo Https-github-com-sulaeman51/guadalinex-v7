@@ -1,6 +1,7 @@
 watermain (1.1-0guada1) lucid; urgency=low
 
   * Updated version
+  * Added debian/watch
 
  -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 30 Apr 2010 14:11:22 +0200
 
