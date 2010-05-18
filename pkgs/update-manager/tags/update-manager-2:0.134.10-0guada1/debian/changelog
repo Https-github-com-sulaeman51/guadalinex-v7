@@ -1,4 +1,4 @@
-update-manager (1:0.134.3) UNRELEASED; urgency=low
+update-manager (1:0.134.3) lucid; urgency=low
 
   * do-release-upgrade:
     - print when a new release is available in "-q" so that the motd
@@ -6,7 +6,7 @@ update-manager (1:0.134.3) UNRELEASED; urgency=low
   * debian/release-upgrade-motd:
     - add newline after release info (thanks to Dustin Kirkland)
 
- -- Michael Vogt <michael.vogt@ubuntu.com>  Tue, 13 Apr 2010 18:03:17 +0200
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Tue, 13 Apr 2010 22:52:08 +0200
 
 update-manager (1:0.134.2) lucid; urgency=low
 
