@@ -1,0 +1,18 @@
+Index: nanny-2.29.3/client/gnome/admin/data/nanny-admin-console.desktop.in
+===================================================================
+--- nanny-2.29.3.orig/client/gnome/admin/data/nanny-admin-console.desktop.in	2010-02-25 00:59:18.559036967 +0100
++++ nanny-2.29.3/client/gnome/admin/data/nanny-admin-console.desktop.in	2010-02-25 01:00:44.779036158 +0100
+@@ -7,4 +7,3 @@
+ Type=Application
+ Categories=GNOME;GTK;System;Settings;
+ StartupNotify=true
+-Encoding=UTF-8
+Index: nanny-2.29.3/client/gnome/admin/data/nanny-blacklist-manager.desktop.in
+===================================================================
+--- nanny-2.29.3.orig/client/gnome/admin/data/nanny-blacklist-manager.desktop.in	2010-02-25 00:59:29.967036316 +0100
++++ nanny-2.29.3/client/gnome/admin/data/nanny-blacklist-manager.desktop.in	2010-02-25 01:00:36.939036320 +0100
+@@ -7,4 +7,3 @@
+ Type=Application
+ Categories=GNOME;GTK;System;Settings;
+ StartupNotify=true
+-Encoding=UTF-8
