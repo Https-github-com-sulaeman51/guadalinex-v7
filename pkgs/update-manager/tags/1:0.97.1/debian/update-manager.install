@@ -1,0 +1,17 @@
+debian/tmp/usr/bin/update-manager
+debian/tmp/usr/share/update-manager/glade
+debian/tmp/usr/share/gnome
+debian/tmp/usr/share/omf
+debian/tmp/usr/share/icons
+debian/tmp/usr/share/gconf
+debian/tmp/usr/share/applications/update-manager.desktop
+debian/tmp/usr/share/man/
+debian/tmp/usr/lib/python*/site-packages/UpdateManager/ChangelogViewer.py
+debian/tmp/usr/lib/python*/site-packages/UpdateManager/DistUpgradeFetcher.py
+debian/tmp/usr/lib/python*/site-packages/UpdateManager/fakegconf.py
+debian/tmp/usr/lib/python*/site-packages/UpdateManager/GtkProgress.py
+debian/tmp/usr/lib/python*/site-packages/UpdateManager/MetaReleaseGObject.py
+debian/tmp/usr/lib/python*/site-packages/UpdateManager/ReleaseNotesViewer.py
+debian/tmp/usr/lib/python*/site-packages/UpdateManager/UpdateManager.py
+debian/tmp/usr/lib/python*/site-packages/UpdateManager/SimpleGladeApp.py
+debian/tmp/usr/lib/python*/site-packages/UpdateManager/HelpViewer.py
