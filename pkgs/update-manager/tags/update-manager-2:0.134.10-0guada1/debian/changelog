@@ -1,3 +1,16 @@
+update-manager (1:0.134.9) UNRELEASED; urgency=low
+
+  * DistUpgrade/DistUpgrade.cfg:
+    - add ubuntu-netbook-remix and ubuntu-netbook to valid
+      meta-packages to ensure clean transition for the rename
+      of ubuntu-netbook-remix to ubuntu-netbook
+  * DistUpgrade/DistUpgradeCache.py:
+    - Check if the metapkg is actually upgradable. This covers
+      the case of ubuntu-netbook-remix that may no longer be 
+      available to a user if "universe" is disabled
+
+ -- Michael Vogt <egon@top.ping.de>  Sun, 02 May 2010 19:13:53 +0200
+
 update-manager (1:0.134.8) lucid-proposed; urgency=low
 
   * DistUpgrade/DistUpgradeCache.py:
