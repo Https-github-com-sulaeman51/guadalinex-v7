@@ -1,3 +1,9 @@
+nanny (2.29.3-0ubuntu2~lucid1) unstable; urgency=low
+
+  * Added missed python-gtop depend (LP: #526932) 
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Wed, 24 Feb 2010 11:10:07 +0100
+
 nanny (2.29.3-0ubuntu2) jaunty; urgency=low
 
   * Fix .la crash
