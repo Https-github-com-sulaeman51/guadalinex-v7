@@ -2,8 +2,11 @@ update-manager (1:0.134.4) UNRELEASED; urgency=low
 
   * DistUpgrade/DistUpgrade.cfg, DistUpgrade/DistUpgrade.cfg.hardy:
     - do not enable apport anymore
+  * DistUpgrade/DistUpgradeViewGtk.py:
+    - set empty dialog titles for error/information dialogs (it looks
+      like glade removed those for some reason from the .ui file)
 
- -- Michael Vogt <michael.vogt@ubuntu.com>  Wed, 14 Apr 2010 09:20:05 +0200
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Wed, 14 Apr 2010 10:09:38 +0200
 
 update-manager (1:0.134.3) lucid; urgency=low
 
