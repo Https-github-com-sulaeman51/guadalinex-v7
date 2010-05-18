@@ -1,4 +1,12 @@
-nanny (2.29.1-1) jaunty; urgency=low
+nanny (2.29.1-0ubuntu1) jaunty; urgency=low
+
+  * Initial release (LP: #501528)
+  * Separate the upstream code from the packaging stuff
+  * Fixed some policy and copyright stuff
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Wed, 30 Dec 2009 02:16:50 +0000
+
+nanny (2.29.1-0) jaunty; urgency=low
 
   * First release 
 
