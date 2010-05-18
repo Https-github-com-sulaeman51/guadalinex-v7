@@ -16,22 +16,21 @@
 #with this program.  If not, see <http://www.gnu.org/licenses/>.
 ### END LICENSE
 
-
 from distutils.core import setup
 from DistUtilsExtra.command import *
 
 setup(name='grubaker2',
-    version='0.1',
+    version='1.0',
     license='GPL v3',
     author='Alfonso de Cala',
     author_email='alfonso@el-magnifico.org',
     url='https://launchpad.net/grubaker2',
-#    scripts='grubaker2',
-    data_files=[('sbin/', ['scripts/grubaker2']),
-                ('share/grubaker2/',['data/grubaker2.desktop','data/grubaker2.glade']),
+    scripts=['scripts/grubaker2'],
+    packages=[''],
+    data_files=[('share/grubaker2/',['data/grubaker2.desktop','data/grubaker2.glade']),
                 ('share/icons/',['data/grubaker2.png'])],
     cmdclass = { "build" : build_extra.build_extra,
- #       "build_i18n" :  build_i18n.build_i18n,
+        "build_i18n" :  build_i18n.build_i18n,
         "clean": clean_i18n.clean_i18n,
         }
     )
