@@ -1,8 +1,14 @@
+update-manager (2:0.134.10) lucid-proposed; urgency=low
+
+  * Fixed changelog.
+
+ -- Alvaro Pinel <alvaropinel@gmail.com>  Tue, 18 May 2010 09:37:56 +0200
+
 update-manager (2:0.134.9) lucid-proposed; urgency=low
 
   * Increased epoch for Guadalinex v7
 
- -- Michael Vogt <alvaropinel@gmail.com>  Tue, 18 May 2010 09:09:56 +0200
+ -- Alvaro Pinel <alvaropinel@gmail.com>  Tue, 18 May 2010 09:09:56 +0200
 
 update-manager (1:0.134.9) lucid-proposed; urgency=low
 
