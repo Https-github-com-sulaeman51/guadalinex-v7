@@ -378,6 +378,7 @@ class DistUpgradeQuirks(object):
     def StartUpgrade(self):
         self._applyPatches()
         self._removeOldApportCrashes()
+        self._dealWithGrubLupin()
         self._removeBadMaintainerScripts()
         self._killUpdateNotifier()
         self._killKBluetooth()
@@ -672,6 +673,14 @@ class DistUpgradeQuirks(object):
         if os.path.exists("/usr/bin/killall"):
             logging.debug("killing update-notifier")
             subprocess.call(["killall","-q","update-notifier"])
+    def _dealWithGrubLupin(self):
+        """ deal with 10_lupin in grub2 for bug #540579 """
+        md5sum = "7a1ad1c3b869d0e3a57351d063a59778"
+        path = "/etc/grub.d/10_lupin"
+        if (os.path.exists(path) and
+            md5(open(path).read()).hexdigest() == md5sum):
+            logging.debug("copying new 10_lupin")
+            shutil.copy("10_lupin", "/etc/grub.d/10_lupin")
     def _killKBluetooth(self):
         """killall kblueplugd kbluetooth (riddel requested it)"""
         if os.path.exists("/usr/bin/killall"):

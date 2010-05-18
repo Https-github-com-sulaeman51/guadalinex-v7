@@ -1,9 +1,15 @@
-update-manager (1:0.134.8) UNRELEASEDlucid-proposed; urgency=low
+update-manager (1:0.134.8) lucid-proposed; urgency=low
 
   * DistUpgrade/DistUpgradeCache.py:
     - show pulse while calculating the changes (LP: #548398)
+  * DistUpgrade/DistUpgradeQuirks.py:
+    - add workaround for 10_lupin infinite loop (LP: #540579)
+      Thanks to Juergen Klar for providing the test-case
+  * DistUpgrade/10_lupin:
+    - include (fixed) lucid version of 10_lupin that fixes a possible
+      infinite loop on upgrade
 
- -- Michael Vogt <michael.vogt@ubuntu.com>  Wed, 28 Apr 2010 13:53:51 +0200
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Fri, 30 Apr 2010 17:08:46 +0200
 
 update-manager (1:0.134.7) lucid; urgency=low
 
