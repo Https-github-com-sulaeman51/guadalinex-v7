@@ -1,0 +1,125 @@
+#! /bin/sh -e
+
+# grub-mkconfig helper script for lupin. Some of this is based on 10_linux,
+# but with irrelevant bits removed and the rest extended to cope with
+# loopback mounts.
+#
+# Copyright (C) 2006,2007,2008,2009  Free Software Foundation, Inc.
+# Copyright (C) 2009  Canonical Ltd.
+#
+# GRUB is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# GRUB is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with GRUB.  If not, see <http://www.gnu.org/licenses/>.
+
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+. ${libdir}/grub/grub-mkconfig_lib
+
+if [ "x${GRUB_DISTRIBUTOR}" = "x" ] ; then
+  OS=GNU/Linux
+else
+  OS="${GRUB_DISTRIBUTOR}"
+fi
+
+case ${GRUB_DEVICE} in
+  /dev/loop/*|/dev/loop[0-9])
+    loop_file=`losetup ${GRUB_DEVICE} | sed -e "s/^[^(]*(\([^)]\+\)).*/\1/"`
+  ;;
+esac
+
+# Is the root filesystem loop-mounted from a file on another filesystem?
+if [ "x${loop_file}" = x ] || [ ! -f "${loop_file}" ]; then
+  exit 0
+fi
+dev_mountpoint="$(awk '"'${loop_file}'" ~ "^"$2 && $2 != "/" { print $1";"$2 }' /proc/mounts | tail -n1)"
+host_device="${dev_mountpoint%;*}"
+host_mountpoint="${dev_mountpoint#*;}"
+if [ "x${host_device}" = x ]; then
+  exit 0
+fi
+loop_file_relative="${loop_file#$host_mountpoint}"
+
+# Device containing the host filesystem.
+host_device_uuid="`${grub_probe} --device "${host_device}" --target=fs_uuid 2> /dev/null`" || true
+
+if [ "x${host_device_uuid}" = "x" ] || [ "x${GRUB_DISABLE_LINUX_UUID}" = "xtrue" ] \
+    || ! test -e "/dev/disk/by-uuid/${host_device_uuid}" \
+    || [ "`${grub_probe} -t abstraction --device ${host_device} | sed -e 's,.*\(lvm\).*,\1,'`" = "lvm"  ] ; then
+  LINUX_HOST_DEVICE=${host_device}
+else
+  LINUX_HOST_DEVICE=UUID=${host_device_uuid}
+fi
+
+# add crashkernel option if we have the required tools
+if [ -x "/usr/bin/makedumpfile" ] && [ -x "/sbin/kexec" ]; then
+    GRUB_CMDLINE_EXTRA="$GRUB_CMDLINE_EXTRA crashkernel=384M-2G:64M,2G-:128M"
+fi
+
+lupin_entry ()
+{
+  cat << EOF
+menuentry "$1" {
+EOF
+  save_default_entry | sed -e "s/^/\t/"
+  prepare_grub_to_access_device ${GRUB_DEVICE_BOOT} | sed -e "s/^/\t/"
+
+  cat << EOF
+	linux ${rel_dirname}/${basename} root=${LINUX_HOST_DEVICE} loop=${loop_file_relative} ro $2
+	initrd ${rel_dirname}/${initrd}
+EOF
+  cat << EOF
+}
+EOF
+}
+
+list=`for i in /boot/vmlinu[xz]-* /vmlinu[xz]-* ; do
+        if grub_file_is_not_garbage "$i" ; then echo -n "$i " ; fi
+      done`
+
+while [ "x$list" != "x" ] ; do
+  linux=`version_find_latest $list`
+  echo "Found linux image: $linux" >&2
+  basename=`basename $linux`
+  dirname=`dirname $linux`
+  rel_dirname=`make_system_path_relative_to_its_root $dirname`
+  version=`echo $basename | sed -e "s,^[^0-9]*-,,g"`
+  alt_version=`echo $version | sed -e "s,\.old$,,g"`
+  linux_root_device_thisversion="${LINUX_ROOT_DEVICE}"
+
+  initrd=
+  for i in "initrd.img-${version}" "initrd-${version}.img" \
+	   "initrd-${version}" "initrd.img-${alt_version}" \
+	   "initrd-${alt_version}.img" "initrd-${alt_version}"; do
+    if test -e "${dirname}/${i}" ; then
+      initrd="$i"
+      break
+    fi
+  done
+  if test -n "${initrd}" ; then
+    echo "Found initrd image: ${dirname}/${initrd}" >&2
+  else
+    # None of this can work without an initrd, so don't even bother.
+    list=`echo $list | tr ' ' '\n' | grep -vx $linux | tr '\n' ' '`
+    continue
+  fi
+
+  lupin_entry "${OS}, Linux ${version}" \
+      "${GRUB_CMDLINE_LINUX} ${GRUB_CMDLINE_EXTRA} ${GRUB_CMDLINE_LINUX_DEFAULT}" \
+      quiet
+  if [ "x${GRUB_DISABLE_LINUX_RECOVERY}" != "xtrue" ]; then
+    lupin_entry "${OS}, Linux ${version} (recovery mode)" \
+	"single ${GRUB_CMDLINE_LINUX}"
+  fi
+
+  list=`echo $list | tr ' ' '\n' | grep -vx $linux | tr '\n' ' '`
+done
