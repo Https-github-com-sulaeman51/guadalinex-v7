@@ -6,6 +6,17 @@ update-manager (1:0.134.1) UNRELEASED; urgency=low
     - stop apparmor before dpkg starts on hardy -> lucid upgrades to
       avoid potentially confusing error messages during the upgrade
       (LP: #559433)
+  * DistUpgrade/DistUpgradeCache.py, DistUpgrade/build-tarball.sh:
+    - include obselte nvidia pkgnames to properly transition old
+      to new drivers (LP: #553369)
+  * DistUpgrade/DistUpgradeViewText.py:
+    - show packages that will be removed (because they were auto installed)
+      as well (LP: #558438)
+    - fix i18n bug in details output
+  * UpdateManager/Core/MyCache.py:
+    - support third party changelogs by using  ArchiveURI() and
+      append a similar structure as changelogs.ubuntu.com uses 
+      (LP: #45129)
 
  -- Michael Vogt <michael.vogt@ubuntu.com>  Mon, 12 Apr 2010 11:39:52 +0200
 
