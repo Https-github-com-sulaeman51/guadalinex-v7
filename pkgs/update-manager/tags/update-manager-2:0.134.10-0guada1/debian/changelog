@@ -5,8 +5,23 @@ update-manager (1:0.134.4) UNRELEASED; urgency=low
   * DistUpgrade/DistUpgradeViewGtk.py:
     - set empty dialog titles for error/information dialogs (it looks
       like glade removed those for some reason from the .ui file)
+  * DistUpgrade/DistUpgradeViewGtk.py:
+    - set empty dialog titles for error/information dialogs (it looks
+      like glade removed those for some reason from the .ui file)
+  * DistUpgrade/DistUpgradeAufs.py:
+    - fix crash if aufs (--sandbox mode) is used (LP: #562394)
+  * DistUpgrade/DistUpgradeMain.py:
+    - fix generation of system state file for non-existing dirs/files
+      (LP: #561872)
+  * UpdateManager/UpdateManager.py:
+    - provide a LIST_TOGGLE_CHECKED column as a workaround for orca
+      that does not work with values updated via 
+      column_install.set_cell_data_func (LP: #561563)
+  * update-manager:
+    - use gettext.install(unicode=True) to avoid breaking with
+      optparse and ja.po (LP: #557804)
 
- -- Michael Vogt <michael.vogt@ubuntu.com>  Wed, 14 Apr 2010 10:09:38 +0200
+ -- Michael Vogt <michael.vogt@ubuntu.com>  Wed, 14 Apr 2010 16:38:07 +0200
 
 update-manager (1:0.134.3) lucid; urgency=low
 
