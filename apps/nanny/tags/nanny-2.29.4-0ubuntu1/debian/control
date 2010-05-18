@@ -5,7 +5,7 @@ Maintainer: Juanje Ojeda Croissier <juanje@ubuntu.com>
 Uploaders: Roberto Majadas <roberto.majadas@openshine.com>,
            Juanje Ojeda Croissier <jojeda@emergya.es>
 Build-Depends: debhelper (>= 7), cdbs, python-gtk2-dev, python-dbus , python-gnome2-dev, python-sqlite, libdbus-1-dev, gnome-doc-utils, libsqlite3-dev, python-twisted-core, python-twisted-web, python-imaging, intltool (>= 0.35), python-dev (>= 2.5), python-central (>= 0.5.10)
-Standards-Version: 3.8.0
+Standards-Version: 3.8.3
 XS-Python-Version: current
 Homepage: http://projects.gnome.org/nanny
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/nanny/trunk/changes

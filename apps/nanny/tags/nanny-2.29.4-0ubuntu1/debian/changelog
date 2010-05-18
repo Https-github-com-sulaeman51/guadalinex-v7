@@ -1,4 +1,4 @@
-nanny (2.29.1-0ubuntu1) jaunty; urgency=low
+nanny (2.29.1-0ubuntu1) karmic; urgency=low
 
   * Initial release (LP: #501528)
   * Separate the upstream code from the packaging stuff
