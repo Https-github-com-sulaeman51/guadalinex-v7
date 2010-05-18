@@ -312,8 +312,12 @@ class DistUpgradeViewNonInteractive(DistUpgradeView):
         logging.debug("toupgrade: '%s'" % self.toUpgrade)
         logging.debug("toremove: '%s'" % self.toRemove)
         return True
-    def askYesNoQuestion(self, summary, msg):
+    def askYesNoQuestion(self, summary, msg, default='No'):
         " ask a Yes/No question and return True on 'Yes' "
+        # if this gets enabled upgrades over ssh with the non-interactive
+        # frontend will no longer work
+        #if default.lower() == "no":
+        #    return False
         return True
     def confirmRestart(self):
         " generic ask about the restart, can be overridden "
