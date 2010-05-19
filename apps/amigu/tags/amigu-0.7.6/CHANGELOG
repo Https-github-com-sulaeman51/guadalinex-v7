@@ -104,3 +104,7 @@ version 0.7.2:
 version 0.7.3:
 + commented code
 
+version 0.7.5:
++ removed dependecies: hal, gnome-mount
++ addede dependecies: readpst, os-prober, python-gksu2
+
