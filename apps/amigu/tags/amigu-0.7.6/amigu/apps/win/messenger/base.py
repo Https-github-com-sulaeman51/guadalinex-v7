@@ -1,83 +1,12 @@
 # -*- coding: utf-8 -*-
-# Este módulo aporta rutinas para configurar los clientes de mensajería instantánea:
-#  - Pidgin
-#  - Kopete
-#  - aMSN
-# Tanto en las clases Gaim como Kopete se permite la configuración de multiples protocolos como:
-#  - MSN
-#  - Yahoo!
-#  - Gtalk (basado en Jabber)
 
 import os
 import re
 from amigu.util.folder import *
 from amigu.apps.base import application
+from amigu.apps.win.messenger.live import *
+from amigu.apps.win.messenger.gtalk import *
 from amigu import _
-
-
-
-class w_live_id(application):
-    """Clase para el manejo de cuentas de mensajería instantánea de Windows
-        Programas:
-         * Windows Messenger
-         * MSN Messenger
-         * Live Messenger
-    """
-
-    def initialize(self):
-        """Personaliza los parámetro de la aplicación"""
-        if not self.option:
-            raise Exception
-        self.name = self.option
-        self.description = _("Windows Live ID") +": " +self.name
-        self.size = 1
-
-    def do(self):
-        """Realiza el proceso de importación a Pidgin, Kopete y amsn"""
-        self.update_progress(5.0)
-        pidgin = gaim()
-        self.update_progress(20.0)
-        kopte = kopete()
-        self.update_progress(35.0)
-        if self.option:
-            pidgin.config_msn(self.option)
-            self.update_progress(60.0)
-            kopte.config_msn(self.option)
-            self.update_progress(85.0)
-            msn2amsn(self.option)
-        return 1
-
-
-class gtalk(application):
-    """Clase para el manejo de cuentas de mensajería instantánea de Google Gtalk"""
-
-    def initialize(self):
-        """Personaliza los parámetros de la aplicación"""
-        self.option = self.user.get_GTALK_account()
-        if not self.option:
-            raise Exception
-        self.name = self.option.endswith('gmail.com') and self.option or self.option + "@gmail.com"
-        self.description = _("Google Talk") +": " +self.name
-        self.size = 1
-
-
-    def do(self, option=None):
-        """Realiza el proceso de importación a Pidgin y Kopete
-        
-        Argumentos de entrada:
-        option -> identificador de Google talk
-        
-        """
-        pidgin = gaim()
-        self.update_progress(20.0)
-        kopte = kopete()
-        self.update_progress(40.0)
-        if self.option:
-            pidgin.config_gtalk(self.option)
-            self.update_progress(60.0)
-            kopte.config_gtalk(self.option)
-        return 1
-
 
 
 class gaim:
@@ -370,7 +299,10 @@ def get_IM_accounts(user):
         temp_accounts += ac
     temp_accounts = list(set(temp_accounts))
     for a in temp_accounts:
-        accounts.append(w_live_id(user, a))
+        try:
+            accounts.append(windowslive(user, a))
+        except:
+            pass
     try:
         g = gtalk(user)
     except:

@@ -14,10 +14,6 @@ from amigu.util.folder import *
 from amigu.apps.base import application
 
 
-__DIR_PST2MBX__="/usr/bin"
-__DIR_DBX2MBX__="/usr/bin"
-
-
 class mailconfig:
     """Clase para el manejo de configuraciones de correo.
     Visit http://msdn2.microsoft.com/en-us/library/ms715237.aspx for more information about the values"""
@@ -242,12 +238,16 @@ class mailreader(application):
         
         """
         self.update_progress(5.0)
-        self.import_accounts()
-        self.import_mails()
-        self.update_progress(80.0)
-        self.import_contacts()
-        self.update_progress(90.0)
-        self.import_calendar()
+        if not self.abort:
+            self.import_accounts()
+        if not self.abort:
+            self.import_mails()
+            self.update_progress(80.0)
+        if not self.abort:
+            self.import_contacts()
+            self.update_progress(90.0)
+        if not self.abort:
+            self.import_calendar()
         return 1
 
     def import_mails(self):
@@ -356,52 +356,55 @@ class mailreader(application):
     def config_EVOLUTION_calendar(self):
         """Convierte e integra el calendario en Evolution"""
         vcal = os.path.join(self.dest.path, _("Calendario"))
+        if not os.path.exists(vcal):
+            vcal = commands.getoutput("rgrep -l VEVENT %s" % self.dest.path.replace(' ', '\ '))
+        if not vcal or not os.path.exists(vcal):
+            return 0
         old = None
         dates = []
-        if os.path.exists(vcal):
-            evo_cal = os.path.join(os.path.expanduser('~'),'.evolution','calendar','local','system','calendar.ics')
-            folder(os.path.dirname(evo_cal))
-            if os.path.exists(evo_cal):
-                old = backup(evo_cal)
-                if old:
-                    new_cal = open(evo_cal, "w")
-                    old_cal = open(old, 'r')
-                    for l in old_cal.readlines():
-                        if l.find('END:VCALENDAR') == -1:
-                            new_cal.write(l)
-                        if l.find('BEGIN:VEVENT') != -1:
-                            dt, sum = None, None
-                        elif l.find('END:VEVENT') != -1:
-                            if dt and sum:
-                                dates.append(dt+sum)
-                        elif l.find('DTSTART') != -1:
-                            dt = l.replace('DTSTART:', '')
-                        elif l.find('SUMMARY') != -1:
-                            sum = l.replace('SUMMARY:', '')
-                    old_cal.close()
-            orig = open(vcal,"r")
-            events = False
-            if not old:
+        evo_cal = os.path.join(os.path.expanduser('~'),'.evolution','calendar','local','system','calendar.ics')
+        folder(os.path.dirname(evo_cal))
+        if os.path.exists(evo_cal):
+            old = backup(evo_cal)
+            if old:
                 new_cal = open(evo_cal, "w")
-                new_cal.write('BEGIN:VCALENDAR\n')
-                new_cal.write('CALSCALE:GREGORIAN\n')
-                new_cal.write('VERSION:2.0\n')
-            buffer = ''
-            for l in orig.readlines():
-                buffer += l
-                if l.find('BEGIN:VEVENT') != -1:
-                    dt, sum = None, None
-                    buffer = l
-                elif l.find('END:VEVENT') != -1:
-                    if dt and sum and not dt+sum in dates:
-                        new_cal.write(buffer)
-                elif l.find('DTSTART') != -1:
-                    dt = l.replace('DTSTART:', '')
-                elif l.find('SUMMARY') != -1:
-                    sum = l.replace('SUMMARY:', '')
-            new_cal.write('END:VCALENDAR\n')
-            orig.close()
-            os.remove(vcal)
+                old_cal = open(old, 'r')
+                for l in old_cal.readlines():
+                    if l.find('END:VCALENDAR') == -1:
+                        new_cal.write(l)
+                    if l.find('BEGIN:VEVENT') != -1:
+                        dt, sum = None, None
+                    elif l.find('END:VEVENT') != -1:
+                        if dt and sum:
+                            dates.append(dt+sum)
+                    elif l.find('DTSTART') != -1:
+                        dt = l.replace('DTSTART:', '')
+                    elif l.find('SUMMARY') != -1:
+                        sum = l.replace('SUMMARY:', '')
+                old_cal.close()
+        orig = open(vcal,"r")
+        events = False
+        if not old:
+            new_cal = open(evo_cal, "w")
+            new_cal.write('BEGIN:VCALENDAR\n')
+            new_cal.write('CALSCALE:GREGORIAN\n')
+            new_cal.write('VERSION:2.0\n')
+        buffer = ''
+        for l in orig.readlines():
+            buffer += l
+            if l.find('BEGIN:VEVENT') != -1:
+                dt, sum = None, None
+                buffer = l
+            elif l.find('END:VEVENT') != -1:
+                if dt and sum and not dt+sum in dates:
+                    new_cal.write(buffer)
+            elif l.find('DTSTART') != -1:
+                dt = l.replace('DTSTART:', '')
+            elif l.find('SUMMARY') != -1:
+                sum = l.replace('SUMMARY:', '')
+        new_cal.write('END:VCALENDAR\n')
+        orig.close()
+        os.remove(vcal)
                 
     def config_EVOLUTION_addressbook(self):
         """Convierte e integra los contactos en la libreta de direcciones
@@ -409,31 +412,34 @@ class mailreader(application):
         
         """
         vcard = os.path.join(self.dest.path, _("Contactos"))
-        if os.path.exists(vcard):
-            import bsddb
-            adb=os.path.join(os.path.expanduser('~'),'.evolution','addressbook','local','system','addressbook.db')
-            folder(os.path.dirname(adb))
-            db = bsddb.hashopen(adb,'w')
-            if not 'PAS-DB-VERSION\x00' in db.keys():
-                db['PAS-DB-VERSION\x00'] = '0.2\x00'
-            contacts = open(vcard, 'r')
-            while 1:
-                l = contacts.readline()
-                if not l:
-                    break
-                if l.find('BEGIN:VCARD') != -1:
-                    randomid = 'pas-id-' + str(random.random())[2:]
-                    db[randomid+'\x00'] = 'BEGIN:VCARD\r\nUID:' + randomid + '\r\n'
-                    while 1:
-                        v = contacts.readline()
-                        if v.find('END:VCARD') != -1:
-                            db[randomid+'\x00'] += 'END:VCARD\x00'
-                            break
-                        else:
-                            db[randomid+'\x00'] += v.replace('PERSONAL','HOME').replace('\n', '\r\n')
-            db.sync()
-            db.close()
-            os.remove(vcard)
+        if not os.path.exists(vcard):
+            vcard = commands.getoutput("rgrep -l VCARD %s" % self.dest.path.replace(' ', '\ '))
+        if not vcard or not os.path.exists(vcard):
+            return 0
+        import bsddb
+        adb=os.path.join(os.path.expanduser('~'),'.evolution','addressbook','local','system','addressbook.db')
+        folder(os.path.dirname(adb))
+        db = bsddb.hashopen(adb,'w')
+        if not 'PAS-DB-VERSION\x00' in db.keys():
+            db['PAS-DB-VERSION\x00'] = '0.2\x00'
+        contacts = open(vcard, 'r')
+        while 1:
+            l = contacts.readline()
+            if not l:
+                break
+            if l.find('BEGIN:VCARD') != -1:
+                randomid = 'pas-id-' + str(random.random())[2:]
+                db[randomid+'\x00'] = 'BEGIN:VCARD\r\nUID:' + randomid + '\r\n'
+                while 1:
+                    v = contacts.readline()
+                    if v.find('END:VCARD') != -1:
+                        db[randomid+'\x00'] += 'END:VCARD\x00'
+                        break
+                    else:
+                        db[randomid+'\x00'] += v.replace('PERSONAL','HOME').replace('\n', '\r\n')
+        db.sync()
+        db.close()
+        os.remove(vcard)
     
     def config_THUNDERBIRD(self, a):
         """Configura la cuenta dada en Mozilla Thunderbird
@@ -442,188 +448,12 @@ class mailreader(application):
         a -- objeto de tipo Mailconfig
         
         """
-        th = thunderbird()
+        th = mozillathunderbird()
         try:
             th.config_account(a)
         except:
             pass
 
-
-class outlook12(mailreader):
-    """Clase para el manejo de Office 2007 (versión 12)"""
-    
-    def initialize(self):
-        """Inicializa los valores específicos de la aplicación."""
-        self.size = 0
-        self.mailconfigs = []
-        self.mailboxes = []
-        
-        self.name = _("Outlook 2007")
-        self.description = _("Datos y configuraciones de MS Office Outlook 2007")
-        pst = os.path.join(self.user.folders["Local AppData"].path, 'Microsoft','Outlook', 'Outlook.pst')
-        if os.path.exists(pst):
-            self.mailboxes.append(pst)
-        self.mailconfigs = self.get_configuration()
-        if not self.mailconfigs:
-            raise Exception
-
-        for mb in self.mailboxes:
-            self.size = os.path.getsize(mb)/1024
-        self.description = self.name +": %d "%len(self.mailconfigs)+ _("cuentas de correo")
-
-
-    def get_configuration(self):
-        """Devuelve la configuración de la aplicación de correo"""
-        configs = []
-        for key in self.option:
-            r = self.user.search_key(key)
-            if not "Email" in r.keys():
-                continue
-            pst = None
-            for k, v in r.iteritems():
-                if v.startswith('hex'):
-                    r[k]=hex2str(v)
-                if k.find('pst') > 0:
-                    pst = k
-                if k == 'IMAP Store EID':
-                    pst = r[k]
-            if pst:
-                i = pst.find(':')
-                pst = self.user.check_path(pst)
-                pst = pst.replace('\\','/')
-                if os.path.exists(pst) and not pst in self.mailboxes:
-                    self.mailboxes.append(pst)
-            try:
-                c = mailconfig(r)
-            except:
-                continue
-            else:
-                configs.append(c)
-        return configs
-
-    def convert_mailbox(self, mb):
-        """Convierte los correos al formato Mailbox.
-        
-        Argumentos de entrada:
-        mb -> fichero que contiene los correos de la aplicación
-        
-        """
-        readpst = os.path.join(__DIR_PST2MBX__,'readpst')
-        com = '%s -w %s -o %s' % (readpst, mb.replace(' ',"\ "), self.dest.path.replace(' ',"\ "))
-        os.system(com)
-
-
-
-class outlook11(mailreader):
-    
-    def initialize(self):
-        """Inicializa los valores específicos de la aplicación."""
-        self.size = 0
-        self.mailconfigs = []
-        self.mailboxes = []
-
-        self.name = _("Outlook XP-2002-2003")
-        pst = glob.glob(os.path.join(self.user.folders["Local AppData"].path, 'Microsoft','Outlook', '?utlook.pst'))
-        if pst and os.path.exists(pst[0]):
-            self.mailboxes.append(pst[0])
-        self.mailconfigs = self.get_configuration()
-        self.description = self.name +": %d "%len(self.mailconfigs)+ _("cuentas de correo")
-        if not self.mailconfigs:
-            raise Exception
-
-        for mb in self.mailboxes:
-            self.size = os.path.getsize(mb)/1024
-
-    def get_configuration(self):
-        """Devuelve la configuración de la aplicación de correo"""
-        configs = []
-        for key in self.option:
-            r = self.user.search_key(key)
-            if not "Email" in r.keys():
-                continue
-            for k, v in r.iteritems():
-                if v.startswith('hex'):
-                    r[k]=hex2str(v)
-            
-            try:
-                pst_file = "*Outlook*"+c.get_server()+'-'+self.option.split('\\')[-1][:-3]+'.pst'
-                pst_file = glob.glob(os.path.join(self.user.folders["Local AppData"].path, 'Microsoft','Outlook', pst_file))[0]
-                if os.path.exists(pst_file) and not pst_file in self.mailboxes:
-                    self.mailboxes.append(pst_file)
-            except:
-                pass
-            try:
-                c = mailconfig(r)
-            except:
-                continue
-            else:
-                configs.append(c)
-        return configs
-
-    def convert_mailbox(self, mb):
-        """Convierte los correos al formato Mailbox.
-        
-        Argumentos de entrada:
-        mb -> fichero que contiene los correos de la aplicación
-        
-        """        
-        readpst = os.path.join(__DIR_PST2MBX__,'readpst')
-        com = '%s -w %s -o %s' % (readpst, mb.replace(' ',"\ "), self.dest.path.replace(' ',"\ "))
-        os.system(com)
-
-
-class outlook9(mailreader):
-    
-    def initialize(self):
-        """Inicializa los valores específicos de la aplicación."""
-        self.size = 0
-        self.mailconfigs = []
-        self.mailboxes = []
-
-        self.name = _("Outlook 2000")
-        self.description = _("Datos y configuraciones de MS Office Outlook 2000")
-        pst = glob.glob(os.path.join(self.user.folders["Local AppData"].path, 'Microsoft','Outlook', '?utlook.pst'))
-
-        if pst and os.path.exists(pst[0]):
-            self.mailboxes.append(pst[0])
-        self.mailconfigs = self.get_configuration()
-        for mb in self.mailboxes:
-            self.size = os.path.getsize(mb)/1024
-        self.description = self.name +": %d "%len(self.mailconfigs)+ _("cuentas de correo")
-        if not self.mailconfigs:
-            raise Exception
-
-    def get_configuration(self):
-        """Devuelve la configuración de la aplicación de correo"""
-        configs = []
-        for key in self.option:
-            r = self.user.search_key(key)
-            for k, v in r.iteritems():
-                if k.find('pst') > 0:
-                    pst = self.user.check_path(k)
-                    if os.path.exists(pst) and not pst in self.mailboxes:
-                        self.mailboxes.append(pst)
-            try:
-                c = mailconfig(r)
-            except:
-                continue
-            else:
-                configs.append(c)
-        return configs
-
-    def convert_mailbox(self, mb):
-        """Convierte los correos al formato Mailbox.
-        
-        Argumentos de entrada:
-        mb -> fichero que contiene los correos de la aplicación
-        
-        """
-        readpst = os.path.join(__DIR_PST2MBX__,'readpst')
-        com = '%s -w %s -o %s' % (readpst, mb.replace(' ',"\ "), self.dest.path.replace(' ',"\ "))
-        os.system(com)
-
-        
-class outlook_express(mailreader):
     
     def initialize(self):
         """Inicializa los valores específicos de la aplicación."""
@@ -671,173 +501,7 @@ class outlook_express(mailreader):
             if os.path.splitext(e)[-1] == '.dbx':
                 shutil.move(os.path.join(output, e), os.path.join(output, e).replace('.dbx',''))
 
-    def import_contacts(self):
-        pass
-        
-    def import_calendar(self):
-        pass
-        
 
-class windowsmail(mailreader):
-    
-    def initialize(self):
-        """Inicializa los valores específicos de la aplicación."""
-        self.size = 0
-        self.mailconfigs = []
-        self.mailboxes = []
-        self.name = _("Windows Mail")
-      
-        self.mailconfigs = self.get_configuration()
-        self.description = self.name +": %d "%len(self.mailconfigs)+ _("cuentas de correo")
-        for mb in self.mailboxes:
-            self.size += mb.get_size()
-        if not self.mailconfigs:
-            raise Exception
-
-
-    def get_configuration(self):
-        """Devuelve la configuración de la aplicación de correo"""
-        configs = []
-        for key in self.option:
-            try:
-                c = mailconfig(key)
-            except:
-                continue
-            else:
-                configs.append(c)
-            mb = folder(os.path.dirname(key), False)
-            if mb.path:
-                self.mailboxes.append(mb)
-        return configs
-
-    def convert_mailbox(self, mb):
-        """Convierte los correos al formato Mailbox.
-        
-        Argumentos de entrada:
-        mb -> fichero que contiene los correos de la aplicación
-        
-        """
-        eml2mbox(mb.path, os.path.join(self.dest.path, mb.path.split('/')[-1]))
-        
-    def import_calendar(self):
-        pass
-        
-    def import_contacts(self):
-        pass
-
-class windowslivemail(windowsmail):
-    
-    def initialize(self):
-        """Inicializa los valores específicos de la aplicación."""
-        self.size = 0
-        self.mailconfigs = []
-        self.mailboxes = []
-
-        self.name = _("Windows Live Mail")
-        self.mailconfigs = self.get_configuration()
-        self.description = self.name +": %d "%len(self.mailconfigs)+ _("cuentas de correo")
-        for mb in self.mailboxes:
-            self.size += mb.get_size()
-        if not self.mailconfigs:
-            raise Exception
-
-class winthunderbird(mailreader):
-    
-    def initialize(self):
-        """Inicializa los valores específicos de la aplicación."""
-        self.name = _("Mozilla Thunderbird")
-        self.mailboxes = []
-        self.size = 0
-        self.mailconfigs = self.get_configuration()
-        self.description = self.name +": %d "%len(self.mailconfigs)+ _("cuentas de correo")
-        for mb in self.mailboxes:
-            self.size += mb.get_size()
-        
-        if not self.mailconfigs:
-            raise Exception
-
-    def get_configuration(self):
-        """Devuelve la configuración asociada a la aplicación"""
-        prefs = self.user.get_THUNDERBIRD_prefs()
-        p = open(prefs, 'r')
-        content = p.readlines()
-        p.close()
-        id = 0
-        c = {}
-        configs = []
-        for ac in self.option:
-            pid = re.compile('.*'+self.option+'\.identities\".+\"(?P<id>\w+)\".+')
-            pserver = re.compile('.*'+self.option+'\.server\".+\"(?P<server>\w+)\".+')
-            
-            for l in content:
-                m = pid.match(l)
-                if m:
-                    id = m.group('id')
-                    psmtp = re.compile('.*'+id+'\.smtpServer\".+\"(?P<smtp>\w+)\".+')
-                else:
-                    m = pserver.match(l)
-                    if m:
-                        server = m.group('server')
-                    elif id:
-                        m = psmtp.match(l)
-                        if m:
-                            smtp = m.group('smtp')
-            pid = re.compile('.*mail\.identity\.'+id+'\.(?P<key>.+)\".+\s(?P<value>(\".+\")|\d+)\).+')
-            pserver = re.compile('.*mail\.server\.'+server+'\.(?P<key>.+)\".+\s(?P<value>(\".+\")|\w+)\).+')
-            psmtp = re.compile('.*mail\.smtpserver\.'+smtp+'\.(?P<key>.+)\".+\s(?P<value>(\".+\")|\w+)\).+')
-            for l in content:
-                m = pid.match(l)
-                if m:
-                    c[m.group('key')]=m.group('value').replace('\"','')
-                else:
-                    m = pserver.match(l)
-                    if m:
-                        c[m.group('key')]=m.group('value').replace('\"','')
-                    else:
-                        m = psmtp.match(l)
-                        if m:
-                            c['smtp'+m.group('key')]=m.group('value').replace('\"','')
-            configs.append(mailconfig(self.check_config(c)))
-        return configs
-        
-    def check_config(self, c):
-        """Comprueba que la configuración de la cuenta está completa
-        
-        Argumentos de entrada:
-        c -> objeto de tipo Mailconfig
-        
-        """
-        c[c['type'].upper()+' Server'] = c['hostname']
-        c[c['type'].upper()+' User Name'] = c['userName']
-        if 'port' in c.keys(): c[c['type'].upper()+' Port']=eval(c['port'])
-        if 'socketType' in c.keys(): 
-            c['Connection Type'] = str(c['socketType'])
-            if c['socketType'] == '3':
-                c[c['type'].upper()+' Use SSL'] = '1'
-        c['Account Name'] = c['name']
-        c['SMTP Display Name'] = c['fullName']
-        c['SMTP Email Address'] = c['smtpusername']
-        c['SMTP Server'] = c['smtphostname']
-        if 'smtpport' in c.keys(): c['SMTP Port']=eval(c['smtpport'])
-        if 'smtptry_ssl' in c.keys(): c['SMTP Use SSL'] = '1'
-        c['Email Address'] = c['useremail']
-        if 'leave_on_server' in c.keys():
-            c['Leave Mail On Server'] = '1'
-        if 'empty_trash_on_exit' in c.keys():
-            c['Remove When Deleted'] = '1'
-        
-        #print c
-        #print c['directory-rel'].replace("[ProfD]",os.path.dirname(self.user.get_THUNDERBIRD_prefs())+'/')
-        self.mailboxes.append(folder(c['directory-rel'].replace("[ProfD]",os.path.dirname(self.user.get_THUNDERBIRD_prefs())+'/')))
-        return c
-        
-    def import_mails(self):
-        """Convierte los correos al formato Mailbox."""
-        self.dest = folder(os.path.join(os.path.expanduser('~'),'.evolution','mail','local', _("Correo de ")+ self.name +'.sbd'))
-        self.mb_dir.copy(self.dest.path, exclude=['.dat','.msf'])
-        
-
-########################################################################
 ########################################################################
 
 def hex2dec(hexa):
@@ -901,7 +565,7 @@ def eml2mbox(emlpath, mbxpath):
 
        
 
-class thunderbird:
+class mozillathunderbird:
     """Clase para el gestro de correo Thunderbird"""
 
     def __init__(self):

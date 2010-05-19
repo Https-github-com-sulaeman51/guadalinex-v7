@@ -126,7 +126,7 @@ class partition:
                 ruta = os.path.join(self.mountpoint, 'Documents and Settings', d)
                 if (not d in excluir) and (os.path.exists(os.path.join(ruta, 'NTUSER.DAT')) or os.path.exists(os.path.join(ruta, 'ntuser.dat'))):
                     self.users_path.append(ruta)
-        elif self.installed_os.find('Vista') >= 0:
+        elif self.installed_os.find('Vista') >= 0 or self.installed_os.find('7') >= 0:
             # Usuarios de Windows Vista
             documents = os.listdir(os.path.join(self.mountpoint, "Users"))
             for d in documents:
@@ -176,7 +176,7 @@ class pc:
         try:
             udi_list = commands.getoutput('lshal | grep  ^udi.*volume')
             for u in udi_list.splitlines():
-                if u.find('=') == -1:
+                if u.find('=') == -1 or u.find('uuid') <  0:
                     print u
                     continue
                 udi = u.split('=')[1]

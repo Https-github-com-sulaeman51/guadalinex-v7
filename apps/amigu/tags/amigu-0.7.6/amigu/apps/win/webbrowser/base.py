@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 import os, re, shutil
 from amigu.util.folder import *
@@ -9,6 +8,43 @@ import time
 import sqlite3
 from amigu import _
 
+class webbrowser(application):
+    """Clase para le manejo de navegadores Web"""
+
+    def initialize(self):
+        """Personaliza las opciones de la aplicación"""
+        self.name = _("Navegador Web")
+        self.description = _("Preferencias de navegación web")
+        self.tree_links = self.get_tree_links()
+        self.size = len(self.tree_links)
+
+    def get_configuration(self):
+        """Método abstracto para obtener la configuración asociada a la aplicación"""
+        pass
+
+    def get_tree_links(self):
+        """Método abstracto para obtener el arbol de marcadores/favoritos
+        de la aplicación
+        
+        """
+        return TreeStore(str, str)
+
+    def do(self):
+        """Método que realiza el proceso de migración"""
+        self.pulse_start()
+        self.migrate2firefox()
+        #self.update_progress(55.0)
+        #self.migrate2konqueror()
+        self.pulse_stop()
+        return 1
+
+    def migrate2firefox(self):
+        """Metodo abstracto que importa la configuracion a Firefox"""
+        pass
+
+    def migrate2konqueror(self):
+        """Metodo abstracto que importa la configuracion a Konqueror"""
+        pass
 
 class firefox3:
     """Clase para el manejo de la Mozilla Firefox 3 en Linux"""
@@ -145,302 +181,6 @@ CREATE TRIGGER moz_historyvisits_afterinsert_v1_trigger AFTER INSERT ON moz_hist
                     self.add_bookmarks(tree, iter_children, cursor, id)
                 iter = tree.iter_next(iter)
 
-
-class webbrowser(application):
-    """Clase para le manejo de navegadores Web"""
-
-    def initialize(self):
-        """Personaliza las opciones de la aplicación"""
-        self.name = _("Navegador Web")
-        self.description = _("Preferencias de navegación web")
-        self.tree_links = self.get_tree_links()
-        self.size = len(self.tree_links)
-
-    def get_configuration(self):
-        """Método abstracto para obtener la configuración asociada a la aplicación"""
-        pass
-
-    def get_tree_links(self):
-        """Método abstracto para obtener el arbol de marcadores/favoritos
-        de la aplicación
-        
-        """
-        return TreeStore(str, str)
-
-    def do(self):
-        """Método que realiza el proceso de migración"""
-        self.update_progress(5.0)
-        self.migrate2firefox()
-        self.update_progress(55.0)
-        self.migrate2konqueror()
-        return 1
-
-    def migrate2firefox(self):
-        """Metodo abstracto que importa la configuracion a Firefox"""
-        pass
-
-    def migrate2konqueror(self):
-        """Metodo abstracto que importa la configuracion a Konqueror"""
-        pass
-
-class iexplorer(webbrowser):
-
-    def initialize(self):
-        """Personaliza las opciones de la aplicación"""
-        webbrowser.initialize(self)
-        self.name = "Internet Explorer"
-        self.description = _("Favoritos de Internet Explorer")
-
-    def get_configuration(self):
-        """Devuelve la configuración de la apliación"""
-        return self.user.folders['Favorites'].path
-
-    def get_favorites(self, tree, iter, path):
-        """Inicializa el árbol de marcadores
-        
-        Argumentos de entrada:
-        tree -> objeto de tipo TreeStore
-        iter -> objeto de tipo TreeIter
-        path -> carpeta de favoritos de IE
-        
-        """
-        for e in os.listdir(path):
-            ruta = os.path.join(path, e)
-            if os.path.exists(ruta) and os.path.isdir(ruta):
-                folder = tree.append(iter, [str(e), None])
-                #print str(e)
-                self.get_favorites(tree, folder, ruta)
-            elif os.path.exists(ruta) and os.path.isfile(ruta):
-                # caso base
-                (nombre, ext) = os.path.splitext(e)
-                if ext == '.url': #filtrar por extension
-                    try:
-                        f = open(ruta, "r")
-                        for linea in f.readlines():
-                            if re.search('URL=', linea):
-                                link = linea.replace('URL=','').replace('\r\n','')
-                                file = tree.append(iter, [str(nombre), str(link)])
-                                #print '\t',str(nombre), str(link)
-                    finally:
-                        f.close()
-
-    def get_tree_links(self):
-        """Devuelve el arbol de marcadores/favoritos de la aplicación
-        contenido en un objeto de tipo TreeStore
-        
-        """
-        tree = TreeStore(str, str)
-        folder = tree.append(None, [_("Favoritos de Internet Explorer"), None])
-        #print _("Marcadores de Internet Explorer")
-        #print "#########################################################"
-        self.get_favorites(tree, folder, self.get_configuration())
-        #print "#########################################################"
-        return tree
-
-    def migrate2firefox(self):
-        """Importa la configuración en Firefox"""
-        ff = firefox3()
-        ff.add_bookmarks(self.tree_links)
-
-
-
-
-
-class winfirefox(webbrowser):
-
-    def initialize(self):
-        """Personaliza las opciones de la aplicación"""
-        webbrowser.initialize(self)
-        self.name = "Mozilla Firefox"
-        self.description = _("Marcadores de Mozilla Firefox")
-
-    def get_configuration(self):
-        """Devuelve la configuración de la apliación"""
-        self.bookmarks_file = glob(os.path.join(self.user.folders["AppData"].path, 'Mozilla', 'Firefox', 'Profiles','*.default', 'places.sqlite'))[0]
-        if self.bookmarks_file:
-            conn = sqlite3.connect(self.bookmarks_file)
-            c = conn.cursor()
-            q = "SELECT mb.type, mb.id, mb.parent, mb.title, mp.title, mp.url FROM moz_bookmarks mb LEFT JOIN moz_places AS mp ON mb.fk=mp.id WHERE mb.id>1 AND (mp.rev_host IS NOT NULL AND mp.frecency >0 OR mb.type==2) ORDER BY mb.type DESC"
-            c.execute(q)
-            res = c.fetchall()
-            conn.close()
-            return res
-
-    def get_tree_links(self):
-        """Devuelve el arbol de marcadores/favoritos de la aplicación
-        contenido en un objeto de tipo TreeStore
-        
-        """
-        tree = TreeStore(str, str)
-        folder = tree.append(None, [_("Marcadores de Mozilla Firefox"), None])
-        #print _("Marcadores de Mozilla Firefox")
-        #print "#########################################################"
-        self.get_bookmarks(tree, folder, self.get_configuration())
-        #print "#########################################################"
-        return tree
-
-    def get_bookmarks(self, tree, iter, marks_list):
-        """Inicializa el árbol de marcadores
-        
-        Argumentos de entrada:
-        tree -> objeto de tipo TreeStore
-        iter -> objeto de tipo TreeIter
-        mark_list -> lista de marcadores
-        
-        """
-        for e in marks_list:
-            if e[0]==2:
-                #caso recursivo
-                folder = tree.append(iter, [e[3],None])
-                #print e[3]
-                self.get_bookmarks(tree, folder, [f for f in marks_list if f[2] == e[1]])
-            elif e[0]==1:
-                # caso base
-                if e[4].count('/') < 3:
-                    mark = tree.append(iter, [e[4], e[5]])
-                #print '\t' + e[4], e[5]
-
-    def migrate2firefox(self):
-        """Importa la configuración en Firefox"""
-        ff = firefox3()
-        ff.add_bookmarks(self.tree_links)
-
-class chrome(webbrowser):
-
-    def initialize(self):
-        """Personaliza las opciones de la aplicación"""
-        webbrowser.initialize(self)
-        self.name = "Google Chrome"
-        self.description = _("Marcadores de Google Chrome")
-
-    def get_configuration(self):
-        """Devuelve la configuración de la apliación"""
-        self.bookmarks_file = os.path.join(self.user.folders["Local AppData"].path, 'Google', 'Chrome', 'User Data', 'Default', 'Bookmarks')
-        f = open(self.bookmarks_file, 'r')
-        dict = f.read()
-        f.close()
-        bookmarks = eval(dict.replace('\r\n',''))
-        return bookmarks
-
-    def get_tree_links(self):
-        """Devuelve el arbol de marcadores/favoritos de la aplicación
-        contenido en un objeto de tipo TreeStore
-        
-        """
-        tree = TreeStore(str, str)
-        folder = tree.append(None, [_("Marcadores de Google Chrome"), None])
-        #print _("Marcadores de Google Chrome")
-        #print "#########################################################"
-        self.get_bookmarks(tree, folder, self.get_configuration())
-        #print "#########################################################"
-        return tree
-
-    def get_bookmarks(self, tree, iter, marks):
-        """Inicializa el árbol de marcadores
-        
-        Argumentos de entrada:
-        tree -> objeto de tipo TreeStore
-        iter -> objeto de tipo TreeIter
-        marks -> lista de marcadores
-        
-        """
-        if isinstance(marks, list):
-            for e in marks:
-                self.get_bookmarks(tree, iter, e)
-        elif isinstance(marks, dict):
-            if "type" in marks.keys():
-                if marks["type"] == "folder":
-                    #caso recursivo
-                    folder = tree.append(iter, [marks["name"].decode('iso-8859-1').encode('utf-8'),None])
-                    #print marks["name"].decode('iso-8859-1').encode('utf-8')
-                    self.get_bookmarks(tree, folder, marks["children"])
-                elif marks["type"] == "url":
-                    # caso base
-                    #print '\t', marks["name"].decode('iso-8859-1').encode('utf-8'), marks["url"].decode('iso-8859-1').encode('utf-8')
-                    mark = tree.append(iter, [marks["name"].decode('iso-8859-1').encode('utf-8'), marks["url"].decode('iso-8859-1').encode('utf-8')])
-            else:
-                for e in marks.values():
-                    self.get_bookmarks(tree, iter, e)
-
-
-    def migrate2firefox(self):
-        """Importa la configuración en Firefox"""
-        ff = firefox3()
-        ff.add_bookmarks(self.tree_links)
-
-
-class opera(webbrowser):
-
-    def initialize(self):
-        """Personaliza las opciones de la aplicación"""
-        webbrowser.initialize(self)
-        self.name = "Opera"
-        self.description = _("Marcadores de Opera")
-
-    def get_configuration(self):
-        """Devuelve la configuración de la apliación"""
-        file = os.path.join(self.user.folders['AppData'].path, 'Opera', 'Opera', 'profile', 'opera6.adr')
-        links = []
-        marks = open(file,'r')
-        hotlist = marks.read().split('\r\n\r\n')
-        marks.close()
-        for h in hotlist:
-            valid = True
-            e = h.split('\r\n')
-            if e[0]=="#FOLDER":
-                if valid:
-                    links.append([e[0],e[2].replace('\t','')[5:], None])
-            elif e[0]=="#URL":
-                name=e[2].replace('\t','')[5:]
-                url=e[3].replace('\t','')[4:]
-                links.append([e[0],name, url])
-            elif e[0]=='-':
-                links.append([e[0], None, None])
-        return links
-
-    def get_tree_links(self):
-        """Devuelve el arbol de marcadores/favoritos de la aplicación
-        contenido en un objeto de tipo TreeStore
-        
-        """
-        tree = TreeStore(str, str)
-        folder = tree.append(None, [_("Marcadores de Opera"), None])
-        #print "#########################################################"
-        self.get_bookmarks(tree, folder, self.get_configuration())
-        #print "#########################################################"
-        return tree
-
-    def get_bookmarks(self, tree, iter, opera_links):
-        """Inicializa el árbol de marcadores
-        
-        Argumentos de entrada:
-        tree -> objeto de tipo TreeStore
-        iter -> objeto de tipo TreeIter
-        mark_list -> lista de marcadores
-        
-        """
-        while opera_links:
-            e = opera_links.pop(0)
-            if e[0]=="#FOLDER":
-                folder = tree.append(iter, [e[1],None])
-                #print e[1]
-                self.get_bookmarks(tree, folder, opera_links)
-            elif e[0]=="#URL":
-                folder = tree.append(iter, [e[1],e[2]])
-                #print '\t', e[1],e[2]
-            elif e[0]=='-':
-                break
-        return tree
-
-    def migrate2firefox(self):
-        """Importa la configuración en Firefox"""
-        ff = firefox3()
-        ff.add_bookmarks(self.tree_links)
-
-
-
-
-########################################################################
 ########################################################################
 
 
