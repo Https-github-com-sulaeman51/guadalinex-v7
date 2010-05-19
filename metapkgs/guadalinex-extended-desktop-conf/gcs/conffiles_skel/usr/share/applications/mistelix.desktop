@@ -11,4 +11,5 @@ Type=Application
 Categories=GNOME;GTK;AudioVideo;Video;AudioVideoEditing;
 X-Ubuntu-Gettext-Domain=mistelix
 X-GNOME-FullName[es]=Autoría de DVDs de vídeo (Mistelix)
+Name[es]=Autoría de DVDs de vídeo (Mistelix)
 Comment[es]=Crea tus propios DVD de vídeo
