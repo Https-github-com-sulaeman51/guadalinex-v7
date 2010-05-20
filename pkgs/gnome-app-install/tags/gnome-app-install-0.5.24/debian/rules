@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+DEB_AUTO_CLEANUP_RCS := yes
+DEB_PYTHON_SYSTEM    := pycentral
+export DH_PYCENTRAL=include-links
+
+# Include CDBS Stuff
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/python-distutils.mk
+include /usr/share/cdbs/1/rules/simple-patchsys.mk
+
+clean::
+	rm -rf build
+	rm -f AppInstall/Version.py
+
+binary-install/gnome-app-install::
+	dh_scrollkeeper -p$(cdbs_curpkg) $(DEB_DH_SCROLLKEEPER_ARGS)
+	dh_gconf -p$(cdbs_curpkg) $(DEB_DH_GCONF_ARGS)
+	dh_desktop -p$(cdbs_curpkg) $(DEB_DH_DESKTOP_ARGS)
+	dh_icons -p$(cdbs_curpkg)
+	# Delete empty dirs
+	find debian/$(cdbs_curpkg)/usr/share/ -type d -empty -delete

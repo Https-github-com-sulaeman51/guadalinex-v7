@@ -1,0 +1,994 @@
+# Brazilian Portuguese translation of gnome-app-install.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-app-install package.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-app-install\n"
+"Report-Msgid-Bugs-To: Sebastian Heinlein <sebi@glatzor.de>\n"
+"POT-Creation-Date: 2008-01-04 20:30+0100\n"
+"PO-Revision-Date: 2007-11-27 21:33+0000\n"
+"Last-Translator: Carlos Eduardo Pedroza Santiviago <segfault@ubuntu.com>\n"
+"Language-Team: pt_BR <tradutores@listas.ubuntubrasil.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-01-04 18:56+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-Language: Portuguese\n"
+
+#: ../data/gnome-app-install.schemas.in.h:1
+msgid "Components that have been confirmed to install applications from"
+msgstr "Componentes que tem sido confirmado para instalar aplicações de"
+
+#: ../data/gnome-app-install.schemas.in.h:2
+msgid "If true, the main window is maximized."
+msgstr "Se verdadeiro, a janela principal está maximizada."
+
+#: ../data/gnome-app-install.schemas.in.h:3
+msgid "Main window height"
+msgstr "Altura da janela principal"
+
+#: ../data/gnome-app-install.schemas.in.h:4
+msgid "Main window maximization state"
+msgstr "Estado de maximização da janela principal"
+
+#: ../data/gnome-app-install.schemas.in.h:5
+msgid "Main window width"
+msgstr "Largura da janela principal"
+
+#: ../data/gnome-app-install.schemas.in.h:6
+msgid ""
+"Possible values: 0 : show all available applications 1 : show only free "
+"applications 2 : - 3 : show only supported applications 4 : show only 3rd "
+"party applications 5 : - 6 : show only installed applications"
+msgstr ""
+"Valores possíveis: 0 : mostra todos os programas disponíveis 1 : mostra "
+"apenas os programas livres 2 : - 3 : mostra apenas os programas suportados "
+"4 : mostra apenas os programas de terceiros 5 : - 6 : mostra apenas os "
+"programas instalados"
+
+#: ../data/gnome-app-install.schemas.in.h:7
+msgid "Show only a subset of applications"
+msgstr "Mostrar apenas subconjunto de aplicações"
+
+#: ../data/gnome-app-install.schemas.in.h:8
+msgid "Suggest application for MIME-type: approved components"
+msgstr "Aplicativo sugerido para MIME-type: componentes aprovados"
+
+#: ../data/gnome-app-install.schemas.in.h:9
+msgid "Timeout for interactive search"
+msgstr "Tempo esgotado para apesquisa interativa"
+
+#: ../data/gnome-app-install.schemas.in.h:10
+msgid ""
+"Timeout from typing in the search entry until a search is triggered (in "
+"milliseconds)."
+msgstr ""
+"Tempo esgotado para digitar na caixa de busca até uma busca ser requisitada "
+"(em milisegundos)"
+
+#: ../data/gnome-app-install.schemas.in.h:11
+msgid "Timestamp of the last cache refresh run"
+msgstr "Marca de hora da última atualização de cache"
+
+#: ../data/gnome-app-install.schemas.in.h:12
+msgid ""
+"When the user asks to open a file but no supported application is present, "
+"the system will offer to install applications in the components listed here, "
+"as well as the individually whitelisted applications."
+msgstr ""
+"Quando um usuário requisitar a abertura de um arquivo mas o programa "
+"suportado não está instalado, o sistema irá oferecer para instalar programas "
+"nos itens listados aqui, bem como os programas autorizados individualmente "
+"na lista."
+
+#: ../data/gnome-app-install.glade.h:1
+msgid "<b>Add</b>"
+msgstr "<b>Adicionar</b>"
+
+#: ../data/gnome-app-install.glade.h:2
+msgid "<b>Remove</b>"
+msgstr "<b>Remover</b>"
+
+#: ../data/gnome-app-install.glade.h:3
+msgid ""
+"<big><b>Checking installed and available applications</b></big>\n"
+"\n"
+"Ubuntu and third party vendors offer you a large variety of applications "
+"that you can install on your system."
+msgstr ""
+"<big><b>Checar aplicações disponíveis e instaladas</b></big>\n"
+"\n"
+"Ubuntu e terceiros oferecem uma grande variedade de softwares que você pode "
+"instalar no seu sistema."
+
+#: ../data/gnome-app-install.glade.h:6
+msgid ""
+"<big><b>The list of available applications is out of date</b></big>\n"
+"\n"
+"To reload the list you need a working internet connection."
+msgstr ""
+"<big><b>A lista de aplicativos disponíveis expirou</b></big>\n"
+"\n"
+"Para recarregar a lista você precisa de uma conexão com a internet."
+
+#: ../data/gnome-app-install.glade.h:9
+msgid "Add/Remove Applications"
+msgstr "Adicionar/Remover Aplicações"
+
+#: ../data/gnome-app-install.glade.h:10
+msgid "Apply pending changes and close the window"
+msgstr "Efetuar modificações pendentes e fechar a janela"
+
+#: ../data/gnome-app-install.glade.h:11
+msgid "Cancel pending changes and close the window"
+msgstr "Cancelar modificações pendentes e fechar a janela"
+
+#: ../data/gnome-app-install.glade.h:12
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../data/gnome-app-install.glade.h:13
+msgid "Licence"
+msgstr "Licença"
+
+#: ../data/gnome-app-install.glade.h:14
+msgid "Search:"
+msgstr "Procurar:"
+
+#: ../data/gnome-app-install.glade.h:15
+msgid "Show:"
+msgstr "Exibir:"
+
+#: ../data/gnome-app-install.glade.h:16
+msgid "The categories represent the application menu"
+msgstr "As categorias representam o menu de aplicativos"
+
+#: ../data/gnome-app-install.glade.h:17
+msgid "_Add/Remove More Applications"
+msgstr "_Adicionar/Remover Mais Programas"
+
+#: ../data/gnome-app-install.glade.h:18
+msgid "_Apply Changes"
+msgstr "_Aplicar Mudanças"
+
+#: ../data/gnome-app-install.glade.h:19
+msgid "_Reload"
+msgstr "_Recarregar"
+
+#: ../data/gnome-app-install.glade.h:20
+msgid "_Remove"
+msgstr "_Remover"
+
+#: ../data/gnome-app-install.glade.h:21
+msgid "_Retry"
+msgstr "_Repetir"
+
+#: ../data/gnome-app-install.glade.h:22
+msgid "applications"
+msgstr "aplicativos"
+
+#: ../data/gnome-app-install.desktop.in.h:1
+#: ../data/gnome-app-install-xfce.desktop.in.h:1
+msgid "Add/Remove..."
+msgstr "Adicionar/Remover..."
+
+#: ../data/gnome-app-install.desktop.in.h:2
+#: ../data/gnome-app-install-xfce.desktop.in.h:2
+msgid "Install and remove applications"
+msgstr "Instalar e remover aplicativos"
+
+#: ../data/gnome-app-install.desktop.in.h:3
+#: ../data/gnome-app-install-xfce.desktop.in.h:3
+msgid "Package Manager"
+msgstr "Gerenciador de Pacotes"
+
+#: ../AppInstall/activation.py:112
+msgid "no suitable application"
+msgstr "nenhum programa adequado"
+
+#: ../AppInstall/activation.py:113
+msgid ""
+"No application suitable for automatic installation is available for handling "
+"this kind of file."
+msgstr ""
+"Nenhum programa apropriado para manipular esse tipo de arquivo está "
+"disponível para instalação automática ."
+
+#: ../AppInstall/activation.py:116
+msgid "no application found"
+msgstr "nenhum programa achado"
+
+#: ../AppInstall/activation.py:117
+msgid "No application is known for this kind of file."
+msgstr "Nenhum programa é conhecido para esse tipo de arquivo."
+
+#: ../AppInstall/activation.py:131 ../AppInstall/activation.py:289
+msgid "Searching for appropriate applications"
+msgstr "Procurando por aplicativos apropriados"
+
+#: ../AppInstall/activation.py:133 ../AppInstall/activation.py:192
+msgid "Please wait. This might take a minute or two."
+msgstr "Aguarde por favor. Este processo pode demorar um minuto ou dois."
+
+#: ../AppInstall/activation.py:161
+msgid "Search for suitable codec?"
+msgstr "Procurar por codec adequado?"
+
+#: ../AppInstall/activation.py:162
+msgid ""
+"The required software to play this file is not installed. You need to "
+"install suitable codecs to play media files. Do you want to search for a "
+"codec that supports the selected file?\n"
+"\n"
+"The search will also include software which is not officially supported."
+msgstr ""
+"O programa requerido para reproduzir esse arquivo não está instalado. Você "
+"precisa instalar os codecs apropriados para reproduzir esse tipo de mídia. "
+"Você deseja procurar por codecs que suportam esse tipo de arquivo?\n"
+"\n"
+"A procura irá também incluir programas que não são oficialmente suportados."
+
+#: ../AppInstall/activation.py:173
+msgid "Invalid commandline"
+msgstr "Linha de comando inválida"
+
+#: ../AppInstall/activation.py:174
+#, python-format
+msgid "'%s' does not understand the commandline argument '%s'"
+msgstr "\\\"%s\\\" não reconhece o argumento \\\"%s\\\""
+
+#: ../AppInstall/activation.py:190
+msgid "Searching for appropriate codecs"
+msgstr "Procurando por codec apropriado"
+
+#: ../AppInstall/activation.py:195 ../AppInstall/activation.py:294
+msgid "_Install"
+msgstr "_Instalar"
+
+#: ../AppInstall/activation.py:196
+msgid "Install multimedia codecs"
+msgstr "Instalar codecs multimídia"
+
+#: ../AppInstall/activation.py:200
+msgid "Codec"
+msgstr "Codec"
+
+#: ../AppInstall/activation.py:231
+msgid "additional codec installation declined"
+msgstr "instalação de codec adicional rejeitada"
+
+#: ../AppInstall/activation.py:235
+msgid "additional codec installation failed"
+msgstr "instalação de codec adicional falhou"
+
+#. TRANSLATORS: %s represents a file path
+#: ../AppInstall/activation.py:256
+#, python-format
+msgid "\"%s\" cannot be opened"
+msgstr "Não foi possível abrir '%s'"
+
+#: ../AppInstall/activation.py:291
+#, python-format
+msgid ""
+"A list of applications that can handle documents of the type '%s' will be "
+"created"
+msgstr ""
+"Uma lista de aplicações que podem manipular documentos do tipo '%s' será "
+"criada"
+
+#. TRANSLATORS: %s represents a file path
+#: ../AppInstall/activation.py:297
+#, python-format
+msgid "Install applications to open \"%s\""
+msgstr "Instalar aplicações para abrir \"%s\""
+
+#: ../AppInstall/activation.py:300
+msgid "Install applications"
+msgstr "Instalar Programas"
+
+#: ../AppInstall/activation.py:311
+msgid "_Search"
+msgstr "_Busca"
+
+#: ../AppInstall/activation.py:345
+msgid "Searching for extensions"
+msgstr "Procurando por extensões"
+
+#: ../AppInstall/activation.py:346
+msgid "Extensions allow you to add new features to your application."
+msgstr ""
+"Extensões permitem a você adicionar novas características para sua aplicação."
+
+#: ../AppInstall/activation.py:348
+msgid "Install/Remove Extensions"
+msgstr "Instalar e Remover Extensões"
+
+#: ../AppInstall/activation.py:350
+msgid "Extension"
+msgstr "Extensão"
+
+#: ../AppInstall/AppInstall.py:174
+msgid ""
+"To install an application check the box next to the application. Uncheck the "
+"box to remove the application."
+msgstr ""
+"Para instalar um aplicativo selecione o quadrinho próximo ao aplicativo. E "
+"para remover, desmarque o quadrinho do respectivo aplicativo."
+
+#: ../AppInstall/AppInstall.py:177
+msgid "To perform advanced tasks use the Synaptic package manager."
+msgstr "Para realizar tarefas avançadas use o Gerenciador de Pacotes Synaptic."
+
+#: ../AppInstall/AppInstall.py:179
+msgid "Quick Introduction"
+msgstr "Introdução Rápida"
+
+#: ../AppInstall/AppInstall.py:225
+#, fuzzy
+msgid "Installed applications only"
+msgstr "Aplicações Instaladas"
+
+#: ../AppInstall/AppInstall.py:226
+msgid "Show only applications that are installed on your computer"
+msgstr "Mostrar apenas aplicações que estão instaladas no seu computador"
+
+#: ../AppInstall/AppInstall.py:318
+msgid "Error reading the addon CD"
+msgstr "Erro lendo o CD adicionado"
+
+#: ../AppInstall/AppInstall.py:319
+msgid "The addon CD may be corrupt "
+msgstr "O CD adicionado pode estar corrompido "
+
+#: ../AppInstall/AppInstall.py:453
+msgid "The list of applications is not availabe"
+msgstr "A lista de programa '%s' não disponível"
+
+#: ../AppInstall/AppInstall.py:454
+msgid ""
+"Click on 'Reload' to load it. To reload the list you need a working internet "
+"connection. "
+msgstr ""
+"Clique em 'Recarregar' para carregar a lista. Para recarregar a lista você "
+"precisa de uma conexão com a Internet funcionando. "
+
+#: ../AppInstall/AppInstall.py:473
+#, python-format
+msgid "%s cannot be installed on your computer type (%s)"
+msgstr "%s não pode ser instalado em seu tipo de computador (%s)"
+
+#: ../AppInstall/AppInstall.py:476
+msgid ""
+"Either the application requires special hardware features or the vendor "
+"decided to not support your computer type."
+msgstr ""
+"A aplicação requer características especiais de hardware ou o vendedor "
+"decidiu não suportar mais o seu tipo de computador."
+
+#: ../AppInstall/AppInstall.py:517
+#, python-format
+msgid "Cannot install '%s'"
+msgstr "Não foi possível instalar '%s'"
+
+#: ../AppInstall/AppInstall.py:518
+#, python-format
+msgid ""
+"This application conflicts with other installed software. To install '%s' "
+"the conflicting software must be removed first.\n"
+"\n"
+"Switch to the 'synaptic' package manager to resolve this conflict."
+msgstr ""
+"Esta aplicação conflita com outro software previamente instalado. Para "
+"instalar '%s' o software conflitante deve ser removido antes.\n"
+"Mude para o gerenciador de pacotes 'synaptic' para solucionar este conflito"
+
+#: ../AppInstall/AppInstall.py:579
+#, python-format
+msgid "Cannot remove '%s'"
+msgstr "Não foi possível remover '%s'"
+
+#: ../AppInstall/AppInstall.py:580
+#, python-format
+msgid ""
+"One or more applications depend on %s. To remove %s and the dependent "
+"applications, use the Synaptic package manager."
+msgstr ""
+"Um ou mais aplicativos dependem de %s. Para remover %s e os aplicativos "
+"dependentes, use o gerenciador de pacotes Synaptic."
+
+#: ../AppInstall/AppInstall.py:669
+msgid "Confirm installation of restricted software"
+msgstr "Confirma instalação de software restrito"
+
+#: ../AppInstall/AppInstall.py:670
+msgid ""
+"The use of this software may be restricted in some countries. You must "
+"verify that one of the following is true:\n"
+"\n"
+"• These restrictions do not apply in your country of legal residence\n"
+"• You have permission to use this software (for  example, a patent license)\n"
+"• You are using this software for research purposes only"
+msgstr ""
+"O uso deste software pode ser restrito em alguns países. Você deve verificar "
+"se algum dos abaixo se aplica:\n"
+"\n"
+"  Estas restrições não se aplicam ao pais onde você mantém residêncial\n"
+"  Você tem permissão para a utilização deste software (por exemplo, uma "
+"licensa de patente)\n"
+"  Você está usando este software somente para pesquisa"
+
+#: ../AppInstall/AppInstall.py:680
+msgid "_Confirm"
+msgstr "_Confirmar"
+
+#: ../AppInstall/AppInstall.py:719 ../AppInstall/DialogProprietary.py:23
+#, python-format
+msgid "Enable the installation of software from %s?"
+msgstr "Habilitar a instalação de programas de %s?"
+
+#: ../AppInstall/AppInstall.py:721
+#, python-format
+msgid ""
+"%s is provided by a third party vendor. The third party vendor is "
+"responsible for support and security updates."
+msgstr ""
+"%s é fornecido por terceiros, cabendo aos mesmos a responsabilidade de "
+"suporte e atualizações de segurança."
+
+#: ../AppInstall/AppInstall.py:725 ../AppInstall/DialogProprietary.py:26
+msgid "You need a working internet connection to continue."
+msgstr "É necessário uma conexão à internet para proseguir."
+
+#: ../AppInstall/AppInstall.py:729 ../AppInstall/DialogProprietary.py:34
+msgid "_Enable"
+msgstr "_Habilitar"
+
+#. show an error dialog if something went wrong with the cache
+#: ../AppInstall/AppInstall.py:953
+msgid "Failed to check for installed and available applications"
+msgstr "Falha ao checar por aplicativos instalados e disponíveis"
+
+#: ../AppInstall/AppInstall.py:954
+msgid ""
+"This is a major failure of your software management system. Please check for "
+"broken packages with synaptic, check the file permissions and correctness of "
+"the file '/etc/apt/sources.list' and reload the software information with: "
+"'sudo apt-get update' and 'sudo apt-get install -f'."
+msgstr ""
+"Esta  é uma falha grave de seu sistema gerenciador de programas. Por favor "
+"verifique se há pacotes mal instalados com a ferramenta synaptic, verifique "
+"as permissões e integridade do arquivo '/etc/apt/sources.list' e recarregue "
+"as informações do programa com o comando:'sudo apt-get update' e 'sudo apt-"
+"get install -f'."
+
+#: ../AppInstall/AppInstall.py:1005
+msgid "Apply changes to installed applications before closing?"
+msgstr "Aplicar mudanças aos aplicativos instalados antes de fechar?"
+
+#: ../AppInstall/AppInstall.py:1006
+msgid "If you do not apply your changes they will be lost permanently."
+msgstr ""
+"Se voce nao aplicar as mudancas, elas serão descartadas permanentemente."
+
+#: ../AppInstall/AppInstall.py:1010
+msgid "_Close Without Applying"
+msgstr "_Fechar sem aplicar"
+
+#. FIXME: move this inside the dialog class, we show a different
+#. text for a quit dialog and a approve dialog
+#: ../AppInstall/AppInstall.py:1071
+msgid "Apply the following changes?"
+msgstr "Aplicar as seguintes mudanças?"
+
+#: ../AppInstall/AppInstall.py:1072
+msgid ""
+"Please take a final look through the list of applications that will be "
+"installed or removed."
+msgstr ""
+"Por favor faça uma verificação final das aplicações que serão instaladas ou "
+"removidas"
+
+#: ../AppInstall/AppInstall.py:1281
+msgid "There is no matching application available."
+msgstr "Não há nenhum aplicativo semelhante disponível."
+
+#. TRANSLATORS: %s represents a filter name
+#: ../AppInstall/AppInstall.py:1291
+#, python-format
+msgid "To broaden your search, choose \"%s\"."
+msgstr "Para tornar sua procura mais ampla escolha \"%s\"."
+
+#. TRANSLATORS: %s represents a filter name
+#: ../AppInstall/AppInstall.py:1295
+#, python-format
+msgid "To broaden your search, choose \"%s\" or \"%s\"."
+msgstr "Para tornar sua procura mais ampla escolha \"%s\" ou \"%s\"."
+
+#. TRANSLATORS: Show refers to the Show: combobox
+#: ../AppInstall/AppInstall.py:1301
+msgid "To broaden your search, choose a different \"Show\" item."
+msgstr ""
+"Para tornar sua procura mais ampla escolha um item \"Mostrar\" diferente."
+
+#. TRANSLATORS: All refers to the All category in the left list
+#: ../AppInstall/AppInstall.py:1307
+msgid "To broaden your search, choose 'All' categories."
+msgstr "Para ampliar sua busca, escolha a categoria 'Todos'."
+
+#: ../AppInstall/BrowserView.py:96
+#, python-format
+msgid "Failed to open '%s'"
+msgstr "Falha ao abrir '%s'"
+
+#: ../AppInstall/CoreMenu.py:127
+msgid "Applications"
+msgstr "Aplicativos"
+
+#: ../AppInstall/DialogComplete.py:128
+msgid "Software installation failed"
+msgstr "Instalação de programa falhou"
+
+#: ../AppInstall/DialogComplete.py:129
+msgid ""
+"There has been a problem during the installation of the following pieces of "
+"software."
+msgstr ""
+"Houve um problema durante a instalação dos seguintes pedaços do software."
+
+#: ../AppInstall/DialogComplete.py:131 ../AppInstall/DialogComplete.py:146
+#: ../AppInstall/DialogComplete.py:162 ../AppInstall/DialogComplete.py:190
+msgid "Add/Remove More Software"
+msgstr "Adicionar/Remover Mais Programas"
+
+#: ../AppInstall/DialogComplete.py:133
+msgid "Application installation failed"
+msgstr "Instalação de aplicativo falhou"
+
+#: ../AppInstall/DialogComplete.py:134
+msgid ""
+"There has been a problem during the installation of the following "
+"applications."
+msgstr "Ocorreu um problema durante a instalação das seguintes aplicações."
+
+#: ../AppInstall/DialogComplete.py:143
+msgid "Software could not be removed"
+msgstr "Software não pode ser removido"
+
+#: ../AppInstall/DialogComplete.py:144
+msgid ""
+"There has been a problem during the removal of the following pieces of "
+"software."
+msgstr ""
+"Ocorreu um problema durante a remoção das seguintes partes do software."
+
+#: ../AppInstall/DialogComplete.py:148
+msgid "Not all applications could be removed"
+msgstr "Nem todos aplicativos puderam ser removidos"
+
+#: ../AppInstall/DialogComplete.py:149
+msgid ""
+"There has been a problem during the removal of the following applications."
+msgstr "Ocorreu um problema durante a remoção das seguintes aplicações."
+
+#: ../AppInstall/DialogComplete.py:159
+msgid "Installation and removal of software failed"
+msgstr "Falha na instalação e remoção do software"
+
+#: ../AppInstall/DialogComplete.py:160
+msgid ""
+"There has been a problem during the installation or removal of the following "
+"pieces of software."
+msgstr ""
+"Ocorreu um problema durante a instalação ou remoção das seguintes partes do "
+"software."
+
+#: ../AppInstall/DialogComplete.py:164
+msgid "Installation and removal of applications failed"
+msgstr "Instalação e remoção da aplicação falhou"
+
+#: ../AppInstall/DialogComplete.py:165
+msgid ""
+"There has been a problem during the installation or removal of the following "
+"applications."
+msgstr ""
+"Ocorreu um problema durante a instalação ou remoção dos seguintes "
+"aplicativos."
+
+#: ../AppInstall/DialogComplete.py:173
+msgid "New application has been installed"
+msgstr "Nova aplicação foi instalada"
+
+#: ../AppInstall/DialogComplete.py:174
+msgid "New applications have been installed"
+msgstr "Novas aplicaçãos foram instaladas"
+
+#: ../AppInstall/DialogComplete.py:179
+msgid ""
+"To start a newly installed application, choose it from the applications menu."
+msgstr ""
+"Para iniciar uma aplicação recém instalada, selecione-a no seu menu de "
+"aplicativos."
+
+#: ../AppInstall/DialogComplete.py:182
+msgid "To start a newly installed application double click on it."
+msgstr "Para iniciar uma aplicação recém instalada dê um duplo clique nela."
+
+#: ../AppInstall/DialogComplete.py:186
+msgid "Software has been installed successfully"
+msgstr "O Software foi instalado com sucesso"
+
+#: ../AppInstall/DialogComplete.py:187
+msgid "Do you want to install or remove further software?"
+msgstr "Você quer instalar ou remover mais algum programa?"
+
+#: ../AppInstall/DialogComplete.py:192
+msgid "Applications have been removed successfully"
+msgstr "Aplicações foram removidas com sucesso"
+
+#: ../AppInstall/DialogComplete.py:193
+msgid "Do you want to install or remove further applications?"
+msgstr "Você quer instalar ou remover mais algum programa?"
+
+#: ../AppInstall/DialogMultipleApps.py:33
+#, python-format
+msgid "Remove %s and bundled applications?"
+msgstr "Remover %s e aplicativos relacionados?"
+
+#: ../AppInstall/DialogMultipleApps.py:34
+#, python-format
+msgid ""
+"%s is part of a software collection. If you remove %s, you will remove all "
+"bundled applications as well."
+msgstr ""
+"%s faz parte de uma coleção de programas. Se você remover %s, removerá "
+"também todas as aplicações relacionadas."
+
+#: ../AppInstall/DialogMultipleApps.py:37
+msgid "_Remove All"
+msgstr "_Remover Tudo"
+
+#: ../AppInstall/DialogMultipleApps.py:39
+#, python-format
+msgid "Install %s and bundled applications?"
+msgstr "Instalar %s e aplicativos relacionados?"
+
+#: ../AppInstall/DialogMultipleApps.py:40
+#, python-format
+msgid ""
+"%s is part of a software collection. If you install %s, you will install all "
+"bundled applications as well."
+msgstr ""
+"%s faz parte de uma coleção de programas. Se você instalar %s, você "
+"instalará também todas as aplicações relacionadas."
+
+#: ../AppInstall/DialogMultipleApps.py:43
+msgid "_Install All"
+msgstr "_Instalar Tudo"
+
+#: ../AppInstall/DialogProprietary.py:25
+#, python-format
+msgid "%s is provided by a third party vendor."
+msgstr "%s é fornecido por terceiros."
+
+#: ../AppInstall/DialogProprietary.py:40
+msgid ""
+"The application comes with the following license terms and conditions. Click "
+"on the 'Enable' button to accept them:"
+msgstr ""
+"O aplicativo vem com os seguintes termos e condições de licensa. Clique no "
+"botão 'Habilitar' para aceitá-lo:"
+
+#: ../AppInstall/DialogProprietary.py:46
+msgid "Accept the license terms and install the software"
+msgstr "Aceitar a licença de termos e instalar o software"
+
+#: ../AppInstall/Menu.py:100
+msgid "Loading cache..."
+msgstr "Abrindo cache..."
+
+#: ../AppInstall/Menu.py:109
+msgid "Collecting application data..."
+msgstr "Juntando dados de aplicações..."
+
+#: ../AppInstall/Menu.py:311
+msgid "Loading applications..."
+msgstr "Carregando aplicações..."
+
+#: ../AppInstall/Menu.py:315 ../AppInstall/Menu.py:318
+msgid "All"
+msgstr "Todos"
+
+#: ../AppInstall/Menu.py:327
+#, python-format
+msgid "Loading %s..."
+msgstr "Carregando %s..."
+
+#: ../AppInstall/distros/Debian.py:15 ../AppInstall/distros/Default.py:13
+#: ../AppInstall/distros/Ubuntu.py:15
+msgid "All available applications"
+msgstr "Todos os aplicativos disponíveis"
+
+#: ../AppInstall/distros/Debian.py:16
+msgid ""
+"Show all applications including ones which are possibly restricted by law or "
+"copyright"
+msgstr "Mostrar todos aplicativos incluindo os restritos por lei ou copyright."
+
+#: ../AppInstall/distros/Debian.py:18 ../AppInstall/distros/Ubuntu.py:20
+msgid "All Open Source applications"
+msgstr "Todas os programas de código aberto"
+
+#: ../AppInstall/distros/Debian.py:19
+msgid ""
+"Show all Debian applications which can be freely used, modified and "
+"distributed. This includes a large variety of community maintained "
+"applications"
+msgstr ""
+"Mostrar todos aplicativos Debian que podem se usados livremente, modificados "
+"e distribuídos. Isto inclui a grande variedade dos aplicativos mantidos pela "
+"comunidade."
+
+#: ../AppInstall/distros/Debian.py:25 ../AppInstall/distros/Ubuntu.py:31
+msgid "Third party applications"
+msgstr "Aplicativos de terceiros"
+
+#: ../AppInstall/distros/Debian.py:26
+msgid ""
+"Show only applications that are provided by independent software vendors and "
+"are not part of Debian"
+msgstr ""
+"Mostrar somente aplicativos que são provenientes de vendedores de software "
+"independente e não são parte do Debian."
+
+#. Fallback
+#: ../AppInstall/distros/Debian.py:37
+#, python-format
+msgid "Enable the installation of software from the %s component of Debian?"
+msgstr ""
+"Habilitar a instalação de software proveniente do componente %s do Debian?"
+
+#. %s is the name of the component
+#: ../AppInstall/distros/Debian.py:40 ../AppInstall/distros/Default.py:27
+#: ../AppInstall/distros/Ubuntu.py:46
+#, python-format
+msgid "%s is not officially supported with security updates."
+msgstr "%s não é oficialmente suportado com atualizações de segurança."
+
+#: ../AppInstall/distros/Debian.py:42
+msgid "Enable the installaion of officially supported Debian software?"
+msgstr "Habilitar a instalação de software oficialmente suportado pelo Debian?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Debian.py:45
+#, python-format
+msgid ""
+"%s is part of the Debian main distribution. Debian provides support and "
+"security updates, which will be enabled too."
+msgstr ""
+"%s faz parte da distribuição principal do Debian. O Debian fornece "
+"atualizações de suporte e segurança, as quais serão habilitadas também."
+
+#: ../AppInstall/distros/Debian.py:48
+msgid "Enable the installation of partial free software?"
+msgstr "Permitir a instalação parcial do software livre?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Debian.py:50
+#, python-format
+msgid ""
+"%s is not part of the Debian main distribution and requires non-free "
+"software to work. Debian provides support and security updates, which will "
+"be enabled too."
+msgstr ""
+"%s não faz parte da distribuição principal do Debian e requer software não-"
+"livre pra funcionar. O Debian fornece atualizações de suporte e segurança, "
+"as quais serão habilitadas também."
+
+#: ../AppInstall/distros/Debian.py:54
+msgid "Enable the installation of non-free software?"
+msgstr "Permitir a instalação de software não livre?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Debian.py:56 ../AppInstall/distros/Ubuntu.py:63
+#: ../AppInstall/distros/Ubuntu.py:114
+#, python-format
+msgid ""
+"The use, modification and distribution of %s is restricted by copyright or "
+"by legal terms in some countries."
+msgstr ""
+"O uso, modificação e distribuição de %s é restringido por copyright ou "
+"termos legais em alguns países."
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:65
+#, python-format
+msgid "%s integrates well into the KDE desktop"
+msgstr "%s se integra bem com o ambiente KDE"
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:70
+#, python-format
+msgid "%s integrates well into the GNOME desktop"
+msgstr "%s se integra bem com o ambiente GNOME"
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:75
+#, python-format
+msgid "%s integrates well into the Gnustep desktop"
+msgstr "%s se integra bem ao ambiente Gnustep"
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:80
+#, python-format
+msgid "%s integrates well into the XFCE desktop"
+msgstr "%s se integra bem com o ambiente XFCE"
+
+#: ../AppInstall/distros/Debian.py:103
+#, python-format
+msgid "Debian provides support and security updates for %s"
+msgstr "O Debian fornece atualizações de suporte e segurança para %s"
+
+#: ../AppInstall/distros/Debian.py:108
+#, python-format
+msgid ""
+"%s requires non-free software to work.Debian provides support and security "
+"updates."
+msgstr ""
+"%s requer software não-livre para funcionar. O Debian fornece atualização de "
+"suporte e segurança."
+
+#: ../AppInstall/distros/Debian.py:114
+#, python-format
+msgid ""
+"The use, modification and distribution of %s is restricted by copyright or "
+"by legal terms in some countries. Debian provides support and security "
+"updates."
+msgstr ""
+"O uso, modificação e distribuição do %s é restrito por copyright ou por "
+"termos legais em alguns países. O Debian fornece atualizações de suporte e "
+"segurança."
+
+#: ../AppInstall/distros/Default.py:14
+msgid ""
+"Show all applications including ones which are unsupported and possibly "
+"restricted by law or copyright"
+msgstr ""
+"Mostrar todas aplicações incluindo os que não são suportados e possivelmente "
+"restritos por lei ou copyright."
+
+#. Fallback
+#: ../AppInstall/distros/Default.py:25 ../AppInstall/distros/Ubuntu.py:43
+#, python-format
+msgid "Enable the installation of software from the %s component of Ubuntu?"
+msgstr "Habilitar a instalação de software do componete %s do Ubuntu?"
+
+#: ../AppInstall/distros/Ubuntu.py:16
+msgid ""
+"Show all applications including ones which are possibly restricted by law or "
+"copyright, unsupported by Canonical Ltd. or not part of Ubuntu"
+msgstr ""
+"Mostrar todas os programas incluindo os que tenham possíveis restrições "
+"legais ou de copyright, que não sejam suportados pela Canonical Ltda, ou que "
+"não façam parte do Ubuntu"
+
+#: ../AppInstall/distros/Ubuntu.py:21
+msgid ""
+"Show all Ubuntu applications which can be freely used, modified and "
+"distributed. This includes a large variety of community maintained "
+"applications"
+msgstr ""
+"Exibir todos aplicativos do Ubuntu que podem ser utilizados, modificados e "
+"distribuídos livremente. Isto inclui uma grande variedade de aplicativos "
+"mantidos pela comunidade."
+
+#: ../AppInstall/distros/Ubuntu.py:27
+msgid "Supported applications"
+msgstr "Aplicações suportadas"
+
+#: ../AppInstall/distros/Ubuntu.py:28
+msgid ""
+"Show only applications which come with full technical and security support "
+"by Canonical Ltd."
+msgstr ""
+"Mostrar todas aplicações que contém suporte técnico e de segurança completo "
+"pela Canonical Ltd."
+
+#: ../AppInstall/distros/Ubuntu.py:32
+msgid ""
+"Show only applications that are provided by independent software vendors and "
+"are not part of Ubuntu"
+msgstr ""
+"Exibir apenas aplicativos que são providos por distrubuidores de software "
+"independentes e que não são parte do Ubuntu"
+
+#: ../AppInstall/distros/Ubuntu.py:48
+msgid "Enable the installaion of officially supported Ubuntu software?"
+msgstr "Habilitar a instalação de software oficialmente suportado pelo Ubuntu?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Ubuntu.py:51
+#, python-format
+msgid ""
+"%s is part of the Ubuntu main distribution. Canonical Ltd. provides support "
+"and security updates, which will be enabled too."
+msgstr ""
+"%s é parte da distribuição principal Ubuntu. A Canonical Ltd. fornece "
+"atualização de suporte e segurança, os quais serão habilitados também."
+
+#: ../AppInstall/distros/Ubuntu.py:54
+msgid "Enable the installation of community maintained software?"
+msgstr "Habilitar a instalação de software mantido pela comunidade?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Ubuntu.py:57
+#, python-format
+msgid ""
+"%s is maintained by the Ubuntu community. The Ubuntu community provides "
+"support and security updates, which will be enabled too."
+msgstr ""
+"%s é mantido pela comunidade Ubuntu. A comunidade Ubuntu fornece "
+"atualizações de suporte e segurança, as quais serão habilitadas também."
+
+#: ../AppInstall/distros/Ubuntu.py:60
+msgid "Enable the installation of unsupported and restricted software?"
+msgstr "Habilitar a instalação de software não suportado e restrito?"
+
+#: ../AppInstall/distros/Ubuntu.py:96
+#, python-format
+msgid "Canonical Ltd. provides technical support and security updates for %s"
+msgstr ""
+"Canonical Ltda. provê suporte técnico e atualizações de segurança para %s"
+
+#: ../AppInstall/distros/Ubuntu.py:109
+msgid "This application is provided by the Ubuntu community."
+msgstr "Este programa é fornecido pela comunidade Ubuntu."
+
+#: ../AppInstall/widgets/AppDescView.py:16
+msgid "Description"
+msgstr "Descrição"
+
+#: ../AppInstall/widgets/AppDescView.py:75
+#, python-format
+msgid "%s cannot be installed"
+msgstr "%s não pôde ser instalado"
+
+#. warn that this app is not available on this plattform
+#: ../AppInstall/widgets/AppDescView.py:84
+#, python-format
+msgid ""
+"%s cannot be installed on your computer type (%s). Either the application "
+"requires special hardware features or the vendor decided to not support your "
+"computer type."
+msgstr ""
+"%s não pôde ser instalado no seu computador. A aplicação requer "
+"características especiais de hardware ou o vendedor decidiu não suportar "
+"mais o seu tipo de computador (%s)."
+
+#: ../AppInstall/widgets/AppDescView.py:96
+msgid "This application is bundled with the following applications: "
+msgstr "Este aplicativo está empacotado com os seguintes aplicativos: "
+
+#: ../AppInstall/widgets/AppDescView.py:196
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Versão: %s (%s)"
+
+#: ../AppInstall/widgets/AppListView.py:55
+msgid "Popularity"
+msgstr "Popularidade"
+
+#. Application column (icon, name, description)
+#: ../AppInstall/widgets/AppListView.py:78
+msgid "Application"
+msgstr "Aplicativo"
+
+#~ msgid "%s integrates well into the Kubuntu desktop"
+#~ msgstr "%s se integra bem ao ambiente Kubuntu"
+
+#~ msgid "%s integrates well into the Ubuntu desktop"
+#~ msgstr "%s se integra bem ao ambiente Ubuntu"
+
+#~ msgid "%s integrates well into the Xubuntu desktop"
+#~ msgstr "%s se integra bem ao ambiente Xubuntu"
