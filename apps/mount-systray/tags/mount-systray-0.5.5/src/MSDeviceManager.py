@@ -76,7 +76,8 @@ class MSDeviceManager(gobject.GObject):
                                              "human_name" : human_name,
                                              "type": storage["type"],
                                              "mount_point": properties["volume.mount_point"],
-                                             "is_mounted": properties["volume.is_mounted"]
+                                             "is_mounted": properties["volume.is_mounted"],
+					     "block_device": properties["block.device"]
                                              })
                         extras = {'real_uid': uid}
                         self.dbus.add_signal_receiver(lambda *args: apply (self.__property_modified, args, extras),
