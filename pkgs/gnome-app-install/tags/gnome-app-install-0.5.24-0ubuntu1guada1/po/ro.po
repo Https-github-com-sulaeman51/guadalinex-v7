@@ -1,0 +1,999 @@
+# Romanian translation for gnome-app-install
+# Copyright (c) (c) 2005 Canonical Ltd, and Rosetta Contributors 2005
+# This file is distributed under the same license as the gnome-app-install package.
+# Dan Damian <dand@ubuntu.ro>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-app-install\n"
+"Report-Msgid-Bugs-To: Sebastian Heinlein <sebi@glatzor.de>\n"
+"POT-Creation-Date: 2008-01-04 20:30+0100\n"
+"PO-Revision-Date: 2007-12-05 15:35+0000\n"
+"Last-Translator: Dan Damian <dand@ubuntu.ro>\n"
+"Language-Team: Romanian <ubuntu-ro@lists.ubuntu.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-01-04 18:56+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Rosetta-Version: 0.1\n"
+
+#: ../data/gnome-app-install.schemas.in.h:1
+#, fuzzy
+msgid "Components that have been confirmed to install applications from"
+msgstr "Componentele au fost confirmate pentru a instala aplicaţii de la"
+
+#: ../data/gnome-app-install.schemas.in.h:2
+msgid "If true, the main window is maximized."
+msgstr "Dacă fereastră prinicpală este maximizată"
+
+#: ../data/gnome-app-install.schemas.in.h:3
+msgid "Main window height"
+msgstr "Înalţimea ferestrei principale"
+
+#: ../data/gnome-app-install.schemas.in.h:4
+msgid "Main window maximization state"
+msgstr "Stare de maximizarea a ferestrei principale"
+
+#: ../data/gnome-app-install.schemas.in.h:5
+msgid "Main window width"
+msgstr "Lăţimea ferestrei principale"
+
+#: ../data/gnome-app-install.schemas.in.h:6
+msgid ""
+"Possible values: 0 : show all available applications 1 : show only free "
+"applications 2 : - 3 : show only supported applications 4 : show only 3rd "
+"party applications 5 : - 6 : show only installed applications"
+msgstr ""
+"Valori posibile 0 : afişează toate aplicaţiile 1 : afişează doar aplicaţiile "
+"libere 2 : - 3 : afişează doar aplicaţiile suportate 4 : afişează doar "
+"aplicaţiile de la terţe surse 5 : - 6 : afişează doar aplicaţiile instalate"
+
+#: ../data/gnome-app-install.schemas.in.h:7
+msgid "Show only a subset of applications"
+msgstr "Afişeasă doar un subset al aplicaţiilor"
+
+#: ../data/gnome-app-install.schemas.in.h:8
+msgid "Suggest application for MIME-type: approved components"
+msgstr "Sugeraţi apliacţia pentru tipul MIME: compenente aprobate"
+
+#: ../data/gnome-app-install.schemas.in.h:9
+msgid "Timeout for interactive search"
+msgstr "Întarzierea pentru căutarea interactivă"
+
+#: ../data/gnome-app-install.schemas.in.h:10
+#, fuzzy
+msgid ""
+"Timeout from typing in the search entry until a search is triggered (in "
+"milliseconds)."
+msgstr ""
+"Durata de la oprirea din tastarea după care se porneşte căutarea automată "
+"(în milisecunde)."
+
+#: ../data/gnome-app-install.schemas.in.h:11
+msgid "Timestamp of the last cache refresh run"
+msgstr "Data ultimei reîmprospătări a informaţiilor stocate"
+
+#: ../data/gnome-app-install.schemas.in.h:12
+msgid ""
+"When the user asks to open a file but no supported application is present, "
+"the system will offer to install applications in the components listed here, "
+"as well as the individually whitelisted applications."
+msgstr ""
+"În momentul în care utilizatorul încearcă să deschidă un fişier pentru care "
+"nu există instalată o aplicaţie corespunzătoare, sistemul va întreba "
+"utilizatorul dacă doreşte să instaleze aplicaţii din componentele de aici, "
+"precum şi dintre aplicaţiile activate individual."
+
+#: ../data/gnome-app-install.glade.h:1
+msgid "<b>Add</b>"
+msgstr "<big>Instalează</big>"
+
+#: ../data/gnome-app-install.glade.h:2
+msgid "<b>Remove</b>"
+msgstr "<big>Dezinstalează</big>"
+
+#: ../data/gnome-app-install.glade.h:3
+msgid ""
+"<big><b>Checking installed and available applications</b></big>\n"
+"\n"
+"Ubuntu and third party vendors offer you a large variety of applications "
+"that you can install on your system."
+msgstr ""
+"<big><b>Se verifică aplicaţiile instalate şi cele disponibile</b></big>\n"
+"\n"
+"Ubuntu, precum şi surse terţe oferă o gama largă de aplicaţii ce pot fi "
+"instalate pe sistemul dumneavoastră."
+
+#: ../data/gnome-app-install.glade.h:6
+msgid ""
+"<big><b>The list of available applications is out of date</b></big>\n"
+"\n"
+"To reload the list you need a working internet connection."
+msgstr ""
+"<big><b>Lista aplicaţiilor disponibile este neactualizată</b></big>\n"
+"\n"
+"Pentru reîncărcarea listei este necesară o conexiune funcţională la Internet."
+
+#: ../data/gnome-app-install.glade.h:9
+msgid "Add/Remove Applications"
+msgstr "Instalează/Dezinstalează aplicaţii"
+
+#: ../data/gnome-app-install.glade.h:10
+msgid "Apply pending changes and close the window"
+msgstr "Aplică modificările în aşteptare şi închide fereastra"
+
+#: ../data/gnome-app-install.glade.h:11
+msgid "Cancel pending changes and close the window"
+msgstr "Anulează modificările în aşteptare şi închide fereastra"
+
+#: ../data/gnome-app-install.glade.h:12
+msgid "Categories"
+msgstr "Categorii"
+
+#: ../data/gnome-app-install.glade.h:13
+msgid "Licence"
+msgstr "Licenţa"
+
+#: ../data/gnome-app-install.glade.h:14
+msgid "Search:"
+msgstr "Caută:"
+
+#: ../data/gnome-app-install.glade.h:15
+msgid "Show:"
+msgstr "Afişează"
+
+#: ../data/gnome-app-install.glade.h:16
+msgid "The categories represent the application menu"
+msgstr "Categoriile corespunzătoare meniul cu aplicaţii"
+
+#: ../data/gnome-app-install.glade.h:17
+msgid "_Add/Remove More Applications"
+msgstr "Inst_alează/Dezinstalează mai multe aplicaţii"
+
+#: ../data/gnome-app-install.glade.h:18
+msgid "_Apply Changes"
+msgstr "_Aplică schimbările"
+
+#: ../data/gnome-app-install.glade.h:19
+msgid "_Reload"
+msgstr "_Reîncarcă"
+
+#: ../data/gnome-app-install.glade.h:20
+msgid "_Remove"
+msgstr "_Dezinstalează"
+
+#: ../data/gnome-app-install.glade.h:21
+msgid "_Retry"
+msgstr "_Reîncearcă"
+
+#: ../data/gnome-app-install.glade.h:22
+msgid "applications"
+msgstr "aplicaţii"
+
+#: ../data/gnome-app-install.desktop.in.h:1
+#: ../data/gnome-app-install-xfce.desktop.in.h:1
+msgid "Add/Remove..."
+msgstr "Instalare/Dezinstalare..."
+
+#: ../data/gnome-app-install.desktop.in.h:2
+#: ../data/gnome-app-install-xfce.desktop.in.h:2
+msgid "Install and remove applications"
+msgstr "Instalare şi dezinstalare de aplicaţii"
+
+#: ../data/gnome-app-install.desktop.in.h:3
+#: ../data/gnome-app-install-xfce.desktop.in.h:3
+msgid "Package Manager"
+msgstr "Administrator de pachete"
+
+#: ../AppInstall/activation.py:112
+msgid "no suitable application"
+msgstr "nu există aplicaţii corespunzătoare"
+
+#: ../AppInstall/activation.py:113
+msgid ""
+"No application suitable for automatic installation is available for handling "
+"this kind of file."
+msgstr ""
+"Pentru deschiderea acestui tip de fişiere nu există nici o aplicaţie care să "
+"poată fi instalat automat."
+
+#: ../AppInstall/activation.py:116
+msgid "no application found"
+msgstr "nu s-au găsit aplicaţii"
+
+#: ../AppInstall/activation.py:117
+msgid "No application is known for this kind of file."
+msgstr "Pentru acest tip de fişier nu se cunoaşte nici o aplicaţie"
+
+#: ../AppInstall/activation.py:131 ../AppInstall/activation.py:289
+msgid "Searching for appropriate applications"
+msgstr "Se caută aplicaţii corespunzătoare"
+
+#: ../AppInstall/activation.py:133 ../AppInstall/activation.py:192
+msgid "Please wait. This might take a minute or two."
+msgstr ""
+"Vă rugăm aşteptaţi. Această operaţie poate să dureze un minut sau două."
+
+#: ../AppInstall/activation.py:161
+msgid "Search for suitable codec?"
+msgstr "Caută pentru codecuri corespunzătoare?"
+
+#: ../AppInstall/activation.py:162
+msgid ""
+"The required software to play this file is not installed. You need to "
+"install suitable codecs to play media files. Do you want to search for a "
+"codec that supports the selected file?\n"
+"\n"
+"The search will also include software which is not officially supported."
+msgstr ""
+"Nu este instalată nici o aplicaţie ce poate reda acest fişier. Pentru a reda "
+"fişiere multimedia trebuie să instalaţi codecuri corespunzatoare. Doriţi "
+"efectuarea unei căutări pentru codecuri corespunzătoare?\n"
+"\n"
+"Căutarea va include şi programe ce nu sunt suportate oficial."
+
+#: ../AppInstall/activation.py:173
+msgid "Invalid commandline"
+msgstr "Linia de comandă nu este validă"
+
+#: ../AppInstall/activation.py:174
+#, python-format
+msgid "'%s' does not understand the commandline argument '%s'"
+msgstr "'%s' nu acceptă argumentul '%s' din linia de comandă"
+
+#: ../AppInstall/activation.py:190
+msgid "Searching for appropriate codecs"
+msgstr "Se caută codecurile corespunzătoare"
+
+#: ../AppInstall/activation.py:195 ../AppInstall/activation.py:294
+msgid "_Install"
+msgstr "_Instalează"
+
+#: ../AppInstall/activation.py:196
+msgid "Install multimedia codecs"
+msgstr "Intalează codecuri multimedia"
+
+#: ../AppInstall/activation.py:200
+msgid "Codec"
+msgstr "Codec"
+
+#: ../AppInstall/activation.py:231
+msgid "additional codec installation declined"
+msgstr "instalarea codecurilor adiţionale a fost refuzată"
+
+#: ../AppInstall/activation.py:235
+msgid "additional codec installation failed"
+msgstr "instalarea codecurilor adiţionale a eşuat"
+
+#. TRANSLATORS: %s represents a file path
+#: ../AppInstall/activation.py:256
+#, python-format
+msgid "\"%s\" cannot be opened"
+msgstr "nu s-a putut deschide „%s”"
+
+#: ../AppInstall/activation.py:291
+#, python-format
+msgid ""
+"A list of applications that can handle documents of the type '%s' will be "
+"created"
+msgstr "Se va creea o listă cu aplicaţii ce pot lucra cu fişiere de tipul „%s”"
+
+#. TRANSLATORS: %s represents a file path
+#: ../AppInstall/activation.py:297
+#, python-format
+msgid "Install applications to open \"%s\""
+msgstr "Instalează aplicaţii pentru a deschide „%s”"
+
+#: ../AppInstall/activation.py:300
+msgid "Install applications"
+msgstr "Instalare aplicaţii"
+
+#: ../AppInstall/activation.py:311
+msgid "_Search"
+msgstr "_Caută"
+
+#: ../AppInstall/activation.py:345
+msgid "Searching for extensions"
+msgstr "Căutare extensii"
+
+#: ../AppInstall/activation.py:346
+msgid "Extensions allow you to add new features to your application."
+msgstr "Extensiile vă permit să adăugaţi aplicaţiilor funcţionalităţi noi."
+
+#: ../AppInstall/activation.py:348
+msgid "Install/Remove Extensions"
+msgstr "Instalează/Dezinstalează extensii"
+
+#: ../AppInstall/activation.py:350
+msgid "Extension"
+msgstr "Extensie"
+
+#: ../AppInstall/AppInstall.py:174
+msgid ""
+"To install an application check the box next to the application. Uncheck the "
+"box to remove the application."
+msgstr ""
+"Pentru a instala o aplicaţie, bifaţi căsuţa din dreptul ei. Debifaţi căsuţa "
+"pentru a dezinstala aplicaţia."
+
+#: ../AppInstall/AppInstall.py:177
+msgid "To perform advanced tasks use the Synaptic package manager."
+msgstr ""
+"Folosiţi Administratorul de pachete Synaptic pentru a efectua sarcini "
+"avansate."
+
+#: ../AppInstall/AppInstall.py:179
+msgid "Quick Introduction"
+msgstr "Scurtă introducere"
+
+#: ../AppInstall/AppInstall.py:225
+#, fuzzy
+msgid "Installed applications only"
+msgstr "Aplicaţii instalate"
+
+#: ../AppInstall/AppInstall.py:226
+msgid "Show only applications that are installed on your computer"
+msgstr "Afişează doar aplicaţiile instalate pe calculatorul dumneavoastră"
+
+#: ../AppInstall/AppInstall.py:318
+msgid "Error reading the addon CD"
+msgstr "Eroare la citirea CD-ului"
+
+#: ../AppInstall/AppInstall.py:319
+msgid "The addon CD may be corrupt "
+msgstr "CD-ul poate fi deteriorat "
+
+#: ../AppInstall/AppInstall.py:453
+msgid "The list of applications is not availabe"
+msgstr "Nu este disponibilă lista aplicaţiilor"
+
+#: ../AppInstall/AppInstall.py:454
+msgid ""
+"Click on 'Reload' to load it. To reload the list you need a working internet "
+"connection. "
+msgstr ""
+"Clic pe „Reîncarcă” pentru a o încărca. Aveţi nevoie de o conexiune la "
+"Internet pentr a reîncărca lista. "
+
+#: ../AppInstall/AppInstall.py:473
+#, python-format
+msgid "%s cannot be installed on your computer type (%s)"
+msgstr "%s nu poate fi instalat pe tipul calculatorului dumneavoastră (%s)"
+
+#: ../AppInstall/AppInstall.py:476
+msgid ""
+"Either the application requires special hardware features or the vendor "
+"decided to not support your computer type."
+msgstr ""
+"Fie că aplicaţia necesită caracteristici speciale pentru hardware sau "
+"furnizorul nu suportă tipul calculatorului dumneavoastră."
+
+#: ../AppInstall/AppInstall.py:517
+#, python-format
+msgid "Cannot install '%s'"
+msgstr "Nu s-a putut instala „%s”"
+
+#: ../AppInstall/AppInstall.py:518
+#, python-format
+msgid ""
+"This application conflicts with other installed software. To install '%s' "
+"the conflicting software must be removed first.\n"
+"\n"
+"Switch to the 'synaptic' package manager to resolve this conflict."
+msgstr ""
+"Această aplicaţie intră în conflict cu alte programe instalate. Pentru a "
+"instala „%s” trebuie dezinstalat programul cu care intră în conflict.\n"
+"\n"
+"Pentru a rezolva acest conflict folosiţi Administratorul de pachete Synaptic."
+
+#: ../AppInstall/AppInstall.py:579
+#, python-format
+msgid "Cannot remove '%s'"
+msgstr "Nu s-a putut dezinstala „%s”"
+
+#: ../AppInstall/AppInstall.py:580
+#, python-format
+msgid ""
+"One or more applications depend on %s. To remove %s and the dependent "
+"applications, use the Synaptic package manager."
+msgstr ""
+"Una sau mai multe aplicaţii depind de %s. Folosiţi Administratorul de "
+"pachete Synaptic pentru a dezinstala %s împreună cu aplicaţiile dependente."
+
+#: ../AppInstall/AppInstall.py:669
+msgid "Confirm installation of restricted software"
+msgstr "Confirmare pentru instalarea programului cu restricţii"
+
+#: ../AppInstall/AppInstall.py:670
+msgid ""
+"The use of this software may be restricted in some countries. You must "
+"verify that one of the following is true:\n"
+"\n"
+"• These restrictions do not apply in your country of legal residence\n"
+"• You have permission to use this software (for  example, a patent license)\n"
+"• You are using this software for research purposes only"
+msgstr ""
+"În unele ţări folosirea acestui program poate fi restricţionată. Trebuie să "
+"verificaţi că cel putin una din afirmaţiile de mai jos este adevărată:\n"
+"\n"
+"• Aceste restricţii nu se aplică în cazul tării sau regiunii dumneavoastră\n"
+"• Deţineţi drepturi pentru a rula acest program (de exemplu o licenţă pentru "
+"patent)\n"
+"• Folosiţi acest program doar în scopuri de cercetare"
+
+#: ../AppInstall/AppInstall.py:680
+msgid "_Confirm"
+msgstr "_Confirmă"
+
+#: ../AppInstall/AppInstall.py:719 ../AppInstall/DialogProprietary.py:23
+#, python-format
+msgid "Enable the installation of software from %s?"
+msgstr "Activează instalarea programelor de la %s?"
+
+#: ../AppInstall/AppInstall.py:721
+#, python-format
+msgid ""
+"%s is provided by a third party vendor. The third party vendor is "
+"responsible for support and security updates."
+msgstr ""
+"%s este oferit de o terţă sursă. Sursa terţă este responsabilă pentru "
+"suportul aplicaţiei şi oferirea actualizărilor de securitate."
+
+#: ../AppInstall/AppInstall.py:725 ../AppInstall/DialogProprietary.py:26
+msgid "You need a working internet connection to continue."
+msgstr "Pentru a continua aveţi nevoie de o conexiune la Internet."
+
+#: ../AppInstall/AppInstall.py:729 ../AppInstall/DialogProprietary.py:34
+msgid "_Enable"
+msgstr "_Activează"
+
+#. show an error dialog if something went wrong with the cache
+#: ../AppInstall/AppInstall.py:953
+msgid "Failed to check for installed and available applications"
+msgstr "Verificare pentru aplicaţiile instalate sau disponibile a eşuat"
+
+#: ../AppInstall/AppInstall.py:954
+msgid ""
+"This is a major failure of your software management system. Please check for "
+"broken packages with synaptic, check the file permissions and correctness of "
+"the file '/etc/apt/sources.list' and reload the software information with: "
+"'sudo apt-get update' and 'sudo apt-get install -f'."
+msgstr ""
+"Aceasta este o eroare majoră a sistemului de administrare a softwareului. "
+"Verificaţi pachetele deterioarate folosind synaptic, verificaţi permisiunile "
+"fişierelor şi corectitudinea fişierului '/etc/apt/sources.list' şi "
+"reîncărcaţi informaţiile software folosind 'sudo apt-get update' şi 'sudo "
+"apt-get install -f'."
+
+#: ../AppInstall/AppInstall.py:1005
+msgid "Apply changes to installed applications before closing?"
+msgstr ""
+"Înainte de a închide aplică modificările asupra aplicaţiilor instalate?"
+
+#: ../AppInstall/AppInstall.py:1006
+#, fuzzy
+msgid "If you do not apply your changes they will be lost permanently."
+msgstr ""
+"În cazul în care nu aplicaţi modifările, ele vor fi pierdute definitiv."
+
+#: ../AppInstall/AppInstall.py:1010
+msgid "_Close Without Applying"
+msgstr "În_chide fără a aplica modificările"
+
+#. FIXME: move this inside the dialog class, we show a different
+#. text for a quit dialog and a approve dialog
+#: ../AppInstall/AppInstall.py:1071
+msgid "Apply the following changes?"
+msgstr "Doriţi să aplicaţi următoarele schimbări?"
+
+#: ../AppInstall/AppInstall.py:1072
+msgid ""
+"Please take a final look through the list of applications that will be "
+"installed or removed."
+msgstr ""
+"Revizuiţi lista de aplicaţii ce urmează a fi instalate sau dezinstalate."
+
+#: ../AppInstall/AppInstall.py:1281
+msgid "There is no matching application available."
+msgstr "Nu s-a găsit nici o aplicaţie."
+
+#. TRANSLATORS: %s represents a filter name
+#: ../AppInstall/AppInstall.py:1291
+#, python-format
+msgid "To broaden your search, choose \"%s\"."
+msgstr "Alegeţi „%s” pentru a mări domeniul de căutare."
+
+#. TRANSLATORS: %s represents a filter name
+#: ../AppInstall/AppInstall.py:1295
+#, python-format
+msgid "To broaden your search, choose \"%s\" or \"%s\"."
+msgstr "Alegeţi „%s” sau „%s” pentru a mări domeniul de căutare."
+
+#. TRANSLATORS: Show refers to the Show: combobox
+#: ../AppInstall/AppInstall.py:1301
+msgid "To broaden your search, choose a different \"Show\" item."
+msgstr ""
+"Pentru a mări domeniul de căutare alegeţi o altă intrare din meniul "
+"„Afişează”"
+
+#. TRANSLATORS: All refers to the All category in the left list
+#: ../AppInstall/AppInstall.py:1307
+msgid "To broaden your search, choose 'All' categories."
+msgstr "Pentru a mări domeniul de căutare alegeţi categoria „Toate”"
+
+#: ../AppInstall/BrowserView.py:96
+#, python-format
+msgid "Failed to open '%s'"
+msgstr "Nu s-a putut deschide „%s”"
+
+#: ../AppInstall/CoreMenu.py:127
+msgid "Applications"
+msgstr "Aplicaţii"
+
+#: ../AppInstall/DialogComplete.py:128
+msgid "Software installation failed"
+msgstr "Instalarea programului a eşuat"
+
+#: ../AppInstall/DialogComplete.py:129
+msgid ""
+"There has been a problem during the installation of the following pieces of "
+"software."
+msgstr "În timpul instalării următoarelor componente a apărut o eroare."
+
+#: ../AppInstall/DialogComplete.py:131 ../AppInstall/DialogComplete.py:146
+#: ../AppInstall/DialogComplete.py:162 ../AppInstall/DialogComplete.py:190
+msgid "Add/Remove More Software"
+msgstr "Instalează/Dezinstalaeză mai multe programe"
+
+#: ../AppInstall/DialogComplete.py:133
+msgid "Application installation failed"
+msgstr "Instalarea aplicaţiei a eşuat"
+
+#: ../AppInstall/DialogComplete.py:134
+msgid ""
+"There has been a problem during the installation of the following "
+"applications."
+msgstr "În timpul instalării următoarelor programe a apărut o eroare."
+
+#: ../AppInstall/DialogComplete.py:143
+msgid "Software could not be removed"
+msgstr "Nu s-a putut dezinstala programul"
+
+#: ../AppInstall/DialogComplete.py:144
+msgid ""
+"There has been a problem during the removal of the following pieces of "
+"software."
+msgstr ""
+"În timpul dezinstalării următoarelor componente de programe a apărut o "
+"eroare."
+
+#: ../AppInstall/DialogComplete.py:148
+msgid "Not all applications could be removed"
+msgstr "Nu toate aplicaţiile au putut fi dezinstalate"
+
+#: ../AppInstall/DialogComplete.py:149
+msgid ""
+"There has been a problem during the removal of the following applications."
+msgstr "În timpul instalării următoarelor programe a apărut o eroare."
+
+#: ../AppInstall/DialogComplete.py:159
+msgid "Installation and removal of software failed"
+msgstr "Instalarea şi dezinstalarea programului a eşuat"
+
+#: ../AppInstall/DialogComplete.py:160
+msgid ""
+"There has been a problem during the installation or removal of the following "
+"pieces of software."
+msgstr ""
+"În timpul instalării sau dezinstalării următoarelor componente de programe a "
+"apărut o eroare."
+
+#: ../AppInstall/DialogComplete.py:164
+msgid "Installation and removal of applications failed"
+msgstr "Instalarea şi dezinstalarea aplicaţiilor a eşuat"
+
+#: ../AppInstall/DialogComplete.py:165
+msgid ""
+"There has been a problem during the installation or removal of the following "
+"applications."
+msgstr ""
+"În timpul instalării sau dezinstalării următoarelor programe a apărut o "
+"eroare."
+
+#: ../AppInstall/DialogComplete.py:173
+msgid "New application has been installed"
+msgstr "Noua aplicaţie a fost instalată"
+
+#: ../AppInstall/DialogComplete.py:174
+msgid "New applications have been installed"
+msgstr "Noile aplicaţii au fost instalate"
+
+#: ../AppInstall/DialogComplete.py:179
+msgid ""
+"To start a newly installed application, choose it from the applications menu."
+msgstr "Pentru a porni o aplicaţie nou instalată, alege aplicaţia din meniu."
+
+#: ../AppInstall/DialogComplete.py:182
+msgid "To start a newly installed application double click on it."
+msgstr "Pentru a porni o aplicaţie nou instalată, faceţi dublu clic pe ea."
+
+#: ../AppInstall/DialogComplete.py:186
+msgid "Software has been installed successfully"
+msgstr "Programul a fost instalat cu succes"
+
+#: ../AppInstall/DialogComplete.py:187
+msgid "Do you want to install or remove further software?"
+msgstr "Doriţi să continuaţi instalarea sau dezinstalarea de alte programe?"
+
+#: ../AppInstall/DialogComplete.py:192
+msgid "Applications have been removed successfully"
+msgstr "Aplicaţiile au fost dezinstalate cu succes"
+
+#: ../AppInstall/DialogComplete.py:193
+msgid "Do you want to install or remove further applications?"
+msgstr "Doriţi să continuaţi instalarea sau dezinstalarea de alte aplicaţii?"
+
+#: ../AppInstall/DialogMultipleApps.py:33
+#, python-format
+msgid "Remove %s and bundled applications?"
+msgstr "Dezinstalaţi %s împreună cu aplicaţiile include?"
+
+#: ../AppInstall/DialogMultipleApps.py:34
+#, python-format
+msgid ""
+"%s is part of a software collection. If you remove %s, you will remove all "
+"bundled applications as well."
+msgstr ""
+"%s face parte dintr-o colecţie de programe. În cazul în care dezinstalaţi %"
+"s, veţi dezinstala şi toate aplicaţiile ce fac parte din colecţie."
+
+#: ../AppInstall/DialogMultipleApps.py:37
+msgid "_Remove All"
+msgstr "_Dezinstalează toate"
+
+#: ../AppInstall/DialogMultipleApps.py:39
+#, python-format
+msgid "Install %s and bundled applications?"
+msgstr "Instalaţi %s împreună cu aplicaţiile include?"
+
+#: ../AppInstall/DialogMultipleApps.py:40
+#, python-format
+msgid ""
+"%s is part of a software collection. If you install %s, you will install all "
+"bundled applications as well."
+msgstr ""
+"%s face parte dintr-o colecţie de programe. În cazul în care instalaţi %s, "
+"veţi instala şi toate aplicaţiile ce fac parte din colecţie."
+
+#: ../AppInstall/DialogMultipleApps.py:43
+msgid "_Install All"
+msgstr "_Instalează toate"
+
+#: ../AppInstall/DialogProprietary.py:25
+#, python-format
+msgid "%s is provided by a third party vendor."
+msgstr "%s este oferit de o sursă terţă."
+
+#: ../AppInstall/DialogProprietary.py:40
+msgid ""
+"The application comes with the following license terms and conditions. Click "
+"on the 'Enable' button to accept them:"
+msgstr ""
+"Aplicaţia vine cu următoarele condiţii şi licenţe. Clic pe butonul "
+"„Activează” pentru a le accepta:"
+
+#: ../AppInstall/DialogProprietary.py:46
+msgid "Accept the license terms and install the software"
+msgstr "Acceptă termenii licenţei şi instalează aplicaţia"
+
+#: ../AppInstall/Menu.py:100
+msgid "Loading cache..."
+msgstr "Se deschide lista temporară (cache) ..."
+
+#: ../AppInstall/Menu.py:109
+msgid "Collecting application data..."
+msgstr "Se colectează informaţii despre aplicaţie..."
+
+#: ../AppInstall/Menu.py:311
+msgid "Loading applications..."
+msgstr "Se încarcă aplicaţiile ..."
+
+#: ../AppInstall/Menu.py:315 ../AppInstall/Menu.py:318
+msgid "All"
+msgstr "Toate"
+
+#: ../AppInstall/Menu.py:327
+#, python-format
+msgid "Loading %s..."
+msgstr "Se încarcă %s..."
+
+#: ../AppInstall/distros/Debian.py:15 ../AppInstall/distros/Default.py:13
+#: ../AppInstall/distros/Ubuntu.py:15
+msgid "All available applications"
+msgstr "Toate aplicaţiile disponibile"
+
+#: ../AppInstall/distros/Debian.py:16
+msgid ""
+"Show all applications including ones which are possibly restricted by law or "
+"copyright"
+msgstr ""
+"Afişează toate aplicaţiile, incluzînd cele cu posibile restrângeri legale "
+"sau de drepturi de autor"
+
+#: ../AppInstall/distros/Debian.py:18 ../AppInstall/distros/Ubuntu.py:20
+#, fuzzy
+msgid "All Open Source applications"
+msgstr "Toate aplicaţiile Open Source"
+
+#: ../AppInstall/distros/Debian.py:19
+msgid ""
+"Show all Debian applications which can be freely used, modified and "
+"distributed. This includes a large variety of community maintained "
+"applications"
+msgstr ""
+"Afişează toate aplicaţiile Debian ce pot fi instalate, modificate şi "
+"distribuite liber. Acestea includ o gamă largă de aplicaţii întreţinute de "
+"comunitate"
+
+#: ../AppInstall/distros/Debian.py:25 ../AppInstall/distros/Ubuntu.py:31
+msgid "Third party applications"
+msgstr "Aplicaţii de la terţi"
+
+#: ../AppInstall/distros/Debian.py:26
+msgid ""
+"Show only applications that are provided by independent software vendors and "
+"are not part of Debian"
+msgstr ""
+"Afişează doar aplicaţiile oferite de surse independente şi care nu fac parte "
+"din Debian"
+
+#. Fallback
+#: ../AppInstall/distros/Debian.py:37
+#, python-format
+msgid "Enable the installation of software from the %s component of Debian?"
+msgstr "Activează instalarea de programe din componenta Debian %s?"
+
+#. %s is the name of the component
+#: ../AppInstall/distros/Debian.py:40 ../AppInstall/distros/Default.py:27
+#: ../AppInstall/distros/Ubuntu.py:46
+#, python-format
+msgid "%s is not officially supported with security updates."
+msgstr "%s nu este suportat în mod oficial cu actualizări de securitate."
+
+#: ../AppInstall/distros/Debian.py:42
+msgid "Enable the installaion of officially supported Debian software?"
+msgstr "Activează instalarea aplicaţiilor Debian suportate oficial?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Debian.py:45
+#, python-format
+msgid ""
+"%s is part of the Debian main distribution. Debian provides support and "
+"security updates, which will be enabled too."
+msgstr ""
+"%s face parte din distribuţia principală Debian. Debian oferă suport şi "
+"actualizări de securitate, acestea vor fi deasemenea activate."
+
+#: ../AppInstall/distros/Debian.py:48
+msgid "Enable the installation of partial free software?"
+msgstr "Se activează intalarea software-ului parţial liber?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Debian.py:50
+#, python-format
+msgid ""
+"%s is not part of the Debian main distribution and requires non-free "
+"software to work. Debian provides support and security updates, which will "
+"be enabled too."
+msgstr ""
+"%s nu face parte din distribuţia principală Debian iar pentru a funcţiona "
+"necesită software neliber. Debian oferă suport şi actualizări de securitate, "
+"acestea vor fi deasemenea activate."
+
+#: ../AppInstall/distros/Debian.py:54
+msgid "Enable the installation of non-free software?"
+msgstr "Activează instalarea softwareului închis?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Debian.py:56 ../AppInstall/distros/Ubuntu.py:63
+#: ../AppInstall/distros/Ubuntu.py:114
+#, python-format
+msgid ""
+"The use, modification and distribution of %s is restricted by copyright or "
+"by legal terms in some countries."
+msgstr ""
+"În unele ţări folosirea, modificare şi distribuire %s este restrânsă de "
+"termeni legali."
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:65
+#, python-format
+msgid "%s integrates well into the KDE desktop"
+msgstr "%s se integreză bine în mediul KDE"
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:70
+#, python-format
+msgid "%s integrates well into the GNOME desktop"
+msgstr "%s se integreză bine în mediul GNOME"
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:75
+#, python-format
+msgid "%s integrates well into the Gnustep desktop"
+msgstr "%s se integreză bine în mediul Gnustep"
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:80
+#, python-format
+msgid "%s integrates well into the XFCE desktop"
+msgstr "%s se integreză bine în mediul XFCE"
+
+#: ../AppInstall/distros/Debian.py:103
+#, python-format
+msgid "Debian provides support and security updates for %s"
+msgstr "Debian oferă suport şi actualizări de securitate pentru %s"
+
+#: ../AppInstall/distros/Debian.py:108
+#, python-format
+msgid ""
+"%s requires non-free software to work.Debian provides support and security "
+"updates."
+msgstr ""
+"%s necesită software cu sursă închisă. Debian oferă suport şi actualizări de "
+"securitate."
+
+#: ../AppInstall/distros/Debian.py:114
+#, python-format
+msgid ""
+"The use, modification and distribution of %s is restricted by copyright or "
+"by legal terms in some countries. Debian provides support and security "
+"updates."
+msgstr ""
+"În unele ţări, folosirea, modificare şi distribuirea %s este restrânsă de "
+"termeni legali şi de drepturile de autor. Debian oferă suport şi actualizări "
+"de securitate."
+
+#: ../AppInstall/distros/Default.py:14
+msgid ""
+"Show all applications including ones which are unsupported and possibly "
+"restricted by law or copyright"
+msgstr ""
+"Afişează toate aplicaţiile, inlcuzînd cele fără suport sau cu posibile "
+"restricţii legale sau de drepturi de autor"
+
+#. Fallback
+#: ../AppInstall/distros/Default.py:25 ../AppInstall/distros/Ubuntu.py:43
+#, python-format
+msgid "Enable the installation of software from the %s component of Ubuntu?"
+msgstr "Activează instalarea de aplicaţii din componenta %s Ubuntu?"
+
+#: ../AppInstall/distros/Ubuntu.py:16
+msgid ""
+"Show all applications including ones which are possibly restricted by law or "
+"copyright, unsupported by Canonical Ltd. or not part of Ubuntu"
+msgstr ""
+"Afişează toate aplicaţiile, incluzînd cele cu posibile restricţii legale, "
+"cele nesuportate de Canonical Ltd. sau cele ce nu fac parte din Ubuntu"
+
+#: ../AppInstall/distros/Ubuntu.py:21
+msgid ""
+"Show all Ubuntu applications which can be freely used, modified and "
+"distributed. This includes a large variety of community maintained "
+"applications"
+msgstr ""
+"Afişează toate aplicaţiile Ubuntu ce pot fi foloste, modificate şi "
+"distribuite în mod liber. Acestea includ o gamă largă de aplicaţii "
+"întreţinute de comunitate"
+
+#: ../AppInstall/distros/Ubuntu.py:27
+msgid "Supported applications"
+msgstr "Aplicaţii suportate"
+
+#: ../AppInstall/distros/Ubuntu.py:28
+msgid ""
+"Show only applications which come with full technical and security support "
+"by Canonical Ltd."
+msgstr ""
+"Afişează doar aplicaţiile pentru care există suport tehnic şi de securitate "
+"de la Canonical Ltd."
+
+#: ../AppInstall/distros/Ubuntu.py:32
+msgid ""
+"Show only applications that are provided by independent software vendors and "
+"are not part of Ubuntu"
+msgstr ""
+"Afişează doar aplicaţiile oferite de surse independente şi care nu fac parte "
+"din Ubuntu."
+
+#: ../AppInstall/distros/Ubuntu.py:48
+msgid "Enable the installaion of officially supported Ubuntu software?"
+msgstr "Activează instalarea aplicaţiilor Ubuntu suportate oficial?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Ubuntu.py:51
+#, python-format
+msgid ""
+"%s is part of the Ubuntu main distribution. Canonical Ltd. provides support "
+"and security updates, which will be enabled too."
+msgstr ""
+"%s este parte din distribuţia principală Ubuntu. Canonical Ltd. oferă suport "
+"şi actualizări de securitate, iar acestea vor fi deasemenea activate."
+
+#: ../AppInstall/distros/Ubuntu.py:54
+msgid "Enable the installation of community maintained software?"
+msgstr "Activează instalarea aplicaţiilor întreţinute de comunitate?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Ubuntu.py:57
+#, python-format
+msgid ""
+"%s is maintained by the Ubuntu community. The Ubuntu community provides "
+"support and security updates, which will be enabled too."
+msgstr ""
+"%s este întreţinut de comunitatea Ubuntu. Comunitatea Ubuntu oferă suport şi "
+"actualizări de securitate, iar acestea vor fi deasemenea activate."
+
+#: ../AppInstall/distros/Ubuntu.py:60
+msgid "Enable the installation of unsupported and restricted software?"
+msgstr ""
+"Activează instalarea aplicaţiilor nesuportate sau cu restricţii legale?"
+
+#: ../AppInstall/distros/Ubuntu.py:96
+#, python-format
+msgid "Canonical Ltd. provides technical support and security updates for %s"
+msgstr ""
+"Canonical Ltd.oferă suport tehnic şi actualizări de securitate pentru %s"
+
+#: ../AppInstall/distros/Ubuntu.py:109
+msgid "This application is provided by the Ubuntu community."
+msgstr "Această aplicaţie este oferită de comunitatea Ubuntu."
+
+#: ../AppInstall/widgets/AppDescView.py:16
+msgid "Description"
+msgstr "Descriere"
+
+#: ../AppInstall/widgets/AppDescView.py:75
+#, python-format
+msgid "%s cannot be installed"
+msgstr "Nu s-a putut instala „%s”"
+
+#. warn that this app is not available on this plattform
+#: ../AppInstall/widgets/AppDescView.py:84
+#, python-format
+msgid ""
+"%s cannot be installed on your computer type (%s). Either the application "
+"requires special hardware features or the vendor decided to not support your "
+"computer type."
+msgstr ""
+"%s nu s-a putut instala pe tipul calculatorui dumneavoastră (%s). Fie "
+"această aplicaţie necesită caracteristici hardware speciale, fie "
+"producătorul nu suportă tipul calculatorului dumneavoastră."
+
+#: ../AppInstall/widgets/AppDescView.py:96
+msgid "This application is bundled with the following applications: "
+msgstr "Această aplicaţie este livrată împreună cu următoarele aplicaţii: "
+
+#: ../AppInstall/widgets/AppDescView.py:196
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Versiune: %s (%s)"
+
+#: ../AppInstall/widgets/AppListView.py:55
+msgid "Popularity"
+msgstr "Popularitate"
+
+#. Application column (icon, name, description)
+#: ../AppInstall/widgets/AppListView.py:78
+msgid "Application"
+msgstr "Aplicaţii"
+
+#~ msgid "%s integrates well into the Kubuntu desktop"
+#~ msgstr "%s se integrează bine în sistemul Kubuntu"
+
+#~ msgid "%s integrates well into the Ubuntu desktop"
+#~ msgstr "%s se integrează bine in sistemul Ubuntu"
+
+#~ msgid "%s integrates well into the Xubuntu desktop"
+#~ msgstr "%s se integrează bine in sistemul Xubuntu"
