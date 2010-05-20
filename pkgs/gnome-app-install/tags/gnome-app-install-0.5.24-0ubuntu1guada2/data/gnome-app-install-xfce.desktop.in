@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+_Name=Add/Remove...
+_GenericName=Package Manager
+_Comment=Install and remove applications
+Exec=/usr/bin/gnome-app-install
+Icon=gnome-app-install
+Terminal=false
+Type=Application
+Categories=PackageManager;System;
+StartupNotify=true
+NotShowIn=GNOME;
+X-Ubuntu-Gettext-Domain=gnome-app-install

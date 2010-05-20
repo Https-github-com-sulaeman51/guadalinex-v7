@@ -1,0 +1,986 @@
+# Basque translation for gnome-app-install
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the gnome-app-install package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-app-install\n"
+"Report-Msgid-Bugs-To: Sebastian Heinlein <sebi@glatzor.de>\n"
+"POT-Creation-Date: 2008-01-04 20:30+0100\n"
+"PO-Revision-Date: 2007-09-28 03:03+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Basque <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-01-04 18:56+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/gnome-app-install.schemas.in.h:1
+msgid "Components that have been confirmed to install applications from"
+msgstr "Bertatik aplikazioak instalatzeko onartu diren osagaiak"
+
+#: ../data/gnome-app-install.schemas.in.h:2
+msgid "If true, the main window is maximized."
+msgstr "Egia bada, leiho nagusia maximizatuko da."
+
+#: ../data/gnome-app-install.schemas.in.h:3
+msgid "Main window height"
+msgstr "Leiho nagusiaren altuera"
+
+#: ../data/gnome-app-install.schemas.in.h:4
+msgid "Main window maximization state"
+msgstr "Leiho nagusiaren maximizazio-egoera."
+
+#: ../data/gnome-app-install.schemas.in.h:5
+msgid "Main window width"
+msgstr "Leiho nagusiaren zabalera"
+
+#: ../data/gnome-app-install.schemas.in.h:6
+msgid ""
+"Possible values: 0 : show all available applications 1 : show only free "
+"applications 2 : - 3 : show only supported applications 4 : show only 3rd "
+"party applications 5 : - 6 : show only installed applications"
+msgstr ""
+"Balio posibleak: 0 : aplikazio eskuragarri guztiak erakutsi 1 : aplikazio "
+"askeak bakarrik erakutsi 2 : - 3 : sostengudun aplikazioak bakarrik erakutsi "
+"4 : third-party apliakzioak bakarrik erakutsi 5 : - 6 : instalatutako "
+"aplikazioak bakarrik erakutsi"
+
+#: ../data/gnome-app-install.schemas.in.h:7
+msgid "Show only a subset of applications"
+msgstr "Aplikazio talde bat bakarrik erakutsi"
+
+#: ../data/gnome-app-install.schemas.in.h:8
+msgid "Suggest application for MIME-type: approved components"
+msgstr "Aplikazioa proposatu MIME motarako: osagai onartuak"
+
+#: ../data/gnome-app-install.schemas.in.h:9
+msgid "Timeout for interactive search"
+msgstr "Bilaketa interaktiborako atzera-kontua"
+
+#: ../data/gnome-app-install.schemas.in.h:10
+msgid ""
+"Timeout from typing in the search entry until a search is triggered (in "
+"milliseconds)."
+msgstr ""
+"Bilaketarako sarrera idazten denetik bilaketa abiarazi arteko atzera-kontua "
+"(milisegundotan)."
+
+#: ../data/gnome-app-install.schemas.in.h:11
+msgid "Timestamp of the last cache refresh run"
+msgstr "Cache-a freskatu zen azkeneko aldiko denbora-marka"
+
+#: ../data/gnome-app-install.schemas.in.h:12
+msgid ""
+"When the user asks to open a file but no supported application is present, "
+"the system will offer to install applications in the components listed here, "
+"as well as the individually whitelisted applications."
+msgstr ""
+"Erabiltzailea fitxategi bat irekitzen saiatzen bada, eta ez badago halako "
+"fitxategirik irekitzeko aplikazio egokirik instalatuta, zerrenda honetako "
+"aplikazioak edo banan-baban onartutako aplikazioak instalatzea eskainiko dio "
+"sistemak erabiltzaileari."
+
+#: ../data/gnome-app-install.glade.h:1
+msgid "<b>Add</b>"
+msgstr "<b>Gehitu</b>"
+
+#: ../data/gnome-app-install.glade.h:2
+msgid "<b>Remove</b>"
+msgstr "<b>Kendu</b>"
+
+#: ../data/gnome-app-install.glade.h:3
+msgid ""
+"<big><b>Checking installed and available applications</b></big>\n"
+"\n"
+"Ubuntu and third party vendors offer you a large variety of applications "
+"that you can install on your system."
+msgstr ""
+"<big><b>Instalatuta dauden edo eskuragarri diren aplikazioak bilatzen</b></"
+"big>\n"
+"\n"
+"Ubuntu eta 'Third Party' saltzaileek aplikazio ugari eskaintzen dituzte zure "
+"sisteman instalatu ahal ditzazun."
+
+#: ../data/gnome-app-install.glade.h:6
+msgid ""
+"<big><b>The list of available applications is out of date</b></big>\n"
+"\n"
+"To reload the list you need a working internet connection."
+msgstr ""
+"<big><b>Aplikazio eskuragarrien zerrenda zaharkitua dago</b></big>\n"
+"\n"
+"Zerrenda birkargatzeko, martxan dagoen internet-konexio bat behar duzu."
+
+#: ../data/gnome-app-install.glade.h:9
+msgid "Add/Remove Applications"
+msgstr "Aplikazioak Gehitu/Kendu"
+
+#: ../data/gnome-app-install.glade.h:10
+msgid "Apply pending changes and close the window"
+msgstr "Aldaketak aplikatu eta leihoa itxi"
+
+#: ../data/gnome-app-install.glade.h:11
+msgid "Cancel pending changes and close the window"
+msgstr "Aldaketak baztertu eta leihoa itxi"
+
+#: ../data/gnome-app-install.glade.h:12
+msgid "Categories"
+msgstr "Kategoriak"
+
+#: ../data/gnome-app-install.glade.h:13
+msgid "Licence"
+msgstr "Lizentzia"
+
+#: ../data/gnome-app-install.glade.h:14
+msgid "Search:"
+msgstr "Bilatu:"
+
+#: ../data/gnome-app-install.glade.h:15
+msgid "Show:"
+msgstr "Erakutsi:"
+
+#: ../data/gnome-app-install.glade.h:16
+msgid "The categories represent the application menu"
+msgstr "Aplikazioen menua irudikatzen dute kategoriek"
+
+#: ../data/gnome-app-install.glade.h:17
+msgid "_Add/Remove More Applications"
+msgstr "Aplikazio _gehiago gehitu/kendu"
+
+#: ../data/gnome-app-install.glade.h:18
+msgid "_Apply Changes"
+msgstr "Aldaketak _aplikatu"
+
+#: ../data/gnome-app-install.glade.h:19
+msgid "_Reload"
+msgstr "_Birkargatu"
+
+#: ../data/gnome-app-install.glade.h:20
+msgid "_Remove"
+msgstr "_Kendu"
+
+#: ../data/gnome-app-install.glade.h:21
+msgid "_Retry"
+msgstr "Berriro _saiatu"
+
+#: ../data/gnome-app-install.glade.h:22
+msgid "applications"
+msgstr "aplikazioak"
+
+#: ../data/gnome-app-install.desktop.in.h:1
+#: ../data/gnome-app-install-xfce.desktop.in.h:1
+msgid "Add/Remove..."
+msgstr "Gehitu/Kendu..."
+
+#: ../data/gnome-app-install.desktop.in.h:2
+#: ../data/gnome-app-install-xfce.desktop.in.h:2
+msgid "Install and remove applications"
+msgstr "Aplikazioak instalatu eta kendu"
+
+#: ../data/gnome-app-install.desktop.in.h:3
+#: ../data/gnome-app-install-xfce.desktop.in.h:3
+msgid "Package Manager"
+msgstr "Pakete-Kudeatzailea"
+
+#: ../AppInstall/activation.py:112
+msgid "no suitable application"
+msgstr "aplikazio egokirik ez"
+
+#: ../AppInstall/activation.py:113
+msgid ""
+"No application suitable for automatic installation is available for handling "
+"this kind of file."
+msgstr ""
+"Ez dago fitxategi mota hau maneiatzeko aplikazio egokirik hautagai "
+"instalazio automatikorako."
+
+#: ../AppInstall/activation.py:116
+msgid "no application found"
+msgstr "ez da aplikaziorik aurkitu"
+
+#: ../AppInstall/activation.py:117
+msgid "No application is known for this kind of file."
+msgstr "Ez da ezagutzen fitxategi mota honentzako aplikazio egokirik."
+
+#: ../AppInstall/activation.py:131 ../AppInstall/activation.py:289
+msgid "Searching for appropriate applications"
+msgstr "Aplikazio egokiak bilatzen"
+
+#: ../AppInstall/activation.py:133 ../AppInstall/activation.py:192
+msgid "Please wait. This might take a minute or two."
+msgstr "Itxaron mesedez. Honek minutu bat edo bi behar ditzake."
+
+#: ../AppInstall/activation.py:161
+msgid "Search for suitable codec?"
+msgstr "Codec egokia bilatu?"
+
+#: ../AppInstall/activation.py:162
+msgid ""
+"The required software to play this file is not installed. You need to "
+"install suitable codecs to play media files. Do you want to search for a "
+"codec that supports the selected file?\n"
+"\n"
+"The search will also include software which is not officially supported."
+msgstr ""
+"Fitxategi hau erreproduzitzeko beharrezko softwarea ez dago instalatuta. "
+"Multimedia fitxategiak erreproduzitzeko codec egokiak instalatu behar "
+"dituzu. Hautatutako fitxategia jasaten duen codec bat bilatu nahi al duzu?\n"
+"\n"
+"Sostengu ofizialik ez duen softwarearen artean ere bilatuko da."
+
+#: ../AppInstall/activation.py:173
+msgid "Invalid commandline"
+msgstr "Agindu-lerro baliogabea"
+
+#: ../AppInstall/activation.py:174
+#, python-format
+msgid "'%s' does not understand the commandline argument '%s'"
+msgstr "'%s'-(e)k ez du agindu-lerroko '%s' argumentua ulertzen"
+
+#: ../AppInstall/activation.py:190
+msgid "Searching for appropriate codecs"
+msgstr "Codec egokiak bilatzen"
+
+#: ../AppInstall/activation.py:195 ../AppInstall/activation.py:294
+msgid "_Install"
+msgstr "_Instalatu"
+
+#: ../AppInstall/activation.py:196
+msgid "Install multimedia codecs"
+msgstr "Multimedia codec-ak instalatu"
+
+#: ../AppInstall/activation.py:200
+msgid "Codec"
+msgstr "Codec"
+
+#: ../AppInstall/activation.py:231
+msgid "additional codec installation declined"
+msgstr "ezeztatu egin da codec gehigarriaren instalazioa"
+
+#: ../AppInstall/activation.py:235
+msgid "additional codec installation failed"
+msgstr "huts codec gehigarria instalatzean"
+
+#. TRANSLATORS: %s represents a file path
+#: ../AppInstall/activation.py:256
+#, python-format
+msgid "\"%s\" cannot be opened"
+msgstr "\"%s\" ezin da ireki"
+
+#: ../AppInstall/activation.py:291
+#, python-format
+msgid ""
+"A list of applications that can handle documents of the type '%s' will be "
+"created"
+msgstr ""
+"'%s' motako fitxategiak maneiatu ditzaketen aplikazioen zerrenda ari da "
+"osatzen"
+
+#. TRANSLATORS: %s represents a file path
+#: ../AppInstall/activation.py:297
+#, python-format
+msgid "Install applications to open \"%s\""
+msgstr "\"%s\" irekitzeko aplikazioak instalatu"
+
+#: ../AppInstall/activation.py:300
+msgid "Install applications"
+msgstr "Aplikazioak instalatu"
+
+#: ../AppInstall/activation.py:311
+msgid "_Search"
+msgstr "_Bilatu"
+
+#: ../AppInstall/activation.py:345
+msgid "Searching for extensions"
+msgstr "Hedapenak bilatzen"
+
+#: ../AppInstall/activation.py:346
+msgid "Extensions allow you to add new features to your application."
+msgstr "Hedapenekin, ezaugarri berriak gehituko dizkiozu zure aplikazioari."
+
+#: ../AppInstall/activation.py:348
+msgid "Install/Remove Extensions"
+msgstr "Hedapenak Gehitu/Kendu"
+
+#: ../AppInstall/activation.py:350
+msgid "Extension"
+msgstr "Hedapena"
+
+#: ../AppInstall/AppInstall.py:174
+msgid ""
+"To install an application check the box next to the application. Uncheck the "
+"box to remove the application."
+msgstr ""
+"Aplikazio bat instalatzeko, markatu ezazu aplikazioaren ondoko kutxa. "
+"Aplikazioa kentzeko, kutxa desmarkatu ezazu."
+
+#: ../AppInstall/AppInstall.py:177
+msgid "To perform advanced tasks use the Synaptic package manager."
+msgstr "Lan aurreratuak burutzeko, Synaptic pakete-kudeatzailea erabili."
+
+#: ../AppInstall/AppInstall.py:179
+msgid "Quick Introduction"
+msgstr "Sarrera Laburra"
+
+#: ../AppInstall/AppInstall.py:225
+#, fuzzy
+msgid "Installed applications only"
+msgstr "Instalatutako aplikazioak"
+
+#: ../AppInstall/AppInstall.py:226
+msgid "Show only applications that are installed on your computer"
+msgstr "Zure ordenagailuan instalatuta dauden aplikazioak bakarrik erakutsi"
+
+#: ../AppInstall/AppInstall.py:318
+msgid "Error reading the addon CD"
+msgstr "Errorea gehigarrien CDa irakurtzean"
+
+#: ../AppInstall/AppInstall.py:319
+msgid "The addon CD may be corrupt "
+msgstr "Agian, gehigarrien CDa gaizki dago "
+
+#: ../AppInstall/AppInstall.py:453
+msgid "The list of applications is not availabe"
+msgstr "Aplikazioen zerrenda ez dago eskuragarri"
+
+#: ../AppInstall/AppInstall.py:454
+msgid ""
+"Click on 'Reload' to load it. To reload the list you need a working internet "
+"connection. "
+msgstr ""
+"Kargatzeko, sakatu ezazu 'Birkargatu'. Zerrenda birkargatzeko, martxan "
+"dagoen Internet konexioa beharko duzu. "
+
+#: ../AppInstall/AppInstall.py:473
+#, python-format
+msgid "%s cannot be installed on your computer type (%s)"
+msgstr "%s ezin da instalatua izan zure ordenagailu-motan (%s)"
+
+#: ../AppInstall/AppInstall.py:476
+msgid ""
+"Either the application requires special hardware features or the vendor "
+"decided to not support your computer type."
+msgstr ""
+"Aplikazioak hardware-ezaugarri bereziak behar ditu, edo saltzaileak zure "
+"ordenagailu-mota ez sostengatzea erabaki du."
+
+#: ../AppInstall/AppInstall.py:517
+#, python-format
+msgid "Cannot install '%s'"
+msgstr "Ezin da '%s' instalatu"
+
+#: ../AppInstall/AppInstall.py:518
+#, python-format
+msgid ""
+"This application conflicts with other installed software. To install '%s' "
+"the conflicting software must be removed first.\n"
+"\n"
+"Switch to the 'synaptic' package manager to resolve this conflict."
+msgstr ""
+"Aplikazio honek gatazka sortzen du jadanik instalatutako softwareren "
+"batekin. '%s' instalatzeko, beste software gatazkaduna kendu beharko duzu.\n"
+"\n"
+"'Synaptic' pakete-kudeatzailea erabili ezazu gatazka hau ebazteko."
+
+#: ../AppInstall/AppInstall.py:579
+#, python-format
+msgid "Cannot remove '%s'"
+msgstr "Ezin da '%s' kendu"
+
+#: ../AppInstall/AppInstall.py:580
+#, python-format
+msgid ""
+"One or more applications depend on %s. To remove %s and the dependent "
+"applications, use the Synaptic package manager."
+msgstr ""
+"'%s'-ren menpekoa da aplikazio bat edo gehiago. %s eta bere menpeko "
+"aplikazioak kentzeko, Synaptic pakete-kudeatzailea erabili ezazu."
+
+#: ../AppInstall/AppInstall.py:669
+msgid "Confirm installation of restricted software"
+msgstr "Software mugatuaren instalazioa berretsi"
+
+#: ../AppInstall/AppInstall.py:670
+msgid ""
+"The use of this software may be restricted in some countries. You must "
+"verify that one of the following is true:\n"
+"\n"
+"• These restrictions do not apply in your country of legal residence\n"
+"• You have permission to use this software (for  example, a patent license)\n"
+"• You are using this software for research purposes only"
+msgstr ""
+"Software honen erabilera mugatuta egon daiteke herrialde batzuetan. "
+"Ondorengoetako bat egia dela egiaztatu behar ezazu:\n"
+"\n"
+"• Muga hauek ez dira zure bizileku legala duzun herrialdean aplikagarriak\n"
+"• Software hau erabiltzeko baimena duzu (adibidez: lizentzia)\n"
+"• Ikertzeko helburu soilarekin darabilzu software hau"
+
+#: ../AppInstall/AppInstall.py:680
+msgid "_Confirm"
+msgstr "_Berretsi"
+
+#: ../AppInstall/AppInstall.py:719 ../AppInstall/DialogProprietary.py:23
+#, python-format
+msgid "Enable the installation of software from %s?"
+msgstr "'%s'-(e)ko softwarea instalatzea onartu?"
+
+#: ../AppInstall/AppInstall.py:721
+#, python-format
+msgid ""
+"%s is provided by a third party vendor. The third party vendor is "
+"responsible for support and security updates."
+msgstr ""
+"'Third Party' saltzaile batek eskaintzen du %s. 'Third Party' saltzailea da "
+"sostengu eta segurtasun-eguneratzeen arduraduna."
+
+#: ../AppInstall/AppInstall.py:725 ../AppInstall/DialogProprietary.py:26
+msgid "You need a working internet connection to continue."
+msgstr "Martxan dagoen Internet konexio bat behar duzu jarraitzeko."
+
+#: ../AppInstall/AppInstall.py:729 ../AppInstall/DialogProprietary.py:34
+msgid "_Enable"
+msgstr "_Onartu"
+
+#. show an error dialog if something went wrong with the cache
+#: ../AppInstall/AppInstall.py:953
+msgid "Failed to check for installed and available applications"
+msgstr ""
+"Ezin izan dira instalatuta dauden edo eskuragarri diren aplikazioak bilatu"
+
+#: ../AppInstall/AppInstall.py:954
+msgid ""
+"This is a major failure of your software management system. Please check for "
+"broken packages with synaptic, check the file permissions and correctness of "
+"the file '/etc/apt/sources.list' and reload the software information with: "
+"'sudo apt-get update' and 'sudo apt-get install -f'."
+msgstr ""
+"Softwarea kudeatzeko sistemaren huts garrantzitsua da hau. Synaptic erabili "
+"ezazu pakete apurtuak bilatzeko, '/etc/apt/sources.list' fitxategiaren "
+"osotasuna eta baimenak egiaztatu itzazu, eta hau exekutatu ezazu software-"
+"informazioa birkargatzeko: 'sudo apt-get update' eta 'sudo apt-get install -"
+"f'"
+
+#: ../AppInstall/AppInstall.py:1005
+msgid "Apply changes to installed applications before closing?"
+msgstr "Instalatutako aplikazioei aldaketak aplikatu itxi aurretik?"
+
+#: ../AppInstall/AppInstall.py:1006
+msgid "If you do not apply your changes they will be lost permanently."
+msgstr "Ez badituzu zure aldaketak aplikatzen, betirako galduko dira."
+
+#: ../AppInstall/AppInstall.py:1010
+msgid "_Close Without Applying"
+msgstr "Aplikatu Gabe _Itxi"
+
+#. FIXME: move this inside the dialog class, we show a different
+#. text for a quit dialog and a approve dialog
+#: ../AppInstall/AppInstall.py:1071
+msgid "Apply the following changes?"
+msgstr "Hurrengo aldaketak aplikatu?"
+
+#: ../AppInstall/AppInstall.py:1072
+msgid ""
+"Please take a final look through the list of applications that will be "
+"installed or removed."
+msgstr ""
+"Mesedez, gainbegiratu ezazu instalatu edo kenduko diren aplikazioen zerrenda."
+
+#: ../AppInstall/AppInstall.py:1281
+msgid "There is no matching application available."
+msgstr "Ez dago bat datorren aplikaziorik eskuragarri."
+
+#. TRANSLATORS: %s represents a filter name
+#: ../AppInstall/AppInstall.py:1291
+#, python-format
+msgid "To broaden your search, choose \"%s\"."
+msgstr "Zure bilaketa zabaltzeko, hautatu ezazu \"%s\"."
+
+#. TRANSLATORS: %s represents a filter name
+#: ../AppInstall/AppInstall.py:1295
+#, python-format
+msgid "To broaden your search, choose \"%s\" or \"%s\"."
+msgstr "Zure bilaketa zabaltzeko, hautatu ezazu \"%s\" edo \"%s\"."
+
+#. TRANSLATORS: Show refers to the Show: combobox
+#: ../AppInstall/AppInstall.py:1301
+msgid "To broaden your search, choose a different \"Show\" item."
+msgstr "Zure bilaketa zabaltzeko, beste zerbait hautatu ezazu \"Erakutsi\"-n"
+
+#. TRANSLATORS: All refers to the All category in the left list
+#: ../AppInstall/AppInstall.py:1307
+msgid "To broaden your search, choose 'All' categories."
+msgstr "Zure bilaketa zabaltzeko, kategoria 'Guztiak' hautatu."
+
+#: ../AppInstall/BrowserView.py:96
+#, python-format
+msgid "Failed to open '%s'"
+msgstr "Ezin izan da '%s' ireki"
+
+#: ../AppInstall/CoreMenu.py:127
+msgid "Applications"
+msgstr "Aplikazioak"
+
+#: ../AppInstall/DialogComplete.py:128
+msgid "Software installation failed"
+msgstr "Huts egin du software-instalazioak"
+
+#: ../AppInstall/DialogComplete.py:129
+msgid ""
+"There has been a problem during the installation of the following pieces of "
+"software."
+msgstr "Arazoren bat egon da ondorengo softwarea instalatzean."
+
+#: ../AppInstall/DialogComplete.py:131 ../AppInstall/DialogComplete.py:146
+#: ../AppInstall/DialogComplete.py:162 ../AppInstall/DialogComplete.py:190
+msgid "Add/Remove More Software"
+msgstr "Software gehiago Gehitu/Kendu"
+
+#: ../AppInstall/DialogComplete.py:133
+msgid "Application installation failed"
+msgstr "Huts egin du aplikazio-instalazioak"
+
+#: ../AppInstall/DialogComplete.py:134
+msgid ""
+"There has been a problem during the installation of the following "
+"applications."
+msgstr "Arazoren bat egon da ondorengo aplikazioak instalatzean."
+
+#: ../AppInstall/DialogComplete.py:143
+msgid "Software could not be removed"
+msgstr "Ezin izan da softwarea kendu"
+
+#: ../AppInstall/DialogComplete.py:144
+msgid ""
+"There has been a problem during the removal of the following pieces of "
+"software."
+msgstr "Arazoren bat egon da ondorengo softwarea kentzean."
+
+#: ../AppInstall/DialogComplete.py:148
+msgid "Not all applications could be removed"
+msgstr "Ezin izan dira aplikazio guztiak kendu."
+
+#: ../AppInstall/DialogComplete.py:149
+msgid ""
+"There has been a problem during the removal of the following applications."
+msgstr "Arazoren bat egon da ondorengo aplikazioak kentzean."
+
+#: ../AppInstall/DialogComplete.py:159
+msgid "Installation and removal of software failed"
+msgstr "Huts egin da softwarea instalatzean eta kentzean"
+
+#: ../AppInstall/DialogComplete.py:160
+msgid ""
+"There has been a problem during the installation or removal of the following "
+"pieces of software."
+msgstr "Arazoren bat egon da ondorengo softwarea instalatzean edo kentzean."
+
+#: ../AppInstall/DialogComplete.py:164
+msgid "Installation and removal of applications failed"
+msgstr "Huts egin da aplikazioak instalatzean eta kentzean"
+
+#: ../AppInstall/DialogComplete.py:165
+msgid ""
+"There has been a problem during the installation or removal of the following "
+"applications."
+msgstr "Arazoren bat egon da ondorengo aplikazioak instalatzean edo kentzean."
+
+#: ../AppInstall/DialogComplete.py:173
+msgid "New application has been installed"
+msgstr "Aplikazio berria instalatu da"
+
+#: ../AppInstall/DialogComplete.py:174
+msgid "New applications have been installed"
+msgstr "Aplikazio berriak instalatu dira"
+
+#: ../AppInstall/DialogComplete.py:179
+msgid ""
+"To start a newly installed application, choose it from the applications menu."
+msgstr ""
+"Instalatutako aplikazioak abiarazteko, aplikazioen menuan hautatu ezazu."
+
+#: ../AppInstall/DialogComplete.py:182
+msgid "To start a newly installed application double click on it."
+msgstr "Instalatutako aplikazioak abiarazteko, klik bikoitza egiozu gainean."
+
+#: ../AppInstall/DialogComplete.py:186
+msgid "Software has been installed successfully"
+msgstr "Ongi instalatu da softwarea"
+
+#: ../AppInstall/DialogComplete.py:187
+msgid "Do you want to install or remove further software?"
+msgstr "Software gehiago instalatu edo kendu nahi al duzu?"
+
+#: ../AppInstall/DialogComplete.py:192
+msgid "Applications have been removed successfully"
+msgstr "Ongi keedu dira aplikazioak"
+
+#: ../AppInstall/DialogComplete.py:193
+msgid "Do you want to install or remove further applications?"
+msgstr "Aplikazio gehiago instalatu edo kendu nahi al dituzu?"
+
+#: ../AppInstall/DialogMultipleApps.py:33
+#, python-format
+msgid "Remove %s and bundled applications?"
+msgstr "%s eta berarekin batera datozen aplikazioak kendu?"
+
+#: ../AppInstall/DialogMultipleApps.py:34
+#, python-format
+msgid ""
+"%s is part of a software collection. If you remove %s, you will remove all "
+"bundled applications as well."
+msgstr ""
+"Software sorta baten parte da %s. %s kentzen baduzu, sorta horretako "
+"aplikazio guztiak ere kenduko dira."
+
+#: ../AppInstall/DialogMultipleApps.py:37
+msgid "_Remove All"
+msgstr "Guztiak _Kendu"
+
+#: ../AppInstall/DialogMultipleApps.py:39
+#, python-format
+msgid "Install %s and bundled applications?"
+msgstr "%s eta berarekin batera datozen aplikazioak instalatu?"
+
+#: ../AppInstall/DialogMultipleApps.py:40
+#, python-format
+msgid ""
+"%s is part of a software collection. If you install %s, you will install all "
+"bundled applications as well."
+msgstr ""
+"Software sorta baten parte da %s. %s instalatzen baduzu, sorta horretako "
+"aplikazio guztiak ere instalatuko dira."
+
+#: ../AppInstall/DialogMultipleApps.py:43
+msgid "_Install All"
+msgstr "Guztiak _Instalatu"
+
+#: ../AppInstall/DialogProprietary.py:25
+#, python-format
+msgid "%s is provided by a third party vendor."
+msgstr "'Third Party' saltzaile batek eskaintzen du %s."
+
+#: ../AppInstall/DialogProprietary.py:40
+msgid ""
+"The application comes with the following license terms and conditions. Click "
+"on the 'Enable' button to accept them:"
+msgstr ""
+"Ondorengo lizentzia-balditzak ditu aplikazioak. Onartzeko, 'Onartu' botoia "
+"sakatu ezazu:"
+
+#: ../AppInstall/DialogProprietary.py:46
+msgid "Accept the license terms and install the software"
+msgstr "Lizentzia onartu eta softwarea instalatu"
+
+#: ../AppInstall/Menu.py:100
+msgid "Loading cache..."
+msgstr "Cache-a kargatzen..."
+
+#: ../AppInstall/Menu.py:109
+msgid "Collecting application data..."
+msgstr "Aplikazioen datuak biltzen..."
+
+#: ../AppInstall/Menu.py:311
+msgid "Loading applications..."
+msgstr "Aplikazioak kargatzen..."
+
+#: ../AppInstall/Menu.py:315 ../AppInstall/Menu.py:318
+msgid "All"
+msgstr "Guztiak"
+
+#: ../AppInstall/Menu.py:327
+#, python-format
+msgid "Loading %s..."
+msgstr "%s kargatzen..."
+
+#: ../AppInstall/distros/Debian.py:15 ../AppInstall/distros/Default.py:13
+#: ../AppInstall/distros/Ubuntu.py:15
+msgid "All available applications"
+msgstr "Aplikazio eskuragarri guztiak"
+
+#: ../AppInstall/distros/Debian.py:16
+msgid ""
+"Show all applications including ones which are possibly restricted by law or "
+"copyright"
+msgstr "Aplikazio guztiak erakutsi, copyright edo legeek mugatutakoak barne"
+
+#: ../AppInstall/distros/Debian.py:18 ../AppInstall/distros/Ubuntu.py:20
+msgid "All Open Source applications"
+msgstr "Iturburu Irekiko aplikazio guztiak"
+
+#: ../AppInstall/distros/Debian.py:19
+msgid ""
+"Show all Debian applications which can be freely used, modified and "
+"distributed. This includes a large variety of community maintained "
+"applications"
+msgstr ""
+"Askeki erabli, aldatu eta elkarbanatu daitezkeen Debian aplikazioak "
+"erakutsi. Komunitateak mantendutako aplikazio asko ere hartzen ditu barne "
+"honek"
+
+#: ../AppInstall/distros/Debian.py:25 ../AppInstall/distros/Ubuntu.py:31
+msgid "Third party applications"
+msgstr "'Third party' aplikazioak"
+
+#: ../AppInstall/distros/Debian.py:26
+msgid ""
+"Show only applications that are provided by independent software vendors and "
+"are not part of Debian"
+msgstr ""
+"Debianen parte ez diren software-saltzaileek eskainitako aplikazioak "
+"bakarrik erakutsi"
+
+#. Fallback
+#: ../AppInstall/distros/Debian.py:37
+#, python-format
+msgid "Enable the installation of software from the %s component of Debian?"
+msgstr "Debianen %s osagaieko softwarea instalatzea onartu?"
+
+#. %s is the name of the component
+#: ../AppInstall/distros/Debian.py:40 ../AppInstall/distros/Default.py:27
+#: ../AppInstall/distros/Ubuntu.py:46
+#, python-format
+msgid "%s is not officially supported with security updates."
+msgstr "'%s'-(e)k ez du segurtasun-sostengu ofizialik."
+
+#: ../AppInstall/distros/Debian.py:42
+msgid "Enable the installaion of officially supported Debian software?"
+msgstr "Ofizialki sostengatutako Debian softwarea instalatzea onartu?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Debian.py:45
+#, python-format
+msgid ""
+"%s is part of the Debian main distribution. Debian provides support and "
+"security updates, which will be enabled too."
+msgstr ""
+"Debianen distribuzio nagusiaren parte da %s. Debianek sostengua eta "
+"segurtasun-eguneratzeak eskaintzen ditu, eta gaitu egingo dira."
+
+#: ../AppInstall/distros/Debian.py:48
+msgid "Enable the installation of partial free software?"
+msgstr "Software partzialki askea instalatzea onartu?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Debian.py:50
+#, python-format
+msgid ""
+"%s is not part of the Debian main distribution and requires non-free "
+"software to work. Debian provides support and security updates, which will "
+"be enabled too."
+msgstr ""
+"%s ez da Debianen distribuzio nagusiaren parte, eta software ez askea behar "
+"du funtzionatzeko. Debianek sostengua eta segurtasun-eguneratzeak eskaintzen "
+"ditu, eta gaitu egingo dira."
+
+#: ../AppInstall/distros/Debian.py:54
+msgid "Enable the installation of non-free software?"
+msgstr "Software ez askea instalatzea onartu?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Debian.py:56 ../AppInstall/distros/Ubuntu.py:63
+#: ../AppInstall/distros/Ubuntu.py:114
+#, python-format
+msgid ""
+"The use, modification and distribution of %s is restricted by copyright or "
+"by legal terms in some countries."
+msgstr ""
+"'%s'-ren erabilera, aldatzea eta elkarbanatzea copyright edo legeek mugatuta "
+"dago, herrialde batzutan."
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:65
+#, python-format
+msgid "%s integrates well into the KDE desktop"
+msgstr "%s ongi egokitzen zaio KDE mahaigainari"
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:70
+#, python-format
+msgid "%s integrates well into the GNOME desktop"
+msgstr "%s ongi egokitzen zaio GNOME mahaigainari"
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:75
+#, python-format
+msgid "%s integrates well into the Gnustep desktop"
+msgstr "%s ongi egokitzen zaio Gnustep mahaigainari"
+
+#. %s is the name of an application
+#: ../AppInstall/distros/Debian.py:80
+#, python-format
+msgid "%s integrates well into the XFCE desktop"
+msgstr "%s ongi egokitzen zaio XFCE mahaigainari"
+
+#: ../AppInstall/distros/Debian.py:103
+#, python-format
+msgid "Debian provides support and security updates for %s"
+msgstr ""
+"'%s'-rentzako sostengu eta segurtasun-eguneratzeak eskaintzen ditu Debianek."
+
+#: ../AppInstall/distros/Debian.py:108
+#, python-format
+msgid ""
+"%s requires non-free software to work.Debian provides support and security "
+"updates."
+msgstr ""
+"'%s'-k software ez askea behar du funtzinatzeko. Debianek sostengua eta "
+"segurtasun-eguneratzeak eskaintzen ditu."
+
+#: ../AppInstall/distros/Debian.py:114
+#, python-format
+msgid ""
+"The use, modification and distribution of %s is restricted by copyright or "
+"by legal terms in some countries. Debian provides support and security "
+"updates."
+msgstr ""
+"'%s'-ren erabilera, aldatzea eta elkarbanatzea copyright edo legeek mugatuta "
+"dago herrialde batzutan. Debianek sostengua eta segurtasun-eguneratzeak "
+"eskaintzen ditu."
+
+#: ../AppInstall/distros/Default.py:14
+msgid ""
+"Show all applications including ones which are unsupported and possibly "
+"restricted by law or copyright"
+msgstr ""
+"Aplikazio guztiak erakutsi, sostengurik ez dutenak eta copyright edo legeek "
+"mugatutakoak barne."
+
+#. Fallback
+#: ../AppInstall/distros/Default.py:25 ../AppInstall/distros/Ubuntu.py:43
+#, python-format
+msgid "Enable the installation of software from the %s component of Ubuntu?"
+msgstr "Ubunturen %s osagaieko softwarea instalatzea onartu?"
+
+#: ../AppInstall/distros/Ubuntu.py:16
+msgid ""
+"Show all applications including ones which are possibly restricted by law or "
+"copyright, unsupported by Canonical Ltd. or not part of Ubuntu"
+msgstr ""
+"Aplikazio guztiak erakutsi, baita legeak edo copyright-ak ezarritako mugak "
+"dituztenak, Canonical Ltd.-k sostengatzen ez dituenak edo Ubunturen parte ez "
+"direnak ere."
+
+#: ../AppInstall/distros/Ubuntu.py:21
+msgid ""
+"Show all Ubuntu applications which can be freely used, modified and "
+"distributed. This includes a large variety of community maintained "
+"applications"
+msgstr ""
+"Modu askean erabiliak, aldatuak eta elkarbanatuak izan daitezkeen Ubuntu "
+"aplikazio guztiak erakutsi. Komunitateak mantendutako aplikazio pila hartzen "
+"ditu barne honek."
+
+#: ../AppInstall/distros/Ubuntu.py:27
+msgid "Supported applications"
+msgstr "Sostengatutako apikazioak"
+
+#: ../AppInstall/distros/Ubuntu.py:28
+msgid ""
+"Show only applications which come with full technical and security support "
+"by Canonical Ltd."
+msgstr ""
+"Canonical Ltd.-ren sostengu tekniko eta segurtasun-sostengua duten "
+"aplikazioak bakarrik erakutsi."
+
+#: ../AppInstall/distros/Ubuntu.py:32
+msgid ""
+"Show only applications that are provided by independent software vendors and "
+"are not part of Ubuntu"
+msgstr ""
+"Ubunturen parte ez diren software-saltzaile independenteek eskainitako "
+"aplikazioak bakarrik erakutsi."
+
+#: ../AppInstall/distros/Ubuntu.py:48
+msgid "Enable the installaion of officially supported Ubuntu software?"
+msgstr "Sostengu ofiziala duen Ubunturen softwarea instalatzea onartu?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Ubuntu.py:51
+#, python-format
+msgid ""
+"%s is part of the Ubuntu main distribution. Canonical Ltd. provides support "
+"and security updates, which will be enabled too."
+msgstr ""
+"Ubunturen distribuzio nagusiaren parte da %s. Canonical Ltd.-k sostengua eta "
+"segurtasun-eguneratzeak eskaintzen ditu, eta gaitu egingo dira."
+
+#: ../AppInstall/distros/Ubuntu.py:54
+msgid "Enable the installation of community maintained software?"
+msgstr "Komunitateak mantendutako softwarea instalatzea onartu?"
+
+#. %s is the name of the application
+#: ../AppInstall/distros/Ubuntu.py:57
+#, python-format
+msgid ""
+"%s is maintained by the Ubuntu community. The Ubuntu community provides "
+"support and security updates, which will be enabled too."
+msgstr ""
+"Ubunturen komunitateak mantentzen du %s. Ubunturen komunitateak sostengua "
+"eta segurtasun-eguneratzeak eskaintzen ditu, eta gaitu egingo dira."
+
+#: ../AppInstall/distros/Ubuntu.py:60
+msgid "Enable the installation of unsupported and restricted software?"
+msgstr "Sostengurik gabeko softwarea eta software mugatua instalatzea onartu?"
+
+#: ../AppInstall/distros/Ubuntu.py:96
+#, python-format
+msgid "Canonical Ltd. provides technical support and security updates for %s"
+msgstr ""
+"Canonical Ltd.-k ez du sostengu tekniko edo segurtasun-sostengurik "
+"eskaintzen '%s'-(r)entzat"
+
+#: ../AppInstall/distros/Ubuntu.py:109
+msgid "This application is provided by the Ubuntu community."
+msgstr "Ubunturen komunitateak eskaintzen du aplikazio hau."
+
+#: ../AppInstall/widgets/AppDescView.py:16
+msgid "Description"
+msgstr "Deskribapena"
+
+#: ../AppInstall/widgets/AppDescView.py:75
+#, python-format
+msgid "%s cannot be installed"
+msgstr "%s ezin da instalatua izan"
+
+#. warn that this app is not available on this plattform
+#: ../AppInstall/widgets/AppDescView.py:84
+#, python-format
+msgid ""
+"%s cannot be installed on your computer type (%s). Either the application "
+"requires special hardware features or the vendor decided to not support your "
+"computer type."
+msgstr ""
+"%s ezin da instalatu zure ordenagailu-motan (%s). Aplikazioak hardware-"
+"ezaugarri bereziak behar ditu, edo saltzaileak zure ordenagailu-mota ez "
+"sostengatzea erabaki du."
+
+#: ../AppInstall/widgets/AppDescView.py:96
+msgid "This application is bundled with the following applications: "
+msgstr "Aplikazio hau beste hauekin batera dator: "
+
+#: ../AppInstall/widgets/AppDescView.py:196
+#, python-format
+msgid "Version: %s (%s)"
+msgstr "Bertsioa: %s (%s)"
+
+#: ../AppInstall/widgets/AppListView.py:55
+msgid "Popularity"
+msgstr "Ospea"
+
+#. Application column (icon, name, description)
+#: ../AppInstall/widgets/AppListView.py:78
+msgid "Application"
+msgstr "Aplikazioa"
+
+#~ msgid "%s integrates well into the Kubuntu desktop"
+#~ msgstr "%s ongi egokitzen zaio Kubuntu mahaigainari"
+
+#~ msgid "%s integrates well into the Ubuntu desktop"
+#~ msgstr "%s ongi egokitzen zaio Ubuntu mahaigainari"
+
+#~ msgid "%s integrates well into the Xubuntu desktop"
+#~ msgstr "%s ongi egokitzen zaio Xubuntu mahaigainari"

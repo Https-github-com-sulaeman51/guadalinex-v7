@@ -1,0 +1,3900 @@
+2009-03-31 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[647] fix missing app name for unknown maintaince status
+	      (LP: #320517) - thanks to Istv?n Nyitrai
+
+2009-03-23 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[646] fix another sort order problem
+	[645] * AppInstall/AppInstall.py:
+	        - fix crash in menu sort order code (right click
+	          on "All")
+
+2009-03-19 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[644] fix bug in X-AppInstall-AlwaysOnTop sorting (thanks
+	      to LaserJock for reporting)
+
+2009-03-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[643] [merge] support X-AppInstall-AlwaysOnTop key in the desktop
+	              files to show these in the top of a category the item
+	              is in (only in default sort order)
+	              LP: #321005
+
+2009-02-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[641.1.2] make all sorting faster again
+	[641.1.1] first cut for "X-AppInstall-AlwaysOnTop" feature
+
+2009-03-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[642] merge dokos upload
+
+2009-02-19 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[641] releasing version 0.5.20-0ubuntu1
+	[640] releasing version 0.6.0-0ubuntu1
+	[639] fix extra space (LP: #155105), thanks to Istv?n Nyitrai
+	[638] * AppInstall/update.py:
+	       - do not crash when run as non-root (LP: #325909), thanks
+	         to Istv?n Nyitrai
+
+2009-01-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[637] * AppInstall/distros/Ubuntu.py:
+	        - make the support period string i18n friendlier,
+	          thanks to Istv?n Nyitrai and Gabor Kelemen (LP: #300272)
+
+2008-11-13 Michael Vogt <egon@tas> 
+
+	[636] util/analyzePopconData.py:
+	      - add recursive dependsOn() (needs a seen set because the data we
+	        iterate over has cycles)
+	[635] util/analyzePopconData.py:
+	      - output the top 50 apps that are not part of a default meta package
+	[634]  AppInstall/Cache.py: check for recommends in pkgDependsOn
+
+2008-11-07 Michael Vogt <egon@tas> 
+
+	[633] * AppInstall/AppInstall.py:
+	        - fixes in the channel adding code
+
+2008-10-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[632] * AppInstall/update.py:
+	        - ensure correct permission for the g-a-i caches (LP: #217040)
+	[631] fix crash when adding components without component
+	      dependencies (LP: #194148)
+	[630] * AppInstall/activation.py:
+	        - remove stderr output that may cause IOError in Rhythmbox,
+	          the exit code is sufficient (LP: #193817)
+	[629] fix focus problem in special activation modes (like
+	      codec search) (LP: #191245)
+	[628] * AppInstall/AppInstall.py:
+	        - do not crash on _confirm_source_activation() if no
+	          secondary message is given (LP: #280402)
+	[627] rename gnome-codec-install to gstreamer-codec-install
+	      and make it a alternative (LP: #280633) to match the
+	      changes in the recent gstreamer sync (LP: #281606),
+	      (thanks to Sebastian Heinlein)
+
+2008-09-25 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[626] upload as 0.5.11-0ubuntu1
+	[625] * AppInstall/activation.py:
+	        - remove the isApproved() check in the XUL extensions
+	          code so that the extensions show up again (LP: #267382)
+
+2008-09-23 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[624] add new gst-add.py script that can scan desktop files and add X
+	      -AppInstall-Codec information
+	[623] util/gst-add.py: add tool that reads the gst values from the Packages
+	      file and converts them into the format that g-a-i expects
+
+2008-09-22 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[622] fix the gray to make it easier to read (LP: #263982)
+
+2008-09-18 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[621] fix typo n README
+
+2008-09-17 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[620] remove the tooltips (as requested in the
+	      PackageMaintainednessPresentation spec) (LP: #263689)
+	[619]   - do not crash if ver.FileList is None (LP: #267300)
+	      * AppInstall/distros/Ubuntu.py:
+	        - fix the support display so that it corresponds with the spec
+	          (LP: #263693)
+	      * fix the way the supported time is calcualted, ensure to
+	        only look for imutable source
+	[618] * AppInstall/Util.py:
+	        - do not crash on broken Release files (LP: #269970)
+	[617] fix the way the supported time is calcualted, ensure to
+	      only look for imutable source
+
+2008-09-10 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[616] * AppInstall/widgets/AppDescView.py:
+	        - fix regression in the mainatainance status view
+
+2008-09-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[615] uploaded as 0.5.9 (for real)
+	[614] only show the header if there is one
+	[613] upload as 0.5.9-0ubuntu1
+	[612] make the button a normal button instead of a gtk.LinkButton (mpt
+	      likes that better)
+	[611] modify the UI based on the design of Matthew Paul Thomas
+	      https://wiki.ubuntu.com/CodecInstallationIntrepid
+
+2008-08-27 Matt Zimmerman <mdz@canonical.com> 
+
+	[610] Update codec page URL to a more permanent one
+
+2008-08-21 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[609] call it "Canonical Codec Store"
+	[608] * AppInstall/activation.py, AppInstall/distros/Default.py:
+	        - support a generic way to add a link button during codec
+	          install into the UI for additional actions
+	      * AppInstall/distros/Ubuntu.py:
+	        - link to the codec page in the canonical shop
+
+2008-08-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[607] support restricted as well
+	[606] * AppInstall/distros/Ubuntu.py:
+	        - calculate the maintenance status based on the date in the
+	          Release file of the application
+	      * AppInstall/Util.py:
+	        - add the required helpers for the support date calculation
+	      * test/test_maintenance.py:
+	        - add tests
+	[605] * AppInstall/widgets/AppDescView.py:
+	        - show maintaince status in the description textview
+	          (PackageMaintainednessPresentation spec)
+	[604] * AppInstall/distros/Ubuntu.py:
+	        - update key dependencies for kde4
+	[603] * AppInstall/distros/Ubuntu.py:
+	        - rename "support applications" to "Canonical-maintained
+	      applications"
+	          (PackageMaintainednessPresentation spec)
+
+2008-08-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[602] * AppInstall/widgets/AppDescView.py:
+	        - improve description for items that are in a not
+	          yet enabled third party repository
+
+2008-06-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[601] * AppInstall/DialogComplete.py:
+	        - fix missing extra codecs in failure message (thanks to Hobbsee)
+
+2008-06-10 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[600] upload as 0.5.5-0ubuntu1
+	[599]   - do not crash if gconf is not available (LP: #214816)
+	[598]   - do not use the same shortcut for "Confirm" and "Cancel"
+	          (LP: #210949)
+	[597] * AppInstall/AppInstall.py:
+	        - fix typo (LP: #155691)
+	        - do not crash if yelp is not installed (LP: #205899)
+	[596] upload as 0.5.4-0ubuntu1
+	[595] * do not show "do you want to install more software" dialog
+	        after a successful codec install (LP: #238685)
+
+2008-04-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[594] * AppInstall/widgets/AppListView.py:
+	        - workaround the fact that gdk_icon_theme_load_icon()
+	          sometimes ignore the size request and give huge
+	          icons instead (#209072)
+
+2008-04-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[593] * fix crash on pygtk.require("2.0") (LP: #211683)
+	[592] * AppInstall/update.py:
+	        - do not crash if xdg.DesktopEntry can not be importet
+	          (LP: #194111)
+
+2008-03-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[591] uploaded as 0.5.2.5
+
+2008-02-21 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[590] * AppInstall/AppInstall.py:
+	        - work around gettext issue in the legal warning
+	          (thanks to Timo Jyrinki)
+
+2008-02-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[589] * rebuild against latest python-central
+	      * fix description parser to make it display wormux correctly
+	        (LP: #193094)
+
+2008-02-18 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[588] * AppInstall/widgets/AppDescView.py:
+	        - fix crash homepage field usage (LP: #192068)
+
+2008-02-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[587] * AppInstall/widgets/AppDescView.py:
+	        - show the homepage field (if available)
+	      * debian/control:
+	        - depend on the latest python-apt (for the homepage field)
+	          LP: #189490
+
+2008-02-07 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[586] * AppInstall/activation.py:
+	        - fix crash when running with --xul-extensions=firefox
+	          (thanks to Alexander Sack for reporting this issue)
+
+2008-02-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[585] release as 0.5.2
+	[584] [merge]   - Use Vcs-Bzr instead of XS-Vcs-Bzr, fix url
+
+2008-02-05 Julian Andres Klode <jak@jak-linux.org> 
+
+	[583.1.4] * man/gnome-app-install.1: another fix
+	[583.1.3] * debian/control: Use Vcs-Bzr instead of XS-Vcs-Bzr, fix url
+	[583.1.2] * Add Julian Andres Klode to AUTHORS
+	[583.1.1] * man: update manpages
+
+2008-02-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[583] * add support for https URLs in the app view
+	[582] * add special handling for the canonical partner repositor
+	        in the app view (own text + icon)
+	[581] * be more robust if the description is empty for some
+	        reason
+
+2008-02-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[580] Changelog: add @AUTOMATIC@ and use deb_gnulog.py
+	[579] * fix gettext init (LP: #106756)
+
+2008-01-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[578] merged rosetta translation export
+	[577] * README: fix some outdated information (closes: #437415)
+	[576] debian/rules:
+	      - use dh_icons everywhere
+	[575] python setup.py build_i18n
+	[574] [merge] merged from julianK
+
+2008-01-04 Julian Andres Klode <jak@jak-linux.org> 
+
+	[573.1.5] * AppInstall/CoreMenu.py, AppInstall/update.py:
+	            - Use more efficient format to store cache (pickle protocol 2)
+	[573.1.4] * setup.py:
+	            - Install gnome-app-install-helper into /usr/sbin/
+	[573.1.3] * data/gnome-app-install.glade:
+	            - Remove the Preferences Button
+	[573.1.2] * debian/control:
+	            - Update to Policy 3.7.3
+	            - Remove dependency on software-properties-gtk
+	[573.1.1] * man/: Add manpages for all commands
+
+2008-01-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[573] [merge] * remove some dead code
+	              * support emblemes without description and remove
+	                unclear descriptions
+	              * move search entry so that its more clear that it searches
+	                only in the current category
+
+2007-11-08 Sebastian Heinlein <sebi@glatzor.de> 
+
+	[567.1.6] * remove some never used attributes from the application class
+	[567.1.5] * Read the categroy list from all available .menu files
+
+2007-11-02 Sebastian Heinlein <sebi@glatzor.de> 
+
+	[567.1.4] * change the data-dir command line option to --data-di
+	[567.1.3] * support emblems with an empty description
+	          * remove the description of the gnome, ubuntu and xubuntu emblem
+	          * remove the gnustep emblem completely
+	[567.1.2] * Replace set_default_sort_func(None) with
+	          reset_default_sort_func()
+	[567.1.1] * Hide the preferences button
+	          * Move the search button and the freedom selector to the right
+	          only
+
+2008-01-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[572] * AppInstall/AppInstall.py:
+	        - wording fixes (thanks to Matthew Paul Thomas)
+
+2007-12-21 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[571] * AppInstall/Menu.py:
+	        - really fix crash in codec search code when gst.caps_from_string()
+	          is called (LP: #173118). Thanks to Julian Klode and Albert23
+
+2007-12-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[570] * AppInstall/Menu.py:
+	        - fix crash in codec search code when gst.caps_from_string()
+	          is called (LP: #173118)
+
+2007-11-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[569] util/screenshotMaker.py:
+	      - run gnome-settings-daemon to get a proper theme
+	      util/getMenuData.py:
+	      - print deprecation warning
+
+2007-11-22 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[568] util/screenshotMaker.py:
+	      - commit automatic screenshot maker
+
+2007-10-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[567] * upload as 0.4.13-0ubuntu1 , LP was unhappy with the previous upload
+	[566] * remove app-install-data-commercial dependency (LP: #149018)
+
+2007-10-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[565] * Revert:
+	        "Remove item.applications.set_default_sort_func(None)
+	         and use reset_default_sort_func() instead"
+	        This breaks sorting the search results
+
+2007-09-24 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[564] * AppInstall/AppInstall.py:
+	        - be more robust about pkg missing in the data files
+	          (LP: #122352)
+
+2007-09-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[563] debian/changelog:
+	      - uploading as 0.4.10-0ubuntu1
+	[562]   - use system python (LP: #137985, #138903)
+	[561] * debian/postinst:
+	        - do not fail if update-app-install fails (LP: #138903)
+	[560] * data/gnome-app-install.schemas.in:
+	        - fix typo (thanks to Alexandre Franke)
+	[559] * update-app-install:
+	        - use system python (LP: #137985)
+
+2007-09-06 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[558] * debian/control:
+	        - sexy-python is now called python-sexy
+	[557] * debian/rules:
+	        - use DH_PYCENTRAL=nomove as we need g-a-i code in
+	          app-install-data-{ubuntu,commercial} postinst
+
+2007-09-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[556] * fix detection of missing index files and popup a dialog
+	        that offers reloading the sources (LP: #3475)
+	      * debian/control:
+	        - depend on latest python-apt (for pkgSourceList.List support)
+
+2007-08-27 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[555] * uploading as 0.4.7-0ubuntu1
+	[554] * AppInstall/distros/Default.py:
+	        - add missing get_codename() (LP: #128457)
+	[553] [merge] * Make the apply changes button translatable - fixes LP
+	              #133570
+
+2007-08-20 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.132] * update debian changelog
+	[350.2.131] [merge] * merge with Ubuntu
+	[350.2.130] * make the apply changes button translatable
+
+2007-08-27 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[552] * typo fix (LP: #134794), thanks to Malcom Parsons
+
+2007-08-14 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[551] [merge] * merged from sebi
+
+2007-08-14 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.129] * remove the build dep on python-nose
+	[350.2.128] * use the add/remove more software button in all software
+	            situations
+
+2007-08-13 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.127] * Include a valid debian changelog
+	[350.2.126] [merge] * push local changes
+	[350.20.1] * Improve wording, case handling and testing in DialogComplete
+	[350.2.125] [merge] * merge with mvo
+	[350.2.124] * lower required python-distutils-extra version
+
+2007-08-14 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[550] [merge] * Completely remove
+	              item.applications.set_default_sort_func(None)
+	                and use reset_default_sort_func() instead
+
+2007-08-10 Julian Andres Klode <jak@jak-linux.org> 
+
+	[547.1.1] * Completely remove item.applications.set_default_sort_func(None)
+	            and use reset_default_sort_func() instead
+
+2007-08-14 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[549] * util/blacklist.cfg, util/blacklist_desktop.cfg:
+	        - blacklist updated
+
+2007-08-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[548] [merge] * tests/:
+	                - added more tests and better test data
+	              * AppInstall/update.py, update-app-install:
+	                - refactored into module
+	              * AppInstall/DialogComplete.py:
+	                - wording improvements
+	              * AppInstall/AppInstall.py:
+	                - improve failure detection
+	                - add option to run in test-mode
+	              * AppInstall/activation.py:
+	                - set column caption depending on activation style
+	              * debian/control:
+	                - build-depend on python-setuptools
+	              * setup.py, setup.cfg:
+	                - build with python-setuptools
+
+2007-08-13 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.123] [merge] * push local improvements to the testing
+	                    infrastructure, setuptools
+	                      migration and scripts code refractoring
+	[350.19.7] * Add missing __init__.py to make test a module
+	[350.19.6] * Add some test data for the cache test
+	           * Rename tests folder to test to get it detected by nosetest
+	           * Add a test suite for the cache updater and the default
+	           application
+	           * Improve mime and codec test
+	[350.19.5] * Add build dep on python-nose, python-setuptools and the latest
+	             python-distutils-extra
+	[350.19.4] * Add a test_mode option
+	           * Do not check if the cache is up-to-date in test_mode
+	           * Do not run dbus in test_mode
+	[350.19.3] * Move the code from the scripts to a module to improve startup
+	           time,
+	             since we can use the precompiled byte-code .pyc files.
+	           Furthermore
+	             it makes writing tests easier.
+
+2007-08-12 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.19.2] * Switch to setuptools for the build system. And python-nose for
+	           the
+	             unittests. The new python-distutils-extra provide a nice
+	           integration
+	             into the setuptools that does not require any cmdclass hacks
+	           anymore.
+	             Furthermore we get a test command for setup.py
+	[350.19.1] * Use the gobject main loop for dbus explicity - needed for the
+	           tests
+
+2007-08-08 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.122] [merge] * merge with mvo
+	[350.2.121] [merge] * push local changes
+	[350.18.2] * Replace another set_default_sort_func(None) call by
+	           reset_default_sort_func()
+	[350.18.1] [merge] * merge with mvo
+
+2007-08-07 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.120] * fix stderr messages for the prerun test of the mime type
+	            installer
+	[350.2.119] * Use extension/codec in the header of the object column for
+	            the corresponding
+	              activation styles
+	[350.2.118] * fix another obsolete special char
+
+2007-08-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[547] uploaded as 0.4.6
+	[546] * AppInstall/AppInstall.py:
+	        - when building the filters, insert them sorted-by-key
+	      * AppInstall/Menu.py:
+	        - make the filter constants match the gconf schema file
+	          (LP: #129669)
+
+2007-08-08 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[545] * AppInstall/activation.py:
+	        - brown paperbag bug
+	      * AppInstall/AppInstall.py:
+	        - cosmetic
+	      * tests/testCodecSearch.py:
+	        - add example to show more useful tests
+	[544] * tests/testCodecSearch.py,
+	        tests/testMimeSearch.py:
+	        - added test for mime and codec install feature
+	      * AppInstall/Menu.py:
+	        - fix some if tests that will be false for both "None" and "0"
+	          to only fail on None
+	        - cosmetic changes
+	      * AppInstall/activation.py:
+	        - use property for isInstallerOnly instead of function
+	        - split CodecSearchActivation.preRun() into interactive and
+	          non-interactive code to make it actually testable
+	      * gnome-app-install:
+	        - fix --selftest
+
+2007-08-07 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[543] debian/changelog:
+	      - set to unreleased, fix version number
+	[542] [merge] * Merge with Debian, remaining changes:
+	                - No debian/patches
+	                - Other list of deps and build-deps
+	                - No watch file
+	              * AppInstall/CoreMenu.py:
+	                - Display icons with filename ending in png,svg or xpm
+	              * AppInstall/AppInstall.py:
+	                - Remove item.applications.set_default_sort_func(None)
+	                  and use reset_default_sort_func() instead
+
+2007-08-07 Julian Andres Klode <jak@jak-linux.org> 
+
+	[540.1.6] [merge] * Merge with sebi
+
+2007-08-02 Julian Andres Klode <jak@jak-linux.org> 
+
+	[540.1.5] * Merge with Debian, remaining changes:
+	            - No debian/patches
+	            - Other list of deps and build-deps
+	            - No watch file
+	          * AppInstall/AppInstall.py:
+	            - Remove item.applications.set_default_sort_func(None)
+	          * AppInstall/CoreMenu.py:
+	            - Display icons with filename ending in png,svg or xpm
+	          * Merge the changelog entries from Ubuntu:
+	            - 0.4.5-0ubuntu1
+	            - 0.4.4ubuntu1
+	          * New/updated patches:
+	            - 01_fixicons.patch: Add patch to fix icons ending in
+	          png,svg,xpm
+	          * Removed patches:
+	            - 02_software-properties.patch
+	            - 04_documentation.patch
+	                                      Heinlein for the diff)
+	[540.1.4] [merge] * merge with sebi
+
+2007-08-01 Julian Andres Klode <jak@jak-linux.org> 
+
+	[540.1.3] * gnome-app-install-profile: removed
+	[540.1.2] * sync with debian
+	[540.1.1] * display icons ending in png,svg,xpm
+
+2007-08-07 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[541] [merge] * Fix no mime type handler error message (Fixes LP #129485)
+	              * HIGification and rewording of the above dialog
+	              * Show the file name in the window title for the mime type
+	              installer
+	              * Only show the broaden your search tip if there is a filter
+	              choser
+	                (fixes LP #130022)
+	              * Store the filter names and tooltips in a less technical
+	              dictonary in the
+	                distribution class
+	              * Make the no results message more context sensitive
+	              * Default to the search button on the initial codec search
+	              dialog
+	              * Restore the state of the main window from the last time
+	              (fixes LP #48436)
+	              * Improve cache update error messages (fixes LP #119198)
+
+2007-08-07 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.117] [merge] * push local changes
+	[350.17.2] * Update the language files
+	[350.17.1] * Fix a missing space
+
+2007-08-05 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.116] * Improve cache update error messages
+
+2007-08-04 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.115] * Add the encoding to the POTFILES.in
+	[350.2.114] * Move the menu._refilter() calls to a separate refilter()
+	            method that
+	              also handles the visual feedback for empty results
+	[350.2.113] * Restore the state of the main window from the last time
+	[350.2.112] * sort codes and mime type handlers by popularity on start up
+	[350.2.111] * disable the application list if there are no search results
+	[350.2.110] * Use a smaller main window for the mime type handler and codec
+	            installer
+
+2007-08-03 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.109] * If not transient use the summary as title for the activation
+	            ask_confirmation
+	              dialog
+	[350.2.108] * Default to the search button on the initial codec search
+	            dialog
+	            * Update Debian changelog
+	[350.2.107] * Minor fix for previous commit
+	[350.2.106] * Remove the SHOW_ALL_AVAILABLE filter - this is now done by
+	            the installer mode
+	[350.2.105] * remove another copy and paste error
+	[350.2.104] * Remove an obsolete copy and paste special character
+	[350.2.103] * Update Debian changelog
+	[350.2.102] [merge] * push today's train ride changes
+	[350.16.5] * In the no results message refer to the filters from the distro
+	           instance
+	             instead of hardcoded ones
+	           * Add some comments for translators
+	           * Only show the all category tip if there is actually a category
+	           choser
+	[350.16.4] * set default of filter_secondary to an empty dict and not None
+	           * add some comments
+	[350.16.3] * Store the filter names and tooltips in a less technical
+	           dictonary in the
+	             distribution class. This allows an easier reference to the
+	           filters
+	           * Update the Default, Debian and Ubuntu class accordingly
+	           * Update the Debian changelog
+	[350.16.2] * update debian changelog
+	[350.16.1] * only show the tip to broaden the search by choosing a
+	           different filter if
+	             there is actually a filter choser
+	[350.2.101] * update debian changelog
+	[350.2.100] * Include the file name in the window title for the mime type
+	            handler installer
+	              if available
+	[350.2.99] * Improve no mime type handler error message:
+	            - no active form for computers
+	            - only show the file's name and not the full path
+	            - make use of primary and secondary message
+	            - print the error message to stderr
+	            - use the close and not the ok button
+	            - make the dialog completely translatable
+	            - use a less technical window name
+	[350.2.98] * Really fix the error msg
+	[350.2.97] * fix mime type error message #129485
+
+2007-08-01 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.96] [merge] * merge with mvo
+	[350.2.95] * replace the profile script by a command line switch
+
+2007-07-31 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[540] * finalize changelog
+	[539] [merge] * Window id has to be stored as an integer - fix LP #129416
+	              * Switch to CDBS
+	              * check whether to use software-properties-gtk or software-
+	              properties
+	              * help/C/figures/*: Updated
+	              * help/{de,sv}: disabled
+	              * po/POTFILES.in: add AppInstall/activation.py
+	              * Remove installation part in the docs and the Ubuntu ML
+
+2007-07-31 Julian Andres Klode <jak@jak-linux.org> 
+
+	[537.1.5] * update po
+	[537.1.4] * help/C/figures/*: Updated
+	          * help/{de,sv}: removed
+	          * po/POTFILES.in: add AppInstall/activation.py
+	[537.1.3] * po/POTFILES.in add AppInstall/activation.py
+	[537.1.2] [merge] * debian changes
+	[537.1.1] [merge] * merge with debian
+
+2007-07-31 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[538] [merge] * Window id has to be stored as an integer - fix LP #129416
+
+2007-07-31 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.94] * update changelog
+	[350.2.93] [merge] * merge with mvo
+	[350.2.92] * window id for transient for has to be an integer
+	[350.2.91] * move from native bzr buildpackage to split to make the life of
+	           the debian
+	             maintainers easier
+
+2007-07-31 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[537] * debian/changelog: finalize changelog
+	[536] [merge] * Add an installer only mode for the mime type handler and
+	              codec
+	                installation
+	              * Do not show the confirmation dialog anymore in the
+	              installer only mode
+	              * Allow to search and choose different filters in the
+	              installer mode
+	                (only used by the mime type installer)
+	              * Rename the add/remove button to apply changes
+	              * Improve command line handling
+	              * Some code refractioning
+	              * Add a XUL extension manager mode
+
+2007-07-31 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.90] * minor change in the changelog: replace firefox by xul
+	[350.2.89] * Simplify the call of AppInstall
+	[350.2.88] * Rename the Firefox activaion stlye to
+	           XULExtenstionsActivationStyle
+	           * Rename the --firefox-extensions command line switch to --xul-
+	           extensions
+	             that gets the xul application as value
+	           * use the mime type: application/x-debian-xul-extension-APP
+	           * Talk about extensions in the user interface
+	[350.2.87] * remove another not required import
+	[350.2.86] * remove some no longer needed imports from gnome-app-install
+
+2007-07-30 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.85] [merge] * push local changes
+	[350.15.1] * Add a firefox extension manager mode
+	[350.2.84] * set the apply changes/install button insensitive after
+	           updating the cache
+	[350.2.83] [merge] * merge with mvo
+	[350.2.82] * Update debian changelog
+	[350.2.81] * Only suggest to double click on an application in the complete
+	           dialog if
+	             there are actually any applications that can be launched (e.g.
+	           !codecs)
+	[350.2.80] * Do not show the confirmation dialog when in installer only
+	           mode
+	[350.2.79] * Do not show the "installed applications" filter in installer
+	           only mode
+	[350.2.78] * Add isInstallerOnly() to the ActivationStyle. If true only not
+	           installed
+	             applications will be shown.
+	           * Set isInstallerOnly to True for the codec and mime type search
+	           style
+	[350.2.77] * Improve import time for activation by removing the import of
+	           menu.SHOW_ALL
+	             and replacing the reference to it by the integer value
+	[350.2.76] * move the mime/codec search to a lower level of the search
+	           method. this way
+	             we can present the user a subset of the applications in which
+	           he or she
+	             can still perform searches
+	           * show the search bar for mime type searches
+	           * skip the description from the codec search string
+	[350.2.75] * Allow to enforce a filter for the menu and use the SHOW_ALL
+	           for the codecs
+	             installer
+	[350.2.74] * Actually call the new modifyUserInterface method from
+	           AppInstall
+	           * Move more code to the new nethod
+	           * Imrpove the mime type progress bar and show a human readable
+	           name for
+	             the given mime type
+
+2007-07-29 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.73] [merge] * push local changes
+	[350.14.4] * Add an options handler to gnome-app-install
+	           * Move the activation styles to a separate module
+	           * Introduce new methods to the activation styles:
+	           modifyUserInterface and preRun
+
+2007-07-24 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.14.3] * Add a SHOW_ALL_AVAILABLE filter that shows all available and
+	           not installed
+	             applications
+	           * Use the new SHOW_ALL_AVAILABLE fitler in gnome-codec-install
+	[350.14.2] * MPT and me agreed that we need to replace the Add/Remove
+	           button label. We
+	             came up with "Apply Changes"
+	[350.14.1] [merge] * Merge with mvo
+
+2007-07-30 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[535] * util/blacklist.cfg, util/rename.cfg:
+	        - blacklist totem-xine to avoid confusing the extrator
+
+2007-07-25 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[534] * fix POTFILES.in (LP: #125046)
+	[533] * fix double del of a ActionGroup (LP: #126117)
+	      * AppInstall/Menu.py, AppInstall/CoreMenu.py:
+	        - code cleanup
+	[532] * do not display a application start icon for desktop
+	        files without execCmd
+	[531] [merge] * merged from sebi
+
+2007-07-03 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.72] * do not crash if an emblem has got not any icon #122914
+	           * append the emblem tooltip text to the end of the description.
+	           this way
+	             we get some text for not available packges (e.g. third party)
+
+2007-07-25 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[530] [merge]   - Use the new Debian icons
+	              * debian/control:
+	                - Cleanup build-depends
+	              * data/icons/16x16/apps/application-debian-*.png:
+	                - Add icons for Debian
+
+2007-07-17 Julian Andres Klode <jak@jak-linux.org> 
+
+	[529.1.2]   - Use the new Debian icons
+	          * data/icons/16x16/apps/application-debian-*.png:
+	            - Add icons for Debian
+	[529.1.1] * debian/control:
+	            - Cleanup build-depends
+
+2007-07-12 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[529] [merge] * AppInstall/AppInstall.py:
+	                - If close button of the window manager was pressed and
+	              there are no
+	                  pending changes, quit.
+	                - If there are pending changes, ask what to do
+	              * AppInstall/distros/Debian.py:
+	                - Merge changes from Ubuntu.py
+	                - Improve the descriptions
+
+2007-07-12 Julian Andres Klode <jak@jak-linux.org> 
+
+	[528.1.4] * debian/changelog: updated
+	[528.1.3] * Complete jak@jak-linux.org-20070712124707-ekmetlsda2fv3guo: On
+	          closing the window, quit the program
+	[528.1.2] * AppInstall/distros/Debian.py:
+	            - Merge changes from Ubuntu.py
+	            - Improve the descriptions
+	[528.1.1] * On closing the window, quit the program
+
+2007-07-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[528] [merge] * Switch to python-distutils-extra
+
+2007-06-28 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.71] * switch to the latest python-distutils-extra
+
+2007-06-27 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.70] * use python-distutils-extra
+	[350.2.69] * Exclude local files from translation that are not part of the
+	           repository
+	[350.2.68] * updated translation template
+	[350.2.67] * fix: a lot of data and code files have not used for the
+	           translation
+	           * remove Makefile - it is obsolete since we use now python-
+	           distutils-extra
+
+2007-06-26 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.2.66] [merge] * merge with michael
+	[350.2.65] * Use the background color of the description textview for the
+	           emblems
+	             in all states (fixes LP #121887)
+	[350.2.64] * add support for bzr-builddep (just run bzr bd to create a
+	           package)
+	[350.2.63] * remove the install file (makes the life of the Debian
+	           maintainer easier)
+	[350.2.62] [merge] * push local changes
+
+2007-06-07 Sebastian Heinlein <renate@renate-laptop> 
+
+	[350.13.2] * fix some typos
+	[350.13.1] * Do not reset the default sort function in a running query with
+	             changed search terms. This also keeps the the sorting chosen
+	           by the
+	             user after starting the search that was extended
+
+2007-05-22 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.61] [merge] * merge with mvo
+
+2007-05-21 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.60] * Revert the revert and do not store icon themes in the cache
+	[350.2.59] [merge] * Merge with mvo
+
+2007-07-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[527] * util/blacklist.cfg, util/blacklist_desktop.cfg:
+	        - updated for current gutsy
+	      * AppInstall/Cache.py:
+	        - do not crash on broken cache
+	      * debian/changelog:
+	        - finalize changelog
+
+2007-06-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[526] [merge] merged from  bzr://jak.kicks-ass.org/gai-patches/
+
+2007-06-28 Julian Andres Klode <jak@jak-linux.org> 
+
+	[525.1.1] * Remove non-existing files
+
+2007-06-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[525] merged from http://jak.kicks-ass.org/gai-patches/ (many thanks!)
+
+2007-06-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[524] * added README.extraction (LP##107097)
+	[523] * util/addPopconData.py:
+	        - write the popcon data line right after the package= line
+	      * tests/test_get_files.py:
+	        - test correct behaviour of the popcon adding
+	[522] * tests/:
+	        - added tests dir for the desktop file extraction
+	      * tests/test_get_files.py:
+	        - basic test for processDeb(), this needs to be improved into a
+	          propper unittest/doctest thing
+	      * util/getMenuData.py:
+	        - fix extraction for desktop files with multiple desktop sections
+	[521] * link to a example desktop file with codec information
+	[520] * added README.codecs
+	[519] * Fix in the gstreamer caps support
+
+2007-05-21 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[518] * data/gnome-app-install.schemas.in:
+	        - fix in the description of the schemas
+	      * AppInstall/Menu.py:
+	        - default to supported applications
+	[517] AppInstall/Menu.py:
+	      - remove unneeded reading of the descriptions on startup (that is
+	      done
+	        nicely in AppListView now, thanks Sebi!)
+	[516] * util/getMenuData.py:
+	        - use os.path.splitext() to figure out what extension we have (if
+	      any)
+	[515] * util/getMenuData.py:
+	        - fix newIconName test
+	[514] [merge] * merged from sebi (HUGE THANKS):
+	                [Sebastian Heinlein]
+	                * Improved start up time
+	                * Replace the supported Ubuntu applications filter by a
+	                  supported by Canonical one
+	                * Switched from Apply|Cancel|OK to Cancel|Install/Remove
+	              buttons
+	                * Added a clear icon and different background colouring to
+	              the search
+	                  entry
+	                * Allow to specify a human readable name of an independent
+	                  software provider (X-AppInstall-ISV)
+	                * Allow derivates to specify custom messages, components
+	              and filters
+	                * Rewording of the additional components enabling dialogs
+	                  "Install" -> "Enable installation of"
+	                * Allow to retry a failed installation/removal
+	                * Handle errors in the enabling of components in a more
+	              sane way
+	                * Rewording of the confirm restricted software dialog by
+	                  introducing the action confirm
+	                * First check for the legal status and than add repository
+	                * Add a helper script to workarround the missing exit
+	              states sent
+	                  through gksu (only for the component activation)
+	                * Avoid flickering of the codec installer at startup
+	                * Only write fd.o valid icon attributes to the menu data
+	                * Use the KDE/GNOME icons instead of the Kubuntu/Ubuntu
+	              icons for
+	                  the desktop integration emblems
+	                * Improve shown emblems (handle support status and
+	              freedomness separately)
+	              [Michael Vogt]
+	                * ensure proper i18n in cache menu item loader
+	                * no longer depend on the exact app-install-data version
+	                * fix setup.py to include the new widgets
+	                * fix in the codec extraction (for caps intersection)
+	                * default to show supported software (not main)
+	                * partly disable debian backend for now (not quite ready)
+	                * fix in enable channel code
+
+2007-05-21 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.58] * Update changelog
+	[350.2.57] * Use the KDE and GNOME icon instead of the Ubuntu/Kubuntu icons
+	           for
+	             the desktop integration emblems - the distro icons transport
+	           to much
+	[350.2.56] * Use multiple emblems to also make more complex situations
+	             visually clear:
+	             - show the supported by Canonical emblem at first
+	             - do not make support/freedom emblems exclusive
+	             - do handle Canonical as an ISV
+	[350.2.55] * Replace the supported Ubuntu apps filter by a more wider
+	           supported by
+	             Canonical one.
+	[350.2.54] [merge] * push local changes
+	[350.12.2] * show all installed apps and not only exectuable once in the
+	           complete
+	             dialog
+	[350.12.1] [merge] * Merge the distro branch
+
+2007-05-19 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.11.4] * Use the get_app_emblems method of the Distribution instance in
+	             AppDescView
+	           * Minor bug fixes
+	[350.11.3] * Merge the DialogComponentEnable into
+	             AppInstall._confirm_source_activation
+	           * Store the confirmed components in a list and not separate
+	           booleans
+	           * Add the list to the gconf schemas
+	           * Allow to specify component dependencies in the distro class
+	           and
+	             make use of this information when enabling components
+
+2007-05-18 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.11.2] * add an infrastructure to provide distribution specific methods
+	           and
+	             information
+
+2007-05-17 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.53] [merge] * push todays s-bahn work
+	[350.11.1] * Rename the class and module DialogNewlyInstalled to
+	           DialogComplete
+	           * Remove the obsolete DialogNewlyInstalled from the glade file
+	           * Try to locate failed installations and removals and display
+	           them
+	             in the complete dialog
+	           * Add the posibillity to retry a failed installation/removal
+
+2007-05-14 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.52] [merge] * push local changes
+	[350.10.4] * Show windows_complete after installing to allow the user
+	           starting
+	             newly installed apps, see a status report of the installation
+	           and
+	             returning to the main window
+	           * Use the ancient closeZvt option in the synaptic call to avoid
+	           the
+	             merged success dialog of synpatic
+	           * Fix the sample code in DialogNewlyInstalled
+	           * Use the rules hint in AppListView by default
+	[350.10.3] * Do not use headers for the to be removed applications view
+	           (c&p error)
+	[350.10.2] * Make use of the AppListView widget in DialogMultipleApps and
+	             DialogPendingChanges
+	           * Add different styles to the AppListView that define the list
+	           of used
+	             columns
+	           * AppListView dies not require a menu cache in description only
+	           mode
+	           * Change icon of the DialogMultipleApps to a question icon
+	[350.10.1] * more changelog entries
+
+2007-05-13 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.51] * Only use fd.o valid icon entries in the menu data
+	[350.2.50] * add more to do
+	[350.2.49] * Remove obsolete self.last_toogle. Replaced by a saner enabling
+	           of
+	             components
+	           * Fix some tabs/spaces
+	[350.2.48] * updated changelog
+	[350.2.47] [merge] * Push local changes
+	[350.9.4] * Do not set the default window icon when initializing the cache
+	[350.9.3] * Use the global installed gnome-app-install-helper script
+	[350.9.2] * Add a helper script to handle enabling components in a more
+	          sane way
+	          * Reword restricted software dialog
+	          * Show confirmation dialogs before enabling channels
+	          * Check if enabling of the components failed
+	          * Fix a wrong call of the search function (API changed)
+	          * Update Debian changelog
+	[350.9.1] * Rename the DialogUnavailable to DialogComponentEnable
+	          * Add a X-AppInstall-ISV attribute to the desktop files
+	          * Make use of the ISV name in the DialogComponentEnable and
+	            DialogProprietary dialog
+	          * Rewording: The proprietary/enabling dialogs do not install
+	          software,
+	                       but allow to enable a software repository
+	                       "Install" -> "Enable installation of"
+	          * Mention security updates in the description of the
+	            DialogComponentEnable
+
+2007-05-11 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.46] [merge] * merge with mvo (readding the util)
+	                   * fix the mime search with the new SearchEntry widget,
+	                   trigger the
+	                     search (done in the background) and hide the
+	                   categories sidebar before
+	                     the main is shown
+	                   * add the search term as string argument to the signal
+	                   of the
+	                     SearchEntry
+	[350.2.45] [merge] * push local changes
+	[350.8.3] * use the application name insteade of the pkgname for the
+	          caching
+
+2007-05-10 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.8.2] * repair the stars rating
+	[350.8.1] * no need to raise the rank index
+	[350.2.44] * remove another import of the obsolete common module
+	[350.2.43] * Remove obsolete import of common
+	[350.2.42] [merge] * push local changes
+	[350.7.3] * Cache the renderer pixmaps for the rating and the description
+	          of the
+	            apps
+	[350.7.2] * add a new dialog for the newly installed apps
+	[350.7.1] * do not require a categories treeview for the ApplicationsMenu
+	          * fix the NullActivationStyle so that it can actually be used to
+	          init
+	            a Menu
+
+2007-05-08 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.41] * move the rendering function into the AppListView class
+
+2007-05-08 Sebastian Heinlein <sebi@sebi-laptop.daheim> 
+
+	[350.2.40] * Replace the OK button by a Install/Remove button - ok was very
+	             generic
+	           * Completely remove the apply button, we cannot provide a sane
+	           cancel
+	             button, since this would require to revert all changes so that
+	           the
+	             system would be again in the same state as the at the startup
+	           time.
+	             Furthermore we are fast enough now. So that restarting the app
+	             doesn't take so long.
+	           * Reuse the icon theme from the main app for the search entry
+	[350.2.39] * move all custom widgets to a separate module
+	           * move the description and app list view to its own class
+	[350.2.38] * do not use an empty progress state
+	[350.2.37] * always set the progress to the half before loading the cache
+	[350.2.36] * Fix the application icon in the description (was disabled
+	           through the profiling)
+	[350.2.35] * add some fallbacks for missing icons
+	[350.2.34] * use fixed size for the application list treeview
+	[350.2.33] * speedup start up time by only searching for icons in the
+	           current theme and our icon dir, only looking up the name and
+	             description of app name, comment and translation if the app is
+	           shown in the list
+
+2007-05-07 Sebastian Heinlein <sebi@sebi-laptop.daheim> 
+
+	[350.2.32] * add a profiler
+
+2007-05-04 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.31] * Add standard header with license to SearchEntry
+	           * Minor documentation additions
+	[350.2.30] * Some fixes fot the signal handling of SearchEntry
+	[350.2.29] [merge] * push local changes
+
+2007-05-03 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.6.1] * Move the IconEntry enhancements to its own class and module
+
+2007-05-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[513] * util/outputMenuData.py:
+	       - initial implementation for extraction script that can
+	         write websites
+
+2007-05-03 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[512] [merge] * merged from glatzor, split out the menu-data stuff
+
+2007-05-02 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.28] * Use a yellowish background for the search entry if a search is
+	             active - fix #99144
+	[350.2.27] [merge] * push local changes
+	[350.5.3] * use a custom clear button for the sexy search entry, since we
+	          want
+	            to avoid the time out if the icon was clicked
+	[350.5.2] * Replace tabs by spaces
+	          * Fix the false use of "as" as a name of a variable
+	          * Replace yes/no by cancel/search in the search suitable codecs
+	          dialog
+	[350.5.1] * make use of IconEntry from python-sexy to render a nicer search
+	          entry
+
+2007-05-01 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.26] [merge] * merge with ubuntu
+
+2007-04-15 Sebastian Heinlein <sebi@sebi-laptop> 
+
+	[350.2.25] * make the search for codec dialog translatable - fix LP#106765
+
+2007-03-03 Sebastian Heinlein <sebi@sebi-desktop> 
+
+	[350.2.24] * revert removal of the .install file
+	           * touch the cache and config dir in debian/dir
+	[350.2.23] * touch /etc/gnome-app-install
+	           * remove g-a-i.install
+	[350.2.22] * increase the version number
+	[350.2.21] * only depend on app-install-data, that is provided by the
+	           distro specific
+	             app-install-data packages
+	[350.2.20] * remote application data from repository, it is now part of its
+	           own
+	             source code repository
+	[350.2.19] [merge] * merge with mvo
+
+2007-03-02 Sebastian Heinlein <sebi@sebi-desktop> 
+
+	[350.2.18] [merge] * mege with mvo
+
+2006-11-12 Sebastian Heinlein <sebi@sebi-pc> 
+
+	[350.2.17] [merge] * merge with mvo
+
+2007-05-03 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[511] [merge] * merged the gstreams caps intersection branch (LP#90737)
+
+2007-03-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[502.1.1] * prototyped gst-caps support
+
+2007-05-03 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[510] * updated for gutsy
+	[509] * po/POTFILES.in:
+	        - add missing gnome-app-install main (LP#106756)
+
+2007-04-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[508] * gnome-app-install:
+	        - fix crash when window parent is none (LP#106026)
+
+2007-04-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[507] * menu-data:
+	        - updated to current feisty
+	[506] * AppInstall/Progress.py:
+	        - only set transient if we have a window
+	      * util/getMenuData.py:
+	        - consider usr/share/icons a valid icon dir as well
+
+2007-04-03 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[505]   - do not crash if no dbus.service.BusName() fails (LP#92073)
+	[504] * data/gnome-app-install-xfce.desktop:
+	        - added so that g-a-i shows up in Applications/System in XFCE
+	      * data/gnome-app-install.desktop:
+	        - remove "System" from Categories (LP#98580)
+
+2007-03-29 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[503] * AppInstall/AppInstall.py:
+	        - fix xmlescape() (LP#91875)
+
+2007-03-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[502] * AppInstall/AppInstall.py:
+	        - proper error checking for conflicting installs (LP#86684)
+	[501] * AppInstall/Cache.py:
+	        - if depcache.Init() fails, just try again
+	[500] * menu-data:
+	        - updated to current feisty
+	[499] * gnome-app-install:
+	        - improve the pre codec search dialog
+	[498] * gnome-app-install:
+	        - when runing in codec-instal mode, ask first if the user
+	          wants to search for codecs (#94372)
+	        - warn about unsupported codecs but show them all (LP#87748)
+
+2007-03-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[497]   - added System category (LP#93803)
+	      * menu-data/wesnoth.desktop, util/rename.cfg:
+	        - install "wesnoth-all" when selecting wesnoth (LP#96301)
+
+2007-03-21 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[496] * data/gnome-app-install.desktop.in:
+	        - added Settings category (LP#93803)
+	      * AppInstall/CoreMenu.py:
+	        - do not use a regexp list for the mime-type, a string list
+	          works fine
+
+2007-03-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[495] * menu-data/*.desktop:
+	        - updated to latest feisty
+
+2007-03-07 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[494]   - protect against odd arguments in tooltip_on_filter (LP#87727)
+	[493]     1 and display a error dialog (LP#88154)
+	        - change the gnome-codec-search return codes to match:
+	          http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-
+	      plugins-base-libs/html/gst-plugins-base-libs-
+	      gstbaseutilsinstallplugins.html
+	[492] * gnome-app-install:
+	        - do not crash for invalid codec arguemnts but return error code
+	          10 and write a message to stderr
+	[491]   - fix updating pkg states when the cache is updated (LP#88246)
+	[490] * AppInstall/PackageWorker.py:
+	        - remove uneeded debug output and unneeded apt option
+	[489] * AppInstall/PackageWorker.py:
+	        - deal better deal with addon CDs
+	[488] * AppInstall/DialogNewlyInstalled.py:
+	        - do not show "Click to launch" label if runing as root
+	          (we do not support it there)
+	[487]   - added for better multimedia support (LP#89999)
+	      * packages-whitelist:
+	        - added gstreamer010-plugins-bad-multiverse
+
+2007-03-06 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[486] * AppInstall/AppInstall.py:
+	        - do not crash if no /etc/apt/sources.list if available
+	          (LP#90078)
+	[485] * menu-data-additional:
+	        - updated to latest stuff from the archive
+	[484] * menu-data-additional/gstreamer-bad-multiverse.desktop:
+	        - added
+	      * menu-data-additional/gstreamer-bad.desktop:
+	        - description updated
+
+2007-02-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[483] * menu-data/popcon updated to current feisty
+	[482] * do not show users menu dirs (LP#87733)
+	[481]   gst can call that (LP#87748)
+	      * ensure that the default view is only supported ubuntu applications
+
+2007-02-23 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[480] * gnome-app-install:
+	        - fix in the gnome-codec-install code
+	[479] * debian/control:
+	        - description updated
+	        - suggest totem (as we provide a nice service for it via codec-
+	      install)
+	[478] * install a additional gnome-codec-install so that the new
+	        gst can call that
+	      * debian/control:
+	        - only support python >= 2.4 (LP#78030)
+
+2007-02-21 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[477] * data/gnome-app-install.desktop.in:
+	        - added OnlyShowIn=GNOME;XFCE; (LP#78977)
+	[476] * AppInstall/AppInstall.py:
+	        - only run _ensureInArchive() for installs (LP#86593)
+
+2007-02-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[475] * finalize changelog
+	[474] * menu-data/ia32-sun-java6-java.desktop:
+	        - fix arch-specific information
+	      * util/getMenuData.py:
+	        - make sure to write arch-specific information to all desktopfiles
+	          from a single package (LP#81371)
+	[473]   - fix reference to "advanced mode" (LP#70283)
+	[472] * AppInstall/Cache.py:
+	        - move the assert for a clean cache into clean()
+	        - print broken/removed packages after clean()
+	[471] * menu-data-additional/*.py:
+	        - added popcon data
+	      * AppInstall/Menu.py:
+	        - fix init for popcon_max (LP#86530)
+	[470] * data/gnome-app-install.glade:
+	        - disable interactive search in categories (LP#86472)
+	[469] * AppInstall/AppInstall.py:
+	        - make the search timeout bigger (LP#82509)
+	      * data/gnome-app-install.schemas.in:
+	        - add "search-timeout" gconf key
+	[468] * bzr ate my homework^Wchangelog *grrrr*
+	      * generate cached menus for mime-search and codec-search activation
+	      mode
+	      * add feature to use differnet cached menus depending on activation
+	      style* bzr ate my homework^Wchangelog *grrrr*
+	      * generate cached menus for mime-search and codec-search activation
+	      mode
+	      * add feature to use differnet cached menus depending on activation
+	      style* bzr ate my homework^Wchangelog *grrrr*
+	      * generate cached menus for mime-search and codec-search activation
+	      mode
+	      * add feature to use differnet cached menus depending on activation
+	      style* bzr ate my homework^Wchangelog *grrrr*
+	      * generate cached menus for mime-search and codec-search activation
+	      mode
+	      * add feature to use differnet cached menus depending on activation
+	      style
+	[467] * AppInstall/CoreMenu.py:
+	        - removed "available" and "isInstalled" from MenuItem
+	      * AppInstall/Menu.py:
+	        - added itemIsInstalled() and itemAvailable(). Both functions
+	          need a cache to check the state
+	      * AppInstall/AppInstall.py:
+	        - use self.menu.itemIsInstalled(item) instead of item.isInstalled
+	          and self.menu.itemAvailable(item) instead of item.available
+	      * gnome-app-install:
+	        - added --test-me-harder to find memory leaks
+
+2007-02-19 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[466] * AppInstall/Cache.py:
+	        - raise a exception if the BrokenCount is != 0
+	      * AppInstall/AppInstall.py:
+	        - make the exception-on-create-cache text better
+
+2007-02-14 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[465] * added swedish manual and ensure that it is automatically build
+	[464] * AppInstall/AppInstall.py:
+	        - fix typo (#85037)
+
+2007-02-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[463] * menu-data/totem.desktop, util/annotate.cfg:
+	        - replace totem-xine (not gstreamer-xine)
+	[462] * menu-data/:
+	        - updated to the latest feisty
+	      * util/blacklist.cfg:
+	        - added xscreensaver-data
+	      * debian/rules:
+	        - install the right changelog
+
+2007-02-06 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[461] * AppInstall/AppInstall.py:
+	        - fix crash in mime-search mode
+	[460] * removed old ChangeLog
+	      * added new empty Changelog
+	      * debian/rules:
+	        - automatically dump the bzr log into Changelog (for seb128)
+	[459] * AppInstall/PackageWorker.py:
+	        - check if we run as root or not before starting synaptic
+	[458] * gnome-app-install:
+	        - added --addon-cd=$mount
+	      * AppInstall/AppInstall.py:
+	        - if a addon-cd is detected, add it
+	      * AppInstall/Progress.py:
+	        - added CdromProgress adapter
+	      * AppInstall/Menu.py:
+	        - deal with empty cachedir
+	      * util/blacklist.cfg:
+	        - blacklist more xscreensaver
+	[457] * removed duplicated Arson desktop files
+	      * removed all xscreensaver screensaver desktop files
+	[456] * menu-data-additional/mozilla-acroread.desktop:
+	        - no longer in the archive
+	      * AppInstall/AppInstall.py:
+	        - use python-apt aptsources
+	      * debian/control:
+	        - depend on latest python-apt
+	      * menu-data/ardour-gtk.desktop:
+	        - fix desktop file
+	      * util/blacklist.cfg:
+	        - blacklist ardour-gtk-altivec, it break adour-gtk.desktop
+
+2007-02-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[455] * AppInstall/AppInstall.py:
+	        - call software-properties-gtk
+	      * debian/control:
+	        - depend on software-properties-gtk
+
+2007-02-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[454] * AppInstall/AppInstall.py:
+	        - default to self.window_main for progress_transient_for
+	      * update-app-install:
+	        - try to import AppInstall.CoreMenu and do not crash if that fails
+
+2007-02-01 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[453] * added X-AppInstall-PatentBadness flag
+
+2007-01-31 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[452] * updated the gstreamer codec data
+
+2007-01-30 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[451] * AppInstall/DialogUnavailable.py:
+	        - added need_internet arguemnt
+	      * AppInstall/AppInstall.py:
+	        - in ensureUnsupportedWarning() call the unavailableDialog
+	          with need_intenet=False
+	[450] * AppInstall/AppInstall.py:
+	        - warn on first-time universe/mutliverse installs
+	[449] * updated the copyright and author information
+	      * AppInstall/AppInstall.py:
+	        - when the user cacncels enabling a component, deal with it
+	[448] * AppInstall/AppInstall.py:
+	        - if transient_for_xid is set, make the progress transient for this
+	      one
+	      * AppInstall/Progress.py:
+	        - work with both "GtkWindow" and "GdkWindow" parents
+	[447] * AppInstall/AppInstall.py:
+	        - when the apt cache is compared to the sources.list, deal with
+	      I-M-S hits
+	        - when enabling components check for component + archive
+	      (distribution)
+	          to fix problems like "universe" enabled in a different
+	      distribution
+	          (edgy, edgy-proposed when on feisty)
+	        - on reload_sources() save/restore the state. needed for e.g.
+	      codec-install
+	          mode
+	      * data/gnome-app-install.schemas.in:
+	        - cache_dialog_time added, the timestamp of the last refresh cache
+	      run
+
+2007-01-29 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[446] * menu-data/kdevel*.desktop:
+	        - removed some redundant desktop files
+	      * AppInstall/AppInstall.py:
+	        - use a logarithmic scale for the popcon data
+	      * util/blacklist_desktop.cfg:
+	        - blacklist some kdevelop stuff
+	      * util/plotPopconData.py:
+	        - simple test application to test ranking the popcon data
+	[445] * menu-data/*
+	        - updated to the latest feisty
+	      * util/blacklist_desktop.cfg:
+	        - blacklist some redundant boson and hplip desktop files
+	[444] * util/addPopconData.py:
+	        - use by_vote now instead of by_inst
+	      * util/plotPopconData.py:
+	        - plot popcon data diagram
+	      * debian/changelog:
+	        - new version uploaded
+	[443] * AppInstall/AppInstall.py:
+	        - work with the latest python-dbus
+
+2007-01-25 Michael Vogt <egon@tas> 
+
+	[442] * AppInstall/AppInstall.py:
+	        - on KeyExectptions in the cache, do show a more useful error
+	      message
+	[441] * AppInstall/AppInstall.py
+	        - restore a search in restoreState() as well
+	        - be more careful with packages not in the cache
+	[440] enable some codecs
+
+2007-01-22 Michael Vogt <egon@tas> 
+
+	[439] * use /usr/bin/python instead of #!/usr/bin/env python
+	[438] added gstreamer-bad
+
+2007-01-17 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[437] * updated to the latest menu-data
+	[436] * util/getMenuData.py:
+	        - support data starting with ./ and without it
+	        - print packages with codecs but with no data in menu-data-
+	      additional
+	[435] * util/getMenuData.py:
+	        - fnmatch() matches from the start
+	[434] * util/addPopconData.py:
+	        - make propper replacement of the X-AppInstall-Popcon data possible
+	[433] [merge] * merged Ians codec-install branch
+
+2007-01-10 Ian Jackson <ian@anarres> 
+
+	[428.1.1] GnomeAppInstallCodecs initial implementation
+
+2007-01-12 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[432] * AppInstall/AppInstall.py:
+	        - added TODO for AlwaysEnableUnvierseMultiverse spec
+
+2007-01-08 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[431] * added openclipart and uploaded new version
+	[430] * AppInstall/CoreMenu.py:
+	        - use entry.DesktopFileID for duplicate detection
+	[429] * added 7zip
+
+2007-01-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[428] * menu-data-additional/ndisgtk.desktop:
+	        - removed, part of the regular system now
+	[427] * AppInstall/DialogNewlyInstalled.py:
+	        - check if item.menupath is definied and only then display it
+	      * AppInstall/CoreMenu.py:
+	        - do not add a menupath for "Settings" menu categories
+	      * menu-data/applications.menu:
+	        - map "Settings" to "Other"
+
+2007-01-03 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[426] * updated to latest policy/python-policy
+	[425] * debian/control:
+	        - make the python stuff Build-Dep (instead of Build-Dep-Indep)
+	[424] * AppInstall/Cache.py:
+	        - moved out of Util.py
+	        - added getDependantAutoDeps()
+	      * AppInstall/AppInstall.py:
+	        - pass pkgnames to PackageWorker instead of MenuItems
+	        - when removing packages, use the auto-installed information to
+	      remove
+	          garbage dependencies too
+
+2006-12-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[423] * added preferences button (CommonCustomizations)
+
+2006-12-15 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[422] * prepare release
+	[421] * util/annotate.cfg:
+	        - added generic annotations mechanism for new keys for dekstop
+	      files
+	      * util/getMenuData.py:
+	        - support desktop annotations
+	[420] * menu-data-additional/totem-xine.desktop:
+	        - added the xine totem backend
+	        - added X-AppInstall-Replaces: totem-gstreamer
+	      * AppInstall/CoreMenu.py:
+	        - support new "Replaces" keyword
+	      * AppInstall/AppInstall.py:
+	        - support Replaces keyword in the GUI
+	      * menu-data/totem.desktop:
+	        - added X-AppInstall-Replaces: totem-gstreamer
+	[419] * AppInstall/Menu.py:
+	        - make ubuntu-restricted-extras a pimped package
+	      * menu-data-additional/ubuntu-restricted-extras.desktop:
+	        - add some keywords
+	      * debian/changelog:
+	        - updated
+
+2006-12-12 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[418] * added ace and rar to the menu-data
+
+2006-12-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[417] * remove + blacklist cream, breaks the desktop file parser
+	[416] * menu-data updated
+	[415] * menu-data-additional/ubuntu-restricted-extras.desktop:
+	        - added desktop file for ubuntu-restricted-extras (part of
+	      CommonCustromization)
+
+2006-11-23 Michael Vogt <egon@tas> 
+
+	[414] * debian/changelog:
+	        - updated with the latest -propsed upload
+	      * util/apt/sources.list
+	        - switched to fesity
+
+2006-11-07 Michael Vogt <egon@tas> 
+
+	[413] added category to mozilla-acroread
+
+2006-10-27 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[412] [merge] * merged from mainline
+
+2006-10-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.44] * debian/rules:
+	             - run intltool-update -p on build
+
+2006-10-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.43] * debian/control:
+	             - added python-gconf, python-gtkhtml2
+	             - removed python-gnome2, python-gnome2-extras
+	           * menu-data/mail-notification.desktop,
+	           util/blacklist_desktop.cfg:
+	             - removed and blacklisted (buggy)
+
+2006-10-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.42] [merge] * merged from glatzor
+	                   * uploaded
+
+2006-10-09 Sebastian Heinlein <sebi@sebi-pc> 
+
+	[350.4.12] * Add a filter to only show installed apps
+	           * Replace some tabs by spaces
+
+2006-10-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.41] * menu-data updated to current edgy
+	[409.1.40] * util/blacklist.cfg:
+	             - another blacklist candidate
+	[409.1.39] * util/blacklist.cfg:
+	             - blacklist broffice.org (brasil openoffice.org)
+	[409.1.38] * debian/changelog: uploaded
+
+2006-10-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.37] * menu-data/*:
+	             - updated the desktop files
+
+2006-10-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.36] * data/gnome-app-install.glade:
+	             - fix ","
+
+2006-10-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.35] [merge] * merged from glatzor
+
+2006-09-30 Sebastian Heinlein <sebi@sebi-pc> 
+
+	[350.4.11] * make the CoreApplicationsMenu translatable
+
+2006-09-30 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.34] [merge] * merged from glatzor
+
+2006-09-29 Sebastian Heinlein <sebi@sebi-pc> 
+
+	[350.4.10] * remove duplicated MenuItem
+	           * make sure that we always get an icon for an entry
+	[350.4.9] * polish the rendering of desc without any icon
+	[350.4.8] * user a relative popcon value as base for the ranking
+	          * pimp some appZ
+	[350.4.7] * a comment
+	[350.4.6] * update-app-install does not depend on gtk anymore! done by
+	            implementing a CoreApplicationMenu that can only build a cache.
+	            The ApplicationMenu class is an heritance of
+	          CoreApplicationMenu
+	[350.4.5] * The Ubuntu applications filter should not include third party
+	            applications
+
+2006-09-29 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.33] [merge] * merged from glatzor
+
+2006-09-27 Sebastian Heinlein <sebi@sebi-pc> 
+
+	[350.4.4] * simplify the dialog progress text - blatant-awkward rules!
+
+2006-09-26 Sebastian Heinlein <sebi@sebi-pc> 
+
+	[350.4.3] * do not print to the terminal if the cache is used - instead
+	          show a
+	            message in the progress dialog
+	          * Improve wording. By the way I am a big fan of sesam street
+	[350.4.2] * be more verbose in the progress dialog
+	[350.4.1] [merge] * merge with mvo
+	[350.2.16] [merge] * merge with mov
+	[350.2.15] [merge] * merge with mvo
+
+2006-09-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.32] * data/gnome-app-install.glade:
+	             - fix server gammar failure
+
+2006-09-25 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.31] * added browser plugins for mplayer+acroread
+	[409.1.30] * added sun-java5 browser plugin
+	[409.1.29] * menu-data-additional/nact.desktop:
+	             - added nautlus action
+	[409.1.28] * menu-data-additional/ndisgtk.desktop:
+	             - added
+	[409.1.27] * menu-data-additional/mscorefonts.desktop:
+	             - description imporived
+	[409.1.26] * menu-data-additional/fglrx-driver.desktop,
+	             menu-data-additional/nvidia-driver-legacy.desktop,
+	             menu-data-additional/nvidia-driver.desktop:
+	             - added pseudo desktop files for the binary drivers
+	           * debian/changelog:
+	             - updated
+	[409.1.25] * menu-data/:
+	             - updated to current edgy
+	[409.1.24] [merge] * AppInstall/Menu.py:
+	                     - always refresh "available" on refresh() too
+	                   * AppInstall/Progress.py:
+	                     - fix wrong import
+	                   * data/icons/16x16/apps/application-proprietary.png:
+	                     - make the icon more neutral
+	                   * debian/changelog:
+	                     - new upload
+
+2006-09-25 Sebastian Heinlein <sebi@sebi-pc> 
+
+	[350.1.67] * check if a package is available and do not rely on the cached
+	             item.available property.
+	             This is only a workaround. We should set item.available
+	           correctly
+	             on our first iteration of the app list, to avoid duplicate
+	           calls.
+
+2006-09-19 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.23] * AppInstall/Progress.py:
+	             - hide future warnings from python-apt
+
+2006-09-18 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.22] * debian/changelog:
+	             - updated, finalized
+	[409.1.21] * blacklist gnome-applets and remove the existing ones from the
+	           menu-data
+	[409.1.20] * AppInstall/common.py:
+	             - use "applications-other" if no icon can be found
+	[409.1.19] * menu-data-additional/j2re1.4-mozilla-plugin.desktop:
+	             - added to make jave plugin install easy
+	[409.1.18] * menu-data/mail-notification.desktop:
+	             - fixed desktop entry
+	[409.1.17] * pre-depend on current python-gtk, unset DISPLAY in update-app-
+	           install
+
+2006-09-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.16] [merge] * merged sebastians changes
+
+2006-09-11 glatzor@ubuntu.com 
+
+	[350.1.66] * do not allow to select the text in the progress window, since
+	           we don't
+	             have got a default focus widget - that results in a selected
+	           label
+	           * change the wording of the progress dialog: WE STARTUP REALLY
+	           FAST NOW!
+	             also mention ISV
+	[350.1.65] * remove the confusing "advanced software manager" terminology
+	[350.1.64] * Do not group the filter "open source ubuntu apps" and
+	           "supported
+	             ubuntu apps", since they overlap
+	           * improve the wording of the supported by canonical emblem
+	           tooltip
+	[350.1.63] * extend the gnome/kde applications by gtk and qt based apps
+	[350.1.62] * make the multiple apps dialog install/remove sensitive. this
+	           helps to
+	             improve the wording - close #59477#
+	           * use ellipsise for the action label in the progress to avoid a
+	           resize
+	             of the dialog by long action
+
+2006-09-09 glatzor@ubuntu.com 
+
+	[350.1.61] [merge] * merge with mvo
+	[350.2.14] [merge] * merge with mvo
+
+2006-09-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.15] * changelog updated
+
+2006-09-08 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.14] * updated the desktop files to the latest edgy
+	           * updated popcon data
+	[409.1.13] * debian/rules:
+	             - move dh_iconcache down
+	[409.1.12] * debian/rules:
+	             - move dh_gconf down to get proper postinst
+	           * setup.py:
+	             - fix installation of schema file
+	           * po/*:
+	             - make update-po
+
+2006-09-07 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.11] * update-app-install:
+	             - when caching the mime-data, use the correct dir
+
+2006-09-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.10] * debian/gnome-app-install.postinst:
+	             - added #DEBHELPER# token
+	[409.1.9] [merge] * merged with glatzor
+
+2006-09-03 glatzor@ubuntu.com 
+
+	[350.1.60] * create the cache in the postinst
+	           * remove the cache files on purge (postrm)
+	           * make the setup.py less hackish
+	           * order the pathes in the install file by aplphabet
+	[350.1.59] * improve the multiple binary packages
+
+2006-09-02 glatzor@ubuntu.com 
+
+	[350.1.58] * create the cache in a postinst (this reduces the size of the
+	           package
+	             by 3.5 MBytes): /usr/sbin/update-app-install
+	           * replace all tabs in gnome-app-install by spaces
+	[350.1.57] [merge] * hug merge with mvo
+	[350.2.13] [merge] * merge with mvo
+
+2006-08-26 glatzor@ubuntu.com 
+
+	[350.2.12] [merge] * merge with mvo
+
+2006-09-02 glatzor@ubuntu.com 
+
+	[350.1.56] * reduce the options of the show filter
+
+2006-08-30 glatzor@ubuntu.com 
+
+	[350.1.55] * show a busy cursor during the search - missed this in my last
+	           commit
+	           * show only a busy cursor if the category was changed to "all" -
+	           the
+	             switching to other categories should be fast enough
+	           * fake a better responsitivity by doing the filtering after the
+	             category has been changed
+	[350.1.54] * restore the previous sorting if the category was changed
+	           * show the headers of app list during start up by using an empty
+	             fake applications list
+
+2006-08-29 glatzor@ubuntu.com 
+
+	[350.1.53] * python-gdbm is not only a build dep, but also a runtime
+	           dependency
+
+2006-08-19 glatzor@ubuntu.com 
+
+	[350.1.52] * Also show the tooltip of the current freedom/support filter on
+	             the combobox
+	[350.1.51] * minor semantic fixes: free and supported applications are
+	           subsets of
+	             all applications
+
+2006-08-18 glatzor@ubuntu.com 
+
+	[350.1.50] * Show the package name in the description - fixes #55478
+	[350.1.49] * Update the xfce detection dependencies
+	           * Do not show the freedom info in the desc twice: either icons
+	           or text
+	[350.1.48] * use applications-other instead of the deprecated gnome-other
+	[350.1.47] * Code clean up (treeviews, removing obsolete COL_TYPE)
+	           * Allow to sort by installation status
+	           * Add a hack to sort by rank by default if the category was
+	           changed
+	           * Remove column autoresize since the app name now gets cut off
+	           at the
+	             end of the line
+	           * Fix a bug in isChanged that prevented installing apps at all
+	           (missing
+	             value in the return handler)
+
+2006-09-01 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.8] * finalize changelog
+
+2006-08-29 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.7] * debian/control:
+	            - re-added python-gdbm (got lost in the merge :(
+	          * debian/changelog:
+	            - updated
+
+2006-08-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.6] * AppInstall/Menu.py:
+	            - update the installation status on "refresh()" too
+	          * debian/changelog:
+	            - prepare new release
+	[409.1.5] * AppInstall/AppInstall.py:
+	            - set the cursor to the "All" row initially
+	          * debian/changelog:
+	            - fix wrong changelog
+	          * debian/control:
+	            - added more missing build-depends for the cache branch
+	[409.1.4] * debian/control:
+	            - updated build-depends
+	          * AppInstall/Menu.py,Util.py:
+	            - moved the cache to Util.py
+	[409.1.3] * debian/control:
+	            - added python-gtk2 to the build-depends
+	[409.1.2] [merge] * merged with the ubuntu-core-dev branch (changes from
+	                  wiesbaden)
+
+2006-08-18 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409.1.1] * AppInstall/AppInstall.py:
+	            - fix
+
+2006-08-25 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[411] * merged selected bits from glatzor
+	      * build the pkg_to_app list in "refresh()" because we can't pickle
+	        it without ending up with two different data-structures for the
+	        "Application" objects in pkg_to_app and the ListStores
+	      * fix the popcon
+	      * fix the MultiplApps dialog
+
+2006-08-24 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[410] [merge] merged with the gai--laptop branch
+
+2006-08-23 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[261.2.18] * merged from Ians upload
+	           * don't show the main window initially when run with --mime-
+	           search
+	           * show a different string when doing the mime-search than when
+	           runing
+	             in the "normal" mode
+	[261.2.17] [merge] * merged with the cache branch
+
+2006-08-18 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[384.1.8] * improved the "prof.py" script, it can run now with:
+	            -a == applicaton
+	            -m == menu
+	            -d == display the results
+	[384.1.7] * AppInstall/prof.py:
+	            - added profiling code
+
+2006-08-17 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[384.1.6] * finished caching branch
+	          * integrated cache generation into the build system
+	[384.1.5] [merge] * merged with the mainline
+	                  * fixed conflicts
+	[384.1.4] * reverted the "single-view" idea again
+
+2006-07-31 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[384.1.3] * AppInstall/common.py:
+	            - added internal icon cache
+
+2006-07-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[384.1.2] * only use a single liststore and use the visible magic do the
+	          category filtering
+	[384.1.1] * added test-pickle caching for the desktop file reading
+
+2006-08-23 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[261.2.16] [merge] * merged with mainline
+
+2006-08-17 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[409] * renamed the profile code
+	[408] * AppInstall/Menu.py:
+	        - use popcon_max instead of popcon_percent (why was that change
+	      gone?)
+	[407] [merge] * merged from glatzor
+	              * finalized changelog and uploaded
+	              * added AppInstall/profile.py script
+
+2006-08-17 glatzor@ubuntu.com 
+
+	[350.1.46] * Re-rename rating column to popularity
+	           * Add a fine grained sortinging mechanism:
+	             - if we are in search mode add a default sorting by ranking
+	             - if we return from searching mode use the application name
+	           for the
+	               sorting
+	[350.1.45] * re-remove the rank column again
+	[350.1.44] * add a rank column to the applications liststore
+	[350.1.43] * make the pop percent calculation more efficient
+	[350.1.42] [merge] * revert my po file updates
+	[350.2.11] [merge] * improve the application treeview
+
+2006-08-16 glatzor@ubuntu.com 
+
+	[350.1.41] * a new star icon for the popularity ranking
+	[350.1.40] * do not install the removed icons
+	[350.1.39] * remove obselete pngs
+	[350.1.38] [merge] * merge with mvo
+	                   * use ellipsize for the application name
+	                   * move the pop column to the end
+	                   * use a single star instead of all the prerendered rank
+	                   pngs
+	[350.2.10] [merge] * merge with mvo
+	[350.2.9] [merge] * merge wirh mvo
+
+2006-08-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[406] * AppInstall/AppInstall.py:
+	        - cleanup of old cruft
+	[405] * fix the sorting by popcon now
+	[404] * ranking works again
+	[403] * bugfix + icon beautification
+	[402] * add a popcon column and make it sortable, display a nice "star" for
+	      it
+	[401] * fix a "false"->"False"
+	      * some debug output removed
+	[400] * util/getMenuData.py:
+	        - imporived the absolute iconName detection
+	[399] [merge] * merged from glatzor
+
+2006-08-11 glatzor@ubuntu.com 
+
+	[350.1.37] * add a plan how we could support cdroms in g-a-i
+	[350.1.36] * Fix Bug #48254: No visual effect to item selection by space
+	           bar
+	             - call the toggle callback directly instead of emitting the
+	           signal
+	             - use the activatable property instead of the sensitive one,
+	           since
+	               it isn't respected (possible gtk+ bug?) - this way we don't
+	           need
+	               a manual sensitive check in the toggle callback anymore
+	             - check for arch support in the row_activated callback, since
+	               there is no way to get the cell renderer of the
+	           corresponding row -
+	               and so no way check for its activatable property
+
+2006-08-15 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[398] * added "show all supported" option
+
+2006-08-03 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[397] * changelog updated
+	[396] [merge] * merged from glatzor
+
+2006-08-03 glatzor@ubuntu.com 
+
+	[350.1.35] [merge] * mrege with mvo
+	[350.2.8] [merge] * merge with mvo
+	[350.1.34] * Fix #52612: use the applications-office icon instead of the
+	           skype one
+	                         for gnome-office
+
+2006-08-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[395] * menu-data/*:
+	        - refreshed to current edgya
+	        - run with the new icon extration code (should give more hicolor
+	      and png
+	          icons)
+	[394] * util/getMenuData.py:
+	        - search for svg icons as wella
+	        - added FIXME for icon pathes like "zapping/zapping.png"
+	[393] * util/verifyDesktopFile.py:
+	        - check for missing icons
+	      * util/getMenuData.py:
+	        - allow icons with explicit ending
+	[392] * rewrote the icon extract code to make it extract from iconthemes
+	        first and to prefer png over xpm
+	[391] * bugfixes
+	[390] * updated desktop+popcon data
+	[389] - rename iterate_tree_model to iterate_list_store
+	[388] * AppInstall/AppInstall.py:
+	        - fix aptsources.py import (changed in update-manager)
+
+2006-07-31 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[387] * changelog updated
+	[386] [merge] * merged with glatzor
+
+2006-07-27 glatzor@ubuntu.com 
+
+	[350.1.33] * polish the "no results" message in the description pane
+	[350.1.32] * polish the title of the quick introduction
+	           * instead of hiding not proted applications, disable the
+	             corresponding check button and provide an explanation in the
+	             description
+	[350.1.31] * improve the rendering of the description
+
+2006-07-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[385] * AppInstall/AppInstall.py:
+	        - fix merge error via removing duplicated setBusy() code
+
+2006-07-27 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[384] [merge] * merged with sebastian
+
+2006-07-27 glatzor@ubuntu.com 
+
+	[350.1.30] * Set the correct filter if the cache gets updated: formerly the
+	           filter
+	             was set to ONLY_SUPPORTED by default and not to the selected
+	           state.
+	             That was why universe applications disappeared after
+	           installing
+
+2006-07-25 glatzor@ubuntu.com 
+
+	[350.1.29] * More bold! hoping to balance the user interface
+
+2006-07-24 glatzor@ubuntu.com 
+
+	[350.1.28] [merge] * merged with mvo
+	[350.2.7] [merge] * merged with mvo
+
+2006-06-28 glatzor@ubuntu.com 
+
+	[350.2.6] [merge] * merge with mvo
+	[350.2.5] [merge] * merge with mvo
+
+2006-07-24 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[383] * BUGS:
+	        - added some problems we have right now
+	      * TODO:
+	        - updated to reflect current status
+	[382] * AppInstall/AppInstall.py:
+	        - added MyCache.clean()
+	[381] * changelog updated
+	[380] * menu-data/*:
+	        - popcon data refreshed
+	[379] * desktop files updated to latest edgy
+	[378] [merge] * meregd with glatzor
+
+2006-07-23 glatzor@ubuntu.com 
+
+	[350.1.27] * Also change the hint that referse to the change menu entry for
+	           Open
+	             Source applications
+
+2006-07-22 glatzor@ubuntu.com 
+
+	[350.1.26] * wording improvements - skip Free in favor of Open Source -
+	             discussed this with Corey
+	           * use the base color of the textview for the licence emblems
+
+2006-07-11 glatzor@ubuntu.com 
+
+	[350.1.25] * add a lot of atk comments (a11y++)
+	[350.1.24] * Fixed the pending changes dialog: it now displays the
+	           corresponding
+	             apps
+	           * Tag third party applications as proprietray ones
+	[350.1.23] * Use icons to indiacte the level of freedom and support in the
+	             description
+	           * Only scan newly inserted text for links instead of the whole
+	           text -
+	             this rocks!
+	           * Minor spacing improvements for the description
+	           * Improve URL detection
+	           * Do not show scrollbars in the description before we actually
+	           add
+	             content
+
+2006-07-10 glatzor@ubuntu.com 
+
+	[350.1.22] * Removed unused imports
+	           * Only show the watch cursor if the action takes longer than 0.3
+	           sec
+	           * Removed an obsolete function that called SoftwareProperties
+	           * Show some context sensitive hints in the no results message
+	           how to
+	             broaden the search
+	[350.1.21] * show for which desktop environemnt an application was written
+
+2006-07-24 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[377] * AppInstall/AppInstall.py:
+	        - fix mime search
+	      * AppInstall/Util.py:
+	        - raise StopIteration in iterate_tree_model
+	[376] * util/blacklist.cfg:
+	        - blacklist xscreensaver
+	[375] * util/getMenuData.py:
+	        - added a comment
+	[374] * util/getMenuData.py:
+	        - fix arch: all handling
+	[373] * util/apt/sources.list:
+	        - switched to edgy
+	      * util/getMenuData.py:
+	        - bugfixing
+	[372] * util/getMenuData.py:
+	        - don't fail if a arch-specific pkg has no desktop file
+	[371] * util/getMenuData.py:
+	        - add architecture information to the desktop files (if required)
+	[370] * util/getMenuData.py:
+	        - log the arch-specific bits
+	[369] * menu-data-additional:
+	        - added architecture tags where appropriate
+	[368] * AppInstall/AppInstall.py:
+	        - bugfixing
+	        - display the short description in "bold"
+	      * AppInstall/Menu.py:
+	        - don't display applications that are not supported on our
+	      architecture
+	      * debian/changelog:
+	        - fix merge conflict
+	      * setup.py:
+	        - don't install the html template
+	[367] [merge] * reviewed/merged Sebastians changes (thanks!)
+	              * minor adjustments
+
+2006-07-10 glatzor@ubuntu.com 
+
+	[350.1.20] * Added the system installer icon of Tango as app icon - #41664
+	           * Avoid flickering of the textview by showing it quite late
+	           * Clear the textview before showing the intro
+	           * Added a11y support for the runtime created textview_desc
+	           * Removed an obsolete filter box restore
+	           * Delete all tags when a new description is shown
+	           * Fixed that all tags have been links in the ReleaseNotesViewer
+	           * Removed a build file (schemas) from bzr
+	[350.1.19] * separate the short descripton from the long one
+	           * show the amount of freedom and support message at the top of
+	           the
+	           description
+	           * add a sanity check if the description has to be changed in the
+	           filter
+	           changed callback
+
+2006-07-09 glatzor@ubuntu.com 
+
+	[350.1.18] * Replaced the html stuff for the app description by a textview
+	             I reused my ReleaseNoteViewer from UpdateManager. I had to
+	           make
+	             some minor changes, but they do not affect UpdateManager
+	           itself.
+	             So I plan to "port" the changes to UpdateManager. Or create a
+	             new package also including DistInfo and aptsources?
+	           * Fixed #52409 - "Not aware of unsupported architectures"
+	             There is now a "X-AppInstall-Architectures" tag - the app-data
+	           has
+	             still to be modified. This could be done manually for the
+	           commercial
+	             ones at first, since the option is not obligatory
+	           * Cleaned up combobox code and wording
+	           * Moved the combobox and the search entry to the top. The test
+	           persons
+	             were often not aware of a selected category during a search
+	           * Added a "Show:" label next to the comobobox
+	           * Activated the BusyState during a filter change to be more
+	           responsible
+	           * Added some sanity checks for the content of the description
+	           field.
+	             Sometimes it showed a description without a selected
+	           application.
+	           * Replaced the hard coded distro codename by a lsb_release call
+	           * Fixed a bug that showed supported but non free apps if the
+	           "supported"
+	             filter was selected
+	           * Removed all repository and software channels related terms!
+	           Replaced them
+	             by better descriptions of the nature of the corresponding
+	           components
+	           * Changed the wording of the "not available/ported" dialog: It
+	           now uses
+	             "computer type (powerpc)" instead of "system architecture".
+	           See the
+	             discussion on ubuntu-doc about words to avoid. Furthermore it
+	           clearly
+	             says that the vendor perhpas decided to not support the
+	           corresponding type.
+	             A lot of people have asked my in the past why the app was not
+	           available.
+
+2006-07-07 glatzor@ubuntu.com 
+
+	[350.1.17] * add a plus of 1500 for applications that exactly match the
+	           search term
+	             - should fix #52185
+
+2006-06-30 glatzor@ubuntu.com 
+
+	[350.1.16] [merge] * merge with jerome and michael
+
+2006-06-29 Jerome S. Gotangco <jgotangco@ubuntu.com> 
+
+	[363.1.1] merge to bzr branch in LP-added as comment
+
+2006-07-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[366] * AppInstall/Progress.py:
+	        - the latest apt has 4 steps now
+	      * AppInstall/DialogPendingChanges.py:
+	        - first init the treeview, than add the model
+	[365] [merge] * merged with sebi
+
+2006-06-30 glatzor@ubuntu.com 
+
+	[350.1.15] * seems that gazpacho also removed all responses of the button
+	             fixed that
+
+2006-06-28 glatzor@ubuntu.com 
+
+	[350.1.14] [merge] * merge with mvo
+	[350.2.4] [merge] i* merge with mvo
+
+2006-06-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[364] * changelog updated
+	[363] * AppInstall/AppInstall.py:
+	        - added setBusy() and make extensive use of it
+	[362] * changelog updated
+	[361] [merge] * merged from glazor
+	              * make the mime-type search working again
+
+2006-06-28 glatzor@ubuntu.com 
+
+	[350.1.13] * fix the mime stuff
+	[350.1.12] * try to rank the app by more than popularity
+	[350.1.11] [merge] * merge with mvo
+	[350.2.3] [merge] * merge from mvo
+	[350.1.10] * add a ranking text file
+	[350.1.9] [merge] * merge with mvo
+
+2006-06-27 glatzor@ubuntu.com 
+
+	[350.1.8] * remove the sorting button - use it for searches only
+	[350.1.7] [merge] * merge with mvo
+	[350.2.2] [merge] * merge with mvo
+
+2006-06-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[360] * AppInstall/AppInstall.py:
+	        - support "--mime-type=" argument
+	      * AppInstall/Menu.py:
+	        - added Menu._mimeFilter() and refactored the current string filter
+	          into Menu._stringFilter()
+	        - added Menu.mimeSearch attribute to see if we filter for name or
+	          mime-type
+	[359] * AppInstall/AppInstall.py:
+	        - unbreak the third party channel support
+
+2006-06-27 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[358] * added a simple GUI for testing
+	[357] * add popcon data
+	[356] * support sorting by popcon data (no GUI for this yet)
+	[355] * util/addPopconData.py:
+	        - import the popcon data
+	[354] [merge] * merged from the stable branch
+	[350.3.2] * debian/control:
+	            - added missing "gksu" dependency
+
+2006-06-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[350.3.1] [merge] * merged with mainline
+
+2006-06-27 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[353] [merge] * merged with glatzor
+
+2006-06-27 glatzor@ubuntu.com 
+
+	[350.1.6] [merge] * merge wirh mvo
+	[350.2.1] [merge] *merge with mvo
+
+2006-06-26 Sebastian Heinlein <sebi@sebi-mac> 
+
+	[350.1.5] * fixed gazpacho weirdness - it seems to be only enterprise ready
+	          * improve tooltips - mention universe
+	          * connect the changed signal later, so that the cosmetic change
+	          at
+	            start up doesn't tigger the callback
+	[350.1.4] * use correct value type in the schemas file
+	[350.1.3] * remove references to the advanced button in the messages
+	          * do not use a custom dialog for gksu
+	[350.1.2] * remove advanced package manager run function
+
+2006-06-24 Sebastian Heinlein <sebi@sebi-mac> 
+
+	[350.1.1] * use a combobox instead of the checkbuttons for filtering
+	          applications
+	          by legal status
+
+2006-06-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[352] * AppInstall/Menu.py:
+	        - added a mime-search function
+	[351] * sync with the current version in dapper
+
+2006-05-27 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[350] * menu-data/*:
+	        - desktop files updated
+
+2006-05-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[349] * AppInstall/AppInstall.py:
+	        - if dapper-updates is used, add that for the commponents as well
+	        - if multiverse is added, add universe too
+	[348] * AppInstall/AppInstall.py:
+	        - just exit when ok is clicked but nothing is selected
+
+2006-05-22 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[347] * menu-data/mozilla-thunderbird.desktop,
+	        menu-data/icons/mozilla-thunderbird.svg:
+	        - new thunderbird icon
+
+2006-05-19 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[346] * menu-data-additional/wine.desktop:
+	        - fix it
+
+2006-05-18 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[345] * AppInstall/AppInstall.py, AppInstall/PackageWorker.py:
+	        - make sure that gksu succeeded before reopening the cache
+
+2006-05-17 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[344] * menu-data-additional/sun-java5-java.desktop:
+	        - give it a category
+	[343] * moved java to menu-data-additional because the current desktop
+	        files are a bit broken
+	[342] * menu-data/ia32-sun-java5-java.desktop:
+	        menu-data/ia32-sun-java5-javaws.desktop
+	        - removed the ia32 deksotp files for now because we have native
+	          versions for amd64,i386
+	[341] * menu-data/*:
+	        - updated to current dapper
+	[340] * AppInstall/DialogPendingChanges.py:
+	        - remove obsolete code
+	      * AppInstall/AppInstall.py:
+	        - fix in the "add-component" code
+	[339] * data/gnome-app-install.glade:
+	        - make the browser expand when the dialog window expands
+	      * AppInstall/DialogProprietary.py:
+	        - add test in if __name__ == "__main__"
+	      * debian/changelog:
+	        - changelog updated
+
+2006-05-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[338] * fix advanced button
+
+2006-05-15 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[337] [merge] * merged with glatzor
+
+2006-05-15 Sebastian Heinlein <sebi@sebi-mac> 
+
+	[213.3.98] * documentation polishing - fixes #44331
+	[213.3.97] [merge] * merge with mvo
+
+2006-05-09 Sebastian Heinlein <sebi@sebi-mac> 
+
+	[213.3.96] * use a correct header for the German po file
+	[213.3.95] * initiall work on the German translation of the manual
+
+2006-05-08 Sebastian Heinlein <sebi@server.daheim> 
+
+	[213.3.94] [merge] * merged with mvo
+	[213.3.93] * use the desktop mode of gksu instead of a custom message
+
+2006-05-15 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[336] * po/*:
+	        - make update-po
+	[335] * data/gnome-app-install.glade:
+	        - disable searching in the columns, we have a search thing for this
+	[334] * data/gnome-app-install.glade:
+	        - make the "Reload" button translatable (why didn't glade set it
+	      translatable in the first place???)
+	[333] * menu-data/applications.menu:
+	        - "Edutainment" -> "Education" (to be in sync with gnome again)
+	[332] * menu-data-additional/gstreamer-ugly.desktop:
+	        - use the 'gstreamer0.10-plugins-ugly' pkg
+	[331] * debian/control:
+	        - depend on app-install-data-commercial (that contains the
+	      commercial
+	          desktop files)
+	      * AppInstall/AppInstall.py, DialogProprietary.py:
+	        - removed some debug code
+	        - fix a problem with 3rd party apps without channels
+	      * TODO: updated
+	[330] * string fixes:
+	        * data/gnome-app-install.glade:
+	          - "show proprietary applications" -> "show commercial
+	      applications"
+	            (as suggested by Malcom)
+	        * AppInstall/Menu.py:
+	          - "Reading desktop files" -> "Reading list of available
+	      applications"
+	            (thanks to Matt for this suggestion)
+	[329] * menu-data/*: updated to current dapper
+	[328] * util/blacklist.cfg:
+	        - updated to the latest version in dapper
+	[327] * debian/rules:
+	        - added "--no-recursion" to arch-build
+
+2006-05-10 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[326] * menu-data/kexi.desktop:
+	        - fix component
+	[325] * desktop files updated
+
+2006-05-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[324] * util/rename.cfg: "vim-gui-common" -> "vim-gnome"
+
+2006-05-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[323] * help/C/gnome-app-install.xml: merged from docteam svn
+
+2006-04-21 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[322] [merge] * merged from sebi
+
+2006-04-17 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.92] * fix the dbus exception handler
+	[213.3.91] * add start up notification to the desktop file
+
+2006-04-15 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.90] * do not segfault on a missing dbus dameon
+
+2006-04-21 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[321] * menu-data updated
+
+2006-04-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[320] * fix bug in the add-channel code
+
+2006-04-19 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[319] * help/C/gnome-app-install.xml: fix incorrect xml (ubuntu #40061)
+
+2006-04-10 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[318] * changelog update
+	[317] [merge] * merged changes from glatzor
+
+2006-04-09 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.89] * wording of the no results message:
+	            - use gettext
+	            - simplify
+	[213.3.88] [merge] * merged from mvo
+
+2006-03-24 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.87] * do not segfault if we fail to initialize the cache - #36378
+
+2006-04-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[316] * merged the changes from dholbach
+
+2006-04-07 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[315] * finalized changelog, uploaded
+	[314] * dbus and singleton added
+	      * bug in the duplicate deteciton code fixed
+	[313] * another wording fix in the failed search page
+	[312] * failed search help page implemented
+
+2006-04-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[311] * finalized changelog
+	[310] * upated to the latest desktop files
+	[309] * better runtime duplicate detection
+	      * blacklisted EtherApeAsRoot,kimdaba-import and swscanner_asroot
+
+2006-04-03 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[308] * support quit with CTRL-q (ubuntu #3751)
+	[307] * merged the latest g-a-i manual
+	[306] * debian/copyright: updated to the latest download uri (and updated
+	      the authors)
+	      * debian/dirs: removed the not-used usr/sbin
+
+2006-03-29 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[305] * debian/rules: fix clean target
+	[304] * updated the menu-data stuff
+	[303] * fix the network applet icon
+	[302] * when skipping a blacklisted pkg, actually skip it :)
+	[301] * added the nm-applet to the desktop data
+
+2006-03-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[300] * fix a bug in the extraction code
+	      * updated the backlist
+	[299] * read the blacklists only once
+	[298] * added capplets-data to blacklist
+	[297] * added already seen pkgs to the pkgs_seen set
+	[296] * lyx-qt -> lyx, blacklisted lyx-xforms
+	[295] * explicitely set the background color (ubuntu #36686)
+
+2006-03-27 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[294] * if the extraction of a desktop file fails, repot error and keep
+	      going
+	[293] * added libxine-extra-codecs
+	[292] * logging improvments
+	[291] * removed espresso, gdm, kdm
+	      * blacklisted espressio-frontend-{qt,gtk}, gdm, kdm
+	[290] * blacklisted kcontrol and konqi
+	      * removed all kcontrol stuff
+	[289] * adeded more stuff to the blacklist
+	      * removed the blacklisted apps
+
+2006-03-24 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[288] * finalized the changelog
+	      * make the blacklist stuff a bit more neutral
+	[287] * changelog updates
+	[286] * added gparted.desktop as a "overwrite"
+	[285] * added README about the menu-data-additonal stuff
+	      * added menu-data-additonal/gparted.desktop to "overwrite" the
+	      default gparted.desktop file
+	[284] * removed some more unneeded desktop icons
+	      * added a desktop file blacklist
+	[283] * fix error in the icon extraction, only extract the icons that we
+	      really want
+	[282] * remove duplicated icons
+	[281] * updated the desktop + icon files (new extraction after the epoch
+	      bug was fixed)
+
+2006-03-23 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[280] * check if we have a candVer before continuing
+	[279] * finally get the epoch handling correct?!?
+	[278] * strip the epoch from the candidate version
+	[277] * fix quoting for version to support epochs
+	[276] * analyzse the result for per-arch pkgs
+	[275] * extract arch data for all arches (three runs)
+	[274] * ignore debs that are not for our arch
+	      * fix some smallish bugs
+	[273] * improve the logging
+	[272] [merge] * move the non-autogenerated desktop files to menu-data-
+	              additional/
+
+2006-03-21 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.86] [merge] * merged from mvo
+
+2006-03-22 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[271] * changelog updates
+	[270] * updated the desktop files
+
+2006-03-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[269] * util/rename.txt: totem-xine -> totem-gstreamer
+	[268] [merge] * merged from sebi (he gets another golden start from me
+	              today!)
+
+2006-03-20 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.85] * Better English (TM)
+
+2006-03-19 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.84] * select the first app in the app treeview if none was selected
+	           before. This
+	             fixes having to select an app before being able to toggle the
+	           checkbutton of
+	             it, if none was selected before
+	[213.3.83] * search enhancements:
+	              - ignore case
+	              - allow to search for mulitple terms. this slows down the
+	           search by
+	                0.05 seconds in the worst case
+	              - use a clearer and better readable structure in the search
+	           code.
+	                no measurable effect (different results in a scope of 0.01
+	           seconds)
+
+2006-03-17 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.82] * show an error dialog if the app is not available in any known
+	           channel -
+	            fixes #34125
+	           * use the refresh icon on the reload button
+
+2006-03-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[267] [merge] * merged stuff from the laptop branch
+	[261.2.15] [merge] * fix the strings from jane (for real!)
+
+2006-03-14 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.81] * reapplied the jane.patch
+	[213.3.80] [merge] * merged from mvo
+
+2006-03-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[266] [merge] * merged with the laptop branch
+
+2006-03-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[261.2.14] * cleanups
+	           * AppInstall/AppInstall.py:
+	             - don't break when a mirror was found but continue to see if
+	           there is
+	               a security server that needs to be added as well
+	[261.2.13] * fix debug output
+	[261.2.12] [merge] * merged with sebi
+
+2006-03-13 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.79] * string review by Jane Silber
+	[213.3.78] * do not fail on additional apt cache runs
+
+2006-03-12 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.77] * Revret the string change component/section - there is bug in
+	           the APT HOWTO
+	             using the wrong terms. Thanks to Burgundavia.
+
+2006-03-10 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.76] * Updated German translation
+	[213.3.75] * update the language files
+	[213.3.74] * check if security updates are enabled. if yes add the sec
+	           updates for a
+	             newly added section
+	[213.3.73] * paradigma change: use enable section/channel instead of add -
+	           it is unclear
+	             where the channel will be added to
+	           * explain what a software channel is in the dialog. since it
+	           appears
+	             without any warning :)
+
+2006-03-09 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.72] * restore the marks for installation and removal after a cache
+	           update
+	           * continue the toggle action after a cache update
+	           * use the toggled app and not the currently selected app in
+	           addChannel
+	[213.3.71] * Remove the button "add section/channel" in the description
+	           * always set the toggle button of an app sensitive
+	[213.3.70] * removed debug print - I need a good debugger...
+	[213.3.69] * fixed the menu creation progress bar: add an additional step
+	[213.3.68] [merge] * merge with mvo
+	[213.3.67] * replace the pulsing by a progress
+	           * use only one progress bar
+
+2006-03-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[261.2.11] [merge] * merged with sebi
+
+2006-03-09 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.66] [merge] * merged from mvo
+	                   * Do not let the comment of ffmpeg end with a ,
+	[213.3.65] * Do not show the "add section" if the app is not available for
+	           the
+	             system architecture - #34125
+
+2006-03-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[261.2.10] * changelog updated
+	[261.2.9] * AppInstall/AppInstall.py:
+	            - fix missing ctime check in the "is the cache outdated" stuff
+	          * AppInstall/Progress.py:
+	            - don't pulse but use a "normal" progress (sorry sebi)
+	          * debian/rules:
+	            - don't fail if we have a empty channel list
+	[261.2.8] * removed unneeded channels
+	[261.2.7] [merge] * merged with sebi
+
+2006-03-09 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.64] * Fixed a lot of i18n related issues:
+	            - set a global gettext textdomain
+	            - Don't resolve variables in the msgid: "_("msg %s) % s" ->
+	           "(_("msg %s") % s)"
+	            - Updated po files
+	           * Complete German translation
+	           * List Jerome in the documentation credits
+	           * Complete string review
+	           * Extend copyrigt to the current year
+	           * HIGified used gtk.MessageDialogs
+	[213.3.63] * Updated po files to reflect the first round of the string
+	           review
+	           * Updated but not completed German translation
+	[213.3.62] * set the gettext text domain to actually use all translated
+	           strings
+	[213.3.61] * Do not use a fixed width. This can result in cutted widgets in
+	           non English
+	             languages
+	[213.3.60] * recalculate the width of the treeview to avoid useless
+	           scrollbars #20787
+	[213.3.59] * produce a valid desktop file - #33571
+
+2006-03-08 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.58] * Also tag URLs without protocol prefix but www. as links -
+	           #30892
+	[213.3.57] * detailed wording in the gksu dialog
+	           * replace program by application, fixed wrong uppercases
+	[213.3.56] [merge] merged from mvo
+
+2006-03-03 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.55] * Nicer wording of the quick introduction #33551
+
+2006-03-06 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[261.2.6] * fix the ffmpeg desktop file
+	[261.2.5] * AppInstall/Menu.p: basic debuging support added
+	          * menu-data/: added gstreamer0.10-plugins-ugly and ffmepg
+	[261.2.4] * changelog: updated
+	[261.2.3] * added gnome-office pseudo desktop file
+
+2006-03-01 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[261.2.2] [merge] * merged from sebi
+
+2006-03-01 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.54] * HIGification of the dialog_outdated_cache
+	            - Use a less technical wording
+	            - Convert to an informational dialog that provides clear
+	           actions on
+	              the button - yes/no can be very misleading
+	            - Set the default action to reload
+	            - Fix spacings
+	            - Remove separator
+	            - Remove close button of the wm
+	[213.3.53] [merge] * merged from mvo
+
+2006-03-01 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[261.2.1] [merge] * merged patch from koke
+
+2006-03-01 Jorge Bernal <jbernal@warp.es> 
+
+	[261.1.1] Make the search entry to grab focus when starting.
+
+2006-03-03 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[265] * changelog updates
+	[264] * fix the common.ThoughIconTheme.lookup() codd
+	[263] * AppInstall/BrowserView.py: remove the threading, as it was
+	      implemented it didn't worked
+
+2006-03-01 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[262] * changelog updated
+
+2006-02-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[261] [merge] * is cache up-to-date code ready
+
+2006-02-28 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.52] [merge] merged from mvo
+
+2006-02-27 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.51] [merge] * merged from mvo
+
+2006-02-24 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.50] [merge] * merged from mvo
+
+2006-02-28 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[260] * fix problem with channel files ending up in the wrong location
+	[259] * updated finish translation
+
+2006-02-24 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[258] [merge] * merged with sebi (thanks!)
+
+2006-02-24 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.49] [merge] * merged with michael
+
+2006-02-23 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.48] * Try to get an icon under every circumstances
+	[213.3.47] * Do not crash on a missing icon
+	[213.3.46] * fixed an auto indent error in the setup.py
+	[213.3.45] * Merged manual from  Jerome Gotangco - the development will now
+	           continue in the bzr repo
+	[213.3.44] [merge] * merged from michael
+	[213.3.43] * do not build the schemas file in the source tree
+
+2006-02-23 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[257] * more kde specific fixes
+	[256] * changelog updates
+	[255] * menu-data/icons/: ran the icon cleanup code
+	[254] * corrected mozilla section
+	[253] * updated desktop files
+	[252] * AppInstall/DialogNewlyInstalled.py: don't show stuff that can't be
+	      execed
+	      * TODO: cleanup
+	      * data/gnome-app-install.desktop.in: add X-Ubuntu-Gettext-Domain
+	[251] * AppInstall/AppInstall.p: loads of dead code removed
+	      * TODO: updated
+	[250] * AppInstall/AppInstall.py: reapply search on restore state
+	[249] * AppInstall/AppInstall.py: save/restore state added
+	[248] [merge] * help/* merged the help from sebi
+	              * AppInstall/AppInstall.py: fixed crash when a channel was
+	              added
+	              * TODO: updated
+
+2006-02-21 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.42] * Megred manual
+	[213.3.41] * removed duplicate installation of the omf file
+	[213.3.40] * Fixed the installation of the help files
+	           * Fixed the installation of the language files
+
+2006-02-20 Sebastian Heinlein <sebi@server> 
+
+	[213.3.39] [merge] merged with michael
+
+2006-02-20 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.38] * Merged help from jsgotangco
+	           * crushed png files
+	[213.3.37] * Fixed installation direcotry of the help files
+	           * Fixed omf file
+	           * Setup copyright to Canonical Ltd.
+	[213.3.36] * Add the help of jsgotangco
+	           * Include the help into build system of setup.py
+	           * Use dh_scrollkeeper to register the omf
+
+2006-02-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[247] * fixed bug in header (*grumpf*)
+	[246] * updated pt_BR translation (thanks!)
+	[245] * changelog updates
+	[244] [merge] * merged with sebi
+	              * TODO: desktop-menu item rendering issue is fixed
+
+2006-02-18 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.35] * use a variable for the msgid bug contact in the makefile
+	[213.3.34] [merge] * Merged with michael
+	                   * Fixed typos
+	                   * Added my email address for bug reporting in the msgids
+	                   * Updated the po files
+
+2006-02-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[243] [merge] * merged with sebi
+	              * applied fixes from zyga
+
+2006-02-16 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.33] * more todo
+	[213.3.32] * more todo
+	[213.3.31] * Updated the TODO file
+
+2006-02-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[242] * make the window slightly bigger
+	[241] [merge] * merged with Sebastian (+ minor bits)
+
+2006-02-16 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.30] * Actually quit if the close button of the window manager was
+	           pressed and
+	             there are no pending changes
+	           * Fixed the sensitiveness/insensitveness of the checkbuttons
+	[213.3.29] [merge] * merged from mvo
+	[213.3.28] * Set the checkbutton "install" senstive if the app can be
+	           removed, too
+
+2006-02-15 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.27] * move the missing port error message to the description
+	           * use a larger distributor icon (32pixels)
+	[213.3.26] * Set the toggle install insensitive if the app ist not
+	           available
+	           * Add a separator before the multiple apps info
+	           * Add some comments
+	           * Add working support for adding missing channels (the wording
+	           of the
+	             dialogs needs to be adjusted to the new workflow)
+	[213.3.25] * Use a html form button in the description to add a missing
+	           repository section
+	             (protoype quality :)
+	[213.3.24] * use the distributor logo (here the ubuntu circle) for the
+	           category "all"
+	[213.3.23] [merge] merged from michael
+	                   - This line and the following will be ignored --
+	                   modified:
+	                     AppInstall/AppInstall.py
+	                     AppInstall/Menu.py
+	                     data/gnome-app-install.glade
+	                     debian/changelog
+	                   unknown:
+	                     build
+	                     build-stamp
+	                     AppInstall/Version.py
+	                     AppInstall/test
+	                     data/gnome-app-install.desktop
+	                     data/gnome-app-install.gladep
+	                     data/gnome-app-install.schemas
+	                     debian/arch-build
+	                     debian/files
+	                     debian/gnome-app-install
+	                     debian/gnome-app-install.postinst.debhelper
+	                     debian/gnome-app-install.postrm.debhelper
+	                     debian/gnome-app-install.prerm.debhelper
+	                     debian/gnome-app-install.substvars
+	                     po/mo
+	                   pending merges:
+	                     Michael Vogt 2006-02-15 * search with a timout of 0.5s
+	                   * changelog updates
+	                       Michael Vogt 2006-02-14 * add a "All" category
+	                       Michael Vogt 2006-02-14 * removed
+	                   on_search_activate()
+
+2006-02-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[240] * move app data to /usr/share/app-install-data
+
+2006-02-15 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[239] * split the desktop file stuff into a "app-install-data" packages
+	[238] * fix a problem in the DialogNewlyInstalled() when on Apply it wasn't
+	      closable anymore
+	[237] * search with a timout of 0.5s
+	      * changelog updates
+
+2006-02-14 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[236] [merge] * add a "All" category
+
+2006-02-13 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.22] * Add a help button next to the advanced button
+	           * Do not P_WAIT on gnome-open
+	           * Use the same height for all buttons at the buttom
+	[213.3.21] [merge] * merged from michael
+
+2006-02-14 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[235] * removed on_search_activate()
+
+2006-02-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[234] [merge] * merged from sebi (only the gray-out change is not yet
+	              merged)
+	              * don't explode on exceptions from gettext.dgettext()
+
+2006-02-11 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.20] * missed the glade file in my last commit
+	[213.3.19] * Put some love at the DialogMultipleApps, DialogUnavailable
+	           * Mention the required internet connection in the add
+	           section/channel dialogs
+	           * Use "Close" and not "quit" in the tooltip of the button
+	           "advanced"
+	           * Add missing files to POTFILES.in
+	[213.3.18] * Sanitisize the close confirmation if there are pending
+	           changes:
+	             "Close Without Applying", "Cancel" and "Apply"
+	           * Add a "final" variable to applyChanges:
+	             if we close g-a-i after applying we don't need an updated
+	           chache
+	             or the main window.
+	           * Do not use a special font for unavailable apps (this was lost
+	           during the
+	             merges?), since the app is still clickable (gray) or the
+	           window gets to
+	             noisy (italic + blod, big, small)
+	[213.3.17] [merge] * merged from mvo
+	[213.3.16] * Do not show empty ignore changes if button quit is clicked
+	           * Move the confirm changes code from on_button_apply_clicked to
+	           its own
+	             method confirmChanges
+	           * Rename do_apply to applyChanges - seems to be more consistent
+	           with
+	             the used naming schema in gai
+
+2006-02-10 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[233] * changelog updates
+	[232] * AppInstall/AppInstall.py: gray out the not available apps again
+	      * AppInstall/Menu.py: use hidden applications as well
+	      * menu-data/applications.menu: don't show the debian menu
+	[231] [merge] * merged with sebi
+
+2006-02-10 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.15] * Add a "nice" string for gksu
+	           * Use raw strings in the URL finders re to make it "more
+	           readable",
+	             additionally find URLs in paranthesis #30892
+	           * Set default buttons on the pending changes and proprietary
+	           channel dialog
+	           * Fix missing section or channel descriptions (string != "" is
+	           not string !=
+	             None). Nicer wording and remove the reference to the menu.
+	           Trying not to
+	             bother translators with html tags
+	           * Move the string "Version" from the template to the code to
+	           make it
+	             translatable and to not show it without an available version
+	           number
+
+2006-02-10 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[230] [merge] * make the pulse step smaler
+	              * merged from sebi
+
+2006-02-09 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.14] * Remove my url parser, the old one is a lot better
+
+2006-02-10 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[229] * give more useful report on non-package menu entries
+	[228] * fix the installing of components
+	[227] * save postition on search
+	[226] * fix bugs in the parser code
+
+2006-02-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[225] * removed the old menu data dirs
+	[224] * fix some desktop files
+	[223] * make update-po, took translations from gnome-cvs
+	[222] * support langpack translation in g-a-i for the dekstopfiles
+	[221] [merge] * merged with sebastian
+
+2006-02-09 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.13] * install the gconf schema to ../etc/gconf/schemas. otherwise it
+	           won't
+	             trigger dh_gconf, that adds the schemas regristration to
+	           postinst
+	           * make use of dh_gconf in the debain/rules
+	           * put some love on the prorprietary software dialog: no close
+	           button, bold and
+	             big header, clearer messages, a tooltip for the button add,
+	           spacings
+	             and alignments according to the HIG
+	           * set the main window to normal and not dialog. the main window
+	           is resizable
+	             and so the maximize function could be of use on low res
+	           monitors, it causes
+	             some window postioning problems, too: the dialog of a
+	           dialog...
+	             the gnome-system-tools also provide minimize and maximize
+	           * parse the package description for urls and convert them to
+	           links
+	           * add a sanity check for the values retrieved from gconf
+
+2006-02-08 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.12] [merge] * merged from michael
+	[213.3.11] * Beautification of the synaptic socket window
+
+2006-02-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[220] * latest upload
+
+2006-02-08 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[219] * changelog updated
+	[218] * fix post-update-cache visible filter
+	[217] [merge] * save/restore the toggle button settings
+
+2006-02-08 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.10] * Only allow to close the main window if it is sensitive
+	           * Allow to actually close the app by the close button of the
+	           window manager
+	           * Add a non-working gconf client for the checkboxes
+	           * Add a non-installable schemas file for gconf
+	           * OK in main -> Cancel in confirmation -> Return to the main
+	           window
+	           * Cancel -> do abort gai and do not ask for confirmation
+	           * Return of the pulsing progress bar with a greater pulse step
+	           during
+	             the parsing of the desktop files
+	           * Rename the button close of the main window to cancel
+	           * Do not show the close button of the window manager in the
+	           confirmation
+	             dialog
+	           * A small but bold font looks nicer on the confirmation dialog
+	           for "Add" and
+	             "Remove" - also align the text to the left
+	           * Remove the text from the pending dialog in the glade file - it
+	           is set on
+	             runtime - so we avoid duplicated work for the translators
+	[213.3.9] [merge] * merged from michael
+
+2006-02-07 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.8] * Use css clases for the description and deinfe them in the
+	          template
+	          * Add a missing close tag for body and html to the template
+
+2006-02-08 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[216] [merge] * merged the non-root mode changes
+	[170.1.10] * remove some debug
+	[170.1.9] * depend against the right synaptic version
+	[170.1.8] * enable launch application
+	[170.1.7] [merge] * merged to the latest version
+	[214.1.1] [merge] * make it work
+
+2005-12-28 Michael Vogt <egon@top> 
+
+	[170.1.6] * show clickable urls as user but not as root
+	[170.1.5] * show urls when runing as user
+	[170.1.4] [merge] * merged with mainline
+	[170.1.3] * TODO: some remarks about problems with the current approach
+	[170.1.2] [merge] * merged with the mainline
+
+2005-12-16 Michael Vogt <egon@top> 
+
+	[170.1.1] * started with the non-root mode
+
+2006-02-08 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[215] * minor fixes
+	[214] [merge] * merged with the new new-look branch
+
+2006-02-07 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[213.1.14] [merge] * merged with sebi (new templates) THANKS
+
+2006-02-07 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.7] * Do some regular expression magic to get nicer app descriptions
+	[213.3.6] [merge] * merged from michael
+	[213.3.5] * replace paragraphs by divs in the template.html so empty
+	          strings do not add so
+	            much spacing
+
+2006-02-07 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[213.1.13] * menu-data/*:
+	             - updated the desktop files to current dapper
+	[213.1.12] * more fixes
+	[213.1.11] * AppInstall/Menu.py: fix the search
+	           * AppInstall/Progress.py: is not pulsing anymore (sorry Sebi :/)
+	           * AppInstall/AppInstall.py: refilter when the category changes
+	[213.1.10] [merge] * merged with sebastian
+
+2006-02-07 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.4] * Do not show a close button in the decoration of the progress
+	          dialog
+	          * Use hopefully a clearer header in the progress dialog and avoid
+	          to introduce
+	            new terms (in the former dialog: "library")
+	          * Lower the pulse setp to 0.005
+	            Could you give my some feedback on this, Michael? It is quiet
+	          slow on
+	            my ancient computer, so it could be ok for you. :)
+	          * Do not duplicated glade settings in the code
+	[213.3.3] * Missed a closing )
+	[213.3.2] * As suggested by mpt move the checkboxes under the app list
+	          * Make the search entry smaller
+	          * Add a bold header "applications" to increase the visual
+	          attraction of the app
+	            list
+	          * Treat the main window as a dialog window
+	          * Do not use a bold font for the category/menu names
+	          * Strip all white spaces, new lines and tabs from the description
+	          * Modified template:
+	             - do not use a bold font for the app name - it is very
+	          distracting
+	             - do not show the summary - it is already in the app list, the
+	          purpose of the
+	               desc is to provide more information than the app list
+	             - Put the version information at the end - it is not important
+	          * Modified starting page:
+	             - Do not use add/remove since it is a duplication - instead
+	          "quick introduction"
+	             - Tighten the introduction
+	          * Do not show "Loading page /tmp/XXXXXX" - this removes a small
+	          flickering when
+	            another app is selected
+
+2006-01-27 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.3.1] [merge] merge from mvo
+
+2006-01-25 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[213.1.9] * fix ok button to actually quit
+	[213.1.8] * make apply, ok work
+	[213.1.7] [merge] * AppInstall/Menu.py: fix isChanged(), getChanges()
+
+2006-01-24 Sebastian Heinlein <sebastian.heinlein@web.de> 
+
+	[213.2.6] [merge] * merged from mvo
+
+2006-01-23 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[213.1.6] [merge] * merged from Sebastian
+	                  * changed from GtkMozEmbed back to GtkHtml2
+
+2006-01-22 Sebastian Heinlein <sebi@renatepc.pimpzkru> 
+
+	[213.2.5] * Renamed widget "label_ok" in window_main
+	          * Added a frame around the custom_widget. this only works for
+	          gtkhtml2 and dump
+	            i think that we cannot control the gtkmozembed widget to draw a
+	          frame
+	[213.2.4] [merge] * Import from Michaels branch
+	[213.2.3] Progress:
+	           * Don't show the current action in the progress bar, instead use
+	          the text label below
+	           * Use italic style
+	           * Set space between label and progress bar to 4
+
+2006-01-22 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[213.1.5] * added credits for Sebastian Heinlein
+	[213.1.4] [merge] * merged with sebasitan
+
+2006-01-22 Sebastian Heinlein <sebi@renatepc.pimpzkru> 
+
+	[213.2.2] * Progress dialog higification:
+	             - center on parent
+	             - skip taskbar
+	             - skip pager
+	             - no title
+
+2006-01-22 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[213.1.3] [merge] * merged with sebi
+
+2006-01-22 Sebastian Heinlein <sebi@renatepc.pimpzkru> 
+
+	[213.2.1] * Use "Add/Remove..." in the menu "Applications"
+	          * Do not show in the system preferences
+	          * Add access key for the button "Advanced"
+	          * Add a tooltip for the button "Advanced": "Launch the Synaptic
+	          package manager"
+	          * unset rules hint on the category view. I think it adds to much
+	          visual noise. Because of the bold items, the large icons and the
+	          large spaces it should be well readable without the rules hint.
+	          * unset shrink and resize for the category view
+	          * set resize for the right side of the hpaned (package view,
+	          search, description)
+	          * set resize for the package view and unset resize for the
+	          description. I did mainly enlarge the main window to see more
+	          packages on the list.
+	          * unset shrink for the description and the package view
+	          * add a label "Search:" before the search entry
+	          * Add tooltip to "unsupported": "Volunteers maintain a large
+	          selection of software that can be used with Ubuntu, the so called
+	          Universe. Cannonical does not guarantee technical support and
+	          security updates"
+	          * Add a tooltip to "proprietary": "Software with diverse
+	          restrictions on copying, using, redistributing or improving it.
+	          Cannonical does not guarantee complete technical support and
+	          security updates"
+	          * Remove the frame beneath the browser_custom. it should be drawn
+	          by the widget code itself, so that the frame does not enfolds the
+	          scrollbars, too
+	          * Set the width of the left side of the hpanes to 500 to ensure
+	          that it is larger than the category viewer
+	          * Set the height of the package viewer to 150
+
+2006-01-20 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[213.1.2] * finalized changelog
+
+2006-01-19 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[213.1.1] * initial commit of the new-look branch, basicly working (modulo
+	          bugs)
+
+2006-01-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[213] * close-button is cancel now
+	      * added "..." ubuntu: #22475
+
+2006-01-10 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[212] * about:blank is understood by GtkHtml2 view now
+	[211] * changelog finalized
+	[210] * desktop environment guessing added
+	[209] [merge] * merged with my laptop branch
+	              * threading support for fetching external uris
+	              * apt-key support
+	              * license display/acceptance
+	[208.1.2] * license display code started
+
+2006-01-06 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[208.1.1] * added support for channel keys
+
+2006-01-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[208] * be more robust about broken desktop files (e.g. missing Name=value
+	      tags)
+	[207] * show the menu path in the newly installed applications
+	[206] * disconnect the model from the view before doing a search, otherwise
+	      g-a-i crashs
+	[205] * AppInstall/AppInstall.py: show version information in info page
+	      * AppInstall/BrowserView.py: commented out the gtkembedmoz stuff
+	      * data/template.html: added version
+
+2006-01-02 Michael Vogt <egon@top> 
+
+	[204] * removed some auto* files
+
+2005-12-28 Michael Vogt <egon@top> 
+
+	[203] * AppInstall/AppInstall.py: minor cleanups in the generateInfoPage
+	      code
+	[202] * improve the icon display on gtkhtml2
+	[201] * data/gnome-app-install.glade: typo in row_activate signal
+	[200] * AppInstall/AppInstall.py:
+	        - only display information about multiple packages if there are
+	      actually multiple packages
+	[199] * show progress for desktop file reading
+	[198] * po/*.po:
+	        - make update-po
+	[197] * set version in about dialog
+
+2005-12-21 Michael Vogt <egon@top> 
+
+	[196] * some more fixes to the desktop files
+	[195] * changelog adjusted
+	[194] * fix in the icondir
+	[193] * removed loads of no-longer used desktop icons
+	[192] * removed some obsolete dekstop files
+	      * fixed some problem in existing ones
+	[191] * blacklist some more stuff
+	[190] * added the new desktop files from dapper
+	[189] * re-run the desktop file extraction on dapper
+	[188] * make sure that lines always ends with "\n" when writing the desktop
+	      file
+	[187] * implemented package transform code
+
+2005-12-20 Michael Vogt <egon@top> 
+
+	[186] * fix in the correct "-common"/"-data" pkgs code
+	[185] * implemented blacklist
+	[184] * simple fixer for "-data", "-common" pkgs
+	[183] * fix typo in error handling
+	[182] * properly extract the icon
+	[181] * update the cache and clean up when extracting the menu data
+	[180] * do useful extraction now, don't use xdg.Menu for it (not available
+	      on the server we run the script on)
+	[179] * fix some small errors
+	[178] * make it usable again
+	[177] * started to re-write the getMenuData tool
+	[176] * added _refilter() function that is called when
+	      "show_unsupport/show_proprietary" is set
+	[175] * rewrote the search, put the actual search into the ApplicationMenu
+	      class
+	      * don't use a FilteredApt cache anymore, was a stupid idea from the
+	      begining
+	        -> much faster now
+	      * the ApplicationMenu gets the treeview as argument now that it will
+	      be
+	        displayed in
+
+2005-12-19 Michael Vogt <egon@top> 
+
+	[174] * make the browser a glade custom widget
+	      * AppInstall/Menu.py: add a filter for proprietary and unsupported
+	      stuff for the main view
+	[173] * typo fix (#21251)
+	[172] * po/*: make update-po
+	      * AppInstall/AppInstall.py: restored the default icon
+
+2005-12-16 Michael Vogt <egon@top> 
+
+	[171] * AppInstall/BrowserView.py: removed debug output
+	      * data/gnome-app-install.desktop.in: removed translations from this
+	      file
+	      * debian/changelog: finalized and uploaded
+	[170] * make the gtkhtml2 browser view usable
+	[169] * some comments added
+	      * skype is proprietary
+	      * read proprietary property on a desktop file as well
+	[168] * added reload menu item (for testing, will go away again)
+	      * execl() synaptic when advanced is run
+	[167] * moved the menu specifiy code out to Menu.py
+
+2005-12-15 Michael Vogt <egon@top> 
+
+	[166] * doc updates
+	[165] * fixes in the add new componenet code
+	[164] * cleaned up "search"
+	[163] * newly installed cleaned up
+	[162] * cleaned up the multiple apps per package support
+	[161] * massive code cleanups in AppInstall.py, the *huge* liststore is
+	      gone and replaced with a small one that only contains "type, name,
+	      item". all the interesstign things are in the item object that is a
+	      proper python object
+
+2005-12-13 Michael Vogt <egon@top> 
+
+	[160] * bugfixes
+	      * added bzr as a example for a third party repository
+	[159] * very basic support for channels added
+	[158] * changelog updates
+	[157] * use sources.list.d directory now add components
+	[156] * moved the PackageWorker into PackageWorker.py
+	      * moved the apt search into Util.py (should probably end up in it's
+	      own file)
+	      * more cleanups, removed a lot of cruft
+	[155] * more cleanups
+	[154] * moved the dialogs for multiple installed apps out to
+	      DialogMultipleApps.py
+	      * moved the dialog for apps currently unavailable in the repo out
+	      into
+	        DialogUnavailable.py
+
+2005-12-12 Michael Vogt <egon@top> 
+
+	[153] * add/remove and the newly_installed dialog seems to work again
+	[152] * fixes in the newly installed dialog
+	[151] * moved the "pendingChange" code into DialogPendingChanges.py
+	      * moved some common stuff into Util.py
+	[150] * AppInstall/AppInstall.py:
+	        - moved the newly installed dialog into DialogNewlyInstalled.py
+	[149] * abstracted (or rather started to abstract) the browser into it's
+	      own
+	        file/class AppInstall/BrowserView.py
+	      * move the progress-window into AppInstall/Progress.py
+	[148] * AppInstall/SimpleGladeApp.py:
+	        - added SimpleGladeApp
+	      * renamed src to AppInstall
+	      * switched to distutils
+	      * switched to bzr in debian/rules arch-build
+
+2005-10-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[147] * depend on firefox|mozilla-firefox, dekstop file updates
+	[146] * various small fixes
+
+2005-10-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[145] * latest upload
+
+2005-09-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[144] * fix incorrect sections, make searching multiple times work
+	[143] * locking added, added dependency to mozilla-firefox
+
+2005-09-23 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[142] * depend on gnome-icon-theme
+
+2005-09-21 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[141] * lbreakout2 added
+
+2005-09-19 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[140] * preparing a new upload with some more menu-file fixes
+
+2005-09-14 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[139] * more fixes for the menu-data desktop files
+
+2005-09-13 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[138] * typo fix in the init window
+
+2005-09-12 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[137] * fail if not running as root
+	[136] * fix to wrongly assigned sections
+	[135] * removed bits of kdevelop3, added *.menu to data/Makefile.am
+	[134] * lot's of menu-data fixes (see debian/changelog for details)
+
+2005-09-08 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[133] * fix for #14859
+	[132] * fix #14858
+	[131] * tyo fix (ubuntu #14857)
+	[130] * small ui fixes to the cache init window
+
+2005-09-07 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[129] * merge with niran
+	[128] * merged from niran
+
+2005-09-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[127] * more cleanups in featured.txt and the menu-data
+	[126] * ooo2 is a featured application now
+
+2005-09-02 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[125] * merge from niran
+
+2005-08-31 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[124] * merged with nirans tree
+
+2005-08-26 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[123] * improvements to the apt interface
+	[122] * fix gnumeric.desktop file
+	[121] * merged from niran
+
+2005-08-25 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[120] * make search case insensitive
+	[119] * launchpad integration, search improvments
+
+2005-08-18 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[118] * more checks in the verify script
+
+2005-08-16 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[117] * pending dialog improvements
+
+2005-08-15 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[116] * abiword -> abiword-gnome
+	[115] * use utf-8 in data/template.html
+	[114] * verfiyDesktopFile.py added
+	[113] * changelog updates, carfully check if a install is save
+	[112] * conflicts with gnome-app-install-data, merged with niran
+
+2005-08-12 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[111] * undo the packaging split
+
+2005-08-11 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[110] * merged from niran
+
+2005-08-09 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[109] * removed more icons from menu-data-old/icons
+	[108] * removed the icons from menu-data-old, beezy -> breezy in changelog
+	[107] * removed a lot of old desktop files (from menu-data-old, and menu-
+	      data-orig)
+	[106] * typo
+	[105] * minor fixes
+	[104] * don't remove applications if other apps depend on them
+	[103] * about dialog added
+	[102] * cache progress window added
+	[101] * bugfixes
+	[100] * g-a-i builds a g-a-i and g-a-i-data package now
+	[99] * added debian dir, some cleanups in the glade code
+	[98] * merged from niran
+
+2005-08-05 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[97] * merged with niran
+
+2005-08-04 Michael Vogt <michael.vogt@ubuntu.com> 
+
+	[96] * os.tmpname() -> tempfile.NamedTemporaryFile()
+	[95] * ported to the new python-apt api, fix in data/Makefile.am
+	[94] tag of niran@niran.org--soc/gnome-app-install--niran--0--patch-24
+
+2005-08-03 Niran Babalola <niran@niran.org> 
+
+	[93] Fix .desktop file loading to load packages that apt doesn't know about
+	[92] Preserve changes made before editing repositories
+	[91] Show all programs and gray out uninstallable programs.
+	[90] Show all programs and gray out uninstallable programs.
+
+2005-08-01 Niran Babalola <niran@niran.org> 
+
+	[89] Fix bug when running synaptic and provide information about multiple
+	     programs in a package on the information page
+
+2005-07-31 Niran Babalola <niran@niran.org> 
+
+	[88] Notify the user when changing a package that provides multiple
+	     programs, and apply the change to each entry
+
+2005-07-29 Niran Babalola <niran@niran.org> 
+
+	[87] Added menu and repository configuration dialog
+
+2005-07-28 Niran Babalola <niran@niran.org> 
+
+	[86] Added missing applications.menu
+	[85] Conquered baz once and for all. I hope.
+	[84] Even more baz fixing
+
+2005-07-26 Niran Babalola <niran@niran.org> 
+
+	[83] more baz fixing
+	[82] baz fixing
+	[81] Added new menu-data directory
+	[80] Fixed menu-data/Makefile.am
+
+2005-07-22 Niran Babalola <niran@niran.org> 
+
+	[79] Added script to get .desktop files from a Debian mirror
+	[78] Added lots of .desktop files and moved many to submenus
+
+2005-07-11 Niran Babalola <niran@niran.org> 
+
+	[77] Implemented information page generation
+
+2005-07-09 Niran Babalola <niran@niran.org> 
+
+	[76] Moved checkbox column back to the right
+	[75] Code cleanup
+	[74] Show new programs after installation
+
+2005-07-08 Niran Babalola <niran@niran.org> 
+
+	[73] Made program installable
+
+2005-07-01 Niran Babalola <niran@niran.org> 
+
+	[72] Fixed signal handler blocking bug and added placeholder when there are
+	     no search results.
+	[71] Searching works now. It is glorious.
+
+2005-06-30 Niran Babalola <niran@niran.org> 
+
+	[70] Added mozembed, search field, and made menu entries selectable.
+	     Installing won't work right now, run src/AppInstall.py from the root
+	     directory.
+	[69] tag of gnome-app-install@bazaar.ubuntu.com/gnome-app-install--MAIN--0
+	     --patch-67
+
+2005-06-30 Arch Librarian <arch@canonical.com> 
+
+	[68] Filler changeset 1.1->1.1.1.1
+	[67] Filler changeset 1.1->1.1.1.1
+	[66] Filler changeset 1.1->1.1.1.1
+	[65] Filler changeset 1.1->1.1.1.1
+	[64] Filler changeset 1.1->1.1.1.1
+	[63] Filler changeset 1.1->1.1.1.1
+	[62] Filler changeset 1.1->1.1.1.1
+	[61] Filler changeset 1.1->1.1.1.1
+	[60] Filler changeset 1.1->1.1.1.1
+	[59] Filler changeset 1.1->1.1.1.1
+	[58] Filler changeset 1.1->1.1.1.1
+	[57] Filler changeset 1.1->1.1.1.1
+	[56] Filler changeset 1.1->1.1.1.1
+	[55] Filler changeset 1.1->1.1.1.1
+	[54] Filler changeset 1.1->1.1.1.1
+	[53] Filler changeset 1.1->1.1.1.1
+	[52] Filler changeset 1.1->1.1.1.1
+	[51] Filler changeset 1.1->1.1.1.1
+	[50] Filler changeset 1.1->1.1.1.1
+	[49] Filler changeset 1.1->1.1.1.1
+	[48] Filler changeset 1.1->1.1.1.1
+	[47] Filler changeset 1.1->1.1.1.1
+	[46] Filler changeset 1.1->1.1.1.1
+	[45] Filler changeset 1.1->1.1.1.1
+	[44] Filler changeset 1.1->1.1.1.1
+	[43] Filler changeset 1.1->1.1.1.1
+	[42] Filler changeset 1.1->1.1.1.1
+	[41] Filler changeset 1.1->1.1.1.1
+	[40] Filler changeset 1.1->1.1.1.1
+	[39] Filler changeset 1.1->1.1.1.1
+	[38] Filler changeset 1.1->1.1.1.1
+	[37] Filler changeset 1.1->1.1.1.1
+	[36] Filler changeset 1.1->1.1.1.1
+	[35] Filler changeset 1.1->1.1.1.1
+	[34] Filler changeset 1.1->1.1.1.1
+	[33] Filler changeset 1.1->1.1.1.1
+	[32] Filler changeset 1.1->1.1.1.1
+	[31] Filler changeset 1.1->1.1.1.1
+	[30] Filler changeset 1.1->1.1.1.1
+	[29] Filler changeset 1.1->1.1.1.1
+	[28] Filler changeset 1.1->1.1.1.1
+	[27] Filler changeset 1.1->1.1.1.1
+	[26] Filler changeset 1.1->1.1.1.1
+	[25] Filler changeset 1.1->1.1.1.1
+	[24] Filler changeset 1.1->1.1.1.1
+	[23] Filler changeset 1.1->1.1.1.1
+	[22] Filler changeset 1.1->1.1.1.1
+	[21] Filler changeset 1.1->1.1.1.1
+	[20] Filler changeset 1.1->1.1.1.1
+	[19] Filler changeset 1.1->1.1.1.1
+	[18] Filler changeset 1.1->1.1.1.1
+	[17] Filler changeset 1.1->1.1.1.1
+	[16] Filler changeset 1.1->1.1.1.1
+	[15] Filler changeset 1.1->1.1.1.1
+	[14] 2005-06-27  Gabor Kelemen  <kelemeng@gnome.hu>
+	[13] 2005-06-27  Gabor Kelemen  <kelemeng@gnome.hu>
+	[12] 2005-06-23  Adam Weinberger  <adamw@gnome.org>
+	[11] 2005-06-22  Marcel Telka  <marcel@telka.sk>
+	[10] 2005-06-22  Marcel Telka  <marcel@telka.sk>
+	[9] Added Simplified Chinese translation.
+	[8] 2005-06-19  Christian Rose  <menthos@menthos.com>
+	[7] * Changelog:
+	[6] * src/appInstall.py:
+	[5] * configure.in, po/fr.po
+	[4] * Changelog:
+	[3] * src/AppInstall.py:
+	[2] Add Polish translation
+	[1] Initial revision
