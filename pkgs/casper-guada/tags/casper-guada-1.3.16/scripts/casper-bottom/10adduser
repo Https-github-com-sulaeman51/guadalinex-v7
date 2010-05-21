@@ -68,20 +68,4 @@ if [ -L /root/home/$USERNAME/Examples ]; then
     mv /root/home/$USERNAME/Examples /root/home/$USERNAME/Escritorio/
 fi
 
-#Kubuntu (KDE 3)
-if [ -f "/root/usr/bin/konqueror" ]; then
-    if [ -f "/root/usr/share/apps/khelpcenter/plugins/kubuntu/about-kubuntu.desktop.tobemoved" ]; then
-      chroot /root install -d -o $USERNAME -g $USERNAME /home/$USERNAME/Escritorio
-      chroot /root install -D -o $USERNAME -g $USERNAME /usr/share/apps/khelpcenter/plugins/kubuntu/about-kubuntu.desktop.tobemoved /home/$USERNAME/Escritorio/about-kubuntu.desktop
-    fi
-fi
-#Kubuntu (KDE 4)
-if [ -f "/root/usr/lib/kde4/bin/plasma" ]; then
-    if [ -f "/root/usr/share/apps/khelpcenter/plugins/kubuntu/about-kubuntu.desktop.tobemoved" ]; then
-      chroot /root install -d -o $USERNAME -g $USERNAME /home/$USERNAME/Escritorio
-      chroot /root ln -s /usr/share/doc/kde/HTML/en/kubuntu/about-kubuntu/index.html "/home/$USERNAME/Escritorio/About Kubuntu"
-      chroot /root chown $USERNAME.$USERNAME "/home/$USERNAME/Escritorio/About Kubuntu"
-    fi
-fi
-
 log_end_msg
