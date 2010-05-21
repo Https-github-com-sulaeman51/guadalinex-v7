@@ -19,5 +19,6 @@ ln -fs /usr/share/casper-guada/data/diverts/ubiquity-dm /usr/bin/ubiquity-dm
 dpkg-divert --package casper-guada --add --rename \
          --divert /usr/bin/cairo-check.real /usr/bin/cairo-check
 ln -fs /usr/share/casper-guada/data/diverts/cairo-check /usr/bin/cairo-check
+chmod +x /usr/share/casper-guada/data/diverts/cairo-check
 
 #DEBHELPER#
