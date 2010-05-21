@@ -77,7 +77,7 @@ if __name__ == "__main__":
     tmp=windows_manager.split('/')
     windows_manager=tmp[len(tmp)-1]
     ps = subprocess.Popen(['pgrep', windows_manager],stdout=subprocess.PIPE).communicate()[0]
-    while not ps:
+    while ((not ps) and (not ps.isspace())):
         time.sleep(1)
         ps = subprocess.Popen(['pgrep',windows_manager],stdout=subprocess.PIPE).communicate()[0]
   
