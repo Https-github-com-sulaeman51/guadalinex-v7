@@ -11,6 +11,7 @@
 # option) any later version.  See http://www.gnu.org/copyleft/gpl.html for
 # the full text of the license.
 
+sleep 12
 
 glxinfo|grep rendering
 
