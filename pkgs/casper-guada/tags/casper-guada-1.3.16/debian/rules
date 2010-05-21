@@ -24,7 +24,7 @@ install: build
 	dh_installdirs
 	dh_install
 	install -m755 casper-md5check-es/casper-md5check-es debian/casper-guada/usr/lib/casper-guada/casper-md5check
-	install -m644 casper.conf debian/casper-guada/usr/share/casper-guada/casper.conf
+	install -m644 data/diverts/casper.conf debian/casper-guada/usr/share/casper-guada/data/diverts/casper.conf
 # this is not working a HACK was done in its place
 #
 #	for L in po/*.po ; do \
