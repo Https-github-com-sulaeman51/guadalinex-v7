@@ -1,3 +1,11 @@
+lemurae (0.3.0) lucid; urgency=low
+
+  * New version for Lucid
+  * Changed depends python-gnome2-extra to python-gnome2-extra-dbg and
+  python-gnome2-extra-dev
+
+ -- David Amián Valle <amialinux@gmail.com>  Fri, 26 Mar 2010 13:59:35 +0100
+
 lemurae (0.2.5) unstable; urgency=low
 
   * Updated Standards-version
