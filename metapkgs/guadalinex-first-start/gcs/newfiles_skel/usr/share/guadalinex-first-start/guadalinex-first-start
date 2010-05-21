@@ -74,7 +74,7 @@ class FirstStart:
 if __name__ == "__main__":
     client=gconf.client_get_default()
     windows_manager=client.get_string('/desktop/gnome/applications/window_manager')
-    tmp=self.windows_manager.split('/')
+    tmp=windows_manager.split('/')
     windows_manager=tmp[len(tmp)-1]
     ps = subprocess.Popen(['pgrep', windows_manager],stdout=subprocess.PIPE).communicate()[0]
     while not ps:
