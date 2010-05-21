@@ -6,6 +6,8 @@ import gtk
 import sys
 import os
 import gconf
+import subprocess
+import time
 
 
 message_text = """
@@ -44,9 +46,11 @@ class FirstStart:
 
         self.dialog.set_resizable(False)
         self.windows_manager=self.client.get_string('/desktop/gnome/applications/window_manager')
+        tmp=self.windows_manager.split('/')
+        self.windows_manager=tmp[len(tmp)-1]
         ps = subprocess.Popen(['pgrep', self.windows_manager],stdout=subprocess.PIPE).communicate()[0]
         while not ps:
-            sleep(1)
+            time.sleep(1)
             ps = subprocess.Popen(['pgrep',self.windows_manager],stdout=subprocess.PIPE).communicate()[0]
         
         self.hcontainer.show()
