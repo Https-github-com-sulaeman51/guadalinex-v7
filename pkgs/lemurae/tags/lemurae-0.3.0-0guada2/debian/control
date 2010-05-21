@@ -12,7 +12,7 @@ Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/lemurae/trunk
 
 Package: lemurae
 Architecture: all
-Depends: python, python-eggtrayicon
+Depends: python, python-eggtrayicon, python-gtkmozembed
 Description: Graphical frontend in gtk for DRAE
  Graphical frontend in gtk for DRAE: Diccionario de la Real Academia de
  la Lengua Española (Royal Spanish Language Academy Dictionary).
