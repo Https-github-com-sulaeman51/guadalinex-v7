@@ -14,6 +14,10 @@ if [ remove = "$1" ]; then
     rm -f /usr/bin/ubiquity-dm
     dpkg-divert --package casper-guada --remove --rename \
              --divert /usr/bin/ubiquity-dm.real /usr/bin/ubiquity-dm
+    rm -f /usr/bin/cairo-check
+    dpkg-divert --package casper-guada --remove --rename \
+             --divert /usr/bin/cairo-check.real /usr/bin/cairo-check
+
 fi
 
 #DEBHELPER#
