@@ -65,8 +65,8 @@ TEXT_URGENT1="Please remove the disc, close the tray (if any)"
 TEXT_URGENT2="and press ENTER to continue"
 
 # Translated text
-NEW_TEXT="Por favor, extraiga el CDROM, cierre la bandeja (si tiene) y pulse ENTER: "
-NEW_TEXT_URGENT1="Por favor, extraiga el CDROM, cierre la bandeja (si tiene)"
+NEW_TEXT="Por favor, extraiga el disco, cierre la bandeja (si tiene) y pulse ENTER: "
+NEW_TEXT_URGENT1="Por favor, extraiga el disco, cierre la bandeja (si tiene)"
 NEW_TEXT_URGENT2="y pulse ENTER para continuar"
 
 # The change
