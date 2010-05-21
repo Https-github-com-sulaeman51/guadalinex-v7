@@ -28,6 +28,8 @@ class FirstStart:
         self.dialog = gtk.Dialog ("Primer inicio", None, 0, 
                                   (gtk.STOCK_NO, gtk.RESPONSE_REJECT,
                                   gtk.STOCK_YES, gtk.RESPONSE_ACCEPT))
+        self.dialog.set_position(gtk.WIN_POS_CENTER_ALWAYS)
+        self.dialog.set_type_hint(gtk.gdk.WINDOW_TYPE_HINT_NORMAL)
 	self.mainLabel = gtk.Label()
         self.mainLabel.set_markup(message_text)
         self.checkShow = gtk.CheckButton(check_text)
