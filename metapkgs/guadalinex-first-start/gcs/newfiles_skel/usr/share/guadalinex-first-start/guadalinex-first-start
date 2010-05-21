@@ -34,7 +34,6 @@ class FirstStart:
         self.image = gtk.Image()
         self.image.set_from_file(image_src)
         self.align = gtk.Alignment(0.5, 0.5, 0, 0)
-        self.client=gconf.client_get_default()
 
         self.hcontainer = gtk.HBox(False, 10)
         self.hcontainer.set_border_width(5)
@@ -45,13 +44,6 @@ class FirstStart:
         self.dialog.vbox.pack_start(self.checkShow, True, True, 0)
 
         self.dialog.set_resizable(False)
-        self.windows_manager=self.client.get_string('/desktop/gnome/applications/window_manager')
-        tmp=self.windows_manager.split('/')
-        self.windows_manager=tmp[len(tmp)-1]
-        ps = subprocess.Popen(['pgrep', self.windows_manager],stdout=subprocess.PIPE).communicate()[0]
-        while not ps:
-            time.sleep(1)
-            ps = subprocess.Popen(['pgrep',self.windows_manager],stdout=subprocess.PIPE).communicate()[0]
         
         self.hcontainer.show()
         self.align.show()
@@ -80,6 +72,15 @@ class FirstStart:
         gtk.main()
 
 if __name__ == "__main__":
+    client=gconf.client_get_default()
+    windows_manager=client.get_string('/desktop/gnome/applications/window_manager')
+    tmp=self.windows_manager.split('/')
+    windows_manager=tmp[len(tmp)-1]
+    ps = subprocess.Popen(['pgrep', windows_manager],stdout=subprocess.PIPE).communicate()[0]
+    while not ps:
+        time.sleep(1)
+        ps = subprocess.Popen(['pgrep',windows_manager],stdout=subprocess.PIPE).communicate()[0]
+  
     try:
         os.readlink("/rofs/initrd.img")
     except:
