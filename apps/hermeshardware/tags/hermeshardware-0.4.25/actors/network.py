@@ -71,13 +71,13 @@ class Actor (DeviceActor):
 
     def on_added(self):
         interface = self.properties['net.interface']
-        self.msg_render.show(__device_title__, 
+        self.msg_render.show(self.__device_title__, 
                 _("Connected network interface %s") % interface,
-                __icon_path__)
+                self.__icon_path__)
 
     def on_removed(self):
         interface = self.properties['net.interface']
-        self.msg_render.show(__device_title__, 
+        self.msg_render.show(self.__device_title__, 
                 _("Disconnected network interface %s") % interface,
-                __iconoff_path__)
+                self.__iconoff_path__)
 
