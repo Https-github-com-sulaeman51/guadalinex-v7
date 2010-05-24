@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: iso-8859-1 -*-
+# -*- coding: UTF8 -*-
 
 # grubaker2 0.1
 # author: Alfonso E.M. alfonso@el-magnifico.org
@@ -8,13 +8,21 @@
 import re
 import pygtk
 pygtk.require ('2.0')
-import gtk
+import gtk, gtk.glade
 import os, subprocess
+import locale
+import gettext
+
+PREFIX="/usr/local/"
+
+gettext.install("grubaker2")
+gtk.glade.textdomain("grubaker2")
+gtk.glade.bindtextdomain("grubaker2")
 
 class GrubMenu:
   """ This class reads current grub configuration and loads an array with menu items 
   """
-  def __init__(self,filename="/boot/grub/grub.cfg"):
+  def __init__(self,filename=PREFIX+"/boot/grub/grub.cfg"):
     self.filename=filename
     self.menuentry=[]
     self.load_file()
@@ -24,7 +32,7 @@ class GrubMenu:
     try:
       file=open(self.filename)
     except:
-      print "ERROR: current  grub configuration is not readable"
+      print _("ERROR: current  grub configuration is not readable")
       return
     
     for line in file:
@@ -47,7 +55,7 @@ class GrubDefaults:
   """ A class containing default configuration for grub extracted from /etc/default/grub
       reading from and writing to file methods are included
   """
-  def __init__(self,filename="/etc/default/grub"):
+  def __init__(self,filename=PREFIX+"/etc/default/grub"):
     self.config={}
     self.filename=filename
     self.load_file()
@@ -57,7 +65,7 @@ class GrubDefaults:
     try:
       file=open(self.filename)
     except:
-      print "ERROR: default grub configuration is not readable"
+      print _("ERROR: default grub configuration is not readable")
       return
     
     self.filecontent=file.readlines()   
@@ -107,7 +115,7 @@ class GrubDefaults:
     try:
       file=open(self.filename,"w")
     except:
-      print "ERROR: default grub configuration is not writable"
+      print _("ERROR: default grub configuration is not writable")
       return
 # write original config with modificated lines
     for line in self.filecontent:
@@ -124,21 +132,19 @@ class GrubDefaults:
 
 
   def update_grub(self):
-
-#    status=subprocess.call(["/usr/sbin/update-grub"])
-    status=subprocess.call(["/bin/ls","-l"])
+    status=subprocess.call([PREFIX+"/usr/sbin/update-grub"])
     return status
 	
 	
 class Gui:
-	def __init__(self,grubdefaults,grubmenu):
+  def __init__(self,grubdefaults,grubmenu):
 		"""
 		In this init the main window is displayed
 		"""
 		dic = {
 			 "on_button_cancel_clicked" : (self.quit),
 			 "on_button_ok_clicked" : (self.save),
-		         "on_window_main_destroy" : (self.quit), 
+       "on_window_main_destroy" : (self.quit), 
 		}
 
 		self.grubdefaults=grubdefaults
@@ -146,7 +152,7 @@ class Gui:
 		self.grubmenu=grubmenu
 
 		glade1 = gtk.Builder()
-		glade1.add_from_file("./grubaker2.glade")
+		glade1.add_from_file(PREFIX+"/share/grubaker2/grubaker2.ui")
 		glade1.connect_signals(dic)
 
 
@@ -186,12 +192,12 @@ class Gui:
                 if grubdefaults.config.has_key("GRUB_TIMEOUT") and grubdefaults.config["GRUB_TIMEOUT"].status=="":
                   self.spin_timeout.set_value(int(self.grubdefaults.config["GRUB_TIMEOUT"].value))
 
-        def alert(self,message):
+  def alert(self,message):
          dialog = gtk.MessageDialog(None, gtk.DIALOG_MODAL, gtk.MESSAGE_INFO, gtk.BUTTONS_CLOSE, message)
          dialog.run()
          return dialog
 
-	def save(self,widget):
+  def save(self,widget):
           # save selected bootable system
           selection=self.combo_menuentry.get_active()
       	  title=self.list_menuentry[selection][0]
@@ -215,37 +221,37 @@ class Gui:
 
           self.grubdefaults.save_file()
           status=self.grubdefaults.update_grub()
-          print status
+
           if status==0:
-            windows=self.alert("Menu de arranque regenerado")
+            message=_("Menu de arranque regenerado")
           else: 
-            windows=self.alert("La regeneración del menú de arranque ha fallado")
+            message=_("La regeneración del menú de arranque ha fallado")					
+          windows=self.alert(message)
           windows.destroy()
           
 	  self.quit()
 
-	def run(self):
-		gtk.main()
+  def run(self):
+    gtk.main()
 
-	def quit(*args):
-		if hasattr(gtk, 'main_quit'):
-	            gtk.main_quit()
-	        else:
-	            gtk.mainquit()
+  def quit(*args):
+    if hasattr(gtk, 'main_quit'):
+      gtk.main_quit()
+    else:
+      gtk.mainquit()
 
 
 
 # Main
 def main():
-	
+
 # Current menu configuration
-	grubmenu=GrubMenu(filename="sampledata/boot.grub/grub.cfg")
-#	grubmenu=GrubMenu()
+  grubmenu=GrubMenu()
+
 # Default options
-	grubdefaults=GrubDefaults(filename="sampledata/etc.default.grub")
-#	grubdefaults=GrubDefaults()
-	app=Gui(grubdefaults,grubmenu)
-	app.run()
+  grubdefaults=GrubDefaults()
+  app=Gui(grubdefaults,grubmenu)
+  app.run()
 	  
 
 if __name__ == '__main__':
