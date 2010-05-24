@@ -10,7 +10,7 @@ Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/hermeshardware/
 Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/hermeshardware/trunk
 
 Package: hermeshardware
-Architecture: any
+Architecture: all
 Depends: hal, dbus, python-dbus, python-yaml, python, notification-daemon, xsltproc, libsane, hermeshardware-descriptors, hermeshardware-actors, python-gnome2-extras, python-glade2, python-apt, synaptic ${shlibs:Depends}, ${misc:Depends}
 Description: Detección y soporte de dispositivos
  Engloba tanto las tareas de detección y soporte de dispositivos, 
@@ -19,7 +19,7 @@ Description: Detección y soporte de dispositivos
 
 Package: hermeshardware-actors
 Depends: hermeshardware, ${shlibs:Depends}, ${misc:Depends}
-Architecture: any
+Architecture: all
 Description: Set de actores Hermes
  Engloba tanto las tareas de detección y soporte de dispositivos, 
  como aquellas que tienen que ver con la  configuración de los mismos 
@@ -28,7 +28,7 @@ Description: Set de actores Hermes
  Este es el set de actores para el sistema de detección de hardware.
 
 Package: hermeshardware-guada
-Architecture: any
+Architecture: all
 Depends: hermeshardware
 Conflicts: hermeshardware-kde
 Provides: hermeshardware-descriptors
