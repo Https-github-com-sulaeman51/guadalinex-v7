@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+if [ remove = "$1" ]; then
+    rm -f /usr/lib/ubiquity/ubiquity/frontend/__init__.py 
+    dpkg-divert --package guada-ubiquity --remove --rename \
+             --divert /usr/lib/ubiquity/ubiquity/frontend/__init__.py.real /usr/lib/ubiquity/ubiquity/frontend/__init__.py
+
+fi
+
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-language.py  /usr/lib/ubiquity/plugins/
+dpkg-divert --package guada-ubiquity --remove --divert /usr/lib/ubiquity/plugins/ubi-language.py
+
+
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-timezone.py  /usr/lib/ubiquity/plugins/
+dpkg-divert --package guada-ubiquity --remove --divert /usr/lib/ubiquity/plugins/ubi-timezone.py
+
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-console-setup.py  /usr/lib/ubiquity/plugins/
+dpkg-divert --package guada-ubiquity --remove --divert /usr/lib/ubiquity/plugins/ubi-console-setup.py
+
+
+
