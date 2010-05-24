@@ -1,6 +1,13 @@
+hermeshardware (0.4.24ubuntu1) jaunty; urgency=low
+
+  * Added new actor for accesibility hardware enpathia
+  * Added images for hardware enpathia
+
+ -- David Amián Valle <amian@amialinux@gmail.com>  Mon, 19 Apr 2010 13:43:20 +0200
+
 hermeshardware (0.4.23ubuntu1) jaunty; urgency=low
 
-  * Added new actor fot SCR331 SmartCard Reader device
+  * Added new actor for SCR331 SmartCard Reader device
   * Added images for hardware SCR331 SmartCard Reader
   
  -- David Amián Valle <amialinux@gmail.com>  Thu, 12 Nov 2009 12:21:16 +0100
