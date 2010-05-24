@@ -1,0 +1,53 @@
+amigu (0.7.6-0guada3) lucid; urgency=low
+
+  * Deleted pycompat
+
+ -- David Amián Valle <amialinux@gmail.com>  Mon, 24 May 2010 16:08:17 +0200
+
+amigu (0.7.6-0guada2) lucid; urgency=low
+
+  * Added watch file
+
+ -- David Amián Valle <amialinux@gmail.com>  Wed, 19 May 2010 18:23:01 +0200
+
+amigu (0.7.6-0guada1) lucid; urgency=low
+
+  * Lucid debianization
+
+ -- David Amián Valle <amialinux@gmail.com>  Wed, 19 May 2010 18:00:06 +0200
+
+amigu (0.7.6) lucid; urgency=low
+
+  * Fixed bugs
+  * Added dependencies:
+    - gvfs
+  * Better compatibility with Windows 7
+  * More control of tasks
+
+ -- Fernando <fruiz@forja.guadalinex.org>  Tue, 11 May 2010 14:30:57 +0200
+
+amigu (0.7.5-1) lucid; urgency=low
+
+  * Fixed Bugs
+  * Removed dependencies:
+    - gnome-mount (DEPRECATED)
+  * Added dependencies:
+    - os-prober
+    - gksudo
+
+ -- Fernando Ruiz <fruiz@forja.guadalinex.org>  Wed, 5 May 2010 16:31:34 +0200
+
+
+amigu (0.7.3-2) jaunty; urgency=low
+
+  * Cleaned up package:
+    - Removed unused templates
+    - Removed build temp files
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 22 May 2009 12:01:34 +0200
+
+amigu (0.7.3-1) testing; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Fernando Ruiz <fruiz@forja.guadalinex.org>  Fri, 22 May 2009 12:01:34 +0200
