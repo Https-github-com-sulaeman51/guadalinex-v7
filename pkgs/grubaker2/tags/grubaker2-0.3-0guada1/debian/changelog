@@ -1,3 +1,9 @@
+grubaker2 (0.2-0guada1) lucid; urgency=low
+
+  * New upstream version
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 18 May 2010 11:42:15 +0200
+
 grubaker2 (0.1-0guada2) lucid; urgency=low
 
   * Added debian/watch
