@@ -89,6 +89,15 @@ msgstr "Cámara digital conectada."
 msgid "Digital camera disconnected"
 msgstr "Cámara digital desconectada"
 
+#: ../actors/enpathia.py:68
+msgid "Enpathia connected"
+msgstr "Enpathia conectado"
+
+#: ../actors/enpathia.py:69
+msgid "Enpathia disconnected"
+msgstr "Enpathia desconectado"
+
+
 #: ../actors/disc.py:70
 msgid "Disc"
 msgstr "Disco"
