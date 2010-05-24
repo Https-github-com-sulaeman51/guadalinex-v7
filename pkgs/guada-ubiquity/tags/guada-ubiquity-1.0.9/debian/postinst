@@ -4,9 +4,22 @@ set -e
 
 #DEBHELPER#
 
-dpkg-divert --package guada-ubiquity --add --rename \
-         --divert /usr/lib/ubiquity/ubiquity/frontend/__init__.py.real /usr/lib/ubiquity/ubiquity/frontend/__init__.py
-ln -fs /usr/lib/guada-ubiquity/ubiquity/frontend/__init__.py /usr/lib/ubiquity/ubiquity/frontend/__init__.py
+#dpkg-divert --package guada-ubiquity --add --rename \
+#         --divert /usr/lib/ubiquity/ubiquity/frontend/__init__.py.real /usr/lib/ubiquity/ubiquity/frontend/__init__.py
+#ln -fs /usr/lib/guada-ubiquity/ubiquity/frontend/__init__.py /usr/lib/ubiquity/ubiquity/frontend/__init__.py
+
+mkdir /usr/share/ubiquity/ubiquity-oldplugins
+dpkg-divert --package guada-ubiquity --add --divert /usr/lib/ubiquity/plugins/ubi-language.py
+mv /usr/lib/ubiquity/plugins/ubi-language.py /usr/share/ubiquity/ubiquity-oldplugins/
+
+
+dpkg-divert --package guada-ubiquity --add --divert /usr/lib/ubiquity/plugins/ubi-timezone.py
+mv /usr/lib/ubiquity/plugins/ubi-timezone.py /usr/share/ubiquity/ubiquity-oldplugins/
+
+
+dpkg-divert --package guada-ubiquity --add --divert /usr/lib/ubiquity/plugins/ubi-console-setup.py
+mv /usr/lib/ubiquity/plugins/ubi-console-setup.py /usr/share/ubiquity/ubiquity-oldplugins/
+
 
 
 DESKTOP_FILE="/usr/share/applications/ubiquity-gtkui.desktop"
