@@ -52,31 +52,26 @@ import sys
 
 import gtk
 import gobject
-from egg.trayicon import TrayIcon
 
-class HermesTrayIcon(TrayIcon):
+class HermesTrayIcon():
     """ 
     [es] 
     -----------------------------------------------------------------------
     [en] 
     """
     def __init__(self):
-        TrayIcon.__init__(self, 'Hermes TrayIcon')
 
         # Set up icon 
         self.button = gtk.Button()
         self.button.set_relief(gtk.RELIEF_NONE)
-        event_box = gtk.EventBox()
-        event_box.connect("button-press-event", self.on_mouse_press)
-        image = gtk.Image()
-        event_box.add(image)
-        image.set_from_file('/usr/share/hermes/img/logo_16.png')
-        self.add(event_box)
+        self.sicon =
+        gtk.status_icon_new_from_file('/usr/share/hermes/img/logo_16.png')
+        self.sicon.set_visible(True)
+        self.sicon.connect("button-press-event", self.on_mouse_press)
 
         # Set up menu
         self.menu = HermesMenu()
 
-        self.show_all()
 
 
     def on_mouse_press(self, widget, event):
