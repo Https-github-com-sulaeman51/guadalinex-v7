@@ -12,3 +12,5 @@ Name[fr]=GLX-Dock (Cairo-Dock avec OpenGL)
 GenericName=Multi-purpose Dock and Desklets
 GenericName[fr]=Dock et Desklets multi-usage
 Categories=Utility;
+Name[es]=Barra de iconos animada (Cairo)
+Comment[es]=Barra inferior animada que aloja lanzadores, tareas, etc.
