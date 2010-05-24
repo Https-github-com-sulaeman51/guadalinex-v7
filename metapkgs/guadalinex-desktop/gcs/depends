@@ -5,7 +5,7 @@ acpi-support
 alacarte
 alsa-base
 alsa-utils
-#amigu disabled until code is changed for lucid
+amigu
 amule
 amule-utils
 anacron
