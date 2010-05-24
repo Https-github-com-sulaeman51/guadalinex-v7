@@ -1,3 +1,9 @@
+hermeshardware (0.4.25-0guada1) lucid; urgency=low
+
+  * Changed module TrayIcon to StatusIcon 
+
+ -- David Amián Valle <amialinux@gmail.com>  Mon, 24 May 2010 11:56:18 +0200
+
 hermeshardware (0.4.24-0guada1) lucid; urgency=low
 
   * Chaged format version to guada format 
