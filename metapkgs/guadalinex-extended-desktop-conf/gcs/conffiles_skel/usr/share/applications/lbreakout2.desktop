@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=LBreakout2
+Version=2.6
+Comment=A ball-and-paddle game with nice graphics.
+Exec=/usr/games/lbreakout2
+Icon=lbreakout2.xpm
+Type=Application
+Categories=Application;Game;
+Name[es]=Palas (LBreakbout2)
+Comment[es]=Rompe los ladrillos dandole a la pelota con la pala
