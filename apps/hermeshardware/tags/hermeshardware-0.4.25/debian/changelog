@@ -1,3 +1,10 @@
+hermeshardware (0.4.21ubuntu1) jaunty; urgency=low
+
+  * Added new actor for Gemplus GemPC Twin cardreader device
+  * Added images for hardware Gemplus GemPC Twin
+  
+ -- David Amián Valle <amialinux@gmail.com>  Wed, 30 Sep 2009 14:52:02 +0200
+
 hermeshardware (0.4.20ubuntu1) jaunty; urgency=low
 
   * Changed the deprecated 'dh_clean k' by dh_prep in the rules file
