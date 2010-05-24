@@ -1,4 +1,4 @@
-Source: grubaker
+Source: grubaker2
 Section: admin
 Priority: optional
 XSBC-Original-Maintainer: Alfonso de Cala <alfonso.cala@juntadeandalucia.es>
@@ -10,8 +10,8 @@ Homepage: http://launchpad.net/grubaker
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/grubaker/trunk/changes
 Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/grubaker/trunk
 
-Package: grubaker
+Package: grubaker2
 Architecture: any
 Depends: python, python-gtk2
-Description: utility to configurate grub
- useful to config boot in a graphical way.
+Description: Boot Menu Editor for grub2
+ useful to config boot options with no technical knowledge.
