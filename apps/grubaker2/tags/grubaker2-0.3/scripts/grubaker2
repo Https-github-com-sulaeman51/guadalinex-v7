@@ -14,6 +14,7 @@ import locale
 import gettext
 
 PREFIX="/"
+PREFIX="../testing/"
 
 gettext.install("grubaker2")
 gtk.glade.textdomain("grubaker2")
@@ -36,7 +37,7 @@ class GrubMenu:
       return
     
     for line in file:
-      r=re.search('^menuentry\s+["'](.*)["']\s+',line)
+      r=re.search('^menuentry\s+["\'](.*)["\']\s+',line)
       if r:
           title = r.group(1)
 	  self.menuentry.append(title)

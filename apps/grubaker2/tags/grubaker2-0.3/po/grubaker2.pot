@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-15 14:26+0200\n"
+"POT-Creation-Date: 2010-05-19 13:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,22 +16,22 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .././scripts/grubaker2:35
+#: .././scripts/grubaker2:36
 msgid "ERROR: current  grub configuration is not readable"
 msgstr ""
 
-#: .././scripts/grubaker2:68
+#: .././scripts/grubaker2:69
 msgid "ERROR: default grub configuration is not readable"
 msgstr ""
 
-#: .././scripts/grubaker2:118
+#: .././scripts/grubaker2:119
 msgid "ERROR: default grub configuration is not writable"
 msgstr ""
 
-#: .././scripts/grubaker2:226
+#: .././scripts/grubaker2:227
 msgid "Boot menu rebuilt"
 msgstr ""
 
-#: .././scripts/grubaker2:228
+#: .././scripts/grubaker2:229
 msgid "Boot menu rebuilding failed"
 msgstr ""
