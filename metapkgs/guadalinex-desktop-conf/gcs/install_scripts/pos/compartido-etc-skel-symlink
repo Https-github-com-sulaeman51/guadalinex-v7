@@ -1,1 +1,4 @@
-ln -s /home/compartido /etc/skel/Compartido
+if [ ! -h /etc/skel/Compartido ]
+then
+	ln -s /home/compartido /etc/skel/Compartido
+fi
