@@ -1,9 +1,9 @@
-hermeshardware (0.4.22ubuntu2) jaunty; urgency=low
+hermeshardware (0.4.23ubuntu1) jaunty; urgency=low
 
   * Added new actor fot SCR331 SmartCard Reader device
   * Added images for hardware SCR331 SmartCard Reader
-
- -- David Amián Valle <amialinux@gmail.com>  Thu, 12 Nov 2009 12:17:02 +0100
+  
+ -- David Amián Valle <amialinux@gmail.com>  Thu, 12 Nov 2009 12:21:16 +0100
 
 hermeshardware (0.4.22ubuntu1) jaunty; urgency=low
 
