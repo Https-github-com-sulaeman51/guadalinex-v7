@@ -1,7 +1,12 @@
-guada-ubiquity (1.0.9) jaunty; urgency=low
+guada-ubiquity (1.0.9) lucid; urgency=low
 
-  * added Plugins for new version (ubi-welcome), guada_ui removed (not needed),first
-    new ui added (for welcome plugin)
+  [ Adrian Belmonte Martin ]
+  * Added Plugins for new version (ubi-welcome), guada_ui removed (not needed),
+    first new ui added (for welcome plugin)
+
+  [ Roberto C. Morano ]
+  * debian/postinst: removed old template loading
+  * data/templates/sources.list: updated to Guadalinex V7's repositories
 
  -- Adrian Belmonte Martin <abelmonte@emergya.es>  Mon, 24 May 2010 11:11:48 +0200
 
