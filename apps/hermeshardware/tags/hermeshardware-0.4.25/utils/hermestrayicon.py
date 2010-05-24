@@ -64,8 +64,7 @@ class HermesTrayIcon():
         # Set up icon 
         self.button = gtk.Button()
         self.button.set_relief(gtk.RELIEF_NONE)
-        self.sicon =
-        gtk.status_icon_new_from_file('/usr/share/hermes/img/logo_16.png')
+        self.sicon = gtk.status_icon_new_from_file('/usr/share/hermes/img/logo_16.png')
         self.sicon.set_visible(True)
         self.sicon.connect("button-press-event", self.on_mouse_press)
 
