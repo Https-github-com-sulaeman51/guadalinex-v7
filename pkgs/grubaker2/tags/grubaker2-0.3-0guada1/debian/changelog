@@ -1,3 +1,9 @@
+grubaker2 (0.3-0guada1) lucid; urgency=low
+
+  * New upstream version
+
+ -- David Amián Valle <amialinux@gmail.com>  Mon, 24 May 2010 16:53:12 +0200
+
 grubaker2 (0.2-0guada1) lucid; urgency=low
 
   * New upstream version
