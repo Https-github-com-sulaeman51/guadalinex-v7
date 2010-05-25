@@ -1319,7 +1319,7 @@
   [ "is-latin1" keymap.is-latin1 "Icelandic" [ "is" "en_IS" ] ]
   [ "it" keymap.it "Italian" [ "it" ] ]
   [ "jp106" keymap.jp106 "Japanese (106 Key)" [ "ja" "ja_JP" ] ]
-  [ "la-latin1" keymap.la-latin1 "Latin American" [ "es_DO" "es_GT" "es_HN" "es_MX" "es_PA" "es_PE" "es_SV" ] ]
+  [ "la-latin1" keymap.la-latin1 "Latin American" [ "es_CL" "es_DO" "es_GT" "es_HN" "es_MX" "es_PA" "es_PE" "es_SV" ] ]
   [ "lv-latin4" keymap.lv-latin4 "Latvian" [ "lv" ] ]
   [ "lt" keymap.lt "Lithuanian" [ "lt" ] ]
   [ "mk" keymap.mk "Macedonian" [ "mk" ] ]
