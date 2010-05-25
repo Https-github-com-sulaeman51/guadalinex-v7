@@ -368,7 +368,13 @@
 
     config.lang {
       config.lang "en" ne {
-        config.lang lang.getlocale "locale=%s " bc.cmd dup length add sprintf
+        config.lang
+        config.lang "_" strstr 0 eq {
+          "debian-installer/language=%s "
+        } {
+          "locale=%s "
+        } ifelse
+        bc.cmd dup length add sprintf
       } if
     } if
 
