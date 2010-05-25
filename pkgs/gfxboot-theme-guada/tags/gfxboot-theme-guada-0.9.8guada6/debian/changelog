@@ -4,6 +4,13 @@ gfxboot-theme-ubuntu (0.9.3) UNRELEASED; urgency=low
   * Change "Ubuntu Netbook Remix" strings to "Ubuntu Netbook" (LP: #518718).
     Adjust translations where I could do so accurately.
   * Remove unused imgsize, showlogo, and readimage functions.
+  * If hidden-timeout=1 is set in gfxboot.cfg, then try to display a splash
+    window before the main window, displaying the contents of access.pcx at
+    the bottom of the screen.  If the timeout expires on this screen, then
+    the default menu item will be booted without ever showing the main menu;
+    conversely, any key press will show the main menu.  The idea of this is
+    to avoid everyone having to see a complicated main menu, while offering
+    a visual indication that you need to press a key to get to it.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 25 Feb 2010 12:48:21 +0000
 
