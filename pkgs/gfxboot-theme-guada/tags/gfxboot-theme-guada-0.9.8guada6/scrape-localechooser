@@ -13,7 +13,7 @@ my %langcode_override = (
     'Chinese (Simplified)' => 'zh_CN',
     'Chinese (Traditional)' => 'zh_TW',
     'Portuguese (Brazil)' => 'pt_BR',
-    'Portuguese' => 'pt',
+    'Portuguese' => 'pt_PT',
 );
 
 # The real localised names for these languages use characters not present in

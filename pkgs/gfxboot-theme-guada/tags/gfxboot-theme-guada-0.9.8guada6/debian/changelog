@@ -4,6 +4,8 @@ gfxboot-theme-ubuntu (0.1.13) UNRELEASED; urgency=low
   * Update language names from localechooser 0.27ubuntu4, adding Kazakh.
   * Fix encoding of Galician translation.
   * Update font to add characters necessary for Kazakh ("Қазақ").
+  * Pass debian-installer/locale=pt_PT rather than just pt for Portuguese,
+    allowing localechooser to do a better job of handling the preseeding.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 16 Feb 2006 12:39:26 +0000
 
