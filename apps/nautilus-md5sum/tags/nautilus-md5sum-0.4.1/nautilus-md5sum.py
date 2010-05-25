@@ -118,6 +118,7 @@ class MD5Extension(nautilus.MenuProvider):
         item = nautilus.MenuItem("NautilusPython::md5sum_item",
                                  "Calcular suma MD5",
                                  "Calcular suma MD5")
+        item.set_property('icon', "md5sum-ico")
         item.connect("activate", self.menu_activate_cb, files)
         items.append(item)
         return items
