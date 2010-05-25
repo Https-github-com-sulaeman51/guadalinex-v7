@@ -2,7 +2,7 @@ from distutils.core import setup
 from DistUtilsExtra.command import *
 
 setup(name='nautilus-md5sum',
-    version='0.4.0',
+    version='0.4.1',
     author='David Amian',
     author_email='amialinux@gmail.com',
     data_files=[('lib/nautilus/extensions-2.0/python/', ['scripts/nautilus-md5sum.py']),
