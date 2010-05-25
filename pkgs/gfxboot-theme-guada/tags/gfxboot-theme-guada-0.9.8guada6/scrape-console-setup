@@ -154,6 +154,12 @@ my @non_latin = (
     'uz',
 );
 
+# Some keymaps require unusual models for extra keys.
+my %unusual_models = (
+    'br' => 'abnt2',
+    'jp' => 'jp106',
+);
+
 binmode STDOUT, ':utf8';
 
 print <<EOF;
@@ -168,6 +174,7 @@ print <<EOF;
 /.km.map     1 def
 /.km.display 2 def
 /.km.locales 3 def
+/.km.model   4 def
 
 EOF
 
@@ -234,7 +241,7 @@ my @keymaps = sort keys %keymaps;
 
 my %keycodes;
 for my $keymap (@keymaps) {
-    my ($layout, $variant);
+    my ($layout, $variant, $model);
     if ($keymap =~ /(.+)_(.+)/) {
 	$layout = $1;
 	$variant = $2;
@@ -242,7 +249,12 @@ for my $keymap (@keymaps) {
 	$layout = $keymap;
 	undef $variant;
     }
-    my $ckbcomp = "ckbcomp -model pc105 -layout \Q$layout\E";
+    if (exists $unusual_models{$layout}) {
+	$model = $unusual_models{$layout};
+    } else {
+	$model = 'pc105';
+    }
+    my $ckbcomp = "ckbcomp -model $model -layout \Q$layout\E";
     $ckbcomp .= " -variant \Q$variant\E" if defined $variant;
     my $table = `$ckbcomp | sudo loadkeys -m 2>/dev/null`;
     for my $map (qw(plain shift altgr)) {
@@ -329,7 +341,13 @@ for my $keymap (sort { $descriptions{$a} cmp $descriptions{$b} } @keymaps) {
     } else {
 	$localelist = '[ ]';
     }
-    print qq{  [ "$keymap" $keymapfunc{$keymap} "$descriptions{$keymap}" $localelist ]\n};
+    my $model;
+    if (exists $unusual_models{$keymap}) {
+	$model = qq{"$unusual_models{$keymap}"};
+    } else {
+	$model = '.undef';
+    }
+    print qq{  [ "$keymap" $keymapfunc{$keymap} "$descriptions{$keymap}" $localelist $model ]\n};
     $us_index = $i if $keymap eq 'us';
     ++$i;
 }

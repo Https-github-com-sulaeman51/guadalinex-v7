@@ -387,6 +387,11 @@
         over "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
         add "console-setup/variantcode=%s " bc.cmd dup length add sprintf
       } ifelse
+      config.keymap .km.model get dup {
+        "console-setup/modelcode=%s " bc.cmd dup length add sprintf
+      } {
+        pop
+      } ifelse
     } {
       pop
     } ifelse
