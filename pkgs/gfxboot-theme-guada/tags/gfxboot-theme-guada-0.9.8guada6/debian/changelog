@@ -11,6 +11,9 @@ gfxboot-theme-ubuntu (0.1.18) UNRELEASED; urgency=low
     Bokmål, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian,
     Slovak, Swedish, Chinese (China), Chinese (Taiwan).
   * Update font to add newly-required characters.
+  * Fix memory handling in isolinux.cfg parser: take copies of all labels,
+    and free a pointer to the start of the file, not the end (closes: Malone
+    #34592).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue,  4 Apr 2006 16:25:30 +0100
 
