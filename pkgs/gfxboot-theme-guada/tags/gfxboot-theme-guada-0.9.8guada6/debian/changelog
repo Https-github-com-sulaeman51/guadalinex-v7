@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.3.0) UNRELEASED; urgency=low
+
+  * Add Swiss French keymap (closes: Malone #67355).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun, 29 Oct 2006 21:11:47 +0000
+
 gfxboot-theme-ubuntu (0.2.10) edgy; urgency=low
 
   * When selecting a keymap from the F3 menu, set config.keymap directly
