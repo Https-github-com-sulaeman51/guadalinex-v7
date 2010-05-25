@@ -1,6 +1,7 @@
 gfxboot-theme-ubuntu (0.4.1) UNRELEASED; urgency=low
 
   * Remove unused logo fading code.
+  * Update langlist from langnames.inc.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 06 Aug 2007 20:46:18 +0100
 
