@@ -6,13 +6,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-10-15 08:50+0000\n"
-"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
+"PO-Revision-Date: 2009-10-25 15:10+0000\n"
+"Last-Translator: Liu Qishuai <lqs.buaa@gmail.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2009-10-26 12:28+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -121,7 +121,7 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"这是双面 DVD。您是从第二面引导的。\n"
+"这是双面 DVD，您是从第二面引导的。\n"
 "\n"
 "请将 DVD 翻转后继续。"
 
@@ -141,7 +141,7 @@ msgstr "口令\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "其他选项"
+msgstr "其它选项"
 
 #. label for language selection
 #. txt_language

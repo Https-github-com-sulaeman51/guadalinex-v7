@@ -6,13 +6,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-10-14 06:04+0000\n"
-"Last-Translator: Aurimas Fišeras <Unknown>\n"
+"PO-Revision-Date: 2009-10-22 03:12+0000\n"
+"Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
 "Language-Team: Lithuanian <i18n@operis.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2009-10-26 12:28+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -28,7 +28,7 @@ msgstr "Atsisakyti"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Perkrauti"
+msgstr "Paleisti iš naujo"
 
 #. continue button label
 #. txt_continue
@@ -37,7 +37,7 @@ msgstr "Tęsti"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Įkrovos parinktys"
+msgstr "Startavimo parametrai"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -176,7 +176,7 @@ msgstr "Eksperto režimas"
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "Pritaikymas neįgaliesiems"
+msgstr "Prieinamumas"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -376,7 +376,7 @@ msgstr "Įdiegti minimalią virtualią mašiną"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check disc for defects"
-msgstr "^Disko klaidų tikrinimas"
+msgstr "^Patikrinti ar nėra defektų paleidimo laikmenoje"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
