@@ -4,6 +4,7 @@ gfxboot-theme-ubuntu (0.1.16) UNRELEASED; urgency=low
     debian-cd branch.
   * Handle ^ in boot menu item labels a bit later to accommodate
     localisation.
+  * Update Portuguese translation (thanks, Rui Azevedo).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 27 Feb 2006 16:57:52 +0000
 
