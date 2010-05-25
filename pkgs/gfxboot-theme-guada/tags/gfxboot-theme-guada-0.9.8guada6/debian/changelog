@@ -1,3 +1,13 @@
+gfxboot-theme-ubuntu (0.3.1) UNRELEASED; urgency=low
+
+  * Make numbers used for selecting accessibility menu items consistent even
+    if items are omitted from the menu due to GFXBOOT-ACCESS-OPTIONS; so for
+    example with "GFXBOOT-ACCESS-OPTIONS v1 v3", pressing "1" would select
+    v1, "2" would do nothing, and "3" would select v3. This allows for
+    simpler cross-flavour documentation for visually-impaired users.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed,  7 Feb 2007 15:39:47 +0000
+
 gfxboot-theme-ubuntu (0.3.0) feisty; urgency=low
 
   * Add Swiss French keymap (closes: Malone #67355).
