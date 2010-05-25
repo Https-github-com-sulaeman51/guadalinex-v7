@@ -286,7 +286,7 @@ msgstr "所有内容"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Start Ubuntu"
+msgid "^Start or install Ubuntu"
 msgstr "启动 Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -296,7 +296,7 @@ msgstr "安全图形模式启动 Ubuntu(^G)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Start Kubuntu"
+msgid "^Start or install Kubuntu"
 msgstr "启动 Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -306,7 +306,7 @@ msgstr "安全图形模式启动 Kubuntu(^G)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Start Edubuntu"
+msgid "^Start or install Edubuntu"
 msgstr "启动 Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -316,7 +316,7 @@ msgstr "安全图形模式启动 Edubuntu(^G)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Start Xubuntu"
+msgid "^Start or install Xubuntu"
 msgstr "启动 Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -326,7 +326,7 @@ msgstr "安全图形模式启动 Xubuntu(^G)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
-msgid "^Install to the hard disk"
+msgid "^Install in text mode"
 msgstr "安装到硬盘"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
