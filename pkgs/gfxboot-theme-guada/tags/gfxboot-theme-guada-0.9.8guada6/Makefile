@@ -1,7 +1,7 @@
 ifneq ($(BINDIR),)
 BINDIR      := $(BINDIR)/
 else
-BINDIR      := $(dir $(firstword $(wildcard /usr/bin/mkbootmsg) $(wildcard ../../mkbootmsg)))
+BINDIR      := $(dir $(firstword $(wildcard /usr/bin/gfxboot-compile) $(wildcard /usr/bin/mkbootmsg) $(wildcard ../../gfxboot-compile) $(wildcard ../../mkbootmsg)))
 endif
 ifneq ($(PRIVBINDIR),)
 PRIVBINDIR  := $(PRIVBINDIR)/
@@ -9,7 +9,11 @@ else
 PRIVBINDIR  := $(dir $(firstword $(wildcard /usr/share/gfxboot/bin/keymapchars) $(wildcard ../../keymapchars)))
 endif
 
+ifneq (,$(wildcard $(BINDIR)gfxboot-compile))
+MKBOOTMSG    = $(BINDIR)gfxboot-compile
+else
 MKBOOTMSG    = $(BINDIR)mkbootmsg
+endif
 KEYMAPCHARS  = $(PRIVBINDIR)keymapchars
 BFLAGS       = -O -v -L ../..
 INCLUDES     = $(wildcard *.inc)
