@@ -133,3 +133,4 @@ class FONTExtension(nautilus.MenuProvider):
         os.system ("gksudo -u root -k -m " + "\""+ _("Enter your user password") + "\"" + " /bin/echo " + "\"" + _("Do you have root access?") + "\"")
         os.system("sudo cp -r '" + filefont + "' '" + FONT_PATH + "'")
         fontinst = FONTDialog(filefont)
+        fontinst.main()
