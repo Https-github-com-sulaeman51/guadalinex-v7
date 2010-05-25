@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.1.23) UNRELEASED; urgency=low
+
+  * Fix check for whether we're running on a live CD.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 22 May 2006 17:03:45 +0100
+
 gfxboot-theme-ubuntu (0.1.22) dapper; urgency=low
 
   * Update boot menu label text (Matt Zimmerman, Jane Silber):
