@@ -355,8 +355,8 @@ msgstr "Pasang sebuah ^stesen kerja"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "Pasang dalam mod ^OEM"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -388,3 +388,6 @@ msgstr "^Ujian Memori"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^But daripada cakera keras pertama"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "Pasang dalam mod ^OEM"

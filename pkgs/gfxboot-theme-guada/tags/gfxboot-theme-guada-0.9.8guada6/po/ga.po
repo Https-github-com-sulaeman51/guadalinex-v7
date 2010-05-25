@@ -349,8 +349,8 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "Suiteail i modh OEM"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -381,3 +381,6 @@ msgstr "^Scrudu meabhair"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Tosaigh as an chead diosca crua"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "Suiteail i modh OEM"

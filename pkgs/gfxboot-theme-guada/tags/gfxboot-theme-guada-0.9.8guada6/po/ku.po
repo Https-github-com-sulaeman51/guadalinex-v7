@@ -352,8 +352,8 @@ msgstr "Komputerekê ^asayî saz bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "Di moda ^OEM de saz bike"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -384,3 +384,6 @@ msgstr "^Testa bîrê"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Ji hard disk a yekemîn ^boot bike"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "Di moda ^OEM de saz bike"

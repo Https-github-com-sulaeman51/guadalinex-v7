@@ -355,8 +355,8 @@ msgstr "Instal·la una ^estació de treball"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "Instal·la en mode ^OEM"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -388,3 +388,6 @@ msgstr "Comprovació de la ^memòria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Arrenca des del primer disc dur"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "Instal·la en mode ^OEM"

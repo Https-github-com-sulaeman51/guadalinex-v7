@@ -355,8 +355,8 @@ msgstr "워크스테이션으로 설치하기 (^w)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "OEM 모드로 설치하기 (^O)"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -388,3 +388,6 @@ msgstr "메모리 테스트 (^M)"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "첫 번째 하드 디스크로 부팅하기 (^B)"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "OEM 모드로 설치하기 (^O)"

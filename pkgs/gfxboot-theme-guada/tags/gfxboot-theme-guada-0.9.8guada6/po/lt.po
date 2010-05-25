@@ -351,8 +351,8 @@ msgstr "Įdiegti ^darbinį kompiuterį"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Install in ^OEM mode"
-msgstr "Įdiegti ^OEM režime"
+msgid "Text mode install for ma^nufacturers"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -384,3 +384,6 @@ msgstr "^Operatyviosios atminties (RAM) tikrinimas"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Į^kelti iš pirmojo standaus disko"
+
+#~ msgid "Install in ^OEM mode"
+#~ msgstr "Įdiegti ^OEM režime"
