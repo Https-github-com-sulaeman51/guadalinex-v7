@@ -216,16 +216,6 @@
     panel.show
   } if
 
-  window.action actInstallOK eq {
-    /window.action actNothing def
-    install.ok
-  } if
-
-  window.action actInstallCancel eq {
-    /window.action actNothing def
-    install.cancel
-  } if
-
   boot.buf menu.entry 0
 } def
 
@@ -450,12 +440,6 @@
     profile.options xmenu.profile .xm_current get get dup "" ne {
       "%s " bc.cmd dup length add sprintf
     } { pop } ifelse
-  } if
-
-  xmenu.install {
-    install.option "" ne {
-      install.option "%s " bc.cmd dup length add sprintf
-    } if
   } if
 
   bc.cmd dropspaces

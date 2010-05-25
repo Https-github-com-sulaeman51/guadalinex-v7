@@ -161,61 +161,9 @@ msgstr "关闭电源"
 msgid "Halt the system now?"
 msgstr "现在关闭系统吗？"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "硬盘安装"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "磁盘设备（如果未填写，则扫描所有磁盘）\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "目录\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "FTP 安装"
-
-#. txt_server
-msgid "Server\n"
-msgstr "服务器\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "密码\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "用户（如果未填写，则以匿名身份登录）\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "NFS 安装"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "用户（如果没有填写，则使用\"guest\"身份登录）\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "SMB（Windows 共享）安装"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "HTTP 安装"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "域\n"
 
 #. button label for other/more options
 #. txt_other_options

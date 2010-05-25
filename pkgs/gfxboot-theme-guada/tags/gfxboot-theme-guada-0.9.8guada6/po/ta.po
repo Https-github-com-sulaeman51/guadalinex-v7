@@ -165,61 +165,9 @@ msgstr "மின்சக்தியை நிறுத்து"
 msgid "Halt the system now?"
 msgstr "இப்போது கணினியை நிறுத்தவா?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "வன் வட்டு நிறுவல்"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "வட்டு சாதனம் (காலியாக இருப்பின் அனைத்து வன் வட்டுக்களையும் அலகிடு)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "அடைவு\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "எப்ஃடிபி நிறுவல்"
-
-#. txt_server
-msgid "Server\n"
-msgstr "சேவையகம்\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "கடவுச்சொல்\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "பயனர் (காலியானால் அடையாளம் தெரியாத நுழைவு)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "என்எப்ஃஎஸ் நிறுவல்"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "பயனர் (காலியானால் \"guest\" உபயோகி)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "எஸ்எம்பி (சாளரங்கள் பகிர்) நிறுவல்"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "ஹெச்டிடிபி நிறுவல்"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "தளம்\n"
 
 #. button label for other/more options
 #. txt_other_options

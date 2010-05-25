@@ -163,61 +163,9 @@ msgstr "Gašenje"
 msgid "Halt the system now?"
 msgstr "Zaustaviti sustav?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Instalacije na čvrsti disk"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Diskovni uređaj (pretraži sve diskove ako je prazan)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Direktorij\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "FTP instalacija"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Poslužitelj\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Lozinka\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Korisnik (anonimna prijava ako je prazno)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "NFS instalacija"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Korisnik (koristim \"gost\" ako je prazno)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "SMB (Windows Share) instalacija"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "HTTP instalacija"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Domena\n"
 
 #. button label for other/more options
 #. txt_other_options

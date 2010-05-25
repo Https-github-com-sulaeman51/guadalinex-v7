@@ -164,61 +164,9 @@ msgstr "Tắt nguồn điện"
 msgid "Halt the system now?"
 msgstr "Treo hệ thống ngay bây giờ ?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Cài đặt ổ cứng"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Thiết bị đĩa (quét tất cả các đĩa nếu để trống)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Thư mục\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Cài đặt dịch vụ FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Máy chủ\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Mật khẩu\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Người sử dụng (đăng nhập vô danh nếu để trống)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Cài đặt NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Người sử dụng (sẽ là \"guest\" nếu để trống)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Cài đặt SBM (cơ chế chia xẻ trong Windows)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Cài đặt HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Miền\n"
 
 #. button label for other/more options
 #. txt_other_options

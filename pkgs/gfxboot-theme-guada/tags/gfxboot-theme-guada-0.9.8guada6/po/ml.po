@@ -150,60 +150,8 @@ msgstr ""
 msgid "Halt the system now?"
 msgstr "സിസ്റ്റം ഇേപ്പാളു് ഹാള്ട്ട് (halt now) െചയ്േതാെട്ട ?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "'ഹാറ്ഡ് ഡിസ്കില്' നിന്നും 'ഇന്സ്റ്റാളു്'(installation)"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "'ഡിസ്ക്' ഉപകരണം (Device)(ശൂന്യമാെണംകില് എല്ലാ 'ഡിസ്കും' തിരയുക )\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "ഡയറക്ടറി (directory)\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "FTP Installation (മുേഖന 'ഇന്സ്റ്റാളു്')"
-
-#. txt_server
-msgid "Server\n"
-msgstr ""
-
 #. txt_password
 msgid "Password\n"
-msgstr ""
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "(user)ഉപേയാക്താവ് (ഇെല്ലങ്ങില് നാമഹീനമായ 'േലാഗിന്')\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "എന്.എഫ്.എസ് (NFS) ഇന്സ്റ്റേലഷനു്"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "ഉപേയാക്താവ് (െകാടുത്തിെല്ലങ്കില് \"അതിധി\"-Guest)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr ""
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr ""
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
 msgstr ""
 
 #. button label for other/more options

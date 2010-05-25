@@ -113,9 +113,7 @@
 /actPowerOff          6 def
 /actRedraw            7 def
 /actRedrawPanel       8 def
-/actInstallOK         9 def
-/actInstallCancel    10 def
-/actReboot           11 def
+/actReboot            9 def
 /actNoClose       0x100 def
 
 
@@ -650,16 +648,6 @@
   dup actReboot eq {
     reboot
   } if
-
-  dup actInstallOK eq {
-    install.ok
-    exch not exch
-  } if
-
-%  dup actInstallCancel eq {
-%    install.cancel
-%    exch not exch
-%  } if
 
   pop
 } def

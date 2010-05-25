@@ -157,61 +157,9 @@ msgstr "Çkyçje e rrymës."
 msgid "Halt the system now?"
 msgstr "Tani ndalon Sistemi?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Instalimi i Diskut të ngurtë"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Paisje disku (skano të gjitha disqet nëse janë bosh )\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Direktoriumi\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Instalimi i FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Serveri\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Fjalëkalimi\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Përdoruesi (hyrja e të panjohurit nëse është e lirë)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Instalimi i NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Përdoruesi (përdor \"guest\" nëse është e lirë)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Instalimi i SMB (Samba)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Instalimi i HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Domeni\n"
 
 #. button label for other/more options
 #. txt_other_options

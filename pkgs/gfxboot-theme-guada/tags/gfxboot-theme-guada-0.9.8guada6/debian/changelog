@@ -1,6 +1,14 @@
 gfxboot-theme-ubuntu (0.5.10) UNRELEASED; urgency=low
 
   * Fix a stack leak in menuitemmap.
+  * Remove the unused dia_install.inc and everything associated with it
+    (including translated strings). We've been having odd problems with
+    gfxboot hanging on Kubuntu CDs, and, while unfortunately we didn't quite
+    get to the bottom of them, our best guess is that we're close enough to
+    the top of available memory that the rules have changed. Ripping this
+    3000 lines of cruft out seems to be more than enough to get things going
+    again. Thanks to Kees Cook for several hours of staring at assembly code
+    and pointing me in useful directions.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue, 18 Mar 2008 01:19:53 +0000
 

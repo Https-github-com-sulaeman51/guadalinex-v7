@@ -166,61 +166,9 @@ msgstr "Вимкнути"
 msgid "Halt the system now?"
 msgstr "Хочете зараз вимкнути систему?"
 
-#. dialog title for hard disk installation
-#. txt_harddisk_title
-msgid "Hard Disk Installation"
-msgstr "Встановлення з жорсткого диска"
-
-#. txt_hd_diskdevice
-msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Дисковий пристрій (зондувати всі диски, якщо порожнє)\n"
-
-#. txt_directory
-msgid "Directory\n"
-msgstr "Каталог\n"
-
-#. dialog title for ftp installation
-#. txt_ftp_title
-msgid "FTP Installation"
-msgstr "Встановлення з FTP"
-
-#. txt_server
-msgid "Server\n"
-msgstr "Сервер\n"
-
 #. txt_password
 msgid "Password\n"
 msgstr "Пароль\n"
-
-#. label for ftp user input
-#. txt_user1
-msgid "User (anonymous login if empty)\n"
-msgstr "Користувач (буде вжито анонімний вхід, якщо порожнє)\n"
-
-#. dialog title for nfs installation
-#. txt_nfs_title
-msgid "NFS Installation"
-msgstr "Встановлення з NFS"
-
-#. label for smb user input
-#. txt_user2
-msgid "User (using \"guest\" if empty)\n"
-msgstr "Користувач (вживати \"guest\", якщо порожнє)\n"
-
-#. dialog title for smb installation
-#. txt_smb_title
-msgid "SMB (Windows Share) Installation"
-msgstr "Встановлення з SMB (Windows Share)"
-
-#. dialog title for http installation
-#. txt_http_title
-msgid "HTTP Installation"
-msgstr "Встановлення через HTTP"
-
-#. as in Windows Authentication Domain
-#. txt_domain
-msgid "Domain\n"
-msgstr "Домен\n"
 
 #. button label for other/more options
 #. txt_other_options
