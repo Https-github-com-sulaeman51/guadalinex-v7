@@ -3,3 +3,4 @@ hooks usr/share/initramfs-tools/
 casper.conf usr/share/casper-guada/
 ubiquity.init usr/share/casper-guada/
 ubiquity-dm usr/share/casper-guada/
+data usr/share/casper-guada/
