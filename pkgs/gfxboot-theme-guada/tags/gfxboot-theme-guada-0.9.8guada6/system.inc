@@ -337,8 +337,8 @@ def
      % bios is too smart...
      key.code 0x78 ge key.code 0x83 le and { /key.code key.code 0x76 sub def } if
    } if
-   0 1 config.keymap length 1 sub {
-     config.keymap exch get
+   0 1 config.keymap .km.map get length 1 sub {
+     config.keymap .km.map get exch get
      dup 0 get key.code eq {
        1
        keystat statusShift and { pop 2 } if
