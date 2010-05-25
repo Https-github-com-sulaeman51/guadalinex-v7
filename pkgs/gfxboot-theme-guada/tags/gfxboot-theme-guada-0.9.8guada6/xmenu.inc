@@ -64,7 +64,7 @@ small_layout {
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% Handle keyboad input.
+% Handle keyboard input.
 %
 % ( key_in ) ==> ( key_out )
 %
