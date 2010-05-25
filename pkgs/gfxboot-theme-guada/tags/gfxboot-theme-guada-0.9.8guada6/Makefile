@@ -63,7 +63,7 @@ font:
 	cat po/*.po >tmp.txt
 	getx11font -v -l 18 -p 2,4 \
 	-c ISO-8859-15 -c ISO-8859-2 -c koi8-r \
-	`./keymapchars keymap.*.inc` \
+	`./keymapchars keytables.inc` \
 	-t tmp.txt \
 	-t install/log -t boot/log \
 	-t langlist -t dia_lang.inc \
