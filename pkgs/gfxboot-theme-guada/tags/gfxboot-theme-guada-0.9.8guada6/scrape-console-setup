@@ -51,6 +51,7 @@ my %keymap_locales = (
     'si' => '_SI',
     'tj' => '_TJ',
     'th' => '_TH',
+    'tr_ku' => 'ku_TR',
     'tr' => '_TR',
     'ua' => '_UA',
     'us' => ['en_US', '_VN'],
