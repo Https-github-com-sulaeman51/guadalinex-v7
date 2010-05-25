@@ -334,6 +334,11 @@ msgid "^Install in text mode"
 msgstr "Sabit diske ^kur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install
+msgid "^Install to first hard disk"
+msgstr "Sabit diske ^kur"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
 msgstr "Bir ^işistasyonu kur"

@@ -330,6 +330,11 @@ msgid "^Install in text mode"
 msgstr "^Zainstaluj na twardym dysku"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install
+msgid "^Install to first hard disk"
+msgstr "^Zainstaluj na twardym dysku"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
 msgstr "Zainstaluj ^stację roboczą"

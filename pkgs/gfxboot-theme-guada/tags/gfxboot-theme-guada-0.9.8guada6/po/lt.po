@@ -331,6 +331,11 @@ msgid "^Install in text mode"
 msgstr "Į^diegti į standųjį diską"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install
+msgid "^Install to first hard disk"
+msgstr "Į^diegti į standųjį diską"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
 msgstr "Įdiegti ^darbinį kompiuterį"

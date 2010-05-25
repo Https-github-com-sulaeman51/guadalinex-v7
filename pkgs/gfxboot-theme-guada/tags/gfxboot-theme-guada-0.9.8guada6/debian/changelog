@@ -1,3 +1,11 @@
+gfxboot-theme-ubuntu (0.1.24) UNRELEASED; urgency=low
+
+  * Restore old "Install to first hard disk" string alongside "Install in
+    text mode", so that it can be used for Edubuntu and the Ubuntu server
+    CDs.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 26 May 2006 14:15:37 +0100
+
 gfxboot-theme-ubuntu (0.1.23) dapper; urgency=low
 
   * Fix check for whether we're running on a live CD.

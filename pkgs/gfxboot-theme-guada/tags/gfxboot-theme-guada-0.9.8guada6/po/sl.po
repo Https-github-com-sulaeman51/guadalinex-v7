@@ -336,6 +336,11 @@ msgid "^Install in text mode"
 msgstr "Namest^i na trdi disk"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install
+msgid "^Install to first hard disk"
+msgstr "Namest^i na trdi disk"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
 msgstr "Namesti kot ^delovno postajo"
