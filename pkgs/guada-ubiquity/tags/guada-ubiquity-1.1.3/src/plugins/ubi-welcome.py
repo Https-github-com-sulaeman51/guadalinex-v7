@@ -1,5 +1,32 @@
 # -*- coding: utf-8; Mode: Python; indent-tabs-mode: nil; tab-width: 4 -*-
 
+# «welcome» - Guadalinex welcome plugin
+#
+# Copyright (C) 2010 Junta de Andalucía
+# Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010 Canonical Ltd.
+#
+# Written by Adrian Belmonte <abelmonte@emergya.es>
+# 
+# Based in plugins written by: 
+# Colin Watson <cjwatson@ubuntu.com>.
+# Evan Dandrea <evand@ubuntu.com>
+# Roman Shtylman <shtylman@gmail.com>
+#
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
 
 
 
@@ -17,54 +44,41 @@ from ubiquity import i18n
 import ubiquity.tz
 
 NAME = 'welcome'
-#AFTER = 'language'
 AFTER=None
 BEFORE='timezone'
-#BEFORE= 'language'
 WEIGHT = 111
 
 class PageGtk(PluginUI):
     def __init__(self, controller, *args, **kwargs):
         self.controller = controller
-        print >>sys.stderr, 'LLEGA AQUI?!'
         try:
             import gtk
             builder = gtk.Builder()
             self.controller.add_builder(builder)
-            print >>sys.stderr, '--------------> WELCOME Cargado'
             builder.add_from_file('/usr/share/ubiquity/gtk/stepGuadaWelcome.ui')
             builder.connect_signals(self)
             self.page = builder.get_object('stepGuadaWelcome')
             self.preseed()
-#            self.setup_page()
         except Exception, e:
             self.debug('Could not create welcome page: %s', e)
             self.page = None
         self.plugin_widgets = self.page
     
     def preseed(self):
-        print >>sys.stderr, 'LLEGA AQUI?!'
-#        self.preseed('localechooser/language-name-fb','Spanish')
-#        print >>sys.stderr, '------------->fb'
-#        self.preseed('localechooser/language-name','Spanish')
-#        print >>sys.stderr, '------------>name'
-#        self.preseed('localechooser/language-name-ascii','Spanish')
-#        print >>sys.stderr, '--------------->ascii'
-        
+        print >>sys.stderr, 'Preseed not used'
 
 class Page (Plugin):
     def page (self):
-        print >>sys.stderr,' ----->PAGE!!!'
+        print >>sys.stderr,'Debug: page created'
 
     def prepare (self, unfiltered=False):
         self.db.fset('localechooser/languagelist', 'seen', 'false')
-#        localechooser_script = '/usr/lib/ubiquity/localechooser/localechooser'
-        print >>sys.stderr,' ----->PREPARE!!!' 
-#        self.preseed('localechooser/languagelist','es')
-#        print >>sys.stderr,' ----->IT WORKED!!!'
+        print >>sys.stderr,'Debug: prepare' 
+
     
     def ok_handler(self):
-        
+        #Preseed not needed, test if we can delete this.
+
         new_language = 'es'
         language_question= 'localechooser/languagelist '
         self.preseed(language_question, new_language)
@@ -73,11 +87,5 @@ class Page (Plugin):
         self.preseed('time/zone', 'Europe/Madrid')
         self.preseed('debian-installer/country', 'ES')
         self.preseed('console-setup/layout', 'España')
-#        self.preseed('console-setup/variant', variant)
 
-#        if (self.initial_language is None or
-#            self.initial_language != new_language):
-#            self.db.reset('debian-installer/country')
-#        if self.ui.controller.oem_config:
-#            self.preseed('oem-config/id', self.ui.get_oem_id())
         Plugin.ok_handler(self)
