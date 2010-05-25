@@ -35,6 +35,7 @@ my %keymap_locales = (
     'it' => '_IT',
     'jp' => '_JP',
     'lt' => '_LT',
+    'lv' => '_LV',
     'mk' => '_MK',
     'nl' => '_NL',
     'mn' => '_MN',
@@ -59,7 +60,8 @@ my %keymap_locales = (
     'ba' => 'bs_',
     'de' => 'de_',
     'gr' => 'el_',
-    'fr' => 'fr_',
+    'epo' => 'eo', # lack of trailing underscore is deliberate
+    'fr_oss' => 'fr_',
     'in_guj' => 'gu_',
     'in' => 'hi_',
     'hr' => 'hr_',
@@ -78,12 +80,14 @@ my %keymap_locales = (
 # Non-top-level layouts to put on the menu.
 my @show_variants = (
     'ch_fr',
+    'fr_oss',
     'tr_f',
     'us_dvorak',
 );
 
 # Exclude these keymaps.
 my @exclude_keymaps = (
+    'fr',
     'nec/jp',
     'nec_vndr/jp',
 );
@@ -97,6 +101,7 @@ my %description_overrides = (
     'ch' => 'Swiss German',
     'cs' => 'Serbia',
     'fi_smi' => 'Finland (Saami)',
+    'fr_oss' => 'France',
     'in_guj' => 'Gujarati',
     'in_guru' => 'Gurmukhi',
     'in_kan' => 'Kannada',
@@ -135,6 +140,7 @@ my @non_latin = (
     'la',
     'lao',
     'lk',
+    'lt',
     'mk',
     'mm',
     'mn',
