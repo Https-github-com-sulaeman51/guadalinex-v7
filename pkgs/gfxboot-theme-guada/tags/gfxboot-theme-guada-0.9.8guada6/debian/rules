@@ -4,6 +4,7 @@ tmp := $(CURDIR)/debian/gfxboot-theme-ubuntu
 themedir := $(tmp)/usr/share/gfxboot/themes/Ubuntu
 
 build:
+	$(MAKE)
 
 clean:
 	dh_testdir
@@ -19,6 +20,7 @@ install: build
 	install -m644 Makefile languages *.config *.dat *.fnt *.inc *.jpg \
 		$(themedir)
 	install -m755 keymapchars $(themedir)
+	install -m644 install/bootlogo.tar.gz $(themedir)
 
 binary-arch:
 
