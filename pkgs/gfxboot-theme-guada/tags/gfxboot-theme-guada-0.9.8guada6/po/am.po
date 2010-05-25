@@ -246,8 +246,9 @@ msgid "^Try Ubuntu MID without installing"
 msgstr "^ኡቡንቱ ሚድን ሳይገጥሙ ይሞክሩት"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without installing"
+#. txt_menuitem_live_ubuntu_netbook
+#, fuzzy
+msgid "^Try Ubuntu Netbook without installing"
 msgstr "^ኡቡንቱ ኔትቡክ ሪሚክስን ሳይገጥሙ ይሞክሩት"
 
 #. Installation mode.
@@ -316,8 +317,9 @@ msgid "^Install Ubuntu MID"
 msgstr "^መግጠም ኡቡንቱ መካከለኛን"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_netbook_remix
-msgid "^Install Ubuntu Netbook Remix"
+#. txt_menuitem_install_ubuntu_netbook
+#, fuzzy
+msgid "^Install Ubuntu Netbook"
 msgstr "^መግጠም ኡቡንቱ ኔትቡክ ሪሚክስ"
 
 #. Installation mode.

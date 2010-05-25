@@ -245,8 +245,9 @@ msgid "^Try Ubuntu MID without installing"
 msgstr "^התנסות באובונטו MID ללא התקנה"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without installing"
+#. txt_menuitem_live_ubuntu_netbook
+#, fuzzy
+msgid "^Try Ubuntu Netbook without installing"
 msgstr "^התנסות בגרסת הניידים של אובונטו ללא התקנה"
 
 #. Installation mode.
@@ -315,8 +316,9 @@ msgid "^Install Ubuntu MID"
 msgstr "^התקן אובונטו גרסת Mobile Internet Device"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_netbook_remix
-msgid "^Install Ubuntu Netbook Remix"
+#. txt_menuitem_install_ubuntu_netbook
+#, fuzzy
+msgid "^Install Ubuntu Netbook"
 msgstr "^התקן את אובונטו במהדורת הנטבוק"
 
 #. Installation mode.

@@ -246,8 +246,9 @@ msgid "^Try Ubuntu MID without installing"
 msgstr "^ইনস্টল করা ছাড়াই উবুন্টু মিড ব্যবহার করুন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without installing"
+#. txt_menuitem_live_ubuntu_netbook
+#, fuzzy
+msgid "^Try Ubuntu Netbook without installing"
 msgstr "^ইনস্টল করা ছাড়াই উবুন্টু নেটবুক রিমিক্স ব্যবহার করুন"
 
 #. Installation mode.
@@ -316,8 +317,9 @@ msgid "^Install Ubuntu MID"
 msgstr "^উবুন্টু মিড ইন্সটল করুন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_netbook_remix
-msgid "^Install Ubuntu Netbook Remix"
+#. txt_menuitem_install_ubuntu_netbook
+#, fuzzy
+msgid "^Install Ubuntu Netbook"
 msgstr "^উবুন্টু নেটবুক রিমিক্স ইন্সটল করুন"
 
 #. Installation mode.

@@ -246,8 +246,9 @@ msgid "^Try Ubuntu MID without installing"
 msgstr "^설치하지 않고 우분투 MID 경헙하기"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without installing"
+#. txt_menuitem_live_ubuntu_netbook
+#, fuzzy
+msgid "^Try Ubuntu Netbook without installing"
 msgstr "^설치하지 않고 우분투 넷북 리믹스 경헙하기"
 
 #. Installation mode.
@@ -316,8 +317,9 @@ msgid "^Install Ubuntu MID"
 msgstr "우분투 MID 설치(^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_netbook_remix
-msgid "^Install Ubuntu Netbook Remix"
+#. txt_menuitem_install_ubuntu_netbook
+#, fuzzy
+msgid "^Install Ubuntu Netbook"
 msgstr "우분투 넷북 리믹스 설치(^I)"
 
 #. Installation mode.
