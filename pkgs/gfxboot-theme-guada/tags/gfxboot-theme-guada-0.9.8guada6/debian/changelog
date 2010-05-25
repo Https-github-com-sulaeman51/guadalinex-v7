@@ -1,6 +1,8 @@
 gfxboot-theme-ubuntu (0.5.1) UNRELEASED; urgency=low
 
   * Update dates in debian/copyright.
+  * Update for layout changes up to console-setup 1.21ubuntu2. Shorten some
+    descriptions to cope with the increased number of layouts.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue, 04 Dec 2007 11:36:02 +0000
 
