@@ -6,6 +6,8 @@ gfxboot-theme-ubuntu (0.5.2) UNRELEASED; urgency=low
     (LP: #46985, #56145).
   * Give checkbox semantics to the items in the F6 "Other Options" menu.
   * Add acpi=off, noapic, and nolapic options to the "Other Options" menu.
+  * Display the "Other Options" menu for the live CD too, but without the
+    d-i expert mode option.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sun, 03 Feb 2008 18:09:54 +0000
 

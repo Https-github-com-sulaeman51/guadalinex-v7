@@ -48,9 +48,7 @@
 
       [ .panel.short [ keyF6 0 "F6" /panel.options /panel.options.width /panel.options.update .undef ] ]
 
-      is_live not {
-	[ .panel.full [ keyF6 0 "F6" /panel.fulloptions /panel.fulloptions.width /panel.fulloptions.update /fulloptions.init ] ]
-      } if
+      [ .panel.full [ keyF6 0 "F6" /panel.fulloptions /panel.fulloptions.width /panel.fulloptions.update /fulloptions.init ] ]
 
       32+64bit_source {
 	64bit {
