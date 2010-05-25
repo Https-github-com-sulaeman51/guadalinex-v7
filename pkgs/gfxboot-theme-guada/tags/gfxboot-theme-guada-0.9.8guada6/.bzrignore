@@ -1,3 +1,4 @@
 boot
 install
 po/*.tr
+po/text.inc
