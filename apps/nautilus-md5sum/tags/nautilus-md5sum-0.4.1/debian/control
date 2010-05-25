@@ -11,6 +11,6 @@ Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/nautilus-md5sum/trunk
 
 Package: nautilus-md5sum
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-nautilus, python-dev, nautilus, python-gtk2, python-glade2
+Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-nautilus, python-dev, nautilus, python-gtk2, python-glade2, gettext
 Description: Graphical extension for check MD5 sum in nautilus
  Graphical extension for check MD5 sum in nautilus in Python.
