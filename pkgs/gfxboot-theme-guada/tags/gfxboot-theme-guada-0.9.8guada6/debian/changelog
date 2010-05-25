@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.5.6) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.5.6) hardy; urgency=low
 
   * Rebuild font with unifont 1:1.0-4ubuntu3 (thanks, Liu Qishuai;
     LP: #62849).
@@ -9,7 +9,7 @@ gfxboot-theme-ubuntu (0.5.6) UNRELEASED; urgency=low
   * Update for Vietnamese default layout change in console-setup
     1.21ubuntu3.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Fri, 29 Feb 2008 17:48:18 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 29 Feb 2008 18:34:03 +0000
 
 gfxboot-theme-ubuntu (0.5.5) hardy; urgency=low
 
