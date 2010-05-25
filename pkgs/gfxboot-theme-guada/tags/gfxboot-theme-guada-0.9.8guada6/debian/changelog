@@ -4,6 +4,7 @@ gfxboot-theme-ubuntu (0.5.20) UNRELEASED; urgency=low
     console-setup/variantcode values when booting with a non-Latin keymap.
     This has to be handled by casper instead, otherwise we break the
     alternate install CD (LP: #218754).
+  * Update translations from Launchpad.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 21 Apr 2008 14:54:25 +0100
 
