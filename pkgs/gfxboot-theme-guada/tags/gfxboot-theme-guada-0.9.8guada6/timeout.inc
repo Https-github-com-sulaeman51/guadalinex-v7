@@ -7,8 +7,6 @@
 /Timeout {
   % first time
 
-  ptheme { over over p.timeout.animate } if
-
   dup /timeout.time exch def
 
   over sub neg timeout.symbols mul exch div
@@ -37,16 +35,14 @@
     } forall
   } {
 
-    ptheme not {
-      white setcolor
+    white setcolor
 
-      timeout.time.x timeout.time.y moveto -30 0 rmoveto
-      currentpoint 30 fontheight image
+    timeout.time.x timeout.time.y moveto -30 0 rmoveto
+    currentpoint 30 fontheight image
 
-      timeout.time 10 mul 150 add 182 div "%ds" timeout.buf sprintf
+    timeout.time 10 mul 150 add 182 div "%ds" timeout.buf sprintf
 
-      timeout.time.x timeout.time.y moveto timeout.buf showright
-    } if
+    timeout.time.x timeout.time.y moveto timeout.buf showright
 
     timeout.last 1 timeout.current {
       1 sub dup 0 ge {
