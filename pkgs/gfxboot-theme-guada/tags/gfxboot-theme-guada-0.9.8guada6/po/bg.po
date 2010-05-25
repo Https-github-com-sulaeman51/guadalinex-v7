@@ -332,7 +332,7 @@ msgid "Start Xubuntu in safe ^graphics mode"
 msgstr "Стартиране на Xubuntu в безопасен ^графичен режим"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install
+#. txt_menuitem_install_text
 msgid "^Install in text mode"
 msgstr "^Инсталиране на твърдия диск"
 

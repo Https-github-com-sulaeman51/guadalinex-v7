@@ -332,7 +332,7 @@ msgid "Start Xubuntu in safe ^graphics mode"
 msgstr "Xubuntu indítása csökkentett ^grafikus módban"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install
+#. txt_menuitem_install_text
 msgid "^Install in text mode"
 msgstr "^Telepítés a merevlemezre"
 
