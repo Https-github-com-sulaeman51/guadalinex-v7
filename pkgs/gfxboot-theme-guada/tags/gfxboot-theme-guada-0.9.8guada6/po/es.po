@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
-"PO-Revision-Date: 2006-03-21 20:20+0000\n"
+"PO-Revision-Date: 2006-05-11 22:12+0000\n"
 "Last-Translator: Ricardo Pérez López <ricardo@iesdonana.org>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
@@ -92,7 +92,7 @@ msgstr "Cargador de arranque"
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "Error E/S"
+msgstr "Error de E/S"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -142,7 +142,7 @@ msgstr ""
 #. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr "Error de DVD"
+msgstr "Error del DVD"
 
 #. txt_dvd_warning2
 msgid ""
@@ -161,7 +161,7 @@ msgstr "Apagar"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "¿Desea detener el sistema?"
+msgstr "¿Desea detener el sistema ahora?"
 
 #. dialog title for hard disk installation
 #. txt_harddisk_title
@@ -202,7 +202,7 @@ msgstr "Instalación por NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr "Usuario (se usará \"guest\" si estuviera vacío)\n"
+msgstr "Usuario (se usará \"guest\" si queda vacío)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
@@ -297,7 +297,7 @@ msgstr "^Iniciar Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Iniciar Ubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
@@ -307,7 +307,7 @@ msgstr "^Iniciar Kubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Iniciar Kubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
@@ -317,7 +317,7 @@ msgstr "^Iniciar Edubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Iniciar Edubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
@@ -327,7 +327,7 @@ msgstr "^Iniciar Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Iniciar Xubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
@@ -357,7 +357,7 @@ msgstr "Instalar un ^servidor"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr "^Verificar CD en busca de errores"
+msgstr "Verificar el ^CD en busca de errores"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -367,7 +367,7 @@ msgstr "^Recuperar un sistema dañado"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr "^Test de memoria"
+msgstr "Test de ^memoria"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd

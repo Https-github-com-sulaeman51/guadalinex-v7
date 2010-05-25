@@ -1,3 +1,13 @@
+gfxboot-theme-ubuntu (0.1.21) UNRELEASED; urgency=low
+
+  * Update translations from Rosetta: Bulgarian, Bengali, Czech, German,
+    Greek, Spanish, Finnish, French, Hungarian, Italian, Georgian, Kurdish,
+    Norwegian Bokmål, Dutch, Polish, Portuguese, Portuguese (Brazil),
+    Russian, Slovak, Slovenian, Swedish, Thai, Turkish, Ukrainian, Urdu,
+    Chinese (China), Chinese (Taiwan).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 15 May 2006 09:28:04 +0100
+
 gfxboot-theme-ubuntu (0.1.20) dapper; urgency=low
 
   * Update keymaps from console-keymaps-at 2002.12.04dbs-52.1ubuntu8, adding
