@@ -373,3 +373,8 @@ msgstr "Test ^memorie"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "[^B]Porneşte de pe primul hard disc"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

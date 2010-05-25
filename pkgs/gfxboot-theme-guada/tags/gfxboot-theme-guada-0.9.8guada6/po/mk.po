@@ -387,3 +387,8 @@ msgstr "^Мемориски тест"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Подигни од првиот тврд диск"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

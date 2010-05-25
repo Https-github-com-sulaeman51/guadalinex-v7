@@ -372,3 +372,8 @@ msgstr "Comprovació de la ^memòria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Arrenca des del primer disc dur"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

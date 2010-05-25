@@ -369,3 +369,8 @@ msgstr "内存测试 (^M)"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "从第一块硬盘启动 (^B)"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

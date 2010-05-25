@@ -377,3 +377,8 @@ msgstr "^Testa bîrê"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Ji hard disk a yekemîn ^boot bike"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

@@ -375,3 +375,8 @@ msgstr "^Test pamäte"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Štart systému z prvého ^disku"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

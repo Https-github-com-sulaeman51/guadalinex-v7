@@ -384,3 +384,8 @@ msgstr "Έλεγ^χος μνήμης"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Ε^κκίνηση από τον πρώτο σκληρό δίσκο"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

@@ -371,3 +371,8 @@ msgstr "Тэст памяці"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Загрузіцца з жорсткага дыска"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

@@ -375,3 +375,8 @@ msgstr "^Memóriateszt"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Rendszerindítás az első merevlemezről"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

@@ -384,3 +384,8 @@ msgstr "Тест пам'яті"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Завантажитись з першого жорсткого диску"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

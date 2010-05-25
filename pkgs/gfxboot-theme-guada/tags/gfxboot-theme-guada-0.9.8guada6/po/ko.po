@@ -388,3 +388,8 @@ msgstr "메모리 테스트 (^M)"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "첫 번째 하드 디스크로 부팅하기 (^B)"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

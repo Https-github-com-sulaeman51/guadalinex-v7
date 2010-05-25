@@ -378,3 +378,8 @@ msgstr "Tester la ^mémoire"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Démarrer à partir du premier disque dur"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

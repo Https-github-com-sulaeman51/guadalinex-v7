@@ -369,3 +369,8 @@ msgstr "Pārbaudīt operatīvo at^miņu"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Ielādē^t sistēmu no pirmā diska"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

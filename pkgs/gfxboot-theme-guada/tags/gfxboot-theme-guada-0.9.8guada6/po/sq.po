@@ -378,3 +378,8 @@ msgstr "^Testimi i memorjes"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Boot nga disku i parë i ngurtë."
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

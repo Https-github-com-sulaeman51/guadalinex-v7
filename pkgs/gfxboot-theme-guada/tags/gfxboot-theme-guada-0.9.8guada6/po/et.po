@@ -371,3 +371,8 @@ msgstr "^Mälutest"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Tee alglaa^dimine esimeselt kõvakettalt"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""

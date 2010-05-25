@@ -384,3 +384,8 @@ msgstr "^মেমরী পরীক্ষা"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "প্রথম হার্ড ডিস্ক থেকে ^বুট করো"
+
+#. Boot option.
+#. txt_option_free
+msgid "Free software only"
+msgstr ""
