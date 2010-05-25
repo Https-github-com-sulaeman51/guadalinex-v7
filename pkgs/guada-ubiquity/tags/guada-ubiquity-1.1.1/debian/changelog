@@ -1,3 +1,11 @@
+guada-ubiquity (1.0.9) jaunty; urgency=low
+
+  * added Plugins for new version (ubi-welcome), guada_ui removed (not needed),first
+    new ui added (for welcome plugin)
+
+ -- Adrian Belmonte Martin <abelmonte@emergya.es>  Mon, 24 May 2010 11:11:48 +0200
+
+
 guada-ubiquity (1.0.8) jaunty; urgency=low
 
   * Removed guada-ubiquity icon. It is in 'guadalinex-artwork' now since it is
