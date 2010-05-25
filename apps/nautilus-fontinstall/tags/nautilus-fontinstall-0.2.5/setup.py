@@ -2,7 +2,7 @@ from distutils.core import setup
 from DistUtilsExtra.command import *
 
 setup(name='nautilus-fontinstall',
-    version='0.1.0',
+    version='0.2.2-0guada1',
     author='David Amian',
     author_email='amialinux@gmail.com',
     packages=['nautilus-fontinstall'],
