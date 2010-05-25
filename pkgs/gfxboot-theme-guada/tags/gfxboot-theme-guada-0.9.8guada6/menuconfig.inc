@@ -82,17 +82,7 @@
 /menuconfig.sethuman {
   menuconfig.curlabel .undef eq { pop return } if
 
-  % Remove ^ from the input string; eventually, this should define hotkeys,
-  % but it doesn't yet.
-  dup length string /menuconfig.human exch def
-  /menuconfig.idx 0 def
-  {
-    dup '^' ne {
-      menuconfig.human menuconfig.idx rot put
-      /menuconfig.idx inc
-    } { pop } ifelse
-  } forall
-  menuconfig.human menuconfig.idx 0 put
+  /menuconfig.human exch def
 
   /menuconfig.idx 0 def
   menuconfig.entries {

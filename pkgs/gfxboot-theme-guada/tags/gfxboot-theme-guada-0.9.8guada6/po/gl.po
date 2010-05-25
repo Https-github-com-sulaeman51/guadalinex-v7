@@ -262,3 +262,53 @@ msgstr ""
 #. txt_access_all
 msgid "Everything"
 msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live
+msgid "Run preinstalled ^live system"
+msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install
+msgid "^Install to the hard disk"
+msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_workstation
+msgid "Install a ^workstation"
+msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_oem
+msgid "Install in ^OEM mode"
+msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_lamp
+msgid "Install a ^LAMP server"
+msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_server
+msgid "Install a ^server"
+msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_check
+msgid "^Check CD for defects"
+msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_rescue
+msgid "^Rescue a broken system"
+msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_memtest
+msgid "^Memory test"
+msgstr ""
+
+# Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_hd
+msgid "^Boot from first hard disk"
+msgstr ""

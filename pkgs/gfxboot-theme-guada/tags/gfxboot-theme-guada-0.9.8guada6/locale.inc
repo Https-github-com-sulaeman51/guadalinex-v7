@@ -17,9 +17,9 @@
 
   /help.messages .undef def
 
-  translation.texts {
-    translation.texts dup { free } forall free
-    /translation.texts .undef def
+  texts.msgstr {
+    texts.msgstr dup { free } forall free
+    /texts.msgstr .undef def
   } if
 
   findtexts
@@ -121,14 +121,13 @@
 /translate {
   translations.init
 
-  translation.texts length 2 lt { return } if
+  texts.msgid .undef eq texts.msgstr .undef eq or { return } if
 
-  0 2 translation.texts length -2 and 1 sub {
-    translation.texts over get 2 index eq {
-      1 add translation.texts exch get exch pop exit
-    } { pop } ifelse 
+  0 1 texts.msgid length 1 sub {
+    texts.msgid over get 2 index eq {
+      texts.msgstr over get exch pop exit
+    } { pop } ifelse
   } for
-
 } def
 
 
@@ -138,43 +137,16 @@
 % ( ) ==> ( )
 %
 /translations.init {
-  translation.texts { return } if
+  texts.msgstr { return } if
 
-  /translation.texts [ ] def
-
-  config.lang .undef eq { return } if
-
-  tr.tmp .undef eq { /tr.tmp 64 string def } if
-
-  config.lang "translations.%s" tr.tmp sprintf
-
-  tr.tmp findfile dup {
-
-    /la.tmp.datalen over length def
-    /la.tmp.str exch cvs def
-
-    la.tmp.datalen 0 eq { return } if
-    la.tmp.str la.tmp.datalen 1 sub get '\n' ne { return } if
-
-    '\n' seteotchar
-   
-    /translation.texts [
-
-      /la.tmp.len 0 def
-
-      {
-        la.tmp.str la.tmp.len add strdup
-        dup dup length 0 put
-        /la.tmp.len over length 1 add la.tmp.len add def
-
-        la.tmp.len la.tmp.datalen ge { exit } if
-
-      } loop
-
-    ] def
-
-    0 seteotchar
-  } { pop } ifelse
-
+  texts.msgid .undef eq {
+    /config.lang.tmp config.lang def
+    /config.lang "en" def
+    findtexts
+    /texts.msgid [ texts { exec strdup } forall ] def
+    /config.lang config.lang.tmp def
+  } if
+  findtexts
+  /texts.msgstr [ texts { exec strdup } forall ] def
 } def
 
