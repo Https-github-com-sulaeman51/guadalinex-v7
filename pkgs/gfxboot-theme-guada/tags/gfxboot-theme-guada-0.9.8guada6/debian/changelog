@@ -3,6 +3,8 @@ gfxboot-theme-ubuntu (0.5.19) UNRELEASED; urgency=low
   * Rebuild font based on debian-installer 20070308ubuntu39.
   * Filter out Hebrew, since gfxboot has no right-to-left text support
     (LP: #212491).
+  * Don't show language menu on startup if a default language is set in the
+    "lang" file.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 14 Apr 2008 14:54:04 +0100
 

@@ -520,7 +520,7 @@
 
   } if
 
-  panel.lang
+  lang.displayed not { panel.lang } if
 
   50 sound.setvolume
   "startup.mod" findfile dup .undef ne {
@@ -1131,6 +1131,7 @@
       1 add
     } forall
     tmp dup setlang pop setkeymap
+    /lang.displayed true def
   } {
     pop
     "en" dup setlang pop setkeymap
