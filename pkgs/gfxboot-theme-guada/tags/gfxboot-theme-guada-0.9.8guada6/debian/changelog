@@ -4,6 +4,7 @@ gfxboot-theme-ubuntu (0.5.2) UNRELEASED; urgency=low
   * Filter out translations for various languages (Arabic, Dzongkha, Indic,
     Mongolian, Thai) that we cannot render properly for various reasons.
   * Give checkbox semantics to the items in the F6 "Other Options" menu.
+  * Add acpi=off, noapic, and nolapic options to the "Other Options" menu.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sun, 03 Feb 2008 18:09:54 +0000
 
