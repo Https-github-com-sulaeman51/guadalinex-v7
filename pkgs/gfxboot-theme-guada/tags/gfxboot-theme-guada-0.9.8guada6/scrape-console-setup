@@ -92,6 +92,7 @@ my @exclude_keymaps = (
 # overflowing the screen.
 my %description_overrides = (
     'ba' => 'Bosnia',
+    'cd' => 'Congo',
     'ch_fr' => 'Swiss French',
     'ch' => 'Swiss German',
     'cs' => 'Serbia',
@@ -102,6 +103,7 @@ my %description_overrides = (
     'in_mal' => 'Malayalam',
     'in_tam' => 'Tamil',
     'in_tel' => 'Telugu',
+    'kr' => 'Korea',
     'no_smi' => 'Norway (Saami)',
     'se_smi' => 'Sweden (Saami)',
     'us_dvorak' => 'Dvorak',
