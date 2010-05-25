@@ -1,3 +1,16 @@
+nautilus-md5sum (0.3.1) jaunty; urgency=low
+
+  * Removed md5sum-ico.svg from the rules file as long as that file doesn't exist any more
+  * Fixed wrong link to the license
+  * Added David Amián as an uploader, so lintian won't complain when he add entries to the changelog
+  * Updated the debhelper's version
+  * Changed the short and long descriptions
+  * Renamed the translation templete file
+  * Added gettext as a build depends
+  * Added i18n support at the debian files
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Wed, 15 Jul 2009 01:25:42 +0200
+
 nautilus-md5sum (0.3.0) stable; urgency=low
   
   * Modified GUI. New GUI uses glade-3
