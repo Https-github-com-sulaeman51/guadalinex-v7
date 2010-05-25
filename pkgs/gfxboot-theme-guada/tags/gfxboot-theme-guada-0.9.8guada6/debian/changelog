@@ -1,9 +1,9 @@
-gfxboot-theme-ubuntu (0.9.6) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.9.6) lucid; urgency=low
 
   * Add localisation for "^Try Kubuntu Netbook without installing" and
     "^Install Kubuntu Netbook" (LP: #540335).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Fri, 19 Mar 2010 10:30:12 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 19 Mar 2010 19:00:33 +0000
 
 gfxboot-theme-ubuntu (0.9.5) lucid; urgency=low
 
