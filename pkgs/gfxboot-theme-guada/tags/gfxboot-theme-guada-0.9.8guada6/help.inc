@@ -100,7 +100,7 @@ clip.size pop 800 eq {
   {
     bo.pos 0 eq { exit } if
     bo.buf bo.pos 1 sub get ' ' le  { exit } if
-    /bo.pos bo.pos 1 sub def
+    /bo.pos dec
   } loop
 
   /bo.buf bo.buf bo.pos add def
@@ -388,7 +388,7 @@ clip.size pop 800 eq {
 %
 /help.prevlink {
   help.hist.index 0 gt {
-    /help.hist.index help.hist.index 1 sub def
+    /help.hist.index dec
     help.hist.page help.hist.index get
     help.hist.startrow help.hist.index get
     help.hist.selectedlink help.hist.index get
@@ -534,7 +534,7 @@ clip.size pop 800 eq {
   % scroll up
 
   help.startrow 0 gt {
-    /help.startrow help.startrow 1 sub def
+    /help.startrow dec
     help.updatepage
   } if
 } def

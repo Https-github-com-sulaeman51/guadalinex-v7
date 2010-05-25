@@ -172,9 +172,9 @@
     menu.entry 0 gt {
       menu.entry false MenuSelect
       menu.entry menu.shift eq {
-        /menu.shift menu.shift 1 sub def redrawmenu
+        /menu.shift dec redrawmenu
       } if
-      /menu.entry menu.entry 1 sub def
+      /menu.entry dec
       menu.entry true MenuSelect
     } if
     pop 0
