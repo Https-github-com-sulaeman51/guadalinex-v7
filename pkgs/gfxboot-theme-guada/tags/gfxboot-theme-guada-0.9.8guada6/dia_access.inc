@@ -91,6 +91,22 @@
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Handle keyboard input.
+%
+% ( key_in ) ==> ( key_out )
+%
+/access.input {
+  dup 0 eq { return } if
+
+  dup 0xff and '0' sub
+  dup 0 ge over xmenu .xm_list get length lt and {
+    xmenu.select
+    0
+  } if
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Show window.
 %
 % ( ) => ( )
@@ -102,6 +118,7 @@
   dup .xmenu xmenu.access put
   dup .xmenu.update /access.update put
   dup .xmenu.select /access.select put
+  dup .xmenu.input /access.input put
   dup window.init
       window.show
 } def

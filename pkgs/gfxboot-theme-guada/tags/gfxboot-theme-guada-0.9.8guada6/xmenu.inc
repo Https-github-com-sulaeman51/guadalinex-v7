@@ -63,6 +63,7 @@ small_layout {
   widget.size array
   dup .type t_xmenu put
   dup .xmenu.select .undef put
+  dup .xmenu.input .undef put
 } def
 
 
@@ -140,6 +141,7 @@ small_layout {
     pop 0
   } if 
 
+  window.current .xmenu.input get dup .undef ne { exec } { pop } ifelse
 } def
 
 
