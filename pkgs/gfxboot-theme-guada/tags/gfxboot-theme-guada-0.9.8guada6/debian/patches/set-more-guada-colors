@@ -23,6 +23,5 @@ Index: newtrunk/panel.inc
  /panel.normal	darkblue def
 -/panel.high	white def
 +/panel.high	realwhite def
- /panel.high	darkblue def
  /panel.bg	black def
  /panel.border	lightdotcolor def

@@ -44,7 +44,7 @@ Index: newtrunk/panel.inc
 ===================================================================
 --- newtrunk.orig/panel.inc	2010-04-09 15:10:25.000000000 +0200
 +++ newtrunk/panel.inc	2010-04-09 15:13:02.000000000 +0200
-@@ -12,12 +12,15 @@
+@@ -12,12 +12,14 @@
  /panel.y        { clip.size exch pop panel.size exch pop sub 10 sub } def
  /panel.text.y	{ panel.y 5 add } def
  /panel.font	font.normal def
@@ -52,7 +52,7 @@ Index: newtrunk/panel.inc
 -%/panel.high	white def
 +/panel.normal	darkblue def
 +/panel.high	white def
- /panel.high	darkblue def
+-/panel.high	darkblue def
 -/panel.bg	lightgray def
 +/panel.bg	black def
  /panel.border	lightdotcolor def
