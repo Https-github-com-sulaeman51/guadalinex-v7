@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
 Uploaders: David Amián <amialinux@gmail.com>, Álvaro Pinel <alvaropinel@gmail.com>
-Build-Depends: debhelper (>= 5)
+Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.0
 Homepage: http://launchpad.net/nautilus-md5sum
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/nautilus-md5sum/trunk/changes
