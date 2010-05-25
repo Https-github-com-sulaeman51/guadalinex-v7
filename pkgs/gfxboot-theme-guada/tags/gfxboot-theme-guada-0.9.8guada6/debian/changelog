@@ -2,6 +2,9 @@ gfxboot-theme-ubuntu (0.4.1) UNRELEASED; urgency=low
 
   * Remove unused logo fading code.
   * Update langlist from langnames.inc.
+  * Override language names for Gujarati, Khmer, Malayalam, and Tamil to use
+    the English names; I don't seem to be able to generate a font containing
+    the necessary characters for their localised names at the moment.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 06 Aug 2007 20:46:18 +0100
 
