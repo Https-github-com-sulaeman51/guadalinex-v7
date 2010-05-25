@@ -93,6 +93,7 @@
 /.ed.pw_field    newfield
 /.xmenu          newfield
 /.xmenu.update   newfield
+/.xmenu.select   newfield
 
 % window types
 /t_dialog 100 def

@@ -447,6 +447,13 @@
 
   } if
 
+  50 sound.setvolume
+  "startup.mod" findfile dup .undef ne {
+    /player.startup 0 def
+    player.startup over mod.load
+    player.startup 0 mod.play
+    free
+  } { pop } ifelse
 } def
 
 
