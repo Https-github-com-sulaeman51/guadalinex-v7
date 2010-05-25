@@ -2,3 +2,5 @@ boot
 install
 po/*.tr
 po/text.inc
+debian/files
+debian/gfxboot-theme-ubuntu
