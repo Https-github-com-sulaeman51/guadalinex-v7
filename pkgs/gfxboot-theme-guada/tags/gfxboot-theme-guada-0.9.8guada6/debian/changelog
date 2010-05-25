@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.5.2) UNRELEASED; urgency=low
+
+  * Ask for language before displaying the main menu (LP: #39888).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun, 03 Feb 2008 18:09:54 +0000
+
 gfxboot-theme-ubuntu (0.5.1) hardy; urgency=low
 
   * Update dates in debian/copyright.
