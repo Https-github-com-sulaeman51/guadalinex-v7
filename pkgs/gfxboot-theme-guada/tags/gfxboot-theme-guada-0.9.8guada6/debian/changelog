@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.5.11) UNRELEASED; urgency=low
+
+  * Backport 'split' memory corruption fix from SuSE.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 20 Mar 2008 22:12:01 +0000
+
 gfxboot-theme-ubuntu (0.5.10) hardy; urgency=low
 
   * Fix a stack leak in menuitemmap.
