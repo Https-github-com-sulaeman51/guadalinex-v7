@@ -1,6 +1,6 @@
 gfxboot-theme-ubuntu (0.3.8) UNRELEASED; urgency=low
 
-  * Use priority=low rather than DEBCONF_PRIORITY=low.
+  * Use priority=low for d-i expert mode rather than DEBCONF_PRIORITY=low.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 16 Apr 2007 18:21:47 +0100
 
