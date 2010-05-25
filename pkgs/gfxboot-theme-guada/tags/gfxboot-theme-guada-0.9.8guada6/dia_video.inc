@@ -12,6 +12,7 @@
 /.vm_mode   0 def
 /.vm_width  1 def
 /.vm_height 2 def
+/.vm_depth  3 def
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -54,7 +55,7 @@
 
   % build list of video modes
   /video.modes.list [
-    [ -1 0 0 ]	% special: default VGA mode
+    [ -1 0 0 0 ]	% special: default VGA mode
 
     0 1 videomodes {
       videomodeinfo dup .undef eq {
@@ -63,10 +64,10 @@
         [
           over 0xbfff and 6 2 roll
           0x4000 and		% fb support
-          exch 0x10 eq and	% 16 color bits
-          over 400 ge and	% height >= 400
-          2 index 600 ge and	% width >= 600
-        { ] } { pop pop pop pop } ifelse
+          over 0x10 eq and	% 16 color bits
+          2 index 400 ge and	% height >= 400
+          3 index 600 ge and	% width >= 600
+        { ] } { pop pop pop pop pop } ifelse
       } ifelse
     } for
 
@@ -94,7 +95,8 @@
       dup 0 eq {
         pop pop "VGA"
       } {
-        exch .vm_height get exch "%d x %d" 32 string dup 5 1 roll sprintf
+        over .vm_depth get rot .vm_height get rot
+        "%d x %d x %d" 32 string dup 6 1 roll sprintf
       } ifelse
     } forall
   ] def
