@@ -1,3 +1,11 @@
+gfxboot-theme-ubuntu (0.5.17) UNRELEASED; urgency=low
+
+  * Add a header to the language and keymap menus; this seems to make it
+    feel like less of an accident when the language menu is displayed
+    automatically on startup.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 07 Apr 2008 12:41:45 +0100
+
 gfxboot-theme-ubuntu (0.5.16) hardy; urgency=low
 
   * Set language using debian-installer/language= rather than locale= if it
