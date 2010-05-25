@@ -334,6 +334,11 @@ msgstr "Instalar um sistema em linha de comando"
 msgid "Install a minimal system"
 msgstr "Instalação mínima do sistema"
 
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"

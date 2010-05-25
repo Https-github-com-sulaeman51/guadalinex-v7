@@ -338,6 +338,11 @@ msgstr "Инсталирај систем само со коман^дна лин
 msgid "Install a minimal system"
 msgstr ""
 
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"

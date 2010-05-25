@@ -337,6 +337,11 @@ msgstr "Nainstalovat systém jen s příkazovou řádkou"
 msgid "Install a minimal system"
 msgstr "Nainstalovat minimální systém"
 
+#. Installation mode.
+#. txt_menuitem_minimalvm
+msgid "Install a minimal virtual machine"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
