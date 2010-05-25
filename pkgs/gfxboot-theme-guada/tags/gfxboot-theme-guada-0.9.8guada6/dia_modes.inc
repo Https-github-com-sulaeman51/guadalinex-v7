@@ -104,6 +104,9 @@
   dup length 3 add string /modes.tmp.label exch def
   " %s " modes.tmp.label sprintf
 
+  xmenu % save
+  /xmenu xmenu.modes def
+
   modes.map {
     /modes.tmp.oldidx modes.map xmenu .xm_current get get def
   } {
@@ -142,6 +145,8 @@
   } for
 
   pmenu.init
+
+  /xmenu exch def % restore
 } def
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
