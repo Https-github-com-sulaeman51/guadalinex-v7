@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.8.5) UNRELEASED; urgency=low
+
+  * Sync with console-setup 1.34ubuntu4: add Asturian, Catalan, Senegal, and
+    Turkmenistan layouts.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 01 Oct 2009 20:48:01 +0100
+
 gfxboot-theme-ubuntu (0.8.4) karmic; urgency=low
 
   * Use gfxboot-compile instead of mkbootmsg if it's present, in order to
