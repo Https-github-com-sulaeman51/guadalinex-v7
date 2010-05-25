@@ -1,3 +1,11 @@
+nautilus-fontinstall (0.2.3-0ubuntu1) karmic; urgency=low
+
+  * Changed Standards-version to current version (3.8.3)
+  * Changed maintainer to @ubuntu.com one
+  * Added LICENSE file 
+
+ -- David Amián Valle <amialinux@gmail.com>  Tue, 08 Sep 2009 14:04:42 +0200
+
 nautilus-fontinstall (0.2.3-0guada1) jaunty; urgency=low
 
   * Changed package structure and added fontinstall-ico
