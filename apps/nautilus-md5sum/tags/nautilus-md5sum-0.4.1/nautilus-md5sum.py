@@ -41,48 +41,48 @@ def calculateMD5(message,filename,dialogP):
 
 
 class MD5Extension(nautilus.MenuProvider):
-	def __init__(self):
-		pass
-	
-	def get_file_items(self, window, files):
+    def __init__(self):
+        pass
+    
+    def get_file_items(self, window, files):
 
-		if len(files)!=1:
-			return
-		file = files[0]
+        if len(files)!=1:
+            return
+        file = files[0]
 
-		if file.get_mime_type() not in FORMAT:
-			return
+        if file.get_mime_type() not in FORMAT:
+            return
 
-		items=[]
-		"""Called when the user selects a file in Nautilus."""
-		item = nautilus.MenuItem("NautilusPython::md5sum_item", "Calcular suma MD5", "Calcular suma MD5")
-		item.connect("activate", self.menu_activate_cb, files)
-		items.append(item)
-		return items
+        items=[]
+        """Called when the user selects a file in Nautilus."""
+        item = nautilus.MenuItem("NautilusPython::md5sum_item", "Calcular suma MD5", "Calcular suma MD5")
+        item.connect("activate", self.menu_activate_cb, files)
+        items.append(item)
+        return items
 
-	def menu_activate_cb(self, menu, files):
-		"""Called when the user selects the menu."""
-		if len(files) != 1:
-	            return
-               	file = files[0]
-		if file.get_uri_scheme() != 'file':
-	            return
+    def menu_activate_cb(self, menu, files):
+        """Called when the user selects the menu."""
+        if len(files) != 1:
+            return
+        file = files[0]
+        if file.get_uri_scheme() != 'file':
+            return
 
-        	if file.is_directory():
-	            return
+        if file.is_directory():
+            return
 
-        	filename = urllib.unquote(file.get_uri()[7:])
+        filename = urllib.unquote(file.get_uri()[7:])
 
-		dialog = gtk.Dialog("nautilus-md5sum")
-		dialog.set_border_width(10)
-		label=gtk.Label("El calculo de la suma MD5 puede tardar varios \nminutos dependiendo del tamaño de la imágen de disco")
-    		label.show()
-    		button1=gtk.Button("Ok",gtk.STOCK_OK)
-    		button1.connect_object("clicked", calculateMD5, "La suma MD5 es:\n\n",filename,dialog)
-    		button1.show()
-    		dialog.vbox.pack_start(label)
-    		dialog.action_area.pack_start(button1)
-    		dialog.show()
+        dialog = gtk.Dialog("nautilus-md5sum")
+        dialog.set_border_width(10)
+        label=gtk.Label("El calculo de la suma MD5 puede tardar varios \nminutos dependiendo del tamaño de la imágen de disco")
+        label.show()
+        button1=gtk.Button("Ok",gtk.STOCK_OK)
+        button1.connect_object("clicked", calculateMD5, "La suma MD5 es:\n\n",filename,dialog)
+        button1.show()
+        dialog.vbox.pack_start(label)
+        dialog.action_area.pack_start(button1)
+        dialog.show()
 
-		#alert("El calculo de la suma MD5 puede tardar varios \nminutos dependiendo del tamaño de la imágen de disco")
-		
+        #alert("El calculo de la suma MD5 puede tardar varios \nminutos dependiendo del tamaño de la imágen de disco")
+        
