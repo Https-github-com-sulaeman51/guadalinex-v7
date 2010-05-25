@@ -95,7 +95,7 @@ clip.size pop 800 eq {
 /findbootoption {
   /bo.buf boot.ed 3 get def
   /bo.len boot.ed 4 get def
-  /bo.pos boot.ed 5 get def
+  /bo.pos boot.ed 5 get 0 get def
 
   {
     bo.pos 0 eq { exit } if
