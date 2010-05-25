@@ -1024,21 +1024,6 @@
 
   timeout.init
 
-  currentimage
-
-  /head "head.jpg" readimage def
-  /head_a "head_a.jpg" readimage def
-
-  small_layout {
-     70 173 moveto head  head_a  showlogo
-  } {
-    234 217 moveto head  head_a  showlogo
-  } ifelse
-
-  head free head_a free
-
-  setimage
-
   % set default language
   "lang" findfile dup {
     /tmp over length 1 add 2 max string def

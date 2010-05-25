@@ -7,7 +7,7 @@ TRANSLATIONS = $(addsuffix .tr,en $(notdir $(basename $(wildcard po/*.po))))
 
 DEFAULT_LANG =
 
-PIC_COMMON   = back.jpg head{,_a}.jpg
+PIC_COMMON   = back.jpg
 
 FILES_CORE   = init languages
 
