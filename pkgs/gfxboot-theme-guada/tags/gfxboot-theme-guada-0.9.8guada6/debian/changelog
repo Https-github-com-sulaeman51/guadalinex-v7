@@ -3,6 +3,8 @@ gfxboot-theme-ubuntu (0.8.1) UNRELEASED; urgency=low
   * Make menu columns variable-width, to make it easier to fit more
     languages and keymaps onto the screen.
   * Update langlist from langnames.inc, forgotten in 0.8.0 (LP: #311699).
+  * Sort Norwegian Bokmål and Norwegian Nynorsk next to each other, as if
+    their language code were 'no' (LP: #40144).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 10 Jun 2009 01:04:31 +0100
 
