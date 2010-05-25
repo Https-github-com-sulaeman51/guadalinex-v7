@@ -221,6 +221,11 @@ msgstr "HTTP telepítés"
 msgid "Domain\n"
 msgstr "Tartomány\n"
 
+# button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Egyéb beállítások"
+
 # label for language selection
 #. txt_language
 msgid "Language"

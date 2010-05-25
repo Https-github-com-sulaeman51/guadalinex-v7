@@ -219,6 +219,11 @@ msgstr "Instalación HTTP"
 msgid "Domain\n"
 msgstr "Dominio\n"
 
+# button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Otras opciones"
+
 # label for language selection
 #. txt_language
 msgid "Language"

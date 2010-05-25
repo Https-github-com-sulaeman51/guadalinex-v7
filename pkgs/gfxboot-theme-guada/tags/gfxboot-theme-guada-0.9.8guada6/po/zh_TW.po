@@ -214,6 +214,11 @@ msgstr "HTTP 安裝"
 msgid "Domain\n"
 msgstr "領域\n"
 
+# button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "其他選項"
+
 # label for language selection
 #. txt_language
 msgid "Language"

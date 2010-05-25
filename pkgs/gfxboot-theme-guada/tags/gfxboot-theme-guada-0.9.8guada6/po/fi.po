@@ -200,6 +200,11 @@ msgstr "HTTP-asennus"
 msgid "Domain\n"
 msgstr "Toimialue\n"
 
+# button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Muut valinnat"
+
 # label for language selection
 #. txt_language
 msgid "Language"

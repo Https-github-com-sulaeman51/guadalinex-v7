@@ -219,6 +219,11 @@ msgstr "Εγκατάσταση HTTP"
 msgid "Domain\n"
 msgstr "Περιοχή\n"
 
+# button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Άλλες Επιλογές"
+
 # label for language selection
 #. txt_language
 msgid "Language"

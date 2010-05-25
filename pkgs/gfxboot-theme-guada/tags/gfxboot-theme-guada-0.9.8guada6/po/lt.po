@@ -215,6 +215,11 @@ msgstr "Diegimas per HTTP"
 msgid "Domain\n"
 msgstr "Domenas\n"
 
+# button label for other/more options
+#. txt_other_options
+msgid "Other Options"
+msgstr "Kiti parametrai"
+
 # label for language selection
 #. txt_language
 msgid "Language"
