@@ -9,13 +9,13 @@ DEFAULT_LANG =
 
 PIC_COMMON   = back.jpg
 
-FILES_CORE   = init languages
+FILES_CORE   = init
 
-INST_EXT     = $(TRANSLATIONS) 16x16.fnt $(PIC_COMMON)
+INST_EXT     = langlist $(TRANSLATIONS) 16x16.fnt $(PIC_COMMON)
 
 FILES_INST   = $(FILES_CORE) $(INST_EXT)
 
-FILES_BOOT   = $(FILES_CORE) $(TRANSLATIONS) 16x16.fnt \
+FILES_BOOT   = $(FILES_CORE) langlist $(TRANSLATIONS) 16x16.fnt \
 	       $(PIC_COMMON)
 
 FILES_BOOT_EN = $(FILES_CORE) en.tr 16x16.fnt $(PIC_COMMON)
@@ -41,11 +41,11 @@ themes: bootdir installdir
 bootdir: boot.config boot $(INCLUDES)
 	@cp -a po/*.tr boot
 	@for i in $(FILES_BOOT) ; do [ -f $$i ] && cp $$i boot ; done ; true
-	@echo en >boot/languages
+	@echo en >boot/langlist
 	$(MKBOOTMSG) $(BFLAGS) -l boot/log -c $< boot/init
 ifdef DEFAULT_LANG
 	@echo $(DEFAULT_LANG) >boot/lang
-	@echo $(DEFAULT_LANG) >>boot/languages
+	@echo $(DEFAULT_LANG) >>boot/langlist
 endif
 	@cd boot && echo $(FILES_BOOT_EN) | sed -e "s/ /\n/g" | cpio --quiet -o >message
 
@@ -66,7 +66,7 @@ font:
 	`./keymapchars keymap.*.inc` \
 	-t tmp.txt \
 	-t install/log -t boot/log \
-	-t languages -t dia_lang.inc \
+	-t langlist -t dia_lang.inc \
 	-f -gnu-unifont-medium-r-normal--16-160-75-75-c-80-iso10646-1 \
 	--fsize 16,5 \
 	16x16.fnt >16x16.fnt.log

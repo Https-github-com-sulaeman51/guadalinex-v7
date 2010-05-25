@@ -9,7 +9,7 @@
 % Some global vars.
 %
 
-% fallback if there is no "languages"
+% fallback if there is no "langlist"
 /lang.items [ "en" ] def
 /lang.names [ "English" ] def
 
@@ -91,14 +91,14 @@
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% Parse "languages" file.
+% Parse "langlist" file.
 %
 % ( ) ==> ( )
 %
 /lang.parsedata {
   /lang.default 0 def
 
-  "languages" findfile dup { /lang.data exch def } { pop return } ifelse
+  "langlist" findfile dup { /lang.data exch def } { pop return } ifelse
 
   /la.tmp.datalen lang.data length def
   /la.tmp.str lang.data cvs def

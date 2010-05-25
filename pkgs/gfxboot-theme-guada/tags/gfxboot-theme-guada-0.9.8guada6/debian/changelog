@@ -1,3 +1,12 @@
+gfxboot-theme-ubuntu (0.1.8) UNRELEASED; urgency=low
+
+  * Rename languages to langlist to avoid running into 8.3 file name
+    restrictions on ISO9660.
+  * Remove langlist from the bootlogo file and just include it on the file
+    system.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 20 Jan 2006 12:06:34 +0000
+
 gfxboot-theme-ubuntu (0.1.7) dapper; urgency=low
 
   * Move boot option menu up 32 pixels and allow two more menu entries to be
