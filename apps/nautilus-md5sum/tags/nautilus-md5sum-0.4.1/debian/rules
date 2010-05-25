@@ -64,10 +64,6 @@ binary-indep: build install
 	cd po; \
 		find -type d -exec mkdir -p "$(LOCALEDIR)/{}" \; ; \
 		find -type f -name "*.po" -exec sh -c "N='{}'; msgfmt -o $(LOCALEDIR)/\$${N%.po}.mo \$$N" \;
-
-
-# Build architecture-dependent files here.
-binary-arch: build install
 	dh_testdir
 	dh_testroot
 	dh_installchangelogs 
@@ -96,6 +92,10 @@ binary-arch: build install
 	dh_gencontrol
 	dh_md5sums
 	dh_builddeb
+
+
+# Build architecture-dependent files here.
+binary-arch: build install
 
 binary: binary-indep binary-arch
 .PHONY: build clean binary-indep binary-arch binary install configure
