@@ -1,9 +1,9 @@
-gfxboot-theme-ubuntu (0.5.21) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.6.0) intrepid; urgency=low
 
   * Evan tells me that /syslinux/syslinux.cfg is a valid syslinux
     configuration file path too (LP: #234005).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Thu, 22 May 2008 14:57:23 +0200
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun, 01 Jun 2008 13:47:18 +0100
 
 gfxboot-theme-ubuntu (0.5.20) hardy; urgency=low
 
