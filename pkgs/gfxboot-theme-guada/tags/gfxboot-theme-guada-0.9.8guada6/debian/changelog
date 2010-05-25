@@ -9,6 +9,12 @@ gfxboot-theme-ubuntu (0.5.3) UNRELEASED; urgency=low
     (LP: #27676) and handle redraws on language change better.
   * Allow menu options to use more horizontal space, and centre them on the
     screen.
+  * Implement "label NAME", "append NAME", "replace NAME", and "applies
+    NAME" options in gfxboot.cfg. These are used to implement a new Modes
+    menu, which replaces the video menu on F4. The intent is that that this
+    should reduce the bewildering array of top-level menu options, while
+    still allowing the less usual options to be selected easily. Many
+    strings have been changed accordingly.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 13 Feb 2008 10:27:59 +0000
 

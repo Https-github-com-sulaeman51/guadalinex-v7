@@ -233,6 +233,11 @@ msgstr "Језик"
 msgid "Keymap"
 msgstr "Мапа тастера"
 
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
@@ -295,20 +300,10 @@ msgid "^Try Ubuntu without any change to your computer"
 msgstr "^Покрени или инсталирај Убунту"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_xforcevesa
-msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "Покрени Убунту у ^ безбедном графичком режиму"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 #, fuzzy
 msgid "^Try Kubuntu without any change to your computer"
 msgstr "^Покрени или инсталирај Кубунту"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_kubuntu_xforcevesa
-msgid "Start Kubuntu in safe ^graphics mode"
-msgstr "Покрени Кубунту у безбедном ^графичком режиму"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
@@ -317,24 +312,21 @@ msgid "^Try Edubuntu without any change to your computer"
 msgstr "^Покрени или инсталирај Едубунту"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_edubuntu_xforcevesa
-msgid "Start Edubuntu in safe ^graphics mode"
-msgstr "Покрени Едубунту у безбедном ^графичком режиму"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 #, fuzzy
 msgid "^Try Xubuntu without any change to your computer"
 msgstr "^Покрени или инсталирај Ксубунту"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_xubuntu_xforcevesa
-msgid "Start Xubuntu in safe ^graphics mode"
-msgstr "Покрени Ксубунту у безбедном ^графичком режиму"
+#. Installation mode.
+#. txt_menuitem_xforcevesa
+#, fuzzy
+msgid "Safe graphics mode"
+msgstr "Покрени Убунту у ^ безбедном графичком режиму"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Install with driver ^update CD"
+#, fuzzy
+msgid "Use driver update CD"
 msgstr "Инсталирај са цд-ом са додатним дра^јверима"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -378,34 +370,40 @@ msgstr ""
 msgid "^Install Xubuntu"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_workstation
-msgid "Install a ^workstation"
+#, fuzzy
+msgid "Install a workstation"
 msgstr "Инсталирај ^радну станицу"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_server
-msgid "Install a ser^ver"
+#, fuzzy
+msgid "Install a server"
 msgstr "Инсталирај сер^вер"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_oem
-msgid "^OEM install (for manufacturers)"
+#, fuzzy
+msgid "OEM install (for manufacturers)"
 msgstr "^ОЕМ инсталација из конзоле (за произвођаче)"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_lamp
-msgid "Install a ^LAMP server"
+#, fuzzy
+msgid "Install a LAMP server"
 msgstr "Инсталирај ^LAMP сервер"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_ltsp
-msgid "Install an ^LTSP server"
+#, fuzzy
+msgid "Install an LTSP server"
 msgstr "Инсталирај ^LTSP сервер"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_cli
-msgid "Install a comm^and-line system"
+#, fuzzy
+msgid "Install a command-line system"
 msgstr "Инсталирај ^конзолни систем (cli)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

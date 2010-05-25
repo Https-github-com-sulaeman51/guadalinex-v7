@@ -457,16 +457,13 @@ def
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-% getgfxconfig - get gfxboot config file entry
+% readgfxconfig - read gfxboot config file
 %
 % group: system
 %
-% ( str1 -- str2 )
+% ( -- )
 %
-% str1: key for config entry
-% str2: config string (or .undef)
-%
-/getgfxconfig {
+/readgfxconfig {
   gfxconfig.data .undef eq {
     "gfxboot.cfg" findfile dup .undef ne {
       dup dup length dup string dup cvp 4 2 roll memcpy exch free
@@ -477,24 +474,77 @@ def
     /gfxconfig.data over '\n' split def free
 
   } if
+} def
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% getgfxconfig - get gfxboot config file entry
+%
+% group: system
+%
+% ( str1 -- str2 )
+%
+% str1: key for config entry
+% str2: config string (or .undef)
+%
+/getgfxconfig {
+  readgfxconfig
 
   currenteotchar '=' seteotchar
 
   .undef
 
   gfxconfig.data {
-
     % overkill because string compare does not honour eotchar
     dup strdup dup 5 index eq {
       dup length exch free 1 add add exch pop exit
     } {
       free pop
     } ifelse
-
   } forall
 
   exch seteotchar exch pop
 
+} def
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% listgfxconfig - list all gfxboot config file keys and values
+%
+% group: system
+%
+% ( -- array1 )
+%
+% array1: array of [ key, value ] arrays in config file; caller must free keys
+%
+/listgfxconfig {
+  readgfxconfig
+
+  currenteotchar '=' seteotchar
+
+  [
+    gfxconfig.data {
+      dup '' eq {
+	pop
+      } {
+	[ exch dup strdup exch dup length 1 add add ]
+      } ifelse
+    } forall
+  ]
+
+  exch seteotchar
+} def
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% freegfxconfig - free a list returned by listgfxconfig
+%
+% group: system
+%
+% ( array1 -- )
+%
+% array1: array of [ key, value ] arrays in config file
+%
+/freegfxconfig {
+  dup { 0 get free } forall
+  free
 } def
 
 /gfxconfig.data .undef def

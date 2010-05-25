@@ -236,6 +236,11 @@ msgstr "மொழி"
 msgid "Keymap"
 msgstr "விசைப்பலகை இட அமைவு"
 
+#. label for installation mode selection
+#. txt_modes
+msgid "Modes"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
@@ -298,20 +303,10 @@ msgid "^Try Ubuntu without any change to your computer"
 msgstr "உபூன்டுவை ^துவக்கு அல்லது நிறுவு"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_xforcevesa
-msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "^உபூன்டுவை பாதுகாப்பான வரைகலை பாணியில் துவக்கு"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 #, fuzzy
 msgid "^Try Kubuntu without any change to your computer"
 msgstr "குபூன்டுவை ^துவக்கு அல்லது நிறுவு"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_kubuntu_xforcevesa
-msgid "Start Kubuntu in safe ^graphics mode"
-msgstr "குபூன்டுவை பாதுகாப்பான வரைகலை பாணியில் துவக்கு"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
@@ -320,24 +315,20 @@ msgid "^Try Edubuntu without any change to your computer"
 msgstr "எடுபூன்டுவை ^துவக்கு அல்லது நிறுவு"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_edubuntu_xforcevesa
-msgid "Start Edubuntu in safe ^graphics mode"
-msgstr "எடுபூன்டுவை பாதுகாப்பான வரைகலை பாணியில் துவக்கு"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 #, fuzzy
 msgid "^Try Xubuntu without any change to your computer"
 msgstr "ஜுபூன்டுவை ^துவக்கு அல்லது நிறுவு"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_xubuntu_xforcevesa
-msgid "Start Xubuntu in safe ^graphics mode"
-msgstr "ஜுபூன்டுவை பாதுகாப்பான வரைகலை பாணியில் துவக்கு"
+#. Installation mode.
+#. txt_menuitem_xforcevesa
+#, fuzzy
+msgid "Safe graphics mode"
+msgstr "^உபூன்டுவை பாதுகாப்பான வரைகலை பாணியில் துவக்கு"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Install with driver ^update CD"
+msgid "Use driver update CD"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -381,34 +372,36 @@ msgstr ""
 msgid "^Install Xubuntu"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_workstation
-msgid "Install a ^workstation"
+#, fuzzy
+msgid "Install a workstation"
 msgstr "^workstation (உயர்கணினி இயங்கு தளம்) ஐ நிறுவு"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_server
-msgid "Install a ser^ver"
+msgid "Install a server"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_oem
-msgid "^OEM install (for manufacturers)"
+msgid "OEM install (for manufacturers)"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_lamp
-msgid "Install a ^LAMP server"
+#, fuzzy
+msgid "Install a LAMP server"
 msgstr "^LAMP (லாம்ப்) சேவையகத்தை நிறுவு"
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_ltsp
-msgid "Install an ^LTSP server"
+msgid "Install an LTSP server"
 msgstr ""
 
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. Installation mode.
 #. txt_menuitem_cli
-msgid "Install a comm^and-line system"
+msgid "Install a command-line system"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
