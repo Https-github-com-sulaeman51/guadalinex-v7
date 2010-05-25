@@ -17,14 +17,16 @@
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Create sort key for video modes.
+% Supports up to 8191x4095x56 in multiples of 8 bits of depth.
 %
 % ( vm_index )  ==> ( sort_index )
 %
 /vmsortindex {
   video.modes.list exch get
   dup
-  .vm_width get 16 shl
-  exch .vm_height get add
+  .vm_width get 14 shl
+  over .vm_height get add 3 shl
+  exch .vm_depth get 3 shr add
 } def
 
 
