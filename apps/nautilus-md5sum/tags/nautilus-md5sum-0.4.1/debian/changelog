@@ -1,10 +1,23 @@
+nautilus-md5sum (0.3.4-0ubuntu1) karmic; urgency=low
+
+  * Added swedish translations (po/sv.po)
+  * Merge from branch distutils to change the method install package to distutils method
+ 
+ -- David Amián Valle <amialinux@gmail.com>  Mon, 07 Sep 2009 13:43:56 +0200
+
 nautilus-md5sum (0.3.3-0ubuntu1) karmic; urgency=low
 
-  * Added setup.py and setup.cfg file to install python package with distutils method
+  * Added setup.py and setup.cfg file to use distutils method
   * Modified nautilus-md5sum.py to chage path of glade file
   * Modified rules file to use python-distutils
   * Changed prerem file permissions
-  * Added python-all-dev, cdbs, gettext, python-central, python-distutils-extra depends in control
+  * debian/control:
+    - Added depends: 
+        -python-all-dev
+        -cdbs
+        -gettext
+        -python-central
+        -python-distutils-extra
   * Added POTFILES.in and changed the package structure
   * Changed version in setup.py
   * Changed path scripts and data in setup.py 
