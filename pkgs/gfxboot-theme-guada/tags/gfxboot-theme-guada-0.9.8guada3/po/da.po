@@ -258,6 +258,11 @@ msgstr "^Prøv Ubuntu Netbook uden at installere"
 msgid "^Try Kubuntu Netbook without installing"
 msgstr "^Prøv Kubuntu Netbook uden at installere"
 
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_guada
+msgid "^Try Guadalinex without any change to your computer"
+msgstr ""
+
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
@@ -332,6 +337,12 @@ msgstr "^Installér Ubuntu Netbook"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "^Installér Kubuntu Netbook"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "^Installér Ubuntu i teksttilstand"
 
 #. Installation mode.
 #. txt_menuitem_workstation

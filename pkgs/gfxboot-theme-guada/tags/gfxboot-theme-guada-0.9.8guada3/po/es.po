@@ -59,6 +59,7 @@ msgstr ""
 #. txt_help
 msgid "Help"
 msgstr "Ayuda"
+
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
@@ -137,10 +138,11 @@ msgstr "Apagar"
 msgid "Halt the system now?"
 msgstr "¿Desea detener el sistema ahora?"
 
-xt_password
+#. txt_password
 msgid "Password\n"
 msgstr "Contraseña\n"
-on label for other/more options
+
+#. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
 msgstr "Otras opciones"

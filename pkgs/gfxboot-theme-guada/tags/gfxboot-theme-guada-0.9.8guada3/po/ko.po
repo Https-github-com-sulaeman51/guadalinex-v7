@@ -255,6 +255,11 @@ msgstr "^설치하지 않고 우분투 넷북 경험하기(^T)"
 msgid "^Try Kubuntu Netbook without installing"
 msgstr "설치하지 않고 쿠분투 경험하기(^T)"
 
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_guada
+msgid "^Try Guadalinex without any change to your computer"
+msgstr ""
+
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
@@ -329,6 +334,12 @@ msgstr "우분투 넷북 설치 (^I)"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "^쿠분투 넷북 설치"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "텍스트 모드에서 우분투 설치 (^I)"
 
 #. Installation mode.
 #. txt_menuitem_workstation
