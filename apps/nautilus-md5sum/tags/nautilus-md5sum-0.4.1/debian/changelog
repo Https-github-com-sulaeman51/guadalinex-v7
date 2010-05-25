@@ -1,6 +1,7 @@
-nautilus-md5sum (0.3.2-0ubuntu1) jaunty; urgency=low
+nautilus-md5sum (0.3.2-0ubuntu1) karmic; urgency=low
 
   * Added i18n to nautilus-md5sum-notification
+  * Added translations (cs, hu, lt, pl, pt_BR, th, zh_CN) from Launchpad
   * Added debian/watch file
   * Added upstream LICENSE file
   * Removed ${shlibs:Depends} from Depends
@@ -9,7 +10,7 @@ nautilus-md5sum (0.3.2-0ubuntu1) jaunty; urgency=low
   * Removed the chmod from the postinstall script and changed the permissions
     to the original file nautilus-md5sum.py
 
- -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 17 Aug 2009 16:34:55 +0200
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 17 Aug 2009 20:08:14 +0200
 
 nautilus-md5sum (0.3.1-1) karmic; urgency=low
 
