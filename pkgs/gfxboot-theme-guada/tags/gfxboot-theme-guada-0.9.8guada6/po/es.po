@@ -272,7 +272,6 @@ msgstr "Usar disco de actualización de controladores"
 msgid "^Install Guadalinex in text mode"
 msgstr "^Instalar Guadalinex en modo texto"
 
-
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
@@ -292,6 +291,11 @@ msgstr "^Instalar Edubuntu en modo texto"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "^Instalar Xubuntu en modo texto"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+msgid "^Install Guadalinex"
+msgstr "^Instalar Guadalinex"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -342,11 +346,6 @@ msgstr "^Instalar Ubuntu Netbook"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "^Instalar Kubuntu Netbook"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_guada
-msgid "^Install Guadalinex"
-msgstr "^Instalar Guadalinex"
 
 #. Installation mode.
 #. txt_menuitem_workstation
