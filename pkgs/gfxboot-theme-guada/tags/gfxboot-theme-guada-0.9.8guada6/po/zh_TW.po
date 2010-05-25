@@ -233,11 +233,6 @@ msgid "Keymap"
 msgstr "鍵盤對應表"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "一般模式"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "專家模式"

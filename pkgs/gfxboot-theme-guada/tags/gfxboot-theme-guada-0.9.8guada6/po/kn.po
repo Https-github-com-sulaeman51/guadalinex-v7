@@ -235,11 +235,6 @@ msgid "Keymap"
 msgstr "ಕೀಮ್ಯಾಪ್"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "ಸಾಧಾರಣ ವಿಧಾನ"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "ಪರಿಣಿತ ವಿಧಾನ"

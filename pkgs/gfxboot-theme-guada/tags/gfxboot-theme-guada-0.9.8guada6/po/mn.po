@@ -242,11 +242,6 @@ msgid "Keymap"
 msgstr "Гарын байршил"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Хэвийн горим"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Мэргэжилтний горим"

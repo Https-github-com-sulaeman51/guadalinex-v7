@@ -357,9 +357,9 @@
 
   } if
 
-  xmenu.dimode {
-    dimode.option .undef ne {
-      dimode.option "%s " bc.cmd dup length add sprintf
+  xmenu.fulloptions {
+    fulloptions.option .undef ne {
+      fulloptions.option "%s " bc.cmd dup length add sprintf
     } if
   } if
 

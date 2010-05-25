@@ -235,11 +235,6 @@ msgid "Keymap"
 msgstr "Lyklavörpun"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Venjulegur hamur"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Fyrir sérfræðinga"

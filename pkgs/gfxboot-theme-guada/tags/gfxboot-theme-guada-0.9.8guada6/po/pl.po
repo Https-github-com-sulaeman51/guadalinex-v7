@@ -233,11 +233,6 @@ msgid "Keymap"
 msgstr "Klawiatura"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Tryb standardowy"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Tryb zaawansowany"

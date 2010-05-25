@@ -235,11 +235,6 @@ msgid "Keymap"
 msgstr "Klavaro"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Normala reĝimo"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Eksperta reĝimo"

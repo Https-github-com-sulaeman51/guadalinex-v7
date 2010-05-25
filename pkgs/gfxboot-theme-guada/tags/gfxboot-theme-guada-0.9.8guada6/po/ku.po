@@ -232,11 +232,6 @@ msgid "Keymap"
 msgstr "Klavye"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Moda asayî"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Moda pisporan"

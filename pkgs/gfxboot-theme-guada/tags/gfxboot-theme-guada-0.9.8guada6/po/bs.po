@@ -235,11 +235,6 @@ msgid "Keymap"
 msgstr "Raspored tastature"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Normalni način"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Stručni način"

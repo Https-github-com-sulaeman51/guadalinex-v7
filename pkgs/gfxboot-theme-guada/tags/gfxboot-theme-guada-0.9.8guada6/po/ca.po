@@ -236,11 +236,6 @@ msgid "Keymap"
 msgstr "Mapa de teclat"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "Mode normal"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "Mode expert"

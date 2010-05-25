@@ -237,11 +237,6 @@ msgid "Keymap"
 msgstr "விசைப்பலகை இட அமைவு"
 
 #. label for d-i mode menu
-#. txt_normal_mode
-msgid "Normal mode"
-msgstr "இயல்பான வகை"
-
-#. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr "நிபுணர் முறைமை"
