@@ -10,7 +10,8 @@ gfxboot-theme-ubuntu (0.9.3) UNRELEASED; urgency=low
     the default menu item will be booted without ever showing the main menu;
     conversely, any key press will show the main menu.  The idea of this is
     to avoid everyone having to see a complicated main menu, while offering
-    a visual indication that you need to press a key to get to it.
+    a visual indication that you need to press a key to get to it
+    (LP: #530713).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 25 Feb 2010 12:48:21 +0000
 
