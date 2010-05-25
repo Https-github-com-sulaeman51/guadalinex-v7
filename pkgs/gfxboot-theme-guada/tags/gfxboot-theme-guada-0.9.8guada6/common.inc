@@ -1066,6 +1066,11 @@
 } def
 
 
+/boot.pos.init {
+  /boot.label.len txt_bootoptions strsize pop def
+  /boot.pos { boot.label.len 10 add small_layout { 410 } { 510 } ifelse } def
+} def
+
 /init {
   0 0 moveto currentpoint clip.size image
 
@@ -1129,9 +1134,7 @@
   /menu.max.entries 8 def
   /menu.scrollbar false def
 
-  /boot.label.len 243 def
-
-  /boot.pos { boot.label.len 10 add small_layout { 410 } { 510 } ifelse } def
+  boot.pos.init
 
   /boot.buf.size cmdlinelength def
   /boot.buf boot.buf.size string def
