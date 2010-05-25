@@ -2,12 +2,15 @@ nautilus-fontinstall (0.2.3-0guada1) jaunty; urgency=low
 
   * Changed package structure and added fontinstall-ico
   * setup.py:
-    - Changed path of files
+    - Changed files paths
     - Added fontinstall-ico in data
+    - Removed package label, there aren't any __init__.py files
   * scripts/nautilus-fontinstall.py:
     - Set property icon to window
+  * po/POTFILES.in:
+    - Changed files paths
 
- -- David Amián Valle <amialinux@gmail.com>  Thu, 03 Sep 2009 09:35:26 +0200
+ -- David Amián Valle <amialinux@gmail.com>  Thu, 03 Sep 2009 10:18:56 +0200
 
 nautilus-fontinstall (0.2.2-0guada1) jaunty; urgency=low
 
