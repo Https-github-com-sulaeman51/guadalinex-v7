@@ -10,6 +10,8 @@
 % ( ) => ( )
 %
 /panel.options {
+  /panel panel.full def
+
   boot.show not {
     /boot.show true def
     boot.setup
