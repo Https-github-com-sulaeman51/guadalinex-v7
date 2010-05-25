@@ -1,8 +1,0 @@
-#!/bin/sh
-
-set -e
-
-cp /usr/share/nautilus-md5sum/nautilus-md5sum-notification /var/lib/update-notifier/user.d/
-touch /var/lib/update-notifier/dpkg-run-stamp
-
-#DEBHELPER#
