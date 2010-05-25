@@ -13,8 +13,9 @@
 /lang.items [ "en" ] def
 /lang.names [ "English" ] def
 
-/.la.locale 0 def
-/.la.name   1 def
+/.la.language 0 def
+/.la.locale   1 def
+/.la.name     2 def
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -26,7 +27,21 @@
 %
 /lang.getdefname {
   lang.defaultnames {
-    dup .la.locale get 2 index eq { .la.name get exch pop exit } { pop } ifelse
+    dup .la.language get 2 index eq { .la.name get exch pop exit } { pop } ifelse
+  } forall
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Get locale code (ll_CC).
+%
+% Returns locale if not found.
+%
+% ( locale ) ==> ( ll_CC )
+%
+/lang.getlocale {
+  lang.defaultnames {
+    dup .la.language get 2 index eq { .la.locale get exch pop exit } { pop } ifelse
   } forall
 } def
 
