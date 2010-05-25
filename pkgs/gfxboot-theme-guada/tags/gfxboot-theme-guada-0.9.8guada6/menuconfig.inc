@@ -20,86 +20,6 @@
   .undef
 } def
 
-% Duplicate len bytes of string.
-% ( string len -- string )
-/strndup {
-  /strndup.len exch def
-  /strndup.src exch cvp def
-  /strndup.dst strndup.len string cvp def
-  strndup.dst strndup.src strndup.len memcpy
-  strndup.dst strndup.len 0 put
-  strndup.dst cvs
-} def
-
-% Force to lower case. Overwrites string.
-% ( string -- string )
-/tolower {
-  dup length 0 eq { return } if
-  dup length 1 sub 0 1 rot {
-    over over get 32 or 2 index 3 1 roll put
-  } for
-} def
-
-% Skip whitespace. Advances string.
-% ( string -- string )
-/menuconfig.skipspace {
-  {
-    dup 0 get
-    dup 0 eq exch ' ' gt or { exit } if
-    1 add
-  } loop
-} def
-
-% Find the next word boundary (NUL or whitespace).
-% ( string -- pos )
-/menuconfig.nextspace {
-  0 {
-    over over get
-    dup 0 eq exch ' ' le or { exit } if
-    1 add
-  } loop
-  exch pop
-} def
-
-% Extract a keyword (always forced to lowercase). keyword_str must be freed.
-% ( config_str -- trailing_str keyword_str )
-/menuconfig.keyword {
-  dup menuconfig.nextspace
-  over over add               % get trailing string
-  3 1 roll strndup tolower    % get lowercase keyword string
-} def
-
-% Extract a word. word_str must be freed.
-% ( config_str -- trailing_str word_str )
-/menuconfig.word {
-  dup menuconfig.nextspace
-  over over add               % get trailing string
-  3 1 roll strndup            % get word string
-} def
-
-% Interpret a string as a number and return it, or .undef on failure.
-% Only supports hexadecimal numbers (optionally preceded by "0x").
-% ( string -- number )
-/menuconfig.strtol {
-  tolower
-  dup 0 get '0' eq over 1 get 'x' eq and { 2 add } if
-  /menuconfig.strtol.tmp 0 def
-  {
-    dup '0' ge over '9' le and {
-      '0' sub menuconfig.strtol.tmp 16 mul add
-      /menuconfig.strtol.tmp exch def
-    } {
-      dup 'a' ge over 'f' le and {
-        'a' sub 10 add menuconfig.strtol.tmp 16 mul add
-        /menuconfig.strtol.tmp exch def
-      } {
-        pop .undef return
-      } ifelse
-    } ifelse
-  } forall
-  menuconfig.strtol.tmp
-} def
-
 % Set the human-readable text for the current menu item.
 % ( string -- )
 /menuconfig.sethuman {
@@ -209,40 +129,44 @@
     dup "\x0d" strstr dup 0 ne { 1 sub over exch 0 put } { pop } ifelse
     dup "\n" strstr dup 0 ne { 1 sub over exch 0 put } { pop } ifelse
 
-    menuconfig.skipspace menuconfig.keyword
+    skipspace getword tolower
+    % keep in sync with common.inc:MenuInit
+    % deprecated; will be removed after Ubuntu 8.04
     dup "gfxboot-foreground" eq {
-      over menuconfig.skipspace menuconfig.strtol dup .undef ne {
+      over skipspace strtol dup .undef ne {
         /menu.text.select over def
         /boot.text.options over def
         /boot.text.normal over def
         /panel.high exch def
       } { pop } ifelse
     } if
+    % deprecated; will be removed after Ubuntu 8.04
     dup "gfxboot-background" eq {
-      over menuconfig.skipspace menuconfig.strtol dup .undef ne {
+      over skipspace strtol dup .undef ne {
         /menu.text.normal over def
         /panel.normal over def
         /loading_color over def
         /title.bg exch def
       } { pop } ifelse
     } if
+    % deprecated; will be removed after Ubuntu 8.04
     dup "gfxboot-access-options" eq {
       /access.optionnames [
         .undef
         4 index
         {
-          menuconfig.skipspace dup 0 get 0 eq { exit } if
-          menuconfig.word exch
+          skipspace dup 0 get 0 eq { exit } if
+          getword exch
         } loop
         pop
       ] def
     } if
     dup "label" eq {
-      over menuconfig.skipspace strdup /menuconfig.curlabel exch def
+      over skipspace strdup /menuconfig.curlabel exch def
     } if
     dup "menu" eq {
-      over menuconfig.skipspace menuconfig.keyword
-      dup "label" eq { over menuconfig.skipspace strdup menuconfig.sethuman } if
+      over skipspace getword tolower
+      dup "label" eq { over skipspace strdup menuconfig.sethuman } if
       dup "hide" eq { menuconfig.hidelabel } if
       free rot pop exch
     } if

@@ -10,6 +10,10 @@ gfxboot-theme-ubuntu (0.5.2) UNRELEASED; urgency=low
     d-i expert mode option.
   * Use theme background colour as the colour for dialog title bars and
     progress bars (LP: #28795).
+  * Fetch foreground, background, and access-options from gfxboot.cfg in
+    preference to isolinux.cfg. The gfxboot-foreground, gfxboot-background,
+    and gfxboot-access-options keywords in isolinux.cfg are now deprecated
+    and support for them will be removed after Ubuntu 8.04.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sun, 03 Feb 2008 18:09:54 +0000
 
