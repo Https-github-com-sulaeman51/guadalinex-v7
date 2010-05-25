@@ -21,8 +21,10 @@ INCLUDES     = $(wildcard *.inc)
 # Dzongkha and Mongolian, which ought to be rendered vertically.
 # gfxboot has no bidirectional text support yet
 # (https://bugs.launchpad.net/ubuntu/+source/gfxboot/+bug/212491) so
-# right-to-left languages (Arabic and Hebrew) won't work.
-TRANSLATIONS = $(addsuffix .tr,en $(filter-out ar bn dz gu he hi km ml mn ne pa ta th, $(notdir $(basename $(wildcard po/*.po)))))
+# right-to-left languages (Arabic) won't work. This can be worked-around
+# by displaying RTL text in visual format (which works well for Hebrew and should
+# be considered for use in other languages where applicable)
+TRANSLATIONS = $(addsuffix .tr,en $(filter-out ar bn dz gu hi km ml mn ne pa ta th, $(notdir $(basename $(wildcard po/*.po)))))
 
 DEFAULT_LANG =
 

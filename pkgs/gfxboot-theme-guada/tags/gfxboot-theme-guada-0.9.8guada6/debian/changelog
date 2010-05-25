@@ -1,7 +1,11 @@
 gfxboot-theme-ubuntu (0.9.1) UNRELEASED; urgency=low
 
+  [ Colin Watson ]
   * Remove "Safe graphics mode" message, which is no longer used.
   * Add nomodeset to "Other options" menu.
+
+  [ Shlomi Loubaton ]
+  * Added back Hebrew support by using visual text (LP: #212491)
 
  -- Colin Watson <cjwatson@ubuntu.com>  Fri, 12 Feb 2010 13:11:08 +0000
 
