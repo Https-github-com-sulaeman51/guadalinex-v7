@@ -369,3 +369,8 @@ msgstr "Birinci sabit diskten ^aç"
 #. txt_option_free
 msgid "Free software only"
 msgstr "Sadece ücretsiz yazılımlar"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr ""

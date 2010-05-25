@@ -371,3 +371,8 @@ msgstr "^Arrancar desde el primer disco duro"
 #. txt_option_free
 msgid "Free software only"
 msgstr "Sólo software libre"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr ""

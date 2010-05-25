@@ -372,3 +372,8 @@ msgstr "Ε^κκίνηση από τον πρώτο σκληρό δίσκο"
 #. txt_option_free
 msgid "Free software only"
 msgstr "Μόνο ελεύθερο λογισμικό"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_dell_factory_recovery
+msgid "^Dell Automatic Reinstall"
+msgstr ""
