@@ -210,3 +210,48 @@ msgstr ""
 #. txt_expert_mode
 msgid "Expert mode"
 msgstr ""
+
+# title for accessibility menu
+#. txt_access
+msgid "Accessibility"
+msgstr ""
+
+# label for accessibility menu
+#. txt_access_none
+msgid "None"
+msgstr ""
+
+# label for accessibility menu
+#. txt_access_v1
+msgid "Lesser Visual Impairment"
+msgstr ""
+
+# label for accessibility menu
+#. txt_access_v2
+msgid "Moderate Visual Impairment"
+msgstr ""
+
+# label for accessibility menu
+#. txt_access_v3
+msgid "Blindness"
+msgstr ""
+
+# label for accessibility menu
+#. txt_access_m1
+msgid "Minor Motor Difficulties"
+msgstr ""
+
+# label for accessibility menu
+#. txt_access_m2
+msgid "Severe Motor Difficulties - pointing devices"
+msgstr ""
+
+# label for accessibility menu
+#. txt_access_m3
+msgid "Severe Motor Difficulties - switch devices"
+msgstr ""
+
+# label for accessibility menu
+#. txt_access_all
+msgid "Everything"
+msgstr ""

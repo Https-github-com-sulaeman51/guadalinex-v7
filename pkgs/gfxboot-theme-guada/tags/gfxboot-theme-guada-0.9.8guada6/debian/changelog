@@ -6,6 +6,8 @@ gfxboot-theme-ubuntu (0.1.11) UNRELEASED; urgency=low
     text from the German option.
   * Try to ensure that menus don't overflow the right-hand edge of the
     screen, even when their panel entry is placed quite far to the right.
+  * Add an accessibility menu, per
+    https://wiki.ubuntu.com/UbuntuExpress/Accessibility.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed,  1 Feb 2006 17:44:27 +0000
 

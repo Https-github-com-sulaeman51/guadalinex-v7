@@ -385,6 +385,12 @@
     } ifelse
   } if
 
+  xmenu.access {
+    access.option .undef ne {
+      access.option "%s " bc.cmd dup length add sprintf
+    } if
+  } if
+
   xmenu.profile {
     profile.options xmenu.profile .xm_current get get dup "" ne {
       "%s " bc.cmd dup length add sprintf

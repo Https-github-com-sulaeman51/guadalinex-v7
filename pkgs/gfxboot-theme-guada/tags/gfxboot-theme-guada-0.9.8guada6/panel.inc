@@ -43,12 +43,13 @@
 
       [ .panel.both [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ] ]
       [ .panel.both [ keyF3 0 "F3" /panel.video /panel.video.width /panel.video.update /video.init ] ]
-      [ .panel.short [ keyF4 0 "F4" /panel.options /panel.options.width /panel.options.update .undef ] ]
+      [ .panel.both [ keyF4 0 "F4" /panel.access /panel.access.width /panel.access.update /access.init ] ]
+      [ .panel.short [ keyF5 0 "F5" /panel.options /panel.options.width /panel.options.update .undef ] ]
 
-      [ .panel.full [ keyF4 0 "F4" /panel.keymap /panel.keymap.width /panel.keymap.update /keymap.init ] ]
+      [ .panel.full [ keyF5 0 "F5" /panel.keymap /panel.keymap.width /panel.keymap.update /keymap.init ] ]
 
       is_live not {
-	[ .panel.full [ keyF5 0 "F5" /panel.dimode /panel.dimode.width /panel.dimode.update /dimode.init ] ]
+	[ .panel.full [ keyF6 0 "F6" /panel.dimode /panel.dimode.width /panel.dimode.update /dimode.init ] ]
       } if
 
       32+64bit_source {
@@ -57,7 +58,7 @@
 	  64bit_boot_dir .undef ne
 	  32bit_boot_dir 64bit_boot_dir ne
 	  and and {
-	    [ .panel.full [ keyF6 0 "F6" /panel.bits /panel.bits.width /panel.bits.update /bits.init ] ]
+	    [ .panel.full [ keyF6 0 "F7" /panel.bits /panel.bits.width /panel.bits.update /bits.init ] ]
 	  } if
 	} if
       } if
