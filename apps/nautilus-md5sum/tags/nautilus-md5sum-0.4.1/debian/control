@@ -13,4 +13,4 @@ Package: nautilus-md5sum
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-nautilus, python-dev, nautilus
 Description: Graphical extension for check MD5 sum in nautilus
- Graphical extension for check MD5 sum in nautilus in python.
+ Graphical extension for check MD5 sum in nautilus in Python.
