@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.5.6) UNRELEASED; urgency=low
+
+  * Rebuild font with unifont 1:1.0-4ubuntu3 (thanks, Liu Qishuai;
+    LP: #62849).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 29 Feb 2008 17:48:18 +0000
+
 gfxboot-theme-ubuntu (0.5.5) hardy; urgency=low
 
   * Fix crash when trying to display context-sensitive help, not that we
