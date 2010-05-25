@@ -1,11 +1,11 @@
-gfxboot-theme-ubuntu (0.1.15) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.15) dapper; urgency=low
 
   * Replace "Severe Motor Difficulties" with "Motor Difficulties" to avoid
     causing offence.
   * Drop "Motor Difficulties - switch devices" and "Everything" from the
     accessibility menu, at least for now.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Wed, 22 Feb 2006 23:30:27 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 22 Feb 2006 23:33:42 +0000
 
 gfxboot-theme-ubuntu (0.1.14) dapper; urgency=low
 
