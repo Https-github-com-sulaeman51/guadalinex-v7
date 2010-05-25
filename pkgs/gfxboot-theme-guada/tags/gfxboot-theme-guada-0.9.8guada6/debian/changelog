@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.1.13) UNRELEASED; urgency=low
+
+  * pa is Punjabi (Gurmukhi), not Persian.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 16 Feb 2006 12:39:26 +0000
+
 gfxboot-theme-ubuntu (0.1.12) dapper; urgency=low
 
   * Switch selected and deselected colours in boot option menu, since blue
