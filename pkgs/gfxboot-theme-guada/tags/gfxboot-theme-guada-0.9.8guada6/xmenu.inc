@@ -408,6 +408,8 @@ small_layout {
 /pmenu.panel.update {
   panel.text.moveto
 
+  xmenu.sizes
+
   xmenu .xm_panel_x currentpoint pop xmenu.hspace sub put
   % try to ensure that the menu doesn't overflow the screen
   xmenu .xm_x
