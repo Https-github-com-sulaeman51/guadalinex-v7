@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.7.5) UNRELEASED; urgency=low
+
+  * Update translations from Launchpad.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 09 Apr 2009 02:04:20 +0100
+
 gfxboot-theme-ubuntu (0.7.4) jaunty; urgency=low
 
   * Update translations from Launchpad.

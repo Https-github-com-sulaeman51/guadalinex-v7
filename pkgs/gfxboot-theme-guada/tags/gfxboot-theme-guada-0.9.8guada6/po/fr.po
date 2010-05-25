@@ -12,13 +12,13 @@ msgstr ""
 "Project-Id-Version: po_bootloader-fr\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-03-22 13:55+0000\n"
+"PO-Revision-Date: 2009-04-03 11:07+0000\n"
 "Last-Translator: Bruno Patri <bruno.patri@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-04-03 09:04+0000\n"
+"X-Launchpad-Export-Date: 2009-04-09 00:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -255,12 +255,12 @@ msgstr "^Essayer Xubuntu sans rien changer sur votre ordinateur"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr ""
+msgstr "^Essayer Ubuntu MID sans rien modifier sur votre ordinateur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr ""
+msgstr "^Essayer Ubuntu Netbook Remix sans rien modifier sur votre ordinateur"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -320,17 +320,17 @@ msgstr "^Installer un serveur Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr ""
+msgstr "^Installer Ubuntu Studio"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr ""
+msgstr "^Installer Ubuntu MID"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
 msgid "^Install Ubuntu Netbook Remix"
-msgstr ""
+msgstr "^Installer Ubuntu Netbook Remix"
 
 #. Installation mode.
 #. txt_menuitem_workstation

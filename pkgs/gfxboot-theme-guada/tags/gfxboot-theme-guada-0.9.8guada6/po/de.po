@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-04-01 13:54+0000\n"
+"PO-Revision-Date: 2009-04-03 12:37+0000\n"
 "Last-Translator: Moritz Baumann <Unknown>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-04-03 09:04+0000\n"
+"X-Launchpad-Export-Date: 2009-04-09 00:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -249,12 +249,12 @@ msgstr "Xubuntu ^ausprobieren (Rechner bleibt unverändert)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr ""
+msgstr "Ubuntu MID ^ausprobieren (Rechner bleibt unverändert)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr ""
+msgstr "Ubuntu Netbook Remix ^ausprobieren (Rechner bleibt unverändert)"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -314,17 +314,17 @@ msgstr "Ubuntu Server ^installieren"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr ""
+msgstr "Ubuntu Studio ^installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr ""
+msgstr "Ubuntu MID ^installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
 msgid "^Install Ubuntu Netbook Remix"
-msgstr ""
+msgstr "Ubuntu Netbook Remix ^installieren"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -339,7 +339,7 @@ msgstr "Einen Server installieren"
 #. Installation mode.
 #. txt_menuitem_oem
 msgid "OEM install (for manufacturers)"
-msgstr "OEM-Installation (für Vertrieb)"
+msgstr "OEM-Installation (für den Vertrieb)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
