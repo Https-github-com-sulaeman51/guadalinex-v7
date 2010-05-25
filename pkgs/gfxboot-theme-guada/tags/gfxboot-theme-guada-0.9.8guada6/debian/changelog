@@ -7,6 +7,8 @@ gfxboot-theme-ubuntu (0.5.3) UNRELEASED; urgency=low
     https://wiki.ubuntu.com/HardyBootloaderReview for context.
   * Allow the boot parameters line to occupy the full width of the screen
     (LP: #27676) and handle redraws on language change better.
+  * Allow menu options to use more horizontal space, and centre them on the
+    screen.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 13 Feb 2008 10:27:59 +0000
 
