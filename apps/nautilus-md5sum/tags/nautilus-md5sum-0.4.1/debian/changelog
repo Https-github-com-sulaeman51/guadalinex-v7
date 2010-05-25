@@ -1,6 +1,10 @@
 nautilus-md5sum (0.3.0) stable; urgency=low
   
   * Modified GUI. New GUI uses glade-3
+  * Used thread to use a progressbar
+  * Added progressbar to indicate the progress of calculate
+  * Added icons in GUI
+  * Added posibility that user copy the restult of md5sum in a clipboard
 
  -- David Amián <amialinux@gmail.com>  Tue, 23 Jun 2009 13:44:41 +0200
 
