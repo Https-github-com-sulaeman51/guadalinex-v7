@@ -1,0 +1,5 @@
+nautilus-fontinstall (0.1.0-1) jaunty; urgency=low
+
+  * First debianized with distutils
+
+ -- D. Amian <amialinux@gmail.com>  Wed, 26 Aug 2009 11:53:07 +0200
