@@ -270,7 +270,7 @@
   } ifelse
 
   syslinux {
-    /add_suffix xmenu.bits .xm_current get bits.suffix exch get def
+    /add_suffix .undef def
 
     % set new working directory
     xmenu.bits .xm_current get 1 eq { 64bit_boot_dir } { 32bit_boot_dir } ifelse
