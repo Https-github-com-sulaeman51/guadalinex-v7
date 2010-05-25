@@ -364,3 +364,13 @@ msgstr ""
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
 msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_mythbuntu
+msgid "^Install Mythbuntu"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_mythbuntu
+msgid "^Try Mythbuntu without any change to your computer"
+msgstr ""
