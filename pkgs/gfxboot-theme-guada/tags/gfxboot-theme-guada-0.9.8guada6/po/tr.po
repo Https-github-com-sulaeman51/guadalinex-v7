@@ -335,7 +335,7 @@ msgstr "Sabit diske ^kur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
-msgid "^Install to first hard disk"
+msgid "^Install to the hard disk"
 msgstr "Sabit diske ^kur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
