@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.1.15) UNRELEASED; urgency=low
+
+  * Replace "Severe Motor Difficulties" with "Motor Difficulties" to avoid
+    causing offence.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 22 Feb 2006 23:30:27 +0000
+
 gfxboot-theme-ubuntu (0.1.14) dapper; urgency=low
 
   * Add the keymap menu to the short panel too, and move it to F3 next to
