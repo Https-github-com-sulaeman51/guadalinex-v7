@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.7.4) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.7.4) jaunty; urgency=low
 
   * Update translations from Launchpad.
   * Add localisation for "^Try Ubuntu MID without any change to your
@@ -6,7 +6,7 @@ gfxboot-theme-ubuntu (0.7.4) UNRELEASED; urgency=low
     computer", "^Install Ubuntu Studio", "^Install Ubuntu MID", and
     "^Install Ubuntu Netbook Remix" (LP: #354364).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Fri, 03 Apr 2009 10:14:56 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 03 Apr 2009 10:29:53 +0100
 
 gfxboot-theme-ubuntu (0.7.3) jaunty; urgency=low
 
