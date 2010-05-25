@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.8.6) UNRELEASED; urgency=low
+
+  * Build-depend on cpio.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 07 Oct 2009 17:39:41 +0100
+
 gfxboot-theme-ubuntu (0.8.5) karmic; urgency=low
 
   * Sync with console-setup 1.34ubuntu4: add Asturian, Catalan, Senegal, and

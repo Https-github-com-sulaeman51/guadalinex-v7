@@ -2,7 +2,7 @@ Source: gfxboot-theme-ubuntu
 Section: utils
 Priority: optional
 Maintainer: Colin Watson <cjwatson@ubuntu.com>
-Build-Depends: debhelper (>= 7.0.0), gfxboot (>= 3.3.28)
+Build-Depends: debhelper (>= 7.0.0), gfxboot (>= 3.3.28), cpio
 Standards-Version: 3.6.2
 Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/gfxboot-theme-ubuntu/mainline
 
