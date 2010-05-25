@@ -4,12 +4,6 @@ set -e
 
 #DEBHELPER#
 
-if [ remove = "$1" ]; then
-    rm -f /usr/lib/ubiquity/ubiquity/frontend/__init__.py 
-    dpkg-divert --package guada-ubiquity --remove --rename \
-             --divert /usr/lib/ubiquity/ubiquity/frontend/__init__.py.real /usr/lib/ubiquity/ubiquity/frontend/__init__.py
-
-fi
 
 mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-language.py  /usr/lib/ubiquity/plugins/
 dpkg-divert --package guada-ubiquity --remove --divert /usr/lib/ubiquity/plugins/ubi-language.py
