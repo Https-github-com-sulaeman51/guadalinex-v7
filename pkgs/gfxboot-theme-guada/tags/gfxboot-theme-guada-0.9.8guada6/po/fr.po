@@ -12,13 +12,13 @@ msgstr ""
 "Project-Id-Version: po_bootloader-fr\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-09-05 12:22+0000\n"
-"Last-Translator: Emmanuel Sunyer <emmanuel.sunyer@dbmail.com>\n"
+"PO-Revision-Date: 2010-02-08 16:03+0000\n"
+"Last-Translator: Bruno Patri <bruno.patri@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -226,39 +226,33 @@ msgstr "Tout"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without installing"
-msgstr "^Essayez Ubuntu sans altérer votre ordinateur"
+msgstr "^Essayer Ubuntu sans l'installer"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without installing"
-msgstr "^Essayez Kubuntu sans altérer votre ordinateur"
+msgstr "^Essayer Kubuntu sans l'installer"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without installing"
-msgstr "^Essayez Edubuntu sans altérer votre ordinateur"
+msgstr "^Essayer Edubuntu sans l'installer"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without installing"
-msgstr "^Essayez Xubuntu sans altérer votre ordinateur"
+msgstr "^Essayer Xubuntu sans l'installer"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-#, fuzzy
 msgid "^Try Ubuntu MID without installing"
-msgstr "^Essayez Ubuntu MID sans altérer votre ordinateur"
+msgstr "^Essayer Ubuntu MID sans l'installer"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-#, fuzzy
 msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "^Essayez Ubuntu Netbook Remix sans altérer votre ordinateur"
+msgstr "^Essayer Ubuntu Netbook Edition sans l'installer"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -412,6 +406,5 @@ msgstr "^Installer Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-#, fuzzy
 msgid "^Try Mythbuntu without installing"
-msgstr "^Essayez Mythbuntu sans altérer à votre ordinateur"
+msgstr "^Essayer Mythbuntu sans l'installer"

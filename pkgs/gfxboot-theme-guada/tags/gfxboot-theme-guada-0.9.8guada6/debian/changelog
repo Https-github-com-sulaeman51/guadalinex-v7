@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.9.3) UNRELEASED; urgency=low
+
+  * Update translations from Launchpad (LP: #527052).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 25 Feb 2010 12:48:21 +0000
+
 gfxboot-theme-ubuntu (0.9.2) lucid; urgency=low
 
   * Use fribidi for Hebrew in the language list as well (LP: #212491).

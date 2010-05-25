@@ -7,13 +7,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-03-27 22:16+0000\n"
-"PO-Revision-Date: 2009-07-01 23:51+0000\n"
+"PO-Revision-Date: 2009-11-04 12:44+0000\n"
 "Last-Translator: Данило Шеган <Unknown>\n"
 "Language-Team: Serbian <novell@prevod.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -114,7 +114,7 @@ msgstr ""
 #. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr "ДВД грешка"
+msgstr "Грешка на ДВД-у"
 
 #. txt_dvd_warning2
 msgid ""
@@ -207,7 +207,7 @@ msgstr "Модификатори тастатуре"
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr "тастатура на екрану"
+msgstr "Екранска тастатура"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -221,39 +221,33 @@ msgstr "Све"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without installing"
-msgstr "^Пробајте Убунту без икаквих промена на вашем рачунару"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without installing"
-msgstr "^Пробајте Кубунту без икаквих промена на вашем рачунару"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without installing"
-msgstr "^Пробајте Едубунту без икаквих промена на вашем рачунару"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without installing"
-msgstr "^Пробајте Ксубунту без икаквих промена на вашем рачунару"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-#, fuzzy
 msgid "^Try Ubuntu MID without installing"
-msgstr "^Пробајте Убунту МИ без икаквих промена на вашем рачунару"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-#, fuzzy
 msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "^Пробајте Убунту за нетбукове без измена на вашем рачунару"
+msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -268,37 +262,37 @@ msgstr "^Инсталирај Убунту у текстуалном режим�
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
 msgid "^Install Kubuntu in text mode"
-msgstr "^Инсталирај Kubuntu у текстуалном моду"
+msgstr "^Инсталирај Кубунту у текстуалном режиму"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_edubuntu
 msgid "^Install Edubuntu in text mode"
-msgstr "^Инсталирај Edubuntu у текстуалном моду"
+msgstr "^Инсталирај Едубунту у текстуалном режиму"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr "^Инсталирај Xubuntu у текстуалном моду"
+msgstr "^Инсталирај Зубунту у текстуалном режиму"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr "^Инсталирај Ubuntu"
+msgstr "^Инсталирај Убунту"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr "^Инсталирај Kubuntu"
+msgstr "^Инсталирај Кубунту"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
 msgid "^Install Edubuntu"
-msgstr "^Инсталирај Edubuntu"
+msgstr "^Инсталирај Едубунту"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_xubuntu
 msgid "^Install Xubuntu"
-msgstr "^Инсталирај Xubuntu"
+msgstr "^Инсталирај Зубутну"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
@@ -308,12 +302,12 @@ msgstr "^Инсталирај Убунту за сервере"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_enterprise_cloud
 msgid "Install Ubuntu ^Enterprise Cloud"
-msgstr ""
+msgstr "Instaliraj Ubuntu ^Poslovni Oblak"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr "^Инсталирај Убунту Студио"
+msgstr "^Инсталирај Убунту студио"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
@@ -388,7 +382,7 @@ msgstr "Тестирај ^меморију"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "^Покрени са првог фиксногдиска"
+msgstr "^Покрени са првог хард диска"
 
 #. Boot option.
 #. txt_option_free
@@ -407,6 +401,5 @@ msgstr "^Инсталирај Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-#, fuzzy
 msgid "^Try Mythbuntu without installing"
-msgstr "^Пробајте Mythbuntu без измена на вашем рачунару"
+msgstr ""

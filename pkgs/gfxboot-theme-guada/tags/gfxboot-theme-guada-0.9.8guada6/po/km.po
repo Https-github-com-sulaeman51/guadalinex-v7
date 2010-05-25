@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-03-27 22:16+0000\n"
-"PO-Revision-Date: 2009-10-19 00:02+0000\n"
+"PO-Revision-Date: 2009-10-20 11:32+0000\n"
 "Last-Translator: chhorran <khmeritforyou@gmail.com>\n"
 "Language-Team: Khmer <km@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
+"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -213,39 +213,33 @@ msgstr "គ្រប់សព្វ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without installing"
-msgstr "^ព្យាយាម Ubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without installing"
-msgstr "^ព្យាយាម Kubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without installing"
-msgstr "^ព្យាយាម Eubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without installing"
-msgstr "^ព្យាយាម Xubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-#, fuzzy
 msgid "^Try Ubuntu MID without installing"
-msgstr "^ព្យាយាម Ubuntu MID គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-#, fuzzy
 msgid "^Try Ubuntu Netbook Remix without installing"
-msgstr "^ព្យាយាម ខំព្យូរើណែត Ubuntu Remix គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
+msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -399,6 +393,5 @@ msgstr "^តំលើង Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-#, fuzzy
 msgid "^Try Mythbuntu without installing"
-msgstr "^ព្យាយាម Mythbuntu  គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
+msgstr ""
