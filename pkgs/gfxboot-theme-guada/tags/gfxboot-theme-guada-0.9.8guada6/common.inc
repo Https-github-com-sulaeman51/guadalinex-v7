@@ -278,7 +278,9 @@
     /add_suffix .undef def
 
     % set new working directory
-    xmenu.bits .xm_current get 1 eq { 64bit_boot_dir } { 32bit_boot_dir } ifelse
+    xmenu.bits {
+      xmenu.bits .xm_current get 1 eq { 64bit_boot_dir } { 32bit_boot_dir } ifelse
+    } { .undef } ifelse
     dup .undef ne {
       dup getcwd ne { chdir } { pop } ifelse
     } {
