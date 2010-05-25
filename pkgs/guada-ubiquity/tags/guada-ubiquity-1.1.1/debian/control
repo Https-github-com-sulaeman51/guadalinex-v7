@@ -3,7 +3,9 @@ Section: admin
 Priority: optional
 XSBC-Original-Maintainer: Roberto Majadas <roberto.majadas@openshine.com>
 Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
-Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>
+Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>,
+           Roberto C. Morano <rcmorano@emergya.es>,
+           Adrian Belmonte <abelmonte@emergya.es>
 Build-Depends: cdbs, debhelper (>= 5), debconf (>= 0.5.0)
 Standards-Version: 3.8.0
 Homepage: http://launchpad.net/guada-ubiquity
