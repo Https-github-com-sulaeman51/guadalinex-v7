@@ -46,7 +46,7 @@ ifdef DEFAULT_LANG
 	@echo $(DEFAULT_LANG) >boot/lang
 	@echo $(DEFAULT_LANG) >>boot/languages
 endif
-	@sh -c 'cd boot; echo $(FILES_BOOT_EN) | sed -e "s/ /\n/g" | cpio --quiet -o >message'
+	@cd boot && echo $(FILES_BOOT_EN) | sed -e "s/ /\n/g" | cpio --quiet -o >message
 
 installdir: install.config $(INCLUDES)
 	@cp -a po/*.tr install
@@ -55,8 +55,8 @@ installdir: install.config $(INCLUDES)
 ifdef DEFAULT_LANG
 	@echo $(DEFAULT_LANG) >install/lang
 endif
-	@sh -c 'cd install; chmod +t $(INST_EXT)'
-	@sh -c 'cd install; echo $(FILES_INST) | sed -e "s/ /\n/g" | cpio --quiet -o >bootlogo'
+	@cd install && chmod +t $(INST_EXT)
+	@cd install && echo $(FILES_INST) | sed -e "s/ /\n/g" | cpio --quiet -o >bootlogo
 
 font:
 	cat po/*.po >tmp.txt
