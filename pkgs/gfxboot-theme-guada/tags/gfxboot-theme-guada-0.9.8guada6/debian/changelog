@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.1.18) UNRELEASED; urgency=low
+
+  * Fix parsing of gfxboot-foreground keyword.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue,  4 Apr 2006 16:25:30 +0100
+
 gfxboot-theme-ubuntu (0.1.17) dapper; urgency=low
 
   * Update Portuguese translation (thanks, Rui Azevedo).
