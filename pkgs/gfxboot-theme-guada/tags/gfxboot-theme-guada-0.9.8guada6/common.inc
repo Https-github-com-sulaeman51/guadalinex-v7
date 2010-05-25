@@ -398,8 +398,8 @@
   /menu.entry -1 def
 
   /menu.dentry exch def
-  /menu.args exch def
   menuconfig.init
+  /menu.args exch def
   /menu.texts exch def
   /menu.humans exch def
 
