@@ -1398,7 +1398,7 @@
 % Global variables.
 %
 
-/transp 0x30 def
+/transp 0 def
 
 640 480 16 findmode setmode not {
   640 480 32 findmode setmode not {

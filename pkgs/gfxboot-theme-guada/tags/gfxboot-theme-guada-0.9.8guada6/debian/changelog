@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.1.11) UNRELEASED; urgency=low
+
+  * Disable transparent menus: they make it too difficult for visually
+    impaired users to read the menu labels.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed,  1 Feb 2006 17:44:27 +0000
+
 gfxboot-theme-ubuntu (0.1.10) dapper; urgency=low
 
   * Add /syslinux.cfg to the list of files we parse for menu item names.
