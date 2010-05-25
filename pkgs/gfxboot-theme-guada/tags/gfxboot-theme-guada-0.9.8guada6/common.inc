@@ -401,8 +401,6 @@
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % ( menu_entries_array cmdline_args_array defaultentry ) == > ( )
 /MenuInit {
-  bsplash.done
-
   colorbits 8 le {
     0 setcolor 0 0 moveto screen.size fillrect loadpalette
   } if
@@ -1522,13 +1520,6 @@
 /kroete.dir 0 def
 
 /debug 0 def
-
-small_layout
-true or {
-  /bsplash.done { } def
-} {
-  bsplash.show
-} ifelse
 
 check_arch_boot_dir
 

@@ -16,17 +16,16 @@ HELPINST_ALL = $(notdir $(HELPINST))
 DEFAULT_LANG =
 
 PIC_COMMON   = back.jpg head{,_a}.jpg {l,r,v}dots{,_a}.jpg
-PIC_INSTALL  = greeting.jpg
 
 FILES_INST   = init languages $(TRANSLATIONS) 16x16.fnt kroete.dat \
-	       $(PIC_COMMON) $(PIC_INSTALL) $(HELPINST_ALL)
+	       $(PIC_COMMON) $(HELPINST_ALL)
 
 FILES_BOOT   = init languages $(TRANSLATIONS) 16x16.fnt \
 	       $(PIC_COMMON) $(HELPBOOT_ALL)
 
 FILES_BOOT_EN = init languages en.tr 16x16.fnt $(PIC_COMMON) en.hlp
 
-INST_EXT     = 16x16.fnt $(PIC_COMMON) $(PIC_INSTALL) kroete.dat *.hlp *.tr
+INST_EXT     = 16x16.fnt $(PIC_COMMON) kroete.dat *.hlp *.tr
 
 ifdef DEFAULT_LANG
 FILES_INST += lang
