@@ -1,3 +1,12 @@
+nautilus-fontinstall (0.2.4-0ubuntu1) karmic; urgency=low
+
+  * Fixed script nautilus-fontinstall.py:
+    - It's freeze in updating cache fonts
+  * Update changelog and setup.py
+    
+
+ -- David Amián Valle <amialinux@gmail.com>  Fri, 11 Sep 2009 13:49:54 +0200
+
 nautilus-fontinstall (0.2.3-0ubuntu1) karmic; urgency=low
 
   * Changed Standards-version to current version (3.8.3)
