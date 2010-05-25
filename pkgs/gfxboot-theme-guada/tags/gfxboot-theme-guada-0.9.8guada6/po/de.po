@@ -408,6 +408,11 @@ msgid "Install an LTSP server"
 msgstr "Einen ^LTSP-Server installieren"
 
 #. Installation mode.
+#. txt_menuitem_ltsp_mythbuntu
+msgid "Install a Diskless Image Server"
+msgstr ""
+
+#. Installation mode.
 #. txt_menuitem_cli
 #, fuzzy
 msgid "Install a command-line system"
