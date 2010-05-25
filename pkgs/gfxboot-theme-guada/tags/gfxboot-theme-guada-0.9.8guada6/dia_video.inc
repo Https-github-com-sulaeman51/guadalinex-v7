@@ -17,7 +17,7 @@
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Create sort key for video modes.
-% Supports up to 8191x4095x56 in multiples of 8 bits of depth.
+% Supports up to 16383x16383x56 in multiples of 8 bits of depth.
 %
 % ( vm_index )  ==> ( sort_index )
 %
