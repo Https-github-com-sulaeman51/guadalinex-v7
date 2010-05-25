@@ -255,7 +255,9 @@ msgstr "Modalità grafica sicura"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "Usa CD di aggiornamento driver"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -350,7 +352,9 @@ msgstr "Installa un macchina virtuale minimale"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "^Controlla difetti sul CD"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

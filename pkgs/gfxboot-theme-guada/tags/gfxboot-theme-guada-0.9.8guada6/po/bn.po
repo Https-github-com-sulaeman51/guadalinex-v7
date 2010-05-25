@@ -254,7 +254,7 @@ msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -335,7 +335,7 @@ msgstr ""
 #. Installation mode.
 #. txt_menuitem_cli
 #, fuzzy
-msgid "Install a comm^and-line system"
+msgid "Install a command-line system"
 msgstr "একটি ^সার্ভার ইনস্টল করুন"
 
 #. Installation mode.
@@ -350,7 +350,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "ত্রুটির জন্য সিডি ^পরীক্ষা করুন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

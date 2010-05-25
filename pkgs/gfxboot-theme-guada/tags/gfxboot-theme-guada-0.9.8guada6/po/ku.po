@@ -250,7 +250,9 @@ msgstr "Moda grafîkên ewle"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "CD'ya rojanekirina Ajokaran bi kar bîne"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -345,7 +347,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "Rastbûna CD'yê ^kontrol bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

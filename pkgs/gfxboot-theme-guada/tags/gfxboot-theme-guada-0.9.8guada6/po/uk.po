@@ -249,7 +249,9 @@ msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "Використовувати CD з оновленнями драйверів"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -344,7 +346,9 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "Перевірити компакт-диск на дефекти"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

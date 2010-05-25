@@ -255,7 +255,9 @@ msgstr "Zaženi Ubuntu v varnem ^grafičnem načinu"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "Uporabi CD s posodobljenimi gonilniki"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -336,7 +338,7 @@ msgstr "Namesti slikovni strežnik brez diska"
 #. Installation mode.
 #. txt_menuitem_cli
 #, fuzzy
-msgid "Install a comm^and-line system"
+msgid "Install a command-line system"
 msgstr "Namesti ukaznovrstični sistem"
 
 #. Installation mode.
@@ -351,7 +353,9 @@ msgstr "Namesti minimalen navidezni računalnik"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "Preglej ^CD za poškodbami"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

@@ -253,7 +253,9 @@ msgstr "Turvallinen graafinen tila"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-msgid "Use driver update CD"
+#, fuzzy
+#| msgid "Use driver update CD"
+msgid "Use driver update disc"
 msgstr "Käytä ajuripäivitys-CD-levyä"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -348,7 +350,9 @@ msgstr "Asenna minimaalinen virtuaalikone"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-msgid "^Check CD for defects"
+#, fuzzy
+#| msgid "^Check CD for defects"
+msgid "^Check disc for defects"
 msgstr "Tarkista ^CD-levyn virheettömyys"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
