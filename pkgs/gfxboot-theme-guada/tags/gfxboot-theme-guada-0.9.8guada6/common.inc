@@ -357,7 +357,7 @@
     } if
 
     config.lang {
-      config.lang "en" ne {
+      config.lang "es" ne {
         config.lang
         config.lang "_" strstr 0 eq {
           "debian-installer/language=%s "
@@ -368,7 +368,7 @@
       } if
     } if
 
-    config.lang "en" ne config.keymap .km.name get "us" ne or {
+    config.lang "es" ne config.keymap .km.name get "es" ne or {
       /keymap.op keymap.explicit { "=" } { "?=" } ifelse def
       config.keymap .km.name get
       dup "_" strstr dup 0 eq {
@@ -428,7 +428,7 @@
   } if
 
   timeout.hidden {
-    "maybe-ubiquity " bc.cmd dup length add sprintf
+    "preseed/file=/cdrom/preseed/guada.cfg maybe-ubiquity " bc.cmd dup length add sprintf
   } if
 
   bc.cmd dropspaces
@@ -1352,13 +1352,6 @@
 /clip.size { screen.size } def
 
 /small_layout screen.size pop 640 eq def
-
-/access.file "access.pcx" findfile def
-access.file dup .undef ne {
-  setimage image.size /access.height exch def /access.width exch def
-} {
-  pop /access.height .undef def /access.height .undef def
-} ifelse
 
 "splash.pcx" findfile
 dup .undef eq { pop "back.jpg" findfile } if
