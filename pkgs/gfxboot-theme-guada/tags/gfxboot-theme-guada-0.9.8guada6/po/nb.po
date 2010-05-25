@@ -334,6 +334,11 @@ msgstr "Installer en diskløs speil tjener"
 msgid "Install a comm^and-line system"
 msgstr "Installér en ^server"
 
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"

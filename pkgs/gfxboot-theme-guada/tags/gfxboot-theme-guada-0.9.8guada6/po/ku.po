@@ -328,6 +328,11 @@ msgstr "Pêşkêşkareke Imaj a bêdîsk saz bike"
 msgid "Install a command-line system"
 msgstr "Pergaleke termînalî saz bike"
 
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"

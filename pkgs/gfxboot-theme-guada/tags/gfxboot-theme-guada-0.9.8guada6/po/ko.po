@@ -332,6 +332,11 @@ msgstr "디스크 없는 이미지 서버 설치하기"
 msgid "Install a command-line system"
 msgstr "명령행 시스템 설치하기"
 
+#. Installation mode.
+#. txt_menuitem_minimal
+msgid "Install a minimal system"
+msgstr ""
+
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
