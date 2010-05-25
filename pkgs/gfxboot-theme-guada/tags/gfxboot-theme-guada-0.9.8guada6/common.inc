@@ -1472,7 +1472,8 @@
 
 /small_layout screen.size pop 640 eq def
 
-"back.jpg" findfile
+"splash.pcx" findfile
+dup .undef eq { pop "back.jpg" findfile } if
 /background.file over def setimage loadpalette
 /max_image_colors image.colors def
 
