@@ -4,6 +4,10 @@ gfxboot-theme-ubuntu (0.3.3) UNRELEASED; urgency=low
     and Malayalam, removing Icelandic, Irish, Kazakh, Malagasy, Persian,
     Welsh, and Xhosa, and updating localised names for Belarusian and
     Finnish (LP: #93233).
+  * Fetch keymaps from /usr/share/console-setup/KeyboardNames.pl rather than
+    from a console-setup source tree.
+  * Update keymaps from console-setup 1.13ubuntu9, adding Congo, Iraq,
+    Korea, Nepal, and Nigeria, and updating several others.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Fri, 23 Mar 2007 18:30:43 +0000
 
