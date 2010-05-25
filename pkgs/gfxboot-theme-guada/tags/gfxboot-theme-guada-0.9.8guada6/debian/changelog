@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.3.3) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.3.3) feisty; urgency=low
 
   * Update language names from localechooser 1.37ubuntu1, adding Gujarati
     and Malayalam, removing Icelandic, Irish, Kazakh, Malagasy, Persian,
@@ -9,7 +9,7 @@ gfxboot-theme-ubuntu (0.3.3) UNRELEASED; urgency=low
   * Update keymaps from console-setup 1.13ubuntu9, adding Congo, Iraq,
     Korea, Nepal, and Nigeria, and updating several others.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Fri, 23 Mar 2007 18:30:43 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Sat, 24 Mar 2007 18:21:28 +0000
 
 gfxboot-theme-ubuntu (0.3.2) feisty; urgency=low
 
