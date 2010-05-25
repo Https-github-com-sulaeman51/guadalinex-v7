@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.5.0) UNRELEASED; urgency=low
+
+  * Rebuild with new gfxboot.
+  * Add vcs info to debian/control.
+
+ -- Soren Hansen <soren@ubuntu.com>  Fri, 30 Nov 2007 18:20:47 +0100
+
 gfxboot-theme-ubuntu (0.4.4) gutsy; urgency=low
 
   * Add/update translations from Rosetta (LP: #150701).
