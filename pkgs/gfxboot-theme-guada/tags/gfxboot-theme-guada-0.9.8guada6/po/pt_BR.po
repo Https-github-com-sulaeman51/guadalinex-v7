@@ -248,6 +248,11 @@ msgstr "Experimen^tar o Ubuntu MID sem instalar"
 msgid "^Try Ubuntu Netbook without installing"
 msgstr "Experimen^tar o Ubuntu Netbook sem instalar"
 
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_live_kubuntu_netbook
+msgid "^Try Kubuntu Netbook without installing"
+msgstr ""
+
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
@@ -317,6 +322,11 @@ msgstr "^Instalar o Ubuntu MID"
 #. txt_menuitem_install_ubuntu_netbook
 msgid "^Install Ubuntu Netbook"
 msgstr "^Instalar o Ubuntu Netbook"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_kubuntu_netbook
+msgid "^Install Kubuntu Netbook"
+msgstr ""
 
 #. Installation mode.
 #. txt_menuitem_workstation
