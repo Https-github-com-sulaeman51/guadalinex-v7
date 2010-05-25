@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.9.8) UNRELEASED; urgency=low
+
+  * Regenerate font, among other things including more Kazakh characters
+    (LP: #434406).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 29 Mar 2010 23:00:53 +0100
+
 gfxboot-theme-ubuntu (0.9.7) lucid; urgency=low
 
   * Add Estonian to langlist as well (LP: #496734).
