@@ -9,12 +9,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-09-26 13:36+0000\n"
+"PO-Revision-Date: 2007-04-27 10:31+0000\n"
 "Last-Translator: Joop Eggen <joop_eggen@yahoo.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:26+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -271,7 +272,7 @@ msgstr "Ekranlegilo"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Brajnla terminalo"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -336,7 +337,7 @@ msgstr "Komenci Xubuntu-n per sekura ^grafika reĝimo"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Instali per ^pelila ĝisdatiga KD"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -356,12 +357,12 @@ msgstr "Instali ^laborstacion"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Instali ser^vilon"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
-msgstr ""
+msgstr "Tekstreĝima instalado por ^fabrikantoj"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -371,13 +372,12 @@ msgstr "Instali per ^LAMP-a reĝimo"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Instali ^LTSP-servilon"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Instali ^servilon"
+msgstr "Instali kom^andlinian sistemon"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -398,6 +398,3 @@ msgstr "^Memortesto"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Komenci de la unua fiksita disko"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Instali per ^OEM-a reĝimo"

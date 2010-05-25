@@ -7,13 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader.fi\n"
-"PO-Revision-Date: 2006-09-27 16:13+0000\n"
+"PO-Revision-Date: 2007-04-13 22:13+0000\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
 "Language-Team: <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10.2\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:57+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -270,7 +271,7 @@ msgstr "Näytön luku"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Pistekirjoituspääte"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -335,12 +336,12 @@ msgstr "Käynnistä Xubuntu turvallisessa ^graafisessa tilassa"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Asenna ajuri^päivitys-CD-levyn avulla"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "^Asenna kiintolevylle"
+msgstr "Asenna tek^stitilassa"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
@@ -355,32 +356,32 @@ msgstr "^Työasema-asennus"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Asenna pal^velin"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
-msgstr ""
+msgstr "Tekstitila-asennus laiteval^mistajille"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr "^LAMP-palvelimen asennus"
+msgstr "Asenna ^LAMP-palvelin"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Asenna ^LTSP-palvelin"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
 msgid "Install a comm^and-line system"
-msgstr "Asenna ko^mentorivijärjestelmä"
+msgstr "Asenna komento^rivijärjestelmä"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr "^Tarkista CD-levyn virheettömyys"
+msgstr "Tarkista ^CD-levyn virheettömyys"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -396,6 +397,3 @@ msgstr "^Muistin tarkistus"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Käynnistä ^ensimmäiseltä kiintolevyltä"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "^OEM-asennnus"

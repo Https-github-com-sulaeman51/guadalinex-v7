@@ -4,11 +4,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-10-07 17:50+0000\n"
+"PO-Revision-Date: 2007-04-13 22:14+0000\n"
 "Last-Translator: Xosé <ubuntu@galizaweb.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:29:18+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -265,7 +266,7 @@ msgstr "Lector de Pantalla"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Terminal Braille"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -330,7 +331,7 @@ msgstr "Iniciar o Xubuntu en modo ^gráfico seguro"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Instalar con CD de act^ualización de drivers"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -350,12 +351,12 @@ msgstr "Instalar unha ^estación de traballo"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Instalar un ser^vidor"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
-msgstr ""
+msgstr "Instalación en modo texto para fabrica^ntes"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -365,7 +366,7 @@ msgstr "Instalar un servidor ^LAMP"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Instalar un servidor de ^LTSP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
@@ -391,6 +392,3 @@ msgstr "Verificar a ^memoria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Iniciar desde o primeiro disco duro"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Instalar en modo ^OEM"

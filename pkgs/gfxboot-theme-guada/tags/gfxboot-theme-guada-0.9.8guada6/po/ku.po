@@ -9,12 +9,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-10-01 12:42+0000\n"
+"PO-Revision-Date: 2007-04-13 22:14+0000\n"
 "Last-Translator: Rêzan Tovjîn <retovjin@hotmail.com>\n"
 "Language-Team: Kurdish <ku@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:46+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -29,7 +30,7 @@ msgstr "Betal"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Ji nû ve dest pê bike"
+msgstr "Nûdestpêkirin"
 
 #. continue button label
 #. txt_continue
@@ -50,7 +51,7 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Tu niha ji menuya boot ya grafîkî derdikevî û\n"
+"Tu niha ji menuya boot a grafîkî derdikevî û\n"
 "dest bi moda tekst dikî."
 
 #. txt_help
@@ -69,7 +70,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Kernel a Linux tê barkirin\n"
+"Dendikê Linux tê barkirin\n"
 "\n"
 "\n"
 
@@ -87,7 +88,7 @@ msgstr ""
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Lêbarkera boot"
+msgstr "Berkera boot"
 
 #. error box title
 #. txt_error_title
@@ -110,8 +111,8 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"Ev dîska boot ya %u ye.\n"
-"Dîska boot ya %u têxê."
+"Ev dîska boot a %u ye.\n"
+"Dîska boot a %u têxê."
 
 #. txt_insert_disk3
 #, c-format
@@ -119,13 +120,13 @@ msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Ev dîskeke boot ya birêk nîn e.\n"
-"Ji kerema xwe dîska boot ya %u têxê."
+"Ev dîskeke boot a birêk nîn e.\n"
+"Ji kerema xwe re dîska boot a %u têxê."
 
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "Şîfre"
+msgstr "Nasnav"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
@@ -134,7 +135,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Şîfreya xwe binivîse:   \n"
+"Nasnavê xwe têkevê   \n"
 "\n"
 "\n"
 
@@ -394,6 +395,3 @@ msgstr "^Testa bîrê"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Ji hard disk a yekemîn ^boot bike"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Di moda ^OEM de saz bike"

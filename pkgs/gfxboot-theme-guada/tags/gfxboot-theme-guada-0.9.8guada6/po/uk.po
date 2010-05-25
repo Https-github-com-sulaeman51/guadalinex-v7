@@ -7,13 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: uk(6)\n"
-"PO-Revision-Date: 2006-08-20 23:36+0000\n"
-"Last-Translator: Vadim Abramchuck <abram@email.ua>\n"
+"PO-Revision-Date: 2007-04-13 22:16+0000\n"
+"Last-Translator: Vadim Abramchuck <abramm@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.2\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:38+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -49,8 +50,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Ви покидаєте графічне меню завантаження\n"
-"і запускаєте текстовий варіант інтерфейсу."
+"Ви полишаєте графічне меню завантаження\n"
+"та запускаєте текстовий режим інтерфейсу."
 
 #. txt_help
 msgid "Help"
@@ -86,12 +87,12 @@ msgstr ""
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Завантажувач"
+msgstr "Системний завантажувач"
 
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "Помилка вводу/виводу"
+msgstr "Помилка введення/виведення"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -192,7 +193,7 @@ msgstr "Пароль\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (anonymous login if empty)\n"
-msgstr "Користувач (вживати анонімний вхід, якщо порожнє)\n"
+msgstr "Користувач (буде вжито анонімний вхід, якщо порожнє)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
@@ -398,6 +399,3 @@ msgstr "Тест пам'яті"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Завантажитись з першого жорсткого диску"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Встановити у ^OEM режимі"

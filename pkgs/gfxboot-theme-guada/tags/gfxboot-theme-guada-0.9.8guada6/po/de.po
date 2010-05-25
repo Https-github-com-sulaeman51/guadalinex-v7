@@ -7,13 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
-"PO-Revision-Date: 2006-10-14 23:05+0000\n"
-"Last-Translator: Hanno Boeck <hanno@gentoo.org>\n"
+"PO-Revision-Date: 2007-07-02 11:19+0000\n"
+"Last-Translator: Jannick Kuhr <jakuhr-linux@gmx.de>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.9\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:18+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -270,7 +271,7 @@ msgstr "Bildschirm-Vorleser"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Braille-Terminal"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -335,7 +336,7 @@ msgstr "Xubuntu im sicheren ^Grafikmodus starten"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Mit Treiber-^Update-CD installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -355,12 +356,12 @@ msgstr "Eine ^Workstation installieren"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Einen Ser^ver installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
-msgstr ""
+msgstr "Installatio^n im Textmodus für Hersteller"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -370,13 +371,12 @@ msgstr "Einen ^LAMP-Server installieren"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Einen ^LTSP-Server installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Einen ^Server installieren"
+msgstr "Ein Komm^andozeilen-System installieren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -397,6 +397,3 @@ msgstr "RA^M-Speichertest durchführen"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Von der ersten ^Festplatte starten"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Im ^OEM-Modus installieren"

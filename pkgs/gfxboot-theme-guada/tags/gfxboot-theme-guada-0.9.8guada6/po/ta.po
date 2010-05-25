@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.2\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:49+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -399,6 +400,3 @@ msgstr "^நினைவக சோதனை"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "முதல் வன் தட்டிலிருந்து ^பூட் செய்"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "^OEM (ஓஈஎம்) முறைமையில் நிறுவு"

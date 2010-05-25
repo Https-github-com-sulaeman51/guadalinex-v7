@@ -5,12 +5,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2006-09-26 13:35+0000\n"
-"Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"PO-Revision-Date: 2007-06-28 11:37+0000\n"
+"Last-Translator: Romas Mažeika <romas@mazeika.lt>\n"
 "Language-Team: Lithuanian <i18n@operis.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:09+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -82,8 +83,9 @@ msgstr ""
 
 #. info box title
 #. txt_info_title
+#, fuzzy
 msgid "Boot loader"
-msgstr "Įkrovos tvarkyklė"
+msgstr "Sistemų įkėliklis"
 
 #. error box title
 #. txt_error_title
@@ -227,7 +229,7 @@ msgstr "Kalba"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Klaviatūros išdėstymas"
+msgstr "Klaviatūra"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -252,32 +254,33 @@ msgstr "Nėra"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Labai kontrastinga"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Lupa"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Ekrano skaitymas balsu"
 
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Brailio terminalas"
 
 #. label for accessibility menu
 #. txt_access_m1
+#, fuzzy
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Klaviatūros keitikliai"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Vaizdinė klaviatūra"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -332,7 +335,7 @@ msgstr "Paleisti Xubuntu VESA ^grafiniu režimu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Įdiegti naudojant ^valdyklių atnaujinimo CD"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -346,18 +349,19 @@ msgstr "Į^diegti į standųjį diską"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
+#, fuzzy
 msgid "Install a ^workstation"
-msgstr "Įdiegti ^darbinį kompiuterį"
+msgstr "Įdiegti ^darbo vietos kompiuterį"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Įdiegti ser^verį"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
-msgstr ""
+msgstr "Tekstinis įdiegimo režimas gami^ntojams"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -367,13 +371,12 @@ msgstr "Įdiegti ^LAMP serverį"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Įdiegti ^LTSP serverį"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Įdiegti ^serverį"
+msgstr "Įdiegti sistemą su ^komandinės eilutės aplinka"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -394,6 +397,3 @@ msgstr "^Operatyviosios atminties (RAM) tikrinimas"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Į^kelti iš pirmojo standaus disko"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Įdiegti ^OEM režime"

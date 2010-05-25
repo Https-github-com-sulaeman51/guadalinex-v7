@@ -8,13 +8,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
-"PO-Revision-Date: 2006-09-26 13:36+0000\n"
+"PO-Revision-Date: 2007-04-13 22:13+0000\n"
 "Last-Translator: Kostas Papadimas <pkst@gmx.net>\n"
 "Language-Team: Hellenic-Ελληνικά-Greek <hstg@billg.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.10\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:28:25+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -271,7 +272,7 @@ msgstr "Εφαρμογή ανάγνωσης οθόνης"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Τερματικό Braille"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -336,7 +337,7 @@ msgstr "Εκκίνηση Xubuntu σε ασφαλή γραφική λειτουρ
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Εγκατάστασ^η με CD ενημερώσεως οδηγών"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -375,9 +376,8 @@ msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Εγκατάσταση ενός ^εξυπηρετητή"
+msgstr "Εγκ^ατάσταση συστήματος γραμμής εντολών"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -398,6 +398,3 @@ msgstr "Έλεγ^χος μνήμης"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Ε^κκίνηση από τον πρώτο σκληρό δίσκο"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "Install σε λειτουργία ^OEM"

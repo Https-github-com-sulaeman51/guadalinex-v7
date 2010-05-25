@@ -4,12 +4,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-09-26 13:36+0000\n"
-"Last-Translator: PCMan <pcman.tw@gmail.com>\n"
+"PO-Revision-Date: 2007-06-21 15:59+0000\n"
+"Last-Translator: ssh <shunhsiung@gmail.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:29:24+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -241,7 +242,7 @@ msgstr "專家模式"
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "無障礙環境"
+msgstr "無障礙輔助"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -251,17 +252,17 @@ msgstr "無"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "高對比"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "放大鏡"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "螢幕閱讀器"
 
 #. label for accessibility menu
 #. txt_access_brltty
@@ -276,7 +277,7 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "螢幕鍵盤"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -292,7 +293,7 @@ msgstr "所有東西"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "啟動 Ubuntu (^S)"
+msgstr "啟動或安裝 Ubuntu (^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
@@ -302,7 +303,7 @@ msgstr "以安全圖形模式啟動 Ubuntu (^g)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "啟動 Kubuntu (^S)"
+msgstr "啟動或安裝 Kubuntu (^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
@@ -312,7 +313,7 @@ msgstr "以安全圖形模式啟動 Kubuntu (^g)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "啟動 Edubuntu (^S)"
+msgstr "啟動或安裝 Edubuntu (^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
@@ -322,7 +323,7 @@ msgstr "以安全圖形模式啟動 Edubuntu (^g)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "啟動 Xubuntu (^S)"
+msgstr "啟動或安裝 Xubuntu (^S)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
@@ -332,12 +333,12 @@ msgstr "以安全圖形模式啟動 Xubuntu (^g)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "安裝更新驅動程式光碟片 (^u)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "安裝到硬碟(^I)"
+msgstr "安裝文字模式(^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
@@ -352,7 +353,7 @@ msgstr "安裝工作站(^w)"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "安裝伺服器(^v)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
@@ -362,18 +363,18 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr "安裝 ^LAMP 伺服器"
+msgstr "安裝 LAMP 伺服器 (^L)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "安裝 LTSP 伺服器 (^L)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
 #, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "安裝伺服器 (^s)"
+msgstr "安裝基本系統 (^s)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -394,6 +395,3 @@ msgstr "記憶體測試(^M)"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "從第一個硬碟開機(^B)"
-
-#~ msgid "Install in ^OEM mode"
-#~ msgstr "以 OEM 模式安裝(^O)"

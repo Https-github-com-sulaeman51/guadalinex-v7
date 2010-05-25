@@ -5,12 +5,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-03-18 14:00+0000\n"
-"Last-Translator: Данило Шеган <danilo@canonical.com>\n"
+"PO-Revision-Date: 2007-05-02 11:10+0000\n"
+"Last-Translator: Jovan Svorcan <svorcan@gmail.com>\n"
 "Language-Team: Serbian <novell@prevod.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Rosetta-Export-Date: 2007-08-01 13:29:36+0000\n"
 
 #. ok button label
 #. txt_ok
@@ -110,12 +111,12 @@ msgstr ""
 "Уметните диск за покретање %u."
 
 #. txt_insert_disk3
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Ово није диск за покретање <product>.\n"
+"Ово није адекватан диск за покретање <product>.\n"
 "Уметните диск за покретање %u."
 
 #. password dialog title
@@ -227,169 +228,169 @@ msgstr "Језик"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr ""
+msgstr "Мапа тастера"
 
 #. label for d-i mode menu
 #. txt_normal_mode
 msgid "Normal mode"
-msgstr ""
+msgstr "Нормалан режим"
 
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr ""
+msgstr "Напредни режим"
 
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr ""
+msgstr "Приступачност"
 
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr ""
+msgstr "ништа"
 
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Велики контраст"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Лупа"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Читач екрана"
 
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Брејев терминал"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Модификатори тастатуре"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "тастатура на екрану"
 
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr ""
+msgstr "Проблеми са мотором - промените уређај"
 
 #. label for accessibility menu
 #. txt_access_all
 msgid "Everything"
-msgstr ""
+msgstr "Све"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr ""
+msgstr "^Покрени или инсталирај Убунту"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Покрени Убунту у ^ безбедном графичком режиму"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr ""
+msgstr "^Покрени или инсталирај Кубунту"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Покрени Кубунту у безбедном ^графичком режиму"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr ""
+msgstr "^Покрени или инсталирај Едубунту"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Покрени Едубунту у безбедном ^графичком режиму"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr ""
+msgstr "^Покрени или инсталирај Ксубунту"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Покрени Ксубунту у безбедном ^графичком режиму"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_driverupdates
 msgid "Install with driver ^update CD"
-msgstr ""
+msgstr "Инсталирај са цд-ом са додатним дра^јверима"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr ""
+msgstr "^Инсталирај у текстуалном режиму"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr ""
+msgstr "^Инсталирај на фикснидиск"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr ""
+msgstr "Инсталирај ^радну станицу"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ser^ver"
-msgstr ""
+msgstr "Инсталирај сер^вер"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Text mode install for ma^nufacturers"
-msgstr ""
+msgstr "Инсталација у текстуалном режиму за произво^ђаче"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr ""
+msgstr "Инсталирај ^LAMP сервер"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_ltsp
 msgid "Install an ^LTSP server"
-msgstr ""
+msgstr "Инсталирај ^LTSP сервер"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
 msgid "Install a comm^and-line system"
-msgstr ""
+msgstr "Инсталирај ^конзолни систем (cli)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr ""
+msgstr "Провери да ли ^ЦД има оштећења"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr ""
+msgstr "^Спаси оштећен систем"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr ""
+msgstr "Тест ^меморије"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr ""
+msgstr "^Покрени са првог фиксногдиска"
