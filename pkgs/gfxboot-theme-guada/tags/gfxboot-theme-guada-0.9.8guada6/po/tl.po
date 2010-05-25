@@ -59,34 +59,6 @@ msgstr ""
 msgid "Help"
 msgstr "Tulong"
 
-#. window title for kernel loading (see txt_load_kernel)
-#. txt_load_kernel_title
-msgid "Starting..."
-msgstr "Nagsisimula na..."
-
-#. Keep the three newlines!
-#. txt_load_kernel
-msgid ""
-"Loading Linux Kernel\n"
-"\n"
-"\n"
-msgstr ""
-"Niloload na ang Linux Kernel\n"
-"\n"
-"\n"
-
-#. Keep the three newlines!
-#. txt_load_memtest
-#, fuzzy
-msgid ""
-"Loading memtest86\n"
-"\n"
-"\n"
-msgstr ""
-"Sinisimulan ang memtest86\n"
-"\n"
-"\n"
-
 #. info box title
 #. txt_info_title
 msgid "Boot loader"

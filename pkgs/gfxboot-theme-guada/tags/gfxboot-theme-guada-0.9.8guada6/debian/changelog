@@ -6,6 +6,9 @@ gfxboot-theme-ubuntu (0.6.3) UNRELEASED; urgency=low
   * Update keymaps from console-setup 1.25ubuntu1. Drop the braille keymap,
     which is not very useful here; stop excluding the cs keymap since it no
     longer exists (replaced by rs, which is fine).
+  * Remove progress bar. It generally takes very little time so is just
+    another UI flicker, and removing it avoids some UI (LP: #45664) and
+    translation (LP: #221550) cans of worms.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 30 Jun 2008 15:20:21 +0100
 
