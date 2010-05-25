@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-03-10 04:21+0000\n"
-"PO-Revision-Date: 2009-07-01 23:48+0000\n"
-"Last-Translator: Colin Watson <cjwatson@canonical.com>\n"
+"PO-Revision-Date: 2009-09-03 03:51+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Tim Penerjemah Ubuntu Indonesian <l10@ubuntu-id.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
+"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "Oke"
+msgstr "OK"
 
 #. cancel button label
 #. txt_cancel
@@ -99,7 +99,7 @@ msgstr ""
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "Sandi"
+msgstr "Kata Sandi"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
@@ -108,7 +108,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Masukkan sandi Anda:   \n"
+"Masukkan kata sandi anda:   \n"
 "\n"
 "\n"
 
@@ -138,7 +138,7 @@ msgstr "Matikan sistem sekarang?"
 
 #. txt_password
 msgid "Password\n"
-msgstr "Sandi\n"
+msgstr "Kata Sandi\n"
 
 #. button label for other/more options
 #. txt_other_options
@@ -163,7 +163,7 @@ msgstr "Mode"
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Tekan F3 untuk memilih start-up dan mode instalasi alternatif"
+msgstr "Tekan F4 untuk memilih mode start-up dan instalasi yang lain"
 
 #. label for modes menu
 #. txt_mode_normal
@@ -173,12 +173,12 @@ msgstr "Normal"
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr "Mode Ahli"
+msgstr "Mode ahli"
 
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "Aksesibilitas"
+msgstr "Kemudahan Akses"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -213,7 +213,7 @@ msgstr "Perubah Papan Ketik"
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr "Papan Ketik Virtual"
+msgstr "Papan Ketik Visual"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -228,12 +228,12 @@ msgstr "Semuanya"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "Coba Ubuntu ^tanpa melakukan perubahan di komputer Anda"
+msgstr "^Coba Ubuntu tanpa melakukan perubahan di komputer anda"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "Coba Kubuntu ^tanpa melakukan perubahan di komputer Anda"
+msgstr "^Coba Kubuntu tanpa melakukan perubahan di komputer anda"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
@@ -259,7 +259,7 @@ msgstr ""
 #. Installation mode.
 #. txt_menuitem_xforcevesa
 msgid "Safe graphics mode"
-msgstr "Modus safe graphics"
+msgstr "Moda grafis aman"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -314,7 +314,7 @@ msgstr "^Instal Server Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_enterprise_cloud
 msgid "Install Ubuntu ^Enterprise Cloud"
-msgstr ""
+msgstr "Pasang ^Enterprise Cloud Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
@@ -364,7 +364,7 @@ msgstr "Instal Diskless Image Server"
 #. Installation mode.
 #. txt_menuitem_cli
 msgid "Install a command-line system"
-msgstr "Instal sistem command-line"
+msgstr "Instal sistem baris perintah"
 
 #. Installation mode.
 #. txt_menuitem_minimal

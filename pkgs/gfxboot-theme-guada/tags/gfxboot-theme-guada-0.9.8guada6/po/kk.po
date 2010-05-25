@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-07-01 23:49+0000\n"
-"PO-Revision-Date: 2009-04-28 08:52+0000\n"
-"Last-Translator: baurzhan.m <Unknown>\n"
+"PO-Revision-Date: 2009-10-17 12:21+0000\n"
+"Last-Translator: jmb_kz <jmb_kz@mail.ru>\n"
 "Language-Team: Kazakh <kk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
+"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -25,7 +25,7 @@ msgstr "ОК"
 #. cancel button label
 #. txt_cancel
 msgid "Cancel"
-msgstr "Бас тарту"
+msgstr "Болдырмау"
 
 #. reboot button label
 #. txt_reboot
@@ -99,7 +99,7 @@ msgstr ""
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "Пароль"
+msgstr "Құпия сөз"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
@@ -108,7 +108,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Пароліңізді енгізіңіз:   \n"
+"Құпия сөзіңізді енгізіңіз:   \n"
 "\n"
 "\n"
 
@@ -134,16 +134,16 @@ msgstr "Сөндіру"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Жүйені қазір сөндіруді қалайсыз ба?"
+msgstr "Жүйені қазір тоқтатуды қалайсыз ба?"
 
 #. txt_password
 msgid "Password\n"
-msgstr "Пароль\n"
+msgstr "Құпия сөз\n"
 
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Басқа баптаулар"
+msgstr "Басқа Баптаулар"
 
 #. label for language selection
 #. txt_language
@@ -163,7 +163,8 @@ msgstr "Режимдер"
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Жүктелу мен орнатудың балама режимін таңдау үшін F4 пернесін басыңыз."
+msgstr ""
+"Жүктелу мен орнатудың балама режимдерін таңдау үшін F4 пернесін басыңыз."
 
 #. label for modes menu
 #. txt_mode_normal
@@ -188,7 +189,7 @@ msgstr "Жоқ"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr "Жоғары контраст"
+msgstr "Жоғары Контраст"
 
 #. label for accessibility menu
 #. txt_access_v2
@@ -198,7 +199,7 @@ msgstr "Экрандағы ұлғайтқыш"
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr "Экраннан оқу"
+msgstr "Экраннан Оқу"
 
 #. label for accessibility menu
 #. txt_access_brltty
@@ -228,32 +229,33 @@ msgstr "Барлығын"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "^Ubuntu-ды компьютеріңізге орнатпай-ақ жіберу"
+msgstr "^Ubuntu-мен компьютеріңізге орнатпай-ақ жұмыс істеп көріңіз"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "^Kubuntu-ды компьютеріңізге орнатпай-ақ жіберу"
+msgstr "^Kubuntu-мен компьютеріңізге орнатпай-ақ жұмыс істеп көріңіз"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "^Edubuntu-ды компьютеріңізге орнатпай-ақ жіберу"
+msgstr "^Edubuntu-мен компьютеріңізге орнатпай-ақ жұмыс істеп көріңіз"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "^Xubuntu-ды компьютеріңізге орнатпай-ақ жіберу"
+msgstr "^Xubuntu-мен компьютеріңізге орнатпай-ақ жұмыс істеп көріңіз"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr "^Ubuntu MID-ті компьютеріңізге орнатпай-ақ жіберу"
+msgstr "^Ubuntu MID-пен компьютеріңізге орнатпай-ақ жұмыс істеп көріңіз"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr "^Ubuntu Netbook Remix-ті компьютеріңізге орнатпай-ақ жіберу"
+msgstr ""
+"^Ubuntu Netbook Remix-пен компьютеріңізге орнатпай-ақ жұмыс істеп көріңіз"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -268,22 +270,22 @@ msgstr "Драйверлерді жаңарту дискісін қолдану"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
-msgstr "^Ubuntu-ды мәтіндік режимде жіберу"
+msgstr "^Ubuntu-ды мәтіндік режимде орнату"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
 msgid "^Install Kubuntu in text mode"
-msgstr "^Kubuntu-ды мәтіндік режимде жіберу"
+msgstr "^Kubuntu-ды мәтіндік режимде орнату"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_edubuntu
 msgid "^Install Edubuntu in text mode"
-msgstr "^Edubuntu-ды мәтіндік режимде жіберу"
+msgstr "^Edubuntu-ды мәтіндік режимде орнату"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr "^Xubuntu-ды мәтіндік режимде жіберу"
+msgstr "^Xubuntu-ды мәтіндік режимде орнату"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -313,7 +315,7 @@ msgstr "^Ubuntu Server-ді орнату"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_enterprise_cloud
 msgid "Install Ubuntu ^Enterprise Cloud"
-msgstr ""
+msgstr "Ubuntu ^Enterprise Cloud орнату"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
@@ -323,7 +325,7 @@ msgstr "^Ubuntu Studio-ны орнату"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr "^Ubuntu MID орнату"
+msgstr "^Ubuntu MID-ты орнату"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
@@ -363,17 +365,17 @@ msgstr "Дискісіз станциялардың серверін орнат�
 #. Installation mode.
 #. txt_menuitem_cli
 msgid "Install a command-line system"
-msgstr "Графикалық интерфейсі жоқ жүйені орнату"
+msgstr "Тек коммандалық жол бар (графикалық интерфейссіз) жүйені орнату"
 
 #. Installation mode.
 #. txt_menuitem_minimal
 msgid "Install a minimal system"
-msgstr "Мүмкін болатын ең аз көлемді жүйені орнату"
+msgstr "Минималды жүйені орнату"
 
 #. Installation mode.
 #. txt_menuitem_minimalvm
 msgid "Install a minimal virtual machine"
-msgstr "Минимал виртуалды машина орнату"
+msgstr "Минималды виртуалды машина орнату"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -383,7 +385,7 @@ msgstr "^Диск бүтіндігін тексеру"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "Жүйені қалпына келтіру режимі"
+msgstr "Бұзылған жүйені қалпына келтіру режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
@@ -398,12 +400,12 @@ msgstr "Бірінші қатты дискіден жүктелу"
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr "Тек еркін бағдарламаларды орнату"
+msgstr "Тек тегін (еркін) бағдарламаларды орнату"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr "^Dell автоматты орнату"
+msgstr "^Dell Автоматты Орнату"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
@@ -413,4 +415,4 @@ msgstr "^Mythbuntu орнату"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr "^Mythbuntu-ды компьютеріңізге орнатпай-ақ жіберу"
+msgstr "^Mythbuntu-мен компьютеріңізге орнатпай-ақ жұмыс істеп көріңіз"

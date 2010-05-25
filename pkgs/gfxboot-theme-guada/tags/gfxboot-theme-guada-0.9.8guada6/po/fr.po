@@ -12,13 +12,13 @@ msgstr ""
 "Project-Id-Version: po_bootloader-fr\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-07-01 23:50+0000\n"
-"Last-Translator: Bruno Patri <bruno.patri@gmail.com>\n"
+"PO-Revision-Date: 2009-09-05 12:22+0000\n"
+"Last-Translator: Emmanuel Sunyer <emmanuel.sunyer@dbmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
+"X-Launchpad-Export-Date: 2009-10-19 08:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -43,20 +43,20 @@ msgstr "Continuer"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Options de démarrage"
+msgstr "Options d'amorçage"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "Sortie..."
+msgstr "Fermeture en cours ..."
 
 #. txt_exit_dialog
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Vous quittez le menu de démarrage graphique et\n"
-"accédez à l'interface en mode textuel."
+"Vous quittez le menu d'amorçage graphique et\n"
+"accédez à l'interface en mode texte."
 
 #. txt_help
 msgid "Help"
@@ -70,7 +70,7 @@ msgstr "Chargeur d'amorçage"
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr "Erreur d'entrée/sortie"
+msgstr "Erreur d'E/S"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -97,7 +97,7 @@ msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Ceci n'est pas un disque d'amorçage correct.\n"
+"Ceci n'est pas un disque d'amorçage adapté.\n"
 "Veuillez insérer le disque d'amorçage %u."
 
 #. password dialog title
@@ -119,7 +119,7 @@ msgstr ""
 #. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr "Erreur DVD"
+msgstr "Erreur de DVD"
 
 #. txt_dvd_warning2
 msgid ""
@@ -127,15 +127,14 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Il s'agit d'un DVD double face. Vous avez effectué l'amorçage à partir de la "
-"seconde face.\n"
+"Ceci est un DVD double face. Vous avez amorcé à partir de la seconde face.\n"
 "\n"
-"Retournez le DVD, puis continuez."
+"Retournez le DVD puis continuez."
 
 #. power off dialog title
 #. txt_power_off_title
 msgid "Power Off"
-msgstr "Extinction"
+msgstr "Arrêt"
 
 #. txt_power_off
 msgid "Halt the system now?"
@@ -169,8 +168,7 @@ msgstr "Modes"
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
 msgstr ""
-"Appuyez sur F4 pour sélectionner un mode de démarrage et d'installation "
-"alternatif."
+"Appuyez sur F4 pour choisir d'autres modes de démarrage et d'installation."
 
 #. label for modes menu
 #. txt_mode_normal
@@ -215,7 +213,7 @@ msgstr "Terminal Braille"
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr "Modificateurs clavier"
+msgstr "Modificateurs de clavier"
 
 #. label for accessibility menu
 #. txt_access_m2
@@ -235,32 +233,32 @@ msgstr "Tout"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "^Essayer Ubuntu sans rien changer sur votre ordinateur"
+msgstr "^Essayez Ubuntu sans altérer votre ordinateur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "^Essayer Kubuntu sans rien changer sur votre ordinateur"
+msgstr "^Essayez Kubuntu sans altérer votre ordinateur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "^Essayer Edubuntu sans rien changer sur votre ordinateur"
+msgstr "^Essayez Edubuntu sans altérer votre ordinateur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "^Essayer Xubuntu sans rien changer sur votre ordinateur"
+msgstr "^Essayez Xubuntu sans altérer votre ordinateur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr "^Essayer Ubuntu MID sans rien modifier sur votre ordinateur"
+msgstr "^Essayez Ubuntu MID sans altérer votre ordinateur"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr "^Essayer Ubuntu Netbook Remix sans rien modifier sur votre ordinateur"
+msgstr "^Essayez Ubuntu Netbook Remix sans altérer votre ordinateur"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -315,12 +313,12 @@ msgstr "^Installer Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr "^Installer un serveur Ubuntu"
+msgstr "^Installer Ubuntu Server"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_enterprise_cloud
 msgid "Install Ubuntu ^Enterprise Cloud"
-msgstr ""
+msgstr "Installer Ubuntu ^Enterprise Cloud"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
@@ -365,7 +363,7 @@ msgstr "Installer un serveur LTSP"
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
 msgid "Install a Diskless Image Server"
-msgstr "Installer une image serveur sans disque"
+msgstr "Installer une image de serveur sans disque"
 
 #. Installation mode.
 #. txt_menuitem_cli
@@ -385,12 +383,12 @@ msgstr "Installer une machine virtuelle minimale"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check disc for defects"
-msgstr "^Vérifier si le disque contient des erreurs"
+msgstr "^Vérifier si le disque a des défauts"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "^Réparer un système endommagé"
+msgstr "^Récupérer un système endommagé"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
@@ -400,12 +398,12 @@ msgstr "Tester la ^mémoire"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "^Démarrer à partir du premier disque dur"
+msgstr "^Amorcer à partir du premier disque dur"
 
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr "Logiciels libres uniquement"
+msgstr "Uniquement des logiciels libres"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
@@ -420,4 +418,4 @@ msgstr "^Installer Mythbuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr "^Essayer Mythbuntu sans rien changer à votre ordinateur"
+msgstr "^Essayez Mythbuntu sans altérer à votre ordinateur"
