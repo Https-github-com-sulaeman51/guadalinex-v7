@@ -246,7 +246,7 @@ msgid "^Try Ubuntu MID without installing"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_netbook_remix
+#. txt_menuitem_live_ubuntu_netbook
 msgid "^Try Ubuntu Netbook without installing"
 msgstr ""
 
@@ -316,7 +316,7 @@ msgid "^Install Ubuntu MID"
 msgstr "उबुन्टु MID प्रतिस्थापन गर्नुहोस (^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_netbook_remix
+#. txt_menuitem_install_ubuntu_netbook
 #, fuzzy
 msgid "^Install Ubuntu Netbook"
 msgstr "उबुन्टु नेटबुक रिमिक्स प्रतिस्थापन गर्नुहोस (^I)"
