@@ -258,11 +258,6 @@ msgstr ""
 "^Ubuntu Netbook Remix-пен компьютеріңізге орнатпай-ақ жұмыс істеп көріңіз"
 
 #. Installation mode.
-#. txt_menuitem_xforcevesa
-msgid "Safe graphics mode"
-msgstr "Қауіпсіз графикалық режим"
-
-#. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
 msgstr "Драйверлерді жаңарту дискісін қолдану"

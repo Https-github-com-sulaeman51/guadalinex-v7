@@ -248,11 +248,6 @@ msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "^ព្យាយាម ខំព្យូរើណែត Ubuntu Remix គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Installation mode.
-#. txt_menuitem_xforcevesa
-msgid "Safe graphics mode"
-msgstr "បែបក្រាភិក សុវត្ថភាព"
-
-#. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
 msgstr "ប្រើប្រាស់ ថាសបន្ទាន់សម័យ កម្មវិធីបញ្ជា"

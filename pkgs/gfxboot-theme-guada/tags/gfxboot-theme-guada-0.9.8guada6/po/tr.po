@@ -257,11 +257,6 @@ msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "Bilgisayarında hiçbir değişiklik yapmadan Ubuntu Netbook Remix'i dene"
 
 #. Installation mode.
-#. txt_menuitem_xforcevesa
-msgid "Safe graphics mode"
-msgstr "Güvenli grafik kipi"
-
-#. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
 msgstr "Sürücü güncelleme diskini kullan"

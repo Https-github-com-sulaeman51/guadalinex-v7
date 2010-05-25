@@ -255,11 +255,6 @@ msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "^Testar Ubuntu Netbook Remix sem qualquer mudança ao seu computador"
 
 #. Installation mode.
-#. txt_menuitem_xforcevesa
-msgid "Safe graphics mode"
-msgstr "Modo gráfico seguro"
-
-#. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
 msgstr "Utilizar driver de disco update"
