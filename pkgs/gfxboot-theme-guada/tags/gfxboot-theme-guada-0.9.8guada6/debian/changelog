@@ -1,10 +1,10 @@
-gfxboot-theme-ubuntu (0.2.10) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.2.10) edgy; urgency=low
 
   * When selecting a keymap from the F3 menu, set config.keymap directly
     rather than indirecting via a locale. The old code crashed when
     selecting a keymap without an associated locale.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Tue, 24 Oct 2006 08:41:41 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 24 Oct 2006 09:53:14 +0100
 
 gfxboot-theme-ubuntu (0.2.9) edgy; urgency=low
 
