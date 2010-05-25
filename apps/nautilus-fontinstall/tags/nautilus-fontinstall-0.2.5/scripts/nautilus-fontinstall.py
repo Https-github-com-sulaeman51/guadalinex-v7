@@ -29,7 +29,6 @@ import time
 import gettext
 from threading import Thread
 gtk.gdk.threads_init() 
-gettext.install("nautilus-fontinstall")
 
 
 #Global
@@ -52,8 +51,9 @@ class FONTDialog:
                 gtk.main_iteration()
         self.pgbar.set_fraction(1.0)
         self.button.show()
-        self.pgbar.set_text(_("Update completed"))
-        self.lbFinish.set_text(_("The font '")+self.file_cut+_("' has been installed"))
+        self.pgbar.set_text(gettext.dgettext("nautilus-fontinstall","Update completed"))
+        self.lbFinish.set_text(gettext.dgettext("nautilus-fontinstall","The font '")+
+        self.file_cut+gettext.dgettext("nautilus-fontinstall","' has been installed"))
        
 	
 	
@@ -69,7 +69,7 @@ class FONTDialog:
         self.button = self.glade.get_widget("buttonOk")
         self.lbFinish = self.glade.get_widget("lbFinish")
         self.pgbar = self.glade.get_widget("pgbar")
-        self.lbFinish.set_text(_("Updating font cache"))
+        self.lbFinish.set_text(gettext.dgettext("nautilus-fontinstall","Updating font cache"))
         
         self.window.set_title(NAME_APP)
         self.window.set_focus_child(self.glade.get_widget("buttonOk"))
@@ -108,8 +108,8 @@ class FONTExtension(nautilus.MenuProvider):
         items = []
         #Called when the user selects a file in Nautilus.
         item = nautilus.MenuItem("NautilusPython::fontinstall_item",
-                                 _("Install Font"),
-                                 _("Install Font"))
+                                 gettext.dgettext("nautilus-fontinstall","Install Font"),
+                                 gettext.dgettext("nautilus-fontinstall","Install Font"))
         item.set_property('icon', "fontinstall-ico")
         item.connect("activate", self.menu_activate_cb, files)
         items.append(item)
@@ -130,7 +130,9 @@ class FONTExtension(nautilus.MenuProvider):
             return
 
         filefont = urllib.unquote(filename.get_uri()[7:])
-        os.system ("gksudo -u root -k -m " + "\""+ _("Enter your user password") + "\"" + " /bin/echo " + "\"" + _("Do you have root access?") + "\"")
+        os.system ("gksudo -u root -k -m " + "\""+
+        gettext.dgettext("nautilus-fontinstall","Enter your user password") + "\"" + " /bin/echo " + "\"" +
+        gettext.dgettext("nautilus-fontinstall","Do you have root access?") + "\"")
         os.system("sudo cp -r '" + filefont + "' '" + FONT_PATH + "'")
         fontinst = FONTDialog(filefont)
         fontinst.main()
