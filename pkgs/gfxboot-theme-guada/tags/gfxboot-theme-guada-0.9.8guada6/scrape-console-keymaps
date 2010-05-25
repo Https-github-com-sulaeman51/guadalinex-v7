@@ -18,6 +18,9 @@ while (<LIST>) {
     next if /^#/ or not /\S/;
     my ($locales, $keymap, $keymapname) = split /\t/;
     $keymapname =~ s/\s+$//;
+    if ($keymapname =~ /^German \(/) {
+	$keymapname =~ s/ \(.*//;
+    }
     $keymaps{$keymap} = [[split(':', $locales)], $keymapname];
 }
 
