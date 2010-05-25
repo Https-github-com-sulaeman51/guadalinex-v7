@@ -69,16 +69,17 @@ endif
 	@cd install && echo $(FILES_CORE) | sed -e "s/ /\n/g" | cpio --quiet -o >bootlogo
 	@tar -C install -czf install/bootlogo.tar.gz bootlogo $(INST_EXT)
 
+# TODO cjwatson 2007-08-07: this doesn't quite work as it stands at the
+# moment; you need to build the BDF version of unifont and use that.
 font:
 	cat po/*.po >tmp.txt
-	getx11font -v -l 18 -p 2,4 \
+	mkblfont -v -l 18 -p /usr/share/fonts/X11/misc \
 	-c ISO-8859-15 -c ISO-8859-2 -c koi8-r \
 	`$(KEYMAPCHARS) keytables.inc` \
 	-t tmp.txt \
 	-t install/log -t boot/log \
 	-t langlist -t langnames.inc \
-	-f -gnu-unifont-medium-r-normal--16-160-75-75-c-80-iso10646-1 \
-	--fsize 16,5 \
+	-f unifont:prop=2:space_width=4 \
 	16x16.fnt >16x16.fnt.log
 	rm -f tmp.txt
 

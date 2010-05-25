@@ -130,9 +130,7 @@
     over over moveto boot.ed.width boot.ed.height savescreen
     boot.buf
     boot.buf.size
-    0
-    0
-    0
+    .undef
   ] def
 
   boot.setup

@@ -7,7 +7,7 @@ Standards-Version: 3.6.2
 
 Package: gfxboot-theme-ubuntu
 Architecture: amd64 i386
-Depends: gfxboot (>= 3.2.23-1)
+Depends: gfxboot (>= 3.3.28)
 Description: Ubuntu theme for gfxboot-compliant boot loaders
  This is an Ubuntu theme for the gfxboot graphical boot loader extension. It
  should be suitable for Ubuntu derivatives as well as Ubuntu itself.
