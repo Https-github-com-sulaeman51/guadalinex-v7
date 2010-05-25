@@ -470,6 +470,11 @@
     /panel.normal over def
     /title.bg exch def
   } { pop } ifelse
+  "screen-colour" getgfxconfig dup .undef ne {
+    strtol
+    /menu.bar.color over def
+    /xmenu.dark exch def
+  } { pop } ifelse
   "access-options" getgfxconfig dup .undef ne {
     /access.optionnames [
       .undef
@@ -487,6 +492,8 @@
     % timeout expires, boot without showing the menu
     pop /timeout.hidden true def
   } { pop } ifelse
+
+  menu.bar.color setcolor 0 0 moveto screen.size fillrect
 
   % Move the logo down 84 pixels to centre it.  This is obviously a gross
   % hack.  To fix this, we need to move to smaller logo images which are
