@@ -66,7 +66,7 @@ font:
 	`./keymapchars keymap.*.inc` \
 	-t tmp.txt \
 	-t install/log -t boot/log \
-	-t languages \
+	-t languages -t dia_lang.inc \
 	-f -gnu-unifont-medium-r-normal--16-160-75-75-c-80-iso10646-1 \
 	--fsize 16,5 \
 	16x16.fnt >16x16.fnt.log
