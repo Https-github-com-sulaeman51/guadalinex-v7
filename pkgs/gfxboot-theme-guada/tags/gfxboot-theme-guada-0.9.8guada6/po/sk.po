@@ -37,41 +37,6 @@ msgstr "Reštartovať"
 msgid "Continue"
 msgstr "Pokračovať"
 
-#. txt_install
-msgid "Installation"
-msgstr "Inštalácia"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Manuálna inštalácia"
-
-#. txt_noacpi_install
-#, fuzzy
-msgid "Installation--ACPI Disabled"
-msgstr "Inštalácia - ACPI vypnuté"
-
-#. txt_safe_install
-#, fuzzy
-msgid "Installation--Safe Settings"
-msgstr "Inštalácia - Bezpečné nastavenie"
-
-#. txt_safe_linux
-#, fuzzy
-msgid "Linux--Safe Settings"
-msgstr "Linux - Bezpečné nastavenie"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Spustiť systém z pevného disku"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Záchranný systém"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Test pamäti"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Možnosti štartu"
@@ -177,11 +142,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-#, fuzzy
-msgid "Get your driver update floppy ready."
-msgstr "Prosím, pripravte si disketu s aktualizovanými ovládačmi."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -208,11 +168,6 @@ msgstr "Vypnúť"
 #, fuzzy
 msgid "Halt the system now?"
 msgstr "Chcete teraz počítač vypnúť?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Pevný disk"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -265,20 +220,10 @@ msgstr "SMB (Windows zdieľanie) Inštalácia"
 msgid "HTTP Installation"
 msgstr "HTTP Inštalácia"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Ovládač"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Doména\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr ""
 
 # label for language selection
 #. txt_language

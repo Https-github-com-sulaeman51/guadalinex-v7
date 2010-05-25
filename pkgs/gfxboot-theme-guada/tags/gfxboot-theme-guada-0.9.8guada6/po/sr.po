@@ -32,38 +32,6 @@ msgstr "Ресетуј"
 msgid "Continue"
 msgstr "Настави"
 
-#. txt_install
-msgid "Installation"
-msgstr "Инсталација"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Ручна инсталација"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Инсталација — ACPI искључен"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Инсталација — безбедна подешавања"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Линукс — безбедна подешавања"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Покрени са тврдог диска"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Спасилачки систем"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Провера меморије"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Опције за покретање"
@@ -149,10 +117,6 @@ msgstr "Лозинка"
 msgid "Enter your password:   \n\n\n"
 msgstr "Унесите своју лозинку:   \n\n\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Припремите вашу дискету са освежењем драјвера."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -176,11 +140,6 @@ msgstr "Угаси"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "Сада угасити систем?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Тврди диск"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -233,20 +192,10 @@ msgstr "SMB (дељени Windows диск) инсталација"
 msgid "HTTP Installation"
 msgstr "HTTP инсталација"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Драјвер"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Домен\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "Остале опције"
 
 # label for language selection
 #. txt_language

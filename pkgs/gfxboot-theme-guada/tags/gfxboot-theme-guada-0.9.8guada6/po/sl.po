@@ -38,38 +38,6 @@ msgstr "Ponovni zagon"
 msgid "Continue"
 msgstr "Nadaljevanje"
 
-#. txt_install
-msgid "Installation"
-msgstr "Namestitev"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Ročna namestitev"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Namestitev--izključen ACPI"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Namestitev--varne nastavitve"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux--varne nastavitve"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Zagon s trdega diska"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Sistem za reševanje"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Testiranje pomnilnika"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Možnosti pri zagonu"
@@ -173,10 +141,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Prosim pripravite disketo za posodobitev gonilnikov."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -200,11 +164,6 @@ msgstr "Zaustavitev sistema"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "Želite sedaj zaustaviti sistem?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Trdi disk"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -257,20 +216,10 @@ msgstr "Namestitev preko SMB (Windows vir v skupini rabi)"
 msgid "HTTP Installation"
 msgstr "Namestitev preko HTTP"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Gonilnik"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Domena\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "Ostale možnosti"
 
 # label for language selection
 #. txt_language

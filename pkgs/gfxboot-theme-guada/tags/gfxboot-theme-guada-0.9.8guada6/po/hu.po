@@ -38,38 +38,6 @@ msgstr "Újraindítás"
 msgid "Continue"
 msgstr "Folytatás"
 
-#. txt_install
-msgid "Installation"
-msgstr "Telepítés"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Kézi telepítés"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Telepítés - ACPI támogatás nélkül"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Telepítés - Biztonságos beállításokkal"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux - Biztonságos beállításokkal"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Rendszerindítás merevlemezről"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Mentőrendszer"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Memóriateszt"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Rendszerindítási paraméterek"
@@ -173,10 +141,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Készítse elő a frissítéseket tartalmazó meghajtólemezt."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -200,11 +164,6 @@ msgstr "Gép kikapcsolása"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "Ki akarja most kapcsolni a számítógépet?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Merevlemez"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -257,20 +216,10 @@ msgstr "SMB telepítés (Windows megosztásról)"
 msgid "HTTP Installation"
 msgstr "HTTP telepítés"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Illesztőprogram"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Tartomány\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "Egyéb beállítások"
 
 # label for language selection
 #. txt_language

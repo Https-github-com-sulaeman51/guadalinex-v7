@@ -36,41 +36,6 @@ msgstr "Перезавантажити комп'ютер"
 msgid "Continue"
 msgstr "Продовжити"
 
-#. txt_install
-msgid "Installation"
-msgstr "Встановлення"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Ручне встановлення"
-
-#. txt_noacpi_install
-#, fuzzy
-msgid "Installation--ACPI Disabled"
-msgstr "Встановлення - ACPI вимкнено"
-
-#. txt_safe_install
-#, fuzzy
-msgid "Installation--Safe Settings"
-msgstr "Встановлення - безпечні параметри"
-
-#. txt_safe_linux
-#, fuzzy
-msgid "Linux--Safe Settings"
-msgstr "Linux - безпечні параметри"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Завантаження з жорсткого диска"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Порятунок системи"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Тест пам'яті"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Параметри завантаження"
@@ -175,11 +140,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-#, fuzzy
-msgid "Get your driver update floppy ready."
-msgstr "Будь ласка, підготуйте дискету з оновленнями драйверів."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -206,11 +166,6 @@ msgstr "Вимкнути живлення"
 #, fuzzy
 msgid "Halt the system now?"
 msgstr "Хочете зараз вимкнути систему?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Жорсткий диск"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -263,20 +218,10 @@ msgstr "Встановлення з SMB (Windows Share)"
 msgid "HTTP Installation"
 msgstr "Встановлення через HTTP"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Драйвер"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Домен\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr ""
 
 # label for language selection
 #. txt_language

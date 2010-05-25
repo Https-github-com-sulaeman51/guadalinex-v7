@@ -32,38 +32,6 @@ msgstr "Perkrauti"
 msgid "Continue"
 msgstr "Tęsti"
 
-#. txt_install
-msgid "Installation"
-msgstr "Diegimas"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "Rankinis diegimas"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "Diegimas--ACPI išjungtas"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "Diegimas--saugios nuostatos"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux--saugios nuostatos"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "Įkrauti iš kietojo disko"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "Avarinė sistema"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "Atminties testas"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "Įkrovos parametrai"
@@ -167,10 +135,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "Paruoškite savo diskelį su tvarkyklės atnaujinimu."
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -194,11 +158,6 @@ msgstr "Išjungti"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "Sustabdyti sistemą?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "Kietasis diskas"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -251,20 +210,10 @@ msgstr "Diegimas per SMB (Windows Share)"
 msgid "HTTP Installation"
 msgstr "Diegimas per HTTP"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "Tvarkyklė"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "Domenas\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "Kiti parametrai"
 
 # label for language selection
 #. txt_language

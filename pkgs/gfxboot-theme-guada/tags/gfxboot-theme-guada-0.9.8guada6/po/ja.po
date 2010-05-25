@@ -31,38 +31,6 @@ msgstr "再起動"
 msgid "Continue"
 msgstr "続ける"
 
-#. txt_install
-msgid "Installation"
-msgstr "インストール"
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr "手動インストール"
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr "インストール -- ACPI無効"
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr "インストール -- セーフ設定"
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr "Linux -- セーフ設定"
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr "ハードディスクから起動"
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr "レスキューシステム"
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr "メモリテスト"
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr "起動オプション"
@@ -166,10 +134,6 @@ msgstr ""
 "\n"
 "\n"
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr "ドライバ更新のフロッピーディスクを準備してください。"
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -192,11 +156,6 @@ msgstr "電源オフ"
 #. txt_power_off
 msgid "Halt the system now?"
 msgstr "システムを中止しますか?"
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
-msgstr "ハードディスク"
 
 # dialog title for hard disk installation
 #. txt_harddisk_title
@@ -249,20 +208,10 @@ msgstr "SMB (Windows共有) インストール"
 msgid "HTTP Installation"
 msgstr "HTTPインストール"
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr "ドライバ"
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
 msgstr "ドメイン\n"
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
-msgstr "その他のオプション"
 
 # label for language selection
 #. txt_language

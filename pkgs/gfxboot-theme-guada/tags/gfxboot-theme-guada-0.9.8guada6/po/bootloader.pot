@@ -31,38 +31,6 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#. txt_install
-msgid "Installation"
-msgstr ""
-
-#. txt_manual_install
-msgid "Manual Installation"
-msgstr ""
-
-#. txt_noacpi_install
-msgid "Installation--ACPI Disabled"
-msgstr ""
-
-#. txt_safe_install
-msgid "Installation--Safe Settings"
-msgstr ""
-
-#. txt_safe_linux
-msgid "Linux--Safe Settings"
-msgstr ""
-
-#. txt_boot_harddisk
-msgid "Boot from Hard Disk"
-msgstr ""
-
-#. txt_rescue
-msgid "Rescue System"
-msgstr ""
-
-#. txt_memtest
-msgid "Memory Test"
-msgstr ""
-
 #. txt_bootoptions
 msgid "Boot Options"
 msgstr ""
@@ -142,10 +110,6 @@ msgstr ""
 msgid "Enter your password:   \n\n\n"
 msgstr ""
 
-#. txt_dud_ready
-msgid "Get your driver update floppy ready."
-msgstr ""
-
 # dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
@@ -165,11 +129,6 @@ msgstr ""
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr ""
-
-# menu entry for hard disk installation
-#. txt_harddisk
-msgid "Hard Disk"
 msgstr ""
 
 # dialog title for hard disk installation
@@ -223,19 +182,9 @@ msgstr ""
 msgid "HTTP Installation"
 msgstr ""
 
-# 'driver' as in '(hardware) driver update'
-#. txt_driver_update
-msgid "Driver"
-msgstr ""
-
 # as in Windows Authentication Domain
 #. txt_domain
 msgid "Domain\n"
-msgstr ""
-
-# button label for other/more options
-#. txt_other_options
-msgid "Other Options"
 msgstr ""
 
 # label for language selection
