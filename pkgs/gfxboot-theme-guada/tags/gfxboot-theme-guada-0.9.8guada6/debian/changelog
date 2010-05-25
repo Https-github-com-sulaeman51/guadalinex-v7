@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.1.9) UNRELEASED; urgency=low
+
+  * Fix comment syntax in keytables.inc.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 23 Jan 2006 11:43:19 +0000
+
 gfxboot-theme-ubuntu (0.1.8) dapper; urgency=low
 
   * Rename languages to langlist to avoid running into 8.3 file name
