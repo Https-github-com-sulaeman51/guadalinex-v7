@@ -979,7 +979,7 @@
 % from menu.humans. Otherwise, return text as-is.
 /menuitemmap {
   0 menu.texts {
-    2 index eq { menu.humans over get exch exit } if
+    2 index eq { menu.humans over get rot pop exch exit } if
     1 add
   } forall pop
   translate
