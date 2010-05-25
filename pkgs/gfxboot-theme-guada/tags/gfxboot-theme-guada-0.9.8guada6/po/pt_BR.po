@@ -108,7 +108,6 @@ msgstr ""
 "Este é o disco de boot %u.\n"
 "Insira o disco de boot %u."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -251,28 +250,28 @@ msgstr "Nenhum"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Impedimentos Visuais Pequenos"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Impedimentos Visuais Moderados"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Cegueira"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Dificuldades Motoras Pequenas"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Dificuldades Motoras - dispositivos para apontar"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -373,3 +372,18 @@ msgstr "Teste de ^memória"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Inicializar pelo ^primeiro disco rígido"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Impedimentos Visuais Pequenos"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Impedimentos Visuais Moderados"
+
+#~ msgid "Blindness"
+#~ msgstr "Cegueira"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Dificuldades Motoras Pequenas"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Dificuldades Motoras - dispositivos para apontar"

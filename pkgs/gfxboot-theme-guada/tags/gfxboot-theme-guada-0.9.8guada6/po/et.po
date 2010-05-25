@@ -255,28 +255,28 @@ msgstr "Puudub"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Väiksem visuaalkahjustus"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Suurem visuaalkahjustus"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Pimedus"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Väiksed mootori raskused"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Mootori raskused - osuta seadmetele"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +377,18 @@ msgstr "^Mälutest"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Tee alglaadimine esimeselt kõvakettalt"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Väiksem visuaalkahjustus"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Suurem visuaalkahjustus"
+
+#~ msgid "Blindness"
+#~ msgstr "Pimedus"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Väiksed mootori raskused"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Mootori raskused - osuta seadmetele"

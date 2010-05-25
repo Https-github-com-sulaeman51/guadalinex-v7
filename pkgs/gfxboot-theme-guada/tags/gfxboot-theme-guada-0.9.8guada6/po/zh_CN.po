@@ -108,7 +108,6 @@ msgstr ""
 "这是引导盘 %u。\n"
 "插入引导盘 %u。"
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -251,28 +250,28 @@ msgstr "无"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "次级视觉伤害"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "中等视觉伤害"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "失明"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "运动肌肉障碍"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "运动肌肉障碍 - 定位设备"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -373,3 +372,18 @@ msgstr "内存测试"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "从第一块硬盘启动"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "次级视觉伤害"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "中等视觉伤害"
+
+#~ msgid "Blindness"
+#~ msgstr "失明"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "运动肌肉障碍"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "运动肌肉障碍 - 定位设备"

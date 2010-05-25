@@ -249,28 +249,28 @@ msgstr "Nengún"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Dificultades Visuais Menores"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Dificultades Visuais Medianas"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Cegueira"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Dificultades Motoras Menores"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Dificultades Motoras - dispositivos apuntadores"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -371,3 +371,18 @@ msgstr "Verificar a ^memoria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Iniciar desde o primeiro disco duro"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Dificultades Visuais Menores"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Dificultades Visuais Medianas"
+
+#~ msgid "Blindness"
+#~ msgstr "Cegueira"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Dificultades Motoras Menores"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Dificultades Motoras - dispositivos apuntadores"

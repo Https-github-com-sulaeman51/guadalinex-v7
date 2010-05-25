@@ -257,28 +257,28 @@ msgstr "არა"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "ძალიან ცუდი მხედველობა"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "ცუდი მხედველობა"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "უსინათლობა"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "მცირე მოტორული სიძნელეები"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "მოტორული სიძნელეები - მოწყობილობების მონიშვნა"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -379,3 +379,18 @@ msgstr "^მეხსიერების ტესტი"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^მყარი დისკიდან ჩატვირთვა"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "ძალიან ცუდი მხედველობა"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "ცუდი მხედველობა"
+
+#~ msgid "Blindness"
+#~ msgstr "უსინათლობა"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "მცირე მოტორული სიძნელეები"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "მოტორული სიძნელეები - მოწყობილობების მონიშვნა"

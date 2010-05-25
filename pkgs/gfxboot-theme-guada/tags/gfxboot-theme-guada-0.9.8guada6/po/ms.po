@@ -254,19 +254,29 @@ msgid "None"
 msgstr "Tiada"
 
 #. label for accessibility menu
+#. txt_access_v1
+msgid "High Contrast"
+msgstr ""
+
+#. label for accessibility menu
+#. txt_access_v2
+msgid "Magnifier"
+msgstr ""
+
+#. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Kebutaan"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Kesukaran Motor Minor"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Kesukaran Motor - peranti penunjuk"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -367,3 +377,12 @@ msgstr "^Ujian Memori"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^But daripada cakera keras pertama"
+
+#~ msgid "Blindness"
+#~ msgstr "Kebutaan"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Kesukaran Motor Minor"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Kesukaran Motor - peranti penunjuk"

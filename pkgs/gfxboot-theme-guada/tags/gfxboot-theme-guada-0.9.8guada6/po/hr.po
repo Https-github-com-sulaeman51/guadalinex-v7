@@ -255,28 +255,28 @@ msgstr "Ništa"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Blago oštečenje vida"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Umjereno oštečenje vida"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Sljepoća"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Manje motoričke potoškoće"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Motoričke poteškoće - pokazivači"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +377,18 @@ msgstr "Test ^memorije"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Podigni s prvog čvrstog diska"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Blago oštečenje vida"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Umjereno oštečenje vida"
+
+#~ msgid "Blindness"
+#~ msgstr "Sljepoća"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Manje motoričke potoškoće"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Motoričke poteškoće - pokazivači"

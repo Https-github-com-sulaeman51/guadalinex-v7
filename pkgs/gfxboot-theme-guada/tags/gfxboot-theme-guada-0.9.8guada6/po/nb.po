@@ -114,7 +114,6 @@ msgstr ""
 "Dette er oppstartsdisk %u.\n"
 "Sett inn oppstartsdisk %u."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -257,28 +256,28 @@ msgstr "Ingen"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Svakere synshemmelse"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Moderat synshemmelse"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Blindhet"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Mindre motoriske vanskeligheter"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Motoriske vanskeligheter - pekeenheter"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -379,3 +378,18 @@ msgstr "^Minnetest"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Oppstart fra første harddisk"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Svakere synshemmelse"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Moderat synshemmelse"
+
+#~ msgid "Blindness"
+#~ msgstr "Blindhet"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Mindre motoriske vanskeligheter"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Motoriske vanskeligheter - pekeenheter"

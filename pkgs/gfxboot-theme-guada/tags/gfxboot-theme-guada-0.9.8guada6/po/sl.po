@@ -114,7 +114,6 @@ msgstr ""
 "To je zagonska disketa %u.\n"
 "Vstavite zagonsko disketo %u."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -257,28 +256,28 @@ msgstr "Brez"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Rahla okvara vida"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Zmerna okvara vida"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Slepota"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Manjše težave z motoriko"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Težave z motoriko - kazalne naprave"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -379,3 +378,18 @@ msgstr "Preveri delovni po^mnilnik"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Zaženi s prvega trdega diska"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Rahla okvara vida"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Zmerna okvara vida"
+
+#~ msgid "Blindness"
+#~ msgstr "Slepota"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Manjše težave z motoriko"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Težave z motoriko - kazalne naprave"

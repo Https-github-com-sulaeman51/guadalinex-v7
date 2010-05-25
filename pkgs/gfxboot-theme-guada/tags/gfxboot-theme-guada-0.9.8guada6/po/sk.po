@@ -113,7 +113,6 @@ msgstr ""
 "Toto je štartovací disk %u.\n"
 "Vložte štartovací disk %u."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -256,28 +255,28 @@ msgstr "Žiadne"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Menšie zrakové problémy"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Stredné zrakové problémy"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Nevidiaci"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Menšie pohybové tažkosti"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Pohybové tažkosti - ukazov. zariadenia"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -378,3 +377,18 @@ msgstr "^Test pamäte"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Štart systému z prvého ^disku"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Menšie zrakové problémy"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Stredné zrakové problémy"
+
+#~ msgid "Blindness"
+#~ msgstr "Nevidiaci"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Menšie pohybové tažkosti"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Pohybové tažkosti - ukazov. zariadenia"

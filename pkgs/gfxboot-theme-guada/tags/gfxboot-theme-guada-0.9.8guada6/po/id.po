@@ -255,28 +255,28 @@ msgstr "Tidak ada"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Gangguan Penglihatan Ringan"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Gangguan Penglihatan Menengah"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Kebutaan"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Gangguan Motorik Ringan"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Gangguan Motorik - perangkat penunjuk"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +377,18 @@ msgstr "Uji ^memori"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Boot dari hard disk pertama"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Gangguan Penglihatan Ringan"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Gangguan Penglihatan Menengah"
+
+#~ msgid "Blindness"
+#~ msgstr "Kebutaan"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Gangguan Motorik Ringan"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Gangguan Motorik - perangkat penunjuk"

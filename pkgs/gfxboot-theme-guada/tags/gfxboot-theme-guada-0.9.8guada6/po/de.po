@@ -112,7 +112,6 @@ msgstr ""
 "Dies ist das Startmedium %u.\n"
 "Bitte legen Sie Startmedium %u ein."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -255,28 +254,28 @@ msgstr "Keine"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Geringe Sehbehinderung"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Stärkere Sehbehinderung"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Blindheit"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Geringe motorische Behinderung"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Motorische Behinderung - Zeigegeräte"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +376,18 @@ msgstr "RA^M-Speichertest durchführen"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Von der ersten ^Festplatte starten"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Geringe Sehbehinderung"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Stärkere Sehbehinderung"
+
+#~ msgid "Blindness"
+#~ msgstr "Blindheit"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Geringe motorische Behinderung"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Motorische Behinderung - Zeigegeräte"

@@ -258,29 +258,28 @@ msgstr "কোনটি নয়"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "স্বল্প দৃষ্টি প্রতিবন্ধকতা"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-#, fuzzy
-msgid "Moderate Visual Impairment"
-msgstr "মধ্যম দৃষ্টি প্রতিবন্ধকতা"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "অন্ধত্ব"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
+msgid "Keyboard Modifiers"
 msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "পয়েন্টিং ডিভাইসে মটর সমস্যা"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -381,3 +380,16 @@ msgstr "^মেমরী পরীক্ষা"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "প্রথম হার্ড ডিস্ক থেকে ^বুট করো"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "স্বল্প দৃষ্টি প্রতিবন্ধকতা"
+
+#, fuzzy
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "মধ্যম দৃষ্টি প্রতিবন্ধকতা"
+
+#~ msgid "Blindness"
+#~ msgstr "অন্ধত্ব"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "পয়েন্টিং ডিভাইসে মটর সমস্যা"

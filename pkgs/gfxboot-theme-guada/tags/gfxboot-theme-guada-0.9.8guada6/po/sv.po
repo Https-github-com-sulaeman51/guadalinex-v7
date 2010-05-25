@@ -112,7 +112,6 @@ msgstr ""
 "Det här är uppstartsdisk %u.\n"
 "Mata in uppstartsdisk %u."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -255,28 +254,28 @@ msgstr "Ingen"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Mindre synförsämring"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Måttlig synförsämring"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Blindhet"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Mindre motoriska problem"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Motoriska problem - styrenheter"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +376,18 @@ msgstr "^Minneskontroll"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Starta upp från första hårddisken"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Mindre synförsämring"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Måttlig synförsämring"
+
+#~ msgid "Blindness"
+#~ msgstr "Blindhet"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Mindre motoriska problem"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Motoriska problem - styrenheter"

@@ -112,7 +112,6 @@ msgstr ""
 "Tämä on käynnistyslevy %u.\n"
 "Anna käynnistyslevy %u."
 
-#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
@@ -255,28 +254,28 @@ msgstr "Ei mikään"
 
 #. label for accessibility menu
 #. txt_access_v1
-msgid "Lesser Visual Impairment"
-msgstr "Lievä näön heikkous"
+msgid "High Contrast"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v2
-msgid "Moderate Visual Impairment"
-msgstr "Kohtalainen näön heikkous"
+msgid "Magnifier"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_v3
-msgid "Blindness"
-msgstr "Sokeus"
+msgid "Screen Reader"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m1
-msgid "Minor Motor Difficulties"
-msgstr "Lieviä motorisia vaikeuksia"
+msgid "Keyboard Modifiers"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m2
-msgid "Motor Difficulties - pointing devices"
-msgstr "Motoriset vaikeudet - osoitinlaitteet"
+msgid "On-Screen Keyboard"
+msgstr ""
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -377,3 +376,18 @@ msgstr "^Muistin tarkistus"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Käynnistä ensimmäiseltä kiintolevyltä"
+
+#~ msgid "Lesser Visual Impairment"
+#~ msgstr "Lievä näön heikkous"
+
+#~ msgid "Moderate Visual Impairment"
+#~ msgstr "Kohtalainen näön heikkous"
+
+#~ msgid "Blindness"
+#~ msgstr "Sokeus"
+
+#~ msgid "Minor Motor Difficulties"
+#~ msgstr "Lieviä motorisia vaikeuksia"
+
+#~ msgid "Motor Difficulties - pointing devices"
+#~ msgstr "Motoriset vaikeudet - osoitinlaitteet"
