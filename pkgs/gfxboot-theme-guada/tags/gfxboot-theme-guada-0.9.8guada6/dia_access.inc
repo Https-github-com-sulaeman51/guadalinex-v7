@@ -13,10 +13,18 @@
 /.access.v3 3 def
 /.access.m1 4 def
 
-/access.optionnames [
+/access.alloptionnames [
   .undef
   "v1" "v2" "v3"
   "m1"
+] def
+
+/access.optionnames [ access.alloptionnames { } forall ] def
+
+/access.alltexts [
+  /txt_access_none
+  /txt_access_v1 /txt_access_v2 /txt_access_v3
+  /txt_access_m1
 ] def
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -31,9 +39,15 @@
   xmenu .xm_current .access.none put
 
   xmenu .xm_list [
-    /txt_access_none
-    /txt_access_v1 /txt_access_v2 /txt_access_v3
-    /txt_access_m1
+    access.optionnames {
+      0 1 access.alloptionnames length 1 sub {
+        over access.alloptionnames 2 index get eq {
+          access.alltexts exch get exch pop exit
+        } {
+          pop
+        } ifelse
+      } for
+    } forall
   ] put
 
   xmenu .xm_title /txt_access put

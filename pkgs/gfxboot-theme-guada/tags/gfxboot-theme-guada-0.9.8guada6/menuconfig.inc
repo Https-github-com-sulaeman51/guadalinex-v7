@@ -224,6 +224,17 @@
         /panel.normal exch def
       } { pop } ifelse
     } if
+    dup "gfxboot-access-options" eq {
+      /access.optionnames [
+        .undef
+        4 index
+        {
+          menuconfig.skipspace dup 0 get 0 eq { exit } if
+          menuconfig.word exch
+        } loop
+        pop
+      ] def
+    } if
     dup "label" eq {
       over menuconfig.skipspace strdup /menuconfig.curlabel exch def
     } if
