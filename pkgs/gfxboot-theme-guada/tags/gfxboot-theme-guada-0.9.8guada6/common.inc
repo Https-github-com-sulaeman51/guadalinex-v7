@@ -1016,10 +1016,10 @@
 
   small_layout {
     /head.x 70 def
-    /head.y 173 def
+    /head.y 141 def
   } {
     /head.x 234 def
-    /head.y 217 def
+    /head.y 185 def
   } ifelse
 
   timeout.init
@@ -1058,10 +1058,10 @@
   /menu.bar.color      black       def
 
   small_layout {
-    /frame1.pos  { 190 240 } def
+    /frame1.pos  { 190 208 } def
     /frame1.size { 365 160 } def
   } {
-    /frame1.pos  { 265 320 } def
+    /frame1.pos  { 265 288 } def
     /frame1.size { 365 170 } def
   } ifelse
 
@@ -1072,7 +1072,7 @@
   /menu.start.y frame1.pos exch pop 12 add def
 
   /menu.bar.width frame1.size pop 20 sub def
-  /menu.max.entries 6 def
+  /menu.max.entries 8 def
   /menu.scrollbar false def
 
   /boot.label.len 243 def
