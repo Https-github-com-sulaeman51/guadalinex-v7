@@ -1,6 +1,8 @@
 gfxboot-theme-ubuntu (0.5.2) UNRELEASED; urgency=low
 
   * Ask for language before displaying the main menu (LP: #39888).
+  * Filter out translations for various languages (Arabic, Dzongkha, Indic,
+    Mongolian, Thai) that we cannot render properly for various reasons.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sun, 03 Feb 2008 18:09:54 +0000
 

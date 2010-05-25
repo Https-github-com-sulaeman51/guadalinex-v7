@@ -21,13 +21,16 @@ my %langcode_override = (
 my @langname_notranslate = (
     'Arabic',
     'Bengali',
+    'Dzongkha',
     'Gujarati',
     'Hindi',
     'Khmer',
     'Malayalam',
+    'Mongolian',
     'Nepali',
     'Punjabi (Gurmukhi)',
     'Tamil',
+    'Thai',
 );
 my %langname_notranslate = map { $_ => 1 } @langname_notranslate;
 

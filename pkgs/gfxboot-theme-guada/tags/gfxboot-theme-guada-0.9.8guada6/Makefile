@@ -13,7 +13,9 @@ MKBOOTMSG    = $(BINDIR)mkbootmsg
 KEYMAPCHARS  = $(PRIVBINDIR)keymapchars
 BFLAGS       = -O -v -L ../..
 INCLUDES     = $(wildcard *.inc)
-TRANSLATIONS = $(addsuffix .tr,en $(notdir $(basename $(wildcard po/*.po))))
+# Filter out Arabic, Indic languages, and Thai, which we cannot render, and
+# Dzongkha and Mongolian, which ought to be rendered vertically.
+TRANSLATIONS = $(addsuffix .tr,en $(filter-out ar bn dz gu hi km ml mn ne pa ta th, $(notdir $(basename $(wildcard po/*.po)))))
 
 DEFAULT_LANG =
 
