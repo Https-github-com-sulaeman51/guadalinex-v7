@@ -85,7 +85,7 @@ case "$1" in
 			cmd="ubiquity noninteractive"
 		else
 			# check if there was any frontend specified
-			frontend=$(cat /proc/cmdline | awk '{for (i=1;i<=NF;i++)  if ( $i ~ "ubiquity-ui" ) print $i}' | awk -F = '{print $2}')
+			frontend=$(awk '{for (i=1;i<=NF;i++)  if ( $i ~ "ubiquity-ui" ) split($i,array,"="); print array[2]}' /proc/cmdline)
 			# Run in the foreground.
 			cmd="ubiquity-dm vt7 :0 /usr/bin/ubiquity $debug $automatic --only $frontend"
 			if ${cmd}; then
