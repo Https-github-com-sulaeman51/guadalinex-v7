@@ -1,3 +1,12 @@
+gfxboot-theme-ubuntu (0.3.3) UNRELEASED; urgency=low
+
+  * Update language names from localechooser 1.37ubuntu1, adding Gujarati
+    and Malayalam, removing Icelandic, Irish, Kazakh, Malagasy, Persian,
+    Welsh, and Xhosa, and updating localised names for Belarusian and
+    Finnish (LP: #93233).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 23 Mar 2007 18:30:43 +0000
+
 gfxboot-theme-ubuntu (0.3.2) feisty; urgency=low
 
   * Add localisation for "Install with driver ^update CD"
