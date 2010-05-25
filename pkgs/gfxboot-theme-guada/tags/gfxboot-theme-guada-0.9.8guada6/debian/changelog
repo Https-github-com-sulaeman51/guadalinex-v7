@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.1.5) UNRELEASED; urgency=low
+
+  * debian/rules: Stop trying to install *.dat.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 21 Dec 2005 13:14:47 +0000
+
 gfxboot-theme-ubuntu (0.1.4) dapper; urgency=low
 
   * Remove kroete.dat idle animation, which doesn't fit with the Ubuntu
