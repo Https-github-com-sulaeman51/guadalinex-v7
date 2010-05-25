@@ -10,6 +10,9 @@
 #export DH_VERBOSE=1
 
 
+PKGNAME=$(shell grep "^Package: " debian/control | head -1 | cut -f 2 -d\ )
+PKG=$(shell pwd)/debian/$(PKGNAME)
+LOCALEDIR=$(PKG)/usr/share/locale
 
 
 configure: configure-stamp
@@ -57,7 +60,11 @@ install: build
 
 # Build architecture-independent files here.
 binary-indep: build install
-# We have nothing to do by default.
+	mkdir -p $(LOCALEDIR)
+	cd po; \
+		find -type d -exec mkdir -p "$(LOCALEDIR)/{}" \; ; \
+		find -type f -name "*.po" -exec sh -c "N='{}'; msgfmt -o $(LOCALEDIR)/\$${N%.po}.mo \$$N" \;
+
 
 # Build architecture-dependent files here.
 binary-arch: build install
