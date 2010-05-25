@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<interface>
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy toplevel-contextual -->
+  <object class="GtkVBox" id="stepGuadaWelcome">
+    <property name="visible">True</property>
+    <property name="border_width">6</property>
+    <child>
+      <object class="GtkHBox" id="hbox1">
+        <property name="visible">True</property>
+        <child>
+          <object class="GtkImage" id="welcome_image">
+            <property name="visible">True</property>
+            <property name="stock">gtk-missing-image</property>
+          </object>
+          <packing>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="visible">True</property>
+            <property name="xpad">10</property>
+            <property name="ypad">10</property>
+            <property name="label" translatable="yes">&lt;b&gt;&lt;big&gt;Bienvenido al instalador Live de Guadalinex&lt;/big&gt;&lt;/b&gt;
+
+Este disco contiene un &lt;b&gt;sistema operativo&lt;/b&gt; y una selecci&#xF3;n de &lt;b&gt;aplicaciones&lt;/b&gt; de uso com&#xFA;n. Puede utilizarse como demostraci&#xF3;n o instalarse y usarse normalmente sin ning&#xFA;n tipo de l&#xED;mites.
+
+Adem&#xE1;s:
+
+El proceso de instalaci&#xF3;n no elimina ni modifica otros sistemas operativos que pudieran existir en el mismo disco duro.
+
+Se incluye OpenOffice.org que puede leer y grabar los formatos de documento m&#xE1;s populares. Recomendamos utilizar el est&#xE1;ndar OpenDocument, reconocido internacionalmente.
+
+&lt;b&gt;Guadalinex&lt;/b&gt; no contiene virus y es inmune a las infecciones t&#xED;picas que circulan por Internet.
+
+Todas las aplicaciones incluidas tienen una &lt;b&gt;licencia libre&lt;/b&gt; que permite su uso, copia, estudio y modificaci&#xF3;n sin coste alguno.</property>
+            <property name="use_markup">True</property>
+            <property name="justify">fill</property>
+            <property name="wrap">True</property>
+          </object>
+          <packing>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+      <packing>
+        <property name="position">0</property>
+      </packing>
+    </child>
+  </object>
+</interface>
