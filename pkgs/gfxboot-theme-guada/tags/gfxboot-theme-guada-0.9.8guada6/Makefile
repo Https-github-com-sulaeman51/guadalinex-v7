@@ -71,8 +71,6 @@ endif
 	@cd install && echo $(FILES_CORE) | sed -e "s/ /\n/g" | cpio --quiet -o >bootlogo
 	@tar -C install -czf install/bootlogo.tar.gz bootlogo $(INST_EXT)
 
-# TODO cjwatson 2007-08-07: this doesn't quite work as it stands at the
-# moment; you need to build the BDF version of unifont and use that.
 font:
 	@if [ -z "$(DI_PATH)" ]; then echo "Please set DI_PATH to an unpacked debian-installer source tree" >&2; exit 1; fi
 	cat po/*.po >tmp.txt
