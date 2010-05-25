@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.9.5) UNRELEASED; urgency=low
+
+  * Stop building for lpia, which has been discontinued.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 03 Mar 2010 13:30:49 +0000
+
 gfxboot-theme-ubuntu (0.9.4) lucid; urgency=low
 
   * Before displaying the splash screen, initialise the menu far enough so

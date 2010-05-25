@@ -7,7 +7,7 @@ Standards-Version: 3.6.2
 Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/gfxboot-theme-ubuntu/mainline
 
 Package: gfxboot-theme-ubuntu
-Architecture: amd64 i386 lpia
+Architecture: amd64 i386
 Depends: ${misc:Depends}, gfxboot (>= 3.3.28)
 Description: Ubuntu theme for gfxboot-compliant boot loaders
  This is an Ubuntu theme for the gfxboot graphical boot loader extension. It
