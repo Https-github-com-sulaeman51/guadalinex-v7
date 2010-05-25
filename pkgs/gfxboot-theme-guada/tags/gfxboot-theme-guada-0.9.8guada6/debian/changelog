@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.6.8) UNRELEASED; urgency=low
+
+  * Add localisation for "^Install Ubuntu Server" (LP: #277036).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 14 Oct 2008 22:13:52 +0100
+
 gfxboot-theme-ubuntu (0.6.7) intrepid; urgency=low
 
   * Add localisation for "Install a minimal virtual machine".

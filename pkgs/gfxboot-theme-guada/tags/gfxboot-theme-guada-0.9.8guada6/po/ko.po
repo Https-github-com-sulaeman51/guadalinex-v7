@@ -295,6 +295,11 @@ msgstr "에듀분투 설치하기 (^I)"
 msgid "^Install Xubuntu"
 msgstr "주분투 설치하기 (^I)"
 
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_server
+msgid "^Install Ubuntu Server"
+msgstr ""
+
 #. Installation mode.
 #. txt_menuitem_workstation
 msgid "Install a workstation"
