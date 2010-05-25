@@ -95,7 +95,7 @@
     /access.option .undef def
   } {
     dup "brltty" eq {
-      pop /access.option "brltty=ask" def
+      pop /access.option "braille=ask" def
     } {
       dup length 7 add string /access.option exch def
       "access=%s" access.option sprintf
