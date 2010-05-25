@@ -223,32 +223,38 @@ msgstr "Totes"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Try Ubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu without installing"
 msgstr "^Proveu l'Ubuntu sense fer cap canvi al vostre ordinador"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Try Kubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Kubuntu without installing"
 msgstr "^Proveu el Kubuntu sense fer cap canvi al vostre ordinador"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Try Edubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Edubuntu without installing"
 msgstr "^Proveu l'Edubuntu sense fer cap canvi al vostre ordinador"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Try Xubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Xubuntu without installing"
 msgstr "^Proveu el Xubuntu sense fer cap canvi al vostre ordinador"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-msgid "^Try Ubuntu MID without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu MID without installing"
 msgstr "^Proveu l'Ubuntu MID sense fer cap canvi al vostre ordinador"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "^Proveu l'Ubuntu Netbook Remix sense fer cap canvi al vostre ordinador"
 
 #. Installation mode.
@@ -408,5 +414,6 @@ msgstr "^Instal·la el Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-msgid "^Try Mythbuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Mythbuntu without installing"
 msgstr "^Proveu el Mythbuntu sense fer cap canvi al vostre ordinador"

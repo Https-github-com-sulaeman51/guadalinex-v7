@@ -3,6 +3,9 @@ gfxboot-theme-ubuntu (0.9.0) UNRELEASED; urgency=low
   * Remove "Press F4 to select alternative start-up and installation modes."
     message; it confuses beginners and doesn't help advanced users all that
     much.
+  * Change "^Try Ubuntu without any change to your computer" (etc.) messages
+    to "^Try Ubuntu without installing" (etc.), by request of the design
+    team.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 26 Nov 2009 17:02:11 +0000
 

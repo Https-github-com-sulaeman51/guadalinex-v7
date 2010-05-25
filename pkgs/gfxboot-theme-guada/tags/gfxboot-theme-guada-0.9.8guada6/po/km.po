@@ -213,32 +213,38 @@ msgstr "គ្រប់សព្វ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Try Ubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu without installing"
 msgstr "^ព្យាយាម Ubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Try Kubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Kubuntu without installing"
 msgstr "^ព្យាយាម Kubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Try Edubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Edubuntu without installing"
 msgstr "^ព្យាយាម Eubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Try Xubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Xubuntu without installing"
 msgstr "^ព្យាយាម Xubuntu គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-msgid "^Try Ubuntu MID without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu MID without installing"
 msgstr "^ព្យាយាម Ubuntu MID គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "^ព្យាយាម ខំព្យូរើណែត Ubuntu Remix គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"
 
 #. Installation mode.
@@ -398,5 +404,6 @@ msgstr "^តំលើង Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-msgid "^Try Mythbuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Mythbuntu without installing"
 msgstr "^ព្យាយាម Mythbuntu  គ្មានបំលាស់ប្តូរ ទៅខំព្យូរើ របស់អ្នក"

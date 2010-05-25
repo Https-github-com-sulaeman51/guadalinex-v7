@@ -220,32 +220,38 @@ msgstr "所有東西"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Try Ubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu without installing"
 msgstr "試用 Ubuntu 而不變更電腦中的任何內容 (^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Try Kubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Kubuntu without installing"
 msgstr "試用 Kubuntu 而不變更電腦中的任何內容 (^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Try Edubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Edubuntu without installing"
 msgstr "試用 Edubuntu 而不變更電腦中的任何內容 (^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Try Xubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Xubuntu without installing"
 msgstr "試用 Xubuntu 而不變更電腦中的任何內容 (^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-msgid "^Try Ubuntu MID without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu MID without installing"
 msgstr "試用 Ubuntu MID 而不變更電腦中的任何內容 (^T)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "試用 Ubuntu Netbook Remix 而不變更電腦中的任何內容 (^T)"
 
 #. Installation mode.
@@ -405,5 +411,6 @@ msgstr "安裝 Mythbuntu (^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-msgid "^Try Mythbuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Mythbuntu without installing"
 msgstr "試用 Mythbuntu 而不變更電腦中的任何內容 (^T)"

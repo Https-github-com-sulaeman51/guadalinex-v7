@@ -224,32 +224,38 @@ msgstr "সবকিছু"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-msgid "^Try Ubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu without installing"
 msgstr "^আপনার কম্পিঊটারের কোন পরিবর্তন ছাড়া উবুন্টু ব্যবহার করুন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-msgid "^Try Kubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Kubuntu without installing"
 msgstr "^আপনার কম্পিঊটারের কোন পরিবর্তন ছাড়া কুবুন্টু ব্যবহার করুন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-msgid "^Try Edubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Edubuntu without installing"
 msgstr "^আপনার কম্পিঊটারের কোন পরিবর্তন ছাড়া এডুবুন্টু ব্যবহার করুন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-msgid "^Try Xubuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Xubuntu without installing"
 msgstr "^আপনার কম্পিঊটারের কোন পরিবর্তন ছাড়া এক্সুবুন্টু ব্যবহার করুন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
-msgid "^Try Ubuntu MID without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu MID without installing"
 msgstr "^আপনার কম্পিঊটারের কোন পরিবর্তন ছাড়া উবুন্টু মিড ব্যবহার করুন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
-msgid "^Try Ubuntu Netbook Remix without any change to your computer"
+#, fuzzy
+msgid "^Try Ubuntu Netbook Remix without installing"
 msgstr "^আপনার কম্পিঊটারের কোন পরিবর্তন ছাড়া উবুন্টু নেটবুক রিমিক্স ব্যবহার করুন"
 
 #. Installation mode.
@@ -409,5 +415,6 @@ msgstr "^মিথউবুন্টু ইন্সটল করুন"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
-msgid "^Try Mythbuntu without any change to your computer"
+#, fuzzy
+msgid "^Try Mythbuntu without installing"
 msgstr "^আপনার কম্পিউটারের কোন পরিবর্তন ছাড়া মিথউবুন্টু ব্যবহার করুন"
