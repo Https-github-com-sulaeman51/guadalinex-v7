@@ -160,11 +160,6 @@ msgstr "키 맵"
 msgid "Modes"
 msgstr "모드"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "시작과 설치 모드를 번갈아 바꾸려면 F4 키를 눌러주십시오."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

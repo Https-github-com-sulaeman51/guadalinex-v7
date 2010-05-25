@@ -160,11 +160,6 @@ msgstr "Klavarfasono"
 msgid "Modes"
 msgstr "Reĝimoj"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Premi F4 por elekti alternativajn reĝimojn de startigo kaj instalado."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

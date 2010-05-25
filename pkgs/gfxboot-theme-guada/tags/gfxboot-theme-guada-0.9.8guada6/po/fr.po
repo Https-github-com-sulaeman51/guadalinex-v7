@@ -164,12 +164,6 @@ msgstr "Agencement du clavier"
 msgid "Modes"
 msgstr "Modes"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr ""
-"Appuyez sur F4 pour choisir d'autres modes de démarrage et d'installation."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

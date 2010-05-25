@@ -161,11 +161,6 @@ msgstr "Mapa de teclat"
 msgid "Modes"
 msgstr "Modes"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Premeu F4 per seleccionar modes alternatius d'inici i instal·lació"
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

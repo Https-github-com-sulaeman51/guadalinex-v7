@@ -151,11 +151,6 @@ msgstr "ផែនទី​គ្រាប់​ចុច"
 msgid "Modes"
 msgstr "បែប"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "ចុច F4 ដើម្បីជ្រើសយកឆ្លាស់ បែបតំលើង និង ផ្តើម។"
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

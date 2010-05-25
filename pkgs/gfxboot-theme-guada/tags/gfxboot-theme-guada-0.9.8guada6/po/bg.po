@@ -163,12 +163,6 @@ msgstr "Клавишен код"
 msgid "Modes"
 msgstr "Режими"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr ""
-"Натиснете F4, за да изберете алтернативни режими за стартиране и инсталиране."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

@@ -162,11 +162,6 @@ msgstr "কী-ম্যাপ"
 msgid "Modes"
 msgstr "পদ্ধতি"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "বিকল্প চালু এবং ইন্সটল পদ্ধতির জন্য F4 চাপুন।"
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"

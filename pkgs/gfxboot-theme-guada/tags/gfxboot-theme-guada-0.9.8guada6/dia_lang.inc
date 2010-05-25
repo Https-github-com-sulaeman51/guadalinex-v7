@@ -186,13 +186,7 @@
 % ( ) => ( )
 %
 /lang.cleanup {
-  lang.displayed not {
-    boot.show not {
-      boot.pos moveto boot.label.len neg 0 rmoveto
-      txt_modes_help show
-    } if
-    /lang.displayed true def
-  } if
+  /lang.displayed true def
 } def
 
 

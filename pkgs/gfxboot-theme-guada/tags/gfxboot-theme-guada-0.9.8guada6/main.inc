@@ -73,12 +73,7 @@
     boot.ed.width 1 fillrect
     settransparency
     boot.ed edit.redraw
-  } {
-    lang.displayed {
-      boot.label.len neg 0 rmoveto
-      txt_modes_help show
-    } if
-  } ifelse
+  } if
 } def
 
 

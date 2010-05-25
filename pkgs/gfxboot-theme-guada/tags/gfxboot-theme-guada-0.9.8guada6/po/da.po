@@ -163,11 +163,6 @@ msgstr "Tastaturlayout"
 msgid "Modes"
 msgstr "Tilstande"
 
-#. Shown on main menu to point out that more boot options are on F4.
-#. txt_modes_help
-msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Tryk F4 for at vælge alternative opstarts- og installationstilstande."
-
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"
