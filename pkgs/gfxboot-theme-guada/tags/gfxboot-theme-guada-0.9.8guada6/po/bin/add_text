@@ -16,6 +16,7 @@ $id =~ s/^txt_//;
 
 $_ = join '', @texts;
 
+push @l, "\n";
 push @l, "# $comment\n" if $comment;
 push @l, "#. txt_$id\n";
 push @l, "#, c-format\n" if /%/;
@@ -29,7 +30,6 @@ else {
 }
 
 push @l, "msgstr \"\"\n";
-push @l, "\n";
 
 print @l;
 
