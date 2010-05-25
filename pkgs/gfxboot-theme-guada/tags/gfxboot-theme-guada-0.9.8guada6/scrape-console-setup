@@ -124,6 +124,7 @@ my %description_overrides = (
     'latam' => 'Latin Amer.',
     'no_smi' => 'Saami (Nor.)',
     'se_smi' => 'Saami (Swe.)',
+    'tr_f' => 'Turkey (F)',
     'tr_ku' => 'Kurdish',
     'us_dvorak' => 'Dvorak',
     'us_intl' => 'USA Intl.',
