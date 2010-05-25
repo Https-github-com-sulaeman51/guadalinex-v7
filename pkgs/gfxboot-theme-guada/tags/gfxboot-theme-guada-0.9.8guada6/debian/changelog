@@ -3,7 +3,7 @@ gfxboot-theme-ubuntu (0.5.11) UNRELEASED; urgency=low
   * Backport 'split' memory corruption fix from SuSE.
   * Fix menuconfig.init memory corruption; strstr does not work on file
     contents unless they are guaranteed to be zero-terminated by some
-    out-of-band means (such as help texts).
+    out-of-band means as is done for help texts (LP: #204270).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 20 Mar 2008 22:12:01 +0000
 
