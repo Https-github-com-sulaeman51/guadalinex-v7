@@ -1,9 +1,24 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-#David Amian y Alvaro Pinel
-#amianlinux@gmail.com
-#alvaro.pinel@gmail.com
+# Copyright (c) 2009, Junta de Andalucía <packmaster@guadalinex.org>
+#
+# This package is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This package is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this package; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+#
+# Authors : David Amian <amialinux@gmail.com>
+#           Alvaro Pinel <alvaro.pinel@gmail.com>
 
 import urllib
 import nautilus
@@ -28,7 +43,7 @@ FONT_PATH="/usr/share/fonts/truetype/"
 class FONTDialog:	
 
     def main(self):
-        thread = MiThread()
+        thread = FontCacheThread()
         thread.start()
         while thread.isAlive():
             time.sleep(0.09)
@@ -58,7 +73,7 @@ class FONTDialog:
         
         self.window.set_title(NAME_APP)
         self.window.set_focus_child(self.glade.get_widget("buttonOk"))
-        #self.window.set_icon_from_file(PATH_ICON+"fontinstall-ico.png")
+        self.window.set_icon_from_file(PATH_ICON+"fontinstall-ico.png")
         self.window.show_all()
         self.button.hide()
        
@@ -69,7 +84,7 @@ class FONTDialog:
     def on_buttonOk_clicked(self, widget):
         self.window.destroy()
 
-class MiThread(Thread):
+class FontCacheThread(Thread):
     def __init__(self):
         Thread.__init__(self)
 
@@ -78,12 +93,6 @@ class MiThread(Thread):
 
 
 
-#class MiThread(Thread):
-#    def __init__(self):
-#        Thread.__init__(self)
-
-#    def run(self):
-#        os.system("fc-cache -vf")
 
 class FONTExtension(nautilus.MenuProvider):
     def __init__(self):
@@ -124,24 +133,3 @@ class FONTExtension(nautilus.MenuProvider):
         os.system ("gksudo -u root -k -m " + "\""+ _("Enter your user password") + "\"" + " /bin/echo " + "\"" + _("Do you have root access?") + "\"")
         os.system("sudo cp -r '" + filefont + "' '" + FONT_PATH + "'")
         fontinst = FONTDialog(filefont)
-        fontinst.main()
-        #thread = MiThread()
-        #thread.start()
-        #while thread.isAlive():
-        #    time.sleep(0.09)
-        #    while gtk.events_pending():
-        #        gtk.main_iteration()
-                
-        #self.glade = gtk.glade.XML(PATH+"fontinstall.glade")
-        #self.glade.signal_autoconnect(self)
-        #self.window = self.glade.get_widget("window1")
-        #self.button = self.glade.get_widget("buttonOk")
-        #self.window.set_title(NAME_APP)
-        #self.window.set_focus_child(self.glade.get_widget("buttonOk"))
-        #self.lbFinish = self.glade.get_widget("lbFinish")
-        #self.lbFinish.set_text(_("The font has been installed"))
-        #self.window.show_all()
-
-    
-
-
