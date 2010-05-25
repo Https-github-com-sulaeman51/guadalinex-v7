@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.1.10) UNRELEASED; urgency=low
+
+  * Add /syslinux.cfg to the list of files we parse for menu item names.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 31 Jan 2006 12:42:19 +0000
+
 gfxboot-theme-ubuntu (0.1.9) dapper; urgency=low
 
   * Fix comment syntax in keytables.inc.

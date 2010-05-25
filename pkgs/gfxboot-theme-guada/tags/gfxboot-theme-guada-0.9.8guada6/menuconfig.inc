@@ -8,8 +8,12 @@
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 /menuconfig.find {
-  % TODO: isolinux-specific
-  [ "/isolinux.cfg" "/isolinux/isolinux.cfg" "/boot/isolinux/isolinux.cfg" ] {
+  [
+    "/syslinux.cfg"
+    "/isolinux.cfg"
+    "/isolinux/isolinux.cfg"
+    "/boot/isolinux/isolinux.cfg"
+  ] {
     dup filesize .undef ne { findfile return } if
     pop
   } forall
