@@ -1,2 +1,2 @@
 version=3
-http://launchpad.net/nautilus-md5sum/+download http://launchpad.net/nautilus-md5sum/lucid/.*/nautilus-md5sum-(.*)\.tar\.gz
+http://launchpad.net/nautilus-md5sum/+download http://launchpad.net/nautilus-md5sum/(.*)/nautilus-md5sum-(.*)\.tar\.gz
