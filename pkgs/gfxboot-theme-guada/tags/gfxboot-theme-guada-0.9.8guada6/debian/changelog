@@ -3,6 +3,8 @@ gfxboot-theme-ubuntu (0.1.4) UNRELEASED; urgency=low
   * Remove kroete.dat idle animation, which doesn't fit with the Ubuntu
     theme.
   * Show colour bit depth of each mode in VGA menu.
+  * Include video modes with at least 16-bit colour, not just exactly 16-bit
+    colour.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 19 Dec 2005 16:39:32 +0000
 
