@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.1.6) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.1.6) dapper; urgency=low
 
   * Remove timeout clock graphics, which seem to break on some machines and
     were scary-looking anyway (closes: Ubuntu #21210).
@@ -6,7 +6,7 @@ gfxboot-theme-ubuntu (0.1.6) UNRELEASED; urgency=low
   * Consider bit depth while sorting video modes.
   * Remove duplicates from video mode list (closes: Ubuntu #21578).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Wed, 11 Jan 2006 11:47:56 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Wed, 11 Jan 2006 12:32:46 +0000
 
 gfxboot-theme-ubuntu (0.1.5) dapper; urgency=low
 
