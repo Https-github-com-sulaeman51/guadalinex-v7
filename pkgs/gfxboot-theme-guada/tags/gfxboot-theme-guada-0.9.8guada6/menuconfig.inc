@@ -7,15 +7,36 @@
 %
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+% ( str2 str1 -- str )
+/menuconfig.append {
+  over length over length add string /menuconfig.append.tmp exch def
+  "%s%s" menuconfig.append.tmp sprintf
+  menuconfig.append.tmp
+} def
+
+% Read a configuration file. If file_name is .undef, look in some standard
+% places.
+% ( file_name -- file_contents )
 /menuconfig.find {
-  [
-    "/syslinux.cfg"
-    "/syslinux/syslinux.cfg"
-    "/isolinux.cfg"
-    "/isolinux/isolinux.cfg"
-    "/boot/isolinux/isolinux.cfg"
-  ] {
-    dup filesize .undef ne { findfile return } if
+  /menuconfig.find.tmp exch def
+  menuconfig.find.tmp {
+    [
+      menuconfig.find.tmp "/" menuconfig.append
+      menuconfig.find.tmp "/syslinux/" menuconfig.append
+      menuconfig.find.tmp "/isolinux/" menuconfig.append
+      menuconfig.find.tmp "/boot/isolinux/" menuconfig.append
+    ]
+  } {
+    [
+      "/syslinux.cfg"
+      "/syslinux/syslinux.cfg"
+      "/isolinux.cfg"
+      "/isolinux/isolinux.cfg"
+      "/boot/isolinux/isolinux.cfg"
+    ]
+  } ifelse
+  {
+    dup filesize .undef ne { findfile cvs return } if
     pop
   } forall
   .undef
@@ -81,6 +102,48 @@
   } forall
 } def
 
+% ( file_name -- )
+/menuconfig.parse {
+  % load configuration file; return if not found
+  menuconfig.find dup .undef eq { pop return } if
+
+  dup {
+    % skip over any NULs we've left behind; exit if there's really no more
+    % memory left to go
+    {
+      dup cvp length 0 eq { exit } if
+      dup 0 get 0 ne { exit } if
+      1 add
+    } loop
+    dup cvp length 0 eq { exit } if
+
+    % break lines at \r or \n
+    0 1 2 index length 1 sub {
+      over over get
+      dup '\x0d' eq exch '\n' eq or { over exch 0 put exit } { pop } ifelse
+    } for
+
+    skipspace getword tolower
+    dup "include" eq {
+      over skipspace getword dup menuconfig.parse
+    } if
+    dup "label" eq {
+      over skipspace strdup /menuconfig.curlabel exch def
+    } if
+    dup "menu" eq {
+      over skipspace getword tolower
+      dup "label" eq { over skipspace strdup menuconfig.sethuman } if
+      dup "hide" eq { menuconfig.hidelabel } if
+      free rot pop exch
+    } if
+    free
+
+    % skip to end of line
+    dup length add
+  } loop pop
+  free
+} def
+
 % ( menu_entries_array menu_args_array -- menu_humans_array menu_entries_array menu_args_array )
 % The returned menu_args_array (kernel parameters), menu_entries_array
 % (identifiers), and menu_humans_array (human-readable names) will have any
@@ -108,46 +171,9 @@
     menuconfig.humans menuconfig.entries menuconfig.args return
   } if
 
-  % load configuration file; return if not found
-  menuconfig.find dup .undef eq {
-    menuconfig.humans menuconfig.entries menuconfig.args return
-  } if
-  /menuconfig.file exch cvs def
-
   /menuconfig.curlabel .undef def
 
-  menuconfig.file {
-    % skip over any NULs we've left behind; exit if there's really no more
-    % memory left to go
-    {
-      dup cvp length 0 eq { exit } if
-      dup 0 get 0 ne { exit } if
-      1 add
-    } loop
-    dup cvp length 0 eq { exit } if
-
-    % break lines at \r or \n
-    0 1 2 index length 1 sub {
-      over over get
-      dup '\x0d' eq exch '\n' eq or { over exch 0 put exit } { pop } ifelse
-    } for
-
-    skipspace getword tolower
-    dup "label" eq {
-      over skipspace strdup /menuconfig.curlabel exch def
-    } if
-    dup "menu" eq {
-      over skipspace getword tolower
-      dup "label" eq { over skipspace strdup menuconfig.sethuman } if
-      dup "hide" eq { menuconfig.hidelabel } if
-      free rot pop exch
-    } if
-    free
-
-    % skip to end of line
-    dup length add
-  } loop pop
-  menuconfig.file free
+  .undef menuconfig.parse
 
   menuconfig.humans menuconfig.entries menuconfig.args
 } def
