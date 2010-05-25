@@ -1,8 +1,8 @@
-gfxboot-theme-ubuntu (0.3.4) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.3.4) feisty; urgency=low
 
   * Rename brltty=ask to braille=ask (LP: #91894).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Tue, 27 Mar 2007 12:48:11 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 27 Mar 2007 12:49:11 +0100
 
 gfxboot-theme-ubuntu (0.3.3) feisty; urgency=low
 
