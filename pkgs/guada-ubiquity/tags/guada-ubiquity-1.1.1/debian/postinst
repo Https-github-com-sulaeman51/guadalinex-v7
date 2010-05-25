@@ -29,6 +29,3 @@ if [ "${DESKTOP_FILE}" != "$(dpkg-divert --truename ${DESKTOP_FILE})" ]; then
 fi
 dpkg-divert --package guada-ubiquity --rename --quiet --add ${DESKTOP_FILE}
 ln -fs /usr/share/guada-ubiquity/ubiquity-guadaui.desktop ${DESKTOP_FILE}
-
-
-echo "X_LOADTEMPLATEFILE /usr/share/guada-ubiquity/templates/ubiquity.templates" | debconf-communicate
