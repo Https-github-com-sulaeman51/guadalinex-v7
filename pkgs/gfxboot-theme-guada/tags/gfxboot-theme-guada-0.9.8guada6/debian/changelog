@@ -1,10 +1,10 @@
-gfxboot-theme-ubuntu (0.8.5) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.8.5) karmic; urgency=low
 
   * Sync with console-setup 1.34ubuntu4: add Asturian, Catalan, Senegal, and
     Turkmenistan layouts.
   * Remove doubled parentheses in description of "Turkey (F)" layout.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Thu, 01 Oct 2009 20:48:01 +0100
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 01 Oct 2009 23:10:41 +0100
 
 gfxboot-theme-ubuntu (0.8.4) karmic; urgency=low
 
