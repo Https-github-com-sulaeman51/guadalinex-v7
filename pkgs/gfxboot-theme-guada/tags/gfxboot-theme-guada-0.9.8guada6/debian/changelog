@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.2.5) UNRELEASED; urgency=low
+
+  * Update font from unifont 1:1.0-3ubuntu1, improving Georgian glyphs
+    (closes: Malone #62849).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sun,  1 Oct 2006 11:31:09 +0100
+
 gfxboot-theme-ubuntu (0.2.4) edgy; urgency=low
 
   * Rename "Install a server" to "Install a command-line system" (see Malone
