@@ -366,23 +366,23 @@
       } if
     } if
 
-    config.keymap .km.name get dup "us" ne {
+    config.lang "en" ne config.keymap .km.name get "us" ne or {
+      /keymap.op keymap.explicit { "=" } { "?=" } ifelse def
+      config.keymap .km.name get
       dup "_" strstr dup 0 eq {
         pop
-        "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
+        keymap.op "console-setup/layoutcode%s%s " bc.cmd dup length add sprintf
       } {
         over over 1 sub 0 put
-        over "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
-        add "console-setup/variantcode=%s " bc.cmd dup length add sprintf
+        over keymap.op "console-setup/layoutcode%s%s " bc.cmd dup length add sprintf
+        add keymap.op "console-setup/variantcode%s%s " bc.cmd dup length add sprintf
       } ifelse
       config.keymap .km.model get dup {
-        "console-setup/modelcode=%s " bc.cmd dup length add sprintf
+        keymap.op "console-setup/modelcode%s%s " bc.cmd dup length add sprintf
       } {
         pop
       } ifelse
-    } {
-      pop
-    } ifelse
+    } if
 
     modes.selected.append .undef ne {
       modes.selected.append "%s " bc.cmd dup length add sprintf
