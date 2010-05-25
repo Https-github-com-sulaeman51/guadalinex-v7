@@ -22,7 +22,7 @@ gfxboot-theme-ubuntu (0.1.0) dapper; urgency=low
     - Various visual rearrangements.
     - Use the installed version of getx11font rather than that in the
       grandparent directory.
-    - Always show the full panel rather than having multiple modes. 
+    - Always show the full panel rather than having multiple modes.
     - Remove bizarre "move down one boot menu option the first time a key is
       pressed" weirdness.
     - Use subtler boot menu selection colours in place of inverse-video.
@@ -33,4 +33,4 @@ gfxboot-theme-ubuntu (0.1.0) dapper; urgency=low
       and repack cpio archives.
     - Avoid mentioning the distribution name in "insert boot disk" messages.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Sat, 10 Dec 2005 10:48:12 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Mon, 12 Dec 2005 11:01:59 +0000
