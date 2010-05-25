@@ -347,11 +347,7 @@
 
     dup 0 ge {
       0x200 add "vga=0x%x " bc.cmd dup length add sprintf
-    } {
-      -1 eq {
-        "textmode=1 " bc.cmd dup length add sprintf
-      } if
-    } ifelse
+    } if
 
     config.lang {
       config.lang "en" ne {
