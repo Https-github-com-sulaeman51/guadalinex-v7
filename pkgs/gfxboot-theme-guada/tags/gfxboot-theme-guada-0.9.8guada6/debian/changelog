@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.6.10) UNRELEASED; urgency=low
+
+  * Update translations from Launchpad.
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 21 Oct 2008 10:23:38 +0100
+
 gfxboot-theme-ubuntu (0.6.9) intrepid; urgency=low
 
   * Rebuild font based on debian-installer 20080522ubuntu20.
