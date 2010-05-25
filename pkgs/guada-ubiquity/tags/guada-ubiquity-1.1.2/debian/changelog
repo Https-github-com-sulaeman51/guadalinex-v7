@@ -1,3 +1,9 @@
+guada-ubiquity (1.1.2) lucid; urgency=low
+
+  * debian/postinst: move diverting to preinst
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 25 May 2010 10:23:45 +0200
+
 guada-ubiquity (1.1.1) lucid; urgency=low
 
   * guada-ubiquity.install: updated
