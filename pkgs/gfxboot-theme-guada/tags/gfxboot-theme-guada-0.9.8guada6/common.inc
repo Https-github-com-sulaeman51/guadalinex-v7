@@ -1071,13 +1071,13 @@
   font.normal setfont
 
   /menu.text.normal    white             def
-  /menu.text.select    black             def
+  /menu.text.select    lightblue         def
   /boot.text.options   white             def
   /boot.text.normal    white             def
   /infobox.bg          lightgray         def
   /infobox.text.normal black             def
 
-  /menu.bar.color      white       def
+  /menu.bar.color      black       def
 
   small_layout {
     /frame1.pos  { 190 240 } def
