@@ -1,6 +1,8 @@
 gfxboot-theme-ubuntu (0.3.0) UNRELEASED; urgency=low
 
   * Add Swiss French keymap (closes: Malone #67355).
+  * Pass any country code found in ll_CC form in the "lang" file through to
+    Linux. Make sure to strip off the country internally when required.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sun, 29 Oct 2006 21:11:47 +0000
 

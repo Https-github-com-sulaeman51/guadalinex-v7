@@ -697,6 +697,11 @@ clip.size pop 800 eq {
       help.file free /help.file .undef def
       16 string dup config.lang "%s.hlp" 2 index sprintf
       findfile exch free
+      dup .undef eq {
+        pop 16 string
+        dup config.lang 1 get config.lang 0 get "%c%c.hlp" 3 index sprintf
+        findfile exch free
+      } if
       dup .undef eq { pop "en.hlp" findfile } if
       dup .undef eq { pop "" } if
       /help.file over def
