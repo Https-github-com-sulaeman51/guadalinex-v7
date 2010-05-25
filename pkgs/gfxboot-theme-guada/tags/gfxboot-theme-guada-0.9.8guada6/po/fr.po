@@ -12,13 +12,13 @@ msgstr ""
 "Project-Id-Version: po_bootloader-fr\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2008-10-20 07:09+0000\n"
+"PO-Revision-Date: 2009-03-22 13:55+0000\n"
 "Last-Translator: Bruno Patri <bruno.patri@gmail.com>\n"
 "Language-Team: French <kde-francophone@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-21 00:28+0000\n"
+"X-Launchpad-Export-Date: 2009-03-27 15:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -158,7 +158,7 @@ msgstr "Langue"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Clavier"
+msgstr "Agencement du clavier"
 
 #. label for installation mode selection
 #. txt_modes
@@ -259,10 +259,8 @@ msgstr "Mode graphique sans échec"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-#, fuzzy
-#| msgid "Use driver update CD"
 msgid "Use driver update disc"
-msgstr "Utiliser le CD de mise à jour des pilotes"
+msgstr "Utiliser le disque de mise à jour de pilote"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -307,7 +305,7 @@ msgstr "^Installer Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr ""
+msgstr "^Installer un serveur Ubuntu"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -356,10 +354,8 @@ msgstr "Installer une machine virtuelle minimale"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-#, fuzzy
-#| msgid "^Check CD for defects"
 msgid "^Check disc for defects"
-msgstr "^Vérifier le CD"
+msgstr "^Vérifier si le disque contient des erreurs"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -384,14 +380,14 @@ msgstr "Logiciels libres uniquement"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "^Réinstallation automatique Dell"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "^Installer Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "^Essayer Mythbuntu sans rien changer à votre ordinateur"

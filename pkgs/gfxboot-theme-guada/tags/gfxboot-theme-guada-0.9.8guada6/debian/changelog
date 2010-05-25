@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.7.3) UNRELEASED; urgency=low
+
+  * Update translations from Launchpad (LP: #349647).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri, 27 Mar 2009 15:53:50 +0000
+
 gfxboot-theme-ubuntu (0.7.2) jaunty; urgency=low
 
   * Add options from the F6 "Other Options" menu after the per-menu-entry

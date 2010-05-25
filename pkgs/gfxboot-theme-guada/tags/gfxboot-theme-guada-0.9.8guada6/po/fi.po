@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: bootloader.fi\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2008-10-18 15:35+0000\n"
-"Last-Translator: Elias Julkunen <elias.julkunen@gmail.com>\n"
+"PO-Revision-Date: 2009-02-03 19:37+0000\n"
+"Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
 "Language-Team: <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-21 00:28+0000\n"
+"X-Launchpad-Export-Date: 2009-03-27 15:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -253,10 +253,8 @@ msgstr "Turvallinen graafinen tila"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-#, fuzzy
-#| msgid "Use driver update CD"
 msgid "Use driver update disc"
-msgstr "Käytä ajuripäivitys-CD-levyä"
+msgstr "Käytä ajuripäivityslevyä"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -350,10 +348,8 @@ msgstr "Asenna minimaalinen virtuaalikone"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-#, fuzzy
-#| msgid "^Check CD for defects"
 msgid "^Check disc for defects"
-msgstr "Tarkista ^CD-levyn virheettömyys"
+msgstr "^Tarkista levyn virheettömyys"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -378,14 +374,14 @@ msgstr "Vain vapaita ohjelm."
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "^Dellin automaattinen uudelleenasennus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "^Asenna Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "^Kokeile Mythbuntua ilman muutoksia koneelle"

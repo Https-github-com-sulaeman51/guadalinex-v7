@@ -5,13 +5,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-10-18 22:27+0000\n"
+"PO-Revision-Date: 2009-02-09 09:07+0000\n"
 "Last-Translator: Daniel Nylander <yeager@ubuntu.com>\n"
 "Language-Team: Svenska <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-21 00:28+0000\n"
+"X-Launchpad-Export-Date: 2009-03-27 15:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-Language: Swedish\n"
@@ -253,10 +253,8 @@ msgstr "Felsäkert grafikläge"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-#, fuzzy
-#| msgid "Use driver update CD"
 msgid "Use driver update disc"
-msgstr "Använd skiva med drivrutinsuppdateringar"
+msgstr "Använd skiva för drivrutinsuppdatering"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -350,10 +348,8 @@ msgstr "Installera en minimal virtuell maskin"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-#, fuzzy
-#| msgid "^Check CD for defects"
 msgid "^Check disc for defects"
-msgstr "^Kontrollera cd-skiva efter fel"
+msgstr "^Kontrollera skivan efter fel"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -378,14 +374,14 @@ msgstr "Endast fri programvara"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "Automatisk ominstallation för ^Dell"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "^Installera Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "^Prova Mythbuntu utan att ändra något på din dator"

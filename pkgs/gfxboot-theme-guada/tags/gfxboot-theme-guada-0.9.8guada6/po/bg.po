@@ -11,14 +11,13 @@ msgstr ""
 "Project-Id-Version: bg\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-10-20 07:09+0000\n"
-"Last-Translator: Launchpad Translations Administrators <rosetta@launchpad."
-"net>\n"
+"PO-Revision-Date: 2009-02-15 17:22+0000\n"
+"Last-Translator: Krasimir Chonov <mk2616@abv.bg>\n"
 "Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-21 00:28+0000\n"
+"X-Launchpad-Export-Date: 2009-03-27 15:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -162,17 +161,18 @@ msgstr "Клавишен код"
 #. label for installation mode selection
 #. txt_modes
 msgid "Modes"
-msgstr ""
+msgstr "Режими"
 
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
 msgstr ""
+"Натиснете F4, за да изберете алтернативни режими за стартиране и инсталиране."
 
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"
-msgstr ""
+msgstr "Нормален"
 
 #. label for d-i mode menu
 #. txt_expert_mode
@@ -207,7 +207,7 @@ msgstr "Екранен четец"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Брайлов терминал"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -232,129 +232,127 @@ msgstr "Всичко"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr ""
+msgstr "^Пробвайте Ubuntu без да променяте нищо по вашия компютър"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr ""
+msgstr "^Пробвайте Kubuntu без да променяте нищо по вашия компютър"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr ""
+msgstr "^Пробвайте Edubuntu без да променяте нищо по вашия компютър"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr ""
+msgstr "^Пробвайте Xubuntu без да променяте нищо по вашия компютър"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
 msgid "Safe graphics mode"
-msgstr ""
+msgstr "Безопасен графичен режим"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
-msgstr ""
+msgstr "Използване на диск с драйвер"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
-msgstr ""
+msgstr "^Инсталиране на Ubuntu в текстов режим"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
 msgid "^Install Kubuntu in text mode"
-msgstr ""
+msgstr "^Инсталиране на Kubuntu в текстов режим"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_edubuntu
 msgid "^Install Edubuntu in text mode"
-msgstr ""
+msgstr "^Инсталиране на Edubuntu в текстов режим"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr ""
+msgstr "^Инсталиране на Xubuntu в текстов режим"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr ""
+msgstr "^Инсталиране на Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr ""
+msgstr "^Инсталиране на Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
 msgid "^Install Edubuntu"
-msgstr ""
+msgstr "^Инсталиране на Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_xubuntu
 msgid "^Install Xubuntu"
-msgstr ""
+msgstr "^Инсталиране на Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr ""
+msgstr "^Инсталиране на Ubuntu Server"
 
 #. Installation mode.
 #. txt_menuitem_workstation
 msgid "Install a workstation"
-msgstr ""
+msgstr "Инсталиране на работна станция"
 
 #. Installation mode.
 #. txt_menuitem_server
 msgid "Install a server"
-msgstr ""
+msgstr "Инсталиране на сървър"
 
 #. Installation mode.
 #. txt_menuitem_oem
 msgid "OEM install (for manufacturers)"
-msgstr ""
+msgstr "OEM инсталация (за производители)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
 msgid "Install a LAMP server"
-msgstr ""
+msgstr "Инсталиране на LAMP сървър"
 
 #. Installation mode.
 #. txt_menuitem_ltsp
 msgid "Install an LTSP server"
-msgstr ""
+msgstr "Инсталиране на LTSP сървър"
 
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
 msgid "Install a Diskless Image Server"
-msgstr ""
+msgstr "Инсталиране на сървър на компютър без твърд диск"
 
 #. Installation mode.
 #. txt_menuitem_cli
 msgid "Install a command-line system"
-msgstr ""
+msgstr "Инсталиране на система с команден ред"
 
 #. Installation mode.
 #. txt_menuitem_minimal
 msgid "Install a minimal system"
-msgstr ""
+msgstr "Инсталиране на минимална система"
 
 #. Installation mode.
 #. txt_menuitem_minimalvm
 msgid "Install a minimal virtual machine"
-msgstr ""
+msgstr "Инсталиране на минимална виртуална машина"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-#, fuzzy
-#| msgid "^Check CD for defects"
 msgid "^Check disc for defects"
-msgstr "^Проверка на компактдиска за дефекти"
+msgstr "^Проверка на диска за дефекти"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -364,7 +362,7 @@ msgstr "Спасяване на ^повредена система"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "Test ^memory"
-msgstr ""
+msgstr "Тестване на ^паметта"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
@@ -374,19 +372,19 @@ msgstr "^Зареждане от първия твърд диск"
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr ""
+msgstr "Само безплатен софтуер"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "^Автоматично преинсталиране на Dell"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "^Инсталиране на Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "^Инсталиране на Mythbuntu без да променяте нищо по вашия компютър"

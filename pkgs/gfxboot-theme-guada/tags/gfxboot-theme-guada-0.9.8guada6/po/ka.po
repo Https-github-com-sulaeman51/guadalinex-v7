@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: bootloader-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2008-10-20 07:08+0000\n"
+"PO-Revision-Date: 2008-10-24 15:01+0000\n"
 "Last-Translator: Vladimer Sichinava <vsichi@gnome.org>\n"
 "Language-Team: Georgian <geognome@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-21 00:28+0000\n"
+"X-Launchpad-Export-Date: 2009-03-27 15:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -254,10 +254,8 @@ msgstr "უსაფრთხო გრაფიკული რეჟიმი"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-#, fuzzy
-#| msgid "Use driver update CD"
 msgid "Use driver update disc"
-msgstr "დამატებითი დრაივერების დისკის გამოყენება"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -302,7 +300,7 @@ msgstr "^იქსუბუნტუს დაყენება"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr ""
+msgstr "^უბუნტუ სერვერის დაყენება"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -316,9 +314,8 @@ msgstr "სერვერის დაყენება"
 
 #. Installation mode.
 #. txt_menuitem_oem
-#, fuzzy
 msgid "OEM install (for manufacturers)"
-msgstr "ტექსტურ რეჟიმში დაყენება მწარმოებლებისთვის"
+msgstr "დაყენების OEM რეჟიმი (მწარმოებელთათვის)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
@@ -348,14 +345,12 @@ msgstr "მინიმალური სისტემის დაყენ�
 #. Installation mode.
 #. txt_menuitem_minimalvm
 msgid "Install a minimal virtual machine"
-msgstr ""
+msgstr "ვირტუალური სისტემის დაყენება"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-#, fuzzy
-#| msgid "^Check CD for defects"
 msgid "^Check disc for defects"
-msgstr "^დისკის დაზიანებაზე შემოწმება"
+msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue

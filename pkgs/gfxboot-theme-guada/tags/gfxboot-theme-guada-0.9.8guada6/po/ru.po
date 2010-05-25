@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-10-19 16:03+0000\n"
-"Last-Translator: Igor Zubarev <igor4u@gmail.com>\n"
+"PO-Revision-Date: 2009-02-06 03:20+0000\n"
+"Last-Translator: Артём Попов <artfwo@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-21 00:28+0000\n"
+"X-Launchpad-Export-Date: 2009-03-27 15:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -253,10 +253,8 @@ msgstr "Безопасный графический режим"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-#, fuzzy
-#| msgid "Use driver update CD"
 msgid "Use driver update disc"
-msgstr "Использовать диск с дополнительными драйверами"
+msgstr "Использовать диск с обновлениями драйверов"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -350,10 +348,8 @@ msgstr "Установить минимальную виртуальную ма�
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
-#, fuzzy
-#| msgid "^Check CD for defects"
 msgid "^Check disc for defects"
-msgstr "Проверить CD"
+msgstr "Проверить ^CD на наличие ошибок"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -378,14 +374,14 @@ msgstr "Только свободное ПО"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "^Автоматическая переустановка Dell"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "^Установить Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "^Запустить Mythbuntu без установки на компьютер"
