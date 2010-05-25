@@ -447,8 +447,6 @@
   dup window.init
       window.show
 
-%  fadein_logo
-
   32+64bit_source not {
 
     64bit {
@@ -989,26 +987,6 @@
   3 -1 roll strsize
   4 2 roll
   4 1 roll exch 4 1 roll sub 2 div neg 3 1 roll sub 2 div neg
-} def
-
-
-/fadeout_logo {
-  /cols 256 malloc def
-
-  0 1 255 { cols exch 0 put } for
-
-  10 1 150 {
-    10 1 100 {
-       over exch moveto getpixel
-       cols exch 1 put
-    } for
-    pop
-  } for
-  cols 10 10 moveto getpixel 0 fade
-} def
-
-/fadein_logo {
-  cols 10 10 moveto getpixel fadein
 } def
 
 
