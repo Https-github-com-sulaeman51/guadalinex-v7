@@ -39,7 +39,8 @@ small_layout {
 /.xm_panel_height	 8 def		% panel entry height
 /.xm_vspace		 9 def		% vspace per menu
 /.xm_title              10 def          % xmenu title
-/.xm_size		11 def		% xmenu size
+/.xm_columns		11 def		% menu columns
+/.xm_size		12 def		% xmenu size
 
 
 % short hands
@@ -47,6 +48,7 @@ small_layout {
 /xmenu.y { xmenu .xm_y get } def
 /xmenu.width { xmenu .xm_width get } def
 /xmenu.height { xmenu .xm_height get } def
+/xmenu.columns { xmenu .xm_columns get } def
 
 /xmenu.vspace { xmenu .xm_vspace get dup .undef ne { } { pop xmenu.vspace.default } ifelse } def
 
@@ -148,7 +150,9 @@ small_layout {
 /xmenu.sizes {
   /xmenu.lheight xmenu.font setfont fontheight xmenu.vspace dup add add def
 
-  /xmenu.columns xmenu .xm_list get length xmenu.maxlines add 1 sub xmenu.maxlines div def
+  xmenu .xm_columns
+    xmenu .xm_list get length xmenu.maxlines add 1 sub xmenu.maxlines div
+  put
 
   /xmenu.lastheight
     xmenu .xm_list get length xmenu.maxlines xmenu.columns 1 sub mul sub xmenu.lheight mul
@@ -317,7 +321,11 @@ small_layout {
   panel.text.moveto
 
   xmenu .xm_panel_x currentpoint pop xmenu.hspace sub put
-  xmenu .xm_x xmenu .xm_panel_x get put
+  % try to ensure that the menu doesn't overflow the screen
+  xmenu .xm_x
+    xmenu .xm_panel_x get
+    screen.size pop xmenu.width 2 add xmenu.columns mul 10 add sub
+    min put
 
   pmenu.update
 } def
