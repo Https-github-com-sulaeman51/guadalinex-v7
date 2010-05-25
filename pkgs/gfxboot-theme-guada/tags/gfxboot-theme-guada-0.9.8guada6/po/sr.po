@@ -357,7 +357,8 @@ msgstr "Инсталирај сер^вер"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Text mode install for ma^nufacturers"
+#, fuzzy
+msgid "^OEM install (for manufacturers)"
 msgstr "Инсталација у текстуалном режиму за произво^ђаче"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

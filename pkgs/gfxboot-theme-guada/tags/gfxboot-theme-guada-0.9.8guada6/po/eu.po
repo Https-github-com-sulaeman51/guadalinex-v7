@@ -361,7 +361,8 @@ msgstr "^Zerbitzari bat instalatu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Text mode install for ma^nufacturers"
+#, fuzzy
+msgid "^OEM install (for manufacturers)"
 msgstr "^Fabrikatzaileentzako testu-modua"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

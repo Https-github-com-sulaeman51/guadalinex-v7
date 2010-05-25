@@ -363,7 +363,8 @@ msgstr "^Kiszolgáló telepítése"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Text mode install for ma^nufacturers"
+#, fuzzy
+msgid "^OEM install (for manufacturers)"
 msgstr "Szöveges módú telepítés ^gyártók számára"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

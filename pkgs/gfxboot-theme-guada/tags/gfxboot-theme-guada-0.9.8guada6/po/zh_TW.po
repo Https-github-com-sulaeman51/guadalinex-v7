@@ -357,7 +357,7 @@ msgstr "安裝伺服器(^v)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Text mode install for ma^nufacturers"
+msgid "^OEM install (for manufacturers)"
 msgstr ""
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.

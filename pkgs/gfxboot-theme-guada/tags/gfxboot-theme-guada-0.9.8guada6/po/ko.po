@@ -361,7 +361,8 @@ msgstr "서버 설치하기 (^V)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
-msgid "Text mode install for ma^nufacturers"
+#, fuzzy
+msgid "^OEM install (for manufacturers)"
 msgstr "생산업체를 위한 텍스트 모드 설치하기 (^N)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
