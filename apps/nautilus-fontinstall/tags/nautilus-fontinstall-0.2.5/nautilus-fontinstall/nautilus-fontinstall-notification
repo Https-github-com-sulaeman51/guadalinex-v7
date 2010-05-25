@@ -1,0 +1,7 @@
+Name: nautilus-fontinstall-notification
+Priority: High
+Terminal: False
+DontShowAfterReboot: True
+DisplayIf: true
+Description: Nautilus fontinstall has been installed. It's necesary reboot your session to work correctly. When you reboot your session, there are one more option in the menu contextual of nautilus with which you can install fonts files with extension .ttf.
+Description-es: Nautilus fontinstall ha sido instalado. Para poder utilizarlo es necesario reiniciar su sesión. Una vez que reinicie la sesión dispondrá de dicha utilidad en el menú contextual de un fichero fuente de texto con extensión .ttf.

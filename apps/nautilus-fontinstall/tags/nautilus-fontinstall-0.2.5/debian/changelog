@@ -1,3 +1,10 @@
+nautilus-fontinstall (0.2.0-0guada1) jaunty; urgency=low
+
+  * Added file to update-notifier
+
+ -- D. Amian <amialinux@gmail.com>  Wed, 26 Aug 2009 11:53:07 +0200
+
+
 nautilus-fontinstall (0.1.0-1) jaunty; urgency=low
 
   * First debianized with distutils
