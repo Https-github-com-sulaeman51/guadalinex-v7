@@ -39,7 +39,7 @@
   xmenu .xm_current get .dimode.normal eq {
     /dimode.option .undef def
   } {
-    /dimode.option "DEBCONF_PRIORITY=low" def
+    /dimode.option "priority=low" def
   } ifelse
 
   /window.action actRedrawPanel def
