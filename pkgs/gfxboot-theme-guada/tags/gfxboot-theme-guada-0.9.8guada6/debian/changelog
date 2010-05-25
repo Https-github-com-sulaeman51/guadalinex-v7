@@ -1,6 +1,9 @@
 gfxboot-theme-ubuntu (0.4.3) UNRELEASED; urgency=low
 
   * Revert incorrect Maintainer change.
+  * Override language names for Arabic, Bengali, Hindi, and Nepali to use
+    the English names, as we don't have working Arabic or Indic rendering in
+    gfxboot (thanks, Arne Goetje).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue, 28 Aug 2007 14:34:19 +0100
 
