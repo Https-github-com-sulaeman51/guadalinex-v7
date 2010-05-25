@@ -16,8 +16,10 @@ import os
 import time
 import subprocess
 import signal
+import gettext
 from threading import Thread
 gtk.gdk.threads_init() 
+gettext.install("nautilus-md5sum")
 
 #Global
 NAME_APP = "nautilus-md5sum"
@@ -38,9 +40,9 @@ class MD5Dialog:
             while gtk.events_pending():
                 gtk.main_iteration()
         self.pgbar.set_fraction(1.0)
-        self.button.set_label("Ok")
-        self.pgbar.set_text("Comprobación finalizada")
-        self.lbDef.set_text("La suma MD5 del fichero '"+self.file_cut+"' es:")
+        self.button.set_label(_("Ok"))
+        self.pgbar.set_text(_("Checking completed"))
+        self.lbDef.set_text(_("MD5Sum of '")+self.file_cut+_("' is:"))
         self.copy.show()
 	
 	
@@ -58,11 +60,11 @@ class MD5Dialog:
         self.lbMd5 = self.glade.get_widget("lbMd5")
         self.pgbar = self.glade.get_widget("pgbar")
         self.copy = self.glade.get_widget("copy")
-        self.copy.set_label("Copiar")
-        self.lbDef.set_text("La suma MD5 puede durar bastante tiempo")
-        self.lbMd5.set_text("Fichero: "+self.file_cut)
+        self.copy.set_label(_("Copy"))
+        self.lbDef.set_text(_("MD5Sum can take a long time"))
+        self.lbMd5.set_text(_("File: ")+self.file_cut)
         self.lbMd5.set_selectable(True)
-        self.button.set_label("Cancelar")
+        self.button.set_label(_("Cancel"))
         self.button.grab_default()
         self.button.grab_focus()
         self.window.set_title(NAME_APP)
@@ -116,8 +118,8 @@ class MD5Extension(nautilus.MenuProvider):
         items = []
         #Called when the user selects a file in Nautilus.
         item = nautilus.MenuItem("NautilusPython::md5sum_item",
-                                 "Calcular suma MD5",
-                                 "Calcular suma MD5")
+                                 _("Check MD5Sum"),
+                                 _("Check MD5Sum"))
         item.set_property('icon', "md5sum-ico")
         item.connect("activate", self.menu_activate_cb, files)
         items.append(item)
