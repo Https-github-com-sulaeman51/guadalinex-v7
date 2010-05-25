@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2008-03-06 15:47+0000\n"
+"PO-Revision-Date: 2008-03-31 22:54+0000\n"
 "Last-Translator: Ricardo Pérez López <ricardo@iesdonana.org>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-03-11 01:24+0000\n"
+"X-Launchpad-Export-Date: 2008-04-02 23:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -199,7 +199,7 @@ msgstr ""
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. label for d-i mode menu
 #. txt_expert_mode
@@ -259,22 +259,22 @@ msgstr "Todo"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "^Intentar Ubuntu sin cambios en su equipo"
+msgstr "^Probar Ubuntu sin alterar su equipo"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "^Intentar Kubuntu sin cambios en su equipo"
+msgstr "^Probar Kubuntu sin alterar su equipo"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "^Intentar Edubuntu sin cambios en su equipo"
+msgstr "^Probar Edubuntu sin alterar su equipo"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "^Intentar Xubuntu sin cambios en su equipo"
+msgstr "^Probar Xubuntu sin alterar su equipo"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -384,4 +384,4 @@ msgstr "^Arrancar desde el primer disco duro"
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr ""
+msgstr "Sólo software libre"

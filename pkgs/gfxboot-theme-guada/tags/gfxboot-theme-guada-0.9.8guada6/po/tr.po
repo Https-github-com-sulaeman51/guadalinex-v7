@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2008-03-06 15:46+0000\n"
-"Last-Translator: towsonu2003 <towsonu2003@gmail.com>\n"
+"PO-Revision-Date: 2008-04-01 18:13+0000\n"
+"Last-Translator: baran <baran@flashmail.com>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-03-11 01:24+0000\n"
+"X-Launchpad-Export-Date: 2008-04-02 23:36+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -185,18 +185,17 @@ msgstr "Klavye"
 #. label for installation mode selection
 #. txt_modes
 msgid "Modes"
-msgstr ""
+msgstr "Kipler"
 
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
-#, fuzzy
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Alternatif başlangıç ve kurma kipleri seçmek için F4 tuşuna basın"
+msgstr "Başlangıç ve kurulum seçenekleri için F4 tuşuna basın"
 
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #. label for d-i mode menu
 #. txt_expert_mode
@@ -341,7 +340,7 @@ msgstr "^Xubuntu kur"
 #. txt_menuitem_workstation
 #, fuzzy
 msgid "Install a workstation"
-msgstr "Bir ^işistasyonu kur"
+msgstr "Bir işistasyonu kur"
 
 #. Installation mode.
 #. txt_menuitem_server
@@ -369,8 +368,9 @@ msgstr "Bir LTSP sunucusu kur"
 
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
+#, fuzzy
 msgid "Install a Diskless Image Server"
-msgstr ""
+msgstr "Disksiz Kalıp Sunucusu Kur"
 
 #. Installation mode.
 #. txt_menuitem_cli
@@ -402,4 +402,4 @@ msgstr "Birinci sabit diskten ^aç"
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr ""
+msgstr "Sadece ücretsiz yazılımlar"
