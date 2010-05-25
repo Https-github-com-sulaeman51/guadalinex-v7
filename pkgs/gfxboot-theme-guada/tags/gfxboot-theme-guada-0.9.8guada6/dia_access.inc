@@ -12,11 +12,12 @@
 /.access.v2 2 def
 /.access.v3 3 def
 /.access.m1 4 def
+/.access.m2 5 def
 
 /access.alloptionnames [
   .undef
   "v1" "v2" "v3"
-  "m1"
+  "m1" "m2"
 ] def
 
 /access.optionnames [ access.alloptionnames { } forall ] def
@@ -24,7 +25,7 @@
 /access.alltexts [
   /txt_access_none
   /txt_access_v1 /txt_access_v2 /txt_access_v3
-  /txt_access_m1
+  /txt_access_m1 /txt_access_m2
 ] def
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
