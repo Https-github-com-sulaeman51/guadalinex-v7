@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.9.3) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.9.3) lucid; urgency=low
 
   * Update translations from Launchpad (LP: #527052).
   * Change "Ubuntu Netbook Remix" strings to "Ubuntu Netbook" (LP: #518718).
@@ -13,7 +13,7 @@ gfxboot-theme-ubuntu (0.9.3) UNRELEASED; urgency=low
     a visual indication that you need to press a key to get to it
     (LP: #530713).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Thu, 25 Feb 2010 12:48:21 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 02 Mar 2010 23:47:25 +0000
 
 gfxboot-theme-ubuntu (0.9.2) lucid; urgency=low
 
