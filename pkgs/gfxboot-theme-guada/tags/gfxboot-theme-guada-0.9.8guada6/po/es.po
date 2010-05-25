@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2009-04-03 10:34+0000\n"
+"PO-Revision-Date: 2009-08-03 08:36+0000\n"
 "Last-Translator: Paco Molinero <paco@byasl.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-04-09 00:00+0000\n"
+"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -41,7 +41,7 @@ msgstr "Continuar"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Opciones"
+msgstr "Opciones de arranque"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -54,7 +54,7 @@ msgid ""
 "starting the text mode interface."
 msgstr ""
 "Está saliendo del menú gráfico de arranque e\n"
-"iniciando la interfaz de modo texto."
+"iniciando la interfaz en modo texto."
 
 #. txt_help
 msgid "Help"
@@ -73,7 +73,7 @@ msgstr "Error de E/S"
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Cambiar disco de arranque"
+msgstr "Cambiar el disco de arranque"
 
 #. txt_insert_disk
 #, c-format
@@ -117,7 +117,7 @@ msgstr ""
 #. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr "Error del DVD"
+msgstr "Error en el DVD"
 
 #. txt_dvd_warning2
 msgid ""

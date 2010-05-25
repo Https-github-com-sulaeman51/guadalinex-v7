@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: sl\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2008-10-20 09:03+0000\n"
-"Last-Translator: Štefan Baebler <Unknown>\n"
+"PO-Revision-Date: 2009-07-01 23:51+0000\n"
+"Last-Translator: Colin Watson <cjwatson@canonical.com>\n"
 "Language-Team: Slovenščina <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-04-09 00:00+0000\n"
+"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "n%100==4 ? 2: 3);\n"
 
@@ -251,12 +251,14 @@ msgstr "Preizkusi ^Xubuntu brez sprememb sistema"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr ""
+msgstr "Poskusite Ubuntu MID brez spreminjanja nastavitev vašega računalnika"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
 msgstr ""
+"Poskusite  Ubuntu Netbook Remix brez spreminjanja nastavitev vašega "
+"računalnika"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -266,7 +268,7 @@ msgstr "Zaženi Ubuntu v varnem ^grafičnem načinu"
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
-msgstr ""
+msgstr "Uporabi nosilec s posodobitvami gonilnikov"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -316,17 +318,17 @@ msgstr "^Namesti strežnik Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr ""
+msgstr "Namesti Ubuntu Studio"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr ""
+msgstr "Namesti Ubuntu MID"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
 msgid "^Install Ubuntu Netbook Remix"
-msgstr ""
+msgstr "Namesti Ubuntu Netbook Remix"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -376,7 +378,7 @@ msgstr "Namesti minimalen navidezni računalnik"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check disc for defects"
-msgstr ""
+msgstr "^Preveri, če je disk poškodovan"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -401,14 +403,14 @@ msgstr "Samo s prostim programjem"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "Ponovna samostojna namestitiev Dell"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "^Namesti Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "^Poskusite Mythbuntu brez spreminjanja nastavitev vašega računalnika"

@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2008-10-19 13:02+0000\n"
+"PO-Revision-Date: 2009-07-01 23:49+0000\n"
 "Last-Translator: Dražen Odobašić <dodobas@geoinfo.geof.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2009-04-09 00:00+0000\n"
+"X-Launchpad-Export-Date: 2009-08-25 09:00+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -39,7 +39,7 @@ msgstr "Nastavi"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Opcije za dizanje sustava"
+msgstr "Mogućnosti podizanja sustava"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -76,7 +76,7 @@ msgstr "Promjenite boot disk"
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Ubacite bood disk %u."
+msgstr "Ubacite boot disk %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -134,7 +134,7 @@ msgstr "Gašenje"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Zaustaviti sustav?"
+msgstr "Zaustaviti sustav odmah?"
 
 #. txt_password
 msgid "Password\n"
@@ -143,7 +143,7 @@ msgstr "Lozinka\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Ostale opcije"
+msgstr "Ostale mogućnosti"
 
 #. label for language selection
 #. txt_language
@@ -163,7 +163,8 @@ msgstr "Načini"
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Pritisnite F4 da odaberete alternativni ulaz i načine instalacije."
+msgstr ""
+"Pritisnite F4 da biste odabrali alternativne načine učitavanja instalacije."
 
 #. label for modes menu
 #. txt_mode_normal
@@ -173,12 +174,12 @@ msgstr "Normalno"
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"
-msgstr "Stručni način"
+msgstr "Napredni način"
 
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "Dostupnost"
+msgstr "Pristupačnost"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -203,7 +204,7 @@ msgstr "Čitač ekrana"
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr "Brail terminal"
+msgstr "Brailov terminal"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -248,12 +249,12 @@ msgstr "^Isprobati Xubuntu bez ikakvih promjena na računalu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without any change to your computer"
-msgstr ""
+msgstr "^Isprobati Ubuntu MID bez ikakvih promjena na računalu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook_remix
 msgid "^Try Ubuntu Netbook Remix without any change to your computer"
-msgstr ""
+msgstr "^Isprobati Ubuntu Netbook Remix bez ikakvih promjena na računalu"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -263,7 +264,7 @@ msgstr "Sigurno grafičko sučelje"
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update disc"
-msgstr ""
+msgstr "Koristi medij nadograđenih upravljačkih programa"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -313,17 +314,17 @@ msgstr "^Instaliraj Ubuntu Server"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
-msgstr ""
+msgstr "^Instaliraj Ubuntu Studio"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr ""
+msgstr "^Instaliraj Ubuntu MID"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook_remix
 msgid "^Install Ubuntu Netbook Remix"
-msgstr ""
+msgstr "^Instaliraj Ubuntu Netbook Remix"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -333,7 +334,7 @@ msgstr "Instaliraj radnu stanicu"
 #. Installation mode.
 #. txt_menuitem_server
 msgid "Install a server"
-msgstr "Instalacija poslužitelja"
+msgstr "Instaliraj poslužitelja"
 
 #. Installation mode.
 #. txt_menuitem_oem
@@ -343,12 +344,12 @@ msgstr "OEM instalacija (za proizvođače)"
 #. Installation mode.
 #. txt_menuitem_lamp
 msgid "Install a LAMP server"
-msgstr "Instalacija LAMP poslužitelja"
+msgstr "Instaliraj LAMP poslužitelja"
 
 #. Installation mode.
 #. txt_menuitem_ltsp
 msgid "Install an LTSP server"
-msgstr "Instalacija LTSP poslužitelja"
+msgstr "Instaliraj LTSP poslužitelja"
 
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
@@ -358,7 +359,7 @@ msgstr "Instaliraj poslužitelja slika za tanke klijente"
 #. Installation mode.
 #. txt_menuitem_cli
 msgid "Install a command-line system"
-msgstr "Instalacija komandno-linijskog sustava"
+msgstr "Instaliraj komandno-linijski sustav"
 
 #. Installation mode.
 #. txt_menuitem_minimal
@@ -373,7 +374,7 @@ msgstr "Instaliraj minimalni virtualni stroj"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check disc for defects"
-msgstr ""
+msgstr "^Provjeri disk za oštećenja"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -383,7 +384,7 @@ msgstr "^Spasi uništeni sustav"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "Test ^memory"
-msgstr "Test ^memorije"
+msgstr "Testiraj ^memoriju"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
@@ -398,14 +399,14 @@ msgstr "Samo slobodni softver"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_dell_factory_recovery
 msgid "^Dell Automatic Reinstall"
-msgstr ""
+msgstr "^Dellova automatska reinstalacija"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_mythbuntu
 msgid "^Install Mythbuntu"
-msgstr ""
+msgstr "^Instaliraj Mythbuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without any change to your computer"
-msgstr ""
+msgstr "^Isprobaj Mythbuntu bez ikakvih promjena na računalu"
