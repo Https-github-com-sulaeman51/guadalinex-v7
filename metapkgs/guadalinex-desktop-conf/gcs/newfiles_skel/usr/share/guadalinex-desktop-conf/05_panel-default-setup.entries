@@ -27,9 +27,6 @@
             <string>menu_bar</string>
           </value>
           <value>
-            <string>browser_launcher</string>
-          </value>
-          <value>
             <string>yelp_launcher</string>
           </value>
         </list>
