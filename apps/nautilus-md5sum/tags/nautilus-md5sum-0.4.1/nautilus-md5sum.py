@@ -52,9 +52,9 @@ class MD5Extension(nautilus.MenuProvider):
 
         if len(files)!=1:
             return
-        file = files[0]
+        filename = files[0]
 
-        if file.get_mime_type() not in FORMAT:
+        if filename.get_mime_type() not in FORMAT:
             return
 
         items = []
@@ -70,14 +70,14 @@ class MD5Extension(nautilus.MenuProvider):
         """Called when the user selects the menu."""
         if len(files) != 1:
             return
-        file = files[0]
-        if file.get_uri_scheme() != 'file':
+        filename = files[0]
+        if filename.get_uri_scheme() != 'file':
             return
 
-        if file.is_directory():
+        if filename.is_directory():
             return
 
-        filename = urllib.unquote(file.get_uri()[7:])
+        filename = urllib.unquote(filename.get_uri()[7:])
 
         dialog = gtk.Dialog("nautilus-md5sum")
         dialog.set_border_width(10)
