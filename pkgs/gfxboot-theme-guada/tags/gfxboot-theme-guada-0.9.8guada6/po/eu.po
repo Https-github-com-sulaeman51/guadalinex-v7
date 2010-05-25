@@ -192,6 +192,11 @@ msgstr "Moduak"
 msgid "Press F4 to select alternative start-up and installation modes."
 msgstr "F4 sakatu ezazu beste abio-aukera eta instalazio-moduak hautatzeko."
 
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"

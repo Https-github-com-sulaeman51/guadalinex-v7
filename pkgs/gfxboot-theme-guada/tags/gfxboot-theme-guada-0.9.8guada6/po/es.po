@@ -196,6 +196,11 @@ msgstr ""
 "Pulse F4 para seleccionar una arranque alternativos y los modos de "
 "instalación."
 
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"

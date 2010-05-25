@@ -193,6 +193,11 @@ msgid "Press F4 to select alternative start-up and installation modes."
 msgstr ""
 "Apăsaţi F4 pentru a alege modalităţi alternative de începere şi instalare."
 
+#. label for modes menu
+#. txt_mode_normal
+msgid "Normal"
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"

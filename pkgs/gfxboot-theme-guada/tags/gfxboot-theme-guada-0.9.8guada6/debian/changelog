@@ -2,6 +2,7 @@ gfxboot-theme-ubuntu (0.5.12) UNRELEASED; urgency=low
 
   * Add a "Free software only" boot option (mapping to
     apt-setup/restricted=false apt-setup/multiverse=false).
+  * Make "Normal" label in modes menu translatable (LP: #201347).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sun, 23 Mar 2008 09:56:47 +0000
 
