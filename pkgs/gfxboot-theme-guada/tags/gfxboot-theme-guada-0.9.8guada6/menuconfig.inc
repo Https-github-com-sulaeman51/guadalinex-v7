@@ -134,6 +134,10 @@
       over skipspace getword tolower
       dup "label" eq { over skipspace strdup menuconfig.sethuman } if
       dup "hide" eq { menuconfig.hidelabel } if
+      % items that switch between syslinux menus are unlikely to be useful
+      % in gfxboot
+      dup "goto" eq { menuconfig.hidelabel } if
+      dup "exit" eq { menuconfig.hidelabel } if
       free rot pop exch
     } if
     free
