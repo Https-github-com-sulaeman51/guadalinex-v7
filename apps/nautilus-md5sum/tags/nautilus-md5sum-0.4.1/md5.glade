@@ -1,24 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
-<!--Generated with glade3 3.4.5 on Fri Jun  5 14:41:12 2009 -->
+<?xml version="1.0"?>
 <glade-interface>
+  <!-- interface-requires gtk+ 2.16 -->
+  <!-- interface-naming-policy toplevel-contextual -->
   <widget class="GtkWindow" id="window1">
-    <property name="width_request">535</property>
-    <property name="height_request">135</property>
+    <property name="width_request">455</property>
+    <property name="height_request">145</property>
     <property name="visible">True</property>
     <property name="resizable">False</property>
-    <property name="window_position">GTK_WIN_POS_CENTER_ALWAYS</property>
+    <property name="window_position">center-always</property>
     <property name="default_width">102</property>
     <property name="default_height">221</property>
     <property name="destroy_with_parent">True</property>
-    <signal name="delete_event" handler="on_window1_delete_event"/>
     <child>
       <widget class="GtkVBox" id="vbox1">
         <property name="height_request">135</property>
         <property name="visible">True</property>
         <child>
           <widget class="GtkVBox" id="vbox2">
-            <property name="height_request">70</property>
+            <property name="height_request">78</property>
             <property name="visible">True</property>
             <child>
               <widget class="GtkFixed" id="fixed1">
@@ -26,12 +25,13 @@
                 <property name="visible">True</property>
                 <child>
                   <widget class="GtkLabel" id="lbDef">
-                    <property name="width_request">530</property>
-                    <property name="height_request">30</property>
+                    <property name="width_request">450</property>
+                    <property name="height_request">40</property>
                     <property name="visible">True</property>
-                    <property name="justify">GTK_JUSTIFY_CENTER</property>
+                    <property name="extension_events">cursor</property>
+                    <property name="justify">center</property>
                     <property name="wrap">True</property>
-                    <property name="wrap_mode">PANGO_WRAP_WORD_CHAR</property>
+                    <property name="wrap_mode">char</property>
                     <property name="selectable">True</property>
                   </widget>
                   <packing>
@@ -42,30 +42,61 @@
               </widget>
               <packing>
                 <property name="expand">False</property>
+                <property name="position">0</property>
               </packing>
             </child>
             <child>
-              <widget class="GtkFixed" id="fixed2">
-                <property name="height_request">35</property>
+              <widget class="GtkHBox" id="hbox1">
                 <property name="visible">True</property>
                 <child>
-                  <widget class="GtkLabel" id="lbMd5">
-                    <property name="width_request">530</property>
-                    <property name="height_request">30</property>
+                  <widget class="GtkFixed" id="fixed2">
+                    <property name="height_request">35</property>
                     <property name="visible">True</property>
-                    <property name="justify">GTK_JUSTIFY_CENTER</property>
-                    <property name="wrap">True</property>
-                    <property name="wrap_mode">PANGO_WRAP_CHAR</property>
-                    <property name="selectable">True</property>
+                    <property name="extension_events">cursor</property>
+                    <child>
+                      <widget class="GtkLabel" id="lbMd5">
+                        <property name="width_request">360</property>
+                        <property name="height_request">30</property>
+                        <property name="visible">True</property>
+                        <property name="justify">center</property>
+                        <property name="wrap">True</property>
+                        <property name="wrap_mode">char</property>
+                        <property name="selectable">True</property>
+                      </widget>
+                      <packing>
+                        <property name="x">2</property>
+                        <property name="y">2</property>
+                      </packing>
+                    </child>
                   </widget>
                   <packing>
-                    <property name="x">2</property>
-                    <property name="y">2</property>
+                    <property name="expand">False</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="GtkFixed" id="fixed3">
+                    <property name="height_request">30</property>
+                    <property name="visible">True</property>
+                    <child>
+                      <widget class="GtkButton" id="copy">
+                        <property name="width_request">64</property>
+                        <property name="height_request">31</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <signal name="clicked" handler="on_copy_clicked"/>
+                      </widget>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="position">1</property>
                   </packing>
                 </child>
               </widget>
               <packing>
                 <property name="expand">False</property>
+                <property name="fill">False</property>
                 <property name="position">1</property>
               </packing>
             </child>
@@ -73,6 +104,7 @@
           <packing>
             <property name="expand">False</property>
             <property name="fill">False</property>
+            <property name="position">0</property>
           </packing>
         </child>
         <child>
@@ -89,7 +121,6 @@
                 <property name="activity_mode">True</property>
                 <property name="fraction">0.050000000000000003</property>
                 <property name="pulse_step">0.070000000000000007</property>
-                <property name="text" translatable="yes"></property>
                 <property name="discrete_blocks">15</property>
               </widget>
             </child>
@@ -106,15 +137,20 @@
             <property name="visible">True</property>
             <child>
               <widget class="GtkButton" id="buttonOk">
+                <property name="label" translatable="yes">Ok</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="can_default">True</property>
-                <property name="label" translatable="yes">Ok</property>
-                <property name="relief">GTK_RELIEF_HALF</property>
+                <property name="receives_default">False</property>
+                <property name="relief">half</property>
                 <property name="xalign">0.50999999046325684</property>
-                <property name="response_id">0</property>
                 <signal name="clicked" handler="on_buttonOk_clicked"/>
               </widget>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">False</property>
+                <property name="position">0</property>
+              </packing>
             </child>
           </widget>
           <packing>
