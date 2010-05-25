@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2008-03-31 22:54+0000\n"
+"PO-Revision-Date: 2008-04-10 19:42+0000\n"
 "Last-Translator: Raivis Dejus <orvils@gmail.com>\n"
 "Language-Team: Latvian <lv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-04-02 23:36+0000\n"
+"X-Launchpad-Export-Date: 2008-04-14 08:24+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -30,7 +30,7 @@ msgstr "Atcelt"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Pārstartēt"
+msgstr "Pārlaist"
 
 #. continue button label
 #. txt_continue
@@ -39,7 +39,7 @@ msgstr "Turpināt"
 
 #. txt_bootoptions
 msgid "Boot Options"
-msgstr "Parametri"
+msgstr "Palaišanas opcijas"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
@@ -50,7 +50,9 @@ msgstr "Iziet..."
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
-msgstr "Pāriet no grafiskās sāknēšanas izvēlnes uz teksta režīmu?"
+msgstr ""
+"Jūs atstājat grafisko sāknēšanas izvēlni un\n"
+"palaižat teksta režīma saskarni."
 
 #. txt_help
 msgid "Help"
@@ -86,7 +88,7 @@ msgstr ""
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Startētājs"
+msgstr "Palaišanas ielādētājs"
 
 #. error box title
 #. txt_error_title
@@ -96,12 +98,12 @@ msgstr "I/O kļūda"
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Nomainīt ielādēšanas disku"
+msgstr "Nomainīt palaišanas disku"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Ievietojiet ielādēšanas disku %u"
+msgstr "Ievietojiet palaišanas disku %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -109,8 +111,8 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"Šis ir ielādēšanas disks %u.\n"
-"Ievietojiet ielādēšanas disku %u."
+"Šis ir palaišanas disks %u.\n"
+"Ievietojiet palaišanas disku %u."
 
 #. txt_insert_disk3
 #, c-format
@@ -118,8 +120,8 @@ msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Šis nav derīgs ielādēšanas disks.\n"
-"Lūdzu ievietojiet ielādēšanas disku %u."
+"Šis nav derīgs palaišanas disks.\n"
+"Lūdzu ievietojiet palaišanas disku %u."
 
 #. password dialog title
 #. txt_password_title
@@ -133,7 +135,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Ievadiet paroli:   \n"
+"Ievadiet jūsu paroli:   \n"
 "\n"
 "\n"
 
@@ -148,7 +150,8 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Šajā DVD diskā dati ierakstīti no abām pusēm. Šī ir otrā puse.\n"
+"Šajā DVD diskā dati ierakstīti no abām pusēm. Jūs esat palaidis to no otras "
+"puses.\n"
 "Apgrieziet disku otrādi un turpiniet."
 
 #. power off dialog title
@@ -158,7 +161,7 @@ msgstr "Izslēgt"
 
 #. txt_power_off
 msgid "Halt the system now?"
-msgstr "Izslēgt?"
+msgstr "Apturēt tagad sistēmu?"
 
 #. txt_password
 msgid "Password\n"
@@ -167,7 +170,7 @@ msgstr "Parole\n"
 #. button label for other/more options
 #. txt_other_options
 msgid "Other Options"
-msgstr "Citi parametri"
+msgstr "Citas opcijas"
 
 #. label for language selection
 #. txt_language
@@ -177,7 +180,7 @@ msgstr "Valoda"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr "Tastatūra"
+msgstr "Taustiņkarte"
 
 #. label for installation mode selection
 #. txt_modes
@@ -187,12 +190,12 @@ msgstr "Režīmi"
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Nospiediet F4, lai izvēlētos citus instalēšanas režīmus."
+msgstr "Spiediet F4, lai izvēlētos citus instalēšanas režīmus."
 
 #. label for modes menu
 #. txt_mode_normal
 msgid "Normal"
-msgstr ""
+msgstr "Normāls"
 
 #. label for d-i mode menu
 #. txt_expert_mode
@@ -207,7 +210,7 @@ msgstr "Pieejamība"
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr "Noklusētā"
+msgstr "Nekas"
 
 #. label for accessibility menu
 #. txt_access_v1
@@ -232,7 +235,7 @@ msgstr "Braila terminālis"
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr "Tastatūras izkārtojuma mainītājs"
+msgstr "Tastatūras izkārtojuma mainītāji"
 
 #. label for accessibility menu
 #. txt_access_m2
@@ -241,9 +244,8 @@ msgstr "Ekrāna tastatūra"
 
 #. label for accessibility menu
 #. txt_access_m3
-#, fuzzy
 msgid "Motor Difficulties - switch devices"
-msgstr "Problēmas ar dzinēju - nomainiet iekārtu"
+msgstr "Motorisko kustību traucējumi - pārslēgšanas ierīces"
 
 #. label for accessibility menu
 #. txt_access_all
@@ -278,12 +280,12 @@ msgstr "Ielādēt Ubuntu drošajā ^grafiskajā režīmā"
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update CD"
-msgstr "Uzstādīt no draiveru ^atjaunošanas CD"
+msgstr "Izmantot draiveru ^atjaunošanas CD"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
-msgstr "^Instalēt teksta režīmā"
+msgstr "^Instalēt Ubuntu teksta režīmā"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
@@ -348,7 +350,7 @@ msgstr "Instalēt LTSP serveri"
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
 msgid "Install a Diskless Image Server"
-msgstr "Uzstādīt bezdiska attēlu serveri"
+msgstr "Instalēt bezdiska attēlu serveri"
 
 #. Installation mode.
 #. txt_menuitem_cli
@@ -378,4 +380,4 @@ msgstr "Ielādē^t sistēmu no pirmā diska"
 #. Boot option.
 #. txt_option_free
 msgid "Free software only"
-msgstr ""
+msgstr "Tikai brīvo programmatūru"
