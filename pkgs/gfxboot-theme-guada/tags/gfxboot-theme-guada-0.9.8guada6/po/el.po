@@ -269,6 +269,11 @@ msgid "Screen Reader"
 msgstr "Εφαρμογή ανάγνωσης οθόνης"
 
 #. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr ""
+
+#. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
 msgstr "Τροποποιητές πληκτρολογίου"

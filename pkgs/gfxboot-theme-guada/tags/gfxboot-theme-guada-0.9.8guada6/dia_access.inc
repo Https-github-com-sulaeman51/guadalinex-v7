@@ -11,12 +11,13 @@
 /.access.v1 1 def
 /.access.v2 2 def
 /.access.v3 3 def
-/.access.m1 4 def
-/.access.m2 5 def
+/.access.brltty 4 def
+/.access.m1 5 def
+/.access.m2 6 def
 
 /access.alloptionnames [
   .undef
-  "v1" "v2" "v3"
+  "v1" "v2" "v3" "brltty"
   "m1" "m2"
 ] def
 
@@ -24,7 +25,7 @@
 
 /access.alltexts [
   /txt_access_none
-  /txt_access_v1 /txt_access_v2 /txt_access_v3
+  /txt_access_v1 /txt_access_v2 /txt_access_v3 /txt_access_brltty
   /txt_access_m1 /txt_access_m2
 ] def
 
@@ -93,8 +94,12 @@
     pop
     /access.option .undef def
   } {
-    dup length 7 add string /access.option exch def
-    "access=%s" access.option sprintf
+    dup "brltty" eq {
+      pop /access.option "brltty=ask" def
+    } {
+      dup length 7 add string /access.option exch def
+      "access=%s" access.option sprintf
+    } ifelse
   } ifelse
 
   /window.action actRedrawPanel def

@@ -266,6 +266,11 @@ msgid "Screen Reader"
 msgstr "Xwînerê Dîmenderê"
 
 #. label for accessibility menu
+#. txt_access_brltty
+msgid "Braille Terminal"
+msgstr ""
+
+#. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
 msgstr "Guherkerê Klavyeyê"
