@@ -1,3 +1,9 @@
+gfxboot-theme-ubuntu (0.1.17) UNRELEASED; urgency=low
+
+  * Update Portuguese translation (thanks, Rui Azevedo).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Fri,  3 Mar 2006 17:47:30 +0000
+
 gfxboot-theme-ubuntu (0.1.16) dapper; urgency=low
 
   * Add localisation for the boot menu items currently added by the Ubuntu
