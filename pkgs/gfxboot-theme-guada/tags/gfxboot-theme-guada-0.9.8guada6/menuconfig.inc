@@ -221,7 +221,9 @@
     dup "gfxboot-background" eq {
       over menuconfig.skipspace menuconfig.strtol dup .undef ne {
         /menu.text.normal over def
-        /panel.normal exch def
+        /panel.normal over def
+        /loading_color over def
+        /title.bg exch def
       } { pop } ifelse
     } if
     dup "gfxboot-access-options" eq {
