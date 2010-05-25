@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-05-25 09:15+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: F Wolff <viool@webmail.co.za>\n"
 "Language-Team: Afrikaans <af@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -378,18 +378,3 @@ msgstr "^Geheuetoets"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Laai van eerste hardeskyf"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Effense siggebrek"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Matige siggebrek"
-
-#~ msgid "Blindness"
-#~ msgstr "Blindheid"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Effense  motorgebrek"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Motorgebrek - muis"

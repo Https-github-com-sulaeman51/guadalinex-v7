@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-07-13 16:23+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Reno S. Anwari <sireno.talk@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -378,18 +378,3 @@ msgstr "Uji ^memori"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Boot dari hard disk pertama"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Gangguan Penglihatan Ringan"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Gangguan Penglihatan Menengah"
-
-#~ msgid "Blindness"
-#~ msgstr "Kebutaan"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Gangguan Motorik Ringan"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Gangguan Motorik - perangkat penunjuk"

@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-04-08 12:09+0000\n"
-"Last-Translator: stone_unix <gaoghy@gmail.com>\n"
+"PO-Revision-Date: 2006-10-09 05:06+0000\n"
+"Last-Translator: Liu Qishuai <lqs.buaa@gmail.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr "取消"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "重引导"
+msgstr "重新启动"
 
 #. continue button label
 #. txt_continue
@@ -251,27 +251,27 @@ msgstr "无"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "高对比度"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "放大镜"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "屏幕阅读器"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "修饰键"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "屏幕上的键盘"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -350,9 +350,8 @@ msgstr "^LAMP 服务器安装"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "服务器安装"
+msgstr "安装命令行系统(^A)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -373,18 +372,3 @@ msgstr "内存测试"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "从第一块硬盘启动"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "次级视觉伤害"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "中等视觉伤害"
-
-#~ msgid "Blindness"
-#~ msgstr "失明"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "运动肌肉障碍"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "运动肌肉障碍 - 定位设备"

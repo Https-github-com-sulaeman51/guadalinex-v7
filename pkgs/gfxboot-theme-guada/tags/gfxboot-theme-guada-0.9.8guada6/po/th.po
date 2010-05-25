@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-06-15 06:23+0000\n"
-"Last-Translator: Isriya Paireepairit <isriya_pa@sipa.or.th>\n"
+"PO-Revision-Date: 2006-09-30 18:13+0000\n"
+"Last-Translator: Roys Hengwatanakul <roysheng@gmail.com>\n"
 "Language-Team: Thai <th@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,14 +43,14 @@ msgstr "ตัวเลือกในการบูตระบบ"
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
 msgid "Exiting..."
-msgstr "กำลังออกไป"
+msgstr "กำลังออกไป..."
 
 #. txt_exit_dialog
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"คุณกำลังจะออกจากบูตเมนูแบบกราฟิก\\n\n"
+"คุณกำลังจะออกจากบูตเมนูแบบกราฟิก\n"
 "ไปเป็นแบบข้อความ"
 
 #. txt_help
@@ -69,9 +69,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"กำลังโหลดเคอร์เนลลินุกซ์\\n\n"
-"\\n\n"
-"\\n\n"
+"กำลังโหลดเคอร์เนลลินุกซ์\n"
 "\n"
 "\n"
 
@@ -151,9 +149,9 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"นี่เป็นแผ่นดีวีดีที่สามารถใช้ได้ทั้ง 2 ด้าน. คุณบูตจากด้านที่ 2\n"
+"นี่เป็นแผ่นดีวีดีที่สามารถใช้ได้ทั้ง 2 ด้านคุณบูตจากด้านที่ 2\n"
 "\n"
-"กรุณาพลิกแผ่นดีวีดีก่อนจึงจะสามารดำเนินการต่อไปได้."
+"กรุณาพลิกแผ่นดีวีดีก่อนจึงจะสามารดำเนินการต่อไปได้"
 
 #. power off dialog title
 #. txt_power_off_title
@@ -248,7 +246,7 @@ msgstr "ขั้นสูง"
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "สำหรับผู้มีปัญหามองเห็นและเคลื่อนไหว"
+msgstr "ทุพพลภาพ"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -258,32 +256,32 @@ msgstr "ไม่มี"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "ความแตกต่างสูง"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "แว่นขยาย"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "ตัวอ่านจอภาพ"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "ตัวปรับแต่งแป้นพิมพ์"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "แป้นพิมพ์บนจอภาพ"
 
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr "มีปัญหาด้านการเคลื่อนไหว - อุปกรณ์เกี่ยวกับแป้นพิมพ์"
+msgstr "มีปัญหาด้านการเคลื่อนไหว - ใช้อุปกรณ์สวิทซ์"
 
 #. label for accessibility menu
 #. txt_access_all
@@ -293,42 +291,42 @@ msgstr "ทุกอย่าง"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "เ^ริ่ม Ubuntu"
+msgstr "เ^ริ่มหรือติดตั้งอูบุนตู"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "เริ่ม Ubuntu แบบ^กราฟิก"
+msgstr "เริ่มอูบุนตูในแบบ^กราฟิก"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "เ^ริ่ม Kubuntu"
+msgstr "เ^ริ่มหรือติดตั้งคูบุนตู"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr "เริ่ม Kubuntu แบบ^กราฟิก"
+msgstr "เริ่มคูบุนตูในแบบ^กราฟิก"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "เ^ริ่ม Edubuntu"
+msgstr "เ^ริ่มหรือติดตั้งเอดดูบุนตู"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr "เริ่ม Edubuntu แบบ^กราฟิก"
+msgstr "เริ่มเอดดูบุนตูในแบบ^กราฟิก"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "เ^ริ่ม Xubuntu"
+msgstr "เ^ริ่มหรือติดตั้งซูบุนตู"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr "เริ่ม Xubuntu แบบ^กราฟิก"
+msgstr "เริ่มซูบุนตูในแบบ^กราฟิก"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -338,12 +336,12 @@ msgstr "ูู^ติดตั้งแบบข้อความ"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr "ูู^ติดตั้งลงในฮาร์ดดิกส์"
+msgstr "ูู^ติดตั้งลงในฮาร์ดดิสก์"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr "ติดตั้ง ^workstation"
+msgstr "ติดตั้งเ^วิร์กสเตชัน"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
@@ -357,9 +355,8 @@ msgstr "ติดตั้ง ^LAMP เซิฟร์เวอร์"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "ติดตั้งเ^ซิฟร์เวอร์"
+msgstr "ติดตั้งระบบแบบ^พิมพ์คำสั่ง"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -369,7 +366,7 @@ msgstr "^ตรวจแผ่นซีดีหาข้อบกพร่อ�
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "แ^ก้ไขระบบที่มีปัญหา"
+msgstr "^กู้ระบบที่มีปัญหา"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
@@ -380,18 +377,3 @@ msgstr "^ทดสอบหน่วยความจำ"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "บูตจาก^ฮาร์ดดิสก์ตัวแรก"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "มีปัญหาในการมองเห็นเล็กน้อย"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "มีปัญหาในการมองเห็นปานกลาง"
-
-#~ msgid "Blindness"
-#~ msgstr "มองไม่เห็น"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "มีปัญหาด้านการเคลื่อนไหวเล็กน้อย"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "มีปัญหาด้านการเคลื่อนไหว - อุปกรณ์เกี่ยวกับเมาส์"

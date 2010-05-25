@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
-"PO-Revision-Date: 2006-06-15 21:48+0000\n"
+"PO-Revision-Date: 2006-09-26 13:36+0000\n"
 "Last-Translator: Bernard Banko <beernarrd@siol.com>\n"
 "Language-Team: Slovenščina <sl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -379,18 +379,3 @@ msgstr "Preveri delovni po^mnilnik"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Zaženi s prvega trdega diska"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Rahla okvara vida"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Zmerna okvara vida"
-
-#~ msgid "Blindness"
-#~ msgstr "Slepota"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Manjše težave z motoriko"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Težave z motoriko - kazalne naprave"

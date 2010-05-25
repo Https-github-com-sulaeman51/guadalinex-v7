@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2006-06-26 17:40+0000\n"
-"Last-Translator: Ilya Petrov <ilya.muromec@gmail.com>\n"
+"PO-Revision-Date: 2006-10-04 18:57+0000\n"
+"Last-Translator: Igor Zubarev <igor4u@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,12 +97,12 @@ msgstr "Ошибка ввода/вывода"
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "Сменить загрузочный диск"
+msgstr "Смените загрузочный диск"
 
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr "Пожалуйста вставьте загрузочный диск %u."
+msgstr "Вставьте загрузочный диск %u."
 
 #. txt_insert_disk2
 #, c-format
@@ -111,7 +111,7 @@ msgid ""
 "Insert boot disk %u."
 msgstr ""
 "Это загрузочный диск %u.\n"
-"Пожалуйста вставьте загрузочный диск %u."
+"Вставьте загрузочный диск %u."
 
 #. txt_insert_disk3
 #, c-format
@@ -120,7 +120,7 @@ msgid ""
 "Please insert boot disk %u."
 msgstr ""
 "Это не подходящий загрузочный диск.\n"
-"Пожалуйста вставьте загрузочный диск %u."
+"Вставьте загрузочный диск %u."
 
 #. password dialog title
 #. txt_password_title
@@ -256,27 +256,27 @@ msgstr "Нет"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Высококонтрастная"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Лупа"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Программа чтения экрана"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Клавиши-модификаторы"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Экранная клавиатура"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -291,42 +291,42 @@ msgstr "Все"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "Запуск Ubuntu"
+msgstr "Запустить Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "Запуск Ubuntu в безопасном графическом режиме"
+msgstr "Запустить Ubuntu в безопасном графическом режиме"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "Запуск Kubuntu"
+msgstr "Запустить Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr "Запуск Kubuntu в безопасном графическом режиме"
+msgstr "Запустить Kubuntu в безопасном графическом режиме"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "Запуск Edubuntu"
+msgstr "Запустить Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr "Запуск Edubuntu в безопасном графическом режиме"
+msgstr "Запустить Edubuntu в безопасном графическом режиме"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "Запуск Xubuntu"
+msgstr "Запустить Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr "Запуск Xubuntu в безопасном графическом режиме"
+msgstr "Запустить Xubuntu в безопасном графическом режиме"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -355,9 +355,8 @@ msgstr "Установить ^LAMP сервер"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Установить сервер"
+msgstr "Установить систему без графического интерфейса"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -372,24 +371,9 @@ msgstr "Восстановить систему"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr "Тест памяти"
+msgstr "Проверить память"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Загрузить с первого жесткого диска"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Небольшое Ухудшение Зрения"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Умеренное Ухудшение Зрения"
-
-#~ msgid "Blindness"
-#~ msgstr "Слепота"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Небольшое Нарушение Двигательных Функций"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Нарушение Двигательных Функций - устройства указания"

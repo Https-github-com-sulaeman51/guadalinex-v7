@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-07-08 07:02+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Alexander Nyakhaychyk <nyakhaychyk@gmail.com>\n"
 "Language-Team: Belarusian <be@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -378,18 +378,3 @@ msgstr "^Тэст памяці"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Загрузіцца з жорсткага дыска"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Пагаршэнне зроку"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Істотнае пагаршэнне зроку"
-
-#~ msgid "Blindness"
-#~ msgstr "Сьлепата"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Неістотныя складанасьці руху"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Складанасці руху - пазыцыянаваньне прыладаў"

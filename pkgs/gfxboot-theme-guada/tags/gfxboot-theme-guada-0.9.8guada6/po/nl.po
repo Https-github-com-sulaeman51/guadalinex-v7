@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nl\n"
-"PO-Revision-Date: 2006-05-13 18:23+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Tino Meinen <a.t.meinen@chello.nl>\n"
 "Language-Team: Dutch <kde-i18n-nl@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -157,7 +157,7 @@ msgstr ""
 #. power off dialog title
 #. txt_power_off_title
 msgid "Power Off"
-msgstr "Computer uitgeschakelen"
+msgstr "Computer uitschakelen"
 
 #. txt_power_off
 msgid "Halt the system now?"
@@ -257,27 +257,28 @@ msgstr "Geen"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Hoog contrast"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Vergrootglas"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Schermlezer"
 
 #. label for accessibility menu
 #. txt_access_m1
+#, fuzzy
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Toetsenbord controletoetsen"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Schermtoetsenbord"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -292,7 +293,7 @@ msgstr "Alles"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "^Start Ubuntu"
+msgstr "^Start of installeer Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
@@ -302,7 +303,7 @@ msgstr "Start Ubuntu in ^veilige modus"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "^Start Kubuntu"
+msgstr "^Start of installeer Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
@@ -312,7 +313,7 @@ msgstr "Start Kubuntu in ^veilige modus"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "^Start Edubuntu"
+msgstr "^Start of installeer Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
@@ -322,7 +323,7 @@ msgstr "Start Edubuntu in ^veilige modus"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "^Start Xubuntu"
+msgstr "^Start of installeer Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
@@ -332,7 +333,7 @@ msgstr "Start Xubuntu in ^veilige modus"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "^Installeer naar de harde schijf"
+msgstr "^Installeer in tekst-modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
@@ -342,12 +343,12 @@ msgstr "^Installeer naar de harde schijf"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr "Installeer een werkstation"
+msgstr "Installeer een ^werkstation"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Install in ^OEM mode"
-msgstr "Installeer in ^OEM modus"
+msgstr "Installeer in ^OEM-modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
@@ -379,18 +380,3 @@ msgstr "^Geheugentest"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Start ^op vanaf de eerste harde schijf"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Kleinere visuele handicap"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Visuele handicap"
-
-#~ msgid "Blindness"
-#~ msgstr "Blind"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Kleinere motorische handicap"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Motorische handicap - muis"

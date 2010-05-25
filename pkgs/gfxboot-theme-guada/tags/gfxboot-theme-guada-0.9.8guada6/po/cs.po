@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cs\n"
-"PO-Revision-Date: 2006-04-13 19:15+0000\n"
-"Last-Translator: Petr Tomeš <ptomes@ubuntu.cz>\n"
+"PO-Revision-Date: 2006-10-12 22:50+0000\n"
+"Last-Translator: Martin Böhm <necteno@gmail.com>\n"
 "Language-Team: Czech <suse@suse.cz>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -256,27 +256,27 @@ msgstr "Žádné"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Vysoký kontrast"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Lupa"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Čtečka obrazovky"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Modifikátory klávesnice"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Klávesnice na obrazovce"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -355,9 +355,8 @@ msgstr "Nainstalovat ^LAMP server"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Nainstalovat ^server"
+msgstr "Nainst^alovat systém jen s příkazovou řádkou"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -378,18 +377,3 @@ msgstr "Test pa^měti"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Zavést systém z prvního pevného disku"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Slabé zrakové postižení"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Středně silné zrakové postižení"
-
-#~ msgid "Blindness"
-#~ msgstr "Slepota"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Lehké pohybové postižení"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Pohybové postižení - polohovací zařízení"

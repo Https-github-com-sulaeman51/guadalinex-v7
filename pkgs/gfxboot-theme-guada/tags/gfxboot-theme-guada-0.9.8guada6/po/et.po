@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-06-07 12:39+0000\n"
+"PO-Revision-Date: 2006-09-26 13:36+0000\n"
 "Last-Translator: margus723 <margus723@hot.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -378,18 +378,3 @@ msgstr "^Mälutest"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Tee alglaadimine esimeselt kõvakettalt"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Väiksem visuaalkahjustus"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Suurem visuaalkahjustus"
-
-#~ msgid "Blindness"
-#~ msgstr "Pimedus"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Väiksed mootori raskused"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Mootori raskused - osuta seadmetele"

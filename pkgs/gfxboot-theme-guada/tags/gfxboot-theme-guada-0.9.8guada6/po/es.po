@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
-"PO-Revision-Date: 2006-06-01 13:18+0000\n"
+"PO-Revision-Date: 2006-09-26 18:08+0000\n"
 "Last-Translator: Ricardo Pérez López <ricardo@iesdonana.org>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
@@ -256,27 +256,27 @@ msgstr "Ninguna"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Alto contraste"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Lupa"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Lector de pantalla"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Modificadores de teclado"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Teclado en pantalla"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -355,9 +355,8 @@ msgstr "Instalar un servidor ^LAMP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Instalar un ^servidor"
+msgstr "Instal^ar un sistema en línea de comandos"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -378,18 +377,3 @@ msgstr "Test de ^memoria"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Arrancar desde el primer disco duro"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Deficiencia visual leve"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Deficiencia visual moderada"
-
-#~ msgid "Blindness"
-#~ msgstr "Ceguera"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Dificultades motrices menores"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Dificultades motrices - dispositivos de señalización"

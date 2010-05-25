@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-08-03 15:37+0000\n"
+"PO-Revision-Date: 2006-08-03 14:37+0000\n"
 "Last-Translator: Gaurav Mishra <gauravtechie@gmail.com>\n"
 "Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,8 +18,9 @@ msgstr ""
 
 #. ok button label
 #. txt_ok
+#, fuzzy
 msgid "OK"
-msgstr ""
+msgstr "ठीक"
 
 #. cancel button label
 #. txt_cancel
@@ -37,13 +38,15 @@ msgid "Continue"
 msgstr "जारी रखें"
 
 #. txt_bootoptions
+#, fuzzy
 msgid "Boot Options"
-msgstr ""
+msgstr "बूट विकल्प"
 
 #. window title for exit dialog
 #. txt_exit_title (see txt_exit_dialog)
+#, fuzzy
 msgid "Exiting..."
-msgstr ""
+msgstr "निर्गम..."
 
 #. txt_exit_dialog
 msgid ""
@@ -366,6 +369,3 @@ msgstr ""
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr ""
-
-#~ msgid "Blindness"
-#~ msgstr "अंधापन"

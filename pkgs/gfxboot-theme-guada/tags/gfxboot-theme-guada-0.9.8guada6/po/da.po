@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: da\n"
-"PO-Revision-Date: 2006-06-30 01:09+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: David Nielsen <david@lovesunix.net>\n"
 "Language-Team: Dansk <da@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -113,13 +113,13 @@ msgstr ""
 "Indsæt opstartsdisk %u."
 
 #. txt_insert_disk3
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Dette er ikke en SUSE LINUX 10.0 opstartsdisk.\n"
-"Vær venlig at indsætte opstartsdisk %u."
+"Dette er ikke en gyldig opstartsdiskette.\n"
+"Indsætte venligst opstartsdiskette %u."
 
 #. password dialog title
 #. txt_password_title
@@ -377,18 +377,3 @@ msgstr "^Hukommelsestest"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Start op fra første harddisk"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Mindre synshandicap"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Moderat synshandicap"
-
-#~ msgid "Blindness"
-#~ msgstr "Blind"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Mindre bevægelsesbesvær"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Bevægelsesbesvær - pegeredskaber"

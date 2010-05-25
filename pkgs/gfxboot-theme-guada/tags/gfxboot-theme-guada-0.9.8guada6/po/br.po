@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-04-05 15:26+0000\n"
+"PO-Revision-Date: 2006-09-26 13:35+0000\n"
 "Last-Translator: Oublieuse <oublieuse@gmail.com>\n"
 "Language-Team: Breton <br@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -168,7 +168,7 @@ msgstr "Staliadur pladenn galet"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
-msgstr ""
+msgstr "Pladenn (sell deus an holl pladennoù ma chomfe goullo)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -200,7 +200,7 @@ msgstr "Staliadur NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr ""
+msgstr "Implijer (implijet vo \"kouvidi\" (\"guest\") ma chomfe goullo)\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
@@ -230,7 +230,7 @@ msgstr "Yezh"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr ""
+msgstr "Alc'hwezhiad"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -295,7 +295,7 @@ msgstr "Loc'hañ Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Loc'hañ Ubuntu en ur mod ^grafik salv"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
@@ -305,7 +305,7 @@ msgstr "Loc'hañ Kubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Loc'hañ Kubuntu en ur mod ^grafik salv"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
@@ -315,7 +315,7 @@ msgstr "Loc'hañ Edubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Loc'hañ Edubuntu en ur mod ^grafik salv"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
@@ -325,7 +325,7 @@ msgstr "Loc'hañ Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Loc'hañ Xubuntu en ur mod ^grafik salv"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
@@ -377,10 +377,3 @@ msgstr "Test memor"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Loc'hañ adalek ar bladenn galet kentañ"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Diaesterioù korfel bihan"
-
-#, fuzzy
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Diaesterioù korfel"

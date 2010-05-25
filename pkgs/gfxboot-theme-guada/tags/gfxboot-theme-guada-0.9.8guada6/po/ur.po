@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-06-09 07:12+0000\n"
-"Last-Translator: Saadat Saeed <saadatsaeed@gmail.com>\n"
+"PO-Revision-Date: 2006-09-01 16:59+0000\n"
+"Last-Translator: waqastoor <waqasnasirtoor@gmail.com>\n"
 "Language-Team: Urdu <urd@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "ٹھیک ہے"
+msgstr "صحیح"
 
 #. cancel button label
 #. txt_cancel
@@ -29,7 +29,7 @@ msgstr "منسوخ"
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "ری بوٹ"
+msgstr "دوبارہ چلائی"
 
 #. continue button label
 #. txt_continue
@@ -93,7 +93,7 @@ msgstr "بوٹ لوڈر"
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr ""
+msgstr "I/O خرابی"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -103,7 +103,7 @@ msgstr "بوٹ کی سی ڈی بدلیں"
 #. txt_insert_disk
 #, c-format
 msgid "Insert boot disk %u."
-msgstr ""
+msgstr "بوٹ کی سی ڈی %u ڈالیں"
 
 #. txt_insert_disk2
 #, c-format
@@ -220,7 +220,7 @@ msgstr ""
 #. label for language selection
 #. txt_language
 msgid "Language"
-msgstr ""
+msgstr "زبان"
 
 #. label for keymap selection
 #. txt_keymap

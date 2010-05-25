@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-07-27 15:33+0000\n"
+"PO-Revision-Date: 2006-09-26 13:36+0000\n"
 "Last-Translator: Mark Kwidzińsczi <red@kaszubia.com>\n"
 "Language-Team: Kashubian <csb@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,12 +24,12 @@ msgstr "OK"
 #. cancel button label
 #. txt_cancel
 msgid "Cancel"
-msgstr "Anulujë"
+msgstr "Òprzestóń"
 
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "Zrëszi znowa"
+msgstr "Zrëszë znowa"
 
 #. continue button label
 #. txt_continue
@@ -169,7 +169,7 @@ msgstr "Instalacëjô na cwiardim diskù"
 
 #. txt_hd_diskdevice
 msgid "Disk Device (scan all disks if empty)\n"
-msgstr "Diskòwé ùrządzenié (skanëjë wszëtczé disczi eżle pùste)\n"
+msgstr "Diskòwé ùrządzenié (skanëje wszëtczé disczi eżle pùste)\n"
 
 #. txt_directory
 msgid "Directory\n"
@@ -246,7 +246,7 @@ msgstr "Awansowóny ôrt"
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr "Pòmòce przistãpù"
+msgstr "Przistãpnosc"
 
 #. label for accessibility menu
 #. txt_access_none
@@ -256,27 +256,27 @@ msgstr "Felënk"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Wësoczi kòntrast"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Lupa"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Czëtôrz ekranu"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Mòdifikator klawiaturë"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Ekranowô klawiatura"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -291,47 +291,47 @@ msgstr "Wszëtkò"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "^Zrëszi Ubuntu"
+msgstr "^Zrëszë Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr "Zrëszi Ubuntu w bezpiecznym ^graficznëm ôrce"
+msgstr "Zrëszë Ubuntu w bezpiecznym ^graficznëm ôrce"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "^Zrëszi Kubuntu"
+msgstr "^Zrëszë Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr "Zrëszi Kubuntu w bezpiecznym ^graficznëm ôrce"
+msgstr "Zrëszë Kubuntu w bezpiecznym ^graficznëm ôrce"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "^Zrëszi Edubuntu"
+msgstr "^Zrëszë Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr "Zrëszi Edubuntu w bezpiecznym ^graficznëm ôrce"
+msgstr "Zrëszë Edubuntu w bezpiecznym ^graficznëm ôrce"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "^Zrëszi Xubuntu"
+msgstr "^Zrëszë Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr "Zrëszi Xubuntu w bezpiecznym ^graficznëm ôrce"
+msgstr "Zrëszë Xubuntu w bezpiecznym ^graficznëm ôrce"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "^Instalëjë w tesktowym ôrce"
+msgstr "^Instalëjë w tesktowim ôrce"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
@@ -377,19 +377,4 @@ msgstr "^Test pamiãce"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr "^Zrëszi systemã z pierszegò cwiardegò diskù"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Niewiôldżi ùpich widu"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Razny ùpich widu"
-
-#~ msgid "Blindness"
-#~ msgstr "Slepizna"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Niewiôlgô rëchawô problema"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Rëchowé problemë - ùrządzenia wskôzëjące"
+msgstr "^Zrëszë systemã z pierszegò cwiardegò diskù"

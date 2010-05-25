@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
-"PO-Revision-Date: 2006-05-22 20:21+0000\n"
-"Last-Translator: Mykas0 <Mykas0@gmail.com>\n"
+"PO-Revision-Date: 2006-10-05 21:40+0000\n"
+"Last-Translator: Susana <susana.pereira@gmail.com>\n"
 "Language-Team: portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -255,27 +255,27 @@ msgstr "Nenhuma"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Alto Contraste"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Lupa"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Leitor de Ecrã"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Modificadores de Teclado"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Teclado no Ecrã"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -354,9 +354,8 @@ msgstr "Instalar um servidor ^LAMP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a comm^and-line system"
-msgstr "Instalar um ^servidor"
+msgstr "Instalar um sistema de linha de com^andos"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -377,18 +376,3 @@ msgstr "Teste de ^Memória"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "Iniciar do ^primeiro disco rígido"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Deficiência Visual Baixa"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Deficiência Visual Moderada"
-
-#~ msgid "Blindness"
-#~ msgstr "Cegueira"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Dificuldades Motoras Menores"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Dificuldades Motoras - dispositivos apontadores"

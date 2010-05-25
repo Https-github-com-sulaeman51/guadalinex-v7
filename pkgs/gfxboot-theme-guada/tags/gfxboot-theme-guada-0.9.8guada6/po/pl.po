@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-05-22 20:21+0000\n"
-"Last-Translator: Tomasz Dominikowski <dominikowski@gmail.com>\n"
+"PO-Revision-Date: 2006-09-29 11:51+0000\n"
+"Last-Translator: Daniel Koć <kocio@linuxnews.pl>\n"
 "Language-Team: Polish <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -251,27 +251,27 @@ msgstr "Brak"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Wysoki kontrast"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Lupa"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Czytnik ekranu"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Keyboard Modifiers"
-msgstr ""
+msgstr "Modyfikatory klawiszowe"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Klawiatura ekranowa"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -326,7 +326,7 @@ msgstr "Uruchom Xubuntu w bezpiecznym trybie ^graficznym"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "^Zainstaluj na twardym dysku"
+msgstr "Zainstaluj w trybie ^tekstowym"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
@@ -373,18 +373,3 @@ msgstr "^Test pamięci"
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
 msgstr "^Uruchom system z pierwszego dysku twardego"
-
-#~ msgid "Lesser Visual Impairment"
-#~ msgstr "Niewielkie upośledzenie wzroku"
-
-#~ msgid "Moderate Visual Impairment"
-#~ msgstr "Umiarkowane upośledzenie wzroku"
-
-#~ msgid "Blindness"
-#~ msgstr "Ślepota"
-
-#~ msgid "Minor Motor Difficulties"
-#~ msgstr "Niewielkie problemy ruchowe"
-
-#~ msgid "Motor Difficulties - pointing devices"
-#~ msgstr "Problemy ruchowe - urządzenia wskazujące"
