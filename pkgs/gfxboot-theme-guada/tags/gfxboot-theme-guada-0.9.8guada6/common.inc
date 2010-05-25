@@ -1460,13 +1460,9 @@
 
 /transp 0x30 def
 
-800 600 16 findmode setmode not {
-  800 600 32 findmode setmode not {
-    640 480 16 findmode setmode not {
-      640 480 32 findmode setmode not {
-        false .end
-      } if
-    } if
+640 480 16 findmode setmode not {
+  640 480 32 findmode setmode not {
+    false .end
   } if
 } if
 
