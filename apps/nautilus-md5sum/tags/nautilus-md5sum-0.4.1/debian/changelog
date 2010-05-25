@@ -1,9 +1,11 @@
-nautilus-md5sum (0.3.4-0ubuntu1) karmic; urgency=low
+nautilus-md5sum (0.3.4-0ubuntu2) karmic; urgency=low
 
   * Added swedish translations (po/sv.po)
-  * Merge from branch distutils to change the method install package to distutils method
- 
- -- David Amián Valle <amialinux@gmail.com>  Mon, 07 Sep 2009 13:43:56 +0200
+  * Merge from branch distutils to change the method
+    install package to distutils method
+  * Change standards-version to 3.8.3
+
+ -- David Amián Valle <amialinux@gmail.com>  Mon, 07 Sep 2009 14:02:45 +0200
 
 nautilus-md5sum (0.3.3-0ubuntu1) karmic; urgency=low
 
