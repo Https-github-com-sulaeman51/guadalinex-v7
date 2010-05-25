@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.1.12) UNRELEASED; urgency=low
+
+  * Switch selected and deselected colours in boot option menu, since blue
+    is a better deselected/background colour (thanks, Paul Sladen).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sat,  4 Feb 2006 18:20:09 +0000
+
 gfxboot-theme-ubuntu (0.1.11) dapper; urgency=low
 
   * Disable transparent menus: they make it too difficult for visually
