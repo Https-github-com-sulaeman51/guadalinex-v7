@@ -6,16 +6,17 @@ Maintainer: Juanje Ojeda Croissier <juanje@ubuntu.com>
 Uploaders: David Amián <amialinux@gmail.com>,
            Álvaro Pinel <alvaropinel@gmail.com>,
            Juanje Ojeda Croissier <jojeda@emergya.es>
-Build-Depends: debhelper (>= 7)
-Build-Depends-Indep: gettext
+Build-Depends: debhelper (>= 7), cdbs (>=0.4.43), python-all-dev (>=2.3.5-11)
+Build-Depends-Indep: python-central (>=0.5.6), gettext, python-distutils-extra
 Standards-Version: 3.8.2
 Homepage: http://launchpad.net/nautilus-md5sum
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/nautilus-md5sum/trunk/changes
 Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/nautilus-md5sum/trunk
+XS-Python-Version: current
 
 Package: nautilus-md5sum
 Architecture: all
-Depends: ${misc:Depends}, python, python-nautilus, python-dev, nautilus, python-gtk2, python-glade2, gettext
+Depends: ${misc:Depends}, python, python-nautilus, nautilus, python-gtk2, python-glade2
 Description: Nautilus' extension for checking MD5 sum
  Nautilus' extension for checking MD5 sum of iso files.
  .

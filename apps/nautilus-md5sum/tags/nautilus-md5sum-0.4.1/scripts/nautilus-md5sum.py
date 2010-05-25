@@ -39,7 +39,7 @@ gettext.install("nautilus-md5sum")
 #Global
 NAME_APP = "nautilus-md5sum"
 FORMAT = ["application/x-cd-image"]
-PATH = os.path.abspath(os.path.dirname(__file__))+"/"
+PATH = "/usr/share/nautilus-md5sum/"
 PATH_ICON = "/usr/share/icons/"
 
 
