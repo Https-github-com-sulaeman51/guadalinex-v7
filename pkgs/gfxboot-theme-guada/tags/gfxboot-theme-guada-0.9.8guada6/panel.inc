@@ -42,11 +42,11 @@
     syslinux {
 
       [ .panel.both [ keyF2 0 "F2" /panel.lang /panel.lang.width /panel.lang.update /lang.init ] ]
-      [ .panel.both [ keyF3 0 "F3" /panel.video /panel.video.width /panel.video.update /video.init ] ]
-      [ .panel.both [ keyF4 0 "F4" /panel.access /panel.access.width /panel.access.update /access.init ] ]
-      [ .panel.short [ keyF5 0 "F5" /panel.options /panel.options.width /panel.options.update .undef ] ]
+      [ .panel.both [ keyF3 0 "F3" /panel.keymap /panel.keymap.width /panel.keymap.update /keymap.init ] ]
+      [ .panel.both [ keyF4 0 "F4" /panel.video /panel.video.width /panel.video.update /video.init ] ]
+      [ .panel.both [ keyF5 0 "F5" /panel.access /panel.access.width /panel.access.update /access.init ] ]
 
-      [ .panel.full [ keyF5 0 "F5" /panel.keymap /panel.keymap.width /panel.keymap.update /keymap.init ] ]
+      [ .panel.short [ keyF6 0 "F6" /panel.options /panel.options.width /panel.options.update .undef ] ]
 
       is_live not {
 	[ .panel.full [ keyF6 0 "F6" /panel.dimode /panel.dimode.width /panel.dimode.update /dimode.init ] ]
