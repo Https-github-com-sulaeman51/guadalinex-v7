@@ -1,13 +1,16 @@
-Index: newtrunk/common.inc
+Index: trunk/common.inc
 ===================================================================
---- newtrunk.orig/common.inc	2010-04-09 14:31:18.000000000 +0200
-+++ newtrunk/common.inc	2010-04-09 14:33:21.000000000 +0200
-@@ -978,7 +978,7 @@
-       1 add
-     } forall
-     tmp dup setlang pop setkeymap
--    /lang.displayed true def
-+    /lang.displayed false def
-   } {
-     pop
-     "en" dup setlang pop setkeymap
+--- trunk.orig/common.inc	2010-04-14 15:48:15.000000000 +0200
++++ trunk/common.inc	2010-04-14 15:49:28.000000000 +0200
+@@ -528,8 +528,9 @@
+ 
+     } if
+ 
+-    lang.displayed not { panel.lang } if
+-  } ifelse
++% GUADA HACK to hide language panel
++%    lang.displayed not { panel.lang } if
++%  } ifelse
+ 
+   50 sound.setvolume
+   "startup.mod" findfile dup .undef ne {
