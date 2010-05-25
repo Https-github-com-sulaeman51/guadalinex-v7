@@ -1,3 +1,11 @@
+gfxboot-theme-guada (0.9.8guada4) lucid; urgency=low
+
+  * debian/patches/change-default-lang: path to set default lang to 'es'
+  * debian/patches/disable-lang-panel: fixed the patch that hides language
+    panel selection
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Wed, 14 Apr 2010 16:08:23 +0100
+
 gfxboot-theme-guada (0.9.8guada3) lucid; urgency=low
 
   * debian/gfxboot-theme-guada.install: 
