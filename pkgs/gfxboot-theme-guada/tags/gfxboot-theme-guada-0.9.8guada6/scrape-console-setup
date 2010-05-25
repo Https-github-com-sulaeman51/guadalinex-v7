@@ -142,7 +142,6 @@ my @non_latin = (
     'in',
     'ir',
     'iku',
-    'jp',
     'kan',
     'kh',
     'la',
@@ -184,11 +183,13 @@ print <<EOF;
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
-/.km.name    0 def
-/.km.map     1 def
-/.km.display 2 def
-/.km.locales 3 def
-/.km.model   4 def
+/.km.name         0 def
+/.km.map          1 def
+/.km.display      2 def
+/.km.locales      3 def
+/.km.model        4 def
+/.km.real_layout  5 def
+/.km.real_variant 6 def
 
 EOF
 
@@ -281,8 +282,14 @@ for my $keymap (@keymaps) {
     }
 }
 
+my %real_keymaps;
 for my $keymap (@non_latin) {
     $keycodes{$keymap} = $keycodes{us};
+    if ($keymap eq 'lt') {
+	$real_keymaps{$keymap} = ['lt,lt', 'basic,us'];
+    } else {
+	$real_keymaps{$keymap} = ["us,$keymap"];
+    }
 }
 
 my %keymapfunc;
@@ -361,7 +368,19 @@ for my $keymap (sort { $descriptions{$a} cmp $descriptions{$b} } @keymaps) {
     } else {
 	$model = '.undef';
     }
-    print qq{  [ "$keymap" $keymapfunc{$keymap} "$descriptions{$keymap}" $localelist $model ]\n};
+    my $real_layout;
+    if (exists $real_keymaps{$keymap}) {
+	$real_layout = qq{"$real_keymaps{$keymap}[0]"};
+    } else {
+	$real_layout = '.undef';
+    }
+    my $real_variant;
+    if (exists $real_keymaps{$keymap} and @{$real_keymaps{$keymap}} > 1) {
+	$real_variant = qq{"$real_keymaps{$keymap}[1]"};
+    } else {
+	$real_variant = '.undef';
+    }
+    print qq{  [ "$keymap" $keymapfunc{$keymap} "$descriptions{$keymap}" $localelist $model $real_layout $real_variant ]\n};
     $us_index = $i if $keymap eq 'us';
     ++$i;
 }
