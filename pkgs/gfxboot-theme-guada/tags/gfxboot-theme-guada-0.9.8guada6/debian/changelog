@@ -1,4 +1,4 @@
-gfxboot-theme-ubuntu (0.5.10) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.5.10) hardy; urgency=low
 
   * Fix a stack leak in menuitemmap.
   * Remove the unused dia_install.inc and everything associated with it
@@ -10,7 +10,7 @@ gfxboot-theme-ubuntu (0.5.10) UNRELEASED; urgency=low
     again. Thanks to Kees Cook for several hours of staring at assembly code
     and pointing me in useful directions.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Tue, 18 Mar 2008 01:19:53 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 18 Mar 2008 01:40:15 +0000
 
 gfxboot-theme-ubuntu (0.5.9) hardy; urgency=low
 
