@@ -1,5 +1,29 @@
 gfxboot-theme-ubuntu (0.1.0) dapper; urgency=low
 
-  * Initial release.
+  * Initial release, based on the SuSE theme in gfxboot 3.2.5. Notable
+    changes from SuSE:
+    - Remove "Christmas penguins" theme.
+    - Remove driver update disk feature.
+    - Remove boot loader splash; usplash should be able to provide
+      everything we need along these lines.
+    - Remove SuSE-specific images and sounds.
+    - Drop back to just 640x480 modes, at least for now.
+    - Use "splash.pcx" in the syslinux configuration directory as the
+      background image if we find it. We'll use this for alternate
+      Ubuntu/Kubuntu/Edubuntu branding.
+    - Interpret a subset of the syslinux simple menu configuration syntax in
+      the isolinux configuration file to allow hiding menu items and setting
+      human-readable labels.
+    - Remove all help texts (which were SuSE-specific anyway); the intent is
+      for this to be a generic theme and to put help texts elsewhere,
+      probably in debian-installer. Disable the help panel item if no help
+      texts are available.
+    - Various visual rearrangements.
+    - Use the installed version of getx11font rather than that in the
+      grandparent directory.
+    - Always show the full panel rather than having multiple modes. 
+    - Remove bizarre "move down one boot menu option the first time a key is
+      pressed" weirdness.
+    - Use subtler boot menu selection colours in place of inverse-video.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sat, 10 Dec 2005 10:48:12 +0000
