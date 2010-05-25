@@ -6,6 +6,8 @@ gfxboot-theme-ubuntu (0.5.9) UNRELEASED; urgency=low
     (basic) is Latin.
   * Adjust console-setup/layoutcode and (perhaps) console-setup/variantcode
     when booting with a non-Latin keymap (LP: #200803).
+  * Ensure that boot parameters are displayed immediately after pressing F6
+    (LP: #198536).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue, 11 Mar 2008 00:54:43 +0000
 
