@@ -1,0 +1,6 @@
+Name: nautilus-md5sum-notification
+Priority: High
+Terminal: False
+DontShowAfterReboot: True
+DisplayIf: true
+Description: Nautilus md5sum ha sido instalado. Para poder utilizarlo es necesario reiniciar su sesión.
