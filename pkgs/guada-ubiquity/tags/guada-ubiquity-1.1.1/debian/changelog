@@ -1,3 +1,10 @@
+guada-ubiquity (1.1.1) lucid; urgency=low
+
+  * guada-ubiquity.install: updated
+  * prerm: updated. minor changes.
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 25 May 2010 09:47:11 +0200
+
 guada-ubiquity (1.1.0) lucid; urgency=low
 
   * debian/control: updated uploaders field
