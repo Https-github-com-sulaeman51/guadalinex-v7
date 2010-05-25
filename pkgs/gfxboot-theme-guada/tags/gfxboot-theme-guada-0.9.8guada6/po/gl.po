@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2005-07-27 11:49+0200\n"
-"Last-Translator: Pedro Silva <goretoxo@gmail.com>\n"
+"PO-Revision-Date: 2006-03-18 13:59+0000\n"
+"Last-Translator: Pedro Silva  <goretoxo@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,7 +44,8 @@ msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
-"Vai deixar o menu de inicio grafico\npara seguir en modo texto"
+"Vai deixar o menu de inicio grafico\n"
+"para seguir en modo texto"
 
 #. txt_help
 msgid "Help"
@@ -57,13 +58,25 @@ msgstr "Iniciando..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
-msgid "Loading Linux Kernel\n\n\n"
-msgstr "Cargando o kernel linux\n\n\n"
+msgid ""
+"Loading Linux Kernel\n"
+"\n"
+"\n"
+msgstr ""
+"Cargando o kernel linux\n"
+"\n"
+"\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
-msgid "Loading memtest86\n\n\n"
-msgstr "Cargando memtest86\n\n\n"
+msgid ""
+"Loading memtest86\n"
+"\n"
+"\n"
+msgstr ""
+"Cargando memtest86\n"
+"\n"
+"\n"
 
 #. info box title
 #. txt_info_title
@@ -110,8 +123,14 @@ msgstr "Contrasinal"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
-msgid "Enter your password:   \n\n\n"
-msgstr "Escriba o seu contrasinal:   \n\n\n"
+msgid ""
+"Enter your password:   \n"
+"\n"
+"\n"
+msgstr ""
+"Escriba o seu contrasinal:   \n"
+"\n"
+"\n"
 
 #. dvd warning title
 #. txt_dvd_warning_title
@@ -148,7 +167,7 @@ msgstr "Disco (buscar nos discos)\n"
 
 #. txt_directory
 msgid "Directory\n"
-msgstr "Directorio"
+msgstr "Directorio\n"
 
 #. dialog title for ftp installation
 #. txt_ftp_title
@@ -166,7 +185,7 @@ msgstr "Contrasinal\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (anonymous login if empty)\n"
-msgstr "Usuario (se o deixa valeiro, entrará como anónimo)"
+msgstr "Usuario (se o deixa valeiro, entrará como anónimo)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
@@ -176,7 +195,7 @@ msgstr "Instalación via NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr "Usuario (se o deixa valeiro, entrará como \"guest\")"
+msgstr "Usuario (se o deixa valeiro, entrará como \"guest\")\n"
 
 #. dialog title for smb installation
 #. txt_smb_title

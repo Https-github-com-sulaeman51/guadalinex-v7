@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
-"PO-Revision-Date: 2005-08-25 18:37+0100\n"
-"Last-Translator: Rui Az. <tradutores@ubuntu-pt.org>\n"
+"PO-Revision-Date: 2006-03-18 20:24+0000\n"
+"Last-Translator: Rui Az. <astronomy@mail.pt>\n"
 "Language-Team: portuguese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -114,12 +114,12 @@ msgstr ""
 
 #. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
-"Este não é um disco de arranque de <product>.\n"
+"Este não é um disco de arranque adequado.\n"
 "Por favor insira o disco de arranque %u."
 
 #. password dialog title

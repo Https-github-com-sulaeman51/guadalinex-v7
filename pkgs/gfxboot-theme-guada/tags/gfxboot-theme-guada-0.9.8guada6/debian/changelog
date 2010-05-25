@@ -6,6 +6,10 @@ gfxboot-theme-ubuntu (0.1.18) UNRELEASED; urgency=low
   * Update language names from localechooser 0.27ubuntu13, adding Thai.
   * Fix comments in .po/.pot files; maintainer comments should start with
     "#.", not "# ".
+  * Update translations from Rosetta: Breton, German, Greek, Spanish,
+    Finnish, French, Galician, Hungarian, Italian, Lithuanian, Norwegian
+    Bokmål, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian,
+    Slovak, Swedish, Chinese (China), Chinese (Taiwan).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Tue,  4 Apr 2006 16:25:30 +0100
 
