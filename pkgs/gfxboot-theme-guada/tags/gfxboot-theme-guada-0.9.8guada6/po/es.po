@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: es\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2008-09-12 15:21+0000\n"
+"PO-Revision-Date: 2008-10-19 10:29+0000\n"
 "Last-Translator: Ricardo Pérez López <ricpelo@gmail.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-10 23:36+0000\n"
+"X-Launchpad-Export-Date: 2008-10-19 19:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -300,7 +300,7 @@ msgstr "^Instalar Xubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_server
 msgid "^Install Ubuntu Server"
-msgstr ""
+msgstr "^Instalar Ubuntu Server"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -345,7 +345,7 @@ msgstr "Instalar un sistema mínimo"
 #. Installation mode.
 #. txt_menuitem_minimalvm
 msgid "Install a minimal virtual machine"
-msgstr ""
+msgstr "Instalar una máquina virtual mínima"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check

@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2008-08-22 08:49+0000\n"
-"Last-Translator: Reno S. Anwari <sireno.talk@gmail.com>\n"
-"Language-Team: Indonesian <id@li.org>\n"
+"PO-Revision-Date: 2008-10-14 09:49+0000\n"
+"Last-Translator: Andy Apdhani <imtheface@ubuntu.com>\n"
+"Language-Team: Tim Penerjemah Ubuntu Indonesian <l10@ubuntu-id.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2008-10-10 23:36+0000\n"
+"X-Launchpad-Export-Date: 2008-10-19 19:48+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "OK"
+msgstr "Oke"
 
 #. cancel button label
 #. txt_cancel
@@ -99,7 +99,7 @@ msgstr ""
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "Password"
+msgstr "Sandi"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
@@ -108,7 +108,7 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Masukkan password Anda:   \n"
+"Masukkan sandi Anda:   \n"
 "\n"
 "\n"
 
@@ -138,7 +138,7 @@ msgstr "Matikan sistem sekarang?"
 
 #. txt_password
 msgid "Password\n"
-msgstr "Password\n"
+msgstr "Sandi\n"
 
 #. button label for other/more options
 #. txt_other_options
@@ -158,12 +158,12 @@ msgstr "Keymap"
 #. label for installation mode selection
 #. txt_modes
 msgid "Modes"
-msgstr "Moda"
+msgstr "Mode"
 
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
-msgstr "Tekan F4 untuk memilih start-up dan moda instalasi alternatif"
+msgstr "Tekan F3 untuk memilih start-up dan mode instalasi alternatif"
 
 #. label for modes menu
 #. txt_mode_normal
@@ -228,22 +228,22 @@ msgstr "Semuanya"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "^Coba Ubuntu tanpa melakukan perubahan di komputer anda"
+msgstr "Coba Ubuntu ^tanpa melakukan perubahan di komputer Anda"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "^Coba Kubuntu tanpa melakukan perubahan di komputer anda"
+msgstr "Coba Kubuntu ^tanpa melakukan perubahan di komputer Anda"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "^Coba Edubuntu tanpa melakukan perubahan di komputer anda"
+msgstr "Coba Edubuntu ^tanpa melakukan perubahan di komputer Anda"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "^Coba Xubuntu tanpa melakukan perubahan di komputer anda"
+msgstr "Coba Xubuntu ^tanpa melakukan perubahan di komputer Anda"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
@@ -253,27 +253,27 @@ msgstr ""
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update CD"
-msgstr "Gunakan CD driver update"
+msgstr "Gunakan CD driver terbaru"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
-msgstr "Instal Ubuntu dalam moda teks"
+msgstr "Instal Ubuntu dalam mode teks"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
 msgid "^Install Kubuntu in text mode"
-msgstr "^Instal Kubuntu dalam moda teks"
+msgstr "^Instal Kubuntu dalam mode teks"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_edubuntu
 msgid "^Install Edubuntu in text mode"
-msgstr "^Instal Edubuntu dalam moda teks"
+msgstr "^Instal Edubuntu dalam mode teks"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr "^Instal Xuubuntu dalam moda teks"
+msgstr "^Instal Xubuntu dalam mode teks"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -283,7 +283,7 @@ msgstr "^Instal Ubuntu"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr "^Instal Ubuntu"
+msgstr "^Instal Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
@@ -319,7 +319,7 @@ msgstr "Instalasi mode teks untuk pabrika^n"
 #. Installation mode.
 #. txt_menuitem_lamp
 msgid "Install a LAMP server"
-msgstr "Intal server LAMP"
+msgstr "Instal server LAMP"
 
 #. Installation mode.
 #. txt_menuitem_ltsp
@@ -329,7 +329,7 @@ msgstr "Instal server LTSP"
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
 msgid "Install a Diskless Image Server"
-msgstr ""
+msgstr "Instal Diskless Image Server"
 
 #. Installation mode.
 #. txt_menuitem_cli
@@ -340,7 +340,7 @@ msgstr "Install ^server"
 #. Installation mode.
 #. txt_menuitem_minimal
 msgid "Install a minimal system"
-msgstr ""
+msgstr "Instal sistem minimal"
 
 #. Installation mode.
 #. txt_menuitem_minimalvm
@@ -355,7 +355,7 @@ msgstr "Periksa kerusakan pada ^CD"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr "Perbaikan sistem ^rusak"
+msgstr "Perbaikan sistem yang ^rusak"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest

@@ -1,6 +1,7 @@
 gfxboot-theme-ubuntu (0.6.9) UNRELEASED; urgency=low
 
   * Rebuild font based on debian-installer 20080522ubuntu20.
+  * Update translations from Launchpad.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 16 Oct 2008 20:19:22 +0100
 
