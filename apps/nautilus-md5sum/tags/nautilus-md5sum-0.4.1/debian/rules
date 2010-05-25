@@ -47,7 +47,7 @@ clean:
 install: build
 	dh_testdir
 	dh_testroot
-	dh_clean -k 
+	dh_prep 
 	dh_installdirs
 	dh_install nautilus-md5sum.py /usr/lib/nautilus/extensions-2.0/python/
 	dh_install nautilus-md5sum-notification /usr/share/nautilus-md5sum/
