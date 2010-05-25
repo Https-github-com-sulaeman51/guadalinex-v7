@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-03-27 22:16+0000\n"
-"PO-Revision-Date: 2009-08-25 15:18+0000\n"
-"Last-Translator: czajkowski <laura@lczajkowski.com>\n"
+"PO-Revision-Date: 2010-03-23 14:07+0000\n"
+"Last-Translator: Derm <Unknown>\n"
 "Language-Team: Irish <ga@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -61,7 +61,7 @@ msgstr "Cabhair"
 #. info box title
 #. txt_info_title
 msgid "Boot loader"
-msgstr "Lodoir tosaigh"
+msgstr "Lódálaí bútála"
 
 #. error box title
 #. txt_error_title
@@ -182,7 +182,7 @@ msgstr "Faic"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Ardchodarsnacht"
 
 #. label for accessibility menu
 #. txt_access_v2
@@ -222,22 +222,22 @@ msgstr "Gach rud"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without installing"
-msgstr ""
+msgstr "Bain ^triail as Ubuntu gan í a shuiteáil."
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without installing"
-msgstr ""
+msgstr "Bain ^triail as Kubuntu gan í a shuiteáil."
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without installing"
-msgstr ""
+msgstr "Bain ^triail as Edubuntu gan í a shuiteáil."
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without installing"
-msgstr ""
+msgstr "Bain ^triail as Xubuntu gan í a shuiteáil."
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
@@ -282,7 +282,7 @@ msgstr ""
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr ""
+msgstr "Suiteáil Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu

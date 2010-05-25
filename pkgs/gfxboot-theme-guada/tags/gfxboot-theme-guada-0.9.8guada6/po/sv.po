@@ -5,13 +5,13 @@ msgstr ""
 "Project-Id-Version: bootloader\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-04 23:33+0000\n"
+"PO-Revision-Date: 2010-03-19 21:53+0000\n"
 "Last-Translator: Daniel Nylander <yeager@ubuntu.com>\n"
 "Language-Team: Svenska <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-Language: Swedish\n"
@@ -253,7 +253,7 @@ msgstr "^Prova Ubuntu Netbook utan att installera"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_netbook
 msgid "^Try Kubuntu Netbook without installing"
-msgstr ""
+msgstr "^Prova Kubuntu Netbook utan att installera"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
@@ -328,7 +328,7 @@ msgstr "^Installera Ubuntu Netbook"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
-msgstr ""
+msgstr "^Installera Kubuntu Netbook"
 
 #. Installation mode.
 #. txt_menuitem_workstation

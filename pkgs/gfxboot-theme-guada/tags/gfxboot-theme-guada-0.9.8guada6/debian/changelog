@@ -2,6 +2,7 @@ gfxboot-theme-ubuntu (0.9.8) UNRELEASED; urgency=low
 
   * Regenerate font, among other things including more Kazakh characters
     (LP: #434406).
+  * Update translations from Launchpad.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 29 Mar 2010 23:00:53 +0100
 

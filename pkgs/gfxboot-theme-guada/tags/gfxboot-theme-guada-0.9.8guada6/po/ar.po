@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2010-02-22 17:29+0000\n"
+"PO-Revision-Date: 2010-03-16 09:40+0000\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -178,7 +178,7 @@ msgstr "الإتاحة"
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr "بلا"
+msgstr "لا شيء"
 
 #. label for accessibility menu
 #. txt_access_v1
@@ -188,7 +188,7 @@ msgstr "عال التباين"
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr "مكبر"
+msgstr "مكبّر"
 
 #. label for accessibility menu
 #. txt_access_v3
@@ -223,27 +223,27 @@ msgstr "كل شيء"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Try Ubuntu without installing"
-msgstr ""
+msgstr "^جرِّب أوبونتو دون تثبيتها"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Try Kubuntu without installing"
-msgstr ""
+msgstr "^جرِّب كوبونتو دون تثبيتها"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Try Edubuntu without installing"
-msgstr ""
+msgstr "^جرِّب إيديوبونتو دون تثبيتها"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Try Xubuntu without installing"
-msgstr ""
+msgstr "^ جرِّب إكس أوبونتو دون تثبيتها"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_mid
 msgid "^Try Ubuntu MID without installing"
-msgstr ""
+msgstr "^ جرِّب أوبونتومِد دون تثبيتها"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook
@@ -308,7 +308,7 @@ msgstr "^ثبت خادوم أوبونتو"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_enterprise_cloud
 msgid "Install Ubuntu ^Enterprise Cloud"
-msgstr ""
+msgstr "ثبّت أبونتو ال^سحاب"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
@@ -318,7 +318,7 @@ msgstr "^ثبت استوديو أوبونتو"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_mid
 msgid "^Install Ubuntu MID"
-msgstr ""
+msgstr "^ثبِّت أوبونتو MID"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook
@@ -413,4 +413,4 @@ msgstr "^ثبت ميثبونتو"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_mythbuntu
 msgid "^Try Mythbuntu without installing"
-msgstr ""
+msgstr "^جرِّب مِثبونتو دون تثبيتها"

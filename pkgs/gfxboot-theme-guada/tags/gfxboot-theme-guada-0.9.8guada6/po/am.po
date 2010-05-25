@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-03-27 22:16+0000\n"
-"PO-Revision-Date: 2010-02-13 19:35+0000\n"
+"PO-Revision-Date: 2010-03-09 00:04+0000\n"
 "Last-Translator: samson <Unknown>\n"
 "Language-Team: Amharic <am@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-02-25 12:44+0000\n"
+"X-Launchpad-Export-Date: 2010-03-29 22:08+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -247,9 +247,8 @@ msgstr "^ኡቡንቱ ሚድን ሳይገጥሙ ይሞክሩት"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_netbook
-#, fuzzy
 msgid "^Try Ubuntu Netbook without installing"
-msgstr "^ኡቡንቱ ኔትቡክ ሪሚክስን ሳይገጥሙ ይሞክሩት"
+msgstr "^ኡቡንቱ ኔትቡክን ሳየገጥሙ ይሞክሩ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_netbook
@@ -323,9 +322,8 @@ msgstr "^መግጠም ኡቡንቱ መካከለኛን"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu_netbook
-#, fuzzy
 msgid "^Install Ubuntu Netbook"
-msgstr "^መግጠም ኡቡንቱ ኔትቡክ ሪሚክስ"
+msgstr "^ኡቡንቱ ኔትቡክን ይግጠሙ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu_netbook
