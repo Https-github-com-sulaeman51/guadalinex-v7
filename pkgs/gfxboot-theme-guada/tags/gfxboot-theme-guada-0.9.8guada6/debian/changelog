@@ -7,7 +7,8 @@ gfxboot-theme-ubuntu (0.1.0) dapper; urgency=low
     - Remove boot loader splash; usplash should be able to provide
       everything we need along these lines.
     - Remove SuSE-specific images and sounds.
-    - Drop back to just 640x480 modes, at least for now.
+    - Drop back to just 640x480 modes (with a last-resort fallback to
+      640x400x4), at least for now.
     - Use "splash.pcx" in the syslinux configuration directory as the
       background image if we find it. We'll use this for alternate
       Ubuntu/Kubuntu/Edubuntu branding.

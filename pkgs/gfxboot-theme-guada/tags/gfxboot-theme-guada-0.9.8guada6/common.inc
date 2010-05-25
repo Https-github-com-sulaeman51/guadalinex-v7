@@ -1432,7 +1432,9 @@
 
 640 480 16 findmode setmode not {
   640 480 32 findmode setmode not {
-    false .end
+    640 400 4 findmode setmode not {
+      false .end
+    } if
   } if
 } if
 
