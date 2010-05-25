@@ -1,3 +1,11 @@
+gfxboot-theme-guada (0.9.8guada6) lucid; urgency=low
+
+  * debian/common.inc: removed Ubuntu hack to center its logo
+  * debian/splash.inc: removed use of the access.pcx (we'll use a complete
+    img)
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 25 May 2010 17:15:22 +0100
+
 gfxboot-theme-guada (0.9.8guada5) lucid; urgency=low
 
   * debian/patches/series: removed disable-lang-panel
