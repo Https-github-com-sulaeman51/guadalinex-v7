@@ -269,6 +269,12 @@ msgid "Use driver update disc"
 msgstr "Een cd-rom met vernieuwde stuurprogramma's gebruiken"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "Ubuntu in tekstmodus ^installeren"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "Ubuntu in tekstmodus ^installeren"
@@ -287,6 +293,12 @@ msgstr "Edubuntu in tekstmodus ^installeren"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "Xubuntu in tekstmodus ^installeren"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "Ubuntu in tekstmodus ^installeren"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -337,12 +349,6 @@ msgstr "Ubuntu Netbook ^installeren"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "Kubuntu Netbook ^installeren"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "Ubuntu in tekstmodus ^installeren"
 
 #. Installation mode.
 #. txt_menuitem_workstation

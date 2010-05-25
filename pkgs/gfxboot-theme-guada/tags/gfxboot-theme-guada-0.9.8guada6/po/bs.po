@@ -266,6 +266,12 @@ msgid "Use driver update disc"
 msgstr "Koristi disk za nadogradnju driver-a"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "^Instaliraj Ubuntu u tekst modu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "^Instaliraj Ubuntu u tekst modu"
@@ -284,6 +290,12 @@ msgstr "^Instaliraj Edubuntu u tekst modu"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "^Instaliraj Xubuntu u tekst modu"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "^Instaliraj Ubuntu u tekst modu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -334,12 +346,6 @@ msgstr "^Instalirajte Ubuntu Netbook"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "^Instaliraj Ubuntu u tekst modu"
 
 #. Installation mode.
 #. txt_menuitem_workstation

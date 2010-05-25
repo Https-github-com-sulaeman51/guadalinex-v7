@@ -263,6 +263,12 @@ msgid "Use driver update disc"
 msgstr "ഡ്രൈവര്‍ പരിഷ്കരണ ഡിസ്ക് ഉപയോഗിക്കൂ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "വാചക രീതിയില്‍ ഉബുണ്ടു വിന്യസിക്കൂ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "വാചക രീതിയില്‍ ഉബുണ്ടു വിന്യസിക്കൂ"
@@ -281,6 +287,12 @@ msgstr "വാചക രീതിയില്‍ എഡുബുണ്ടു വ
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "വാചക രീതിയില്‍ ക്സുബുണ്ടു വിന്യസിക്കൂ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "വാചക രീതിയില്‍ ഉബുണ്ടു വിന്യസിക്കൂ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -331,12 +343,6 @@ msgstr ""
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "വാചക രീതിയില്‍ ഉബുണ്ടു വിന്യസിക്കൂ"
 
 #. Installation mode.
 #. txt_menuitem_workstation

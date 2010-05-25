@@ -266,6 +266,12 @@ msgid "Use driver update disc"
 msgstr "Uzi pelilĝisdatigan diskon"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "^Instali Ubuntu-n per teksta reĝimo"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "^Instali Ubuntu-n per teksta reĝimo"
@@ -284,6 +290,12 @@ msgstr "^Instali Edubuntu-n per teksta reĝimo"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "^Instali Xubuntu-n per teksta reĝimo"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "^Instali Ubuntu-n per teksta reĝimo"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -334,12 +346,6 @@ msgstr "^Instali Ubuntu Netbook-on"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "^Instali Kubuntu Netbook-on"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "^Instali Ubuntu-n per teksta reĝimo"
 
 #. Installation mode.
 #. txt_menuitem_workstation

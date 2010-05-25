@@ -263,6 +263,12 @@ msgid "Use driver update disc"
 msgstr "Dîska rojanekirina ajokara bikarhêner"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "Ubuntuyê di moda deqan de saz bike"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "Ubuntuyê di moda deqan de saz bike"
@@ -281,6 +287,12 @@ msgstr "^Edubuntuyê di moda deqan de saz bike"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "^Xubuntuyê di moda deqan de saz bike"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "Ubuntuyê di moda deqan de saz bike"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -331,12 +343,6 @@ msgstr "Ubuntu Netbook ^Saz Bike"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "Ubuntuyê di moda deqan de saz bike"
 
 #. Installation mode.
 #. txt_menuitem_workstation

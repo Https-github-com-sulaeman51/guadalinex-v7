@@ -267,6 +267,12 @@ msgid "Use driver update disc"
 msgstr "Käytä ajuripäivityslevyä"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "Asenna Ubuntu tek^stitilassa"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "Asenna Ubuntu tek^stitilassa"
@@ -285,6 +291,12 @@ msgstr "Asenna Edubuntu tek^stitilassa"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "Asenna Xubuntu tek^stitilassa"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "Asenna Ubuntu tek^stitilassa"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -335,12 +347,6 @@ msgstr "^Asenna Ubuntun Netbook-versio"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "^Asenna Kubuntun Netbook-versio"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "Asenna Ubuntu tek^stitilassa"
 
 #. Installation mode.
 #. txt_menuitem_workstation

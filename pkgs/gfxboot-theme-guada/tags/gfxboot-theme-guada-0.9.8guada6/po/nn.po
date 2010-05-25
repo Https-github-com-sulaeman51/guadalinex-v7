@@ -266,6 +266,12 @@ msgid "Use driver update disc"
 msgstr "Bruk plate med drivaroppdateringar"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "^Installer Ubuntu i tekstmodus"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "^Installer Ubuntu i tekstmodus"
@@ -283,6 +289,12 @@ msgstr "^Installer Edubuntu i tekstmodus"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
+msgstr "^Installer Ubuntu i tekstmodus"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
 msgstr "^Installer Ubuntu i tekstmodus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
@@ -334,12 +346,6 @@ msgstr "^Installer Ubuntu Netbook"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "^Installer Ubuntu i tekstmodus"
 
 #. Installation mode.
 #. txt_menuitem_workstation

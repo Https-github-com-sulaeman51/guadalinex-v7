@@ -264,6 +264,12 @@ msgid "Use driver update disc"
 msgstr "Naudoti tvarkyklių atnaujinimo diską"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "Į^diegti Ubuntu tekstinėje aplinkoje"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "Į^diegti Ubuntu tekstinėje aplinkoje"
@@ -282,6 +288,12 @@ msgstr "Į^diegti Edubuntu tekstinėje aplinkoje"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "Į^diegti Xubuntu tekstinėje aplinkoje"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "Į^diegti Ubuntu tekstinėje aplinkoje"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -332,12 +344,6 @@ msgstr "Į^diegti Ubuntu Netbook"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "Į^diegti Ubuntu tekstinėje aplinkoje"
 
 #. Installation mode.
 #. txt_menuitem_workstation

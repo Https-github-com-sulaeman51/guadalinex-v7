@@ -266,6 +266,12 @@ msgid "Use driver update disc"
 msgstr "Sử dụng đĩa cập nhật trình điều khiển"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "Cài đặt Ubuntu trong chế độ ^văn bản"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "Cài đặt Ubuntu trong chế độ ^văn bản"
@@ -284,6 +290,12 @@ msgstr "Cài đặt Edubuntu trong chế độ ^văn bản"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "Cài đặt Xubuntu trong chế độ ^văn bản"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "Cài đặt Ubuntu trong chế độ ^văn bản"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -334,12 +346,6 @@ msgstr "^Cài đặt Ubuntu Netbook"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "Cài đặt Ubuntu trong chế độ ^văn bản"
 
 #. Installation mode.
 #. txt_menuitem_workstation

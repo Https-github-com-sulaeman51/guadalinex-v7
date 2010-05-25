@@ -265,6 +265,12 @@ msgid "Use driver update disc"
 msgstr "שימוש בעדכון למנהל התקן מתוך דיסק"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "^התקן את אובונטו במצב טקסטואלי"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "^התקן את אובונטו במצב טקסטואלי"
@@ -283,6 +289,12 @@ msgstr "^התקן את אדיובונטו במצב טקסטואלי"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "^התקן את קסובונטו במצב טקסטואלי"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "^התקן את אובונטו במצב טקסטואלי"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -333,12 +345,6 @@ msgstr "ה^תקנת אובונטו לניידים"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr ""
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "^התקן את אובונטו במצב טקסטואלי"
 
 #. Installation mode.
 #. txt_menuitem_workstation

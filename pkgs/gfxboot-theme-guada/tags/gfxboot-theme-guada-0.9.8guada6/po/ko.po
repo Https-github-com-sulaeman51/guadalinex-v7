@@ -266,6 +266,12 @@ msgid "Use driver update disc"
 msgstr "드라이버 업데이트 디스크 사용"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "텍스트 모드에서 우분투 설치 (^I)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "텍스트 모드에서 우분투 설치 (^I)"
@@ -284,6 +290,12 @@ msgstr "텍스트 모드에서 에듀분투 설치 (^I)"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "텍스트 모드에서 주분투 설치 (^I)"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "텍스트 모드에서 우분투 설치 (^I)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -334,12 +346,6 @@ msgstr "우분투 넷북 설치 (^I)"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "^쿠분투 넷북 설치"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "텍스트 모드에서 우분투 설치 (^I)"
 
 #. Installation mode.
 #. txt_menuitem_workstation

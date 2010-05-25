@@ -268,6 +268,12 @@ msgid "Use driver update disc"
 msgstr "Χρήση δίσκου με ενημερώσεις προγραμμάτων οδήγησης"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "^Εγκατάσταση Ubuntu σε κατάσταση κειμένου"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "^Εγκατάσταση Ubuntu σε κατάσταση κειμένου"
@@ -286,6 +292,12 @@ msgstr "^Εγκατάσταση Edubuntu σε κατάσταση κειμένο�
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "^Εγκατάσταση Xubuntu σε κατάσταση κειμένου"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "^Εγκατάσταση Ubuntu σε κατάσταση κειμένου"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -336,12 +348,6 @@ msgstr "^Εγκατάσταση Ubuntu Netbook"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "^Εγκατάσταση Kubuntu Netbook"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "^Εγκατάσταση Ubuntu σε κατάσταση κειμένου"
 
 #. Installation mode.
 #. txt_menuitem_workstation

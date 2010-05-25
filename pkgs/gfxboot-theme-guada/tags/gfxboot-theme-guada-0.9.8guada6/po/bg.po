@@ -269,6 +269,12 @@ msgid "Use driver update disc"
 msgstr "Използване на диск с драйвер"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "^Инсталиране на Убунту в текстов режим"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "^Инсталиране на Убунту в текстов режим"
@@ -287,6 +293,12 @@ msgstr "^Инсталиране на Едубунту в текстов режи
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "^Инсталиране на Xubuntu в текстов режим"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "^Инсталиране на Убунту в текстов режим"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -337,12 +349,6 @@ msgstr "^Инсталиране на Ubuntu Netbook"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "^Инсталиране на Kubuntu Netbook"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "^Инсталиране на Убунту в текстов режим"
 
 #. Installation mode.
 #. txt_menuitem_workstation

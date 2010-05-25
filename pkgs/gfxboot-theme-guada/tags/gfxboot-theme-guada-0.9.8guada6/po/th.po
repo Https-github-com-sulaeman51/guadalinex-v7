@@ -266,6 +266,12 @@ msgid "Use driver update disc"
 msgstr "ใช้แผ่นไดรเวอร์อัพเดต"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_text_guada
+#, fuzzy
+msgid "^Install Guadalinex in text mode"
+msgstr "^ติดตั้ง Ubuntu ในโหมดข้อความ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
 msgid "^Install Ubuntu in text mode"
 msgstr "^ติดตั้ง Ubuntu ในโหมดข้อความ"
@@ -284,6 +290,12 @@ msgstr "^ติดตั้ง Edubuntu ในโหมดข้อความ"
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
 msgstr "^ติดตั้ง Xubuntu ในโหมดข้อความ"
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_guada
+#, fuzzy
+msgid "^Install Guadalinex"
+msgstr "^ติดตั้ง Ubuntu ในโหมดข้อความ"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
@@ -334,12 +346,6 @@ msgstr "^ติดตั้ง Ubuntu Netbook"
 #. txt_menuitem_install_kubuntu_netbook
 msgid "^Install Kubuntu Netbook"
 msgstr "^ติดตั้ง Kubuntu Netbook"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_guada
-#, fuzzy
-msgid "^Install Guadalinex in text mode"
-msgstr "^ติดตั้ง Ubuntu ในโหมดข้อความ"
 
 #. Installation mode.
 #. txt_menuitem_workstation
