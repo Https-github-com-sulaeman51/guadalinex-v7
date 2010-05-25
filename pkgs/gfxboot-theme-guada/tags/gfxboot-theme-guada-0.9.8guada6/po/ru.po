@@ -117,7 +117,7 @@ msgstr ""
 #. txt_insert_disk3
 #, fuzzy, c-format
 msgid ""
-"This is not a <product> boot disk.\n"
+"This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
 "\"Это не <product> загрузочный диск.\n"
@@ -232,4 +232,3 @@ msgstr ""
 #. txt_language
 msgid "Language"
 msgstr ""
-

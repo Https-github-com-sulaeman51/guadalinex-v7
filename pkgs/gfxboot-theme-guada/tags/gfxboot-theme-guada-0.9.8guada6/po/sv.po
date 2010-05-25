@@ -3,6 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
+"POT-Creation-Date: \n"
 "PO-Revision-Date: 2005-08-05 13:19+0100\n"
 "Last-Translator: Anders Norrbring <anders@norrbring.se>\n"
 "Language-Team: Svenska <i18n@suse.de>\n"
@@ -10,7 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
-"POT-Creation-Date: \n"
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -114,9 +114,9 @@ msgstr ""
 
 # <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"This is not a <product> boot disk.\n"
+"This is not a suitable boot disk.\n"
 "Please insert boot disk %u."
 msgstr ""
 "Det här är inte en <product>-startdisk.\n"
@@ -227,4 +227,3 @@ msgstr "Fler alternativ"
 #. txt_language
 msgid "Language"
 msgstr "Språk"
-
