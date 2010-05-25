@@ -350,8 +350,9 @@ msgid "Install a ^LAMP server"
 msgstr "安裝 ^LAMP 伺服器"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_server
-msgid "Install a ^server"
+#. txt_menuitem_cli
+#, fuzzy
+msgid "Install a comm^and-line system"
 msgstr "安裝伺服器 (^s)"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
