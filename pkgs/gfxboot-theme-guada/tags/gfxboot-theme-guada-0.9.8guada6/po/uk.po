@@ -9,13 +9,13 @@ msgstr ""
 "Project-Id-Version: uk(6)\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2007-04-13 22:16+0000\n"
+"PO-Revision-Date: 2008-03-06 15:47+0000\n"
 "Last-Translator: Vadim Abramchuck <abramm@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2007-10-09 09:00+0000\n"
+"X-Launchpad-Export-Date: 2008-03-11 01:24+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -240,12 +240,13 @@ msgstr "Розкладка клавіатури"
 #. label for installation mode selection
 #. txt_modes
 msgid "Modes"
-msgstr ""
+msgstr "Режими"
 
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
 msgstr ""
+"Натисніть F4, щоб обрати інший варіант завантаження та інсталяційні режими"
 
 #. label for d-i mode menu
 #. txt_expert_mode
@@ -265,22 +266,22 @@ msgstr "Немає"
 #. label for accessibility menu
 #. txt_access_v1
 msgid "High Contrast"
-msgstr ""
+msgstr "Високий Контраст"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Magnifier"
-msgstr ""
+msgstr "Збільшувач"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Screen Reader"
-msgstr ""
+msgstr "Читання з екрану"
 
 #. label for accessibility menu
 #. txt_access_brltty
 msgid "Braille Terminal"
-msgstr ""
+msgstr "Термінал Брайля"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -290,7 +291,7 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_m2
 msgid "On-Screen Keyboard"
-msgstr ""
+msgstr "Екранна клавіатура"
 
 #. label for accessibility menu
 #. txt_access_m3
@@ -335,7 +336,7 @@ msgstr "Запустити Ubuntu у безпечному графічному �
 #. Installation mode.
 #. txt_menuitem_driverupdates
 msgid "Use driver update CD"
-msgstr ""
+msgstr "Використовувати CD з оновленнями драйверів"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
@@ -346,37 +347,37 @@ msgstr "Встановити у текстовому режимі"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
 msgid "^Install Kubuntu in text mode"
-msgstr ""
+msgstr "^Встановити Kubuntu у текстовому режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_edubuntu
 msgid "^Install Edubuntu in text mode"
-msgstr ""
+msgstr "^Встановити Eduubuntu у текстовому режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr ""
+msgstr "^Встановити Xubuntu у текстовому режимі"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr ""
+msgstr "^Встановити Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr ""
+msgstr "^Встановити Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
 msgid "^Install Edubuntu"
-msgstr ""
+msgstr "^Встановити Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_xubuntu
 msgid "^Install Xubuntu"
-msgstr ""
+msgstr "^Встановити Xubuntu"
 
 #. Installation mode.
 #. txt_menuitem_workstation
@@ -387,12 +388,12 @@ msgstr "Встановити робочу станцію"
 #. Installation mode.
 #. txt_menuitem_server
 msgid "Install a server"
-msgstr ""
+msgstr "Встановити сервер"
 
 #. Installation mode.
 #. txt_menuitem_oem
 msgid "OEM install (for manufacturers)"
-msgstr ""
+msgstr "OEM інсталяція (для виробників)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
@@ -403,7 +404,7 @@ msgstr "Встановити ^LAMP сервер"
 #. Installation mode.
 #. txt_menuitem_ltsp
 msgid "Install an LTSP server"
-msgstr ""
+msgstr "Встановити сервер LTSP"
 
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
@@ -413,7 +414,7 @@ msgstr ""
 #. Installation mode.
 #. txt_menuitem_cli
 msgid "Install a command-line system"
-msgstr ""
+msgstr "Встановити консольний варіант системи"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check

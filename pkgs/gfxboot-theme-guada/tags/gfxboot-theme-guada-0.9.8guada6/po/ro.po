@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To:  \n"
 "POT-Creation-Date: 2007-10-09 09:00+0000\n"
-"PO-Revision-Date: 2007-10-04 23:55+0000\n"
-"Last-Translator: Mircea MITU <mmitu@bitdefender.com>\n"
+"PO-Revision-Date: 2008-03-06 18:46+0000\n"
+"Last-Translator: Bogdan BOTEZ <bmbogdan@gmail.com>\n"
 "Language-Team: Romanian <ro-kde@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2007-10-09 09:00+0000\n"
+"X-Launchpad-Export-Date: 2008-03-11 01:24+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
 #. ok button label
@@ -237,12 +237,13 @@ msgstr "Mapare"
 #. label for installation mode selection
 #. txt_modes
 msgid "Modes"
-msgstr ""
+msgstr "Moduri"
 
 #. Shown on main menu to point out that more boot options are on F4.
 #. txt_modes_help
 msgid "Press F4 to select alternative start-up and installation modes."
 msgstr ""
+"Apăsaţi F4 pentru a alege modalităţi alternative de începere şi instalare."
 
 #. label for d-i mode menu
 #. txt_expert_mode
@@ -301,121 +302,109 @@ msgstr "Totul"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
-#, fuzzy
 msgid "^Try Ubuntu without any change to your computer"
-msgstr "^Porneşte Ubuntu"
+msgstr "Încercaţi Ubuntu ^fără a modifica ceva la calculator"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
-#, fuzzy
 msgid "^Try Kubuntu without any change to your computer"
-msgstr "^Porneşte Kubuntu"
+msgstr "Încercaţi Kubuntu ^fără a modifica ceva la calculator"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
-#, fuzzy
 msgid "^Try Edubuntu without any change to your computer"
-msgstr "^Porneşte Edubuntu"
+msgstr "Încercaţi Edubuntu ^fără a modifica ceva la calculator"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
-#, fuzzy
 msgid "^Try Xubuntu without any change to your computer"
-msgstr "^Porneşte Xubuntu"
+msgstr "Încercaţi Xubuntu ^fără a modifica ceva la calculator"
 
 #. Installation mode.
 #. txt_menuitem_xforcevesa
-#, fuzzy
 msgid "Safe graphics mode"
-msgstr "Porniţi Ubuntu în modul ^grafic de siguranţă"
+msgstr "Mod grafic de siguranţă"
 
 #. Installation mode.
 #. txt_menuitem_driverupdates
-#, fuzzy
 msgid "Use driver update CD"
-msgstr "Instalează cu driver de CD act^ualizat"
+msgstr "Foloseşte cu driver de CD actualizat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_ubuntu
-#, fuzzy
 msgid "^Install Ubuntu in text mode"
-msgstr "^Instalează în mod text"
+msgstr "^Instalează Ubuntu în mod text"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_kubuntu
 msgid "^Install Kubuntu in text mode"
-msgstr ""
+msgstr "^Instalează Kubuntu în mod text"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_edubuntu
 msgid "^Install Edubuntu in text mode"
-msgstr ""
+msgstr "^Instalează Edubuntu în mod text"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text_xubuntu
 msgid "^Install Xubuntu in text mode"
-msgstr ""
+msgstr "^Instalează Xubuntu în mod text"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntu
 msgid "^Install Ubuntu"
-msgstr ""
+msgstr "^Instalează Kubuntu în mod text"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_kubuntu
 msgid "^Install Kubuntu"
-msgstr ""
+msgstr "^Instalează Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_edubuntu
 msgid "^Install Edubuntu"
-msgstr ""
+msgstr "^Instalează Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_xubuntu
 msgid "^Install Xubuntu"
-msgstr ""
+msgstr "^Instalează Xubuntu"
 
 #. Installation mode.
 #. txt_menuitem_workstation
-#, fuzzy
 msgid "Install a workstation"
-msgstr "[^W] Instalează o staţie de lucru"
+msgstr "Instalează o staţie de lucru"
 
 #. Installation mode.
 #. txt_menuitem_server
-#, fuzzy
 msgid "Install a server"
-msgstr "Instalează un ser^ver"
+msgstr "Instalează un server"
 
 #. Installation mode.
 #. txt_menuitem_oem
-#, fuzzy
 msgid "OEM install (for manufacturers)"
-msgstr "I^nstalare în mod text pentru producătorii de calculatoare (OEMs)"
+msgstr "Instalare pentru producătorii de calculatoare (OEMs)"
 
 #. Installation mode.
 #. txt_menuitem_lamp
-#, fuzzy
 msgid "Install a LAMP server"
-msgstr "Instaleaza un server ^LAMP"
+msgstr "Instalează un server LAMP"
 
 #. Installation mode.
 #. txt_menuitem_ltsp
-#, fuzzy
 msgid "Install an LTSP server"
-msgstr "Instalează un server ^LTSP"
+msgstr "Instalează un server LTSP"
 
 #. Installation mode.
 #. txt_menuitem_ltsp_mythbuntu
+#, fuzzy
 msgid "Install a Diskless Image Server"
-msgstr ""
+msgstr "Instalează o imagine de server fără disc"
 
 #. Installation mode.
 #. txt_menuitem_cli
-#, fuzzy
 msgid "Install a command-line system"
-msgstr "Instale^ază un sistem - linie de comandă"
+msgstr "Instalează un sistem fără mod grafic"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
@@ -429,7 +418,6 @@ msgstr "Salvaţi un sistem ava^riat"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
-#, fuzzy
 msgid "Test ^memory"
 msgstr "Test ^memorie"
 
