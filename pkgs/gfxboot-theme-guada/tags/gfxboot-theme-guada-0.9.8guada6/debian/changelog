@@ -27,5 +27,6 @@ gfxboot-theme-ubuntu (0.1.0) dapper; urgency=low
       pressed" weirdness.
     - Use subtler boot menu selection colours in place of inverse-video.
     - Change the font to GNU unifont, from the unifont package.
+    - Update language codes and names from localechooser 0.22ubuntu2.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Sat, 10 Dec 2005 10:48:12 +0000
