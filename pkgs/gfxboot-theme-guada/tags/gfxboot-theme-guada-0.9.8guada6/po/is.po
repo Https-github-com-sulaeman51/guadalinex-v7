@@ -239,6 +239,11 @@ msgstr "Lyklavörpun"
 msgid "Modes"
 msgstr ""
 
+#. Shown on main menu to point out that more boot options are on F4.
+#. txt_modes_help
+msgid "Press F4 to select alternative start-up and installation modes."
+msgstr ""
+
 #. label for d-i mode menu
 #. txt_expert_mode
 msgid "Expert mode"

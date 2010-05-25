@@ -37,17 +37,14 @@
 % ( window ) ==> ( )
 %
 /main.redraw {
-
-  boot.show {
-    boot.text.options setcolor
-    window.current .font get setfont
-    boot.pos.init
-    % clear to far right of screen
-    boot.pos moveto boot.label.len neg 1 neg rmoveto
-    currentpoint screen.size pop 2 index sub boot.ed.height 2 add image
-    % redraw boot line
-    boot.setup
-  } if
+  boot.text.options setcolor
+  window.current .font get setfont
+  boot.pos.init
+  % clear to far right of screen
+  boot.pos moveto boot.label.len neg 1 neg rmoveto
+  currentpoint screen.size pop 2 index sub boot.ed.height 2 add image
+  % redraw boot line
+  boot.setup
 
   redrawmenu
   /keepbootoptions 1 def
@@ -59,20 +56,26 @@
 
 
 /boot.setup {
-  boot.show not { return } if
-
-  boot.window .ed boot.ed put
+  boot.show {
+    boot.window .ed boot.ed put
+  } if
 
   boot.pos.init
   boot.pos moveto
-  txt_bootoptions showright
 
-  currenttransparency
-  white setcolor
-  boot.pos moveto 10 boot.ed.height rmoveto
-  0xe0 settransparency
-  boot.ed.width 1 fillrect
-  settransparency
+  boot.show {
+    txt_bootoptions showright
+
+    currenttransparency
+    white setcolor
+    boot.pos moveto 10 boot.ed.height rmoveto
+    0xe0 settransparency
+    boot.ed.width 1 fillrect
+    settransparency
+  } {
+    boot.label.len neg 0 rmoveto
+    txt_modes_help show
+  } ifelse
 } def
 
 
