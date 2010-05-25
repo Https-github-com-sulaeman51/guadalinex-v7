@@ -379,24 +379,13 @@
     } if
 
     config.keymap .km.name get dup "us" ne {
-      config.keymap .km.real_layout get dup {
-        exch pop
-        "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
-        config.keymap .km.real_variant get dup {
-          "console-setup/variantcode=%s " bc.cmd dup length add sprintf
-        } {
-          pop
-        } ifelse
-      } {
+      dup "_" strstr dup 0 eq {
         pop
-        dup "_" strstr dup 0 eq {
-          pop
-          "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
-        } {
-          over over 1 sub 0 put
-          over "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
-          add "console-setup/variantcode=%s " bc.cmd dup length add sprintf
-        } ifelse
+        "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
+      } {
+        over over 1 sub 0 put
+        over "console-setup/layoutcode=%s " bc.cmd dup length add sprintf
+        add "console-setup/variantcode=%s " bc.cmd dup length add sprintf
       } ifelse
       config.keymap .km.model get dup {
         "console-setup/modelcode=%s " bc.cmd dup length add sprintf
