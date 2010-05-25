@@ -336,6 +336,11 @@ msgid "Start Xubuntu in safe ^graphics mode"
 msgstr "Start Xubuntu in ^veilige modus"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_driverupdates
+msgid "Install with driver ^update CD"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
 msgstr "^Installeer in tekst-modus"
