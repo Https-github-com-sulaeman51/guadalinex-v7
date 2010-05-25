@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2006-03-20 18:45+0000\n"
-"Last-Translator: Žygimantas Beručka <uid0@akl.lt>\n"
+"PO-Revision-Date: 2006-05-29 05:34+0000\n"
+"Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
 "Language-Team: Lithuanian <i18n@operis.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -228,7 +228,7 @@ msgstr "Kalba"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr ""
+msgstr "Klaviatūros išdėstymas"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -288,47 +288,47 @@ msgstr "Viską"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr "^Paleisti Ubuntu"
+msgstr "^Paleisti ar įdiegti Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Paleisti Ubuntu VESA ^grafiniu režimu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr "^Paleisti Kubuntu"
+msgstr "^Paleisti ar įdiegti Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Paleisti Kubuntu VESA ^grafiniu režimu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr "^Paleisti Edubuntu"
+msgstr "^Paleisti ar įdiegti Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Paleisti Edubuntu VESA ^grafiniu režimu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr "^Paleisti Xubuntu"
+msgstr "^Paleisti ar įdiegti Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Paleisti Xubuntu VESA ^grafiniu režimu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr "Į^diegti į standųjį diską"
+msgstr "Į^diegti tekstinėje aplinkoje"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
@@ -358,7 +358,7 @@ msgstr "Įdiegti ^serverį"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr "^Patikrinti ar nėra CD defektų"
+msgstr "^Patikrinti, ar nėra CD defektų"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
@@ -368,7 +368,7 @@ msgstr "Iš^gelbėti sugadintą sistemą"
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr "^Atmintinės patikrinimas"
+msgstr "^Operatyviosios atminties (RAM) tikrinimas"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd

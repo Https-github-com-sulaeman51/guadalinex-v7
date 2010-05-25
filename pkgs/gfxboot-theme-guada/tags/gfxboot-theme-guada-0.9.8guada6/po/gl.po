@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bootloader\n"
-"PO-Revision-Date: 2006-03-18 13:59+0000\n"
-"Last-Translator: Pedro Silva  <goretoxo@gmail.com>\n"
+"PO-Revision-Date: 2006-07-24 21:40+0000\n"
+"Last-Translator: Xosé <ubuntu@galizaweb.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +13,7 @@ msgstr ""
 #. ok button label
 #. txt_ok
 msgid "OK"
-msgstr "OK"
+msgstr "Aceptar"
 
 #. cancel button label
 #. txt_cancel
@@ -104,7 +104,7 @@ msgid ""
 "This is boot disk %u.\n"
 "Insert boot disk %u."
 msgstr ""
-"Disco de inicio %u.\n"
+"Este é o disco de inicio %u.\n"
 "Introduza o disco de inicio %u."
 
 #. txt_insert_disk3
@@ -114,7 +114,7 @@ msgid ""
 "Please insert boot disk %u."
 msgstr ""
 "Este disco de inicio non vale. \n"
-"Introduza o disco de incio %u."
+"Introduza o disco de inicio %u."
 
 #. password dialog title
 #. txt_password_title
@@ -143,7 +143,7 @@ msgid ""
 "\n"
 "Turn the DVD over then continue."
 msgstr ""
-"Este DVD é de doble cara, e iniciou pola segunda.\n"
+"Este DVD é de doble cara e iniciou pola segunda.\n"
 "\n"
 "Dealle a volta para continuar."
 
@@ -185,7 +185,7 @@ msgstr "Contrasinal\n"
 #. label for ftp user input
 #. txt_user1
 msgid "User (anonymous login if empty)\n"
-msgstr "Usuario (se o deixa valeiro, entrará como anónimo)\n"
+msgstr "Usuario (se o deixa baleiro, entrará como anónimo)\n"
 
 #. dialog title for nfs installation
 #. txt_nfs_title
@@ -195,7 +195,7 @@ msgstr "Instalación via NFS"
 #. label for smb user input
 #. txt_user2
 msgid "User (using \"guest\" if empty)\n"
-msgstr "Usuario (se o deixa valeiro, entrará como \"guest\")\n"
+msgstr "Usuario (se o deixa baleiro, entrará como \"guest\")\n"
 
 #. dialog title for smb installation
 #. txt_smb_title
@@ -225,7 +225,7 @@ msgstr "Idioma"
 #. label for keymap selection
 #. txt_keymap
 msgid "Keymap"
-msgstr ""
+msgstr "Mapa de Teclas"
 
 #. label for d-i mode menu
 #. txt_normal_mode
@@ -240,134 +240,134 @@ msgstr "Modo experto"
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr ""
+msgstr "Accesibilidade"
 
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr ""
+msgstr "Nengún"
 
 #. label for accessibility menu
 #. txt_access_v1
 msgid "Lesser Visual Impairment"
-msgstr ""
+msgstr "Dificultades Visuais Menores"
 
 #. label for accessibility menu
 #. txt_access_v2
 msgid "Moderate Visual Impairment"
-msgstr ""
+msgstr "Dificultades Visuais Medianas"
 
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Blindness"
-msgstr ""
+msgstr "Cegueira"
 
 #. label for accessibility menu
 #. txt_access_m1
 msgid "Minor Motor Difficulties"
-msgstr ""
+msgstr "Dificultades Motoras Menores"
 
 #. label for accessibility menu
 #. txt_access_m2
 msgid "Motor Difficulties - pointing devices"
-msgstr ""
+msgstr "Dificultades Motoras - dispositivos apuntadores"
 
 #. label for accessibility menu
 #. txt_access_m3
 msgid "Motor Difficulties - switch devices"
-msgstr ""
+msgstr "Dificultades Motoras - dispositivos interruptores"
 
 #. label for accessibility menu
 #. txt_access_all
 msgid "Everything"
-msgstr ""
+msgstr "Todo"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu
 msgid "^Start or install Ubuntu"
-msgstr ""
+msgstr "^Iniciar ou instalar Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu_xforcevesa
 msgid "Start Ubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Iniciar o Ubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu
 msgid "^Start or install Kubuntu"
-msgstr ""
+msgstr "^Iniciar ou instalar Kubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_kubuntu_xforcevesa
 msgid "Start Kubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Iniciar o Kubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu
 msgid "^Start or install Edubuntu"
-msgstr ""
+msgstr "^Iniciar ou instalar Edubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_edubuntu_xforcevesa
 msgid "Start Edubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Iniciar o Edubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu
 msgid "^Start or install Xubuntu"
-msgstr ""
+msgstr "^Iniciar ou instalar Xubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_xubuntu_xforcevesa
 msgid "Start Xubuntu in safe ^graphics mode"
-msgstr ""
+msgstr "Iniciar o Xubuntu en modo ^gráfico seguro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_text
 msgid "^Install in text mode"
-msgstr ""
+msgstr "^Instalar en modo texto"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install
 msgid "^Install to the hard disk"
-msgstr ""
+msgstr "^Instalar no disco duro"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_workstation
 msgid "Install a ^workstation"
-msgstr ""
+msgstr "Instalar unha ^estación de traballo"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_oem
 msgid "Install in ^OEM mode"
-msgstr ""
+msgstr "Instalar en modo ^OEM"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_lamp
 msgid "Install a ^LAMP server"
-msgstr ""
+msgstr "Instalar un servidor ^LAMP"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_server
 msgid "Install a ^server"
-msgstr ""
+msgstr "Instalar un ^servidor"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_check
 msgid "^Check CD for defects"
-msgstr ""
+msgstr "^Verificar o CD por se ten defectos"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_rescue
 msgid "^Rescue a broken system"
-msgstr ""
+msgstr "^Rescatar un sistema estropeado"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_memtest
 msgid "^Memory test"
-msgstr ""
+msgstr "Verificar a ^memoria"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_hd
 msgid "^Boot from first hard disk"
-msgstr ""
+msgstr "^Iniciar desde o primeiro disco duro"

@@ -1,4 +1,4 @@
-# Urdu translation for gfxboot-theme-ubuntu
+# Hindi translation for gfxboot-theme-ubuntu
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the gfxboot-theme-ubuntu package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
@@ -9,96 +9,75 @@ msgstr ""
 "Project-Id-Version: gfxboot-theme-ubuntu\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2006-03-18 12:14:59.394968+00:00\n"
-"PO-Revision-Date: 2006-05-11 22:48+0000\n"
-"Last-Translator: سدهو صاحب <SiduSahib@hotmail.com>\n"
-"Language-Team: Urdu <urd@li.org>\n"
+"PO-Revision-Date: 2006-08-03 15:37+0000\n"
+"Last-Translator: Gaurav Mishra <gauravtechie@gmail.com>\n"
+"Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. ok button label
-#. txt_ok
-msgid "OK"
-msgstr "ٹھیک هے"
-
 #. cancel button label
 #. txt_cancel
 msgid "Cancel"
-msgstr "منسوخ"
+msgstr "रद्द करें"
 
 #. reboot button label
 #. txt_reboot
 msgid "Reboot"
-msgstr "ری بوٹ"
+msgstr "रीबूट"
 
 #. continue button label
 #. txt_continue
 msgid "Continue"
-msgstr "جاری رکھیے"
-
-#. txt_bootoptions
-msgid "Boot Options"
-msgstr "بوٹ آپشنز"
-
-#. window title for exit dialog
-#. txt_exit_title (see txt_exit_dialog)
-msgid "Exiting..."
-msgstr ""
+msgstr "जारी रखें"
 
 #. txt_exit_dialog
 msgid ""
 "You are leaving the graphical boot menu and\n"
 "starting the text mode interface."
 msgstr ""
+"आप चित्रयुक्त बूट सूची छोड़ के↵\n"
+"लिखित मोड इंटरफेस मे प्रवेश कर रहें हैं ।"
 
 #. txt_help
 msgid "Help"
-msgstr "مدد"
+msgstr "सहायता"
 
 #. window title for kernel loading (see txt_load_kernel)
 #. txt_load_kernel_title
 msgid "Starting..."
-msgstr "شروع ھو رھا ھیں"
+msgstr "आरम्भ..."
 
 #. Keep the three newlines!
 #. txt_load_kernel
-#, fuzzy
 msgid ""
 "Loading Linux Kernel\n"
 "\n"
 "\n"
 msgstr ""
-"لینکس کرنل لوڈ ھو رھا ھیں\n"
-"\n"
-"\n"
 
 #. Keep the three newlines!
 #. txt_load_memtest
-#, fuzzy
 msgid ""
 "Loading memtest86\n"
 "\n"
 "\n"
 msgstr ""
-"میم ٹیسٹ ٨٦ لوڈنگ\n"
-"\n"
-"\n"
 
 #. info box title
 #. txt_info_title
-#, fuzzy
 msgid "Boot loader"
-msgstr "بوٹ لوڈر"
+msgstr "बूट लोॊॊॊडर"
 
 #. error box title
 #. txt_error_title
 msgid "I/O error"
-msgstr ""
+msgstr "I/O त्रुटि"
 
 #. boot disk change dialog title
 #. txt_change_disk_title
 msgid "Change Boot Disk"
-msgstr "بوٹ کی سی ڈی بدلیں"
+msgstr "बूट डिस्क बदलें"
 
 #. txt_insert_disk
 #, c-format
@@ -122,7 +101,7 @@ msgstr ""
 #. password dialog title
 #. txt_password_title
 msgid "Password"
-msgstr "خفیه نمبر"
+msgstr "कूटशब्द"
 
 #. Keep the newlines and spaces after ':'!
 #. txt_password
@@ -131,14 +110,16 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"اپنا خفیه نمبر ڈالیں   \n"
+"अपना कूटशब्द भरेंः   ↵\n"
+"↵\n"
+"↵   \n"
 "\n"
 "\n"
 
 #. dvd warning title
 #. txt_dvd_warning_title
 msgid "DVD Error"
-msgstr "ڈی وی ڈی کی خرابی"
+msgstr "डीवीडी त्रुटि"
 
 #. txt_dvd_warning2
 msgid ""
@@ -240,12 +221,12 @@ msgstr ""
 #. title for accessibility menu
 #. txt_access
 msgid "Accessibility"
-msgstr ""
+msgstr "सुगमता"
 
 #. label for accessibility menu
 #. txt_access_none
 msgid "None"
-msgstr ""
+msgstr "कुछ नही"
 
 #. label for accessibility menu
 #. txt_access_v1
@@ -260,7 +241,7 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_v3
 msgid "Blindness"
-msgstr ""
+msgstr "अंधापन"
 
 #. label for accessibility menu
 #. txt_access_m1
@@ -280,7 +261,7 @@ msgstr ""
 #. label for accessibility menu
 #. txt_access_all
 msgid "Everything"
-msgstr ""
+msgstr "सभी"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_live_ubuntu

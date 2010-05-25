@@ -1,3 +1,15 @@
+gfxboot-theme-ubuntu (0.2.2) UNRELEASED; urgency=low
+
+  * Add/update translations from Rosetta: Afrikaans, Arabic, Belarusian,
+    Bengali, Catalan, Kashubian, Danish, Esperanto, Spanish, Estonian,
+    Basque, Persian, Filipino, Galician, Hindi, Croatian, Hungarian,
+    Indonesian, Icelandic, Italian, Japanese, Kannada, Korean, Kurdish,
+    Lithuanian, Latvian, Mongolian, Malay, Low German, Occitan, Polish,
+    Portuguese, Romanian, Russian, Slovak, Slovenian, Somali, Swedish,
+    Tamil, Thai, Urdu, Chinese (Taiwan).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Sat,  5 Aug 2006 11:15:14 +0100
+
 gfxboot-theme-ubuntu (0.2.1) edgy; urgency=low
 
   * Make "lang" file work with locales that require _CC (pt_BR, zh_CN,
