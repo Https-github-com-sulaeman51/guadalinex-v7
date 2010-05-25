@@ -1,9 +1,9 @@
-gfxboot-theme-ubuntu (0.7.0) UNRELEASED; urgency=low
+gfxboot-theme-ubuntu (0.7.0) jaunty; urgency=low
 
   * Pop up "Other options" menu after pressing F6 just once, rather than
     requiring two presses (LP: #294840).
 
- -- Colin Watson <cjwatson@ubuntu.com>  Wed, 12 Nov 2008 13:29:44 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 20 Nov 2008 14:13:22 +0000
 
 gfxboot-theme-ubuntu (0.6.11) jaunty; urgency=low
 
