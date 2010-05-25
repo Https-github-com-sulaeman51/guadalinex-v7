@@ -115,8 +115,7 @@
   xmenu .xm_current -1 put
   video.modes.list {
     dup .vm_width get 3 index le
-    over .vm_height get 3 index le and
-    exch {
+    exch .vm_height get 3 index le and {
       xmenu .xm_current over over get 1 add put
     } {
       exit
