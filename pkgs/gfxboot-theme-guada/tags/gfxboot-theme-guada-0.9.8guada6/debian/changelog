@@ -1,3 +1,10 @@
+gfxboot-theme-ubuntu (0.2.1) UNRELEASED; urgency=low
+
+  * Make "lang" file work with locales that require _CC (pt_BR, zh_CN,
+    zh_TW).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 13 Jul 2006 17:38:29 +0100
+
 gfxboot-theme-ubuntu (0.2.0) edgy; urgency=low
 
   * Use keymapchars from gfxboot (>= 3.2.23-1) rather than our own.
