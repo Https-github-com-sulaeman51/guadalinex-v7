@@ -2,6 +2,7 @@ gfxboot-theme-ubuntu (0.2.1) UNRELEASED; urgency=low
 
   * Make "lang" file work with locales that require _CC (pt_BR, zh_CN,
     zh_TW).
+  * Use the new "locale" alias for debian-installer/locale.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Thu, 13 Jul 2006 17:38:29 +0100
 
