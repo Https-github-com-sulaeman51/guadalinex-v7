@@ -495,13 +495,14 @@
 
   menu.bar.color setcolor 0 0 moveto screen.size fillrect
 
+  % GUADA HACK: restore to 0 0 0 0
   % Move the logo down 84 pixels to centre it.  This is obviously a gross
   % hack.  To fix this, we need to move to smaller logo images which are
   % positioned on the screen in code, rather than doing the positioning in
   % the image files.
   timeout.hidden {
-    0 0 moveto 0 0 0 84 image
-    0 84
+    0 0 moveto 0 0 0 0 image
+    0 0
   } { 0 0 } ifelse
   moveto 0 0 clip.size image
 
