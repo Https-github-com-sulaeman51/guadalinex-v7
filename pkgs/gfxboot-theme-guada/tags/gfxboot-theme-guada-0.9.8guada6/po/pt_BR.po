@@ -310,6 +310,11 @@ msgid "^Install Ubuntu Server"
 msgstr "^Instalar Servidor Ubuntu"
 
 #. Boot menu item; a ^ prefix indicates a unique accelerator key.
+#. txt_menuitem_install_ubuntu_enterprise_cloud
+msgid "Install Ubuntu ^Enterprise Cloud"
+msgstr ""
+
+#. Boot menu item; a ^ prefix indicates a unique accelerator key.
 #. txt_menuitem_install_ubuntustudio
 msgid "^Install Ubuntu Studio"
 msgstr "^Instalar Ubuntu Studio"
