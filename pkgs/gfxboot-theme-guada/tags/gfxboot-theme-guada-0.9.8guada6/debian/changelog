@@ -4,6 +4,9 @@ gfxboot-theme-ubuntu (0.2.0) UNRELEASED; urgency=low
   * Rename identifier for "Install in text mode" from txt_menuitem_install
     to txt_menuitem_install_text, to avoid clashing with "Install to the
     hard disk" (closes: Malone #47615).
+  * Move theme to /usr/share/gfxboot-theme-ubuntu, in line with other
+    gfxboot-theme-* packages.
+  * Use dh_install.
 
  -- Colin Watson <cjwatson@ubuntu.com>  Wed, 12 Jul 2006 13:13:53 +0100
 
