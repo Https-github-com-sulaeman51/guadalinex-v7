@@ -272,6 +272,16 @@ small_layout {
 
 
 % - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+% Clean up after menu has been undrawn.
+%
+% ( ) ==> ( )
+%
+/xmenu.cleanup {
+  window.current .xmenu.cleanup get dup .undef ne { exec } { pop } ifelse
+} def
+
+
+% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 % Draw xmenu.
 %
 % ( window ) ==> ( )

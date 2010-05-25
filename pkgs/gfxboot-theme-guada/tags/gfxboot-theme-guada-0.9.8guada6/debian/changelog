@@ -3,6 +3,8 @@ gfxboot-theme-ubuntu (0.5.17) UNRELEASED; urgency=low
   * Add a header to the language and keymap menus; this seems to make it
     feel like less of an accident when the language menu is displayed
     automatically on startup.
+  * Don't display "Press F4 to select alternative start-up and installation
+    modes" until the initial language menu has been dismissed (LP: #197260).
 
  -- Colin Watson <cjwatson@ubuntu.com>  Mon, 07 Apr 2008 12:41:45 +0100
 

@@ -74,8 +74,10 @@
     settransparency
     boot.ed edit.redraw
   } {
-    boot.label.len neg 0 rmoveto
-    txt_modes_help show
+    lang.displayed {
+      boot.label.len neg 0 rmoveto
+      txt_modes_help show
+    } if
   } ifelse
 } def
 

@@ -96,6 +96,7 @@
 /.xmenu.change   newfield % like update but the window remains shown
 /.xmenu.select   newfield
 /.xmenu.input    newfield
+/.xmenu.cleanup  newfield
 
 % window types
 /t_dialog 100 def
@@ -258,6 +259,10 @@
       dup .saved.areas get free
       dup .saved.areas .undef put
     } if
+    % specific cleanup actions
+    window.current dup .type get
+    dup t_xmenu eq { xmenu.cleanup } if
+    pop
     % free input field memory
     dup .ed get .undef ne {
       dup .ed get 2 get free		% background
