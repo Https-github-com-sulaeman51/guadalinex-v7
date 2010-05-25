@@ -1,3 +1,9 @@
+guada-ubiquity (1.1.5) lucid; urgency=low
+
+  * not needed files deleted
+
+ -- Adrian Belmonte Martin <abelmonte@emergya.es>  Tue, 25 May 2010 16:40:39 +0200
+
 guada-ubiquity (1.1.4) lucid; urgency=low
 
   * debian/preinst: Corrected
