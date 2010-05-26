@@ -1,0 +1,46 @@
+# Spanish translations for nautilus-fontinstall package
+# Traducciones al español para el paquete nautilus-fontinstall.
+# Copyright (C) 2009 Junta de Andalucía
+# This file is distributed under the same license as the nautilus-fontinstall package.
+# D. Amian <amialinux@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-fontinstall\n"
+"Report-Msgid-Bugs-To: amialinux@gmail.com\n"
+"POT-Creation-Date: 2009-08-25 13:51+0200\n"
+"PO-Revision-Date: 2009-08-25 13:51+0200\n"
+"Last-Translator: amian <amialinux@gmail.com>\n"
+"Language-Team: Guadalinex Members <guadalinex-members@lists.launchpad.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: nautilus-fontinstall.py:42
+msgid "Update completed"
+msgstr "Cache actualizada"
+
+#: nautilus-fontinstall.py:43
+msgid "The font '"
+msgstr "La fuente '"
+
+#: nautilus-fontinstall.py:43
+msgid "' has been installed"
+msgstr "' ha sido instalada"
+
+#: nautilus-fontinstall.py:59
+msgid "Updating font cache"
+msgstr "Actualizando la caché de fuentes"
+
+#: nautilus-fontinstall.py:104 nautilus-fontinstall.py:105
+msgid "Install Font"
+msgstr "Instalar Fuente"
+
+#: nautilus-fontinstall.py:126
+msgid "Enter your user password"
+msgstr "Introduzca su contraseña"
+
+#: nautilus-fontinstall.py:126
+msgid "Do you have root access?"
+msgstr "¿Tiene acceso de superusuario?"
