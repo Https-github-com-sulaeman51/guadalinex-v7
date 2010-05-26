@@ -13,8 +13,8 @@ dpkg-divert --package guadalinex-eadmin --rename --quiet --add /usr/share/opensc
 ln -fs /usr/share/guadalinex-eadmin/opensc-dnie/inst_kde_pkcs11_cert.pl /usr/share/opensc-dnie/inst_kde_pkcs11_cert.pl
 
 # diverting firefox stuff
-dpkg-divert --package guadalinex-eadmin --rename --quiet --add /etc/firefox-3.0/pref/firefox.js
-ln -fs /etc/firefox-3.0/pref/firefox.js.gv6 /etc/firefox-3.0/pref/firefox.js
+dpkg-divert --package guadalinex-eadmin --rename --quiet --add /etc/firefox/pref/firefox.js
+ln -fs /etc/firefox/pref/firefox.js.gv6 /etc/firefox/pref/firefox.js
 
 # diverting gscriptor.desktop
 dpkg-divert --package guadalinex-eadmin --rename --quiet --add /usr/share/applications/gscriptor.desktop

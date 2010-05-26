@@ -1,3 +1,9 @@
+guadalinex-eadmin (v7-0.14-0guada7) lucid; urgency=low
+
+  * Updated path firefox-3.0 to firefox
+
+ -- David Amián Valle <amialinux@gmail.com>  Wed, 26 May 2010 13:29:26 +0200
+
 guadalinex-eadmin (v7-0.14-0guada6) lucid; urgency=low
 
   * Fixed control file 
