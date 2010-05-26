@@ -1,10 +1,11 @@
 Source: guadalinex-eadmin
 Section: misc
 Priority: optional
-Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Maintainer: Guadalinex Team <packmaster@guadalinex.org>
 Uploaders: Robero C. Morano <rcmorano@emergya.es>
+           David Amian Valle <amialinux@gmail.com>
 Build-Depends: debhelper (>> 3.0.0), libnspr4-dev, libnss3-dev
-Standards-Version: 3.8.0
+Standards-Version: 3.8.3
 Homepage: http://launchpad.net/guadalinex-eadmin
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/guadalinex-eadmin/trunk/changes
 Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/guadalinex-eadmin/trunk
