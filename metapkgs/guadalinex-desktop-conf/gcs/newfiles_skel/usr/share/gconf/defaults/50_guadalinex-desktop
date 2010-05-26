@@ -8,3 +8,4 @@
 /apps/rhythmbox/ui/small_display		false
 /desktop/gnome/sound/theme_name                 guadalinex
 /desktop/gnome/session/idle_delay               15
+/desktop/gnome/interface/menus_have_icons	true
