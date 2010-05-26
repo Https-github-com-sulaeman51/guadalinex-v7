@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
-Name=Asistencia (por Internet)
-Name[es]=Asistencia (por Internet)
+Name=Support (via Internet)
+Name[es]=Asistencia Técnica (por Internet)
 Comment=Obtener ayuda a través de Internet
 Exec=firefox %u http://www.guadalinex.org/distro/V6/ayuda
 Terminal=false
