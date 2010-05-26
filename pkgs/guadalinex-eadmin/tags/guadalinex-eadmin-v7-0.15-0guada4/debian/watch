@@ -1,0 +1,2 @@
+version=3
+opts="dversionmangle=s/^/0.0./" http://launchpad.net/guadalinex-eadmin/+download http://launchpad.net/guadalinex-eadmin/(.*)/guadalinex-eadmin-(.*)\.tar\.gz
