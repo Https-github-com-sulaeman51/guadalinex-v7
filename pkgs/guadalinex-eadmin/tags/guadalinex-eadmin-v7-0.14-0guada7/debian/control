@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Guadalinex Team <packmaster@guadalinex.org>
 Uploaders: Robero C. Morano <rcmorano@emergya.es>
            David Amian Valle <amialinux@gmail.com>
-Build-Depends: debhelper (>> 3.0.0), libnspr4-dev, libnss3-dev
+Build-Depends: debhelper (>> 3.0.0), libnspr4-dev, libnss3-dev, cdbs
 Standards-Version: 3.8.3
 Homepage: http://launchpad.net/guadalinex-eadmin
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/guadalinex-eadmin/trunk/changes
