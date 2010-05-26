@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
-Name=Comunidad Guadalinex
-Name[es]=Comunidad Guadalinex
+Name=Comunidad de Usuarios de Guadalinex
+Name[es]=Comunidad de Usuarios de Guadalinex
 Comment=Obtener ayuda de otros usuarios de Guadalinex
 Exec=firefox %u http://www.guadalinex.org/distro/V6/foros
 Terminal=false
