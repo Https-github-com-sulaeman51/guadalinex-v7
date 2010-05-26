@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Orca Magnifier
+Name[es]= Lupa (orca)
+Comment=Magnify the screen
+Comment[es]= Magnificador de la pantalla
+Exec=orca -n -e magnifier
+Icon=orca
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GTK;GNOME;Utility;Accessibility;
+NoDisplay=false
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=orca
+X-GNOME-Bugzilla-Component=general
