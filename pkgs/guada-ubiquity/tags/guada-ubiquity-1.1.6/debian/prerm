@@ -5,15 +5,11 @@ set -e
 #DEBHELPER#
 
 
-mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-language.py  /usr/lib/ubiquity/plugins/
-dpkg-divert --package guada-ubiquity --remove --divert /usr/lib/ubiquity/plugins/ubi-language.py
+dpkg-divert --package guada-ubiquity --remove /usr/lib/ubiquity/plugins/ubi-language.py
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-language.py.distrib  /usr/lib/ubiquity/plugins/
 
+dpkg-divert --package guada-ubiquity --remove /usr/lib/ubiquity/plugins/ubi-timezone.py
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-timezone.py.distrib  /usr/lib/ubiquity/plugins/
 
-mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-timezone.py  /usr/lib/ubiquity/plugins/
-dpkg-divert --package guada-ubiquity --remove --divert /usr/lib/ubiquity/plugins/ubi-timezone.py
-
-mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-console-setup.py  /usr/lib/ubiquity/plugins/
-dpkg-divert --package guada-ubiquity --remove --divert /usr/lib/ubiquity/plugins/ubi-console-setup.py
-
-
-
+dpkg-divert --package guada-ubiquity --remove /usr/lib/ubiquity/plugins/ubi-console-setup.py
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-console-setup.py.distrib  /usr/lib/ubiquity/plugins/
