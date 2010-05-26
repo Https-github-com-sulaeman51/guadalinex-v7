@@ -1,0 +1,23 @@
+Source: nautilus-fontinstall
+Section: utils
+Priority: optional
+XSBC-Original-Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Maintainer: Juanje Ojeda Croissier <juanje@ubuntu.com>
+Uploaders: David Amián <amialinux@gmail.com>
+           Juanje Ojeda Croissier <juanje@ubuntu.com>
+Build-Depends: debhelper (>=7), cdbs (>=0.4.43), python-all-dev (>=2.3.5-11)
+Build-Depends-Indep: python-central (>=0.5.6), gettext, python-distutils-extra
+Standards-Version: 3.8.3
+Homepage: http://launchpad.net/nautilus-fontinstall
+Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/nautilus-fontinstall/trunk/changes
+Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/nautilus-fontinstall/trunk
+XS-Python-Version: current
+
+Package: nautilus-fontinstall
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-nautilus, python-dev, nautilus, python-gtk2, python-glade2, gettext
+Description: Nautilus' extension for install fonts files
+ Nautilus' extension let the user install fonts files.
+ .
+ This extension let the user install font file (ttf) from Nautilus window.
+ The extension adds a contextual menu entry to do install that font file.
