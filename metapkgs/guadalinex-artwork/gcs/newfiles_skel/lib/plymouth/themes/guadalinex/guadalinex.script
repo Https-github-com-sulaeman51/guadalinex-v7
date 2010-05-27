@@ -46,6 +46,8 @@ debugsprite_medium = Sprite();
 # are we currently prompting for a password?
 prompt_active = 0;
 
+
+count = 0;
 # General purpose function to create text
 fun WriteText (text, colour) {
     image = Image.Text (text, colour.red, colour.green, colour.blue);
@@ -168,13 +170,13 @@ Window.SetBackgroundBottomColor (0, 0, 0);  # an equally nice brown on the botto
 
 screen_width = Window.GetWidth (0);
 screen_height = Window.GetHeight (0);
-guada.image = Image ("bg_2560x1600.png");
+guada.image = Image ("background.png");
 resized_wallpaper_image = guada.image.Scale (screen_width, screen_height);
 guada.sprite = Sprite (resized_wallpaper_image);
 guada.sprite.SetZ (-10000);
 
 
-#logo.image = Image ("sabily-logo.png"); # "special://logo" is a special keyword which finds the logo image
+#logo.image = Image ("playmouth_00000.png"); # "special://logo" is a special keyword which finds the logo image
 #logo.sprite = Sprite ();
 #logo.sprite.SetImage (logo.image);
 #logo.width = logo.image.GetWidth ();
@@ -185,7 +187,7 @@ guada.sprite.SetZ (-10000);
 #logo.sprite.SetX (logo.x);
 #logo.sprite.SetY (logo.y);
 #logo.sprite.SetZ (logo.z);
-logo.sprite.SetOpacity (1);
+#logo.sprite.SetOpacity (1);
 
 # Spacing below the logo - in pixels
 #logo_spacing = logo.height * 4;
@@ -207,6 +209,43 @@ progress_indicator.height = progress_indicator.bullet_height;
 progress_indicator.y = Window.GetY () + Window.GetWidth () / 2 - progress_indicator.width / 2;
 progress_indicator.x = Window.GetX () + Window.GetWidth () / 2 - progress_indicator.width / 2; # logo.x + 26;
 
+
+
+for (index = 0; index <=9 ; index++) {
+	logo[index].image = Image ("playmouth_0000"+index+".png"); # "special://logo" is a special keyword which finds the logo image
+	logo[index].sprite = Sprite ();
+	logo[index].sprite.SetImage (logo[index].image);
+	logo[index].width = logo[index].image.GetWidth ();
+	logo[index].height = logo[index].image.GetHeight ();
+	logo[index].x = Window.GetX () + Window.GetWidth () / 2 - logo[index].width  / 2;
+	logo[index].y = Window.GetY () + Window.GetHeight () / 2 - logo[index].height;
+	logo[index].z = 1000;
+	logo[index].sprite.SetX (logo[index].x);
+	logo[index].sprite.SetY (logo[index].y);
+	logo[index].sprite.SetZ (logo[index].z);
+	logo[index].sprite.SetOpacity (1);
+}
+
+for (index = 10; index <=99 ; index++) {
+
+	logo[index].image = Image ("playmouth_000"+index+".png"); # "special://logo" is a special keyword which finds the logo image
+	logo[index].sprite = Sprite ();
+	logo[index].sprite.SetImage (logo[index].image);
+	logo[index].width = logo[index].image.GetWidth ();
+	logo[index].height = logo[index].image.GetHeight ();
+	logo[index].x = Window.GetX () + Window.GetWidth () / 2 - logo[index].width  / 2;
+	logo[index].y = Window.GetY () + Window.GetHeight () / 2 - logo[index].height;
+	logo[index].z = 1000;
+	logo[index].sprite.SetX (logo[index].x);
+	logo[index].sprite.SetY (logo[index].y);
+	logo[index].sprite.SetZ (logo[index].z);
+	logo[index].sprite.SetOpacity (1);
+}
+
+
+
+
+
 # use a fixed string with ascending and descending stems to calibrate the
 # bounding box for the first message, so the messages below don't move up
 # and down according to *their* height.
@@ -221,10 +260,21 @@ top_of_the_text = TextYOffset();
 
 # Call this when updating the screen
 fun draw_logo () {
-    logo.sprite.SetX (logo.x);
-    logo.sprite.SetY (logo.y);
-    logo.sprite.SetZ (logo.z);
-    logo.sprite.SetOpacity (1);
+    put_all_off();
+    logo[count].sprite.SetX (logo[count].x);
+    logo[count].sprite.SetY (logo[count].y);
+    logo[count].sprite.SetZ (logo[count].z);
+    logo[count].sprite.SetOpacity (1);
+    count++;
+    if (count == 100){
+       count=0;
+    }
+}
+
+fun put_all_off () {
+	for (index = 0; index <=99 ; index++) {
+		logo[index].sprite.SetOpacity (0);
+	}
 }
 
 
@@ -597,7 +647,7 @@ Plymouth.SetDisplayPasswordFunction (display_password_callback);
 
 Plymouth.SetMessageFunction (message_callback);
 
-Plymouth.SetBootProgressFunction (animate_progress_indicator);
+#Plymouth.SetBootProgressFunction (animate_progress_indicator);
 
 # Plymouth.SetBootProgressFunction: the callback function is called with two numbers, the progress (between 0 and 1) and the time spent booting so far
 # Plymouth.SetRootMountedFunction: the callback function is called when a new root is mounted
@@ -1047,7 +1097,7 @@ Plymouth.SetDisplayNormalFunction (display_normal_callback);
 # Show the logo and make the progress indicator look full when on exit
 fun quit_callback ()
 {
-    logo.sprite.SetOpacity (1);
+    logo[50].sprite.SetOpacity (1);
     switch_on_bullets (); 
 }
 
