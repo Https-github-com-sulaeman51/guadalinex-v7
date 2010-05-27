@@ -2,9 +2,10 @@ Source: extras-installer
 Section: utils
 Priority: optional
 Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
-Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>
+Uploaders: Juanje Ojeda Croissier <jojeda@emergya.es>,
+           Roberto C. Morano <rcmorano@emergya.es>
 Build-Depends: debhelper (>= 7)
-Standards-Version: 3.8.0
+Standards-Version: 3.8.4
 Homepage: http://launchpad.net/extras-installer
 Vcs-Browser: http://codebrowse.launchpad.net/~guadalinex-members/extras-installer/trunk/changes
 Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/extras-installer/trunk
@@ -12,7 +13,7 @@ Vcs-Bzr: http://bazaar.launchpad.net/~guadalinex-members/extras-installer/trunk
 
 Package: extras-installer
 Architecture: any
-Depends: zenity, guadafox 
+Depends: zenity
 Description: Utilidad para instalación de software extra
  Script con zenity para la instalación de software extra no incluido
- en Guadalinex v6.
+ en Guadalinex.
