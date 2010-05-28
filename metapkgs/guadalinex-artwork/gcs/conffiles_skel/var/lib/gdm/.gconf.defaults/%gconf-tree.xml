@@ -4,7 +4,7 @@
 		<dir name="gnome">
 			<dir name="background">
 				<entry name="picture_filename" mtime="1255598514" type="string">
-					<stringvalue>/usr/share/backgrounds/guadalinex_v7_bg.png</stringvalue>
+					<stringvalue>/usr/share/backgrounds/guadalinex_v7_gdm_bg.png</stringvalue>
 				</entry>
 			</dir>
 			<dir name="interface">
