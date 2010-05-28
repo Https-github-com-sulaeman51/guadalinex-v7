@@ -1,3 +1,13 @@
+guada-ubiquity (1.1.7) lucid; urgency=low
+
+  * Greeter added
+  * changes in ubi-partman and ubi-usersetup not more needed, removing files
+  * removed related preinst lines
+  * changes in ubi-welcome for greeter page
+  * greeter ui added
+
+ -- Adrian Belmonte Martin <abelmonte@emergya.es>  Fri, 28 May 2010 13:33:15 +0200
+
 guada-ubiquity (1.1.6) lucid; urgency=low
 
   * debian/prerm: fixed

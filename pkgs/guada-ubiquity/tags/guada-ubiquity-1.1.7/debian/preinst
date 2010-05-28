@@ -14,8 +14,3 @@ mv /usr/lib/ubiquity/plugins/ubi-timezone.py.distrib /usr/share/ubiquity/ubiquit
 dpkg-divert --package guada-ubiquity --rename --add  /usr/lib/ubiquity/plugins/ubi-console-setup.py
 mv /usr/lib/ubiquity/plugins/ubi-console-setup.py.distrib /usr/share/ubiquity/ubiquity-oldplugins/
 
-dpkg-divert --package guada-ubiquity --rename --add /usr/lib/ubiquity/plugins/ubi-partman.py
-mv /usr/lib/ubiquity/plugins/ubi-partman.py.distrib /usr/share/ubiquity/ubiquity-oldplugins/
-
-dpkg-divert --package guada-ubiquity --rename --add  /usr/lib/ubiquity/plugins/ubi-usersetup.py
-mv /usr/lib/ubiquity/plugins/ubi-usersetup.py.distrib /usr/share/ubiquity/ubiquity-oldplugins/

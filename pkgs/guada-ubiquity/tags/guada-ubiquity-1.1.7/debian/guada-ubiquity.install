@@ -7,4 +7,4 @@ src/scripts/guada-prepartition		usr/share/ubiquity
 src/ubiquity-init/__init__.py           usr/lib/guada-ubiquity/ubiquity/
 src/DiskPreview/*.py                    usr/lib/ubiquity/ubiquity/DiskPreview
 src/automatically_partition             usr/lib/guada-ubiquity/partman
-src//plugins/*                          usr/lib/ubiquity/plugins/
+src/plugins/*                          usr/lib/ubiquity/plugins/
