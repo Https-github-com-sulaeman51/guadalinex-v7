@@ -9,7 +9,7 @@
   <description>The Clearlooks Metacity Theme</description>
 </info>
  
-<frame_geometry name="normal" rounded_top_left="true" rounded_top_right="true" rounded_bottom_left="false" rounded_bottom_right="false">
+<frame_geometry name="normal" rounded_top_left="true" rounded_top_right="true" rounded_bottom_left="true" rounded_bottom_right="true">
   <distance name="left_width" value="5"/>
   <distance name="right_width" value="5"/>
   <distance name="bottom_height" value="5"/>
@@ -253,7 +253,7 @@
 <draw_ops name="round_bevel_unfocused">
   <include name="bevel_unfocused"/>
   <include name="corners_outline_top"/>
-  <!--<include name="corners_outline_bottom"/>-->
+  <include name="corners_outline_bottom"/>
   <include name="corners_hilight_unfocused"/>
 </draw_ops>
 
@@ -270,7 +270,7 @@
 	            x="0" y="0"
 	            width="width - 1"
 	            height="top_height - 1"/>
-
+        
 	<!-- ** 3d beveled frame ** -->
 	<line color="shade/gtk:bg[NORMAL]/0.88" x1="1" y1="height - 2" x2="width - 2" y2="height - 2"/>
 	<line color="shade/gtk:bg[NORMAL]/0.88" x1="width - 2" y1="3" x2="width - 2" y2="height - 2"/>
@@ -306,7 +306,7 @@
 <draw_ops name="round_bevel">
   <include name="bevel"/>
   <include name="corners_outline_selected_top"/>
-  <!--<include name="corners_outline_bottom"/>-->
+  <include name="corners_outline_bottom"/>
   <include name="corners_hilight"/>
 </draw_ops>
 
@@ -357,49 +357,21 @@
          y="((height - title_height) / 2) `max` 0"/>
 </draw_ops>
 
+<draw_ops name="titlebar_bg">
+	<image filename="window-bar.png" x="0" y="0" width="width" height="height"/>
+</draw_ops>
+
 <draw_ops name="title">
-  <include name="title_text"/>
+  	<include name="title_text"/>
 </draw_ops>
 
 <draw_ops name="title_unfocused">
   <include name="title_text_unfocused"/>
 </draw_ops>
 
-<!-- ::: BUTTONS ::: -->
-<draw_ops name="button_bg">
-	<!-- outside highlight -->
-	<gradient type="vertical" x="width-2" y="2" width="1" height="height-4">
-  		<color value="shade/gtk:bg[SELECTED]/1.2"/>
-  		<color value="shade/gtk:bg[SELECTED]/1.0"/>
-	</gradient>
-	<gradient type="vertical" x="width-1" y="3" width="1" height="height-6">
-  		<color value="shade/gtk:bg[SELECTED]/1.2"/>
-  		<color value="shade/gtk:bg[SELECTED]/1.0"/>
-	</gradient>
-	<line color="shade/gtk:bg[SELECTED]/1.0" x1="2" y1="height-2" x2="width-3" y2="height-2"/>
-	<line color="shade/gtk:bg[SELECTED]/1.0" x1="3" y1="height-1" x2="width-4" y2="height-1"/>
 
-	<!-- border outline -->
-	<line color="shade/gtk:bg[SELECTED]/0.55" x1="3" y1="1" x2="width-4" y2="1"/>	
-	<line color="shade/gtk:bg[SELECTED]/0.55" x1="3" y1="height-2" x2="width-4" y2="height-2"/>	
-	<line color="shade/gtk:bg[SELECTED]/0.55" x1="1" y1="3" x2="1" y2="height-4"/>	
-	<line color="shade/gtk:bg[SELECTED]/0.55" x1="width-2" y1="3" x2="width-2" y2="height-4"/>	
-		
-	<line color="shade/gtk:bg[SELECTED]/0.55" x1="2" y1="2" x2="width-3" y2="2"/>	
-	<line color="shade/gtk:bg[SELECTED]/0.55" x1="2" y1="height-3" x2="width-3" y2="height-3"/>
-	
-	<!-- inside highlight -->
-	<line color="shade/gtk:bg[SELECTED]/1.2" x1="3" y1="2" x2="width-4" y2="2"/>
-	<line color="shade/gtk:bg[SELECTED]/1.05" x1="2" y1="3" x2="2" y2="height-4"/>
-	<!-- inside shadow -->
-	<line color="shade/gtk:bg[SELECTED]/0.8" x1="3" y1="height-3" x2="width-4" y2="height-3"/>
-	
-	<!-- fill gradient -->
-	<gradient type="vertical" x="3" y="3" width="width-6" height="height-6">
-		<color value="shade/gtk:bg[SELECTED]/1.05"/>
-  		<color value="shade/gtk:bg[SELECTED]/0.85"/>
-	</gradient>
-</draw_ops>
+
+<!-- ::: BUTTONS ::: -->
 
 <draw_ops name="button_bg_unfocused">
 	<!-- outside highlight -->
@@ -437,7 +409,6 @@
 </draw_ops>
 
 <draw_ops name="button_bg_prelight">
-  <include name="button_bg"/>
   <tint color="shade/gtk:bg[SELECTED]/1.5" alpha="0.2"
      x="3" y="3" width="width-6" height="height-6"/>
 </draw_ops>
@@ -554,177 +525,114 @@
 	vpadding = (height - icon_size) / 2 = ((height-(Bmin`max`height-Bpad*2))/2)
 -->
 <draw_ops name="close_button_icon">
-<line color="gtk:fg[SELECTED]" width="2"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="((height-(Bmin`max`height-Bpad*2))/2)" x2="width - ((width-(Bmin`max`height-Bpad*2))/2) - 1" y2="height - ((height-(Bmin`max`height-Bpad*2))/2) - 1"/>
-  <line color="gtk:fg[SELECTED]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="((height-(Bmin`max`height-Bpad*2))/2)" x2="width- ((width-(Bmin`max`height-Bpad*2))/2)" y2="height - ((height-(Bmin`max`height-Bpad*2))/2)"/>
-  <line color="gtk:fg[SELECTED]9" width="2"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="height - ((height-(Bmin`max`height-Bpad*2))/2) - 1" x2="width - ((width-(Bmin`max`height-Bpad*2))/2) - 1" y2="((height-(Bmin`max`height-Bpad*2))/2)"/>
-  <line color="gtk:fg[SELECTED]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="height - ((height-(Bmin`max`height-Bpad*2))/2) - 1" x2="width - ((width-(Bmin`max`height-Bpad*2))/2)" y2="((height-(Bmin`max`height-Bpad*2))/2) - 1"/>
+	<image filename="close-button.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 
 <draw_ops name="close_button_icon_unfocused">
-  <line color="gtk:fg[NORMAL]" width="2"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="((height-(Bmin`max`height-Bpad*2))/2)" x2="width-((width-(Bmin`max`height-Bpad*2))/2)-1" y2="height - ((height-(Bmin`max`height-Bpad*2))/2)-1"/>
-  <line color="gtk:fg[NORMAL]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="((height-(Bmin`max`height-Bpad*2))/2)" x2="width-((width-(Bmin`max`height-Bpad*2))/2)" y2="height - ((height-(Bmin`max`height-Bpad*2))/2)"/>
-  <line color="gtk:fg[NORMAL]" width="2"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="height - ((height-(Bmin`max`height-Bpad*2))/2)-1" x2="width-((width-(Bmin`max`height-Bpad*2))/2)-1" y2="((height-(Bmin`max`height-Bpad*2))/2)"/>
-  <line color="gtk:fg[NORMAL]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="height - ((height-(Bmin`max`height-Bpad*2))/2)-1" x2="width-((width-(Bmin`max`height-Bpad*2))/2)" y2="((height-(Bmin`max`height-Bpad*2))/2) - 1"/>
+      <image filename="close-button.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 
 <draw_ops name="close_button_icon_small">
-<line color="gtk:fg[SELECTED]" width="2"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="((height-(Bmin`max`height-Bpad*2))/2)" x2="width - ((width-(Bmin`max`height-Bpad*2))/2) - 1" y2="height - ((height-(Bmin`max`height-Bpad*2))/2) - 1"/>
-  <line color="gtk:fg[SELECTED]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="((height-(Bmin`max`height-Bpad*2))/2)" x2="width- ((width-(Bmin`max`height-Bpad*2))/2)" y2="height - ((height-(Bmin`max`height-Bpad*2))/2)"/>
-  <line color="gtk:fg[SELECTED]9" width="2"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="height - ((height-(Bmin`max`height-Bpad*2))/2) - 1" x2="width - ((width-(Bmin`max`height-Bpad*2))/2) - 1" y2="((height-(Bmin`max`height-Bpad*2))/2)"/>
-  <line color="gtk:fg[SELECTED]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2)" y1="height - ((height-(Bmin`max`height-Bpad*2))/2) - 1" x2="width - ((width-(Bmin`max`height-Bpad*2))/2)" y2="((height-(Bmin`max`height-Bpad*2))/2) - 1"/>
+      <image filename="close-button.png" x="2" y="2" width="width-6" height="height-6"/> 
 </draw_ops>
 
 <draw_ops name="close_button_normal">
-  <include name="button_bg"/>
   <include name="close_button_icon"/>
 </draw_ops>
 <draw_ops name="close_button_prelight">
-  <include name="button_bg_prelight"/>
   <include name="close_button_icon"/>
 </draw_ops>
 <draw_ops name="close_button_pressed">
-  <include name="button_bg_pressed"/>
   <include name="close_button_icon"/>
 </draw_ops>
 <draw_ops name="close_button_unfocused">
-  <include name="button_bg_unfocused"/>
   <include name="close_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="close_button_unfocused_prelight">
-  <include name="button_bg_unfocused_prelight"/>
   <include name="close_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="close_button_unfocused_pressed">
-  <include name="button_bg_unfocused_pressed"/>
   <include name="close_button_icon_unfocused"/>
 </draw_ops>
 
 <draw_ops name="maximize_button_icon">
-  <rectangle color="gtk:fg[SELECTED]" filled="false"
-             x="((width-(Bmin`max`height-Bpad*2))/2)" y="((height-(Bmin`max`height-Bpad*2))/2)" width="width-((width-(Bmin`max`height-Bpad*2))/2)*2-1" height="height-((height-(Bmin`max`height-Bpad*2))/2)*2-1"/>
-  <line color="gtk:fg[SELECTED]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2) + 1" y1="((height-(Bmin`max`height-Bpad*2))/2) + 1" x2="width-((width-(Bmin`max`height-Bpad*2))/2)" y2="((height-(Bmin`max`height-Bpad*2))/2) + 1"/>
+      <image filename="maximize-button.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 
 <draw_ops name="maximize_button_icon_unfocused">
-  <rectangle color="gtk:fg[NORMAL]" filled="false"
-             x="((width-(Bmin`max`height-Bpad*2))/2)" y="((height-(Bmin`max`height-Bpad*2))/2)" width="width-((width-(Bmin`max`height-Bpad*2))/2)*2-1" height="height-((height-(Bmin`max`height-Bpad*2))/2)*2-1"/>
-  <line color="gtk:fg[NORMAL]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2) + 1" y1="((height-(Bmin`max`height-Bpad*2))/2) + 1" x2="width-((width-(Bmin`max`height-Bpad*2))/2)" y2="((height-(Bmin`max`height-Bpad*2))/2) + 1"/>
+      <image filename="maximize-button.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 
 <draw_ops name="maximize_button_normal">
-  <include name="button_bg"/>
   <include name="maximize_button_icon"/>
 </draw_ops>
 <draw_ops name="maximize_button_prelight">
-  <include name="button_bg_prelight"/>
   <include name="maximize_button_icon"/>
 </draw_ops>
 <draw_ops name="maximize_button_pressed">
-  <include name="button_bg_pressed"/>
   <include name="maximize_button_icon"/>
 </draw_ops>
 <draw_ops name="maximize_button_unfocused">
-  <include name="button_bg_unfocused"/>
   <include name="maximize_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="maximize_button_unfocused_prelight">
-  <include name="button_bg_unfocused_prelight"/>
   <include name="maximize_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="maximize_button_unfocused_pressed">
-  <include name="button_bg_unfocused_pressed"/>
   <include name="maximize_button_icon_unfocused"/>
 </draw_ops>
 
 <draw_ops name="restore_button_icon">
-
-  <rectangle color="gtk:fg[SELECTED]" filled="false"
-             x="((width-(Bmin`max`height-Bpad*2))/2) + 1" y="((height-(Bmin`max`height-Bpad*2))/2) + 1" width="width-((width-(Bmin`max`height-Bpad*2))/2)*2-3" height="height-((height-(Bmin`max`height-Bpad*2))/2)*2-3"/>
-  <line color="gtk:fg[SELECTED]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2) + 2" y1="((height-(Bmin`max`height-Bpad*2))/2) + 2" x2="width-((width-(Bmin`max`height-Bpad*2))/2) - 2" y2="((height-(Bmin`max`height-Bpad*2))/2) + 2"/>
-
+      <image filename="restore-button.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 
 <draw_ops name="restore_button_icon_unfocused">
-
-  <rectangle color="gtk:fg[NORMAL]" filled="false"
-             x="((width-(Bmin`max`height-Bpad*2))/2) + 1" y="((height-(Bmin`max`height-Bpad*2))/2) + 1" width="width-((width-(Bmin`max`height-Bpad*2))/2)*2-3" height="height-((height-(Bmin`max`height-Bpad*2))/2)*2-3"/>
-  <line color="gtk:fg[NORMAL]" width="1"
-        x1="((width-(Bmin`max`height-Bpad*2))/2) + 2" y1="((height-(Bmin`max`height-Bpad*2))/2) + 2" x2="width-((width-(Bmin`max`height-Bpad*2))/2) - 2" y2="((height-(Bmin`max`height-Bpad*2))/2) + 2"/>
-
+      <image filename="restore-button.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 
 <draw_ops name="restore_button_normal">
-  <include name="button_bg"/>
   <include name="restore_button_icon"/>
 </draw_ops>
 <draw_ops name="restore_button_prelight">
-  <include name="button_bg_prelight"/>
   <include name="restore_button_icon"/>
 </draw_ops>
 <draw_ops name="restore_button_pressed">
-  <include name="button_bg_pressed"/>
   <include name="restore_button_icon"/>
 </draw_ops>
 <draw_ops name="restore_button_unfocused">
-  <include name="button_bg_unfocused"/>
   <include name="restore_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="restore_button_unfocused_prelight">
-  <include name="button_bg_unfocused_prelight"/>
   <include name="restore_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="restore_button_unfocused_pressed">
-  <include name="button_bg_unfocused_pressed"/>
   <include name="restore_button_icon_unfocused"/>
 </draw_ops>
 
 <draw_ops name="minimize_button_icon">
-  <rectangle color="gtk:fg[SELECTED]" filled="true"
-             x="((width-(Bmin`max`height-Bpad*2))/2)" y="height - ((height-(Bmin`max`height-Bpad*2))/2) - 2" width="width-((width-(Bmin`max`height-Bpad*2))/2)*2" height="2"/>
+      <image filename="minimize-button.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 
 <draw_ops name="minimize_button_icon_unfocused">
-  <rectangle color="gtk:fg[NORMAL]" filled="true"
-             x="((width-(Bmin`max`height-Bpad*2))/2)" y="height - ((height-(Bmin`max`height-Bpad*2))/2) - 2" width="width-((width-(Bmin`max`height-Bpad*2))/2)*2" height="2"/>
+      <image filename="minimize-button.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 
 <draw_ops name="minimize_button_normal">
-  <include name="button_bg"/>
   <include name="minimize_button_icon"/>
 </draw_ops>
 <draw_ops name="minimize_button_prelight">
-  <include name="button_bg_prelight"/>
   <include name="minimize_button_icon"/>
 </draw_ops>
 <draw_ops name="minimize_button_pressed">
-  <include name="button_bg_pressed"/>
   <include name="minimize_button_icon"/>
 </draw_ops>
 <draw_ops name="minimize_button_unfocused">
-  <include name="button_bg_unfocused"/>
   <include name="minimize_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="minimize_button_unfocused_prelight">
-  <include name="button_bg_unfocused_prelight"/>
   <include name="minimize_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="minimize_button_unfocused_pressed">
-  <include name="button_bg_unfocused_pressed"/>
   <include name="minimize_button_icon_unfocused"/>
 </draw_ops>
 
@@ -754,6 +662,7 @@
 
 <frame_style name="focused" geometry="normal" parent="normal">
   <piece position="entire_background" draw_ops="round_bevel"/>
+  <piece position="titlebar" draw_ops="titlebar_bg"/>
   <piece position="title" draw_ops="title"/>
   <button function="close" state="normal" draw_ops="close_button_normal"/>
   <button function="close" state="pressed" draw_ops="close_button_pressed"/>
