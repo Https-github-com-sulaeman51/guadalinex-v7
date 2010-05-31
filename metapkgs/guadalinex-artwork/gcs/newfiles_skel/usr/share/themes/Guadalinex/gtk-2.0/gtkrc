@@ -79,7 +79,7 @@ style "default" {
 		toolbarstyle = 1
 		animation = FALSE
 		radius = 3.0
-		style = GLOSSY
+		style = CLASSIC
 
 		# Set a hint to disable backward compatibility fallbacks.
 		hint = "use-hints"
@@ -167,8 +167,8 @@ style "notebook_bg" {
 }
 
 style "button" {
-	xthickness = 3
-    ythickness = 3
+    xthickness = 0
+    ythickness = 0
 
     bg[NORMAL]        = shade (1.04, @bg_color)
     bg[PRELIGHT]      = shade (1.06, @bg_color)
@@ -240,7 +240,7 @@ style "separator_menu_item" {
 
 style "frame_title" {
 
-	fg[NORMAL]        = lighter (@fg_color)
+#	fg[NORMAL]        = lighter (@fg_color)
 }
 
 style "treeview" {
