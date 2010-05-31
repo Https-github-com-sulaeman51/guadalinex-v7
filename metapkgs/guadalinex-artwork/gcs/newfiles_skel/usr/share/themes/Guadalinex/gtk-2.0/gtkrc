@@ -1,7 +1,7 @@
 
 # Please keep this gtkrc in sync with the other ones from Clearlooks based themes.
 
-gtk-color-scheme ="base_color:#ffffff\nfg_color:#000000\ntooltip_fg_color:#000000\nselected_bg_color:#000000\nselected_fg_color:#ffffff\ntext_color:#1A1A1A\nbg_color:#EDECEB\ntooltip_bg_color:#F5F5B5"
+gtk-color-scheme ="base_color:#ffffff\nfg_color:#000000\ntooltip_fg_color:#000000\nselected_bg_color:#000000\nselected_fg_color:#ffffff\ntext_color:#1A1A1A\nbg_color:#EDECEB\ntooltip_bg_color:#FFFFBF"
 
 style "default" {
 	xthickness = 1
@@ -13,8 +13,8 @@ style "default" {
 	GtkButton::child-displacement-x = 1
 	GtkButton::child-displacement-y = 1
 	GtkButton::default-border = { 0, 0, 0, 0 }
-	GtkButton::image-spacing = 4
-	GtkToolButton::icon-spacing = 4
+	#GtkButton::image-spacing = 4
+	#GtkToolButton::icon-spacing = 4
 
 	GtkCheckButton::indicator-size = 14
 
@@ -79,7 +79,7 @@ style "default" {
 		toolbarstyle = 1
 		animation = FALSE
 		radius = 3.0
-		style = GUMMY
+		style = GLOSSY
 
 		# Set a hint to disable backward compatibility fallbacks.
 		hint = "use-hints"
@@ -115,7 +115,7 @@ style "spinbutton" {
 	}
 }
 
-style "scale" {
+style "scale" = "button" {
 	xthickness = 2
 	ythickness = 2
 
@@ -163,23 +163,24 @@ style "vscrollbar" {
 
 style "notebook_bg" {
 
-	bg[NORMAL]        = shade (1.02, @bg_color)
+	bg[NORMAL]        = shade (1.04, @bg_color)
 }
 
 style "button" {
 	xthickness = 3
-	ythickness = 3
+    ythickness = 3
 
-	bg[NORMAL]        = shade (1.04, @bg_color)
-	bg[PRELIGHT]      = shade (1.06, @bg_color)
-	bg[ACTIVE]        = shade (0.85, @bg_color)
+    bg[NORMAL]        = shade (1.04, @bg_color)
+    bg[PRELIGHT]      = shade (1.06, @bg_color)
+    bg[ACTIVE]        = shade (0.85, @bg_color)
+
 }
 
 # The color is changed by the notebook_bg style, this style
 # changes the x/ythickness
 style "notebook" {
-	xthickness = 3
-	ythickness = 3
+	xthickness = 2
+	ythickness = 2
 }
 
 style "statusbar" {
