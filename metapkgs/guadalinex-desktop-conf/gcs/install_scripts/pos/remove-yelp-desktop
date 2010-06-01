@@ -1,4 +1,4 @@
-if [ -f /usr/share/applications/yelp.desktop ]
+if [ -f /usr/share/applications/ubuntu-about.desktop ]
 then
-	dpkg-divert --package guadalinex-desktop-conf --rename --quiet --add /usr/share/applications/yelp.desktop
+	dpkg-divert --package guadalinex-desktop-conf --rename --quiet --add /usr/share/applications/ubuntu-about.desktop
 fi
