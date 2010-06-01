@@ -1,3 +1,9 @@
+casper-guada (1.4.2) lucid; urgency=low
+
+  * scripts/casper-bottom/10adduser: fixed ubiquity desktop file path
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 01 Jun 2010 13:48:36 +0200
+
 casper-guada (1.4.1) lucid; urgency=low
 
   * scripts/casper-bottom/10adduser: changed ubiquity desktop file to guadaui
