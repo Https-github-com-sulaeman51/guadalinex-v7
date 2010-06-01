@@ -29,9 +29,9 @@ text_colour.green = 1.0;
 text_colour.blue = 1.0;
 
 # Tinted text #988592
-tinted_text_colour.red = 0.59;
-tinted_text_colour.green = 0.52;
-tinted_text_colour.blue = 0.57;
+tinted_text_colour.red = 0.86;
+tinted_text_colour.green = 0.89;
+tinted_text_colour.blue = 0.99;
 
 # Action Text - #ffffff - RGB 255 255 255
 action_text_colour.red = 1.0;
@@ -89,16 +89,17 @@ fun TextYOffset() {
     local.min_height;
 
     # Put the 1st line below the logo + some spacing 
-    y = Window.GetY () + Window.GetWidth () / 2 - progress_indicator.width / 2  + (progress_indicator.bullet_height * 3.5 ); # + logo_spacing;
+   # y = Window.GetY () + Window.GetWidth () / 2 - logo[1].width / 2  + (logo[1].height * 3.5 ); # + logo_spacing;
 
+    y = Window.GetY () + Window.GetHeight () / 2 - logo[1].height / 2  + (logo[1].height * 3.5 ); # + logo_spacing;
     text_height = first_line_height * 7.5;
 
     min_height = Window.GetHeight();
     if (y + text_height > min_height)
         y = min_height - text_height;
 
-    if (y < progress_indicator.y + progress_indicator.height)
-        return progress_indicator.y + progress_indicator.height;
+    if (y < logo[1].y + logo[1].height)
+        return logo[1].y + logo[1].height;
     return y;
 }
 
@@ -198,16 +199,16 @@ fsck_notification.image = ImageToActionText ("");
 
 status = "normal";
 
-progress_indicator.bullet_off = Image ("progress_dot_off.png");
-progress_indicator.bullet_on = Image ("progress_dot_on.png");
-progress_indicator.bullet_width = progress_indicator.bullet_off.GetWidth ();
-progress_indicator.bullet_height = progress_indicator.bullet_off.GetHeight ();
-progress_indicator.bullet_hspacing = progress_indicator.bullet_width * 1.1;
-progress_indicator.width = progress_indicator.bullet_width * 5;
-progress_indicator.height = progress_indicator.bullet_height;
-#progress_indicator.y = logo.y + logo.height + (logo.height / 8);
-progress_indicator.y = Window.GetY () + Window.GetWidth () / 2 - progress_indicator.width / 2;
-progress_indicator.x = Window.GetX () + Window.GetWidth () / 2 - progress_indicator.width / 2; # logo.x + 26;
+#progress_indicator.bullet_off = Image ("progress_dot_off.png");
+#progress_indicator.bullet_on = Image ("progress_dot_on.png");
+#progress_indicator.bullet_width = progress_indicator.bullet_off.GetWidth ();
+#progress_indicator.bullet_height = progress_indicator.bullet_off.GetHeight ();
+#progress_indicator.bullet_hspacing = progress_indicator.bullet_width * 1.1;
+#progress_indicator.width = progress_indicator.bullet_width * 5;
+#progress_indicator.height = progress_indicator.bullet_height;
+##progress_indicator.y = logo.y + logo.height + (logo.height / 8);
+#progress_indicator.y = Window.GetY () + Window.GetWidth () / 2 - progress_indicator.width / 2;
+#progress_indicator.x = Window.GetX () + Window.GetWidth () / 2 - progress_indicator.width / 2; # logo.x + 26;
 
 
 
@@ -1017,7 +1018,7 @@ fun update_status_callback (status) {
         progress = update_strings[2];
         status_string[0] = update_strings[3]; # "Checking disk %1$d of %2$d (%3$d %% complete)"
         if (!status_string[0])
-            status_string[0] = "Checking disk %1$d of %2$d (%3$d %% complete)";
+            status_string[0] = "Comprobando el disco %1$d de %2$d (%3$d %% completado)";
         
         if ((device != "") && (progress != "")) {
             progress = StringToInteger (progress);
