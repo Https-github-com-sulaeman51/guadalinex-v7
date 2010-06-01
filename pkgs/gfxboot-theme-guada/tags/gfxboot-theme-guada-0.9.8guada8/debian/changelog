@@ -1,3 +1,10 @@
+gfxboot-theme-guada (0.9.8guada8) lucid; urgency=low
+
+  * debian/splash.inc: shows splash.pcx
+  * debian/common.inc: shows hidden.pcx
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 01 Jun 2010 14:33:24 +0100
+
 gfxboot-theme-guada (0.9.8guada7) lucid; urgency=low
 
   * debian/common.inc: fixed language setup
