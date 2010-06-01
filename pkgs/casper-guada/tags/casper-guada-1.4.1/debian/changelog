@@ -1,3 +1,10 @@
+casper-guada (1.4.1) lucid; urgency=low
+
+  * scripts/casper-bottom/10adduser: changed ubiquity desktop file to guadaui
+    again.
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 01 Jun 2010 10:53:23 +0200
+
 casper-guada (1.4.0) lucid; urgency=low
 
   * debian/control: moved ubiquity from Depends to Pre-Depends
