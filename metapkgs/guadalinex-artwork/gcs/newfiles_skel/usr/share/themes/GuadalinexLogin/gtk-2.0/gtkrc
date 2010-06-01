@@ -1,4 +1,4 @@
-gtk-color-scheme = "fg_color: #000000\nbg_color: #2a687d\ntext_color: #000000\nbase_color: #ffffff\nselected_fg_color: #ffffff\nselected_bg_color: #000000\ntooltip_fg_color: #000000\ntooltip_bg_color: #dedede"
+gtk-color-scheme = "fg_color: #000000\nbg_color: #2a687d\ntext_color: #000000\nbase_color: #ffffff\nselected_fg_color: #ffffff\nselected_bg_color: #000000\ntooltip_fg_color: #000000\ntooltip_bg_color: #ffffff"
 
 style "industrial-default"
 {
@@ -62,7 +62,7 @@ style "industrial-default"
 
   text[NORMAL]		= @text_color
   text[PRELIGHT]	= @text_color #XXX
-  :text[ACTIVE]		= @selected_fg_color
+  text[ACTIVE]		= @selected_fg_color
   text[SELECTED]	= @selected_fg_color
   text[INSENSITIVE]	= @selected_fg_color
 
