@@ -3,6 +3,7 @@
 =,/boot/grub/menu.lst,Menú de inicio del ordenador
 =,/etc,Configuraciones generales
 =,/home,Carpetas de datos de usuarios
+R,/home/.*,Datos de usuarios
 =,/etc/ssh,Sistema de acceso remoto
 =,/etc/init.d,Servicios que pueden arrancar
 R,/etc/init.d/.*,Servicios
