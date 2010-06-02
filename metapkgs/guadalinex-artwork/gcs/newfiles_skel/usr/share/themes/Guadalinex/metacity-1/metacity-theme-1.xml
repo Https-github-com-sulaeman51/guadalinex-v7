@@ -540,19 +540,19 @@
   <include name="close_button_icon"/>
 </draw_ops>
 <draw_ops name="close_button_prelight">
-  <include name="close_button_icon"/>
+	<image filename="close-button-prelight.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 <draw_ops name="close_button_pressed">
-  <include name="close_button_icon"/>
+	<image filename="close-button-pressed.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 <draw_ops name="close_button_unfocused">
   <include name="close_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="close_button_unfocused_prelight">
-  <include name="close_button_icon_unfocused"/>
+  <include name="close_button_prelight"/>
 </draw_ops>
 <draw_ops name="close_button_unfocused_pressed">
-  <include name="close_button_icon_unfocused"/>
+  <include name="close_button_pressed"/>
 </draw_ops>
 
 <draw_ops name="maximize_button_icon">
@@ -567,19 +567,19 @@
   <include name="maximize_button_icon"/>
 </draw_ops>
 <draw_ops name="maximize_button_prelight">
-  <include name="maximize_button_icon"/>
+      <image filename="maximize-button-prelight.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 <draw_ops name="maximize_button_pressed">
-  <include name="maximize_button_icon"/>
+      <image filename="maximize-button-pressed.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 <draw_ops name="maximize_button_unfocused">
   <include name="maximize_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="maximize_button_unfocused_prelight">
-  <include name="maximize_button_icon_unfocused"/>
+  <include name="maximize_button_prelight"/>
 </draw_ops>
 <draw_ops name="maximize_button_unfocused_pressed">
-  <include name="maximize_button_icon_unfocused"/>
+  <include name="maximize_button_pressed"/>
 </draw_ops>
 
 <draw_ops name="restore_button_icon">
@@ -594,19 +594,19 @@
   <include name="restore_button_icon"/>
 </draw_ops>
 <draw_ops name="restore_button_prelight">
-  <include name="restore_button_icon"/>
+      <image filename="restore-button-prelight.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 <draw_ops name="restore_button_pressed">
-  <include name="restore_button_icon"/>
+      <image filename="restore-button-pressed.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 <draw_ops name="restore_button_unfocused">
   <include name="restore_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="restore_button_unfocused_prelight">
-  <include name="restore_button_icon_unfocused"/>
+  <include name="restore_button_prelight"/>
 </draw_ops>
 <draw_ops name="restore_button_unfocused_pressed">
-  <include name="restore_button_icon_unfocused"/>
+  <include name="restore_button_pressed"/>
 </draw_ops>
 
 <draw_ops name="minimize_button_icon">
@@ -621,19 +621,19 @@
   <include name="minimize_button_icon"/>
 </draw_ops>
 <draw_ops name="minimize_button_prelight">
-  <include name="minimize_button_icon"/>
+      <image filename="minimize-button-prelight.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 <draw_ops name="minimize_button_pressed">
-  <include name="minimize_button_icon"/>
+      <image filename="minimize-button-pressed.png" x="2" y="2" width="width-4" height="height-4"/>
 </draw_ops>
 <draw_ops name="minimize_button_unfocused">
   <include name="minimize_button_icon_unfocused"/>
 </draw_ops>
 <draw_ops name="minimize_button_unfocused_prelight">
-  <include name="minimize_button_icon_unfocused"/>
+  <include name="minimize_button_prelight"/>
 </draw_ops>
 <draw_ops name="minimize_button_unfocused_pressed">
-  <include name="minimize_button_icon_unfocused"/>
+  <include name="minimize_button_pressed"/>
 </draw_ops>
 
 <draw_ops name="blank">
