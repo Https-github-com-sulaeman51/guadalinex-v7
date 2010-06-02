@@ -24,18 +24,22 @@ class FileSystem:
     self.level=0
     self.lastfile=""
     
-# Loads directory descriptions from disk
+# Load directory descriptions from disk
   def load_descriptions(self,filename):
     try:
       f=open(filename)
     except:
       print "ERROR: descriptions file not readable"
       return
-    
     descriptions=[]
-    for line in f:
-      name,description=line.split(",")
-      descriptions.append([name,description.rstrip()])
+
+    try:
+      for line in f:
+        compare,pattern,description=line.split(",")
+        descriptions.append([compare,pattern,description.rstrip()])
+    except:
+      print "ERROR: bad descriptions file"
+
     f.close()
     return descriptions 
 
@@ -49,10 +53,9 @@ class FileSystem:
 
 # Get available directories and files
   def browse(self,path):
-    newpath=self.currentpath=os.path.join(self.currentpath,path)
+    newpath=os.path.join(self.currentpath,path)
 #    is_root=(f for f in self.roots if f.fullname == newpath)
-    if newpath == "/":
-#    if is_root:
+    if newpath == "/":   #     back to start dirs:
       return self.roots
           
     if os.path.isdir(newpath):
@@ -61,14 +64,19 @@ class FileSystem:
       ldir = [x for x in os.listdir(newpath) if not os.access(x,os.X_OK) or os.path.isdir(x)] 
       ldir.sort()
       for f in ldir:
-        filename=os.path.join(self.currentpath,f)
+        filename=os.path.join(newpath,f)
         file=File(filename,self.descriptions)
-#        file.description=file.type
-        files.append(file)
+        if  file.description == None:
+          if file.type=="dir" and self.conf["strict_dirs"]=="True":
+            continue
+          if file.type=="file" and self.conf["strict_files"]:
+            continue
+        files.append(file)        
       if len(files)>0:
         self.currentpath=newpath
         self.level+=1        
         return files
+      os.chdir("..")
     return False
 
   def get_content(self,path):
@@ -95,16 +103,21 @@ class File:
     self.description=self.search_description(fullname,descriptions)
 
     if os.path.isdir(fullname):
+      self.type="dir"
       self.icon=gtk.STOCK_MEDIA_PLAY
     else:
+      self.type="file"
       self.icon=gtk.STOCK_EDIT
 
   def search_description(self,fullname,descriptions):
     description=""
-    for pattern,desc in descriptions:
-      if fullname.startswith(pattern):
+    for (compare,pattern,desc) in descriptions:
+#      if fullname.startswith(pattern):  # Compare first characters
+#      if fullname==pattern:             # Compare exact words
+       if (compare == "=" and fullname==pattern) or \
+          (compare == "R" and re.match(pattern,fullname)):
          description=desc
-    return description
+         return description
 
 
 class Gui:
@@ -199,8 +212,7 @@ class Gui:
     selection=self.treeview_files.get_selection()
     (model,iter)=selection.get_selected()
     return model.get_value(iter,1)
-    
- 
+     
   def move_to(self,path):
     files=self.filesystem.browse(path)
     if files:
