@@ -13,6 +13,7 @@
 				<Category>Help</Category>
 			</And>
                         <Filename>guadalinex-online-documentation.desktop</Filename>
+                        <Filename>dangerous.desktop</Filename>
 			<Filename>diagnostic_report.desktop</Filename>
                         <Filename>hermesdruid.desktop</Filename>
                 </Include>
