@@ -320,131 +320,131 @@ fun set_progress_indicator () {
 # We have 2 bullets, one on top of the other:
 # The white one is on top of the red one and the former should
 # slowly fade so as to get a nice transition effect.
-fun switch_on_bullet (bullets_off, bullets_on, bullet_number, opacity) {
-    local.x = bullets_on[bullet_number].x;
-    local.y = bullets_on[bullet_number].y;
-    local.z = bullets_on[bullet_number].z;
-    
-    # Hide the bullets which are off
-    bullets_off[bullet_number].sprite.SetOpacity (0);
-    
-    # Show the bullets which are on
-    bullets_on[bullet_number].sprite.SetPosition (local.x, local.y, local.z);
-    bullets_on[bullet_number].sprite.SetOpacity (opacity);
-    
-    # Bump the number of times we have switched on bullets
-    global.times_bullets_switched++;
-}
-
-fun switch_off_bullets () {
-    # Debug("Switching off progress indicator");
-    
-    set_progress_indicator ();
-    global.times_bullets_switched = 0;
-    global.on_off = 1;
-}
-
-# This is something that we can call when we exit
-fun switch_on_bullets () {
-    # Debug("Switching off progress indicator");
-    if (!global.progress_indicator.bullets_on) set_progress_indicator ();
-    local = global.progress_indicator;
-
-    for (index = 0; bullets_on[index]; index++) {
-        switch_on_bullet (bullets_off, bullets_on, index, 1.0);
-    }
-}
-
-
-# Implement in boot progress callback
-fun animate_progress_indicator (progress, time) {
-    if (global.progress_time == NULL) {
-        global.progress_time = progress;  #time;
-        switch_off_bullets ();
-    }
-
-#    Debug ("progress = " + progress + ", time = " + time + " times switched = " + global.times_bullets_switched + " on_off " + global.on_off);
-
-#    if (global.times_bullets_switched == NULL)
-#        global.times_bullets_switched = 5;
-
-#    if (global.on_off == NULL)
-#        global.on_off = 0;
-
-    if ((progress - global.progress_time) >= 1.0) {
-        global.progress_time = progress;
-        
-        if (global.times_bullets_switched == 5) {
-            # Change which bullets are switched on
-            # and which ones are switched off
-            global.on_off = !global.on_off;
-            global.times_bullets_switched = 0;
-        }
-        
-        if (global.on_off) {
-            switch_on_bullet (progress_indicator.bullets_off, progress_indicator.bullets_on,
-                              global.times_bullets_switched, 1.0);
-        }
-        else {
-            switch_on_bullet (progress_indicator.bullets_on, progress_indicator.bullets_off,
-                              global.times_bullets_switched, 1.0);
-        }
-    }
-    
-    
-    # Start setting bullets to "on" with translucency
-#    for (index = 0; index <= 5; index++) {
-#        opacity = 0.0;
-#        while (opacity <= 1.0) {
+#fun switch_on_bullet (bullets_off, bullets_on, bullet_number, opacity) {
+#    local.x = bullets_on[bullet_number].x;
+#    local.y = bullets_on[bullet_number].y;
+#    local.z = bullets_on[bullet_number].z;
+#    
+#    # Hide the bullets which are off
+#    bullets_off[bullet_number].sprite.SetOpacity (0);
+#    
+#    # Show the bullets which are on
+#    bullets_on[bullet_number].sprite.SetPosition (local.x, local.y, local.z);
+#    bullets_on[bullet_number].sprite.SetOpacity (opacity);
+#    
+#    # Bump the number of times we have switched on bullets
+#    global.times_bullets_switched++;
+#}
+#
+#fun switch_off_bullets () {
+#    # Debug("Switching off progress indicator");
+#    
+#    set_progress_indicator ();
+#    global.times_bullets_switched = 0;
+#    global.on_off = 1;
+#}
+#
+## This is something that we can call when we exit
+#fun switch_on_bullets () {
+#    # Debug("Switching off progress indicator");
+#    if (!global.progress_indicator.bullets_on) set_progress_indicator ();
+#    local = global.progress_indicator;
+#
+#    for (index = 0; bullets_on[index]; index++) {
+#        switch_on_bullet (bullets_off, bullets_on, index, 1.0);
+#    }
+#}
+#
+#
+## Implement in boot progress callback
+#fun animate_progress_indicator (progress, time) {
+#    if (global.progress_time == NULL) {
+#        global.progress_time = progress;  #time;
+#        switch_off_bullets ();
+#    }
+#
+##    Debug ("progress = " + progress + ", time = " + time + " times switched = " + global.times_bullets_switched + " on_off " + global.on_off);
+#
+##    if (global.times_bullets_switched == NULL)
+##        global.times_bullets_switched = 5;
+#
+##    if (global.on_off == NULL)
+##        global.on_off = 0;
+#
+#    if ((progress - global.progress_time) >= 1.0) {
+#        global.progress_time = progress;
+#        
+#        if (global.times_bullets_switched == 5) {
+#            # Change which bullets are switched on
+#            # and which ones are switched off
+#            global.on_off = !global.on_off;
+#            global.times_bullets_switched = 0;
+#        }
+#        
+#        if (global.on_off) {
 #            switch_on_bullet (progress_indicator.bullets_off, progress_indicator.bullets_on,
-#                              index, opacity);
-#            opacity += 0.1;
+#                              global.times_bullets_switched, 1.0);
+#        }
+#        else {
+#            switch_on_bullet (progress_indicator.bullets_on, progress_indicator.bullets_off,
+#                              global.times_bullets_switched, 1.0);
 #        }
 #    }
-}
-
-
-#-----------------------------------------Label utility functions---------------------
-
-# label should be either a string or NULL
-# Images for n lines will be created and returned as items of the
-# message_label array
+#    
+#    
+#    # Start setting bullets to "on" with translucency
+##    for (index = 0; index <= 5; index++) {
+##        opacity = 0.0;
+##        while (opacity <= 1.0) {
+##            switch_on_bullet (progress_indicator.bullets_off, progress_indicator.bullets_on,
+##                              index, opacity);
+##            opacity += 0.1;
+##        }
+##    }
+#}
 #
-fun get_message_label (label, is_fake, is_action_line) {
-    # Debug("Get Label position");
-    local.message_label;
-    
-    if (is_fake)
-        # Create a fake label so as to get the y coordinate of
-        # a standard-length label.
-        local.message_image = ImageToTintedText ("This is a fake message");
-    else
-        local.message_image = (is_action_line) && ImageToActionText (label) || ImageToTintedText (label);
-        
-    message_label.width = message_image.GetWidth ();
-    message_label.height = message_image.GetHeight ();
-
-    # Center the line horizontally
-    message_label.x = Window.GetX () + Window.GetWidth () / 2 - message_label.width / 2;
-
-    message_label.y = top_of_the_text;
-
-    # Put the 2nd line below the fsck line
-    if (is_action_line) {
-        local.fsck_label.y = message_label.y + (first_line_height + first_line_height / 2);
-        message_label.y = local.fsck_label.y + (first_line_height * 2);
-    }
-
-    # Debug("action label x = " + message_label.x + " y = " + message_label.y );
-
-#    message_debug = "msg_x = " + message_label.x + " msg_y = " + message_label.y +
-#                    "msg_width = " + message_label.width + " msg_height = " +
-#                    message_label.height + " message = " + label;
-#    Debug(message_debug);
-
-    return message_label;
-
-}
+#
+##-----------------------------------------Label utility functions---------------------
+#
+## label should be either a string or NULL
+## Images for n lines will be created and returned as items of the
+## message_label array
+##
+#fun get_message_label (label, is_fake, is_action_line) {
+#    # Debug("Get Label position");
+#    local.message_label;
+#    
+#    if (is_fake)
+#        # Create a fake label so as to get the y coordinate of
+#        # a standard-length label.
+#        local.message_image = ImageToTintedText ("This is a fake message");
+#    else
+#        local.message_image = (is_action_line) && ImageToActionText (label) || ImageToTintedText (label);
+#        
+#    message_label.width = message_image.GetWidth ();
+#    message_label.height = message_image.GetHeight ();
+#
+#    # Center the line horizontally
+#    message_label.x = Window.GetX () + Window.GetWidth () / 2 - message_label.width / 2;
+#
+#    message_label.y = top_of_the_text;
+#
+#    # Put the 2nd line below the fsck line
+#    if (is_action_line) {
+#        local.fsck_label.y = message_label.y + (first_line_height + first_line_height / 2);
+#        message_label.y = local.fsck_label.y + (first_line_height * 2);
+#    }
+#
+#    # Debug("action label x = " + message_label.x + " y = " + message_label.y );
+#
+##    message_debug = "msg_x = " + message_label.x + " msg_y = " + message_label.y +
+##                    "msg_width = " + message_label.width + " msg_height = " +
+##                    message_label.height + " message = " + label;
+##    Debug(message_debug);
+#
+#    return message_label;
+#
+#}
 
 # Create an fsck label and/or get its position
 fun get_fsck_label (label, is_fake) {
