@@ -30,12 +30,14 @@ if os.path.exists(changelog):
     if match:
         version = match.group(1)
 
+etcpath    = "/etc/" 
+
 setup(name='dangerous',
       version=version,
       packages=[''],
       scripts=['dangerous'],
       data_files=[
-                ('etc',['dangerous.conf']),
+                (etcpath,['dangerous.conf']),
                 ('share/applications',['dangerous.desktop']),
                 ('share/dangerous',['dangerous.descriptions']),
                 ('share/dangerous',['dangerous.glade']),
