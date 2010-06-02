@@ -6,10 +6,11 @@
 # date: 29/Mar/2010
 
 import re
+import time
 import pygtk
 pygtk.require ('2.0')
 import gtk
-import os,commands,sys
+import os,commands,sys,shutil
 from configobj import ConfigObj
 
 class FileSystem:
@@ -68,9 +69,9 @@ class FileSystem:
         filename=os.path.join(newpath,f)
         file=File(filename,self.descriptions)
         if  file.description == None:
-          if file.type=="dir" and self.conf["strict_dirs"]=="True":
+          if file.type=="dir" and self.conf["strict_dirs"]=="Yes":
             continue
-          if file.type=="file" and self.conf["strict_files"]:
+          if file.type=="file" and self.conf["strict_files"]=="Yes":
             continue
         files.append(file)        
       if len(files)>0:
@@ -83,16 +84,29 @@ class FileSystem:
   def get_content(self,path):
     if os.path.isfile(path): 
       f=open(path,'r')
-      content=f.read()
+      content=unicode(f.read())
       f.close
       return content
     return False
 
+  def save_backup(self,path):
+    now=str(time.strftime((".%d%m%Y-%H%M%S.danger"),time.localtime()))
+    try:
+      shutil.copy2(path,path+now)
+      return True
+    except:
+      return False
+  
   def save_content(self,path,content):
-    f=open(path,'w')
-    f.write(content)
-    f.close
-    return
+    try:
+      f=open(path,'w')
+      f.write(content)
+      f.close
+    except:
+      return False
+    return True
+    
+    
       
 class File:
   """
@@ -126,6 +140,12 @@ class Gui:
     """
     In this init the main window is displayed
     """
+    self.filesystem=filesystem
+    self.conf=conf
+
+    if conf["splash"]=="Yes":
+      self.alert("Atención: va a acceder a datos del sistema.\n\nTenga mucho cuidado al hacer cualquier cambio.")
+
     dic = {
        "on_button_cancel_clicked" : (self.quit),
        "on_button_edit_clicked" : (self.button_edit_clicked),
@@ -139,9 +159,6 @@ class Gui:
     glade1 = gtk.Builder()
     glade1.add_from_file("./dangerous.glade")
     glade1.connect_signals(dic)
-
-    self.filesystem=filesystem
-    self.conf=conf
 
     self.dialog_edit=glade1.get_object("dialog_edit")
     self.dialog_edit_textview_content=glade1.get_object("textview_content")
@@ -163,12 +180,17 @@ class Gui:
     column1.pack_start(cell2, True)
     column1.add_attribute(cell2, 'text', 1)
 
-
     cell3 = gtk.CellRendererText()
     column2.pack_start(cell3, True)
     column2.add_attribute(cell3, 'text', 2)
 
     self.load_tree(filesystem.roots)
+
+
+  def alert(self,message):
+    dialog = gtk.MessageDialog(None, gtk.DIALOG_MODAL, gtk.MESSAGE_INFO, gtk.BUTTONS_CLOSE, message)
+    dialog.run()
+    dialog.destroy()
 
   def load_tree(self,files):
     self.liststore_files.clear()
@@ -199,14 +221,29 @@ class Gui:
   def button_edit_ok_clicked(self,widget):
     path=self.get_selected_file()
     buffer=self.dialog_edit_textview_content.get_buffer()
+    message="No ha cambiado nada.\n\nEl fichero no se grabará."
     if buffer.get_modified():
       content=buffer.get_text(buffer.get_start_iter() , buffer.get_end_iter())
-      self.filesystem.save_content(path,content)
+      ok=True
+      if self.conf["backups"]=="Yes":
+        ok=self.filesystem.save_backup(path)
+        if ok:
+          message="Se ha guardado una copia de seguridad.\n\n"
+        else:
+          message="ATENCION: No ha sido posible grabar una copia de seguridad.\n\nSe cancelan todos los cambios.\n\n"
+      if ok:
+        ok=self.filesystem.save_content(path,content)
+        if ok:
+          message+="Cambios guardados"
+        else:
+          message+="ATENCION: No ha sido posible guardar los cambios."
     self.dialog_edit.hide()
+    self.alert(message)
     return
 
   def button_edit_cancel_clicked(self,widget):
     self.dialog_edit.hide()
+    self.alert("No se ha modificado nada")
     return
 
   def get_selected_file(self):

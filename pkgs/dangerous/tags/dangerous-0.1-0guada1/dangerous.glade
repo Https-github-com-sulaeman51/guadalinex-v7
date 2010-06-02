@@ -17,6 +17,7 @@
     <property name="height_request">400</property>
     <property name="visible">True</property>
     <property name="title" translatable="yes">Ficheros del Sistema</property>
+    <property name="destroy_with_parent">True</property>
     <child>
       <object class="GtkVBox" id="vbox1">
         <property name="visible">True</property>
@@ -177,6 +178,7 @@
               <object class="GtkTextView" id="textview_content">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="wrap_mode">word</property>
               </object>
             </child>
           </object>
