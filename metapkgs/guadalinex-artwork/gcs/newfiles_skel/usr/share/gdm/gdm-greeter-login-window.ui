@@ -21,7 +21,7 @@
                       <object class="GtkImage" id="logo-image">
                         <property name="visible">True</property>
                         <property name="pixel_size">256</property>
-                        <property name="icon_name">computer</property>
+                        <property name="icon_name">gdmicon</property>
                       </object>
                     </child>
                   </object>
