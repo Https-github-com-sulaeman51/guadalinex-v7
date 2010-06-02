@@ -1,0 +1,18 @@
+/boot,Inicio del sistema
+/boot/grub,Menú de inicio del ordenador
+/etc,Configuraciones generales
+/home,Carpetas de datos de usuarios
+/etc/ssh,Sistema de acceso remoto
+/etc/init.d,Servicios que pueden arrancar
+/etc/X11,Configuración de la pantalla
+/etc/password,Usuarios del ordenador
+/etc/shadow,Claves encriptadas de los usuarios
+/etc/group,Grupos de usuarios del PC
+/etc/acpi,Configuración de energía
+/etc/cron.d,Tareas repetitivas
+/etc/cron.daily,Tareas repetitivas diarías
+/etc/cron.hourly,Tareas repetitivas por horas
+/etc/cron.monthly,Tareas repetitivas mensuales
+/etc/cron.weekly,Tareas repetitivas mensuales
+/etc/cups,Configuración de impresoras
+/etc/apt/,Repositorios de paquetes software
