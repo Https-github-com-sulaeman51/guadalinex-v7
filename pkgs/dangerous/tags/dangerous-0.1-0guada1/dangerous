@@ -1,8 +1,28 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
+#
+# This software is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This software is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this package; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
-# dangerous - system files editor for standar users
-# author: Alfonso E.M. alfonso@el-magnifico.org
+""" 
+   dangerous - system files editor for standard users
+"""
+
+__author__ = "Alfonso E.M. <alfonso@el-magnifico.org>"
+__copyright__ = "Alfonso E.M. <alfonso@el-magnifico.org>"
+__contributors__ = "Roberto C. Morano <rcmorano@emergya.es>"
+__license__ = "GPL-2"
 # date: 29/Mar/2010
 
 import re
@@ -157,7 +177,7 @@ class Gui:
     }
 
     glade1 = gtk.Builder()
-    glade1.add_from_file("./dangerous.glade")
+    glade1.add_from_file("/usr/share/dangerous/dangerous.glade")
     glade1.connect_signals(dic)
 
     self.dialog_edit=glade1.get_object("dialog_edit")
