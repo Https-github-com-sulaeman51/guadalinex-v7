@@ -52,6 +52,7 @@ cupsys
 cupsys-bsd
 cupsys-client
 cupsys-driver-gutenprint
+dangerous
 dasher
 dcraw
 deskbar-applet
