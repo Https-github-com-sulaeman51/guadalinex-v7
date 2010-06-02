@@ -20,7 +20,7 @@
                     <child>
                       <object class="GtkImage" id="logo-image">
                         <property name="visible">True</property>
-                        <property name="pixel_size">112</property>
+                        <property name="pixel_size">224</property>
                         <property name="icon_name">gdmicon</property>
                       </object>
                     </child>
