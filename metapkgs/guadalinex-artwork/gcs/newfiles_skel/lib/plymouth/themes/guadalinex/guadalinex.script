@@ -320,90 +320,90 @@ fun set_progress_indicator () {
 # We have 2 bullets, one on top of the other:
 # The white one is on top of the red one and the former should
 # slowly fade so as to get a nice transition effect.
-#fun switch_on_bullet (bullets_off, bullets_on, bullet_number, opacity) {
-#    local.x = bullets_on[bullet_number].x;
-#    local.y = bullets_on[bullet_number].y;
-#    local.z = bullets_on[bullet_number].z;
-#    
-#    # Hide the bullets which are off
-#    bullets_off[bullet_number].sprite.SetOpacity (0);
-#    
-#    # Show the bullets which are on
-#    bullets_on[bullet_number].sprite.SetPosition (local.x, local.y, local.z);
-#    bullets_on[bullet_number].sprite.SetOpacity (opacity);
-#    
-#    # Bump the number of times we have switched on bullets
-#    global.times_bullets_switched++;
-#}
-#
-#fun switch_off_bullets () {
-#    # Debug("Switching off progress indicator");
-#    
-#    set_progress_indicator ();
-#    global.times_bullets_switched = 0;
-#    global.on_off = 1;
-#}
-#
-## This is something that we can call when we exit
-#fun switch_on_bullets () {
-#    # Debug("Switching off progress indicator");
-#    if (!global.progress_indicator.bullets_on) set_progress_indicator ();
-#    local = global.progress_indicator;
-#
-#    for (index = 0; bullets_on[index]; index++) {
-#        switch_on_bullet (bullets_off, bullets_on, index, 1.0);
-#    }
-#}
-#
-#
-## Implement in boot progress callback
-#fun animate_progress_indicator (progress, time) {
-#    if (global.progress_time == NULL) {
-#        global.progress_time = progress;  #time;
-#        switch_off_bullets ();
-#    }
-#
-##    Debug ("progress = " + progress + ", time = " + time + " times switched = " + global.times_bullets_switched + " on_off " + global.on_off);
-#
-##    if (global.times_bullets_switched == NULL)
-##        global.times_bullets_switched = 5;
-#
-##    if (global.on_off == NULL)
-##        global.on_off = 0;
-#
-#    if ((progress - global.progress_time) >= 1.0) {
-#        global.progress_time = progress;
-#        
-#        if (global.times_bullets_switched == 5) {
-#            # Change which bullets are switched on
-#            # and which ones are switched off
-#            global.on_off = !global.on_off;
-#            global.times_bullets_switched = 0;
-#        }
-#        
-#        if (global.on_off) {
+fun switch_on_bullet (bullets_off, bullets_on, bullet_number, opacity) {
+    local.x = bullets_on[bullet_number].x;
+    local.y = bullets_on[bullet_number].y;
+    local.z = bullets_on[bullet_number].z;
+    
+    # Hide the bullets which are off
+    bullets_off[bullet_number].sprite.SetOpacity (0);
+    
+    # Show the bullets which are on
+    bullets_on[bullet_number].sprite.SetPosition (local.x, local.y, local.z);
+    bullets_on[bullet_number].sprite.SetOpacity (opacity);
+    
+    # Bump the number of times we have switched on bullets
+    global.times_bullets_switched++;
+}
+
+fun switch_off_bullets () {
+    # Debug("Switching off progress indicator");
+   
+    set_progress_indicator ();
+    global.times_bullets_switched = 0;
+    global.on_off = 1;
+}
+
+# This is something that we can call when we exit
+fun switch_on_bullets () {
+    # Debug("Switching off progress indicator");
+    if (!global.progress_indicator.bullets_on) set_progress_indicator ();
+    local = global.progress_indicator;
+
+    for (index = 0; bullets_on[index]; index++) {
+        switch_on_bullet (bullets_off, bullets_on, index, 1.0);
+    }
+}
+
+
+# Implement in boot progress callback
+fun animate_progress_indicator (progress, time) {
+    if (global.progress_time == NULL) {
+        global.progress_time = progress;  #time;
+        switch_off_bullets ();
+    }
+
+#    Debug ("progress = " + progress + ", time = " + time + " times switched = " + global.times_bullets_switched + " on_off " + global.on_off);
+
+#    if (global.times_bullets_switched == NULL)
+#        global.times_bullets_switched = 5;
+
+#    if (global.on_off == NULL)
+#        global.on_off = 0;
+
+    if ((progress - global.progress_time) >= 1.0) {
+        global.progress_time = progress;
+        
+        if (global.times_bullets_switched == 5) {
+            # Change which bullets are switched on
+            # and which ones are switched off
+            global.on_off = !global.on_off;
+            global.times_bullets_switched = 0;
+        }
+        
+        if (global.on_off) {
+            switch_on_bullet (progress_indicator.bullets_off, progress_indicator.bullets_on,
+                              global.times_bullets_switched, 1.0);
+        }
+        else {
+            switch_on_bullet (progress_indicator.bullets_on, progress_indicator.bullets_off,
+                              global.times_bullets_switched, 1.0);
+        }
+    }
+    
+    
+    # Start setting bullets to "on" with translucency
+#    for (index = 0; index <= 5; index++) {
+#        opacity = 0.0;
+#        while (opacity <= 1.0) {
 #            switch_on_bullet (progress_indicator.bullets_off, progress_indicator.bullets_on,
-#                              global.times_bullets_switched, 1.0);
-#        }
-#        else {
-#            switch_on_bullet (progress_indicator.bullets_on, progress_indicator.bullets_off,
-#                              global.times_bullets_switched, 1.0);
+#                              index, opacity);
+#            opacity += 0.1;
 #        }
 #    }
-#    
-#    
-#    # Start setting bullets to "on" with translucency
-##    for (index = 0; index <= 5; index++) {
-##        opacity = 0.0;
-##        while (opacity <= 1.0) {
-##            switch_on_bullet (progress_indicator.bullets_off, progress_indicator.bullets_on,
-##                              index, opacity);
-##            opacity += 0.1;
-##        }
-##    }
-#}
-#
-#
+}
+
+
 ##-----------------------------------------Label utility functions---------------------
 #
 ## label should be either a string or NULL
