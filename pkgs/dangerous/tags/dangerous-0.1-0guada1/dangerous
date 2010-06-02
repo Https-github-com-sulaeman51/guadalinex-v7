@@ -271,7 +271,7 @@ class Gui:
 # Main
 def main():
 
-  conf = ConfigObj("dangerous.conf")
+  conf = ConfigObj("/etc/dangerous.conf")
   
   filesystem=FileSystem(conf)
   app=Gui(conf,filesystem)
