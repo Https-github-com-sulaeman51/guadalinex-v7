@@ -73,7 +73,7 @@ def main(argv=None):
         
     url=urlparse.urlparse(sys.argv[1],"run")
 
-    program=url.path
+    program=url.netloc
     
     status, fullname = run("/usr/bin/which " + program)
     if status != 0:
