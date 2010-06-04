@@ -7,11 +7,12 @@
 # author: Alfonso E.M. alfonso@el-magnifico.org
 # date: 3/May/2010
 # changelog:
+#  4/Jun/2010 Alfonso: switch to regexp for url parsing (more secure)
 
 import os,sys
 import gettext
 import subprocess
-import urlparse
+import re
 
 gettext.install("run-url")
 
@@ -69,12 +70,16 @@ def main(argv=None):
                  
     if len(sys.argv) != 2:
         show_help()
-        sys.exit(2)
+        sys.exit(1)
         
-    url=urlparse.urlparse(sys.argv[1],"run")
+    matching=re.match("run:\/{0,2}([a-zA-z0-9_\+\-\/]+)",sys.argv[1],re.IGNORECASE)
 
-    program=url.netloc
-    
+    if matching:
+        program=matching.group(1)
+    else:
+        show_help()
+        sys.exit(1)
+
     status, fullname = run("/usr/bin/which " + program)
     if status != 0:
         warning(_("This program is not installed or is unavailable."))
