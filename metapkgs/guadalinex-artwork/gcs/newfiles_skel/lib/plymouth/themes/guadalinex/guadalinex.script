@@ -23,6 +23,7 @@
 #              Charlie Brej   <cbrej@cs.man.ac.uk>
 # 
 
+
 # Set the text colour in (rgb / 256)
 text_colour.red = 1.0;
 text_colour.green = 1.0;
@@ -89,9 +90,9 @@ fun TextYOffset() {
     local.min_height;
 
     # Put the 1st line below the logo + some spacing 
-   # y = Window.GetY () + Window.GetWidth () / 2 - logo[1].width / 2  + (logo[1].height * 3.5 ); # + logo_spacing;
+ #  y = Window.GetY () + Window.GetWidth () / 2 - logo[1].width / 2  + (logo[1].height * 3.5 ); # + logo_spacing;
 
-    y = Window.GetY () + Window.GetHeight () / 2 - logo[1].height / 2  + (logo[1].height * 3.5 ); # + logo_spacing;
+    y = Window.GetY () + Window.GetHeight () / 2 - logo[1].height / 2  + (logo[1].height * 2 ); # + logo_spacing;
     text_height = first_line_height * 7.5;
 
     min_height = Window.GetHeight();
@@ -338,7 +339,7 @@ fun switch_on_bullet (bullets_off, bullets_on, bullet_number, opacity) {
 
 fun switch_off_bullets () {
     # Debug("Switching off progress indicator");
-   
+    
     set_progress_indicator ();
     global.times_bullets_switched = 0;
     global.on_off = 1;
@@ -404,47 +405,47 @@ fun animate_progress_indicator (progress, time) {
 }
 
 
-##-----------------------------------------Label utility functions---------------------
+#-----------------------------------------Label utility functions---------------------
+
+# label should be either a string or NULL
+# Images for n lines will be created and returned as items of the
+# message_label array
 #
-## label should be either a string or NULL
-## Images for n lines will be created and returned as items of the
-## message_label array
-##
-#fun get_message_label (label, is_fake, is_action_line) {
-#    # Debug("Get Label position");
-#    local.message_label;
-#    
-#    if (is_fake)
-#        # Create a fake label so as to get the y coordinate of
-#        # a standard-length label.
-#        local.message_image = ImageToTintedText ("This is a fake message");
-#    else
-#        local.message_image = (is_action_line) && ImageToActionText (label) || ImageToTintedText (label);
-#        
-#    message_label.width = message_image.GetWidth ();
-#    message_label.height = message_image.GetHeight ();
-#
-#    # Center the line horizontally
-#    message_label.x = Window.GetX () + Window.GetWidth () / 2 - message_label.width / 2;
-#
-#    message_label.y = top_of_the_text;
-#
-#    # Put the 2nd line below the fsck line
-#    if (is_action_line) {
-#        local.fsck_label.y = message_label.y + (first_line_height + first_line_height / 2);
-#        message_label.y = local.fsck_label.y + (first_line_height * 2);
-#    }
-#
-#    # Debug("action label x = " + message_label.x + " y = " + message_label.y );
-#
-##    message_debug = "msg_x = " + message_label.x + " msg_y = " + message_label.y +
-##                    "msg_width = " + message_label.width + " msg_height = " +
-##                    message_label.height + " message = " + label;
-##    Debug(message_debug);
-#
-#    return message_label;
-#
-#}
+fun get_message_label (label, is_fake, is_action_line) {
+    # Debug("Get Label position");
+    local.message_label;
+    
+    if (is_fake)
+        # Create a fake label so as to get the y coordinate of
+        # a standard-length label.
+        local.message_image = ImageToTintedText ("This is a fake message");
+    else
+        local.message_image = (is_action_line) && ImageToActionText (label) || ImageToTintedText (label);
+        
+    message_label.width = message_image.GetWidth ();
+    message_label.height = message_image.GetHeight ();
+
+    # Center the line horizontally
+    message_label.x = Window.GetX () + Window.GetWidth () / 2 - message_label.width / 2;
+
+    message_label.y = top_of_the_text;
+
+    # Put the 2nd line below the fsck line
+    if (is_action_line) {
+        local.fsck_label.y = message_label.y + (first_line_height + first_line_height / 2);
+        message_label.y = local.fsck_label.y + (first_line_height * 2);
+    }
+
+    # Debug("action label x = " + message_label.x + " y = " + message_label.y );
+
+#    message_debug = "msg_x = " + message_label.x + " msg_y = " + message_label.y +
+#                    "msg_width = " + message_label.width + " msg_height = " +
+#                    message_label.height + " message = " + label;
+#    Debug(message_debug);
+
+    return message_label;
+
+}
 
 # Create an fsck label and/or get its position
 fun get_fsck_label (label, is_fake) {
