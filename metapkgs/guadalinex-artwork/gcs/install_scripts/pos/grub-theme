@@ -1,0 +1,8 @@
+if [ -f /etc/grub.d/05_debian_theme ]
+then
+        mv /etc/grub.d/05_debian_theme /usr/share/guadalinex-artwork/05_debian_theme.distrib
+fi
+
+cp /usr/share/guadalinex-artwork/05_guadalinex_theme /etc/grub.d/05_guadalinex_theme
+dpkg-divert --package  guadalinex-artwork --quiet --add /etc/grub.d/05_debian_theme
+
