@@ -1,0 +1,11 @@
+certmanager.py usr/bin
+guadalinex-eadmin.desktop etc/xdg/autostart
+condiciones_uso.txt usr/share/ca-certificates/fnmt
+FNMTClase2CA.crt usr/share/ca-certificates/fnmt
+guadalinex-eadmin.js.gv7 usr/lib/firefox-3.6.3/greprefs/
+opensc-ceres usr/share/guadalinex-eadmin
+opensc-dnie usr/share/guadalinex-eadmin
+cert8.db etc/firefox/profile
+jss33.jar usr/share/guadalinex-eadmin/java/java-6-sun
+libjss3.so usr/share/guadalinex-eadmin/java/java-6-sun
+
