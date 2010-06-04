@@ -76,8 +76,8 @@ def main(argv=None):
     program=url.path
     
     status, fullname = run("/usr/bin/which " + program)
-    warning(_("This program is not installed or is unavailable."))
     if status != 0:
+        warning(_("This program is not installed or is unavailable."))
         sys.exit(2)
 
     fullname=fullname[:-1]
