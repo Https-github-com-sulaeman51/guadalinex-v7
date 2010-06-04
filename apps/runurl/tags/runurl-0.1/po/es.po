@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: runurl\n"
+"Project-Id-Version: run-url\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-03 11:18+0200\n"
 "PO-Revision-Date: 2010-05-03 11:19+0200\n"
@@ -16,17 +16,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: scripts/runurl:18
+#: scripts/run-url:18
 msgid "Ejecutando un programa externo"
 msgstr ""
 
-#: scripts/runurl:73
+#: scripts/run-url:73
 msgid ""
 "Es imposible comprobar la fiabilidad de este programa.\n"
 "\n"
 "Ejecución desde un navegador prohibida."
 msgstr ""
 
-#: scripts/runurl:77
+#: scripts/run-url:77
 msgid "No tiene permiso para ejecutar este programa"
 msgstr ""
