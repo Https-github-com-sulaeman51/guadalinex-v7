@@ -1,0 +1,97 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# run-url 0.1
+# Run URL
+# run a program from a run:program link in your web browser or IM
+# author: Alfonso E.M. alfonso@el-magnifico.org
+# date: 3/May/2010
+# changelog:
+
+import os,sys
+import gettext
+import subprocess
+import urlparse
+
+gettext.install("run-url")
+
+title=_('Executing external program')
+cmd = "/usr/bin/zenity --title '"+title+"'"
+
+# Some useful functions:
+
+# run: execut an external program, returning status and output
+def run(program):
+    p = subprocess.Popen(program, shell=True, bufsize=1024, stdout=subprocess.PIPE, close_fds=True)
+    (stdout,stderr)=p.communicate()
+    status=p.wait()
+
+    return status,stdout
+    
+# parent_package: check an executable returning its parent package
+def parent_package(name):
+
+    debpackage = ''
+        
+    (status, output) = run("/usr/bin/dpkg -S " + name)
+    if status != 0:
+        return ""
+        
+    debpackage,colon,output = output.partition(":")
+    if colon:
+        return debpackage
+    else:
+        return ""
+ 
+
+# warning: Shows a warning message
+def warning(text):
+    params = cmd + " --width 350 --warning --text '" + text + "'" 
+    st, out = commands.getstatusoutput(params)
+    return
+
+def show_help():
+    print """
+    Usage:
+
+    run-url run:program name 
+    run-url run:/full path
+    run-url program name
+
+    """
+                      
+                      
+# MAIN
+
+def main(argv=None):
+    if argv is None:
+        argv = sys.argv
+                 
+    if len(sys.argv) != 2:
+        show_help()
+        sys.exit(2)
+        
+    url=urlparse.urlparse(sys.argv[1],"run")
+
+    program=url.path
+    
+    status, fullname = run("/usr/bin/which " + program)
+    if status != 0:
+        sys.exit(2)
+
+    fullname=fullname[:-1]
+        
+    if parent_package(fullname) == "":
+        warning(_("It is impossible to check this program trust.\n\nExecution from the web browser forbidden."))
+        sys.exit(3)
+
+    if not os.access(fullname,os.X_OK):
+        warning(_("You don't have permission to execute this program"))
+        sys.exit(4)
+    else:
+        pid=subprocess.Popen(program).pid
+        sys.exit(0)
+
+if __name__ == "__main__":
+    main()
+    
