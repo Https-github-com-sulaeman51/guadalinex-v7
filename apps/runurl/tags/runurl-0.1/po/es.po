@@ -12,21 +12,28 @@ msgstr ""
 "Last-Translator: Alfonso de Cala <alfonso@el-magnifico.org>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: scripts/run-url:18
-msgid "Ejecutando un programa externo"
-msgstr ""
+msgid "Executing external program"
+msgstr "Ejecutando un programa externo"
 
-#: scripts/run-url:73
+#: scripts/run-url:79
+msgid "This program is not installed or is unavailable."
+msgstr "Este programa no está instalado o no está disponible."
+
+#: scripts/run-url:86
 msgid ""
+"It is impossible to check this program trust.\n"
+"\n"
+"Execution from the web browser forbidden."
+msgstr ""
 "Es imposible comprobar la fiabilidad de este programa.\n"
 "\n"
 "Ejecución desde un navegador prohibida."
-msgstr ""
 
-#: scripts/run-url:77
-msgid "No tiene permiso para ejecutar este programa"
-msgstr ""
+#: scripts/run-url:90
+msgid "You don't have permission to execute this program"
+msgstr "No tiene permiso para ejecutar este programa"

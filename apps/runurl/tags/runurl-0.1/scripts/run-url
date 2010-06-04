@@ -20,7 +20,7 @@ cmd = "/usr/bin/zenity --title '"+title+"'"
 
 # Some useful functions:
 
-# run: execut an external program, returning status and output
+# run: execute an external program, returning status and output
 def run(program):
     p = subprocess.Popen(program, shell=True, bufsize=1024, stdout=subprocess.PIPE, close_fds=True)
     (stdout,stderr)=p.communicate()
@@ -47,7 +47,7 @@ def parent_package(name):
 # warning: Shows a warning message
 def warning(text):
     params = cmd + " --width 350 --warning --text '" + text + "'" 
-    st, out = commands.getstatusoutput(params)
+    st, out = run(params)
     return
 
 def show_help():
@@ -76,6 +76,7 @@ def main(argv=None):
     program=url.path
     
     status, fullname = run("/usr/bin/which " + program)
+    warning(_("This program is not installed or is unavailable."))
     if status != 0:
         sys.exit(2)
 

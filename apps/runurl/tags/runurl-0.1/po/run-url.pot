@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-03 13:50+0200\n"
+"POT-Creation-Date: 2010-05-03 14:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,13 +16,17 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .././scripts/run-url:85
+#: .././scripts/run-url:79
+msgid "This program is not installed or is unavailable."
+msgstr ""
+
+#: .././scripts/run-url:86
 msgid ""
 "It is impossible to check this program trust.\n"
 "\n"
 "Execution from the web browser forbidden."
 msgstr ""
 
-#: .././scripts/run-url:89
+#: .././scripts/run-url:90
 msgid "You don't have permission to execute this program"
 msgstr ""
