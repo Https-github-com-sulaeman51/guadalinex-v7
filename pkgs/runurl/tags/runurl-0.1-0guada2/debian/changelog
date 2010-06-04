@@ -1,3 +1,9 @@
+runurl (0.1-0guada2) lucid; urgency=low
+
+    * debian/watch: fixed url regexp
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Fri, 04 Jun 2010 12:56:53 +0200
+
 runurl (0.1-0guada1) lucid; urgency=low
 
     * Initial upstream release
