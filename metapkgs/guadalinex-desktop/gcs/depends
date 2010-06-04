@@ -364,6 +364,7 @@ screensaver-default-images
 seahorse
 seahorse-plugins
 sg3-utils
+simple-scan
 smartdimmer
 smbclient
 smbfs
@@ -400,8 +401,6 @@ xfonts-scalable
 xfsprogs
 xkb-data
 xorg
-xsane
-xsane-common
 xscreensaver-data
 xterm
 x-ttcidfont-conf
