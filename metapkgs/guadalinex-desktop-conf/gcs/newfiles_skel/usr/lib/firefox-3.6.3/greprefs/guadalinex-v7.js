@@ -81,8 +81,3 @@ pref("network.negotiate-auth.trusted-uris", "https://");
 pref("network.protocol-handler.external.ed2k",true);
 pref("network.protocol-handler.warn-external.ed2k", false);
 pref("network.protocol-handler.expose.ed2k", false);
-
-//runurl support
-pref("network.protocol-handler.external.run",true);
-pref("network.protocol-handler.warn-external.run", false);
-pref("network.protocol-handler.expose.run", false);
