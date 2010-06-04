@@ -1,0 +1,2 @@
+version=3
+http://launchpad.net/run-url/+download http://launchpad.net/run-url/(.*)/runurl-(.*)\.tar\.gz
