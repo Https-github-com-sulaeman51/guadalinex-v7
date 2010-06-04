@@ -19,13 +19,13 @@
 from distutils.core import setup
 from DistUtilsExtra.command import *
 
-setup(name='runurl',
+setup(name='run-url',
     version='0.1',
     license='GPL v3',
     author='Alfonso de Cala',
     author_email='alfonso@el-magnifico.org',
-    url='https://launchpad.net/runurl',
-    scripts=['scripts/runurl'],
+    url='https://launchpad.net/run-url',
+    scripts=['scripts/run-url'],
     packages=[''],
     data_files=[],
     cmdclass = { "build" : build_extra.build_extra,
