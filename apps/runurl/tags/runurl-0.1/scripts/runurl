@@ -1,0 +1,85 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# runurl 0.1
+# Run URL
+# run a program from a run:program link in your web browser or IM
+# author: Alfonso E.M. alfonso@el-magnifico.org
+# date: 3/May/2010
+# changelog:
+
+import commands
+import os,sys
+import gettext
+import subprocess
+
+gettext.install("runurl")
+
+title=_('Executing external program')
+cmd = "/usr/bin/zenity --title '"+title+"'"
+
+# Some useful functions:
+
+#is_runable: check whether you are allowed to run an application
+def parent_package(name):
+
+    debpackage = ''
+    
+        
+    status, output = commands.getstatusoutput("/usr/bin/dpkg -S " + name)
+    if status != 0:
+        return ""
+        
+    debpackage,colon,output = output.partition(":")
+    if colon:
+        return debpackage
+    else:
+        return ""
+ 
+
+# warning: Shows a warning message
+def warning(text):
+    params = cmd + " --width 350 --warning --text '" + text + "'" 
+    st, out = commands.getstatusoutput(params)
+    return
+
+def show_help():
+    print """
+    Usage:
+
+    runurl program name or full path
+
+    """
+                      
+                      
+# MAIN
+
+def main(argv=None):
+    if argv is None:
+        argv = sys.argv
+       
+            
+    if len(sys.argv) != 2:
+        show_help()
+        sys.exit(2)
+        
+    program=sys.argv[1]
+
+    status, fullname = commands.getstatusoutput("/usr/bin/which " + program)
+    if status != 0:
+        sys.exit(2)
+        
+    if parent_package(fullname) == "":
+        warning(_("It is impossible to check this program trust.\n\nExecution from the web browser forbidden."))
+        sys.exit(3)
+
+    if not os.access(fullname,os.X_OK):
+        warning(_("You don't have permission to execute this program"))
+        sys.exit(4)
+    else:
+        pid=subprocess.Popen(program).pid
+        sys.exit(0)
+
+if __name__ == "__main__":
+    main()
+    

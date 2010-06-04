@@ -1,0 +1,32 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# alfem <alfonso@el-magnifico.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: runurl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-03 11:18+0200\n"
+"PO-Revision-Date: 2010-05-03 11:19+0200\n"
+"Last-Translator: Alfonso de Cala <alfonso@el-magnifico.org>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: scripts/runurl:18
+msgid "Ejecutando un programa externo"
+msgstr ""
+
+#: scripts/runurl:73
+msgid ""
+"Es imposible comprobar la fiabilidad de este programa.\n"
+"\n"
+"Ejecución desde un navegador prohibida."
+msgstr ""
+
+#: scripts/runurl:77
+msgid "No tiene permiso para ejecutar este programa"
+msgstr ""
