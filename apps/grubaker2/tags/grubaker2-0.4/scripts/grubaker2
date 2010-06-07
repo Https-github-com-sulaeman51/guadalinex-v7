@@ -191,7 +191,11 @@ class Gui:
 
                 # set boot timeout current value
                 if grubdefaults.config.has_key("GRUB_TIMEOUT") and grubdefaults.config["GRUB_TIMEOUT"].status=="":
-                  self.spin_timeout.set_value(int(self.grubdefaults.config["GRUB_TIMEOUT"].value))
+                  timeout=self.grubdefaults.config["GRUB_TIMEOUT"].value
+                  timeout=timeout.replace('"','')
+                  timeout=timeout.replace("'",'')
+                  timeout=int(timeout)
+                  self.spin_timeout.set_value(timeout)
 
   def alert(self,message):
          dialog = gtk.MessageDialog(None, gtk.DIALOG_MODAL, gtk.MESSAGE_INFO, gtk.BUTTONS_CLOSE, message)
