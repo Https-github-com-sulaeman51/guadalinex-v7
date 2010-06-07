@@ -34,15 +34,15 @@ msgstr "Menu de arranque regenerado"
 
 #: scripts/grubaker2:228
 msgid "Boot menu rebuilding failed"
-msgstr "La regeneracion del men&#xFA; de arranque ha fallado"
+msgstr "La regeneracion del menu; de arranque ha fallado"
 
 #: data/grubaker2.ui.h:1
 msgid "(check to avoid boot menu to be shown)"
-msgstr "(marque para que no se muestre el men&#xFA; de inicio)"
+msgstr "(marque para que no se muestre el menu de inicio)"
 
 #: data/grubaker2.ui.h:2
 msgid "(check to make a beep when menu is shown)"
-msgstr "(marque para que suene un pitido al mostrar el men&#xFA;)"
+msgstr "(marque para que suene un pitido al mostrar el menu)"
 
 #: data/grubaker2.ui.h:3
 msgid "Grubaker 2"
@@ -50,7 +50,7 @@ msgstr ""
 
 #: data/grubaker2.ui.h:4
 msgid "Hide menu:"
-msgstr "Ocultar el men&#xFA;:"
+msgstr "Ocultar el menu:"
 
 #: data/grubaker2.ui.h:5
 msgid "Preferred system:"
