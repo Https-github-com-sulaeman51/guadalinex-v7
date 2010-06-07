@@ -1,0 +1,16 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pitivi Video Editor
+Comment=Create and edit your own movies
+Exec=pitivi
+Terminal=false
+Type=Application
+Icon=pitivi
+Categories=GNOME;GTK;AudioVideo;AudioVideoEditing;
+StartupNotify=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=pitivi
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=0.13.4
+X-Ubuntu-Gettext-Domain=pitivi
+X-GNOME-FullName[es]=Edición de Video (pitivi)
