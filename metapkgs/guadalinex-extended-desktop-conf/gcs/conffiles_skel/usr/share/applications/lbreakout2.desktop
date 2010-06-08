@@ -6,5 +6,5 @@ Exec=/usr/games/lbreakout2
 Icon=lbreakout2.xpm
 Type=Application
 Categories=Application;Game;
-Name[es]=Palas (LBreakbout2)
+Name[es]=Frontón (LBreakbout2)
 Comment[es]=Rompe los ladrillos dandole a la pelota con la pala
