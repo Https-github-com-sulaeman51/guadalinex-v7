@@ -1,7 +1,6 @@
 #!/usr/bin/make -f
 DEB_PYTHON_SYSTEM=pycentral
 DBK2MAN_XLS=/usr/share/xml/docbook/stylesheet/nwalsh/manpages/docbook.xml
-DEB_PYTHON_INSTALL_ARGS_ALL = --prefix=/usr --no-compile -O0 --install-purelib=/usr/lib/python2.6/dist-packages/
 
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/python-distutils.mk
