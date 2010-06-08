@@ -1,3 +1,9 @@
+sun-java6 (1:6.20dlj-1ubuntu3guada3) lucid; urgency=low
+
+  * Added epoch version
+
+ -- David Amián Valle <amialinux@gmail.com>  Tue, 08 Jun 2010 15:10:43 +0200
+
 sun-java6 (6.20dlj-1ubuntu3guada2) lucid; urgency=low
 
   * Added an extra hack to auto-accept licence.
