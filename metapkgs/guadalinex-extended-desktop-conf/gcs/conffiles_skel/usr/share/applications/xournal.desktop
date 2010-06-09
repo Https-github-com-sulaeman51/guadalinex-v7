@@ -14,6 +14,6 @@ Terminal=false
 StartupNotify=true
 MimeType=application/x-xoj;application/pdf;
 Icon=xournal
-Categories=GNOME;GTK;Utility;TextEditor;
+Categories=GNOME;GTK;Office;
 Name[es]=Libreta (xournal)
 Comment[es]=Toma notas a mano alzada con el ratón
