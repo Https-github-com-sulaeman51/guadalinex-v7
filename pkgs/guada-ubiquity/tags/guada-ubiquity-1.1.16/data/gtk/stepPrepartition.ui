@@ -21,12 +21,17 @@
           <object class="GtkNotebook" id="notebook2">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
+            <property name="border_width">10</property>
             <property name="scrollable">True</property>
+            <property name="tab_border">1</property>
+            <property name="tab_hborder">1</property>
+            <property name="tab_vborder">1</property>
+            <property name="homogeneous">True</property>
             <child>
               <object class="GtkLabel" id="label4">
                 <property name="visible">True</property>
-                <property name="xpad">10</property>
-                <property name="ypad">10</property>
+                <property name="xalign">0</property>
+                <property name="yalign">0</property>
                 <property name="label" translatable="yes">&lt;b&gt;&lt;big&gt;Informaci&#xF3;n sobre la instalaci&#xF3;n&lt;/big&gt;&lt;/b&gt;
 
 &lt;b&gt;Guadalinex&lt;/b&gt; puede usar todo el disco o compartir espacio con otros sistemas operativos ya instalados.
@@ -45,6 +50,9 @@ Los datos del men&#xFA; de arranque residen en la partici&#xF3;n de &lt;b&gt;Gua
                 <property name="justify">fill</property>
                 <property name="wrap">True</property>
               </object>
+              <packing>
+                <property name="tab_expand">True</property>
+              </packing>
             </child>
             <child type="tab">
               <object class="GtkLabel" id="label5">
@@ -52,7 +60,7 @@ Los datos del men&#xFA; de arranque residen en la partici&#xF3;n de &lt;b&gt;Gua
                 <property name="label" translatable="yes">Informaci&#xF3;n sobre la instalaci&#xF3;n</property>
               </object>
               <packing>
-                <property name="tab_fill">False</property>
+                <property name="tab_expand">True</property>
               </packing>
             </child>
             <child>
@@ -78,7 +86,7 @@ Los datos del men&#xFA; de arranque residen en la partici&#xF3;n de &lt;b&gt;Gua
             </child>
           </object>
           <packing>
-            <property name="position">1</property>
+            <property name="position">2</property>
           </packing>
         </child>
       </object>

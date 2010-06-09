@@ -20,4 +20,5 @@ mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-partman.py.distrib  /usr/lib/ubiq
 dpkg-divert --package guada-ubiquity --remove /usr/lib/ubiquity/plugins/ubi-usersetup.py
 mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-usersetup.py.distrib  /usr/lib/ubiquity/plugins/ubi-usersetup.py
 
-
+if [ -h /usr/share/pixmaps/ubiquity.png ]; then rm /usr/share/pixmaps/ubiquity.png;fi
+dpkg-divert --package guada-ubiquity --rename --remove /usr/share/pixmaps/ubiquity.png
