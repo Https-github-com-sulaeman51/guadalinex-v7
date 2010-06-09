@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+#DEBHELPER#
+
+
+dpkg-divert --package guada-ubiquity --remove /usr/lib/ubiquity/plugins/ubi-language.py
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-language.py.distrib  /usr/lib/ubiquity/plugins/ubi-language.py
+
+dpkg-divert --package guada-ubiquity --remove /usr/lib/ubiquity/plugins/ubi-timezone.py
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-timezone.py.distrib  /usr/lib/ubiquity/plugins/ubi-timezone.py
+
+dpkg-divert --package guada-ubiquity --remove /usr/lib/ubiquity/plugins/ubi-console-setup.py
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-console-setup.py.distrib  /usr/lib/ubiquity/plugins/ubi-console-setup.py
+
+dpkg-divert --package guada-ubiquity --remove /usr/lib/ubiquity/plugins/ubi-partman.py
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-partman.py.distrib  /usr/lib/ubiquity/plugins/ubi-partman.py
+
+dpkg-divert --package guada-ubiquity --remove /usr/lib/ubiquity/plugins/ubi-usersetup.py
+mv /usr/share/ubiquity/ubiquity-oldplugins/ubi-usersetup.py.distrib  /usr/lib/ubiquity/plugins/ubi-usersetup.py
+
+if [ -h /usr/share/pixmaps/ubiquity.png ]; then rm /usr/share/pixmaps/ubiquity.png;fi
+dpkg-divert --package guada-ubiquity --rename --remove /usr/share/pixmaps/ubiquity.png
