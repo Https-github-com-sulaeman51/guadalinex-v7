@@ -11,6 +11,7 @@ Categories=Office;Viewer;GTK;
 MimeType=application/x-chm;
 Name[es]=Visor de HTML Compilado (xCHM)
 Comment[es]=Visualiza ficheros de ayuda en formato chm (HTML compilado)
+NoDisplay=true
 
 [Desktop Action View]
 Exec=xchm %f
