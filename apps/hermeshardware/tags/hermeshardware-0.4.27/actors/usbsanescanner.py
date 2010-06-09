@@ -80,10 +80,10 @@ class Actor (DeviceActor):
         -----------------------------------------------------------------------
         [en] Actions to take when the device is connected
         """
-        def open_xsane():
-            os.system('xsane')
+        def open_simplescan():
+            os.system('simple-scan')
         
         self.msg_render.show(self.__device_title__,
                              self.__device_conn_description__,
                              self.__icon_path__,
-                             actions = {_("Launch Scanning Application"): open_xsane})
+                             actions = {_("Launch Scanning Application"): open_simplescan})
