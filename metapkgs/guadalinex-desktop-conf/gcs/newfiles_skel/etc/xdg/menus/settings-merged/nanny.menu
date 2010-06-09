@@ -1,0 +1,18 @@
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+   <Name>Desktop</Name>
+   <Menu>
+   	<Name>Administration</Name>
+           <Menu>
+                   <Name>nanny</Name>
+                   <Directory>nanny.directory</Directory>
+                   <Include>
+                     <And>
+			<Category>Nanny</Category>
+                     </And>
+                   </Include>
+           </Menu>
+   </Menu>
+</Menu>
