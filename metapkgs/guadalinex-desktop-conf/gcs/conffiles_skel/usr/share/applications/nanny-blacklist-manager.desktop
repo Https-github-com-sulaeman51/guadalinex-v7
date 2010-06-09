@@ -21,5 +21,5 @@ Exec=nanny-blacklist-manager
 Icon=nanny
 Terminal=false
 Type=Application
-Categories=GNOME;GTK;Nanny;
+Categories=Core;Nanny;
 StartupNotify=true
