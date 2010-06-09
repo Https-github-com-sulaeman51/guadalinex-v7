@@ -16,5 +16,5 @@ GenericName[ca]=Eina de planificació
 GenericName[es]=Herramienta de planificación
 Icon=vym
 MimeType=application/x-vym;
-Categories=Qt;KDE;Education;
+Categories=Qt;KDE;Office;
 Name[es]=Creador de mapas conceptuales (vym)
