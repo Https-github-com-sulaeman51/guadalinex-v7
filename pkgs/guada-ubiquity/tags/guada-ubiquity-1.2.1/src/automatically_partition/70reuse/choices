@@ -4,7 +4,7 @@ any_linux_on_dev() {
     for dev in $(hal-find-by-capability --capability volume) ; 
     do
 	fs=$(hal-get-property --udi $dev --key volume.fstype)
-	if [ x"$fs" == x"ext2" ] || [ x"$fs" == x"ext3" ] || [ x"$fs" == x"reiserfs" ]; then
+	if [ x"$fs" == x"ext2" ] || [ x"$fs" == x"ext3" ] || [ x"$fs" == x"ext4" ] || [ x"$fs" == x"reiserfs" ]; then
 	    has_linux_part="yes"
 	fi
 	if [ x"$fs" == x"swap" ]; then
