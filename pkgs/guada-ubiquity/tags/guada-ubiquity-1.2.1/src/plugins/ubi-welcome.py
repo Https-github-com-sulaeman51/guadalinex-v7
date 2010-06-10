@@ -66,7 +66,7 @@ class PageGtk(PluginUI):
                 builder.connect_signals(self)
                 self.page = builder.get_object('stepGuadaWelcome')
                 self.welcome_image=builder.get_object('welcome_image')
-                self.welcome_image.set_from_file("/usr/share/guada-ubiquity/pics")
+                self.welcome_image.set_from_file("/usr/share/guada-ubiquity/pics/photo_1024.jpg")
                 self.preseed()
                 
             except Exception, e:
