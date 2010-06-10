@@ -1,0 +1,37 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+
+.carousel,
+.carousel .carousel-wrap{margin:0;border:0;}
+.js .carousel-wrap{
+	display:inline-block;
+	vertical-align:top;
+	width:700px;
+	margin:0 5px 15px;
+	border:1px solid #4f4f4f;
+	background:#1a1a1a;}
+.IE .js .carousel-wrap{display:inline;}
+.js ul li{overflow:hidden;display:inline;float:left;width:500px;height:335px;text-align:center;}
+.carousel .carousel-control{overflow:hidden;display:inline-block;vertical-align:middle;width:40px;height:40px;cursor:pointer;line-height:999px;zoom:1;}
+.carousel .carousel-next{
+	background:url(http://thomlx.free.fr/numerized/styles/images/buttons/next.png) 0 0 no-repeat;}
+.carousel .carousel-previous{background:url(http://thomlx.free.fr/numerized/styles/images/buttons/prev.png) 0 0 no-repeat;}
+.carousel .carousel-control:hover{-moz-opacity:.7;opacity:0.70;filter:alpha(opacity=70);}
+.carousel .disabled,.carousel .disabled:hover{-moz-opacity:.1;opacity:0.10;filter:alpha(opacity=10);cursor:default;}
+
+div.center-wrap{overflow:hidden;clear:both;zoom:1;}
+div.center-wrap div{border:0;margin:15px 0;}
+div.center-wrap a{margin:0 2px;padding:2px 5px;border:1px solid #4f4f4f;background:#333;cursor:pointer;color:#fff;-moz-border-radius:12px;webkit-border-radius:12px;border-radius:12px;}
+div.center-wrap a.active{font-weight:bold;color:#5db0e6;}
+
+#examples{margin-top:15px;}
+#examples ul{overflow:hidden;padding:0;zoom:1;}
+#examples ul li{display:inline;float:left;margin:0 2px 0 0;list-style:none;}
+#examples ul li a{display:block;padding:10px 15px;text-decoration:none;background:#333;}
+#examples ul li a.active{color:#fff;}
+#examples p{margin:0 0 15px;}
+#examples .tabs-frames{border:2px solid #333;padding:10px;}
+#examples .js ul{overflow:hidden;zoom:1;}
+#examples .js ul li{overflow:hidden;width:700px;height:420px;}
+#examples .js .carousel-wrap{width:700px;margin-bottom:0;zoom:1;}
+#examples .example-3 .carousel-wrap{width:700px;margin-bottom:0;zoom:1;}
+#examples h3{color:#5DB0E6;}

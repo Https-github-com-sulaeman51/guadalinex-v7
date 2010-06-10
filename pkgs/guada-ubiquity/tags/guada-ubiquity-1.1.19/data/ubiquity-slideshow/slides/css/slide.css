@@ -1,0 +1,32 @@
+/*
+
+Slideshow Guadalinex v.7
+
+*/
+
+/* 
+--------------------------------------
+SLIDESHOW		
+--------------------------------------
+*/
+
+.clear-left						{clear:left;}
+
+#slider 						{font-family:DejaVu Sans, Arial, sans-serif; font-weight:bold; color:#fff; width:700px; height:420px; overflow:hidden; background: url(../images/bg-slideshow.gif) no-repeat left top;}
+#slider ol						{width:700px; height:420px; margin:15px; padding:0;}
+#slider li						{float:left; width:700px; height:420px; list-style:none; margin:0 1px 0 0; padding:10px;}
+
+#slider ol li.gv7-bienvenida				{background: url(../images/presentacion.png) no-repeat 90% 80%;}
+#slider ol li.gv7-multimedia				{background: url(../images/multimedia.png) no-repeat 90% 80%;}
+#slider ol li.gv7-internet				{background: url(../images/internet.png) no-repeat 90% 80%;}
+#slider ol li.gv7-parental				{background: url(../images/control-parental.png) no-repeat 90% 80%;}
+#slider ol li.gv7-juegos				{background: url(../images/juegos.png) no-repeat 90% 80%;}
+#slider ol li.gv7-ofimatica				{background: url(../images/ofimatica.png) no-repeat 90% 80%;}
+#slider ol li.gv7-usabilidad				{background: url(../images/usabilidad.png) no-repeat 90% 80%;}
+#slider ol li.gv7-accesibilidad				{background: url(../images/accesibilidad.png) no-repeat 90% 80%;}
+#slider ol li.gv7-comunidad				{background: url(../images/comunidad.png) no-repeat 90% 80%;}
+#slider ol li.gv7-ayuda					{background: url(../images/ayuda.png) no-repeat 90% 80%;}
+
+
+#slider ol li h1					{font-size:20px;}
+#slider ol li ol li					{font-size:14px; width:500px !important; height:auto; list-style:none; margin:15px 0; padding:0 0 0 15px; background: url(../images/gv7-bullet-luz.png) no-repeat left top;}
