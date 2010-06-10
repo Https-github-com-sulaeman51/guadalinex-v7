@@ -1,3 +1,10 @@
+guada-ubiquity (1.2.1) lucid; urgency=low
+
+  * src/scripts/final_fixes.sh: added workaround to remove desktops cache
+    which messes the guada menu.
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 10 Jun 2010 19:02:33 +0200
+
 guada-ubiquity (1.1.19) lucid; urgency=low
 
   * Slideshow for Guadalinex added
