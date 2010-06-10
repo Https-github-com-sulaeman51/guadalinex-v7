@@ -120,9 +120,6 @@ class PageGtk(PluginUI):
             dp = DiskPreview()
             dp.mount_filesystems()
 
-#            DiskPreview().mount_filesystems()
-#            self.frontend.diskpreview.mount_filesystems()
-	    print >>sys.stderr, '--------------> Despues de Diskpreview'
 #            self.disk_preview_area.add(self.diskpreview)
             self.disk_preview_area.add(dp)
             self.diskpreview=dp
