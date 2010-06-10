@@ -18,4 +18,6 @@ do
 done
 chroot /target dpkg-reconfigure openssh-server
 
+test -f /target/usr/share/applications/desktop.es_ES.utf8.cache && rm -f /target/usr/share/applications/desktop.es_ES.utf8.cache
+
 exit 0
