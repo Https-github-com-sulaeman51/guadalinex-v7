@@ -1,8 +1,12 @@
 #!/usr/bin/python
+# -*- coding: utf8 -*-
+
+
 
 import gtk
 import gtk.gdk as gdk
 import pygtk
+from pygame.locals import *
 
 import math
 import gobject
@@ -14,7 +18,11 @@ if gtk.pygtk_version < (2,0):
   raise SystemExit
 
 
-class Magnifier(gtk.Widget):
+class Magnifier(gtk.Widget):  
+  '''
+  Magnifier widget
+  '''
+
   data_path = os.path.join(os.path.dirname(__file__), 'data')
 
   __gsignals__ = {
@@ -28,18 +36,18 @@ class Magnifier(gtk.Widget):
     self.zoom = 5
     self.grab_rate = 60
     self.grab_timeout = None
-    self.show_grid = True
+    self.show_grid = False
     self.grabbing = False
     self.has_data = False
-
-    self.panning = False
     self.pan_x = 0
     self.pan_y = 0
+
+    self.x=0
+    self.y=0
+
 
   def grab_immediate(self, x, y, w, h):
     self.screen_rect = gdk.Rectangle(x, y, w, h)
-    self.pan_x = 0
-    self.pan_y = 0
 
     # if we're grabbing a different size, create new pixbuf of correct size
     if (self.screen_rect.width != self.raw_width or self.screen_rect.height != self.raw_height):
@@ -91,29 +99,6 @@ class Magnifier(gtk.Widget):
       self.emit("zoom-changed")
       self.scale()
 
-  def pan(self, pan_x, pan_y):
-    pan_x = int(pan_x)
-    pan_y = int(pan_y)
-    xmax = (self.pixbuf_width - self.allocation.width) / 2
-    ymax = (self.pixbuf_height - self.allocation.height) / 2
-
-    if xmax > 0:
-      if pan_x > 0 and pan_x > xmax: pan_x = xmax
-      if pan_x < 0 and pan_x < -xmax: pan_x = -xmax
-    else:
-      pan_x = 0
-
-    if ymax > 0:
-      if pan_y > 0 and pan_y > ymax: pan_y = ymax
-      if pan_y < 0 and pan_y < -ymax: pan_y = -ymax
-    else:
-      pan_y = 0
-
-    if self.pan_x == pan_x and self.pan_y == pan_y: return
-
-    self.pan_x = pan_x
-    self.pan_y = pan_y
-    self.queue_draw()
 
   def set_grab_rate(self, grab_rate):
     grab_rate = int(grab_rate)
@@ -138,6 +123,9 @@ class Magnifier(gtk.Widget):
     if (self.grab_timeout == None):
       self.grab_timeout = glib.timeout_add(1000 / self.grab_rate, self.cb_grab_timeout)
 
+    self.x=x
+    self.y=y
+
   def origin(self):
     x0 = (self.allocation.width - self.pixbuf_width)/2 + self.pan_x
     y0 = (self.allocation.height - self.pixbuf_height)/2 + self.pan_y
@@ -154,10 +142,27 @@ class Magnifier(gtk.Widget):
   def cb_button_press(self, widget, event):
     if event.button == 1:
         self.grabbing = True
-    elif event.button == 2:
-      self.panning = True
-      self.pan_start_x = event.x - self.pan_x
-      self.pan_start_y = event.y - self.pan_y
+
+  def cb_button_release(self, widget, event):
+    if event.button == 1:
+      self.grabbing = False
+
+
+
+  def cb_motion_notify(self, widget, event):
+    if self.grabbing:
+      root_w, root_h = gdk.get_default_root_window().get_size()
+      w = int(math.ceil(float(self.allocation.width) / self.zoom))
+      h = int(math.ceil(float(self.allocation.height) / self.zoom))
+      x = event.x_root - int(w / 2)
+      y = event.y_root - int(h / 2)
+
+      if (x < 0): x = 0
+      if (x > root_w - w): x = root_w - w
+      if (y < 0): y = 0
+      if (y > root_h - h): y = root_h - h
+
+      self.grab(x, y, w, h)
 
   def cb_scroll(self, widget, event):
     old_zoom = zoom = self.zoom
@@ -185,32 +190,8 @@ class Magnifier(gtk.Widget):
     pan_y = event.y - (dy * zoom / old_zoom + y0)
     self.pan(pan_x, pan_y)
 
-  def cb_button_release(self, widget, event):
-    if event.button == 1:
-      self.grabbing = False
-    elif event.button == 2:
-      self.panning = False
 
-  def cb_motion_notify(self, widget, event):
-    if self.grabbing:
-      root_w, root_h = gdk.get_default_root_window().get_size()
-      w = int(math.ceil(float(self.allocation.width) / self.zoom))
-      h = int(math.ceil(float(self.allocation.height) / self.zoom))
-      x = event.x_root - int(w / 2)
-      y = event.y_root - int(h / 2)
 
-      if (x < 0): x = 0
-      if (x > root_w - w): x = root_w - w
-      if (y < 0): y = 0
-      if (y > root_h - h): y = root_h - h
-
-      self.grab(x, y, w, h)
-
-    elif self.panning:
-      pan_x = int(event.x - self.pan_start_x)
-      pan_y = int(event.y - self.pan_start_y)
-
-      self.pan(pan_x, pan_y)
 
   def do_realize(self):
     self.set_flags(self.flags() | gtk.REALIZED)
@@ -228,6 +209,8 @@ class Magnifier(gtk.Widget):
           | gdk.BUTTON_RELEASE_MASK
           | gdk.POINTER_MOTION_MASK
           | gdk.POINTER_MOTION_HINT_MASK)
+
+
 
 
     #XXX install cursor and use config path to load it
@@ -264,11 +247,12 @@ class Magnifier(gtk.Widget):
     self.pixbuf = gdk.Pixbuf(gdk.COLORSPACE_RGB, False, 8, self.pixbuf_width, self.pixbuf_height)
     self.raw_pixbuf = gdk.Pixbuf(gdk.COLORSPACE_RGB, False, 8, self.raw_width, self.raw_height)
 
+
   def do_unrealize(self):
     self.window.destroy()
 
   def do_size_request(self, requisition):
-    requisition.height = 200
+    requisition.height = 220
     requisition.width = 220
 
   def do_size_allocation(self, allocation):
@@ -309,16 +293,33 @@ class Magnifier(gtk.Widget):
       for y in range(ymin, ymax, self.zoom):
         self.window.draw_line(self.grid_gc, r.x, y, r.x + r.width, y)
 
+
+  def move_window(self,ix,iy):
+      root_w, root_h = gdk.get_default_root_window().get_size()
+      w = int(math.ceil(float(self.allocation.width) / self.zoom))
+      h = int(math.ceil(float(self.allocation.height) / self.zoom))
+      self.x = self.x+ix
+      self.y = self.y+iy
+ 
+      if (self.x < 0): self.x = 0
+      if (self.x > root_w - w): self.x = root_w - w
+      if (self.y < 0): self.y = 0
+      if (self.y > root_h - h): self.y = root_h - h
+
+      self.grab(self.x, self.y, w, h)
+
+
 gobject.type_register(Magnifier)
 
 
 
-if gtk.pygtk_version < (2,0):
-  print "PyGtk 2.0 is required."
-  raise SystemExit
+class SimpleMag:
+  '''
+  Main SimpleMag application
+  '''
 
-class Elicit:
-  appname = 'SimpleMag'
+  def __init__(self):
+    self.build_gui()
 
   def quit(self, widget, data=None):
     gtk.main_quit()
@@ -329,18 +330,13 @@ class Elicit:
   def show(self):
     self.win.show_all()
 
-  def hide(self):
-    self.win.hide()
-
-  def grab(self, x, y, w ,h):
-    self.mag.grab(x,y,w,h)
-
   def build_gui(self):
     self.win = gtk.Window()
     self.win.set_title("SimpleMag")
     self.win.connect('destroy', self.quit, None)
+    self.win.connect('key_press_event', self.on_key_press_event)
 
-    vbox = gtk.VBox(False, 5)
+    vbox = gtk.VBox(False, 2)
     self.win.add(vbox)
 
     frame = gtk.Frame()
@@ -350,10 +346,13 @@ class Elicit:
     self.mag = Magnifier()
 
     frame.add(self.mag)
-    self.mag.connect('zoom-changed', self.mag_zoom_changed)
         
-    hbox = gtk.HBox(False, 5)
+    hbox = gtk.HBox(False, 2)
     vbox.pack_start(hbox, False)
+
+    label=gtk.Label("Pulse en el rectángulo superior y arrastre el\nratón para ampliar una zona de la pantalla")
+    label.set_padding(15,15)
+    hbox.pack_start(label)
 
     spin = gtk.SpinButton()
     spin.set_range(1,50)
@@ -366,32 +365,29 @@ class Elicit:
     zoom_label = gtk.Label("Zoom:")
     hbox.pack_end(zoom_label, False)
 
+  def on_key_press_event(self, widget, event):
+    keyname = gtk.gdk.keyval_name(event.keyval)
+#    print "Key %s (%d) was pressed" % (keyname, event.keyval)
 
-  def init_config(self):
-    zoom_level = 5
-    self.mag.set_zoom(zoom_level)
-    self.zoom_spin.set_value(zoom_level)
-    
-    grab_rate=60
-    if grab_rate > 0: self.mag.grab_rate = grab_rate
+    if keyname == "Up":
+      self.mag.move_window(0,-1)
+    elif keyname == "Down":
+      self.mag.move_window(0,1)
+    elif keyname == "Left":
+      self.mag.move_window(-1,0)
+    elif keyname == "Right":
+      self.mag.move_window(1,0)
 
-    self.mag.set_show_grid(True)
+    return True
+              
 
-  def mag_zoom_changed(self, mag):
-     self.zoom_spin.set_value(mag.zoom)
-          
   def zoom_spin_value_changed(self, spin):
       self.mag.set_zoom(int(spin.get_value()))
 
 
-  def __init__(self):
-    self.palette = None
-    self.build_gui()
-
-    self.init_config()
 
 if __name__ == "__main__":
-  el = Elicit();
-  el.show()
-  el.main()
+  simplemag = SimpleMag();
+  simplemag.show()
+  simplemag.main()
 
