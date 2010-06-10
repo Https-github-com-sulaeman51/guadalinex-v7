@@ -15,3 +15,8 @@ if [ "${DESKTOP_FILE}" != "$(dpkg-divert --truename ${DESKTOP_FILE})" ]; then
 fi
 dpkg-divert --package guada-ubiquity --rename --quiet --add ${DESKTOP_FILE}
 ln -fs /usr/share/guada-ubiquity/ubiquity-guadaui.desktop ${DESKTOP_FILE}
+
+
+dpkg-divert --package guada-ubiquity --rename --quiet --add /usr/share/pixmaps/ubiquity.png 
+ln -fs /usr/share/pixmaps/guada-ubiquity.png /usr/share/pixmaps/ubiquity.png
+

@@ -1,3 +1,13 @@
+guada-ubiquity (1.0.16) lucid; urgency=low
+
+  [ Adrian Belmonte Martin ]
+  * data/Greeter: new added
+
+  [ Roberto C. Morano ]
+  * src/automatically_partition/70reuse/choices: added support for ext4
+
+ -- Adrian Belmonte Martin <abelmonte@emergya.es>  Wed, 9 Jun 2010 16:07:12 +0200
+
 guada-ubiquity (1.1.15) lucid; urgency=low
 
   * greeter fixed
