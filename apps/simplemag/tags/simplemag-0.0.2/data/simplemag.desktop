@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=SimpleMag
+Name[es]= Lupa (simplemag)
+Comment=Magnify the screen
+Comment[es]= Magnificador de la pantalla
+Exec=simplemag
+Icon=/usr/share/icons/simplemag.png
+Terminal=false
+Type=Application
+StartupNotify=false
+Categories=GNOME;GTK;Application;Utility

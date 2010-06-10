@@ -1,0 +1,399 @@
+#!/usr/bin/python
+# -*- coding: UTF8 -*-
+
+# simplemag
+# author: Alfonso E.M. alfonso@el-magnifico.org
+# date: 09/Jun/2010
+
+
+import gtk
+import gtk.gdk as gdk
+import pygtk
+from pygame.locals import *
+
+import math
+import gobject
+import glib
+import os
+import gettext
+
+gettext.install("simplemag")
+
+if gtk.pygtk_version < (2,0):
+  print "PyGtk 2.0 is required."
+  raise SystemExit
+
+
+class Magnifier(gtk.Widget):  
+  '''
+  Magnifier widget
+  '''
+
+  data_path = "/usr/share/simplemag"
+
+  __gsignals__ = {
+      'zoom-changed': (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE, ()),
+      'grid-toggled': (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE, ()),
+  }
+
+  def __init__(self):
+    super(Magnifier, self).__init__()
+
+    self.zoom = 5
+    self.grab_rate = 60
+    self.grab_timeout = None
+    self.show_grid = False
+    self.grabbing = False
+    self.has_data = False
+    self.pan_x = 0
+    self.pan_y = 0
+
+    self.x=0
+    self.y=0
+
+
+  def grab_immediate(self, x, y, w, h):
+    self.screen_rect = gdk.Rectangle(x, y, w, h)
+
+    # if we're grabbing a different size, create new pixbuf of correct size
+    if (self.screen_rect.width != self.raw_width or self.screen_rect.height != self.raw_height):
+      self.raw_width = self.screen_rect.width
+      self.raw_height = self.screen_rect.height
+      self.raw_pixbuf = gdk.Pixbuf(gdk.COLORSPACE_RGB, False, 8, self.raw_width, self.raw_height)
+
+    # grab raw screen data
+    self.raw_pixbuf.get_from_drawable(
+        gdk.get_default_root_window(),
+        gdk.colormap_get_system(),
+        self.screen_rect.x, self.screen_rect.y,
+        0, 0,
+        self.screen_rect.width, self.screen_rect.height)
+
+    self.has_data = True
+
+    self.scale()
+
+  def scale(self):
+    if self.has_data == False: return
+
+    if (self.pixbuf_height != self.raw_height * self.zoom or
+        self.pixbuf_width != self.raw_width * self.zoom):
+      self.pixbuf_width = int(self.raw_width * self.zoom)
+      self.pixbuf_height = int(self.raw_height * self.zoom)
+      self.pixbuf = gdk.Pixbuf(gdk.COLORSPACE_RGB, False, 8,
+          self.pixbuf_width, self.pixbuf_height)
+
+    # scale up by zoom factor
+    self.raw_pixbuf.scale(self.pixbuf, 0, 0,
+        self.pixbuf_width, self.pixbuf_height,
+        0, 0,
+        self.zoom, self.zoom,
+        gdk.INTERP_NEAREST)
+    self.queue_draw()
+
+  def set_show_grid(self, show_grid):
+    if (self.show_grid != show_grid):
+      self.show_grid = show_grid
+      self.emit("grid-toggled")
+      self.queue_draw()
+
+  def set_zoom(self, zoom):
+    zoom = int(zoom)
+    if (zoom <= 0): zoom = 1
+    if (self.zoom != zoom):
+      self.zoom = zoom
+      self.emit("zoom-changed")
+      self.scale()
+
+
+  def set_grab_rate(self, grab_rate):
+    grab_rate = int(grab_rate)
+    if grab_rate <= 0: return
+    if self.grab_rate != grab_rate:
+      self.grab_rate = grab_rate
+
+  def cb_grab_timeout(self):
+    # repeat time until we've realized the widget
+    if self.flags() & gtk.REALIZED == False:
+      return True
+
+    # widget is realized, so grab data and end timer
+    self.grab_immediate(*self.grab_rect)
+    self.grab_timeout = None
+    return False
+    
+
+  def grab(self, x, y, w, h):
+    self.grab_rect = gdk.Rectangle(int(x), int(y), int(w), int(h))
+
+    if (self.grab_timeout == None):
+      self.grab_timeout = glib.timeout_add(1000 / self.grab_rate, self.cb_grab_timeout)
+
+    self.x=x
+    self.y=y
+
+  def origin(self):
+    x0 = (self.allocation.width - self.pixbuf_width)/2 + self.pan_x
+    y0 = (self.allocation.height - self.pixbuf_height)/2 + self.pan_y
+    return (x0,y0)
+
+  def coord_widget_to_pixbuf(self, x, y):
+    x0,y0 = self.origin()
+    return (int((x - x0) / self.zoom), int((y - y0) / self.zoom))
+
+  def coord_pixbuf_to_widget(self, x, y):
+    x0,y0 = self.origin()
+    return (x * self.zoom + x0, y * self.zoom + y0)
+
+  def cb_button_press(self, widget, event):
+    if event.button == 1:
+        self.grabbing = True
+
+  def cb_button_release(self, widget, event):
+    if event.button == 1:
+      self.grabbing = False
+
+
+
+  def cb_motion_notify(self, widget, event):
+    if self.grabbing:
+      root_w, root_h = gdk.get_default_root_window().get_size()
+      w = int(math.ceil(float(self.allocation.width) / self.zoom))
+      h = int(math.ceil(float(self.allocation.height) / self.zoom))
+      x = event.x_root - int(w / 2)
+      y = event.y_root - int(h / 2)
+
+      if (x < 0): x = 0
+      if (x > root_w - w): x = root_w - w
+      if (y < 0): y = 0
+      if (y > root_h - h): y = root_h - h
+
+      self.grab(x, y, w, h)
+
+  def cb_scroll(self, widget, event):
+    old_zoom = zoom = self.zoom
+
+    if (event.direction == gdk.SCROLL_UP):
+      zoom += 1
+    elif (event.direction == gdk.SCROLL_DOWN):
+      zoom -= 1
+
+    # find origin of image
+    x0 = (self.allocation.width - self.pixbuf_width)/2 + self.pan_x
+    y0 = (self.allocation.height - self.pixbuf_height)/2 + self.pan_y
+    # find offset from clicked pixel to origin
+    dx = event.x - x0
+    dy = event.y - y0
+
+    self.set_zoom(zoom)
+
+    # find new origin, assuming no pan
+    x0 = (self.allocation.width - self.pixbuf_width)/2
+    y0 = (self.allocation.height - self.pixbuf_height)/2
+
+    # place new location of pixel clicked under mouse
+    pan_x = event.x - (dx * zoom / old_zoom + x0)
+    pan_y = event.y - (dy * zoom / old_zoom + y0)
+    self.pan(pan_x, pan_y)
+
+
+
+
+  def do_realize(self):
+    self.set_flags(self.flags() | gtk.REALIZED)
+
+    self.window = gdk.Window(
+        self.get_parent_window(),
+        width = self.allocation.width,
+        height = self.allocation.height,
+        window_type = gdk.WINDOW_CHILD,
+        wclass = gdk.INPUT_OUTPUT,
+        event_mask = self.get_events()
+          | gdk.EXPOSURE_MASK 
+          | gdk.BUTTON1_MOTION_MASK
+          | gdk.BUTTON_PRESS_MASK
+          | gdk.BUTTON_RELEASE_MASK
+          | gdk.POINTER_MOTION_MASK
+          | gdk.POINTER_MOTION_HINT_MASK)
+
+
+
+
+    #XXX install cursor and use config path to load it
+    pbuf = gdk.pixbuf_new_from_file(os.path.join(self.data_path,"magnify.png"))
+    if pbuf:
+      self.cursor = gdk.Cursor(self.window.get_display(), pbuf, 6, 6);
+      self.window.set_cursor(self.cursor)
+
+    self.pixbuf_width = int(self.allocation.width);
+    self.pixbuf_height = int(self.allocation.height);
+    self.raw_width = int(self.allocation.width / self.zoom);
+    self.raw_height = int(self.allocation.height / self.zoom);
+
+    self.window.set_user_data(self)
+    self.style.attach(self.window)
+    self.style.set_background(self.window, gtk.STATE_NORMAL)
+    self.window.move_resize(*self.allocation)
+    self.gc = self.style.fg_gc[gtk.STATE_NORMAL]
+
+    self.measure_gc = gdk.GC(self.window)
+    self.measure_gc.set_foreground(self.measure_gc.get_colormap().alloc_color("#fff"))
+    self.measure_gc.set_background(self.measure_gc.get_colormap().alloc_color("#000"))
+    self.measure_gc.set_dashes(0,(4,4))
+    self.measure_gc.set_line_attributes(1, gdk.LINE_DOUBLE_DASH, gdk.CAP_BUTT, gdk.JOIN_MITER)
+
+    self.grid_gc = gdk.GC(self.window)
+    self.grid_gc.set_foreground(self.measure_gc.get_colormap().alloc_color("#777"))
+
+    self.connect("motion-notify-event", self.cb_motion_notify)
+    self.connect("button-press-event", self.cb_button_press)
+    self.connect("button-release-event", self.cb_button_release)
+    self.connect("scroll-event", self.cb_scroll)
+
+    self.pixbuf = gdk.Pixbuf(gdk.COLORSPACE_RGB, False, 8, self.pixbuf_width, self.pixbuf_height)
+    self.raw_pixbuf = gdk.Pixbuf(gdk.COLORSPACE_RGB, False, 8, self.raw_width, self.raw_height)
+
+
+  def do_unrealize(self):
+    self.window.destroy()
+
+  def do_size_request(self, requisition):
+    requisition.height = 220
+    requisition.width = 220
+
+  def do_size_allocation(self, allocation):
+    if self.flags() & gtk.REALIZED:
+      self.window.move_resize(*allocation)
+
+  def do_expose_event(self, event):
+    if self.has_data == False: return
+
+    # center image in given space
+    r = gdk.Rectangle(
+      int((self.allocation.width - self.pixbuf_width) / 2 + self.pan_x),
+      int((self.allocation.height - self.pixbuf_height) / 2 + self.pan_y),
+      self.pixbuf_width,
+      self.pixbuf_height)
+
+    r2 = r.intersect(event.area)
+
+    self.window.draw_pixbuf(self.gc,
+      self.pixbuf,
+      r2.x - r.x, r2.y - r.y, 
+      r2.x, r2.y,
+      r2.width, r2.height,
+      gdk.RGB_DITHER_NONE, 0, 0)
+
+    if (self.show_grid):
+      x_off = (r.x - r2.x) % self.zoom
+      y_off = (r.y - r2.y) % self.zoom
+
+      xmin = r2.x + x_off
+      xmax = r2.x + r.width + 1
+      ymin = r2.y + y_off
+      ymax = r2.y + r.height + 1
+
+      for x in range(xmin, xmax, self.zoom):
+        self.window.draw_line(self.grid_gc, x, r.y, x, r.y + r.height)
+
+      for y in range(ymin, ymax, self.zoom):
+        self.window.draw_line(self.grid_gc, r.x, y, r.x + r.width, y)
+
+
+  def move_window(self,ix,iy):
+      root_w, root_h = gdk.get_default_root_window().get_size()
+      w = int(math.ceil(float(self.allocation.width) / self.zoom))
+      h = int(math.ceil(float(self.allocation.height) / self.zoom))
+      self.x = self.x+ix
+      self.y = self.y+iy
+ 
+      if (self.x < 0): self.x = 0
+      if (self.x > root_w - w): self.x = root_w - w
+      if (self.y < 0): self.y = 0
+      if (self.y > root_h - h): self.y = root_h - h
+
+      self.grab(self.x, self.y, w, h)
+
+
+gobject.type_register(Magnifier)
+
+
+
+class SimpleMag:
+  '''
+  Main SimpleMag application
+  '''
+
+  def __init__(self):
+    self.build_gui()
+
+  def quit(self, widget, data=None):
+    gtk.main_quit()
+
+  def main(self):
+    gtk.main()
+
+  def show(self):
+    self.win.show_all()
+
+  def build_gui(self):
+    self.win = gtk.Window()
+    self.win.set_title("SimpleMag")
+    self.win.connect('destroy', self.quit, None)
+    self.win.connect('key_press_event', self.on_key_press_event)
+
+    vbox = gtk.VBox(False, 2)
+    self.win.add(vbox)
+
+    frame = gtk.Frame()
+    frame.set_shadow_type(gtk.SHADOW_IN)
+    vbox.pack_start(frame, True, True)
+
+    self.mag = Magnifier()
+
+    frame.add(self.mag)
+        
+    hbox = gtk.HBox(False, 2)
+    vbox.pack_start(hbox, False)
+
+    label=gtk.Label(_("Click the top rectangle an drag the\nmouse to magnify an area of the screen"))
+    label.set_padding(15,15)
+    hbox.pack_start(label)
+
+    spin = gtk.SpinButton()
+    spin.set_range(1,50)
+    spin.set_increments(1,10)
+    spin.set_value(self.mag.zoom)
+    spin.connect('value-changed', self.zoom_spin_value_changed)
+    hbox.pack_end(spin, False)
+    self.zoom_spin = spin
+
+    zoom_label = gtk.Label("Zoom:")
+    hbox.pack_end(zoom_label, False)
+
+  def on_key_press_event(self, widget, event):
+    keyname = gtk.gdk.keyval_name(event.keyval)
+#    print "Key %s (%d) was pressed" % (keyname, event.keyval)
+
+    if keyname == "Up":
+      self.mag.move_window(0,-1)
+    elif keyname == "Down":
+      self.mag.move_window(0,1)
+    elif keyname == "Left":
+      self.mag.move_window(-1,0)
+    elif keyname == "Right":
+      self.mag.move_window(1,0)
+
+    return True
+              
+
+  def zoom_spin_value_changed(self, spin):
+      self.mag.set_zoom(int(spin.get_value()))
+
+
+
+if __name__ == "__main__":
+  simplemag = SimpleMag();
+  simplemag.show()
+  simplemag.main()
+
