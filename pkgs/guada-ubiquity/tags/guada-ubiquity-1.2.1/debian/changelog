@@ -1,4 +1,10 @@
-guada-ubiquity (1.0.16) lucid; urgency=low
+guada-ubiquity (1.1.17) lucid; urgency=low
+
+  * changelog fixed 
+
+ -- Adrian Belmonte Martin <abelmonte@emergya.es>  Wed, 9 Jun 2010 20:58:12 +0200
+
+guada-ubiquity (1.1.16) lucid; urgency=low
 
   [ Adrian Belmonte Martin ]
   * data/Greeter: new added
