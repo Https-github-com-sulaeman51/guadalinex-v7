@@ -30,6 +30,9 @@ import os
 import time
 import re
 import sys
+import atexit
+import signal
+
 
 import debconf
 import PyICU
@@ -42,6 +45,11 @@ from ubiquity import auto_update
 from ubiquity import osextras
 
 
+try:
+    from ubiquity.DiskPreview.DiskPreview import DiskPreview
+except:
+    syslog.syslog("No pude cargar DiskPreview")
+
 
 #NAME = 'welcome'
 
@@ -49,7 +57,7 @@ from ubiquity import osextras
 
 NAME= 'language' 
 AFTER=None
-BEFORE='timezone'
+BEFORE='prepartition'
 WEIGHT = 111
 
 class PageGtk(PluginUI):
@@ -67,6 +75,7 @@ class PageGtk(PluginUI):
                 self.page = builder.get_object('stepGuadaWelcome')
                 self.welcome_image=builder.get_object('welcome_image')
                 self.welcome_image.set_from_file("/usr/share/guada-ubiquity/pics/photo_1024.jpg")
+                self.kill_hermes()
                 self.preseed()
                 
             except Exception, e:
@@ -94,12 +103,23 @@ class PageGtk(PluginUI):
                 self.instalar_ubuntu.connect('clicked', inst)
                 self.probar_ubuntu.connect('clicked',self.on_try_ubuntu_clicked)
                 self.live_installer=builder.get_object('live_installer')
+                self.kill_hermes()           
 
             except Exception, e:
                 self.debug('Could not create language page: %s', e)
                 self.page = None
+
         self.plugin_widgets = self.page
-    
+
+    def kill_hermes(self):
+# TODO: KILLHERMES: Probar sin solo falla la primera vez (no estaria del todo mal)
+#        os.spawnlp(os.P_NOWAIT,'killall', 'killall', '-9', 'hermes_hardware.py')
+        print >>sys.stderr, 'Hermes Killed'
+#       atexit.register(self.launch_hermes)
+
+#    def launch_hermes(self):
+#        os.spawnlp(os.P_NOWAIT,'hermeshardware','hermeshardware') 
+   
     def preseed(self):
         print >>sys.stderr, 'Preseed not used'
 
@@ -127,14 +147,9 @@ class Page (Plugin):
 
         new_language = 'es'
         language_question= 'localechooser/languagelist '
-#        self.preseed(language_question, new_language)
         print >>sys.stderr,' ----->Segundo OK HANDLER: NEW LANGUAGE %s' %new_language
         print >>sys.stderr,' ----->SegunOK HANDLER: SELF LANGUAGE QUESTION %s' %language_question
-#        self.preseed('time/zone', 'Europe/Madrid')
-#        self.preseed('debian-installer/country', 'ES')
-#        self.preseed('console-setup/layout', 'España')
         args=[]
-#        model = self.db.get('console-setup/modelcode')
         model='pc105'
         layout='es'
         variant='es,es'

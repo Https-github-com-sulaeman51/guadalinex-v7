@@ -26,7 +26,7 @@ class DiskPreview(gtk.VBox):
         self.utils = DiskPreviewUtils.DiskPreviewUtils()
 
         #Glade stuff
-        GLADEDIR = "/usr/share/ubiquity/glade/"
+        GLADEDIR = "/usr/share/ubiquity/gtk/"
         self.xml = gtk.glade.XML(GLADEDIR + "diskpreview.glade", root="disk_preview_main_hbox")
         
         self.disk_preview_main_hbox = self.xml.get_widget("disk_preview_main_hbox")
@@ -38,7 +38,7 @@ class DiskPreview(gtk.VBox):
         self.disk_preview_used_label = self.xml.get_widget("disk_preview_ocu_label")
         self.disk_preview_total_label = self.xml.get_widget("disk_preview_tam_label")
         self.disk_preview_info_panel = self.xml.get_widget("disk_preview_info_panel")
-        self.disk_preview_info_panel.hide()
+        #self.disk_preview_info_panel.hide()
         self.disk_preview_info_panel.set_no_show_all(True)
         self.disk_preview_path_hbox = self.xml.get_widget("disk_preview_path_hbox")
         self.disk_preview_path_hbox.hide()
@@ -312,7 +312,7 @@ class DiskPreview(gtk.VBox):
     def __try_to_mount_filesystem(self, fstype, dev_path, mount_path):
         if fstype == "swap" or fstype == "":
             return None
-        if os.system("mkdir -p %s" % mount_path) == 0:
+        if os.system("sudo mkdir -p %s" % mount_path) == 0:
             if os.system("mount -t %s %s %s" % (fstype, dev_path, mount_path)) == 0:
                 print "mount -t %s %s %s" % (fstype, dev_path, mount_path)
                 infd ,outfd ,errfd = os.popen3("df -h | grep %s" % mount_path)

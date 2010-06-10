@@ -12,8 +12,8 @@ class DiskPreviewUtils:
         self.icon_flags = gnome.ui.ICON_LOOKUP_FLAGS_NONE
 
     def get_file_pixbuf(self, url, tam=48):
-        mime = gnomevfs.get_mime_type(url)
         try:
+            mime = gnomevfs.get_mime_type(url)
             info = gnomevfs.get_file_info(url)
             icon_type, result = gnome.ui.icon_lookup(self.iconTheme, self.thumbFactory,
                                                 url, "", self.icon_flags, mime, info)

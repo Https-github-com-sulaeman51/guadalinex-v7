@@ -30,7 +30,7 @@ from ubiquity.misc import *
 from ubiquity import osextras
 
 NAME = 'partman'
-AFTER = 'language'
+AFTER = 'prepartition'
 WEIGHT = 11
 # Not useful in oem-config.
 OEM = False
