@@ -1,6 +1,9 @@
 #!/usr/bin/python
-# -*- coding: utf8 -*-
+# -*- coding: UTF8 -*-
 
+# simplemag
+# author: Alfonso E.M. alfonso@el-magnifico.org
+# date: 09/Jun/2010
 
 
 import gtk
@@ -12,6 +15,9 @@ import math
 import gobject
 import glib
 import os
+import gettext
+
+gettext.install("simplemag")
 
 if gtk.pygtk_version < (2,0):
   print "PyGtk 2.0 is required."
@@ -23,7 +29,7 @@ class Magnifier(gtk.Widget):
   Magnifier widget
   '''
 
-  data_path = os.path.join(os.path.dirname(__file__), 'data')
+  data_path = "/usr/share/simplemag"
 
   __gsignals__ = {
       'zoom-changed': (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE, ()),
@@ -350,7 +356,7 @@ class SimpleMag:
     hbox = gtk.HBox(False, 2)
     vbox.pack_start(hbox, False)
 
-    label=gtk.Label("Pulse en el rectángulo superior y arrastre el\nratón para ampliar una zona de la pantalla")
+    label=gtk.Label(_("Click the top rectangle an drag the\nmouse to magnify an area of the screen"))
     label.set_padding(15,15)
     hbox.pack_start(label)
 
