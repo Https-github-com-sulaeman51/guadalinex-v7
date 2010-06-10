@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#DEBHELPER#
+
+mkdir /usr/share/ubiquity/ubiquity-oldplugins
+dpkg-divert --package guada-ubiquity --rename --add  /usr/lib/ubiquity/plugins/ubi-language.py
+mv /usr/lib/ubiquity/plugins/ubi-language.py.distrib /usr/share/ubiquity/ubiquity-oldplugins/
+
+
+dpkg-divert --package guada-ubiquity --rename --add  /usr/lib/ubiquity/plugins/ubi-timezone.py
+mv /usr/lib/ubiquity/plugins/ubi-timezone.py.distrib /usr/share/ubiquity/ubiquity-oldplugins/
+
+
+dpkg-divert --package guada-ubiquity --rename --add  /usr/lib/ubiquity/plugins/ubi-console-setup.py
+mv /usr/lib/ubiquity/plugins/ubi-console-setup.py.distrib /usr/share/ubiquity/ubiquity-oldplugins/
+
