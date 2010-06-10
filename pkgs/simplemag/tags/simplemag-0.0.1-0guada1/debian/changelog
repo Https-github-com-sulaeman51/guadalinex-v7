@@ -1,0 +1,5 @@
+simplemag (0.0.1-0guada1) lucid; urgency=low
+
+  * First debianized of simplemag package 
+
+ -- David Amián Valle <amialinux@gmail.com>  Thu, 10 Jun 2010 10:22:36 +0200
