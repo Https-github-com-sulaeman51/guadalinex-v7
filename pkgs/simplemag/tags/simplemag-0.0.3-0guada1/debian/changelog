@@ -1,0 +1,23 @@
+simplemag (0.0.3-0guada1) lucid; urgency=low
+
+  * New Upsrteam code
+
+ -- David Amián Valle <amialinux@gmail.com>  Thu, 10 Jun 2010 11:21:59 +0200
+
+simplemag (0.0.2-0guada2) lucid; urgency=low
+
+  * Fixed rules file
+
+ -- David Amián Valle <amialinux@gmail.com>  Thu, 10 Jun 2010 11:11:26 +0200
+
+simplemag (0.0.2-0guada1) lucid; urgency=low
+
+  * New upstream code 
+
+ -- David Amián Valle <amialinux@gmail.com>  Thu, 10 Jun 2010 11:03:41 +0200
+
+simplemag (0.0.1-0guada1) lucid; urgency=low
+
+  * First debianized of simplemag package 
+
+ -- David Amián Valle <amialinux@gmail.com>  Thu, 10 Jun 2010 10:22:36 +0200
