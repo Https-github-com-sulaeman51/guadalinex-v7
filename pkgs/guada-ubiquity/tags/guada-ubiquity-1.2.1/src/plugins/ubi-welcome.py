@@ -158,6 +158,15 @@ class Page (Plugin):
         print >>sys.stderr,' ----->APPLY REAL KEYBOARD'
         self.rewrite_xorg_conf(model, layout, variant, options)  
         print >>sys.stderr,' ----->REWRITE XORG' 
+        
+    def ok_handler(self):
+        #Preseed not needed, test if we can delete this.
+
+        new_language = 'es'
+        language_question= 'localechooser/languagelist '
+        print >>sys.stderr,' ----->Segundo OK HANDLER: NEW LANGUAGE %s' %new_language
+        print >>sys.stderr,' ----->SegunOK HANDLER: SELF LANGUAGE QUESTION %s' %language_question
+
         Plugin.ok_handler(self)
 
     def apply_real_keyboard(self, model, layout, variant, options):
@@ -170,10 +179,12 @@ class Page (Plugin):
         args.extend(("-option", ""))
         for option in options:
             args.extend(("-option", option))
+        print >>sys.stderr,' ----->DENTRO APPLY REAL KEYBOARD'
         misc.execute("setxkbmap", *args)
 
     @misc.raise_privileges
     def rewrite_xorg_conf(self, model, layout, variant, options):
+        print >>sys.stderr,' ----->DENTRO REWRITE XORG' 
         oldconfigfile = '/etc/X11/xorg.conf'
         newconfigfile = '/etc/X11/xorg.conf.new'
         try:
@@ -264,6 +275,7 @@ class Install(InstallPlugin):
         if 'UBIQUITY_OEM_USER_CONFIG' in os.environ:
             return (['/usr/lib/ubiquity/localechooser-apply'], [])
         else:
+            print >>sys.stderr,' ----->APLICANDO INSTALL'
             return (['sh', '-c',
                      '/usr/lib/ubiquity/localechooser/post-base-installer ' +
                      '&& /usr/lib/ubiquity/localechooser/finish-install' + '&& /usr/share/ubiquity/console-setup-apply'], [])
