@@ -1,3 +1,11 @@
+casper-guada (1.4.3) lucid; urgency=low
+
+  * debian/casper-guada.[postinst|prerm]: changed
+    /usr/share/initramfs-tools/scripts/casper-bottom/01integrity_check
+    to send messages to tty7 (our default plymouth tty).
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Mon, 14 Jun 2010 15:23:11 +0200
+
 casper-guada (1.4.2) lucid; urgency=low
 
   * scripts/casper-bottom/10adduser: fixed ubiquity desktop file path
