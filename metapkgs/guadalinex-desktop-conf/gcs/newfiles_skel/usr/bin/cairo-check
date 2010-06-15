@@ -16,7 +16,7 @@ glxinfo|grep rendering
 
 if [ $? -eq 0 ]
 then
-	cairo-dock -o
+	cairo-dock -o &
 else
-	cairo-dock -c
+	cairo-dock -c &
 fi
