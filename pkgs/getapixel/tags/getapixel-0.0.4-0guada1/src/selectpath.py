@@ -137,9 +137,9 @@ class SelectPath():
                 gtk.main_iteration()
         
         self.processexecute.pgbar.set_fraction(1.0)
-        self.processexecute.btok.show()
-        #self.processexecute.destroy_window(self.processexecute.wdprocess)   
-        #self.wdselectpaths.destroy()           
+        self.processexecute.label1.set_text("Mosáico preparado correctamente")
+        self.processexecute.wdprocess.set_title("Getapixel - Completado")
+        self.processexecute.btok.show()         
     
     def question_generate(self):
         label = gtk.Label("Ya se han generado las piezas en el directorio de trabajo, ¿desea regenerar?")
