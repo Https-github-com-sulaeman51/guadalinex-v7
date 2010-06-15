@@ -1,3 +1,10 @@
+getapixel (0.0.2-0guada1) jaunty; urgency=low
+
+  * Added error messages when distance or scale are too large
+  * Changed default values of distance and scale
+
+ -- David Amián Valle <amian@amialinux@gmail.com>  Thu, 17 Dec 2009 10:13:59 +0100
+
 getapixel (0.0.1-0guada0) jaunty; urgency=low
 
   * First debianized of getapixel package

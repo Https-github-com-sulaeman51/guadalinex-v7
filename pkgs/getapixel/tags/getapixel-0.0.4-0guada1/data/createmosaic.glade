@@ -198,7 +198,7 @@
                     <property name="can_focus">True</property>
                     <property name="max_length">3</property>
                     <property name="invisible_char">&#x25CF;</property>
-                    <property name="adjustment">5 0 110 1 10 10</property>
+                    <property name="adjustment">2 0 110 1 10 10</property>
                     <signal name="value_changed" handler="on_spbtscale_value_changed"/>
                   </widget>
                   <packing>
@@ -253,7 +253,7 @@
                     <property name="can_focus">True</property>
                     <property name="max_length">3</property>
                     <property name="invisible_char">&#x25CF;</property>
-                    <property name="adjustment">50 0 110 1 10 10</property>
+                    <property name="adjustment">20 0 110 1 10 10</property>
                     <signal name="value_changed" handler="on_spbtdistance_value_changed"/>
                   </widget>
                   <packing>
