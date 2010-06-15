@@ -30,7 +30,12 @@ import subprocess
 import process
 import time
 import mosaic
+import gettext
 from threading import Thread
+gettext.install("getapixel")
+gtk.glade.textdomain("getapixel")
+gtk.glade.bindtextdomain("getapixel")
+
 
 class CreateMosaic():
     def __init__(self, vbmosaic):
@@ -55,12 +60,14 @@ class CreateMosaic():
         
 
     def on_btSelect1_clicked(self, widget, data=None):
-        chooser=sendfile.SendFile(self.mosaic,None,self,"orig",gtk.FILE_CHOOSER_ACTION_OPEN, "Seleccione la foto original")
+        chooser=sendfile.SendFile(self.mosaic,None,self,"orig",gtk.FILE_CHOOSER_ACTION_OPEN,
+        _("Select the original picture"))
         
         
     
     def on_btSelect2_clicked(self, widget, data=None):
-        chooser=sendfile.SendFile(self.mosaic,None,self,"mosaic",gtk.FILE_CHOOSER_ACTION_SAVE, "Guardar mosaico como...")
+        chooser=sendfile.SendFile(self.mosaic,None,self,"mosaic",gtk.FILE_CHOOSER_ACTION_SAVE,
+        _("Save mosaic as..."))
         
     def on_btcancel_clicked(self, widget, data=None):
         self.wdcreatemosaic.destroy()
@@ -74,10 +81,12 @@ class CreateMosaic():
         
         
         if self.txtpathorig.get_text_length() <= 0 or  self.txtpathmosaic.get_text_length() <= 0:
-            mosaic.on_dialog(self.wdcreatemosaic, "Por favor debe seleccionar una imagen origen y una destino", gtk.MESSAGE_ERROR,gtk.BUTTONS_CLOSE)
+            mosaic.on_dialog(self.wdcreatemosaic, 
+            _("Please select the original picture and mosaic output filenames"), gtk.MESSAGE_ERROR,gtk.BUTTONS_CLOSE)
         else:
              if (self.txtpathorig.get_text()== self.txtpathmosaic.get_text()):
-                 mosaic.on_dialog(self.wdcreatemosaic, "Por favor debe seleccionar una imagen origen y una destino distintas",
+                 mosaic.on_dialog(self.wdcreatemosaic, 
+                 _("Please select different filenames for original picture and mosaic output"),
                   gtk.MESSAGE_ERROR, gtk.BUTTONS_CLOSE)
              else:
                  self.generate_mosaic()
@@ -97,11 +106,12 @@ class CreateMosaic():
         
         if (self.res.returncode!=0):
             self.processexecute.wdprocess.destroy()
-            mosaic.on_dialog(self.wdcreatemosaic, "Error: Seleccione un menor tamaño o distancia", gtk.MESSAGE_ERROR,gtk.BUTTONS_CLOSE)
+            mosaic.on_dialog(self.wdcreatemosaic, 
+            _("Error: Select a small size or distance"), gtk.MESSAGE_ERROR,gtk.BUTTONS_CLOSE)
         else:    
             self.processexecute.pgbar.set_fraction(1.0)
-            self.processexecute.label1.set_text("Mosáico generado correctamente")
-            self.processexecute.wdprocess.set_title("Getapixel - Completado")
+            self.processexecute.label1.set_text(_("Mosaic has been created"))
+            self.processexecute.wdprocess.set_title(_("Getapixel - Complete"))
                        
             self.processexecute.btok.show()
         

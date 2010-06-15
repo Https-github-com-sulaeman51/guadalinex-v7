@@ -26,6 +26,11 @@ pygtk.require('2.0')
 import gtk.glade
 import time
 import mosaic
+import gettext
+gettext.install("getapixel")
+gtk.glade.textdomain("getapixel")
+gtk.glade.bindtextdomain("getapixel")
+
 
 class Process():
     def __init__(self,selectpath,createm,wd):
@@ -35,7 +40,7 @@ class Process():
         self.glade = gtk.glade.XML(mosaic.PATH+"glade/process.glade")
         self.glade.signal_autoconnect(self)
         self.wdprocess = self.glade.get_widget("wdprocess")
-        self.wdprocess.set_title("Getapixel - Procesando...")
+        self.wdprocess.set_title(_("Getapixel - Processing..."))
         self.pgbar = self.glade.get_widget("pgbar")
         self.btok = self.glade.get_widget("btok")
         self.label1 = self.glade.get_widget("label1")

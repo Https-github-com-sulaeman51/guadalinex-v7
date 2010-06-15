@@ -10,7 +10,7 @@ Upstream Authors:
 
 Copyright: 
 
-	Copyright (C) 2009 by Junta de Andalucía <packmaster@guadalinex.org>
+	Copyright (C) 2009 by Junta de Andalucía <http://www.juntadeandalucia.es>
 
 License:
 
@@ -31,3 +31,6 @@ License:
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL-2'.
 
+The Debian packaging is Copyright (C) 2009, Junta de Andalucia
+<http://www.juntadeandalucia.es> and is licensed under the GPL-2, 
+see `/usr/share/common-licenses/GPL-2'.

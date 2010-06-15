@@ -31,7 +31,12 @@ import subprocess
 import process
 import time
 import mosaic
+import gettext
 from threading import Thread
+gettext.install("getapixel")
+gtk.glade.textdomain("getapixel")
+gtk.glade.bindtextdomain("getapixel")
+
 
 
 
@@ -64,10 +69,12 @@ class SelectPath():
         widget.destroy()
       
     def on_btSelect1_clicked(self, widget, data=None):
-        chooser=sendfile.SendFile(self.mosaic,self,None,"photos",gtk.FILE_CHOOSER_ACTION_SELECT_FOLDER, "Seleccione la ruta de fotos")
+        chooser=sendfile.SendFile(self.mosaic,self,None,"photos",gtk.FILE_CHOOSER_ACTION_SELECT_FOLDER,
+        _("Select the pictures path"))
     
     def on_btSelect2_clicked(self, widget, data=None):
-        chooser=sendfile.SendFile(self.mosaic,self,None,"work",gtk.FILE_CHOOSER_ACTION_SELECT_FOLDER, "Seleccione la ruta de trabajo")
+        chooser=sendfile.SendFile(self.mosaic,self,None,"work",gtk.FILE_CHOOSER_ACTION_SELECT_FOLDER,
+        _("Select a work path"))
         
     def on_btcancel_clicked(self, widget, data=None):
         self.wdselectpaths.destroy()
@@ -77,13 +84,15 @@ class SelectPath():
         fail=False
         if (self.txtpathphotos.get_text_length() >0 and self.txtpathwork.get_text_length() > 0 and
         self.txtpathwork.get_text()== self.txtpathphotos.get_text()):
-            mosaic.on_dialog(self.wdselectpaths, "Por favor seleccione directorios diferentes", gtk.MESSAGE_ERROR, gtk.BUTTONS_CLOSE)
+            mosaic.on_dialog(self.wdselectpaths,
+            _("Please select differents paths"), gtk.MESSAGE_ERROR, gtk.BUTTONS_CLOSE)
             fail=True
         else:
             if self.txtpathphotos.get_text_length() <= 0:
                 generate_pieces = False
                 if self.txtpathwork.get_text_length() <= 0:
-                    mosaic.on_dialog(self.wdselectpaths, "Por favor seleccione un directorio de trabajo", gtk.MESSAGE_ERROR, gtk.BUTTONS_CLOSE)
+                    mosaic.on_dialog(self.wdselectpaths,
+                    _("Please select a work path"), gtk.MESSAGE_ERROR, gtk.BUTTONS_CLOSE)
                     fail=True
                 else: 
                     if self.check_path_index(self.txtpathwork.get_text()):
@@ -91,12 +100,13 @@ class SelectPath():
                         
                     else:
                         mosaic.on_dialog(self.wdselectpaths,
-                        "Por favor seleccione un directorio de trabajo con las piezas de mosaico", gtk.MESSAGE_ERROR, gtk.BUTTONS_CLOSE)
+                        _("Please select a work path that contains pieces of mosaic"), gtk.MESSAGE_ERROR, gtk.BUTTONS_CLOSE)
                         fail=True
             else:
                 generate_pieces = True
                 if self.txtpathwork.get_text_length() <= 0:
-                    mosaic.on_dialog(self.wdselectpaths, "Por favor seleccione un directorio de trabajo", gtk.MESSAGE_ERROR, gtk.BUTTONS_CLOSE)
+                    mosaic.on_dialog(self.wdselectpaths,
+                    _("Please select a work path"), gtk.MESSAGE_ERROR, gtk.BUTTONS_CLOSE)
                     fail=True
                 else: 
                     if self.check_path_index(self.txtpathwork.get_text()):
@@ -137,13 +147,13 @@ class SelectPath():
                 gtk.main_iteration()
         
         self.processexecute.pgbar.set_fraction(1.0)
-        self.processexecute.label1.set_text("Mosáico preparado correctamente")
-        self.processexecute.wdprocess.set_title("Getapixel - Completado")
+        self.processexecute.label1.set_text(_("Mosaic has been successfully prepared"))
+        self.processexecute.wdprocess.set_title(_("Getapixel - Complete"))
         self.processexecute.btok.show()         
     
     def question_generate(self):
-        label = gtk.Label("Ya se han generado las piezas en el directorio de trabajo, ¿desea regenerar?")
-        dialog = gtk.Dialog("Aviso",
+        label = gtk.Label(_("There are pieces of an earlier generation in this directory, Would you like to regenerate them?"))
+        dialog = gtk.Dialog(_("Info"),
                    None,
                    gtk.DIALOG_MODAL | gtk.DIALOG_DESTROY_WITH_PARENT,
                    (gtk.STOCK_CANCEL, gtk.RESPONSE_REJECT,
