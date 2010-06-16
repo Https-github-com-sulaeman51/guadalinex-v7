@@ -16,7 +16,9 @@ glxinfo|grep rendering
 
 if [ $? -eq 0 ]
 then
+	sed -i 's/fake transparency=true/fake transparency=false/g' ~/.config/cairo-dock/current_theme/cairo-dock.conf
 	cairo-dock -o &
 else
+	sed -i 's/fake transparency=false/fake transparency=true/g' ~/.config/cairo-dock/current_theme/cairo-dock.conf
 	cairo-dock -c &
 fi
