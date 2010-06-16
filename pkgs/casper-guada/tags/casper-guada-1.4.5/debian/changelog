@@ -1,3 +1,10 @@
+casper-guada (1.4.5) lucid; urgency=low
+
+  * debian/control: added libplymouth-dev as builddep
+  * casper-md5check-es: updated files to use plymouth as message bus
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Wed, 16 Jun 2010 12:51:12 +0200
+
 casper-guada (1.4.4) lucid; urgency=low
 
   * debian/casper-guada.[postinst|prerm]: removed divert of 01integrity_check,
