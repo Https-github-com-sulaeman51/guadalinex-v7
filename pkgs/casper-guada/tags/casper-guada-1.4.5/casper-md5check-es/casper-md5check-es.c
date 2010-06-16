@@ -267,7 +267,7 @@ int main(int argc, char **argv) {
 
 
   plymouth_progress(client, 0);
-  plymouth_urgent(client, "Checking integrity, this may take some time");
+  plymouth_urgent(client, "Comprobando integridad, esto puede tomar algun tiempo...");
   md5_file = fopen(argv[2], "r");
   if (!md5_file) {
           perror("fopen md5_file");
