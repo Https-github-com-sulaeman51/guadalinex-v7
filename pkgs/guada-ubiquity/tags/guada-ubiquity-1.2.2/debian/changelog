@@ -1,3 +1,9 @@
+guada-ubiquity (1.2.2) lucid; urgency=low
+
+  * data/ubiquity-slideshow/slides/index.html: increased slideshows timeout
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Wed, 16 Jun 2010 13:09:53 +0200
+
 guada-ubiquity (1.2.1) lucid; urgency=low
 
   * src/scripts/final_fixes.sh: added workaround to remove desktops cache
