@@ -334,7 +334,7 @@ fun switch_on_bullet (bullets_off, bullets_on, bullet_number, opacity) {
     bullets_on[bullet_number].sprite.SetOpacity (opacity);
     
     # Bump the number of times we have switched on bullets
-    global.times_bullets_switched=global.times_bullets_switched+1;
+    global.times_bullets_switched++;
 }
 
 fun switch_off_bullets () {
