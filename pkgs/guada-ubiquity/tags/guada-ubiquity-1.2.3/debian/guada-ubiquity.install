@@ -1,0 +1,14 @@
+data/desktop/ubiquity-guadaui.desktop	usr/share/guada-ubiquity
+data/pics				usr/share/guada-ubiquity
+data/templates/*                        usr/share/guada-ubiquity/templates
+data/gtk/stepGuadaWelcome.ui		usr/share/ubiquity/gtk
+data/gtk/stepGreeter.ui                 usr/share/ubiquity/gtk
+data/gtk/stepPrepartition.ui            usr/share/ubiquity/gtk
+data/gtk/diskpreview.glade              usr/share/ubiquity/gtk
+src/scripts/final_fixes.sh              usr/share/guada-ubiquity
+src/scripts/guada-prepartition		usr/share/ubiquity
+src/ubiquity-init/__init__.py           usr/lib/guada-ubiquity/ubiquity/
+src/DiskPreview/*.py                    usr/lib/ubiquity/ubiquity/DiskPreview
+src/automatically_partition             usr/lib/guada-ubiquity/partman
+src/plugins/*                           usr/lib/ubiquity/plugins/
+data/ubiquity-slideshow/*               usr/share/ubiquity-slideshow/
