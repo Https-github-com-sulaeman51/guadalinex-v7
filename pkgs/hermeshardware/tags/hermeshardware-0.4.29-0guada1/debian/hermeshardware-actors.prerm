@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#DEBHELPER#
+
+rm -f /usr/share/hermes/actors/config/c3pocardreader.gnome
+rm -f /usr/share/hermes/actors/config/acr38cardreader.gnome
+rm -f /usr/share/hermes/actors/config/gempluscardreader.gnome
+rm -f /usr/share/hermes/actors/config/omnikeycardreader.gnome
+rm -f /usr/share/hermes/actors/config/scr331cardreader.gnome
