@@ -42,15 +42,15 @@ def check_hostname(hostname):
     e = []
     for result in validation.check_hostname(unicode(hostname)):
         if result == validation.HOSTNAME_LENGTH:
-            e.append("The hostname must be between 1 and 63 characters long.")
+            e.append("El nombre de host debe tener entre 1 y 63 carácteres.")
         elif result == validation.HOSTNAME_BADCHAR:
-            e.append("The hostname may only contain letters, digits, hyphens, "
-                     "and dots.")
+            e.append("El nombre de host solo puede contener letras, números, guiones, "
+                     "y puntos.")
         elif result == validation.HOSTNAME_BADHYPHEN:
-            e.append("The hostname may not start or end with a hyphen.")
+            e.append("El nombre de host no puede empezar o terminar con un guión.")
         elif result == validation.HOSTNAME_BADDOTS:
-            e.append('The hostname may not start or end with a dot, '
-                     'or contain the sequence "..".')
+            e.append('El nombre de host no puede empezar o terminar con un punto, '
+                     'o contener la secuencia "..".')
     return "\n".join(e)
 
 class PageBase(PluginUI):
