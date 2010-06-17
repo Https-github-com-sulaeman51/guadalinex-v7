@@ -9,4 +9,4 @@ StartupNotify=true
 Categories=GNOME;GTK;Graphics;Scanning;
 X-GNOME-Gettext-Domain=simple-scan
 X-GNOME-FullName[es]=Programa de escaneo de imágenes (Simple Scan)
-Comment[es]=
+Comment[es]=Programa para trabajar con escaners
