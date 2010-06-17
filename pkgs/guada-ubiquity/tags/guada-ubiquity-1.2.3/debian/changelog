@@ -1,3 +1,12 @@
+guada-ubiquity (1.2.3) lucid; urgency=low
+
+  * src/plugins/ubi-usersetup.py: translated some english strings
+  * src/plugins/ubi-welcome.py: added ugly hack for umounting filesystems
+    mounted by DiskPreview when you choose to "Try Guadalinex".
+    Disks weren't visualized in the desktop because of this.
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Thu, 17 Jun 2010 11:03:44 +0200
+
 guada-ubiquity (1.2.2) lucid; urgency=low
 
   * data/ubiquity-slideshow/slides/index.html: increased slideshows timeout
