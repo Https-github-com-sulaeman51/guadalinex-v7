@@ -14,8 +14,8 @@ X-HildonDesk-ShowInToolbar=true
 X-Osso-Type=application/x-executable
 X-Osso-Service=org.maemo.garage.numptyphysics
 MimeType=application/x-numptyphysics-level
-Name[es]=Física para todos (numptyphysics)
-Comment[es]=Juega con la física
+Name[es]=Fisica para todos (numptyphysics)
+Comment[es]=Juega con la fisica
 
 [X-Osso-URI-Actions]
 http=X-Osso-URI-Action-Open;
