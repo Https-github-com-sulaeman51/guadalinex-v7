@@ -12,7 +12,7 @@
 # the full text of the license.
 
 
-glxinfo|grep rendering
+glxinfo | grep "direct rendering: Yes"
 
 if [ $? -eq 0 ]
 then
