@@ -380,6 +380,8 @@ system-config-printer-udev
 tangerine-icon-theme
 tango-icon-theme
 tango-icon-theme-common
+tesseract-ocr
+tesseract-ocr-spa
 toshset
 transmission-gtk
 ttf-dejavu-core
