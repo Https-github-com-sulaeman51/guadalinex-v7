@@ -1,6 +1,6 @@
-effectv-wonder (0.1-0guada1ubuntu1) lucid; urgency=low
+effectv-wonder (0.1-0guada1) lucid; urgency=low
 
-  * 
+  * Fixed debianized problems 
 
  -- Álvaro Pinel <alvaropinel@gmail.com>  Tue, 29 Jun 2010 12:35:48 +0200
 
