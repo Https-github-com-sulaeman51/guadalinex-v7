@@ -1,0 +1,16 @@
+Source: effectv-wonder
+Section: utils
+Priority: optional
+Maintainer: Junta de Andalucía <packmaster@guadalinex.org>
+Uploaders: Álvaro Pinel <alvaropinel@gmail.com>,
+	David Amián <amialinux@gmail.com>
+Build-Depends: debhelper (>= 7), cdbs (>=0.4.43), python-all-dev (>=2.3.5-11)
+Build-Depends-Indep: python-central (>=0.5.6), gettext, python-distutils-extra
+Standards-Version: 3.8.0
+Homepage: http://forja.guadalinex.org/projects/effectv-wonder/
+
+Package: effectv-wonder
+Architecture: all
+Depends: python, python-gtk2, python-glade2, effectv
+Description: Gestor gráfico para Effectv
+ Gestor gráfico para la aplicación effectv que realiza efectos visuales con la webcam.
