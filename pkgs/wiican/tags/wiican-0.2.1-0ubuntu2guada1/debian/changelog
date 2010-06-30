@@ -1,3 +1,10 @@
+wiican (0.2.1-0ubuntu2) lucid; urgency=low
+
+  * Added two missed dependencies (python-glade2 and python-notify)
+  (LP: #593462)
+
+ -- Juanje Ojeda Croissier <jojeda@emergya.es>  Mon, 14 Jun 2010 09:10:08 +0200
+
 wiican (0.2.1-0ubuntu1) karmic; urgency=low
 
   * New upstream version
