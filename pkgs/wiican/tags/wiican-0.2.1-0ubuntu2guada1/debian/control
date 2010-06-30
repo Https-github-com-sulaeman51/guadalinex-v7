@@ -12,7 +12,7 @@ Homepage: http://launchpad.net/wiican
 Package: wiican
 Architecture: any
 Depends: ${misc:Depends}, ${python:Depends}, gnome-bluetooth, wminput, python-gtk2,
- python-yaml, python-dbus, upstart
+ python-yaml, python-dbus, upstart, python-glade2, python-notify
 XB-Python-Version: ${python:Versions}
 Description: Simple wiimote usage assistant and mapping manager
  Wiican it's an user-friendly systray application for use 
