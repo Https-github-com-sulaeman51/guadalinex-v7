@@ -1,6 +1,6 @@
 wiican (0.2.1-0ubuntu2guada1) lucid; urgency=low
 
-  * Updated version to guada1 for Guadalinex Lince
+  * debian/watch: fixed url
 
  -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 29 Jun 2010 10:19:23 +0200
 
