@@ -1,3 +1,9 @@
+wiican (0.2.1-0ubuntu2guada1) lucid; urgency=low
+
+  * Updated version to guada1 for Guadalinex Lince
+
+ -- Roberto C. Morano <rcmorano@emergya.es>  Tue, 29 Jun 2010 10:19:23 +0200
+
 wiican (0.2.1-0ubuntu2) lucid; urgency=low
 
   * Added two missed dependencies (python-glade2 and python-notify)
