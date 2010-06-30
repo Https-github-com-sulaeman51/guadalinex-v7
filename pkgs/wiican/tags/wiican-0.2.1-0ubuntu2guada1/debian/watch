@@ -1,0 +1,2 @@
+version=3
+http://launchpad.net/wiican/+download http://launchpad.net/wiican/trunk/.*/wiican-(.*)\.tar\.gz
