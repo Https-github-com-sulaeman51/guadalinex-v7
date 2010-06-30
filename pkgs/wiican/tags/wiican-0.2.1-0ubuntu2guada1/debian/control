@@ -1,7 +1,9 @@
 Source: wiican
 Section: utils
 Priority: extra
-Maintainer: J. Félix Ontañón <felixonta@gmail.com>
+Maintainer: Juanje Ojeda Croissier <juanje@ubuntu.com>
+Uploaders: J. Félix Ontañón <felixonta@gmail.com>,
+           Juanje Ojeda Croissier <jojeda@emergya.es>
 Build-Depends: cdbs (>= 0.4.49), debhelper (>= 7), python-support (>= 0.5.3),
  python-dev (>= 2.3.5-11), gettext
 Standards-Version: 3.8.3
