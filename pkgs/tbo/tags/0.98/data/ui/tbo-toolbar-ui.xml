@@ -1,0 +1,28 @@
+<ui>
+    <toolbar action="toolbar">
+     <placeholder name="FileItems">
+       <separator/>
+       <toolitem name="NewTool" action="NewFileTool"/>
+       <toolitem name="OpenTool" action="OpenFileTool"/>
+       <toolitem name="SaveTool" action="SaveFileTool"/>
+       <separator/>
+       <toolitem name="newpage" action="NewPage"/>
+       <toolitem name="delpage" action="DelPage"/>
+       <toolitem name="ppage" action="PrevPage"/>
+       <toolitem name="npage" action="NextPage"/>
+       <separator/>
+       <toolitem name="selector" action="Selector"/>
+       <toolitem name="newframe" action="NewFrame"/>
+       <separator/>
+       <toolitem name="doodle" action="Doodle"/>
+       <toolitem name="text" action="Text"/>
+       <toolitem name="bubble" action="Bubble"/>
+       <toolitem name="pix" action="Pix"/>
+       <separator/>
+       <toolitem name="zoom100" action="Zoom100"/>
+       <toolitem name="zoomout" action="Zoomout"/>
+       <toolitem name="zoomin" action="Zoomin"/>
+       <toolitem name="zoomfit" action="Zoomfit"/>
+     </placeholder>
+    </toolbar>
+</ui>
