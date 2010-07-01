@@ -1,0 +1,5 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+DEB_DH_SHLIBDEPS_ARGS_ALL := -X*
+include /usr/share/cdbs/1/rules/debhelper.mk

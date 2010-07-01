@@ -1,0 +1,34 @@
+<!DOCTYPE QRY>
+<QRY>
+	<name>co_i_balancesys</name>
+
+	<group>
+		<level>0</level>
+		<field>co_cuentas.codcuenta</field>
+	</group>
+	
+	<tables>empresa,co_cuentas,co_subcuentas,co_partidas,co_asientos</tables>
+
+	<select>
+		empresa.nombre,
+		co_cuentas.idcuenta, co_cuentas.codcuenta, co_cuentas.descripcion,
+		co_subcuentas.idsubcuenta, co_subcuentas.codsubcuenta, 
+		co_subcuentas.descripcion, co_subcuentas.codcuenta,
+		SUM(co_partidas.debe), SUM(co_partidas.haber), SUM(co_partidas.debe)-SUM(co_partidas.haber)
+	</select>
+
+	<from>
+		empresa,
+		co_cuentas 
+		INNER JOIN co_subcuentas ON co_cuentas.idcuenta = co_subcuentas.idcuenta
+		INNER JOIN co_partidas ON co_subcuentas.idsubcuenta = co_partidas.idsubcuenta 
+		INNER JOIN co_asientos ON co_partidas.idasiento = co_asientos.idasiento
+	</from>
+
+	<where>
+	</where>
+
+	<order>
+		co_subcuentas.codsubcuenta
+	</order>
+</QRY>

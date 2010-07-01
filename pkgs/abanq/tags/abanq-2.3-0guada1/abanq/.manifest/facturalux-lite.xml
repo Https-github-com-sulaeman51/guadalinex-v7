@@ -1,0 +1,737 @@
+<?xml version="1.0"?>
+<product name="facturalux-lite" desc="AbanQ" xmlversion="1.6" root="/usr/share/abanq" update_url="http://www.infosial.com">
+  <component name="Default" version="2.3" default="yes">
+    <option name="Base Install">
+      <file md5="c3d528cae46878696bc024a1c7df2336" mode="0644" desktop="fllite">/usr/share/applnk/Apps/AbanQ/fllite.kdelnk</file>
+      <file md5="bb45fd0a6c9faca43ab894f229ad8946" mode="0644" desktop="fllite">/usr/share/applications/fllite.desktop</file>
+      <file md5="ffd84b411915b687ee6d7fde353c5c2f" mode="0644">COPYING</file>
+      <file md5="37d6058122a82f41b9d1950bf566dd3f" mode="0644">share/facturalux/sys.xml</file>
+      <file md5="0b55a62e98acb1586feee4a149730e10" mode="0644">share/facturalux/translations/sys.fr.ts</file>
+      <file md5="a9320405c30a027e78c206e74cb2ac54" mode="0644">share/facturalux/translations/sys.eu.ts</file>
+      <file md5="77fcf55c4b5af4f493bca031b4e8776e" mode="0644">share/facturalux/translations/sys.ca.ts</file>
+      <file md5="31cf7444d681af4cacee81d6df212075" mode="0644">share/facturalux/translations/sys.it.ts</file>
+      <file md5="60e44888d8a492b052679bcc53c8bf83" mode="0644">share/facturalux/translations/sys.de.ts</file>
+      <file md5="c65766b0fa9acccd789ef126b582149a" mode="0644">share/facturalux/translations/sys.es.ts</file>
+      <file md5="552a21ba7de898a45664179b8843f967" mode="0644">share/facturalux/sys.xpm</file>
+      <file md5="5d959097a35ca76e3741a8db44845dc8" mode="0644">share/facturalux/modulos/facturacion/facturacion/flfacturac.xpm</file>
+      <file md5="2c9885153f62e320b502108939bf9f6c" mode="0644">share/facturalux/modulos/facturacion/facturacion/translations/flfacturac.fr.ts</file>
+      <file md5="6e3ee636a0bb5a362e97ce797691ac17" mode="0644">share/facturalux/modulos/facturacion/facturacion/translations/flfacturac.pt.ts</file>
+      <file md5="cf4a8b690437d444d8f75c0b2c63a37d" mode="0644">share/facturalux/modulos/facturacion/facturacion/translations/flfacturac.es.ts</file>
+      <file md5="dbd9ddae9f2c02a80e37f04519e775ab" mode="0644">share/facturalux/modulos/facturacion/facturacion/translations/flfacturac.de.ts</file>
+      <file md5="6df8183795acd3e536ed2ed692a7a0f0" mode="0644">share/facturalux/modulos/facturacion/facturacion/translations/flfacturac.ca.ts</file>
+      <file md5="7cc57108bbebff1f4d0ebc7560361fea" mode="0644">share/facturalux/modulos/facturacion/facturacion/queries/presupuestoscli.qry</file>
+      <file md5="f5cfce6ec01e573be85547571cb19070" mode="0644">share/facturalux/modulos/facturacion/facturacion/COPYING</file>
+      <file md5="44cff9ec2ba138cc6bdc00e3b779fe75" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/fechaejercicio.ui</file>
+      <file md5="6486e8f6d20366cc35824320efd201c1" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/lineasfacturasprov.ui</file>
+      <file md5="17b8b4b00febbc6091fae5b09ab2a690" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/lineasalbaranesprov.ui</file>
+      <file md5="1dfd5271cfbab49375c6fc5bc48ec2f3" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/masterpedidosprov.ui</file>
+      <file md5="ad2dabb7c91101ee4feb5df0dcb939a6" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/masterfacturasprov.ui</file>
+      <file md5="d5e69ccbe8a8c401b216b871d651d60e" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/agruparalbaranesprov.ui</file>
+      <file md5="6107a5f5daa9c378cddb3c6431934399" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/masterpedidoscli.ui</file>
+      <file md5="dceec60896d865ba248e07b180767d8e" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/flfacturac.ui</file>
+      <file md5="8348a210f0e0e5c23b830b64c675b352" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/presupuestoscli.ui</file>
+      <file md5="4fdcce6d5dc69a68182fcbb72da97f01" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/lineasfacturascli.ui</file>
+      <file md5="d40cd8a8189a6f6add9e02e6d9522bd3" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/facturasprov.ui</file>
+      <file md5="f24eecfaa1e2e8c47dfa07d982e4448c" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/lineaspedidosprov.ui</file>
+      <file md5="997fb87d07d0a3050e5ccc884fc7977a" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/agruparalbaranescli.ui</file>
+      <file md5="03b95dae5695476de720d3d8d7e7ec00" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/pedidosprov.ui</file>
+      <file md5="569e2ba12c21c44925c00c60764c67ed" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/masterfacturascli.ui</file>
+      <file md5="82068de85c7a1edc6f19c49a47478de0" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/albaranesprov.ui</file>
+      <file md5="d7366b65837895a045919d46b26ad5e2" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/lineaspedidoscli.ui</file>
+      <file md5="97449ca26704e3857472f0d8a54e7b00" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/facturascli.ui</file>
+      <file md5="0d51f70c95a7853bc803f2763c4b6680" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/masteralbaranescli.ui</file>
+      <file md5="bbb8ac90a8cc2105601d10608e2d7588" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/lineaspresupuestoscli.ui</file>
+      <file md5="f7c261d2ac7e02e98d73039fea15cdbc" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/agruparpedidoscli.ui</file>
+      <file md5="b0ba943648b642b5a83aa760d8ac7af1" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/trazadoc.ui</file>
+      <file md5="80c628a4ac9453c840dfc29da74327a4" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/albaranescli.ui</file>
+      <file md5="86b6db961298396ce69dd0c288a3569b" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/lineasalbaranescli.ui</file>
+      <file md5="d74467707858fcc048a9055345798ced" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/agruparpedidosprov.ui</file>
+      <file md5="723073701da7e68920ede351f330d0c8" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/masteralbaranesprov.ui</file>
+      <file md5="d57eb60703710fe7a1fcafaed42a9ff8" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/masterpresupuestoscli.ui</file>
+      <file md5="bb15b6b3921547626c0998c8fb6c7558" mode="0644">share/facturalux/modulos/facturacion/facturacion/forms/pedidoscli.ui</file>
+      <file md5="4bf36a3f80d6e4013af85517e7297116" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/lineasivafactcli.mtd</file>
+      <file md5="dd1f188d9e900715329ff463ea4b7d2c" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/albaranesprov.mtd</file>
+      <file md5="0d0327fdd798b10ca5ced15c05b2a7bc" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/lineasalbaranescli.mtd</file>
+      <file md5="113e5b7978cc9985ef9b1fe81ec337b2" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/lineasivafactprov.mtd</file>
+      <file md5="2a5d40a771663b713027eaf743f67c1f" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/facturascli.mtd</file>
+      <file md5="0717f0ad205b978ef70235cf91c2c785" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/pedidosprov.mtd</file>
+      <file md5="b82ecf1ebc153dc5036424e6cf237de2" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/agruparalbaranescli.mtd</file>
+      <file md5="bddc3dccd68962dd5909864ce80a42d2" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/facturas_imp.mtd</file>
+      <file md5="f0013092be7aae2f3671638b49262932" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/fechaejercicio.mtd</file>
+      <file md5="a23971a2c35ade7107be3aa4324f1323" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/lineasfacturascli.mtd</file>
+      <file md5="8aa8f5dfebfb84623b1ce6a1b7665712" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/agruparalbaranesprov.mtd</file>
+      <file md5="f48f6ca9cebd39c9a002846c5babee0e" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/lineasfacturasprov.mtd</file>
+      <file md5="56ff25ad883ba36684498ed277d31317" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/lineaspresupuestoscli.mtd</file>
+      <file md5="a6b054aebb39a4cfafc941990c3d0bb1" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/trazadoc.mtd</file>
+      <file md5="4f73005cee19d52abe780245d8d35d99" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/agruparpedidosprov.mtd</file>
+      <file md5="e419dfea1fce141e1907c4c3c4175ec5" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/lineaspedidosprov.mtd</file>
+      <file md5="803f811bc24f53f9f58cf87a59f07f40" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/pedidoscli.mtd</file>
+      <file md5="4fb689e70bc3cf0ebe4d312511c5648d" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/lineaspedidoscli.mtd</file>
+      <file md5="605a1328c7d37682a764841e65631891" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/lineasalbaranesprov.mtd</file>
+      <file md5="af6840aaea594fe5bc2b2316efba8fb7" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/presupuestoscli.mtd</file>
+      <file md5="6abaa4975428733010e7fbed30cc7387" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/albaranescli.mtd</file>
+      <file md5="613df5801f8f447923d64babca6c2bdf" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/huecos.mtd</file>
+      <file md5="4fe1eea6c0063223aefe8df416ba049f" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/agruparpedidoscli.mtd</file>
+      <file md5="15f11e706138803c2dd9780404c9f1a3" mode="0644">share/facturalux/modulos/facturacion/facturacion/tables/facturasprov.mtd</file>
+      <file md5="8a70ceec3935fe2d1ccde2c58943ffbd" mode="0644">share/facturalux/modulos/facturacion/facturacion/flfacturac.mod</file>
+      <file md5="a99a45ab5fd8e18ba4ce29a68394a9eb" mode="0644">share/facturalux/modulos/facturacion/facturacion/flfacturac.xml</file>
+      <file md5="d872df80eb9d140d13298a35f63b963d" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/agruparalbaranesprov.qs</file>
+      <file md5="e2d3b64083468f48b91988a8d8981277" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/agruparpedidoscli.qs</file>
+      <file md5="7a68f5162c9d964d78bf796890df81ac" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/lineaspresupuestoscli.qs</file>
+      <file md5="fc47ab5a77492b62818c129b7693c841" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/facturascli.qs</file>
+      <file md5="ddf7f1e6ccecac4ce2a6953135dd37b2" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/facturasprov.qs</file>
+      <file md5="459eb7032af3c4e6c8f875851dcdf3d4" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/pedidoscli.qs</file>
+      <file md5="3cfd6af0154db7f293bae49fbdf11f16" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/masterfacturasprov.qs</file>
+      <file md5="ade7dd5dc4a5342ed92b9a97d9b6d3e9" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/fechaejercicio.qs</file>
+      <file md5="7fc7577a887bfb52c8c4ceb6955718cd" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/lineaspedidosprov.qs</file>
+      <file md5="9d5686184ae91afbb2ef105152a3e211" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/lineasalbaranescli.qs</file>
+      <file md5="034452c2d8d6a4922d57778dee18ca07" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/pedidosprov.qs</file>
+      <file md5="2bb248931c84044c69c3bc4e24e87b45" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/agruparalbaranescli.qs</file>
+      <file md5="33b21b27c670b7735bdca952c4519efb" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/masterpedidosprov.qs</file>
+      <file md5="59ef536bcdcf4dc8a6704cc7012cd0ae" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/trazadoc.qs</file>
+      <file md5="897f6fe1a3d051e0f5e73e15cfb26ff4" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/masterpresupuestoscli.qs</file>
+      <file md5="8d80867bd759bc8b5bc05d2db87aff02" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/lineasfacturasprov.qs</file>
+      <file md5="adac9fd1ced613703a124760fa4d0e2a" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/masterfacturascli.qs</file>
+      <file md5="66dfeec2e6e343eefc412bdc41394e08" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/flfacturac.qs</file>
+      <file md5="014a02149e289713ea80f9e5b459bade" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/masteralbaranesprov.qs</file>
+      <file md5="aa1c63a2960092dae7b08704273611d1" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/masteralbaranescli.qs</file>
+      <file md5="06bd7c43bee118eed83a1b9cede96e06" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/agruparpedidosprov.qs</file>
+      <file md5="ff858ad6e249b114a5bb0f6d03617b41" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/albaranescli.qs</file>
+      <file md5="7abb2de222b20b120ab9fbbb95e25c0f" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/lineasfacturascli.qs</file>
+      <file md5="c9cf943bbe85d634e151b237f1e2dd82" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/lineaspedidoscli.qs</file>
+      <file md5="dabc814f5200858f796f5e1fabd8b611" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/lineasalbaranesprov.qs</file>
+      <file md5="521d7d6493f14132dd73cce5739e2761" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/presupuestoscli.qs</file>
+      <file md5="5a08d9fe7400c6fd6216778bb1f882a9" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/albaranesprov.qs</file>
+      <file md5="970f3080017441fe01da03d42705f388" mode="0644">share/facturalux/modulos/facturacion/facturacion/scripts/masterpedidoscli.qs</file>
+      <file md5="7cbca0fc20210e9ded90626cff978f83" mode="0644">share/facturalux/modulos/facturacion/facturacion/reports/presupuestoscli.kut</file>
+      <file md5="b418a5f53a731a6d7fcfab5365842ccb" mode="0644">share/facturalux/modulos/facturacion/tesoreria/flfactteso.xpm</file>
+      <file md5="cb9a555d6dbea35368bdbc3f58b7b973" mode="0644">share/facturalux/modulos/facturacion/tesoreria/translations/flfactteso.pt.ts</file>
+      <file md5="c46c001b89eec70d94476eba177aae0a" mode="0644">share/facturalux/modulos/facturacion/tesoreria/translations/flfactteso.ca.ts</file>
+      <file md5="3742817465900e67a4e107c129456619" mode="0644">share/facturalux/modulos/facturacion/tesoreria/translations/flfactteso.de.ts</file>
+      <file md5="c9e8e02a172cbc11bf2cf142c642ad4b" mode="0644">share/facturalux/modulos/facturacion/tesoreria/translations/flfactteso.es.ts</file>
+      <file md5="c8667edfb9160a0e01009129dad204fe" mode="0644">share/facturalux/modulos/facturacion/tesoreria/translations/flfactteso.fr.ts</file>
+      <file md5="0693077995c4998b8dafd65a4f0611af" mode="0644">share/facturalux/modulos/facturacion/tesoreria/flfactteso.xml</file>
+      <file md5="f5cfce6ec01e573be85547571cb19070" mode="0644">share/facturalux/modulos/facturacion/tesoreria/COPYING</file>
+      <file md5="76a1d3980996f1220b52af44695a551b" mode="0644">share/facturalux/modulos/facturacion/tesoreria/flfactteso.mod</file>
+      <file md5="681a249fbc758dea2af8cc7eaec0416e" mode="0644">share/facturalux/modulos/facturacion/tesoreria/forms/reciboscli.ui</file>
+      <file md5="d6003cd1aefc0320dc53816d7d39864b" mode="0644">share/facturalux/modulos/facturacion/tesoreria/forms/masterreciboscli.ui</file>
+      <file md5="6c5b09a61b390ff309410e8be3bd8713" mode="0644">share/facturalux/modulos/facturacion/tesoreria/forms/masterremesas.ui</file>
+      <file md5="d7eb5a4741fba94705e6e4dd4adfa5af" mode="0644">share/facturalux/modulos/facturacion/tesoreria/forms/flfactteso.ui</file>
+      <file md5="70074b93014ae78d3ca071615254f1d2" mode="0644">share/facturalux/modulos/facturacion/tesoreria/forms/vdisco.ui</file>
+      <file md5="1b7184452809581badd7f82b094e739a" mode="0644">share/facturalux/modulos/facturacion/tesoreria/forms/pagosdevolcli.ui</file>
+      <file md5="bf32e60169e1b68f9797c73c72c13043" mode="0644">share/facturalux/modulos/facturacion/tesoreria/forms/remesas.ui</file>
+      <file md5="c8c5a8447555ae17d4d1d50c5bf75786" mode="0644">share/facturalux/modulos/facturacion/tesoreria/forms/seleccionreciboscli.ui</file>
+      <file md5="f602e9c1844ee720c82667c2de9ec413" mode="0644">share/facturalux/modulos/facturacion/tesoreria/tables/remesas.mtd</file>
+      <file md5="01d945abc4c2b0d65d3264edab4e60e2" mode="0644">share/facturalux/modulos/facturacion/tesoreria/tables/reciboscli.mtd</file>
+      <file md5="aad2f93d57831fb2e46960c0e68c46dd" mode="0644">share/facturalux/modulos/facturacion/tesoreria/tables/pagosdevolcli.mtd</file>
+      <file md5="e1dcc67f594ca923867c134d52d0cdb7" mode="0644">share/facturalux/modulos/facturacion/tesoreria/tables/seleccionreciboscli.mtd</file>
+      <file md5="be848e835034375d0b1173a698b3872f" mode="0644">share/facturalux/modulos/facturacion/tesoreria/scripts/seleccionreciboscli.qs</file>
+      <file md5="b24373e85a81ded6108861e01445002d" mode="0644">share/facturalux/modulos/facturacion/tesoreria/scripts/reciboscli.qs</file>
+      <file md5="f742f0ec1a5cdc7f6c4cb70100c200bc" mode="0644">share/facturalux/modulos/facturacion/tesoreria/scripts/pagosdevolcli.qs</file>
+      <file md5="dde8c970a875c46ce627b545052d2eaf" mode="0644">share/facturalux/modulos/facturacion/tesoreria/scripts/remesas.qs</file>
+      <file md5="df3b1b3e15e995738851ab2f362b9962" mode="0644">share/facturalux/modulos/facturacion/tesoreria/scripts/vdisco.qs</file>
+      <file md5="3a30e39cd34c6775bfaf0302d69837ef" mode="0644">share/facturalux/modulos/facturacion/tesoreria/scripts/masterremesas.qs</file>
+      <file md5="3db3d38600e242f28cae9a70848cc53a" mode="0644">share/facturalux/modulos/facturacion/tesoreria/scripts/flfactteso.qs</file>
+      <file md5="ba0def3419f3824d6211e39feca9403b" mode="0644">share/facturalux/modulos/facturacion/tesoreria/scripts/masterreciboscli.qs</file>
+      <file md5="10fabd2f7d6ee4b8dc5727b8fc998408" mode="0644">share/facturalux/modulos/facturacion/principal/translations/flfactppal.ca.ts</file>
+      <file md5="8a3789bb3f8b043c66a7701078b6ded7" mode="0644">share/facturalux/modulos/facturacion/principal/translations/flfactppal.pt.ts</file>
+      <file md5="46cd2a19b36498e9e133d0c05b430e3a" mode="0644">share/facturalux/modulos/facturacion/principal/translations/flfactppal.es.ts</file>
+      <file md5="b23e4507728d4348acb6b339cf87d53d" mode="0644">share/facturalux/modulos/facturacion/principal/translations/flfactppal.de.ts</file>
+      <file md5="c111b41d08e52b185753ca20719db335" mode="0644">share/facturalux/modulos/facturacion/principal/translations/flfactppal.fr.ts</file>
+      <file md5="2c213d738cd25c83d0571236be57f9cb" mode="0644">share/facturalux/modulos/facturacion/principal/queries/descuentos.qry</file>
+      <file md5="426ce6f29b53ebfdcfe0374aafcd2f6b" mode="0644">share/facturalux/modulos/facturacion/principal/queries/impuestos.qry</file>
+      <file md5="d48d0723ab71b0603876c8ef87043c37" mode="0644">share/facturalux/modulos/facturacion/principal/queries/paises.qry</file>
+      <file md5="422f12357439d75199a9fb930c5b3407" mode="0644">share/facturalux/modulos/facturacion/principal/queries/bancos.qry</file>
+      <file md5="d746b5e718f21f7fc4da48e44c355559" mode="0644">share/facturalux/modulos/facturacion/principal/queries/cuentasbanco.qry</file>
+      <file md5="815021cb6e0ff9d60eca8df8b94ba0ea" mode="0644">share/facturalux/modulos/facturacion/principal/queries/formaspago.qry</file>
+      <file md5="d05c189a5fa597576c5f30f680d2ee8e" mode="0644">share/facturalux/modulos/facturacion/principal/queries/series.qry</file>
+      <file md5="3a958e53c67b5277b9b0668ac97dfc41" mode="0644">share/facturalux/modulos/facturacion/principal/queries/divisas.qry</file>
+      <file md5="5ca1e867976d5cb0bdf3d28d521ac234" mode="0644">share/facturalux/modulos/facturacion/principal/queries/ejercicios.qry</file>
+      <file md5="b003ee18d3eacd041b5d9f3a03aae929" mode="0644">share/facturalux/modulos/facturacion/principal/flfactppal.mod</file>
+      <file md5="f5cfce6ec01e573be85547571cb19070" mode="0644">share/facturalux/modulos/facturacion/principal/COPYING</file>
+      <file md5="3d89158b2438c4eeac8a1ebc286c2a87" mode="0644">share/facturalux/modulos/facturacion/principal/forms/agentes.ui</file>
+      <file md5="e90f51e7b76c718d0a10fbf96b898099" mode="0644">share/facturalux/modulos/facturacion/principal/forms/clientes.ui</file>
+      <file md5="27f34c3ae72119cd68355078359142a3" mode="0644">share/facturalux/modulos/facturacion/principal/forms/master.ui</file>
+      <file md5="27df3560a84c1f12dd1ebc9d3764d279" mode="0644">share/facturalux/modulos/facturacion/principal/forms/impuestos.ui</file>
+      <file md5="cec126f7b0e2d6f5de5e7699a18f0268" mode="0644">share/facturalux/modulos/facturacion/principal/forms/intervalos.ui</file>
+      <file md5="62ec93d8d85384deaa0d8a5c4b2451ba" mode="0644">share/facturalux/modulos/facturacion/principal/forms/proveedores.ui</file>
+      <file md5="83a26af5dcb8d8418f49f91b5a1c61f0" mode="0644">share/facturalux/modulos/facturacion/principal/forms/dirproveedores.ui</file>
+      <file md5="ee4d326c17aa12faac2bb7a1c9739d22" mode="0644">share/facturalux/modulos/facturacion/principal/forms/ejercicios.ui</file>
+      <file md5="6bd170ec13587df0ce14b9a497ee239d" mode="0644">share/facturalux/modulos/facturacion/principal/forms/descuentos.ui</file>
+      <file md5="dca3cce191fb8c4666e5c0cec8b09a2c" mode="0644">share/facturalux/modulos/facturacion/principal/forms/descuentosclientes.ui</file>
+      <file md5="4e3ece73b6bd1f483926dca493aff73c" mode="0644">share/facturalux/modulos/facturacion/principal/forms/departamentos.ui</file>
+      <file md5="5976291d42d55cc87c107627e4f04556" mode="0644">share/facturalux/modulos/facturacion/principal/forms/contactos.ui</file>
+      <file md5="45116158e093112d4bcc14d14dc36653" mode="0644">share/facturalux/modulos/facturacion/principal/forms/series.ui</file>
+      <file md5="8189e15c6fe3badc803524ec3d0f3163" mode="0644">share/facturalux/modulos/facturacion/principal/forms/tiposrappel.ui</file>
+      <file md5="0110d021a3aa488ff8c6499f4e00410b" mode="0644">share/facturalux/modulos/facturacion/principal/forms/paises.ui</file>
+      <file md5="eb6cadabcaccadd70309b2b46aa3e63a" mode="0644">share/facturalux/modulos/facturacion/principal/forms/secuencias.ui</file>
+      <file md5="7552d07ef84eb43434cb037aecdbc8e7" mode="0644">share/facturalux/modulos/facturacion/principal/forms/provincias.ui</file>
+      <file md5="09c324a2374dba26eedac6bcd64a6329" mode="0644">share/facturalux/modulos/facturacion/principal/forms/bancos.ui</file>
+      <file md5="e22cb45b925efb3a75cd1a0ca95bce41" mode="0644">share/facturalux/modulos/facturacion/principal/forms/FLWidgetMasterTable.ui</file>
+      <file md5="6ca5a253f064499b12ed5ca1a59f95a6" mode="0644">share/facturalux/modulos/facturacion/principal/forms/intervalosrappel.ui</file>
+      <file md5="e22cb45b925efb3a75cd1a0ca95bce41" mode="0644">share/facturalux/modulos/facturacion/principal/forms/mastercuentasbcocli.ui</file>
+      <file md5="018f1902820082b3138bf7c8ee0004ec" mode="0644">share/facturalux/modulos/facturacion/principal/forms/dirclientes.ui</file>
+      <file md5="94a181b7d71959c7500a161f2be4f942" mode="0644">share/facturalux/modulos/facturacion/principal/forms/desdehasta.ui</file>
+      <file md5="b94da2198b06b0b06facc0cd514de3dc" mode="0644">share/facturalux/modulos/facturacion/principal/forms/contactosclientes.ui</file>
+      <file md5="35b49ad17ccbc62408451f0467b0feee" mode="0644">share/facturalux/modulos/facturacion/principal/forms/secuenciasejercicios.ui</file>
+      <file md5="f20734595f7d851f0b57363fa9b15268" mode="0644">share/facturalux/modulos/facturacion/principal/forms/divisas.ui</file>
+      <file md5="1a6210310d7f51067900295a526ff5ca" mode="0644">share/facturalux/modulos/facturacion/principal/forms/empresa.ui</file>
+      <file md5="9b589337aefd91a84ce1ef277d92d4dc" mode="0644">share/facturalux/modulos/facturacion/principal/forms/cuentasbanco.ui</file>
+      <file md5="52d649c093d03455988c55046ceb840a" mode="0644">share/facturalux/modulos/facturacion/principal/forms/masterejercicios.ui</file>
+      <file md5="a3880f1f47667081a200a4d1304c1330" mode="0644">share/facturalux/modulos/facturacion/principal/forms/flfactppal.ui</file>
+      <file md5="1c9828214e82cea83e7080e31b9fe16e" mode="0644">share/facturalux/modulos/facturacion/principal/forms/formaspago.ui</file>
+      <file md5="edc82577da0674b41107fd63f317c0b1" mode="0644">share/facturalux/modulos/facturacion/principal/forms/plazos.ui</file>
+      <file md5="b2df6ff4962dbe092c58a833410976fa" mode="0644">share/facturalux/modulos/facturacion/principal/forms/sucursales.ui</file>
+      <file md5="f10619736b1b446eeff50c5733549b2a" mode="0644">share/facturalux/modulos/facturacion/principal/forms/gruposclientes.ui</file>
+      <file md5="106197e00c7f563ee991573144f5c514" mode="0644">share/facturalux/modulos/facturacion/principal/forms/usuarios.ui</file>
+      <file md5="c72dd9ed79597225cced8f9d62f5197c" mode="0644">share/facturalux/modulos/facturacion/principal/flfactppal.xml</file>
+      <file md5="1e4752c134a8f366735f2706ab4ff35c" mode="0644">share/facturalux/modulos/facturacion/principal/tables/crm_contactos.mtd</file>
+      <file md5="0245617ab98132444bf92995c3427a53" mode="0644">share/facturalux/modulos/facturacion/principal/tables/ejercicios.mtd</file>
+      <file md5="277f6666aa16e66516831c56251aa615" mode="0644">share/facturalux/modulos/facturacion/principal/tables/clientes.mtd</file>
+      <file md5="555bdda30244611a6152067fa017f668" mode="0644">share/facturalux/modulos/facturacion/principal/tables/sucursales.mtd</file>
+      <file md5="19cd35078c3f7ade781254841b960c09" mode="0644">share/facturalux/modulos/facturacion/principal/tables/bancos_imp.mtd</file>
+      <file md5="e6a95b17a8827c4da76a2287fb068be1" mode="0644">share/facturalux/modulos/facturacion/principal/tables/impuestos_imp.mtd</file>
+      <file md5="db4dbcf232adc1ee8b047d138035314f" mode="0644">share/facturalux/modulos/facturacion/principal/tables/plazos.mtd</file>
+      <file md5="8e1541f3d106d4866790576aafc99091" mode="0644">share/facturalux/modulos/facturacion/principal/tables/intervalos.mtd</file>
+      <file md5="dc5a8fd73240043bd78e73691eb21d13" mode="0644">share/facturalux/modulos/facturacion/principal/tables/proveedores.mtd</file>
+      <file md5="2fab67417e627d6789ce7491caba6f5d" mode="0644">share/facturalux/modulos/facturacion/principal/tables/divisas.mtd</file>
+      <file md5="bcf22461dd03ee886309772dbba15316" mode="0644">share/facturalux/modulos/facturacion/principal/tables/cuentasbcocli.mtd</file>
+      <file md5="4838c5a88112db89cf7238e640dd91d2" mode="0644">share/facturalux/modulos/facturacion/principal/tables/gruposclientes.mtd</file>
+      <file md5="e8f46502a90a0d464264c6c27885f847" mode="0644">share/facturalux/modulos/facturacion/principal/tables/impuestos.mtd</file>
+      <file md5="dc7dab11f24020a78fae3028cc7939ba" mode="0644">share/facturalux/modulos/facturacion/principal/tables/formaspago_imp.mtd</file>
+      <file md5="7faa4ee2387daba58ad15b8b294dfe4e" mode="0644">share/facturalux/modulos/facturacion/principal/tables/tiposrappel.mtd</file>
+      <file md5="88ad47cc526e69c70d3b694f95fccedd" mode="0644">share/facturalux/modulos/facturacion/principal/tables/descuentos.mtd</file>
+      <file md5="ccae1cf62549424c4f6b39e35b95ef0a" mode="0644">share/facturalux/modulos/facturacion/principal/tables/series.mtd</file>
+      <file md5="f83286eaddce6c2b8bef194bbed85cac" mode="0644">share/facturalux/modulos/facturacion/principal/tables/departamentos.mtd</file>
+      <file md5="696110e89808af5e7367f60b3776c79c" mode="0644">share/facturalux/modulos/facturacion/principal/tables/contactosclientes.mtd</file>
+      <file md5="80888753e709e5b2e9201dd9d6ed2d90" mode="0644">share/facturalux/modulos/facturacion/principal/tables/divisas_imp.mtd</file>
+      <file md5="e2dedf0c5d5f0826ae47a1203f0c6928" mode="0644">share/facturalux/modulos/facturacion/principal/tables/dirproveedores.mtd</file>
+      <file md5="8c977ea4bd495f0a5c3d3a139510f70a" mode="0644">share/facturalux/modulos/facturacion/principal/tables/agentes.mtd</file>
+      <file md5="537bb0e36005189f0d5938c3925ac453" mode="0644">share/facturalux/modulos/facturacion/principal/tables/cuentasbcopro.mtd</file>
+      <file md5="98939a79b56500e7c1f98e0581af6f4a" mode="0644">share/facturalux/modulos/facturacion/principal/tables/cuentasbco_imp.mtd</file>
+      <file md5="c22201778ba83f2ffe5cb00d0b6bab4e" mode="0644">share/facturalux/modulos/facturacion/principal/tables/descuentos_imp.mtd</file>
+      <file md5="e6f966983ad2062a9c890058927de2f8" mode="0644">share/facturalux/modulos/facturacion/principal/tables/ejercicios_imp.mtd</file>
+      <file md5="a0f3db72a0615efff64f66e74fa12368" mode="0644">share/facturalux/modulos/facturacion/principal/tables/descuentosclientes.mtd</file>
+      <file md5="b499458b208336746c5b77a80a80d2a8" mode="0644">share/facturalux/modulos/facturacion/principal/tables/secuencias.mtd</file>
+      <file md5="2169e2ab08cde19d1ca8af4d861af3cd" mode="0644">share/facturalux/modulos/facturacion/principal/tables/secuenciasejercicios.mtd</file>
+      <file md5="40e2c9147629e4d4be58c6a87e534566" mode="0644">share/facturalux/modulos/facturacion/principal/tables/bancos.mtd</file>
+      <file md5="42ac6df586593591b7ecdbc64148e7f8" mode="0644">share/facturalux/modulos/facturacion/principal/tables/empresa.mtd</file>
+      <file md5="38729a5bc2b6df863f314ff5b44c0509" mode="0644">share/facturalux/modulos/facturacion/principal/tables/formaspago.mtd</file>
+      <file md5="21c2f624a2df37f4771c3a80274b4c31" mode="0644">share/facturalux/modulos/facturacion/principal/tables/cuentasbanco.mtd</file>
+      <file md5="978c21096d7e9850b7423c8209b63d20" mode="0644">share/facturalux/modulos/facturacion/principal/tables/paises_imp.mtd</file>
+      <file md5="03a6a924da1ad9614637abca52f54e08" mode="0644">share/facturalux/modulos/facturacion/principal/tables/descuentosproveedores.mtd</file>
+      <file md5="cffd01fca9944cb0df894dae8b97e355" mode="0644">share/facturalux/modulos/facturacion/principal/tables/dirclientes.mtd</file>
+      <file md5="ce73d461bde83b7cc5bebe4e3d00f608" mode="0644">share/facturalux/modulos/facturacion/principal/tables/paises.mtd</file>
+      <file md5="f3f0443c2cc8390bd4903af2e034fbb8" mode="0644">share/facturalux/modulos/facturacion/principal/tables/contactosproveedores.mtd</file>
+      <file md5="f6acea36b34518efc8acd39b36e46c62" mode="0644">share/facturalux/modulos/facturacion/principal/tables/intervalosrappel.mtd</file>
+      <file md5="ab04dd3be39b53408f809ffdc6bd1cff" mode="0644">share/facturalux/modulos/facturacion/principal/tables/usuarios.mtd</file>
+      <file md5="a4408fdb9b0aa96e08e358ca4f934b36" mode="0644">share/facturalux/modulos/facturacion/principal/tables/provincias.mtd</file>
+      <file md5="31e823d86375ffa83600b25c62106d2c" mode="0644">share/facturalux/modulos/facturacion/principal/tables/series_imp.mtd</file>
+      <file md5="072a3167e7495d826c53a701ac68294b" mode="0644">share/facturalux/modulos/facturacion/principal/flfactppal.xpm</file>
+      <file md5="71e071b9d89fdcdf7576c32f5f443449" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterclientes.qs</file>
+      <file md5="270b575e79329d0c5cc69b4a7c697c33" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterproveedores.qs</file>
+      <file md5="82e889adeb42e2bdac6c15766d56b9b6" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/contactos.qs</file>
+      <file md5="a96abed15654de94c3df7b4dfb103b63" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/empresa.qs</file>
+      <file md5="50a1f92cda328bc5758058db134172e9" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/plazos.qs</file>
+      <file md5="b80c68f879a3ff9645647b10233bb9ce" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/intervalosrappel.qs</file>
+      <file md5="b8aae788fd133bd07f56a6b393b3a15b" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterejercicios.qs</file>
+      <file md5="c21774b793bbbf1a9472d7892948fccf" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterpaises.qs</file>
+      <file md5="c5da3bfc053e34b9eb541c5c6db111d0" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/impuestos.qs</file>
+      <file md5="b370639c91d03312aa08210b172a9b01" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterdivisas.qs</file>
+      <file md5="35ab5bdd89fb5e870a7f06eaaeb75bb3" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/dirproveedores.qs</file>
+      <file md5="7f96b268dad14327fe6f317778a34886" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/dirclientes.qs</file>
+      <file md5="dad2a68e95c99fc8f5f820dff8cf67e9" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/cuentasbanco.qs</file>
+      <file md5="b8f5db77b226a0797f5b958fb4c3a9c2" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/cuentasbancopro.qs</file>
+      <file md5="fd546b2706f00b6555cee04dd3851fe7" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/cuentasbancocli.qs</file>
+      <file md5="d3ffe200b806666dc93ea9a60bc116f2" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/paises.qs</file>
+      <file md5="8b52a07b746c7b29805b49859cc2d476" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/mastercuentasbanco.qs</file>
+      <file md5="0ad04a3014306255ac11908273c20bd8" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/series.qs</file>
+      <file md5="9c0242fb7feed028a00ddc1086e6c451" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterimpuestos.qs</file>
+      <file md5="af2f771c868ed115827566b59d6e635b" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/ejercicios.qs</file>
+      <file md5="fe850a43438e723d159d3097ad595f8c" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterdescuentos.qs</file>
+      <file md5="fc5e7db00ed19365716c78e5671775bb" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/intervalos.qs</file>
+      <file md5="59d092aabd09dfbec9761c9d0bde1ada" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/agentes.qs</file>
+      <file md5="5fe2606851ce44575f47d8ff3896edf9" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/mastercuentasbcocli.qs</file>
+      <file md5="02dbeebf360bf98c5e00d9b8f0ee32c2" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/formaspago.qs</file>
+      <file md5="2e769b05e7801f1f11ffe05819d0c1b7" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/secuenciasejercicios.qs</file>
+      <file md5="4c1cbf3abbef1e055356dc355deb4c27" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterformaspago.qs</file>
+      <file md5="caee34a561a65e621e77a05a6e072e76" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/clientes.qs</file>
+      <file md5="6ff661ad10f7081787adf56e46093c65" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterseries.qs</file>
+      <file md5="2892582d3996e19a7aa4d6ceab1dca52" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/departamentos.qs</file>
+      <file md5="0d6908883688d11af19c4947bbddaa7f" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterbancos.qs</file>
+      <file md5="1fe6ef4c5954628761ce417e6256ee74" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/sucursales.qs</file>
+      <file md5="31818108f8b14a52ac2e27203d3d7bff" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/proveedores.qs</file>
+      <file md5="2b2e5fc9a57cb6f1c3fd29f3eff704f4" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/masterintervalos.qs</file>
+      <file md5="b486fa77a33d88a95d3a838b167cf30a" mode="0644">share/facturalux/modulos/facturacion/principal/scripts/flfactppal.qs</file>
+      <file md5="2cff10b24d52eded66709a09cbd1608b" mode="0644">share/facturalux/modulos/facturacion/principal/reports/bancos.kut</file>
+      <file md5="73800e1066de6abe8291686278b88428" mode="0644">share/facturalux/modulos/facturacion/principal/reports/descuentos.kut</file>
+      <file md5="d84e33abb7e81703465b0e6297ea4df2" mode="0644">share/facturalux/modulos/facturacion/principal/reports/impuestos.kut</file>
+      <file md5="4528bf3b58a5fa53e536645bfec6e482" mode="0644">share/facturalux/modulos/facturacion/principal/reports/series.kut</file>
+      <file md5="9d94199056e2481d5faa8311c85841c5" mode="0644">share/facturalux/modulos/facturacion/principal/reports/ejercicios.kut</file>
+      <file md5="eb1a2b30c3e5d0452a2f3927239265df" mode="0644">share/facturalux/modulos/facturacion/principal/reports/paises.kut</file>
+      <file md5="c832ef0edde82b2aa12710f9c989a3fb" mode="0644">share/facturalux/modulos/facturacion/principal/reports/divisas.kut</file>
+      <file md5="3d026d9001754ed16a9701ff2a1e75db" mode="0644">share/facturalux/modulos/facturacion/principal/reports/cuentasbanco.kut</file>
+      <file md5="59e1b00920f97dab334b5efd03b54224" mode="0644">share/facturalux/modulos/facturacion/principal/reports/formaspago.kut</file>
+      <file md5="b6974185c538cfa547dd446482dfd643" mode="0644">share/facturalux/modulos/facturacion/almacen/translations/flfactalma.es.ts</file>
+      <file md5="94f7d1b9fa1aa562678bf3c3501fd61a" mode="0644">share/facturalux/modulos/facturacion/almacen/translations/flfactalma.ca.ts</file>
+      <file md5="e88d86ecadfe915157d436adf258be7a" mode="0644">share/facturalux/modulos/facturacion/almacen/translations/flfactalma.de.ts</file>
+      <file md5="9c18a39b245be431f9fb68788290723d" mode="0644">share/facturalux/modulos/facturacion/almacen/translations/flfactalma.pt.ts</file>
+      <file md5="97f67b6ac94d36d0dc4b6d95f532c6e5" mode="0644">share/facturalux/modulos/facturacion/almacen/translations/flfactalma.fr.ts</file>
+      <file md5="fcde1ccf445ee1c52b97cf093a891cb1" mode="0644">share/facturalux/modulos/facturacion/almacen/flfactalma.xpm</file>
+      <file md5="f5cfce6ec01e573be85547571cb19070" mode="0644">share/facturalux/modulos/facturacion/almacen/COPYING</file>
+      <file md5="4e782967316ef1ee7633af718f7479a1" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/stocks.ui</file>
+      <file md5="9801f8430f6940afc898d09e5253b7a7" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/lineasregstocks.ui</file>
+      <file md5="7c8cdb8b5681a4a7411e7235433902a5" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/familias.ui</file>
+      <file md5="80fa0a2c072253f470181f925d56901b" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/mastertarifas.ui</file>
+      <file md5="391826979683d667e7f6bfbc7729b960" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/articulosprov.ui</file>
+      <file md5="801ec264b4f145615e5d9de401c1bd29" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/articulos.ui</file>
+      <file md5="05c5c2c23abfa4298d9489eeac3a6e36" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/lineastransstock.ui</file>
+      <file md5="d0fb2789f79b1d64254a1399cd6a4fe9" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/transstock.ui</file>
+      <file md5="053d2dc240331d67fd3d3102f22dcdb6" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/flfactalma.ui</file>
+      <file md5="c53a3a486fbc06eab272cb51cdf35ee4" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/articulostarifas.ui</file>
+      <file md5="b847a2ca8829c3aa1979274e4ed3de33" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/masterregstocks.ui</file>
+      <file md5="2a73285edf98b380db2a4c8803fc5322" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/almacenes.ui</file>
+      <file md5="3a76b29651d9cfc3b7049cf2333ffcd4" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/regstocks.ui</file>
+      <file md5="1e502b23b8ad830ba7d2092e1ce9dfb6" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/articuloscli.ui</file>
+      <file md5="275af31bc9cc9e12595423ebbfb5ce27" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/masterarticulos.ui</file>
+      <file md5="86175adc1c41ac1f67c750e84be7f485" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/articulosagen.ui</file>
+      <file md5="536d28e27f7e96c487bb7c8b27bd485b" mode="0644">share/facturalux/modulos/facturacion/almacen/forms/tarifas.ui</file>
+      <file md5="c938ea5ad29d8ef99497d04eddc90e49" mode="0644">share/facturalux/modulos/facturacion/almacen/flfactalma.mod</file>
+      <file md5="ac464399f611ec80ce10a4e4ecd7a3c5" mode="0644">share/facturalux/modulos/facturacion/almacen/flfactalma.xml</file>
+      <file md5="68386b334d7669de7b57787ec2ff8bcc" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/stocks.mtd</file>
+      <file md5="06b4144018726280cb8abc8a6ed3b3d0" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/articulosagen.mtd</file>
+      <file md5="a2b9b286a63063c6d98b19f86b5d903e" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/lineastransstock.mtd</file>
+      <file md5="fdeab93432fe9744aae86afc2d1e4b58" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/lineasregstocks.mtd</file>
+      <file md5="4eaf6606e9e167d28e7c4c9546bc4596" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/articuloscli.mtd</file>
+      <file md5="d38589dc513acd88894eeb53e433dacb" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/transstock.mtd</file>
+      <file md5="2464dda69452f07b24e6f742e51754cd" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/articulostarifas.mtd</file>
+      <file md5="1715a04cd542315355a1eb6b59bd339c" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/articulos.mtd</file>
+      <file md5="16f5444e8f5a3d75a3da8fc20f4ba0d6" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/tarifas.mtd</file>
+      <file md5="14cc4d03b7af112915515e5f66ffc7af" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/almacenes.mtd</file>
+      <file md5="371efbff1b5c44ea7384188df4344f62" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/articulosprov.mtd</file>
+      <file md5="885d6049ce8b6286a6f037643c5f5381" mode="0644">share/facturalux/modulos/facturacion/almacen/tables/familias.mtd</file>
+      <file md5="2f7adc94901f0c73adbc2e992382d9d0" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/lineastransstock.qs</file>
+      <file md5="126a8b0289488cebed73a2bcecc7b9f3" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/articulos.qs</file>
+      <file md5="929c539d870a2096a55ca53f06b60016" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/transstock.qs</file>
+      <file md5="2fbcb5ec50f6b98f3140eb3717be2010" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/mastertarifas.qs</file>
+      <file md5="5717800400d37123fc43b24cf4e1d13f" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/articulosagen.qs</file>
+      <file md5="78ece7f1a003ab55471f2f2b13744b05" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/masterarticulos.qs</file>
+      <file md5="151901c18f7674d4ff5dd101983dd521" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/lineasregstocks.qs</file>
+      <file md5="b0c844b74b7b5203247c322be15077a4" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/tarifas.qs</file>
+      <file md5="2a8aac9f0ac561e60858a1f8e1acc1b1" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/flfactalma.qs</file>
+      <file md5="4c3349a00914918b887cacc62450df33" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/articuloscli.qs</file>
+      <file md5="c4b89fa559089a76546e443fec6fab97" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/mastertransstock.qs</file>
+      <file md5="25ccced1ff0d188d265099efa136f906" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/articulosprov.qs</file>
+      <file md5="d5d3d3d9602253e736fce790b2073644" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/masterregstocks.qs</file>
+      <file md5="10911c39495735fe49175e99e4ce32bb" mode="0644">share/facturalux/modulos/facturacion/almacen/scripts/regstocks.qs</file>
+      <file md5="ed7fe87187d000b12cf06e90b3ec4fcc" mode="0644">share/facturalux/modulos/facturacion/facturacion.xml</file>
+      <file md5="ffa15e9eb1fa16f22776e0ce52c766bd" mode="0644">share/facturalux/modulos/facturacion/informes/translations/flfactinfo.pt.ts</file>
+      <file md5="0534019acababbd2ec14b1bb27e9cd55" mode="0644">share/facturalux/modulos/facturacion/informes/translations/flfactinfo.fr.ts</file>
+      <file md5="112589d27b2c89a172b8657353054fe7" mode="0644">share/facturalux/modulos/facturacion/informes/translations/flfactinfo.es.ts</file>
+      <file md5="95b15c447cb0d83f85fa2142f2c8e6f1" mode="0644">share/facturalux/modulos/facturacion/informes/translations/flfactinfo.ca.ts</file>
+      <file md5="32e42515cf06f3fdb57302cf147008b4" mode="0644">share/facturalux/modulos/facturacion/informes/translations/flfactinfo.de.ts</file>
+      <file md5="972c6ef4a778105e8c659515c27916dc" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_respedidosprov.qry</file>
+      <file md5="7f67674ee98ccc1b614ee28987eb25c1" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_respresupuestoscli.qry</file>
+      <file md5="3c01b467659a4d85fa71ea15cd6678dc" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_albaranesprov.qry</file>
+      <file md5="c33fb43fbb33d927b68df1a49a7560ad" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_reciboscli.qry</file>
+      <file md5="cbafe591a2c642f1ce896c060a8bbb24" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_resalbaranescli.qry</file>
+      <file md5="57790a90b767ab28128d450c7a8d3582" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_pedidosprov.qry</file>
+      <file md5="b19dfee7270e200152d5f880d644683f" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_inventario.qry</file>
+      <file md5="59d10ddf70a45109557862ddc6dcd476" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_resalbaranesprov.qry</file>
+      <file md5="bc8d8761b557741afce5c133ec42ebff" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_presupuestoscli.qry</file>
+      <file md5="e0bb09e4fd7484a0e70e91d87500b778" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_resfacturascli.qry</file>
+      <file md5="ed28fa59044d20b9735c6e8c57ee6245" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_respedidoscli.qry</file>
+      <file md5="4e8e5026ca5bcadd874ebaf9a3f78f6e" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_resfacturasprov.qry</file>
+      <file md5="e106678365c016fe627a48055b63974b" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_facturascli.qry</file>
+      <file md5="2c0f89e925f553f125b62d1df26af8f1" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_albaranescli.qry</file>
+      <file md5="f27e09e6af33fe75d1c9d7ffc57cbd3f" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_transstock.qry</file>
+      <file md5="4a7007c9c0813f550563fc929e169dc6" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_remesascli.qry</file>
+      <file md5="ae4760329811d4cc473a561a04e10967" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_facturasprov.qry</file>
+      <file md5="db7c2b99553ebc438a0bfae7ffc04a80" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_pedidoscli.qry</file>
+      <file md5="ee933855fe210a65a79dcf0a7e6c32ce" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_resreciboscli.qry</file>
+      <file md5="d43b1c078a3597d283d40fb1eda9fe66" mode="0644">share/facturalux/modulos/facturacion/informes/queries/i_inventarioval.qry</file>
+      <file md5="e08fe50ac6cf54b7a33d6baf6e0b507b" mode="0644">share/facturalux/modulos/facturacion/informes/flfactinfo.xpm</file>
+      <file md5="f5cfce6ec01e573be85547571cb19070" mode="0644">share/facturalux/modulos/facturacion/informes/COPYING</file>
+      <file md5="ca87692efd461122c69623d80b57cfc8" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_reciboscli.ui</file>
+      <file md5="10dd8b3b9ed306a9f15c3092a9b870bd" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_inventario.ui</file>
+      <file md5="826e1e73b57e9a037c3b6d2d0a6d86b0" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_master.ui</file>
+      <file md5="fb08df2a4ab4002b094969780b10d991" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_facturascli.ui</file>
+      <file md5="77fc744869c541b857132db8dae6103b" mode="0644">share/facturalux/modulos/facturacion/informes/forms/flfactinfo.ui</file>
+      <file md5="b1c6fa340a226a569278702bee79e525" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_albaranescli.ui</file>
+      <file md5="da22fc23ba17b9b7e4a7fd3cb301f496" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_pedidoscli.ui</file>
+      <file md5="d26ffe245df3def45c2e087dcb41af22" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_pedidosprov.ui</file>
+      <file md5="974948ed3f3a98327653c36e534f625b" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_presupuestoscli.ui</file>
+      <file md5="e4fe5320aafab44f4c45df07d934af2c" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_albaranesprov.ui</file>
+      <file md5="930a362453dad15179fe70bc570ebebb" mode="0644">share/facturalux/modulos/facturacion/informes/forms/i_facturasprov.ui</file>
+      <file md5="1499b8656a7f1bfec28c5b05a4acba3d" mode="0644">share/facturalux/modulos/facturacion/informes/flfactinfo.mod</file>
+      <file md5="c273c4f8dc70d7078290199f47f44aae" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_transstock.mtd</file>
+      <file md5="91d10c1a94fa4f955eed315137ba1ab6" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_remesascli.mtd</file>
+      <file md5="dbbd1cda2ada69dbfa9c100a67abfa80" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_pedidoscli.mtd</file>
+      <file md5="038b48a03a985577dbf1b668c44cffa4" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_facturasprov.mtd</file>
+      <file md5="f1c2f9cbc4b8827d9b478a0d94605bf6" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_albaranescli.mtd</file>
+      <file md5="f6cc5b79879bab43a432fdda0330d8f7" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_albaranesprov.mtd</file>
+      <file md5="d5bb1b36e4c2c868277b7264771b6fd9" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_inventario.mtd</file>
+      <file md5="ede08bc1f0f93e3653ca15df092d4604" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_pedidosprov.mtd</file>
+      <file md5="f316660e31c90077b4ea5c577cd3e9f3" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_facturascli.mtd</file>
+      <file md5="b23cbacc907b229b7119a6687f424d99" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_presupuestoscli.mtd</file>
+      <file md5="22d5c8cbd0ae12ce1807e11532ca0e76" mode="0644">share/facturalux/modulos/facturacion/informes/tables/i_reciboscli.mtd</file>
+      <file md5="48aba419ab1dbbedd78693dba231f618" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_masterfacturasprov.qs</file>
+      <file md5="26e89439b9fd020c6618b6bff6bbdfb7" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/flfactinfo.qs</file>
+      <file md5="22d2ae1e1428fbab8e8a9e5b3d7de46d" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_masterinventario.qs</file>
+      <file md5="e863958e971ea0e4855670113ce531ff" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_master.qs</file>
+      <file md5="c7fdaf531249bacf658dbaf63d1ca2c2" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_masterpresupuestoscli.qs</file>
+      <file md5="60e96d226ed1a43fb549c239a1170828" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_masteralbaranesprov.qs</file>
+      <file md5="b9dbc13c67690af5f06b309bbbcc186b" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_facturascli.qs</file>
+      <file md5="fddbfa3f3a0026ca9e58ef1f44d30999" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_pedidoscli.qs</file>
+      <file md5="8962ceda8f8955ddcd2d59d38f5475b2" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_masterfacturascli.qs</file>
+      <file md5="8efeb447c00b790104b1c4d6018eff7a" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_albaranesprov.qs</file>
+      <file md5="6c3b529928dfea319a7b032895dfaf25" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_pedidosprov.qs</file>
+      <file md5="e35c244b13745bcc7954790a6aa62597" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_masterpedidosprov.qs</file>
+      <file md5="096cf596a4eb3e5e17b45e44acd0c179" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_facturasprov.qs</file>
+      <file md5="d2a7532a18461937bb9ef48d5c6e148d" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_albaranescli.qs</file>
+      <file md5="82163786471696b93994aa9f44ddb236" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_masterreciboscli.qs</file>
+      <file md5="d487d01d7d54cfb9b2827c6e7b1500c3" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_masteralbaranescli.qs</file>
+      <file md5="195b2d46d7ed43a170ccbed9686f8d8a" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_presupuestoscli.qs</file>
+      <file md5="c09ea441494b296d5019afbca898eaef" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_reciboscli.qs</file>
+      <file md5="e92e2a24ab2f4569cddf9f2772e4c6c0" mode="0644">share/facturalux/modulos/facturacion/informes/scripts/i_masterpedidoscli.qs</file>
+      <file md5="97b6a05fc4d68a3bd83355e27d147beb" mode="0644">share/facturalux/modulos/facturacion/informes/flfactinfo.xml</file>
+      <file md5="a2bd7fbf8af3eeaef478764dc4d3af69" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_albaranesprov.kut</file>
+      <file md5="699bf04b902b6a3bfe842c8b2d53d324" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_pedidoscli.kut</file>
+      <file md5="aad4d8390b72e42fbbbe091c00729112" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_otro_reciboscli.kut</file>
+      <file md5="4cf9585a428f95073c45b4ec27e57951" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_transstock.kut</file>
+      <file md5="a6f373d0ea21393abeaca9f3be3ab0e2" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_resreciboscli.kut</file>
+      <file md5="1db3c26ff23d7b7f289b662b3faa9992" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_presupuestoscli.kut</file>
+      <file md5="f54c15721212df002ebfa24706d98a7e" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_reciboscli.kut</file>
+      <file md5="416892658e2a6ed243ec065802c43a3e" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_facturasprov.kut</file>
+      <file md5="1c14cf7328203198580586829036265d" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_respresupuestoscli.kut</file>
+      <file md5="526cdde7a3e6197cfeb1d6e59a36b2c9" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_respedidosprov.kut</file>
+      <file md5="6fcf4b933a9bf81f2c4a9d0cf0f6a733" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_respedidoscli.kut</file>
+      <file md5="33170768375e63d4a4a8d530596b7f55" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_remesascli.kut</file>
+      <file md5="c5bdd3efc7ddc0806c749a8b96c293b2" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_inventarioval.kut</file>
+      <file md5="068bbfd8d959c4e93fd62dd225fbd321" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_resalbaranescli.kut</file>
+      <file md5="dd40272fdd864321b9288e119b4fc88f" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_resalbaranesprov.kut</file>
+      <file md5="68559989854f013fbab3add0a26d6fde" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_inventario.kut</file>
+      <file md5="feca738e618c5140fbb5971f345e3df9" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_pedidosprov.kut</file>
+      <file md5="0dba2e22906c6bd07a578b71369fe1fc" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_albaranescli.kut</file>
+      <file md5="b8bebee9a535e847596cca2e7e8293a4" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_facturascli.kut</file>
+      <file md5="d336c81c3855d5ed89959743cd5bc61f" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_resfacturasprov.kut</file>
+      <file md5="115a2ca156febbf10fd1a9f37210c5ef" mode="0644">share/facturalux/modulos/facturacion/informes/reports/i_resfacturascli.kut</file>
+      <file md5="f4ac961b5548d1baf6eb92f175e844c8" mode="0644">share/facturalux/modulos/contabilidad/principal/translations/flcontppal.ca.ts</file>
+      <file md5="64f28586748a189f44bd3eafe38ba4dc" mode="0644">share/facturalux/modulos/contabilidad/principal/translations/flcontppal.fr.ts</file>
+      <file md5="a7c1ef00b35f174d91e63be55a01894f" mode="0644">share/facturalux/modulos/contabilidad/principal/translations/flcontppal.es.ts</file>
+      <file md5="a7c1ef00b35f174d91e63be55a01894f" mode="0644">share/facturalux/modulos/contabilidad/principal/translations/flcontppal.pt.ts</file>
+      <file md5="e5d6229640d57beaf3a41bfebbc9f860" mode="0644">share/facturalux/modulos/contabilidad/principal/translations/flcontppal.de.ts</file>
+      <file md5="9753251c8fc8106095c933fad715af5e" mode="0644">share/facturalux/modulos/contabilidad/principal/queries/co_partidasmayor.qry</file>
+      <file md5="e978938260006dda09e479e712023d4e" mode="0644">share/facturalux/modulos/contabilidad/principal/flcontppal.xpm</file>
+      <file md5="f5cfce6ec01e573be85547571cb19070" mode="0644">share/facturalux/modulos/contabilidad/principal/COPYING</file>
+      <file md5="d21ce5f683a8edcb9331bd08858750f2" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_codbalances.ui</file>
+      <file md5="61f2da1fce1174cc54d76d646891593c" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_regiva.ui</file>
+      <file md5="ac54787ab37bd8c5c0ea5432f537b0ea" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_planasientos.ui</file>
+      <file md5="ff836de8cfbec439a2d3f461bc70d736" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_masterasientos.ui</file>
+      <file md5="03460ee220f0b45c28f6664c5ecf466f" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_secuencias.ui</file>
+      <file md5="9813db95ae795d2afca53d120c5a7860" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_cambiarejer.ui</file>
+      <file md5="a887732aaad58f71b552352f2e8a8846" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_masterregiva.ui</file>
+      <file md5="f83197a5a8499dc2b6b55510031275ec" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_subcuentascli.ui</file>
+      <file md5="6199a790a63d7f5a55e0f9280641e51e" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_asientosejer.ui</file>
+      <file md5="0db8c1cb20b19256ba8ad647ea2584c7" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_asientos.ui</file>
+      <file md5="0617e11c485fa3856a57970db26ac251" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_mastersubcuentas.ui</file>
+      <file md5="b4c12eeafef91bdd6155c2ce4ca4be13" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/flcontppal.ui</file>
+      <file md5="e00a82acc62b7e88f19efb8124d8a755" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_cuentas.ui</file>
+      <file md5="84b450c06427a4ead0dacb08fba7306e" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_conceptospar.ui</file>
+      <file md5="e5cb46592e4b1dcc8df051043d67a66a" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_partidas.ui</file>
+      <file md5="ab7296ade8ae98666870a561a82af2ec" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_epigrafes.ui</file>
+      <file md5="c9e774cea202804641367e17259f8910" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_subcuentas.ui</file>
+      <file md5="7941f567b9f5a883142a6ad899d1e959" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_cerrarejer.ui</file>
+      <file md5="922b5590b4958a4f00d59b23167a37b5" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_cuentasesp.ui</file>
+      <file md5="35d8920130f7019397d159d175b5b67f" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_subcuentasprov.ui</file>
+      <file md5="04a49086c932d61fbd65c5d01d7ccb62" mode="0644">share/facturalux/modulos/contabilidad/principal/forms/co_planpartidas.ui</file>
+      <file md5="ab6dcefd81a71ebe0da82a213b4fd50f" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_regiva.mtd</file>
+      <file md5="b58ea1f726949793fb4052957ffa5c57" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_cuentas.mtd</file>
+      <file md5="e21ecb9c615801d857aa420b9fb584ef" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_subcuentascli.mtd</file>
+      <file md5="74f596cd2eb84dea9a022c2ff69ce443" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_planpartidas.mtd</file>
+      <file md5="3b6c44a2352d1f41d71b330a52dfd072" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_cuentasesp.mtd</file>
+      <file md5="765f000693a4efffbba9484fb9d22445" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_codbalances.mtd</file>
+      <file md5="840db288adf10c86f3bf46748f194fa1" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_epigrafes.mtd</file>
+      <file md5="373cf93b6ed26abeeefbd5a6de0bcf2b" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_partidasmayor.mtd</file>
+      <file md5="081c9c07cdc259b9cebf5ed7d122e555" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_partidas.mtd</file>
+      <file md5="77ec3f6872ac2f6007152d8046f5eaf1" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_planasientos.mtd</file>
+      <file md5="ff08eac7a0b4c1c889790353a782a012" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_subcuentasprov.mtd</file>
+      <file md5="12183667036d32b71341a844f4bf4692" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_subcuentas.mtd</file>
+      <file md5="74b08aaa8f7a6ae5189b844a4ff18248" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_secuencias.mtd</file>
+      <file md5="0bac81744e7d0f2b4db58e2b9df60f3c" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_conceptospar.mtd</file>
+      <file md5="51961b8118f600fbca0d479d59fc36d4" mode="0644">share/facturalux/modulos/contabilidad/principal/tables/co_asientos.mtd</file>
+      <file md5="37b4f8cf3b5dbe288f599f22f55eeed3" mode="0644">share/facturalux/modulos/contabilidad/principal/flcontppal.mod</file>
+      <file md5="cb4a3524cfe7b81c61f0f75605278d56" mode="0644">share/facturalux/modulos/contabilidad/principal/flcontppal.xml</file>
+      <file md5="a60c4a86e97ae7925348b91bd118e13b" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_regiva.qs</file>
+      <file md5="0c281aed8e63e3e96a0f26b0948f44e3" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_masterregiva.qs</file>
+      <file md5="b95399d572e16d95972be9cfd8d7532e" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_planpartidas.qs</file>
+      <file md5="0e772579738f79261bc721e36d377fec" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_masterasientosejer.qs</file>
+      <file md5="18e92b713b852887b3125bce07e5866e" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_partidas.qs</file>
+      <file md5="3d9f3ace306b17a1d89b7557cef51949" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_masterasientos.qs</file>
+      <file md5="c18e72adc7fd63348565651c68e7205d" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_cuentasesp.qs</file>
+      <file md5="dfe8656478632b000f46973f841e1091" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_cuentas.qs</file>
+      <file md5="c14a9a387570018c6f81ce0188c23f73" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_partidaspre.qs</file>
+      <file md5="88031fb97ce759c929bc50b004ccb2f7" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_cambiarejer.qs</file>
+      <file md5="39f088a18eea525eb420a328bb9ca6a7" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_subcuentascli.qs</file>
+      <file md5="f119346e48309ecbe6bf4e1679d11b75" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_planasientos.qs</file>
+      <file md5="8fa11547185c6b69adf0483ecc8f4801" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_mastercuentas.qs</file>
+      <file md5="46a1060187d800cd4ed25a79bfdfe85b" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_subcuentas.qs</file>
+      <file md5="b5d77db0f9aff6f280237034d0966152" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_asientos.qs</file>
+      <file md5="cbb33487e2d86725f616c99d7151adda" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_subcuentasprov.qs</file>
+      <file md5="b3038385445e57be10f23fc30e863192" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_cerrarejer.qs</file>
+      <file md5="8ed5b40fe3f1ef2023c4996d817a1e37" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_mastersubcuentas.qs</file>
+      <file md5="e8c2abd34556af2fe36e5992619a7875" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_masterepigrafes.qs</file>
+      <file md5="e190447f8c7956cf3ae1b44ff4f39650" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/flcontppal.qs</file>
+      <file md5="342c9f65a790d75da03d9fff558ba18c" mode="0644">share/facturalux/modulos/contabilidad/principal/scripts/co_epigrafes.qs</file>
+      <file md5="d666662924f8cd06a0966a1be3000e7c" mode="0644">share/facturalux/modulos/contabilidad/contabilidad.xml</file>
+      <file md5="f44a8501499064bbca2da508fa65a76c" mode="0644">share/facturalux/modulos/contabilidad/informes/flcontinfo.mod</file>
+      <file md5="7c96be097fe259825722c839d8e43004" mode="0644">share/facturalux/modulos/contabilidad/informes/translations/flcontinfo.fr.ts</file>
+      <file md5="80d864b8f6e3b05ad0ae896639bf89c5" mode="0644">share/facturalux/modulos/contabilidad/informes/translations/flcontinfo.ca.ts</file>
+      <file md5="8ae15215ddf6041aab20b2c58778bb17" mode="0644">share/facturalux/modulos/contabilidad/informes/translations/flcontinfo.pt.ts</file>
+      <file md5="8ae15215ddf6041aab20b2c58778bb17" mode="0644">share/facturalux/modulos/contabilidad/informes/translations/flcontinfo.es.ts</file>
+      <file md5="1269801bddeeb7e21fe1fe77d5588968" mode="0644">share/facturalux/modulos/contabilidad/informes/translations/flcontinfo.de.ts</file>
+      <file md5="2df9a206176cea16ca71291e5e84f3f3" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_diario.qry</file>
+      <file md5="a9641d557881da1f6820467475fa60e8" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_balancesit.qry</file>
+      <file md5="867b361af2eb0002b4fd6fdb506526af" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_mayorme.qry</file>
+      <file md5="adbd9c40b0729e7e0af0f7729124f042" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_balancepyg.qry</file>
+      <file md5="7b2cf233715b0c435f09c6daf72553f8" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_facturasemi.qry</file>
+      <file md5="3ce514c7371951ae227f2dc2bf9e0ae9" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_balancesis.qry</file>
+      <file md5="4a94c6b1741da9b09eed97bdabf022f7" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_mayor.qry</file>
+      <file md5="6c466cb5dc762c59e2d49f7149ff41e6" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_balancesit_u.qry</file>
+      <file md5="aec9a5ce5155cfe8434a96f7a0f7dad8" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_facturasrec.qry</file>
+      <file md5="51e8681f09381d1422d95fbe0a17df8c" mode="0644">share/facturalux/modulos/contabilidad/informes/queries/co_i_balancesit_c.qry</file>
+      <file md5="f5cfce6ec01e573be85547571cb19070" mode="0644">share/facturalux/modulos/contabilidad/informes/COPYING</file>
+      <file md5="1ae8c33527c2aad383d53e1a9acc3bd0" mode="0644">share/facturalux/modulos/contabilidad/informes/forms/co_i_facturasrec.ui</file>
+      <file md5="4824f8080c8b6abb269e1e69e2611d23" mode="0644">share/facturalux/modulos/contabilidad/informes/forms/co_i_diario.ui</file>
+      <file md5="1ec50e7987290f6366fa65686bb38159" mode="0644">share/facturalux/modulos/contabilidad/informes/forms/flcontinfo.ui</file>
+      <file md5="8c9d29cbde36cbe66966605adf44c889" mode="0644">share/facturalux/modulos/contabilidad/informes/forms/co_i_balancesis.ui</file>
+      <file md5="6551994462afd39ca3fdf5659017eb42" mode="0644">share/facturalux/modulos/contabilidad/informes/forms/co_i_facturasemi.ui</file>
+      <file md5="02de00d44fdb9a13c8a9d62644b8e37b" mode="0644">share/facturalux/modulos/contabilidad/informes/forms/co_i_mayor.ui</file>
+      <file md5="fd4946313c59e71fc6c8cad11832decb" mode="0644">share/facturalux/modulos/contabilidad/informes/forms/co_i_master.ui</file>
+      <file md5="4fb5c3290d4ff3ddcdff2f3cf87a70cd" mode="0644">share/facturalux/modulos/contabilidad/informes/forms/co_i_balancepyg.ui</file>
+      <file md5="cfee3fd73afaa3980fbe27d49e1bb828" mode="0644">share/facturalux/modulos/contabilidad/informes/forms/co_i_balancesit.ui</file>
+      <file md5="7fc4b48772c275e510db903196306b7c" mode="0644">share/facturalux/modulos/contabilidad/informes/tables/co_i_balancepyg_buffer.mtd</file>
+      <file md5="9019bfdc4b9ae57e333c22511a162e4e" mode="0644">share/facturalux/modulos/contabilidad/informes/tables/co_i_balancepyg.mtd</file>
+      <file md5="208cce3c9451341d0f716964f4421f56" mode="0644">share/facturalux/modulos/contabilidad/informes/tables/co_i_balancesis.mtd</file>
+      <file md5="d51baf3f99d3f370a4a5c8f060ac3fba" mode="0644">share/facturalux/modulos/contabilidad/informes/tables/co_i_diario.mtd</file>
+      <file md5="61d8c9b5cb890aa44f358a9b037c93d0" mode="0644">share/facturalux/modulos/contabilidad/informes/tables/co_i_balancesit.mtd</file>
+      <file md5="722264577371460aca80ddc5ba79dc23" mode="0644">share/facturalux/modulos/contabilidad/informes/tables/co_i_facturasemi.mtd</file>
+      <file md5="a64c5325c865db1fc6386643e2a974f9" mode="0644">share/facturalux/modulos/contabilidad/informes/tables/co_i_balancesit_buffer.mtd</file>
+      <file md5="876ec0c6c129e59a8a25ba81b5e2016a" mode="0644">share/facturalux/modulos/contabilidad/informes/tables/co_i_facturasrec.mtd</file>
+      <file md5="790dcd0b86e681b3080a2fa18099c4b2" mode="0644">share/facturalux/modulos/contabilidad/informes/tables/co_i_mayor.mtd</file>
+      <file md5="8aa173d31bd3c8fd93637445e8ff9d38" mode="0644">share/facturalux/modulos/contabilidad/informes/flcontinfo.xpm</file>
+      <file md5="cd4566153392eeeda1d76f044553c09e" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_balancesis.qs</file>
+      <file md5="bcccbfe390432a0fa8c79609f2816114" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_masterfacturasrec.qs</file>
+      <file md5="7bb4eb35c3c934cbcf5072a389bd35d8" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_masterbalancesit.qs</file>
+      <file md5="1508f7e6f5690e08f7e21ea0f1b2cf14" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_masterbalancesis.qs</file>
+      <file md5="a14027539d5cb8ede86d703a6261897f" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_masterbalancepyg.qs</file>
+      <file md5="c2f573355edeb475606376e0743d9d7a" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_mayor.qs</file>
+      <file md5="5d8da1666fba18cf36601bb3b1895b7f" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_balancepyg.qs</file>
+      <file md5="2aa0c433b6b9cf2c32da2f782cc08783" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_mastermayor.qs</file>
+      <file md5="bc8562a9953a87863dc669cc2cd4f23a" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_masterfacturasemi.qs</file>
+      <file md5="4357c67f1efb8e3b9910bd5c2acfd639" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_facturasemi.qs</file>
+      <file md5="34d7034359f44add6c8b9204963a2d29" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_facturasrec.qs</file>
+      <file md5="69a195c733157d10d05277b5a6e20d95" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_balancesit.qs</file>
+      <file md5="74317132efea9f0ae99802637157c5cc" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_diario.qs</file>
+      <file md5="8d3e0b07cbeb1979cf7b29661e28e9fe" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/flcontinfo.qs</file>
+      <file md5="67378730e3778955ee60eb562a8de19b" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_masterdiario.qs</file>
+      <file md5="5c402cc0a98fc0af081de2b37ec2d4bf" mode="0644">share/facturalux/modulos/contabilidad/informes/scripts/co_i_master.qs</file>
+      <file md5="e1041b3b79882d77dd913d839afbb392" mode="0644">share/facturalux/modulos/contabilidad/informes/flcontinfo.xml</file>
+      <file md5="6f0036b7b79d474e408f26c1b83d653f" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_mayor.kut</file>
+      <file md5="8f7fc52d31d0b04233439fad8a448494" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_facturasemi.kut</file>
+      <file md5="66d7cbe807204fc320a60fdc67185695" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_balancepyg_u.kut</file>
+      <file md5="b42276f3c266fadea65fe2d5f661e4ac" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_balancesit_c.kut</file>
+      <file md5="62fe938ebcbfa484b95738ec37bd5a08" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_balancesis.kut</file>
+      <file md5="ab8ac3c42d8b923aead42c34a780be5f" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_balancesit.kut</file>
+      <file md5="d0337db6f404f2289579c5b86ca5a5b7" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_mayorme.kut</file>
+      <file md5="760daab66bf248ce915c3858cbf6ee64" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_diario_a.kut</file>
+      <file md5="f48f4eaa43f7fdf36062e6b2a4c7198a" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_diario_b_iva.kut</file>
+      <file md5="43753f804160bb133da3a0306b2e405f" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_diario_b.kut</file>
+      <file md5="af757ecaa945406c4ef95a68c3aa750a" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_balancesit_u.kut</file>
+      <file md5="b345e52f5a32fd76493f8039cd92bb64" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_facturasemi_n.kut</file>
+      <file md5="1c2f5b6902d5dfab4754e72ea849d65c" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_facturasrec_n.kut</file>
+      <file md5="0f06a817b2b66fbc7982731176b444a6" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_balancepyg_c.kut</file>
+      <file md5="a8db53ea3bbfa8210bcccd7a87744734" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_facturasrec.kut</file>
+      <file md5="3a14eca28be5fc2ddae7d2a6de93775d" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_balancepyg.kut</file>
+      <file md5="ed43fa313cdb90dda87741930e151483" mode="0644">share/facturalux/modulos/contabilidad/informes/reports/co_i_balancesis_res.kut</file>
+      <file md5="c21787a9591f08d6d99a7f631803936e" mode="0644">share/facturalux/forms/master_print_copy.ui</file>
+      <file md5="bd514b9671f01ab85b6f6473185bf1bb" mode="0644">share/facturalux/forms/master.ui</file>
+      <file md5="a93ae780bf83c9efc0b2a837990b840e" mode="0644">share/facturalux/forms/flfiles.ui</file>
+      <file md5="97e619da418ea4a9679b1f5e90915ce3" mode="0644">share/facturalux/forms/sys.ui</file>
+      <file md5="68baa1e0b74c5488324dfd428d8c475a" mode="0644">share/facturalux/forms/flmodulos.ui</file>
+      <file md5="3eb95dd5dca68c9086692429e965c497" mode="0644">share/facturalux/forms/FLWidgetMasterTable.ui</file>
+      <file md5="dccb1b82b8b36a6d1334ec27fdf67220" mode="0644">share/facturalux/forms/flgroups.ui</file>
+      <file md5="c3014493219985f1b7bc313a64ff7637" mode="0644">share/facturalux/forms/flusers.ui</file>
+      <file md5="b4ae55781e2062a33eb606a1ada83c16" mode="0644">share/facturalux/forms/master_print.ui</file>
+      <file md5="55bf2da42397b804d6b8bfb43d9751e8" mode="0644">share/facturalux/forms/flareas.ui</file>
+      <file md5="3eb95dd5dca68c9086692429e965c497" mode="0644">share/facturalux/forms/master_copy.ui</file>
+      <file md5="e2b7a237e27a0c79c507821c3842f1df" mode="0644">share/facturalux/doc/index.html</file>
+      <file md5="3628920bfa4f36c5264d842a59b06379" mode="0644">share/facturalux/tables/flareas.mtd</file>
+      <file md5="0f7572ab5394c067efcdace9f69eca49" mode="0644">share/facturalux/tables/flvar.mtd</file>
+      <file md5="b84f51abec116e8e8d1127425217391a" mode="0644">share/facturalux/tables/flgroups.mtd</file>
+      <file md5="a111e6ac7d8b3094c9f306c0405fd4a7" mode="0644">share/facturalux/tables/flseqs.mtd</file>
+      <file md5="8aeedddd03035577d9a37a42da1d3d03" mode="0644">share/facturalux/tables/flsettings.mtd</file>
+      <file md5="b72baafe8a7004f443cf5d3d703c490a" mode="0644">share/facturalux/tables/flmetadata.mtd</file>
+      <file md5="5fd939d120be72e030b5e8e071ba2c59" mode="0644">share/facturalux/tables/flmodules.mtd</file>
+      <file md5="7e986613be1f98aa310654df40c0fb50" mode="0644">share/facturalux/tables/flserial.mtd</file>
+      <file md5="060813b68c61366bbeb378b12c1cf188" mode="0644">share/facturalux/tables/flfiles.mtd</file>
+      <file md5="0dc5cd2503d7e80346aceffea0154afa" mode="0644">share/facturalux/tables/flusers.mtd</file>
+      <file md5="a3105a7b483deb9cdff14c496c1661f5" mode="0644">share/facturalux/scripts/sys.qs</file>
+      <file md5="22240dbee7f5dae3c01da025e0ee5d32" mode="0644">share/facturalux/scripts/flupdates.qs</file>
+      <file md5="f9d5c4988d7758283ec0342d10e485b5" mode="0644">share/facturalux/scripts/flmasterareas.qs</file>
+      <file md5="1e3fe04bcdb894152de86a3ff10e37d9" mode="0644">share/facturalux/scripts/flmrproper.qs</file>
+      <file md5="62e811c97436002a8fc352bb6e417241" mode="0644">share/facturalux/scripts/flloadmod.qs</file>
+      <file md5="aa99230520fe30ff842e614b5de81b04" mode="0644">share/facturalux/scripts/flreloadbatch.qs</file>
+      <file md5="350b550ee695f0640601223d7aa29ec4" mode="0644">share/facturalux/scripts/flreinit.qs</file>
+      <file md5="f8fcc75d32fcf432d62306ea03d78d98" mode="0644">share/facturalux/scripts/flreloadlast.qs</file>
+      <file md5="661c661e7399bf87bbe149a18ca36d4d" mode="0644">share/facturalux/scripts/flmodules.qs</file>
+      <file md5="df27f2ea51d7b004d02c7782e99777f9" mode="0644">share/facturalux/scripts/flfiles.qs</file>
+      <file md5="aeab2b468594c534c2dcab90d3485b5b" mode="0644">share/facturalux/scripts/fltest.qs</file>
+      <file md5="8020139fe17978f5daa2d77cf4456ec0" mode="0644">plugins/styles/libkdotnet2style.so</file>
+      <file md5="4662cb8513ce05856525234c0d97f800" mode="0644">plugins/styles/libbluecurve.so</file>
+      <file md5="e319bce96bb84f6dedc8a4916bc491be" mode="0644">plugins/styles/libkliquidstyle.so</file>
+      <file md5="a0e8a55989881e311f789dfe70e6e226" mode="0644">plugins/styles/libkplastikstyle.so</file>
+      <file md5="f3ad21f4d93df85aab0ffd6f46b597e1" mode="0644">plugins/sqldrivers/libqsqlite.so</file>
+      <file md5="90adc00bc75cce8c952e58afccf22dc2" mode="0644">plugins/sqldrivers/libqpsql.so</file>
+      <file md5="048ddbab7c3320d28520c511b81e7c1d" mode="0644">plugins/sqldrivers/libqmysql.so</file>
+      <file md5="5bf9ea6a708701141fb4baceaec7e327" mode="0644">plugins/designer/libcppeditor.so</file>
+      <file md5="b14a1c5b49dc9132740c28a4cd4710d9" mode="0644">plugins/designer/libfltable.so</file>
+      <file md5="a6b081996449a1ef5298832211f2a009" mode="0644">plugins/designer/libdlgplugin.so</file>
+      <file md5="cc71c12ce4a4d2ae9136bdd654b9f573" mode="0644">plugins/designer/libgladeplugin.so</file>
+      <file md5="452d99e5ad69449410b9bebb3f97e99e" mode="0644">plugins/designer/libwizards.so</file>
+      <file md5="060af86a8da9d3035ea115900473a0e3" mode="0644">plugins/designer/libfltabledb.so</file>
+      <file md5="93fb72e2c697488c4458e7679a31d66b" mode="0644">plugins/designer/librcplugin.so</file>
+      <file md5="02b4ae30844251bf7483c117bc75e0f7" mode="0644">plugins/designer/libqwtplugin.so</file>
+      <file md5="bf19cc114b1463ce7b33c9e6c0971ac9" mode="0644">plugins/designer/libkdevdlgplugin.so</file>
+      <file md5="5eaab7189b6f1fed281a2c48eef68b1b" mode="0644">plugins/designer/libflfielddb.so</file>
+      <file md5="28f059bdce771d81ba958f12455094cc" mode="0644">lib/libsqlite.so.2.8.6</file>
+      <symlink dest="libsqlite.so.2.8.6" mode="0777">lib/libsqlite.so.2.8</symlink>
+      <symlink dest="libsqlite.so.2.8.6" mode="0777">lib/libsqlite.so.2</symlink>
+      <symlink dest="libsqlite.so.2.8.6" mode="0777">lib/libsqlite.so</symlink>
+      <file md5="f98e727b99187e60353b4a5d089451af" mode="0644">lib/libqwt.so.5.1.2</file>
+      <symlink dest="libqwt.so.5.1.2" mode="0777">lib/libqwt.so.5.1</symlink>
+      <symlink dest="libqwt.so.5.1.2" mode="0777">lib/libqwt.so.5</symlink>
+      <symlink dest="libqwt.so.5.1.2" mode="0777">lib/libqwt.so</symlink>
+      <file md5="3d357b6a3fc25ae8da9d194b987e6fd7" mode="0644">lib/libqt-mt.so.3.3.8</file>
+      <symlink dest="libqt-mt.so.3.3.8" mode="0777">lib/libqt-mt.so.3.3</symlink>
+      <symlink dest="libqt-mt.so.3.3.8" mode="0777">lib/libqt-mt.so.3</symlink>
+      <symlink dest="libqt-mt.so.3.3.8" mode="0777">lib/libqt-mt.so</symlink>
+      <file md5="14c491979b0c1062ab8fd5fda6e31633" mode="0644">lib/libqsa.so.1.1.5</file>
+      <symlink dest="libqsa.so.1.1.5" mode="0777">lib/libqsa.so.1.1</symlink>
+      <symlink dest="libqsa.so.1.1.5" mode="0777">lib/libqsa.so.1</symlink>
+      <symlink dest="libqsa.so.1.1.5" mode="0777">lib/libqsa.so</symlink>
+      <file md5="df263e96acb8841b671b52e8075ecd4d" mode="0644">lib/libpq.so.4.1.0</file>
+      <symlink dest="libpq.so.4.1.0" mode="0777">lib/libpq.so.4.1</symlink>
+      <symlink dest="libpq.so.4.1.0" mode="0777">lib/libpq.so.4</symlink>
+      <symlink dest="libpq.so.4.1.0" mode="0777">lib/libpq.so</symlink>
+      <file md5="0515d25367721db4f3ea9a5a791d9e62" mode="0644">lib/libmysqlclient.so.15.0.0</file>
+      <symlink dest="libmysqlclient.so.15.0.0" mode="0777">lib/libmysqlclient.so.15.0</symlink>
+      <symlink dest="libmysqlclient.so.15.0.0" mode="0777">lib/libmysqlclient.so.15</symlink>
+      <symlink dest="libmysqlclient.so.15.0.0" mode="0777">lib/libmysqlclient.so</symlink>
+      <file md5="854cc7fcf0c5b94499bb865e5a9cf2e3" mode="0644">lib/libkdelite.so.1.0.0</file>
+      <symlink dest="libkdelite.so.1.0.0" mode="0777">lib/libkdelite.so.1.0</symlink>
+      <symlink dest="libkdelite.so.1.0.0" mode="0777">lib/libkdelite.so.1</symlink>
+      <symlink dest="libkdelite.so.1.0.0" mode="0777">lib/libkdelite.so</symlink>
+      <file md5="5948a621dd2f811b3151a3bfc1bb1bc1" mode="0644">lib/libkdefxx.so.1.0.0</file>
+      <symlink dest="libkdefxx.so.1.0.0" mode="0777">lib/libkdefxx.so.1.0</symlink>
+      <symlink dest="libkdefxx.so.1.0.0" mode="0777">lib/libkdefxx.so.1</symlink>
+      <symlink dest="libkdefxx.so.1.0.0" mode="0777">lib/libkdefxx.so</symlink>
+      <file md5="4652660c686d8d6361f9c33fab7f3ec1" mode="0644">lib/libhoard.so.3.7.0</file>
+      <symlink dest="libhoard.so.3.7.0" mode="0777">lib/libhoard.so.3.7</symlink>
+      <symlink dest="libhoard.so.3.7.0" mode="0777">lib/libhoard.so.3</symlink>
+      <symlink dest="libhoard.so.3.7.0" mode="0777">lib/libhoard.so</symlink>
+      <file md5="6f9e4f0de8dc0a45f47d9f99d89c4be8" mode="0644">lib/libflmail.so.1.0.0</file>
+      <symlink dest="libflmail.so.1.0.0" mode="0777">lib/libflmail.so.1.0</symlink>
+      <symlink dest="libflmail.so.1.0.0" mode="0777">lib/libflmail.so.1</symlink>
+      <symlink dest="libflmail.so.1.0.0" mode="0777">lib/libflmail.so</symlink>
+      <file md5="6c10caffaa95299f0bc81549a7920548" mode="0644">lib/libflbase.so.2.3.0</file>
+      <symlink dest="libflbase.so.2.3.0" mode="0777">lib/libflbase.so.2.3</symlink>
+      <symlink dest="libflbase.so.2.3.0" mode="0777">lib/libflbase.so.2</symlink>
+      <symlink dest="libflbase.so.2.3.0" mode="0777">lib/libflbase.so</symlink>
+      <file md5="2da91743615282df9a2079f92489214d" mode="0644">lib/libadvance.so.0.8.0</file>
+      <symlink dest="libadvance.so.0.8.0" mode="0777">lib/libadvance.so.0.8</symlink>
+      <symlink dest="libadvance.so.0.8.0" mode="0777">lib/libadvance.so.0</symlink>
+      <symlink dest="libadvance.so.0.8.0" mode="0777">lib/libadvance.so</symlink>
+      <file md5="73e7f7ae545756328a4121e1308a43e1" mode="0644">icon.xpm</file>
+      <file md5="b69d79e4cede7f2b4db26fe6c86288a7" mode="0755">bin/teddy</file>
+      <file md5="134729796f2e45defb3732fcf9b7c3b4" mode="0755">bin/dbf</file>
+      <file md5="cdb3addf231d11421171d0aa3313f015" mode="0755">bin/kudesigner</file>
+      <file md5="048160e6b4a58629a98d7891841160af" mode="0755">bin/linguist</file>
+      <file md5="769bf582a23a5d2c59019ddd35a6d596" mode="0755">bin/designer</file>
+      <symlink dest="/usr/share/abanq/bin/fllite" mode="0777">/usr/share/abanq/bin/fllite</symlink>
+      <file md5="bafa101bb5aa566dca51d5730fff5a00" mode="0755">bin/fllite</file>
+      <directory mode="0755">share/facturalux/translations</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/facturacion/translations</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/facturacion/queries</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/facturacion/forms</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/facturacion/tables</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/facturacion/test</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/facturacion/scripts</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/facturacion/reports</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/facturacion</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/tesoreria/translations</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/tesoreria/queries</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/tesoreria/forms</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/tesoreria/tables</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/tesoreria/test</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/tesoreria/scripts</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/tesoreria</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/principal/translations</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/principal/queries</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/principal/forms</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/principal/tables</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/principal/test</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/principal/scripts</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/principal/reports</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/principal</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/almacen/translations</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/almacen/queries</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/almacen/forms</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/almacen/tables</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/almacen/test</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/almacen/scripts</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/almacen/reports</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/almacen</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/informes/translations</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/informes/queries</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/informes/forms</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/informes/tables</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/informes/scripts</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/informes/reports</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion/informes</directory>
+      <directory mode="0755">share/facturalux/modulos/facturacion</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/principal/translations</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/principal/queries</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/principal/forms</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/principal/tables</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/principal/test</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/principal/scripts</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/principal/reports</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/principal</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/informes/translations</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/informes/queries</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/informes/forms</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/informes/tables</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/informes/scripts</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/informes/reports</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad/informes</directory>
+      <directory mode="0755">share/facturalux/modulos/contabilidad</directory>
+      <directory mode="0755">share/facturalux/modulos</directory>
+      <directory mode="0755">share/facturalux/forms</directory>
+      <directory mode="0755">share/facturalux/doc</directory>
+      <directory mode="0755">share/facturalux/tables</directory>
+      <directory mode="0755">share/facturalux/tmp</directory>
+      <directory mode="0755">share/facturalux/scripts</directory>
+      <directory mode="0755">share/facturalux</directory>
+      <directory mode="0755">share</directory>
+      <directory mode="0755">plugins/styles</directory>
+      <directory mode="0755">plugins/sqldrivers</directory>
+      <directory mode="0755">plugins/designer</directory>
+      <directory mode="0755">plugins</directory>
+      <directory mode="0755">lib</directory>
+      <directory mode="0755">bin</directory>
+    </option>
+    <script type="post-uninstall">update-menus-0</script>
+    <script type="pre-uninstall">preun</script>
+  </component>
+</product>

@@ -1,0 +1,19 @@
+Source: abanq
+Section: misc
+Priority: optional
+Maintainer: Roberto C. Morano <rcmorano@emergya.es>
+Build-Depends: debhelper (>= 7.0.0), cdbs
+Standards-Version: 3.8.3
+
+Package: abanq
+Architecture: any
+Description: ERP/CRM software for GNU/Linux
+ ERP/CRM (Enterprise Resource Planning/Customer Relationship Management)
+ software on storage management and enterprise sales for GNU/Linux, using
+ C++, Qt 3.x and PostGreSQL.
+ .
+ Please, be sure to read /usr/share/doc/facturalux/README.debian. It
+ contains critical info to get facturalux working.
+ .
+ This package contains main program and libs.
+

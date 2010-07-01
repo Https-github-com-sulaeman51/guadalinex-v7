@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AbanQ
+Comment=
+Exec=/usr/bin/abanq-bin
+Icon=/usr/share/abanq/icon.xpm
+Terminal=0
+Type=Application
+Categories=Office;
