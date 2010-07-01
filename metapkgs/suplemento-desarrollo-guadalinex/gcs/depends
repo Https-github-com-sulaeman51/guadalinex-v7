@@ -8,7 +8,7 @@ eclipse-jdt
 eclipse-pde
 geany
 git-core
-glade-3
+glade
 gobby
 kfilereplace-kde3
 klinkstatus-kde3
@@ -29,5 +29,5 @@ sobby
 sqlite3   
 sqlite3-doc
 sun-java6-jdk
-svn
+subversion
 tidy
