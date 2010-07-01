@@ -84,6 +84,8 @@ class Actor(PkgDeviceActor):
     __device_disconn_description__ = _("Card reader disconnected")
 
     def on_added(self):
+        os.system("sudo /etc/init.d/pcscd stop")
+        os.system("sudo /etc/init.d/pcscd start")
         actions = {}
         def configure_dnie():
             os.system('%s --install-dnie' % CERTMANAGER_CMD)
@@ -94,6 +96,10 @@ class Actor(PkgDeviceActor):
         if os.path.exists(CERTMANAGER_CMD):
             actions[_("Configure DNIe")] = configure_dnie
             actions[_("Configure FNMT-Ceres card")] = configure_ceres
+
+        os.system("sudo /etc/init.d/pcscd stop")
+        os.system("sleep 2")
+        os.system("sudo /etc/init.d/pcscd stop")
 
         def add_user_to_scard():
             import pwd
