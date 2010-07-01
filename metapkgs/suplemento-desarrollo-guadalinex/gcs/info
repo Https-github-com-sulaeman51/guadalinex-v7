@@ -1,0 +1,27 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Guadalinex v4
+
+# Nombre del paquete (minúsculas-separado-con-guiones)
+name: suplemento-desarrollo-guadalinex
+
+# Autor 
+author: Roberto C. Morano Vazquez <rcmorano@emergya.es>
+
+# Priority
+priority: optional
+
+# Section
+section: base
+
+# Descripción corta
+shortdesc: "Suplemento de desarollo de Guadalinex"
+
+# Descipción larga, las lineas han de estar separadas por "\n "
+longdesc: "Este paquete provee de un entorno completo de desarrollo.\n"
+
+# Versión del paquete
+version: gv7
+
+# Cambios en esta versión
+changes:
+    - Initial package
