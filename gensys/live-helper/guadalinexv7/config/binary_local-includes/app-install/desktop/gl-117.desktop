@@ -1,0 +1,16 @@
+[Desktop Entry]
+X-AppInstall-Package=gl-117
+X-AppInstall-Popcon=429
+X-AppInstall-Section=universe
+
+Version=0.9.4
+Name=gl-117
+Type=Application
+GenericName=Game
+Comment=Play a flight simulator
+Exec=gl-117
+Terminal=false
+Hidden=false
+Categories=Juegos;
+Icon=gl-117
+X-Ubuntu-Gettext-Domain=app-install-data

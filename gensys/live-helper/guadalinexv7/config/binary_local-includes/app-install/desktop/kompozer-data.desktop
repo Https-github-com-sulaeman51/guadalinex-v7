@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=kompozer-data
+Comment=kompozer data files
+Encoding=UTF-8
+X-AppInstall-Package=kompozer-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

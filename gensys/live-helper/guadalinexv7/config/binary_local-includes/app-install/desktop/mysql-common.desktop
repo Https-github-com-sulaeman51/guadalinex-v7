@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=mysql-common
+Comment=MySQL database common files (e.g. /etc/mysql/my.cnf)
+MySQL database common files (e.g. /etc/mysql/my.cnf)
+Encoding=UTF-8
+X-AppInstall-Package=mysql-common
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

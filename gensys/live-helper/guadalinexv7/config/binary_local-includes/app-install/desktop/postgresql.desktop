@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=postgresql
+Comment=object-relational SQL database (supported version)
+Encoding=UTF-8
+X-AppInstall-Package=postgresql
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

@@ -1,0 +1,13 @@
+[Desktop Entry]
+X-AppInstall-Package=tuxmath
+X-AppInstall-Popcon=851
+X-AppInstall-Section=universe
+
+Name=TuxMath
+Comment=Math Training Game
+Exec=tuxmath
+Icon=_usr_share_tuxmath_images_icons_icon
+Terminal=false
+Type=Application
+Categories=Educativo;
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kommander-kde3
+X-AppInstall-Popcon=584
+X-AppInstall-Section=universe
+
+GenericName=Dynamic Dialog Editor
+Name=Kommander Editor
+Exec=kmdr-editor %F
+Icon=kommander
+Type=Application
+Comment=Dynamic Dialog Editor
+MimeType=application/x-kommander;
+DocPath=kommander/index.html
+Categories=Desarrollo;
+X-Ubuntu-Gettext-Domain=app-install-data

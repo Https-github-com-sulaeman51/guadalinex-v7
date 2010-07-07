@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=extremetuxracer-data
+Comment=data files for the game Extreme Tux Racer
+Encoding=UTF-8
+X-AppInstall-Package=extremetuxracer-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

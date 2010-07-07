@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=wiican
+Comment=Simple wiimote usage assistant and mapping manager
+Encoding=UTF-8
+X-AppInstall-Package=wiican
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Varios;

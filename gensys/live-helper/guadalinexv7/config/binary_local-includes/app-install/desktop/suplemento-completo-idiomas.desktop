@@ -1,0 +1,8 @@
+[Desktop Entry]
+X-AppInstall-Package=suplemento-idiomas-guadalinex
+X-AppInstall-Section=main
+
+Type=Application
+Name=Suplemento Idiomas completo
+Comment=Metapaquete que instala los paquetes necesarios para configurar el sistema en Inglés y Francés.
+Categories=Idiomas;

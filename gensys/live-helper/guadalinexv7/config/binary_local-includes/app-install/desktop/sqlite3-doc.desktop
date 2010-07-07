@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=sqlite3-doc
+Comment=SQLite 3 documentation
+Encoding=UTF-8
+X-AppInstall-Package=sqlite3-doc
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

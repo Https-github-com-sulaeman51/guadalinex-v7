@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=mysql-client-5.1
+Comment=MySQL database client binaries
+Encoding=UTF-8
+X-AppInstall-Package=mysql-client-5.1
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

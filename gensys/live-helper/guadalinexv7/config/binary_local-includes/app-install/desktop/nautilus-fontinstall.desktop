@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=nautilus-fontinstall
+Comment=Nautilus' extension for install fonts files
+Encoding=UTF-8
+X-AppInstall-Package=nautilus-fontinstall
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Varios;

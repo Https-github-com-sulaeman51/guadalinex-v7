@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "# GUADA HACK in order not to ask for passwd for pcscd" >> /etc/sudoers
+echo "ALL ALL = NOPASSWD: /etc/init.d/pcscd" >> /etc/sudoers

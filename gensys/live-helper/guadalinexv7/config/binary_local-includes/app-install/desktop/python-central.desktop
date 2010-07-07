@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=python-central
+Comment=register and build utility for Python packages
+register and build utility for Python packages
+Encoding=UTF-8
+X-AppInstall-Package=python-central
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=blobwars-data
+Comment=A platform shooting game
+Encoding=UTF-8
+X-AppInstall-Package=blobwars-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

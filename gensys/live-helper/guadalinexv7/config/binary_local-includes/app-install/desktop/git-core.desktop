@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=git-core
+Comment=fast, scalable, distributed revision control system
+fast, scalable, distributed revision control system
+Encoding=UTF-8
+X-AppInstall-Package=git-core
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

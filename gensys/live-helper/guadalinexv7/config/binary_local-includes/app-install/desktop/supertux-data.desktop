@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=supertux-data
+Comment=Levels for classic 2D jump 'n run sidescroller with Tux
+Encoding=UTF-8
+X-AppInstall-Package=supertux-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

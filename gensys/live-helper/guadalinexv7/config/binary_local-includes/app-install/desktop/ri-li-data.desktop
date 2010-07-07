@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ri-li-data
+Comment=data files for Ri-li, a toy train simulation game
+Encoding=UTF-8
+X-AppInstall-Package=ri-li-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

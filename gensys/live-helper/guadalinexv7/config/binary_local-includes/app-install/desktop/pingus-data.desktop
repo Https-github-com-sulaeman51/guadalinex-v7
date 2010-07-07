@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=pingus-data
+Comment=Data files for pingus, a free Lemmings(TM) clone
+Encoding=UTF-8
+X-AppInstall-Package=pingus-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

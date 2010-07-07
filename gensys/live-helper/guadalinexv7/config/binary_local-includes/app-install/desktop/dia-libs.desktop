@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=dia-libs
+Comment=Diagram editor (library files)
+Encoding=UTF-8
+X-AppInstall-Package=dia-libs
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Varios;

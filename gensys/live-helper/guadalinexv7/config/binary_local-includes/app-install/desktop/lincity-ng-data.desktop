@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=lincity-ng-data
+Comment=Media files for the city simulator game LinCity-NG
+Encoding=UTF-8
+X-AppInstall-Package=lincity-ng-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

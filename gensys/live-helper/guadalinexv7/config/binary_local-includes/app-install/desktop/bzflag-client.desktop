@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=bzflag-client
+Comment=BZFlag client
+Encoding=UTF-8
+X-AppInstall-Package=bzflag-client
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

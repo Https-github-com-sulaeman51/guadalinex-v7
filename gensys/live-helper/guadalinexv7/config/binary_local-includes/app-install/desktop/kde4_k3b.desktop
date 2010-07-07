@@ -1,0 +1,20 @@
+[Desktop Entry]
+X-AppInstall-Package=k3b
+X-AppInstall-Popcon=13731
+X-AppInstall-Section=main
+
+Type=Application
+Exec=k3b %U
+Icon=k3b
+X-DocPath=k3b/index.html
+GenericName=Disk Burning
+Comment=Disk writing program
+Terminal=false
+Name=K3b
+MimeType=application/x-k3b;application/x-iso;application/x-cd-image;application/x-cue;
+X-KDE-StartupNotify=true
+X-KDE-NativeMimeType=application/x-k3b;
+Categories=Varios;
+X-DBUS-ServiceType=Unique
+
+X-Ubuntu-Gettext-Domain=app-install-data

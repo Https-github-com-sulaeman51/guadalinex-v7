@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rm -rf /var/cache/app-install/* || exit 0

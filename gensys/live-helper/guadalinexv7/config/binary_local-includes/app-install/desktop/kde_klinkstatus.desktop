@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=klinkstatus-kde3
+X-AppInstall-Popcon=451
+X-AppInstall-Section=universe
+
+Name=KLinkStatus
+Exec=klinkstatus %i %m -caption "%c"
+Icon=klinkstatus
+Type=Application
+DocPath=klinkstatus/index.html
+Terminal=false
+GenericName=Link Checker
+Categories=Desarrollo;
+
+X-Ubuntu-Gettext-Domain=app-install-data

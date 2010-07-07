@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=sobby
+Comment=a dedicated server for collaborative editing
+Encoding=UTF-8
+X-AppInstall-Package=sobby
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

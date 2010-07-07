@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=tidy
+Comment=HTML syntax checker and reformatter
+Encoding=UTF-8
+X-AppInstall-Package=tidy
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

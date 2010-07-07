@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=quanta-data
+Comment=data files for Quanta Plus web development environment
+Encoding=UTF-8
+X-AppInstall-Package=quanta-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

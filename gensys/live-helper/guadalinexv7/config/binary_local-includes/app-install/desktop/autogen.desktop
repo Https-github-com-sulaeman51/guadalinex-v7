@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=autogen
+Comment=automated text file generator
+Encoding=UTF-8
+X-AppInstall-Package=autogen
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

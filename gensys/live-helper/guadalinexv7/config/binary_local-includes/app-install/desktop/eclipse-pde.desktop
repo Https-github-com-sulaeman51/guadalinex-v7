@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=eclipse-pde
+Comment=Eclipse Plug-in Development Environment (PDE)
+Encoding=UTF-8
+X-AppInstall-Package=eclipse-pde
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=eclipse-jdt
+Comment=Eclipse Java Development Tools (JDT)
+Encoding=UTF-8
+X-AppInstall-Package=eclipse-jdt
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

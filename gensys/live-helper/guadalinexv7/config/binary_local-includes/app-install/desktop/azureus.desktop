@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=azureus
+X-AppInstall-Popcon=4253
+X-AppInstall-Section=universe
+
+Categories=Varios;
+Comment=Download and share files using the BitTorrent P2P network
+Exec=azureus %f
+GenericName=BitTorrent client
+Icon=Azureus
+MimeType=application/x-bittorrent
+Name=Vuze
+Type=Application
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=glest-data
+Comment=a free 3d real-time customizable strategy game
+Encoding=UTF-8
+X-AppInstall-Package=glest-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=neverball-data
+Comment=data files for Neverball
+Encoding=UTF-8
+X-AppInstall-Package=neverball-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

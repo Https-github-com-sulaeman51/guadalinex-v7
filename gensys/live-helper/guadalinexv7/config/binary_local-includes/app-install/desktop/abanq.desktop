@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=abanq
+Comment=ERP/CRM software for GNU/Linux
+Encoding=UTF-8
+X-AppInstall-Package=abanq
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Varios;

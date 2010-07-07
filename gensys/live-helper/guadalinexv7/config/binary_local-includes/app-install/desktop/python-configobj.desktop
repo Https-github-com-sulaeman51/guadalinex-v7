@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=python-configobj
+Comment=simple but powerful config file reader and writer for Python
+Encoding=UTF-8
+X-AppInstall-Package=python-configobj
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

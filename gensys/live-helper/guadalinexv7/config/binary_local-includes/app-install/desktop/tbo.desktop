@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=tbo
+Comment=Intuitive GNOME comic creator
+Encoding=UTF-8
+X-AppInstall-Package=tbo
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Varios;

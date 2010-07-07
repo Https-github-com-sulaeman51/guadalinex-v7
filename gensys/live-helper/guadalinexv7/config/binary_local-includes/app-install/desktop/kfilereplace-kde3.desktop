@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=kfilereplace-kde3
+Comment=batch search-and-replace component for KDE
+Encoding=UTF-8
+X-AppInstall-Package=kfilereplace-kde3
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

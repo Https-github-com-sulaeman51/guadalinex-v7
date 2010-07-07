@@ -1,0 +1,6 @@
+deb http://v7.guadalinex.org/ubuntu/ lucid-updates main restricted universe multiverse
+deb http://v7.guadalinex.org/ubuntu/ lucid-security main restricted universe multiverse
+deb http://v7.guadalinex.org/ubuntu/ lucid-backports main restricted universe multiverse
+
+deb http://localhost/guadalinex lince main restricted universe multiverse
+#deb http://v6.guadalinex.org/guadalinex-buho buho main restricted universe multiverse

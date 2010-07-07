@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=gobby
+Comment=collaborative text editor
+Encoding=UTF-8
+X-AppInstall-Package=gobby
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

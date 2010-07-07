@@ -1,0 +1,3 @@
+#!/bin/bash
+
+test -f /var/lib/update-notifier/user.d/nautilus-md5sum-notification && rm -f /var/lib/update-notifier/user.d/nautilus-md5sum-notification

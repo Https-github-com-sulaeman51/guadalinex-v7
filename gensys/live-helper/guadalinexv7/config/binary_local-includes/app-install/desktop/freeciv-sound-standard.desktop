@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=freeciv-sound-standard
+Comment=Civilization turn based strategy game (standard sound pack)
+Encoding=UTF-8
+X-AppInstall-Package=freeciv-sound-standard
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250"
+   height="250"
+   id="svg3286"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="quitcount.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs3288">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3294" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="37.017882"
+     inkscape:cy="103.33673"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1095"
+     inkscape:window-height="712"
+     inkscape:window-x="470"
+     inkscape:window-y="188" />
+  <metadata
+     id="metadata3291">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>no smoking_sign</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Torsten Skomp</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Torsten Skomp</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>2008-06-29</dc:date>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-247.04724,-401.18109)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:0.6785714;fill-rule:nonzero;stroke:none;stroke-opacity:1"
+       id="rect2383"
+       width="227.14285"
+       height="229.28572"
+       x="12.142858"
+       y="11.428571"
+       transform="translate(247.04724,401.18109)" />
+    <g
+       id="g3304"
+       transform="translate(1.2109375e-6,1.3085937e-6)">
+      <path
+         id="path3258"
+         d="M 303.83488,558.07152 L 303.83488,586.18304 L 462.15321,586.18304 L 462.15321,558.07152 L 303.83488,558.07152 z"
+         style="fill:#010101" />
+      <path
+         sodipodi:nodetypes="ccccccccccccccccccc"
+         id="path2460"
+         d="M 267.04724,401.18109 C 255.78034,401.36324 247.5019,410.06163 247.04724,421.18109 L 247.04724,631.18109 C 247.04724,642.26109 255.96724,651.18109 267.04724,651.18109 L 477.04724,651.18109 C 488.35661,651.00829 496.59455,642.25237 497.04724,631.18109 L 497.04724,421.18109 C 497.04724,410.10109 488.12724,401.18109 477.04724,401.18109 L 267.04724,401.18109 z M 281.82849,420.58734 L 472.51599,420.58734 C 475.3567,420.58734 477.64099,422.87163 477.64099,425.71234 L 477.64099,616.43109 L 281.82849,420.58734 z M 266.45349,435.93109 L 462.26599,631.77484 L 271.57849,631.77484 C 268.73778,631.77485 266.45349,629.49055 266.45349,626.64984 L 266.45349,435.93109 z"
+         style="fill:#c4261d;fill-opacity:1" />
+      <path
+         id="path3283"
+         d="M 355.1875,439.0625 L 355.1875,448.4375 C 366.12371,450.53923 371.30339,460.43311 370.15625,470.8125 C 369.03024,481.00065 361.05037,487.54011 350.84375,487.34375 C 346.2751,487.25588 344.01089,490.84836 345.6875,494.84375 C 348.21935,500.8772 347.89343,508.38224 343.21875,512 C 331.74161,520.8822 313.74377,511.87322 300.9375,519.4375 C 289.18024,526.38218 290.8125,540.6913 290.8125,552.8125 L 298.9375,552.8125 C 299.52398,544.13624 297.69688,532.26016 305.125,526.875 C 319.55275,516.41533 353.86148,536.81691 356.3125,500.125 C 356.56445,496.35334 354.33494,496.01133 359.5,494.84375 C 371.20236,492.19837 379.13544,481.12734 378.875,468.125 C 378.60551,454.66976 370.20512,440.53072 355.1875,439.0625 z M 345.71875,448.46875 C 335.57241,448.33714 326.1628,454.40599 320.84375,463.15625 C 314.67281,473.30795 315.67304,483.36617 318,490.28125 C 319.03596,493.35984 318.29733,492.88055 315.46875,493.0625 C 295.77862,494.32907 285.43739,501.25045 279.5,521.65625 C 276.83793,530.80534 277.44714,534.67789 277.46875,552.625 L 286.15625,552.625 C 285.97602,543.68107 285.31578,532.5884 287.90625,523.46875 C 292.4535,507.46033 305.08925,501.21407 320.40625,501.46875 C 328.68243,501.60639 330.17307,495.63429 328.4375,492.34375 C 324.8214,485.48789 323.35479,477.34563 326.3125,470.0625 C 329.65486,461.83222 337.59908,458.94944 345.71875,457.4375 L 345.71875,448.46875 z M 277.21875,558.0625 L 277.21875,586.1875 L 285.625,586.1875 L 285.625,558.0625 L 277.21875,558.0625 z M 290.625,558.0625 L 290.625,586.1875 L 298.84375,586.1875 L 298.84375,558.0625 L 290.625,558.0625 z"
+         style="fill:#010101" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=kompozer
+X-AppInstall-Popcon=2719
+X-AppInstall-Section=universe
+
+Name=KompoZer
+GenericName=Web Authoring System
+Comment=Create Web Pages
+Categories=Desarrollo;
+Exec=kompozer
+Icon=kompozer
+Terminal=false
+MimeType=text/html;text/xml;text/css;text/x-javascript;text/javascript;application/xhtml+xml;
+Type=Application
+X-Ubuntu-Gettext-Domain=app-install-data

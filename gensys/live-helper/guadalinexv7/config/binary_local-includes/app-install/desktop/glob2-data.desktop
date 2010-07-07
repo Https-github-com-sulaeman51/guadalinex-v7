@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=glob2-data
+Comment=dataset for Globulation2 (glob2)
+Encoding=UTF-8
+X-AppInstall-Package=glob2-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

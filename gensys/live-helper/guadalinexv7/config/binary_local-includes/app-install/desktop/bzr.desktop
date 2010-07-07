@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=bzr
+Comment=easy to use distributed version control system
+easy to use distributed version control system
+Encoding=UTF-8
+X-AppInstall-Package=bzr
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Desarrollo;

@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=tuxpaint
+X-AppInstall-Popcon=2488
+X-AppInstall-Section=universe
+
+Name=Tux Paint
+Type=Application
+Exec=tuxpaint
+Icon=tuxpaint
+Terminal=false
+Categories=Educativo;
+GenericName=Drawing program
+Comment=A drawing program for children.
+X-Ubuntu-Gettext-Domain=app-install-data

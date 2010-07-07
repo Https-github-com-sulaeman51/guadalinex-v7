@@ -1,0 +1,14 @@
+[Desktop Entry]
+X-AppInstall-Package=freeciv-client-gtk
+X-AppInstall-Popcon=1029
+X-AppInstall-Section=universe
+
+Name=Freeciv (gtk)
+Comment=Turn-based strategy game inspired by the history of human civilization
+Exec=civclient-gtk
+Icon=freeciv-client
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Juegos;
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ffmpeg
+Comment=multimedia player, server and encoder
+Encoding=UTF-8
+X-AppInstall-Package=ffmpeg
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Varios;

@@ -1,0 +1,15 @@
+[Desktop Entry]
+X-AppInstall-Package=supertuxkart
+X-AppInstall-Popcon=1551
+X-AppInstall-Section=universe
+
+Name=Supertuxkart
+GenericName=Supertuxkart
+Icon=supertuxkart
+Comment=a kart racing game
+Exec=supertuxkart
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Juegos;
+X-Ubuntu-Gettext-Domain=app-install-data

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=freeciv-data
+Comment=Civilization turn based strategy game (game data)
+Encoding=UTF-8
+X-AppInstall-Package=freeciv-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

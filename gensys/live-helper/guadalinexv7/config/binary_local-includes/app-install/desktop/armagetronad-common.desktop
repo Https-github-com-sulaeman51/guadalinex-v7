@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=armagetronad-common
+Comment=Common files for the Armagetron Advanced packages
+Encoding=UTF-8
+X-AppInstall-Package=armagetronad-common
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

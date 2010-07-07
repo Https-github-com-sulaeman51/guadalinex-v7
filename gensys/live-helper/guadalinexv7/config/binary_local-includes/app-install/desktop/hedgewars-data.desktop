@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=hedgewars-data
+Comment=Data files for hedgewars
+Encoding=UTF-8
+X-AppInstall-Package=hedgewars-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

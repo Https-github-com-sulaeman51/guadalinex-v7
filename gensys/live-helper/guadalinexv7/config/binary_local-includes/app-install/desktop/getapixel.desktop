@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=getapixel
+Comment=The Getapixel app is a frontend of metapixel command
+Encoding=UTF-8
+X-AppInstall-Package=getapixel
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Varios;

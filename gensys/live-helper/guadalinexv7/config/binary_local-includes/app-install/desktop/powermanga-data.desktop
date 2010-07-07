@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=powermanga-data
+Comment=graphics and audio data for powermanga
+Encoding=UTF-8
+X-AppInstall-Package=powermanga-data
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Juegos;

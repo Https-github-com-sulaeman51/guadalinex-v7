@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=hedgewars
+X-AppInstall-Popcon=512
+X-AppInstall-Keywords= hedge;wars;war;hedgewar;worms;wormux;battle;fight
+X-AppInstall-Section=universe
+
+Type=Application
+Version=1.0
+Encoding=UTF-8
+Name=Hedgewars
+GenericName=Fighting Hedgehogs
+Icon=hedgewars.png
+Exec=hedgewars
+Terminal=false
+StartupNotify=false
+Categories=Juegos;
+X-Ubuntu-Gettext-Domain=app-install-data

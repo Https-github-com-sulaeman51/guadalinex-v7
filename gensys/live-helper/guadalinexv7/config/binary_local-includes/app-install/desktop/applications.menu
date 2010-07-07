@@ -1,0 +1,73 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+
+  <Name>Applications</Name>
+  <Directory>Applications.directory</Directory>
+
+  <!-- Read standard .directory and .desktop file locations -->
+  <!-- <DefaultAppDirs/> -->
+  <AppDir>.</AppDir>
+
+  <!-- Desarrollo -->
+  <Menu>
+    <Name>Suplemento de Desarrollo</Name>
+    <Include>
+      <And>
+        <Category>Desarrollo</Category>
+      </And>
+    </Include>
+  </Menu> <!-- Desarrollo -->
+
+  <!-- Educativo -->
+  <Menu>
+    <Name>Suplemento Educativo</Name>
+    <Include>
+      <And>
+        <Category>Educativo</Category>
+      </And>
+    </Include>
+  </Menu> <!-- Educativo -->
+
+  <!-- Juegos -->
+  <Menu>
+    <Name>Suplemento de Juegos</Name>
+    <Include>
+      <And>
+        <Category>Juegos</Category>
+      </And>
+    </Include>
+  </Menu> <!-- Juegos -->
+
+  <!-- Varios -->
+  <Menu>
+    <Name>Suplemento Variado</Name>
+    <Include>
+      <And>
+        <Category>Varios</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <!-- Idioma -->
+  <Menu>
+    <Name>Suplemento de Idiomas</Name>
+    <Include>
+      <And>
+        <Category>Idiomas</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <!-- Suplementos -->
+  <Menu>
+    <Name>Suplementos completos</Name>
+    <Include>
+      <And>
+        <Category>Suplementos</Category>
+      </And>
+    </Include>
+  </Menu> <!-- Suplementos -->
+
+</Menu> <!-- End Applications -->

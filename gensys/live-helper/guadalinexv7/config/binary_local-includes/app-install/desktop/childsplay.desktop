@@ -1,0 +1,17 @@
+[Desktop Entry]
+X-AppInstall-Package=childsplay
+X-AppInstall-Popcon=1134
+X-AppInstall-Section=universe
+
+Version=1.0
+Encoding=UTF-8
+Type=Application
+Name=Childsplay
+GenericName=Childsplay
+Comment=Suite of educational games for young children
+Icon=logo_cp_32x32.xpm
+Exec=childsplay
+Terminal=false
+StartupNotify=false
+Categories=Educativo;
+X-Ubuntu-Gettext-Domain=app-install-data

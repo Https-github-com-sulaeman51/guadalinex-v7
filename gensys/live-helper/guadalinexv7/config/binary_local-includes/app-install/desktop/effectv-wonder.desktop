@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=effectv-wonder
+Comment=Gestor gráfico para Effectv
+Encoding=UTF-8
+X-AppInstall-Package=effectv-wonder
+X-AppInstall-Section=main
+Icon=em
+Type=Application
+Categories=Varios;
