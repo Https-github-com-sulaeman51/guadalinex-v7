@@ -294,7 +294,7 @@ ntfs-3g
 ntfsprogs
 nvidia-common
 onboard
-openoffice.org-base-core
+#openoffice.org-base-core
 openoffice.org-calc
 openoffice.org-common
 openoffice.org-core
