@@ -386,7 +386,7 @@ toshset
 transmission-gtk
 ttf-dejavu-core
 ttf-freefont
-ubuntu-docs
+#ubuntu-docs
 ubuntu-sounds
 unzip
 update-motd
