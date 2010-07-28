@@ -34,5 +34,15 @@
 * nanny-data
   * http://forja.guadalinex.org/webs/nanny/blacklists/
 
+* sane-backends
+  * libsane_1.0.20-13ubuntu3~cgateam0_i386.deb
+  * libsane-dbg_1.0.20-13ubuntu3~cgateam0_i386.deb
+  * libsane-dev_1.0.20-13ubuntu3~cgateam0_i386.deb
+  * sane-utils_1.0.20-13ubuntu3~cgateam0_i386.deb
+    * https://launchpad.net/~cgateam/+archive/ppa
+
 * effectv-wonder
   * http://forja.guadalinex.org/repositorio/projects/effectv-wonder/
+
+* meiga
+  * https://launchpad.net/~eocanha/+archive/meiga
