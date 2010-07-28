@@ -39,6 +39,9 @@ numptyphysics
 openoffice.org-base
 openoffice.org-base-core
 pdfmod
+rhythmbox
+rhythmbox-plugin-cdrecorder
+rhythmbox-plugins
 smartmontools
 tcpdump
 telnet
