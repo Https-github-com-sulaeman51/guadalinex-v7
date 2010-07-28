@@ -350,9 +350,9 @@ radeontool
 readahead
 reiserfsprogs
 rhino
-rhythmbox
-rhythmbox-plugin-cdrecorder
-rhythmbox-plugins
+#rhythmbox
+#rhythmbox-plugin-cdrecorder
+#rhythmbox-plugins
 rss-glx
 rtkit
 runurl
