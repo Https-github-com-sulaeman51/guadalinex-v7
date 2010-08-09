@@ -1,0 +1,39 @@
+#!/bin/sh
+
+set -e
+
+JAVA_HOME=/usr/lib/jvm/java-6-openjdk
+KEYTOOL=$JAVA_HOME/bin/keytool
+KEYSTORE=/etc/ssl/certs/java/cacerts
+
+case "$1" in
+    configure)
+        if [ -z "$2" ]; then
+	    # on first install, remove certs untrusted by the user/admininstrator
+	    cp /usr/share/ca-certificates-java/cacerts $KEYSTORE
+	    for crt in $(sed -ne 's/^!//p' /etc/ca-certificates.conf); do
+		alias=$(basename $crt .crt | tr A-Z a-z | tr -cs a-z0-9 _)
+		alias=${alias%*_}
+		if $KEYTOOL -delete --keystore $KEYSTORE \
+		    -storepass 'changeit' -alias "$alias" >/dev/null
+		then
+		    echo "Removed untrusted certificate $crt"
+		fi
+	    done
+	fi
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0
+
+
