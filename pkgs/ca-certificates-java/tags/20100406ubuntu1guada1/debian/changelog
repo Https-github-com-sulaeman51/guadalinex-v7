@@ -1,6 +1,6 @@
 ca-certificates-java (20100406ubuntu1guada1) lucid; urgency=low
 
-  * Changed depends 
+  * Changed depends   
 
  -- David Amián Valle <amialinux@gmail.com>  Wed, 28 Jul 2010 11:47:13 +0200
 
