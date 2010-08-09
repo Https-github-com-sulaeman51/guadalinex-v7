@@ -1,3 +1,17 @@
+ca-certificates-java (20091021) unstable; urgency=low
+
+  * Clarify output for keytool errors (although it shouldnn't be
+    necessary anymore). Closes: #540490.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 21 Oct 2009 22:00:53 +0200
+
+ca-certificates-java (20090928) karmic; urgency=low
+
+  * Rebuild with OpenJDK supporting PKCS11 cryptography, rebuild with
+    ca-certificates 20090814.
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 28 Sep 2009 16:47:09 +0200
+
 ca-certificates-java (20090629) unstable; urgency=low
 
   * debian/rules, debian/postinst, debian/jks-keystore.hook: Filter out
