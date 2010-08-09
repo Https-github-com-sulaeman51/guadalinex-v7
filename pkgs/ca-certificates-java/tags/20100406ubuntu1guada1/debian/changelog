@@ -1,3 +1,9 @@
+ca-certificates-java (20100406ubuntu1guada1) lucid; urgency=low
+
+  * Changed depends 
+
+ -- David Amián Valle <amialinux@gmail.com>  Wed, 28 Jul 2010 11:47:13 +0200
+
 ca-certificates-java (20100406ubuntu1) lucid; urgency=low
 
   * Make the installation and import of certificates more robust,
