@@ -1,0 +1,6 @@
+ca-certificates-java (20080514~ubuntu1) intrepid; urgency=low
+
+  * Initial release.
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 02 Jun 2008 14:52:46 +0000
+
