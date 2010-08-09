@@ -232,7 +232,7 @@ libio-compress-base-perl
 libio-compress-zlib-perl
 libmailtools-perl
 libmagickcore2-extra
-libmono-i18n-west2.0-cil
+#libmono-i18n-west2.0-cil
 libnss-mdns
 libotf0
 libotr2
