@@ -17,9 +17,18 @@ build-stamp:
 	  alias=$$(basename $$crt .crt | tr A-Z a-z | tr -cs a-z0-9 _); \
 	  alias=$${alias%*_}; \
 	  echo "IMPORT: $$crt, alias=$$alias"; \
-	  keytool -importcert -trustcacerts -keystore build/cacerts \
+	  if keytool -importcert -trustcacerts -keystore build/cacerts \
 	    -storepass 'changeit' \
-	    -alias "$$alias" -file "/usr/share/ca-certificates/$$crt"; \
+	    -alias "$$alias" -file "/usr/share/ca-certificates/$$crt" > keytool.log 2>&1; \
+	  then \
+	    cat keytool.log; \
+	  elif grep -q 'Signature not available' keytool.log; then \
+	    echo "IGNORED IMPORT: $$crt, alias=$$alias"; \
+	    cat keytool.log; \
+	  else \
+	    cat keytool.log; \
+	    false; \
+	  fi; \
 	done
 	touch $@
 
@@ -28,6 +37,7 @@ clean:
 	dh_testroot
 	rm -f build-stamp
 	rm -rf build
+	rm -f keytool.log
 	dh_clean 
 
 install: build

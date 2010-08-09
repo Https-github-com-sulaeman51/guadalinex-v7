@@ -1,3 +1,13 @@
+ca-certificates-java (20090629) unstable; urgency=low
+
+  * debian/rules, debian/postinst, debian/jks-keystore.hook: Filter out
+    SHA384withECDSA certificates since keytool won't support them.
+    LP: #392104, closes: #534520.
+  * Fix typo in hook. Closes: #534533.
+  * Use java6-runtime-headless as alternative dependency. Closes: #512293.
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 29 Jun 2009 11:27:59 +0200
+
 ca-certificates-java (20081028) unstable; urgency=low
 
   * Ignore LANG and LC_ALL setting when running keytool. LP: #289934.
