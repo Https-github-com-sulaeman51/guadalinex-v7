@@ -22,6 +22,13 @@ build-stamp:
 	    -alias "$$alias" -file "/usr/share/ca-certificates/$$crt" > keytool.log 2>&1; \
 	  then \
 	    cat keytool.log; \
+	  elif keytool -importcert -trustcacerts -keystore build/cacerts \
+	    -providerClass sun.security.pkcs11.SunPKCS11 \
+	    -providerArg '$${java.home}/lib/security/nss.cfg' \
+	    -storepass 'changeit' \
+	    -alias "$$alias" -file "/usr/share/ca-certificates/$$crt" > keytool.log 2>&1; \
+	  then \
+	    cat keytool.log; \
 	  elif grep -q 'Signature not available' keytool.log; then \
 	    echo "IGNORED IMPORT: $$crt, alias=$$alias"; \
 	    cat keytool.log; \
