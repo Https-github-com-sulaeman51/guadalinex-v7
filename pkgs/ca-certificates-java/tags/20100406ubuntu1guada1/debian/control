@@ -1,5 +1,5 @@
 Source: ca-certificates-java
-Section: contrib/misc
+Section: misc
 Priority: optional
 Maintainer: OpenJDK Team <openjdk@lists.launchpad.net>
 Uploaders: Matthias Klose <doko@ubuntu.com>
