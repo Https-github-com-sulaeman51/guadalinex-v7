@@ -194,7 +194,7 @@ libavcodec-unstripped-52
 libavutil-unstripped-49
 libbabl-0.0-0
 libbluetooth3
-libc6-dev
+#libc6-dev
 libcairo-perl
 libcanberra-gtk-module
 libclutter-1.0-0
