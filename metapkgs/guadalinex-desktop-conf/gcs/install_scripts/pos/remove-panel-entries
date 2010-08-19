@@ -4,4 +4,4 @@ then
 fi
 
 cp /usr/share/guadalinex-desktop-conf/05_panel-default-setup.entries /usr/share/gconf/defaults/05_panel-default-setup.entries
-dpkg-divert --package  guadalinex-desktop-conf --quiet --add /usr/share/gconf/defaults/05_panel-default-setup.entries --divert /usr/share/guadalinex-desktop-conf/05_panel-default-setup.entries.distrib
+dpkg-divert --package  guadalinex-desktop-conf --quiet --add /usr/share/gconf/defaults/05_panel-default-setup.entries --local --divert /usr/share/guadalinex-desktop-conf/05_panel-default-setup.entries.distrib
