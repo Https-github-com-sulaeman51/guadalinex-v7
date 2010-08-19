@@ -1,0 +1,7 @@
+if [ -f /usr/share/gconf/defaults/05_panel-default-setup.entries.distrib ]
+then
+    mv /usr/share/gconf/defaults/05_panel-default-setup.entries.distrib /usr/share/gconf/defaults/05_panel-default-setup.entries
+
+fi
+
+dpkg-divert --remove /usr/share/gconf/defaults/05_panel-default-setup.entries

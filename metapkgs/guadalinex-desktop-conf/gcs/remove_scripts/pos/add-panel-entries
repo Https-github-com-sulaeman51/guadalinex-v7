@@ -1,7 +1,0 @@
-if [ -f /usr/share/gconf/defaults/05_panel-default-setup.entries ]
-then
-   rm /usr/share/gconf/defaults/05_panel-default-setup.entries
-
-fi
-
-
