@@ -1,6 +1,7 @@
-rm /usr/share/gconf/defaults/05_panel-default-setup.entries
-
-if [ -f /usr/share/guadalinex-desktop-conf/05_panel-default-setup.entries.distrib ]
+if [ -f /usr/share/gconf/defaults/05_panel-default-setup.entries ]
 then
-	mv /usr/share/guadalinex-desktop-conf/05_panel-default-setup.entries.distrib /usr/share/gconf/defaults/05_panel-default-setup.entries
+   rm /usr/share/gconf/defaults/05_panel-default-setup.entries
+
 fi
+
+
