@@ -1,0 +1,10 @@
+dpkg-divert --truename /usr/share/gconf/defaults/05_panel-default-setup.entries | grep -q distrib
+if [ $? -eq 0 ]
+then
+        dpkg-divert --remove /usr/share/gconf/defaults/05_panel-default-setup.entries
+fi
+
+if [ -f /usr/share/gconf/defaults/05_panel-default-setup.entries.distrib ]
+then
+    mv /usr/share/gconf/defaults/05_panel-default-setup.entries.distrib /usr/share/gconf/defaults/05_panel-default-setup.entries
+fi
