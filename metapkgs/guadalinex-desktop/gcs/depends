@@ -37,7 +37,6 @@ bluez-utils
 brasero
 brltty
 brltty-x11
-byzanz
 ca-certificates
 ca-certificates-java
 cairo-dock
@@ -54,7 +53,6 @@ cupsys-driver-gutenprint
 dangerous
 dasher
 dcraw
-deskbar-applet
 desktopcouch
 desktop-file-utils
 diagnostic-report
@@ -79,15 +77,11 @@ fglrx-modaliases
 file-roller
 firefox
 firefox-gnome-support
-firestarter
 foo2zjs
 foomatic-db
 foomatic-db-engine
 foomatic-db-hpijs
 foomatic-filters
-fortune-mod
-fortunes-es
-fortunes-es-off
 friendly-recovery
 gcalctool
 gcc
@@ -99,7 +93,6 @@ gedit
 gedit-plugin-tloleo
 genisoimage
 genteguada-client
-ggzcore-bin
 #gnochm - python-gtkhtml2 depend problem
 gnome-about
 gnome-accessibility-themes
@@ -113,11 +106,9 @@ gnome-icon-theme
 gnome-mag
 gnome-media
 gnome-menus
-gnome-netstatus-applet
 gnome-nettool
 gnome-orca
 gnome-panel
-gnome-pilot-conduits
 gnome-power-manager
 gnome-screensaver
 gnome-session
@@ -134,8 +125,6 @@ gnome-utils
 gnupg-agent
 gpaint
 grubaker2
-gs
-gs-esp
 gsam
 gstreamer0.10-alsa
 gstreamer0.10-ffmpeg
@@ -286,7 +275,6 @@ network-manager
 network-manager-gnome
 network-manager-pptp
 network-manager-pptp-gnome
-network-manager-vpnc
 notification-daemon
 ntfs-3g
 ntfsprogs
@@ -322,7 +310,6 @@ plymouth-x11
 pm-utils-powersave-policy
 pnm2ppa
 policykit-desktop-privileges
-powermanagement-interface
 powernowd
 pptp-linux
 protobuf-compiler
@@ -347,11 +334,9 @@ python-serial
 radeontool
 readahead
 reiserfsprogs
-rhino
 #rhythmbox
 #rhythmbox-plugin-cdrecorder
 #rhythmbox-plugins
-rss-glx
 rtkit
 runurl
 sabayon
@@ -367,7 +352,6 @@ simplemag
 simple-scan
 smartdimmer
 smbclient
-smbfs
 splix
 ssh-askpass-gnome
 strace
@@ -388,7 +372,6 @@ unzip
 update-motd
 update-notifier
 usb-creator-gtk
-vcdimager
 vlc
 vlc-plugin-pulse
 vlc-plugin-sdl
