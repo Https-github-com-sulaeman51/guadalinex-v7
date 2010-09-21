@@ -5,9 +5,6 @@ acpi-support
 alacarte
 alsa-base
 alsa-utils
-amigu
-amule
-amule-utils
 anacron
 and
 apmd
@@ -22,9 +19,6 @@ apturl
 apt-xapian-index
 aspell-en
 aspell-es
-avahi-autoipd
-avahi-daemon
-avahi-utils
 bc
 binfmt-support
 bluetooth
@@ -39,21 +33,17 @@ brltty
 brltty-x11
 ca-certificates
 ca-certificates-java
-cairo-dock
 cdparanoia
 cdrecord
 cli-common
 command-not-found
 consolekit
-couchdb-bin
 cupsys
 cupsys-bsd
 cupsys-client
 cupsys-driver-gutenprint
 dangerous
-dasher
 dcraw
-desktopcouch
 desktop-file-utils
 diagnostic-report
 discover1
@@ -65,14 +55,11 @@ esound-clients
 espeak
 evince
 evolution
-evolution-couchdb
 evolution-exchange
 evolution-indicator
 evolution-plugins
 evolution-webcal
 extras-installer
-festvox-palpc16k
-festvox-sflpc16k
 fglrx-modaliases
 file-roller
 firefox
@@ -84,13 +71,11 @@ foomatic-db-hpijs
 foomatic-filters
 friendly-recovery
 gcalctool
-gcc
 gconf-editor
 gdebi
 gdm
 gdm-guest-session
 gedit
-gedit-plugin-tloleo
 genisoimage
 genteguada-client
 #gnochm - python-gtkhtml2 depend problem
@@ -130,7 +115,6 @@ gstreamer0.10-alsa
 gstreamer0.10-ffmpeg
 gstreamer0.10-gnomevfs
 gstreamer0.10-gnonlin
-gstreamer0.10-plugins-bad
 gstreamer0.10-plugins-bad-multiverse
 gstreamer0.10-plugins-base-apps
 gstreamer0.10-plugins-good
@@ -156,9 +140,7 @@ hermeshardware-guada
 hermeshardware
 hispalabras
 hpijs
-hplip
 hplip-cups
-hplip-data
 im-switch
 indicator-applet
 indicator-applet-session
@@ -220,8 +202,6 @@ libio-compress-base-perl
 libio-compress-zlib-perl
 libmailtools-perl
 libmagickcore2-extra
-libmono-i18n-west2.0-cil
-libnss-mdns
 libotf0
 libotr2
 libpam0g
@@ -361,8 +341,6 @@ system-config-printer-udev
 tangerine-icon-theme
 tango-icon-theme
 tango-icon-theme-common
-tesseract-ocr
-tesseract-ocr-spa
 toshset
 transmission-gtk
 ttf-dejavu-core
