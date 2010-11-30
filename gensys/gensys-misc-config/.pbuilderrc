@@ -6,10 +6,10 @@ BUILDRESULT=../
 APTCACHE=/var/gensys/cowbuilder/aptcache/
 HOOKDIR=/var/gensys/cowbuilder/hooks/
 #MIRRORSITE=http://localhost/ubuntu
-MIRRORSITE=http://es.archive.ubuntu.com/ubuntu
+MIRRORSITE=http://v7.guadalinex.org/ubuntu
 DISTRIBUTION=lucid
-DEBBUILDOPTS="-I.bzr"
+DEBBUILDOPTS="-I.bzr -nc"
 DEBOOTSTRAP="debootstrap"
 unset DEBOOTSTRAPOPTS
 PBUILDERSATISFYDEPENDSCMD="/usr/lib/pbuilder/pbuilder-satisfydepends-gdebi"
-PDEBUILD_PBUILDER=cowbuilder
+PDEBUILD_PBUILDER=pbuilder

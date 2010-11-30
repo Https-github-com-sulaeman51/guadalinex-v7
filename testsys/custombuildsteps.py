@@ -87,7 +87,7 @@ class SetSVNRev(ShellCommand):
     In gcs packages, it sets the svn-revision as package version/revision.
     """
     name = "SetSVNRev"
-    command = ["sed", "-i", WithProperties("s/^version\:.*/version\: v6r%s/g", "got_revision"), "gcs/info"]
+    command = ["sed", "-i", WithProperties("s/^version\:.*/version\: v7r%s/g", "got_revision"), "gcs/info"]
     description = [name]
 
     def __init__(self, **kwargs):
