@@ -1,3 +1,9 @@
+nautilus-md5sum (0.4.1-0guada2) lucid; urgency=low
+
+  * Fixed restart user sesion
+
+ -- Álvaro Pinel Bueno <alvaropinel@gmail.com>  Wed, 1 Dec 2010 11:06:31 +0200
+
 nautilus-md5sum (0.4.1-0guada1) lucid; urgency=low
 
   * New upstream version
