@@ -236,7 +236,7 @@ metacity
 min12xxw
 mlocate
 mobile-broadband-provider-info
-modemmanager
+#modemmanager
 mount-systray
 mousetweaks
 mozilla-plugin-vlc
@@ -351,6 +351,7 @@ usb-creator-gtk
 vlc
 vlc-plugin-pulse
 vlc-plugin-sdl
+wader-core
 watermain
 wvdial
 xbitmaps
