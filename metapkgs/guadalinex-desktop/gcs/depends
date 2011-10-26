@@ -236,7 +236,7 @@ metacity
 min12xxw
 mlocate
 mobile-broadband-provider-info
-modemmanager
+#modemmanager
 mount-systray
 mousetweaks
 mozilla-plugin-vlc
